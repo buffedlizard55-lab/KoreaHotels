@@ -1,72 +1,51 @@
-# Daejeon vs Cheonan Comparison (Third-City Choice)
+# Daejeon vs. Cheonan — Verified Alternative-City Comparison
 
-**Context**: Both cities sit on the Seoul–Busan KTX corridor and make excellent 6-night third stops when flying in/out of Incheon. Here's a detailed head-to-head comparison based on **hotel cost**, **transport efficiency**, **convenience**, and **overall value**.
+Both cities remain optional alternatives to the planned Gyeongju leg. The hotel audit confirms **seven distinct properties in each city**, but it also corrected several earlier station-distance claims.
 
-## Quick Verdict
-**Cheonan wins for most travelers** (especially for pure cost + rail efficiency).
-**Daejeon** is better if you want a larger city with more dining/shopping options and slightly more "big-city" feel.
+## Quick decision
 
-## Detailed Comparison
+- **Cheonan / Asan:** shorter Seoul leg and generally lower-cost, but Cheonan-Asan KTX is separated from the central hotel districts.
+- **Daejeon:** larger city with more dining, museums, and Yuseong hot springs; Daejeon KTX is convenient only for the central/Jungangno properties.
 
-### 1. Transportation Cost & Efficiency
-| Metric                        | Cheonan                          | Daejeon                          | Winner     |
-|-------------------------------|----------------------------------|----------------------------------|------------|
-| Seoul → City (KTX time/price) | 30–50 min / $10–25              | 50–75 min / $20–35              | **Cheonan** |
-| City → Busan (KTX time/price) | 1h40m–2h / $20–35               | 1h30m–2h / $25–40               | Tie       |
-| Total Seoul–City–Busan round-trip | ~$60–120                       | ~$90–150                        | **Cheonan** |
-| Airport (Incheon) access      | Excellent (KTX + AREX)          | Good (KTX + AREX)               | **Cheonan** |
-| Train frequency               | Very high                       | High                            | Cheonan   |
+Do not choose either city solely because a hotel card previously said “near KTX.” The updated cards now distinguish downtown, metro, KTX, convention, and resort areas.
 
-**Key insight**: Cheonan is noticeably cheaper and faster on the Seoul leg. Both are direct on the Gyeongbu KTX line.
+## Seven verified Cheonan / Asan properties
 
-### 2. Hotel Cost (3–4 Star Mid-Range, per night USD)
-| Category          | Cheonan                  | Daejeon                  | Winner      |
-|-------------------|--------------------------|--------------------------|-------------|
-| Budget 3★ entry   | $55–75                  | $48–70                  | Daejeon    |
-| Solid 3–4★ mid    | $65–95                  | $60–90                  | **Cheonan** (better quality) |
-| 4★ resort-style   | $80–120                 | $75–110                 | Tie        |
-| Average 6-night total | **$360–660**            | **$330–630**            | **Daejeon** (slight edge) |
+1. Shilla Stay Cheonan
+2. Ramada Encore by Wyndham CheonAn
+3. ON City Hotel
+4. SONO Belle Cheonan
+5. SureStay Plus Hotel by Best Western Asan
+6. Brown Dot Hotel Cheonan Dongnam (Cheonan Station)
+7. The Mains Hotel
 
-**Cheonan hotels** (from `hotels.json` additions):
-- **Shilla Stay Cheonan** — $65–95 (best overall reliability)
-- **Ramada Encore by Wyndham** — $60–90 (great breakfast)
-- **ON City Hotel** — $55–80 (strong value)
-- **Sono Belle Cheonan** — $80–120 (resort feel)
-- **Best Western Asan Hotel** — $70–100 (closest to KTX station)
+See [cheonan.md](cheonan.md) for exact addresses and rail caveats.
 
-**Daejeon hotels** (top researched options):
-- **Toyoko Inn Daejeon Government Complex** — $48–70 (excellent budget chain, free breakfast often)
-- **Ramada by Wyndham Daejeon** — $65–95 (solid mid-range)
-- **LOTTE City Hotel Daejeon** — $80–110 (premium feel, great location near convention center)
-- **Hotel Onoma Daejeon (Autograph Collection)** — $100–140 (luxury tier)
-- **Benikea Daelim Hotel** — $45–65 (very affordable near station)
-- **Hotel Stendhal** — $70–95 (popular near hot springs/university area)
+## Seven verified Daejeon properties
 
-### 3. Convenience & Amenities
-| Factor                    | Cheonan                              | Daejeon                              | Winner     |
-|---------------------------|--------------------------------------|--------------------------------------|------------|
-| Station proximity         | Excellent (multiple station options) | Excellent (Daejeon Station central) | Tie       |
-| City size & vibe          | Mid-size, relaxed, modern            | Larger "science city", more urban    | Daejeon (if you want more options) |
-| Dining & nightlife        | Good local food, shopping            | Excellent (Sungsimdang bakery famous, many restaurants) | **Daejeon** |
-| Things to do              | Independence Hall, parks, easy Seoul day trips | Science Museum, hot springs (Yuseong), parks, malls | **Daejeon** |
-| Airport convenience       | Slightly better                      | Very good                            | Cheonan   |
+| Hotel | Verified district | Transit reality | Identity source |
+|---|---|---|---|
+| **Toyoko Inn Daejeon Government Complex** | Dunsan / Government Complex | 10 min walk to Government Complex metro, not Daejeon KTX | [Official Toyoko Inn](https://www.toyoko-inn.com/eng/search/detail/00234/) |
+| **Ramada by Wyndham Daejeon** | Yuseong | Hot-springs/metro district, not central KTX | [Official Wyndham](https://www.wyndhamhotels.com/ramada/daejeon-south-korea/ramada-daejeon/overview) |
+| **LOTTE City Hotel Daejeon** | Convention / Expo area | Taxi/bus to metro or KTX | [Official LOTTE](https://www.lottehotel.com/prerendered/daejeon-city/en/index.html) |
+| **BENIKEA Hotel Daelim** | Jungangno / central | Walkable metro; roughly 10–15 min to Daejeon KTX | [VISITKOREA](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=85393) |
+| **Le Stendal Hotel** | Yuseong Hot Springs | Yuseong local transit; not KTX-adjacent | [Official property site](http://stendhalhotel.co.kr/) |
+| **Hotel Interciti** | Yuseong Hot Springs | About 10 km from Daejeon KTX | [VISITKOREA](https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=86274) |
+| **Aank Air Hotel Daejeon Station** | Jung-gu / station area | About 9 min walk to Daejeon Station | [Trusted exact-property listing](https://www.booking.com/hotel/kr/aank-daejeon-station.html) |
 
-### 4. Overall Score (out of 10)
-| Category                  | Cheonan | Daejeon | Notes |
-|---------------------------|---------|---------|-------|
-| **Cost efficiency**       | 9.5     | 8.5     | Cheonan edges on transport + quality hotels |
-| **Transport convenience** | 9.5     | 8.5     | Cheonan faster/cheaper to Seoul |
-| **Hotel quality/value**   | 9.0     | 8.5     | Both excellent; Cheonan Shilla Stay is standout |
-| **Things to do**          | 7.5     | 8.5     | Daejeon wins for variety |
-| **Airport flow**          | 9.0     | 8.0     | Cheonan slightly smoother |
-| **Overall recommendation**| **9.2** | **8.4** | **Cheonan is the smarter pick for most** |
+## Important room caveat
 
-## Final Recommendation
-- **Choose Cheonan** if you want **maximum savings + rail efficiency** and a relaxed base (recommended).
-- **Choose Daejeon** if you prefer a bigger city with more restaurants, hot springs, and urban energy.
+The alternative-city records are deliberately conservative after the audit. They remain useful hotels, but none currently receives a green core-needs badge because the identity sources do not establish both:
 
-Both are far more cost-effective than extending Seoul or using Gyeongju as the third stop.
+1. a single queen/king-width bed; and
+2. practical walkable rail access.
 
-**Next step**: Want me to add Daejeon hotels to `hotels.json` as well, or update the itinerary JSON with Cheonan (or Daejeon) as the third leg?
+That is not a judgment on hotel quality. It prevents a generic “Double” room or a city-level location estimate from being mistaken for the exact requirement.
 
-**Update (Aug 2026)**: Both Cheonan (5 hotels) and Daejeon (6 hotels) are now fully added to `data/hotels.json` in the same structured format as Seoul/Busan/Gyeongju. The planner (`index.html`) can now use these hotels for budget calculations and day planning. `data/itinerary.json` also includes both cities as `alternatives`.
+## Recommended use
+
+- Choose **Cheonan** for the shorter Seoul connection and a quieter, lower-cost alternative.
+- Choose **Daejeon** for a larger urban stop, science attractions, bakeries, and hot springs.
+- Keep **Gyeongju** if heritage sites remain the reason for the middle leg.
+
+All 14 alternative-city records now have unique canonical names and official/government/trusted identity sources. See [verification-audit.md](verification-audit.md) for the complete register.

@@ -1,45 +1,65 @@
-# Seoul — Hotels & Booking Guide
+# Seoul — Expanded Hotels & Booking Guide
 
-**Recommended:** 8 nights (Oct 31 – Nov 8) · areas: Myeongdong (central/shopping),
-Insadong (historic/arts), Yeouido (river/financial).
+**Planned stay:** 8 nights (Oct 31 – Nov 8)
+**Coverage:** **20 hotels** across Myeongdong, City Hall, Gwanghwamun, Insadong, Jongno, Namdaemun, and Yeouido.
 
 ## Arrival-night exception — 21:00 ICN arrival
 
-The first booked night has a separate requirement: choose a hotel with a **currently listed 24-hour staffed reception**, then notify it that a flight delay could push check-in past midnight.
+For the first booked night, use only the five hotels in the site's **Arrival night** section. They have a current 24-hour reception/front-desk signal and a direct evidence link. The rest of this page is not automatically late-check-in-safe.
 
-- **Recommended:** **L7 MYEONGDONG by LOTTE — Deluxe Double**. The planner's room is one queen bed with a private bathroom, and a [current property listing](https://www.booking.com/hotel/kr/l7-myeongdong-by-lotte.en-gb.html) shows a 24-hour front desk.
-- **Value alternative:** **Nine Tree by Parnas Seoul Myeongdong 1 — Deluxe** (not its smaller Standard Double). Its [property listing](https://www.booking.com/hotel/kr/nine-tree.html) also shows a 24-hour front desk.
-- **Delay-proof fallback:** **Grand Hyatt Incheon** only if you would rather sleep near ICN and transfer into Seoul the next morning. It is not a central Seoul hotel.
+### Recommended first night: Somerset Palace Seoul
 
-Book the calendar date on which the flight lands; a 24-hour desk is **not** permission to leave a reservation unannounced after midnight. See [arrival-night.md](arrival-night.md) for sources, trade-offs, and a copyable message for the hotel.
+- The [official Somerset / Ascott property data](https://www.discoverasr.com/en/somerset-serviced-residence/korea-south/somerset-palace-seoul/download-brochure) lists **24-hour reception**.
+- **Studio Executive** has one queen bed, a private bathroom, and an in-room washer/dryer.
+- Anguk Station is about three minutes away; Gwanghwamun and Jonggak are about five minutes away.
 
-## Where to stay
-- **Myeongdong** — best all-round tourist base: shopping, street food, metro access, airport-limousine stops.
-- **Insadong / Jongno** — historic heart: Gyeongbokgung, Bukchon Hanok, Jogyesa, Ikseon-dong.
-- **Yeouido** — calmer, riverfront, The Hyundai Seoul mall (premium stays).
+Other screened options are L7 MYEONGDONG, ibis Ambassador Seoul Myeongdong, Nine Tree Myeongdong 1, and the Grand Hyatt Incheon airport fallback. Book **October 31, 2026**, send the flight number, and obtain written confirmation that the room will be held after midnight. See [arrival-night.md](arrival-night.md).
 
-## Best-value picks (official links)
+## Neighborhood decision
 
-| Hotel | Tier | Room types (per night, est.) | Check-in / out | Official |
-|-------|------|------------------------------|----------------|----------|
-| Ibis Styles Ambassador Myeongdong | Budget | Standard $90–110 · Superior $110–130 | 15:00 / 12:00 | [all.accor.com](https://all.accor.com/hotel/1976/index.en.shtml) |
-| Nine Tree by Parnas Myeongdong 1 | Mid | Standard $92–105 · Double $105–118 · Deluxe $120–138 | 15:00 / 11:00 | [ninetreehotel.com](https://www.ninetreehotel.com/eng/myeongdong1/main.do) |
-| Ibis Ambassador Insadong | Mid | Standard $110–130 · Superior $130–155 | 15:00 / 12:00 | [all.accor.com](https://all.accor.com/hotel/1888/index.en.shtml) |
-| L7 Myeongdong by Lotte | Mid | Deluxe $150–185 · Deluxe Twin $160–195 · Corner Deluxe $185–210 | 15:00 / 11:00 | [lottehotel.com](https://www.lottehotel.com/myeongdong-l7/en/main.html) |
-| Fairmont Ambassador Seoul | Premium | Deluxe King $300–360 · Corner Deluxe $360–430 | 15:00 / 12:00 | [fairmont.com](https://www.fairmont.com/seoul/) |
-| Four Seasons Hotel Seoul | Premium | Deluxe $420–500 · Premier $500–640 | 15:00 / 12:00 | [fourseasons.com](https://www.fourseasons.com/seoul/) |
+- **Myeongdong / Euljiro / City Hall** — easiest all-round base for shopping, airport buses, multiple subway lines, Namdaemun, and central sightseeing.
+- **Gwanghwamun / Insadong / Jongno** — best for Gyeongbokgung, Bukchon, Changdeokgung, museums, traditional streets, and evening walks.
+- **Yeouido** — polished Han River / mall base, but less convenient for the palace-heavy itinerary.
 
-## Loyalty & deals that actually save money
-- **LOTTE Members (L7):** free sign-up → member-only rates, reward points, periodic
-  *Flash Deals* and packages (e.g. N Seoul Tower tickets). Book on lottehotel.com.
-- **Accor ALL (Ibis Styles / Ibis Ambassador / Fairmont):** earn points + member rates;
-  watch *Private Sales* flash offers (sometimes up to 50% off).
-- **Four Seasons:** Best-Rate Guarantee when booking direct; seasonal spa/dining packages.
-- **Tip:** direct booking usually beats OTAs once loyalty rates are applied — always
-  cross-check one OTA before confirming.
+## All 20 Seoul options
 
-## Rules to know
-- Standard Seoul check-in 15:00, check-out 11:00–12:00 (varies by hotel — see table).
-- Early check-in / late check-out are usually available at an extra charge, subject to availability.
-- Myeongdong is the most convenient base if you want airport-limousine buses and the
-  Seoul City Tour buses.
+Planning prices are estimates for a room for two in autumn 2026, not live quotes. Every entry contains a dated official or trusted verification note and link in the website card.
+
+| Hotel | Area | Estimate | Room to compare | Source status |
+|---|---|---:|---|---|
+| [Somerset Palace Seoul](https://www.discoverasr.com/en/somerset-serviced-residence/korea-south/somerset-palace-seoul) | Gwanghwamun / Insadong | $140–220 | Studio Executive — queen | **Official Ascott checked** |
+| [L7 MYEONGDONG by LOTTE](https://www.lottehotel.com/myeongdong-l7/en/main.html) | Myeongdong | $150–210 | Deluxe Double — queen | **Source checked** |
+| [Nine Tree by Parnas Seoul Myeongdong 1](https://www.ninetreehotels.com/nth1/?lang=en) | Myeongdong | $100–145 | Deluxe — queen | **Source checked** |
+| [ibis Ambassador Seoul Myeongdong](https://all.accor.com/hotel/6317/index.en.shtml) | Myeongdong | $100–150 | Standard Double | **Accor + VISITKOREA checked** |
+| [Moxy Seoul, Myeongdong](https://www.marriott.com/en-us/hotels/selmx-moxy-seoul-myeongdong/overview/) | Myeongdong | $150–230 | King Guest Room | **Marriott checked** |
+| [Le Méridien Seoul, Myeongdong](https://www.marriott.com/en-us/hotels/selmm-le-meridien-seoul-myeongdong/overview/) | Myeongdong | $300–450 | Deluxe King | **Marriott checked** |
+| [Aloft Seoul Myeongdong](https://www.marriott.com/en-us/hotels/selmo-aloft-seoul-myeongdong/overview/) | Myeongdong | $150–230 | Deluxe King | **Marriott checked** |
+| [Courtyard by Marriott Seoul Myeongdong](https://www.marriott.com/en-us/hotels/selsn-courtyard-seoul-myeongdong/overview/) | Namdaemun / Myeongdong | $170–260 | Deluxe King | **Marriott checked** |
+| [Four Points by Sheraton Josun, Seoul Myeongdong](https://www.marriott.com/en-us/hotels/selfd-four-points-josun-seoul-myeongdong/overview/) | Myeongdong / Euljiro | $120–190 | Deluxe King | **Marriott checked** |
+| [Nine Tree by Parnas Seoul Myeongdong 2](https://www.ninetreehotels.com/nth2/?lang=en) | Myeongdong / Euljiro | $100–170 | Hollywood Double | **Parnas checked** |
+| [Hotel Skypark Myeongdong 3](https://www.skyparkhotel.com) | Myeongdong | $95–135 | Standard Double | **Source checked** |
+| [Ibis Styles Ambassador Seoul Myeongdong](https://all.accor.com/hotel/1976/index.en.shtml) | Myeongdong | $90–130 | Standard Double | **Source checked** |
+| [LOTTE HOTEL SEOUL](https://www.lottehotel.com/seoul-hotel/en/rooms) | Myeongdong / City Hall | $240–420 | Main Tower Deluxe Double | **LOTTE checked** |
+| [The Westin Josun Seoul](https://www.marriott.com/en-us/hotels/selwi-the-westin-josun-seoul/overview/) | City Hall / Myeongdong | $280–450 | Deluxe King | **Marriott checked** |
+| [L'Escape, a Luxury Collection Hotel](https://www.marriott.com/en-us/hotels/sellm-lescape-a-luxury-collection-hotel-seoul-myeongdong/overview/) | Myeongdong | $280–420 | Deluxe King | **Source checked** |
+| [Nine Tree by Parnas Seoul Insadong](https://www.ninetreehotels.com/nth3/) | Insadong / Gwanghwamun | $120–190 | Standard Double / queen listing | **Parnas checked** |
+| [Shilla Stay Gwanghwamun Myeongdong](https://www.shillastay.com/gwanghwamun/accommodation/viewAccmo.do?contId=ST) | Gwanghwamun / Jongno | $110–180 | Hollywood Double / king listing | **Shilla checked** |
+| [Ibis Ambassador Insadong](https://all.accor.com/hotel/1888/index.en.shtml) | Insadong / Jongno | $110–155 | Standard Double | **Source checked** |
+| [Four Seasons Hotel Seoul](https://www.fourseasons.com/seoul/) | Gwanghwamun | $420–640 | Deluxe King | **Source checked** |
+| [Fairmont Ambassador Seoul](https://www.fairmont.com/seoul/) | Yeouido | $300–430 | Deluxe King | **Source checked** |
+
+## Best fits by use
+
+- **Safest first-night evidence:** Somerset Palace Seoul — Studio Executive.
+- **Best Myeongdong value with queen room:** Nine Tree Myeongdong 1 — Deluxe.
+- **Best king-room value near an interchange:** Four Points Myeongdong — Deluxe King.
+- **Best palace-area long stay:** Somerset Palace for its washer/dryer, or Nine Tree Insadong for coin laundry.
+- **Best full-service classic luxury:** LOTTE HOTEL SEOUL or The Westin Josun Seoul.
+- **Largest luxury splurge near the palaces:** Four Seasons Hotel Seoul.
+
+## Booking checks
+
+1. Select the exact named room; “double,” “Hollywood Double,” queen, and king are not interchangeable.
+2. For night one, ignore normal check-in hours alone and use the separate evidence-backed arrival list.
+3. Recheck the live total, taxes, cancellation deadline, and breakfast inclusion on the official site.
+4. For eight nights, compare a refundable rate against advance purchase and check laundry costs.

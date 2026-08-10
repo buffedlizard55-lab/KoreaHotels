@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="A simple, researched hotel decision guide for a South Korea trip, with a verified late-arrival shortlist for the first night in Seoul.">
+  <meta name="description" content="An expanded, source-checked hotel planner for Seoul, Gyeongju, and Busan, with an officially verified late-arrival shortlist for the first night.">
   <title>South Korea Hotel Shortlist</title>
   <style>
     :root {
@@ -436,7 +436,7 @@
       text-align: center;
     }
 
-    .notes-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .notes-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
     .note-card {
       padding: 21px;
       border: 1px solid var(--line);
@@ -471,7 +471,7 @@
     footer p { max-width: 920px; margin-bottom: 7px; }
 
     @media (max-width: 930px) {
-      .arrival-grid, .hotel-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .arrival-grid, .hotel-grid, .notes-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .steps { grid-template-columns: repeat(2, minmax(0, 1fr)); }
     }
     @media (max-width: 620px) {
@@ -499,8 +499,8 @@
   <header class="hero">
     <div class="shell">
       <p class="eyebrow">South Korea trip · hotel decisions</p>
-      <h1>Choose stays with the late-arrival night already solved.</h1>
-      <p class="hero-copy">A focused hotel planner for Seoul, Gyeongju, and Busan. The first night gets special treatment: your 21:00 ICN arrival only sees hotels with currently listed 24-hour reception coverage.</p>
+      <h1>More hotel choices, with the late-arrival night already solved.</h1>
+      <p class="hero-copy">An expanded planner with 55 stays across Seoul, Gyeongju, and Busan. The first night gets special treatment: your 21:00 ICN arrival only sees hotels backed by a current 24-hour reception signal from an official or trusted source.</p>
       <div class="trip-chips" id="trip-chips" aria-label="Trip overview"></div>
     </div>
   </header>
@@ -516,7 +516,7 @@
   <main class="shell">
     <section id="arrival" aria-labelledby="arrival-title">
       <p class="section-kicker">Start here</p>
-      <h2 class="section-heading" id="arrival-title">First night in Seoul: only options with a 24-hour reception signal</h2>
+      <h2 class="section-heading" id="arrival-title">First night in Seoul: five source-checked 24-hour reception options</h2>
       <p class="section-description" id="arrival-description"></p>
 
       <div class="arrival-alert">
@@ -537,8 +537,8 @@
 
     <section id="shortlist" aria-labelledby="shortlist-title">
       <p class="section-kicker">The rest of the trip</p>
-      <h2 class="section-heading" id="shortlist-title">Simple city-by-city hotel shortlist</h2>
-      <p class="section-description">Use the city tabs to compare the research already in this planner. Estimates are guide prices for a room for two; follow through to the official site for the live rate, room inventory, cancellation terms, and current policy.</p>
+      <h2 class="section-heading" id="shortlist-title">Expanded city-by-city hotel list</h2>
+      <p class="section-description">Compare 20 Seoul stays, 15 Gyeongju stays, 20 Busan stays, and 14 alternative-city properties. All 69 entries have a dated canonical identity source and passed duplicate checks. Prices remain planning estimates for two; use the linked official or trusted source for live inventory, totals, and terms.</p>
 
       <div class="planner">
         <div class="city-tabs" id="city-tabs" role="group" aria-label="Choose a city"></div>
@@ -578,6 +578,11 @@
             <li>Use the official booking link for the reservation itself where possible.</li>
             <li>See the detailed <a href="guide/arrival-night.md">arrival-night research note</a> in this repo for source links and the booking-message template.</li>
           </ul>
+        </article>
+        <article class="note-card">
+          <h3>Identity and duplicate audit</h3>
+          <p>All 69 records have a sourced canonical property name and a unique identity link. Validation rejects duplicate IDs, canonical names, official URLs, verification URLs, and exact coordinates; highly similar branch names require an explicit distinct-property cross-check.</p>
+          <p>See the complete <a href="guide/verification-audit.md">verification audit</a> for every hotel and source.</p>
         </article>
       </div>
     </section>
@@ -660,7 +665,8 @@
         `<span class="trip-chip">📅 <b>${escapeHtml(dates)}</b></span>`,
         `<span class="trip-chip">🌙 <b>${escapeHtml(plural(Number(trip.nights || 0), "night"))}</b></span>`,
         `<span class="trip-chip">✈️ ICN arrival <b>${escapeHtml(arrival.arrivalTime || "21:00")}</b></span>`,
-        `<span class="trip-chip">🛎️ first night: <b>24-hour reception</b></span>`
+        `<span class="trip-chip">🛎️ first night: <b>24-hour reception</b></span>`,
+        `<span class="trip-chip">🔎 <b>${DATA.hotels.length} unique, verified hotels</b></span>`
       ].join("");
     }
 
@@ -709,7 +715,7 @@
               </dl>
               <p class="reason"><strong>Why it works:</strong> ${escapeHtml(candidate.why)}</p>
               <p class="tradeoff"><b>Watch for:</b> ${escapeHtml(candidate.tradeoff)}</p>
-              <p class="source-line"><a href="${safeUrl(candidate.evidenceUrl)}" target="_blank" rel="noopener noreferrer">Check 24-hour evidence ↗</a><br>${escapeHtml(candidate.evidenceLabel)}<br><q>${escapeHtml(candidate.evidenceQuote)}</q></p>
+              <p class="source-line"><strong>${escapeHtml(candidate.evidenceType || "Trusted source")}</strong><br><a href="${safeUrl(candidate.evidenceUrl)}" target="_blank" rel="noopener noreferrer">Check 24-hour evidence ↗</a><br>${escapeHtml(candidate.evidenceLabel)}<br><q>${escapeHtml(candidate.evidenceQuote)}</q></p>
             </div>
             <div class="card-footer">
               <a class="button" href="${safeUrl(candidate.officialUrl)}" target="_blank" rel="noopener noreferrer">Official booking ↗</a>
@@ -730,8 +736,9 @@
         <li><strong>${escapeHtml(step.title)}</strong>${escapeHtml(step.body)}</li>
       `).join("");
 
-      document.getElementById("research-note").textContent = `${arrival.definition || ""} Arrival evidence was last checked ${formatDate(arrival.lastVerified)}.`;
-      document.getElementById("footer-note").textContent = `Arrival-night sources were last checked ${formatDate(arrival.lastVerified)}. The larger city list uses the itinerary and hotel research included in this repository.`;
+      document.getElementById("research-note").textContent = `${arrival.definition || ""} ${arrival.verificationStandard || ""} Arrival evidence was last checked ${formatDate(arrival.lastVerified)}.`;
+      const primaryCount = DATA.hotels.filter((hotel) => ["Seoul", "Gyeongju", "Busan"].includes(hotel.city)).length;
+      document.getElementById("footer-note").textContent = `Arrival-night sources were last checked ${formatDate(arrival.lastVerified)}. All ${DATA.hotels.length} hotel records have a unique canonical identity and an official, government-tourism, or major trusted verification source; ${primaryCount} are in the three planned cities.`;
     }
 
     const cityInfo = () => {
@@ -749,10 +756,11 @@
 
     function cityDetail(city) {
       const info = CITY_INFO[city];
-      if (!info) return `${DATA.hotels.filter((hotel) => hotel.city === city).length} researched stays`;
+      const count = DATA.hotels.filter((hotel) => hotel.city === city).length;
+      if (!info) return `${count} researched stays`;
       const alternative = (DATA.itinerary?.alternatives || []).some((leg) => leg.city === city);
       const timeframe = [info.dates, info.nights ? plural(info.nights, "night") : ""].filter(Boolean).join(" · ");
-      return `${alternative ? "Alternative stop" : "Planned stop"}${timeframe ? ` — ${timeframe}` : ""}`;
+      return `${alternative ? "Alternative stop" : "Planned stop"}${timeframe ? ` — ${timeframe}` : ""} · ${count} researched stays`;
     }
 
     function renderCityTabs() {
@@ -760,7 +768,8 @@
       container.innerHTML = CITY_ORDER.map((city) => {
         const active = city === activeCity;
         const info = CITY_INFO[city];
-        const label = info?.nights ? `${info.nights}N` : `${DATA.hotels.filter((hotel) => hotel.city === city).length} stays`;
+        const count = DATA.hotels.filter((hotel) => hotel.city === city).length;
+        const label = info?.nights ? `${info.nights}N · ${count} stays` : `${count} stays`;
         return `<button class="city-tab ${active ? "is-active" : ""}" type="button" data-city="${escapeHtml(city)}" aria-pressed="${active}">${escapeHtml(city)} <small>${escapeHtml(label)}</small></button>`;
       }).join("");
       container.querySelectorAll("[data-city]").forEach((button) => {
@@ -825,6 +834,7 @@
               <div class="tags">
                 <span class="tag ${hotel.fits ? "good" : "warn"}">${hotel.fits ? "✓ Core needs match" : "△ Check core fit"}</span>
                 ${hotel.hasOnSiteLaundry ? '<span class="tag">🧺 Laundry</span>' : ''}
+                ${hotel.verification ? '<span class="tag">🔎 Source checked</span>' : ''}
                 ${isArrival ? '<span class="tag good">🛎️ 24-hour arrival option</span>' : ''}
               </div>
             </div>
@@ -836,10 +846,11 @@
                 ${!hotel.fits && hotel.fitReason ? `<div><dt>Check before booking</dt><dd>${escapeHtml(hotel.fitReason)}</dd></div>` : ''}
               </dl>
               <p class="reason">${escapeHtml(hotel.why || "Review the official listing for the best room and current terms.")}</p>
+              ${hotel.verification ? `<p class="source-line"><strong>${escapeHtml(hotel.verification.existenceStatus || "Source verified")}</strong> · ${escapeHtml(hotel.verification.sourceType)} · checked ${escapeHtml(formatDate(hotel.verification.lastChecked))}<br><a href="${safeUrl(hotel.verification.sourceUrl)}" target="_blank" rel="noopener noreferrer">Open identity source ↗</a><br>${escapeHtml(hotel.verification.note)}</p>` : ''}
               ${isArrival ? '<p class="arrival-mark">For the first night, open the Arrival night section and send the late-arrival note after booking.</p>' : ''}
             </div>
             <div class="card-footer">
-              ${hotel.officialUrl ? `<a class="button" href="${safeUrl(hotel.officialUrl)}" target="_blank" rel="noopener noreferrer">Official site ↗</a>` : '<span class="button secondary" aria-disabled="true">Official site unavailable</span>'}
+              ${hotel.officialUrl ? `<a class="button" href="${safeUrl(hotel.officialUrl)}" target="_blank" rel="noopener noreferrer">Official site ↗</a>` : '<span class="button secondary" aria-disabled="true">Use trusted identity source above</span>'}
               ${hotel.compareUrl ? `<a class="button secondary" href="${safeUrl(hotel.compareUrl)}" target="_blank" rel="noopener noreferrer">Compare rates ↗</a>` : ''}
             </div>
           </article>

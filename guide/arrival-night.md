@@ -3,77 +3,80 @@
 - **Research checked:** August 10, 2026
 - **Flight assumption:** scheduled arrival at **Incheon International Airport (ICN) at 21:00**
 - **Scope:** **first booked night only**
+- **Evidence standard:** official hotel/brand page preferred; government tourism authority or a major trusted booking platform accepted when the property does not publish reception hours
 
 ## The decision
 
-### Recommended: **L7 MYEONGDONG by LOTTE — Deluxe Double**
+### Recommended: **Somerset Palace Seoul — Studio Executive**
 
-Book L7 for the first night if the priority is to wake up **in central Seoul** rather than move hotels the following morning.
+Book Somerset Palace for the first night if the priority is a central Seoul stay with the strongest directly official late-arrival evidence.
 
-Why it is the best balance:
+Why it is now the top pick:
 
-- A current property listing says it has a **24-hour front desk**.
-- The planner's **Deluxe Double** is a **single queen bed** (approximately 150 × 200 cm) with a private bathroom.
-- It is about a **two-minute walk from Myeongdong Station**.
-- It lets the Seoul stay begin immediately instead of splitting off an airport-only night.
+- The [official Somerset / Ascott property data](https://www.discoverasr.com/en/somerset-serviced-residence/korea-south/somerset-palace-seoul/download-brochure) explicitly lists **24-hour reception**.
+- The official Studio Executive page lists **one queen-size bed**, a **private bathroom**, and an in-room **washing machine and dryer**.
+- The official location page puts **Anguk Station about three minutes away** and Gwanghwamun/Jonggak about five minutes away.
+- It is a practical base for Gyeongbokgung, Insadong, Bukchon, and the rest of the Seoul stay.
 
-**Book:** [L7 MYEONGDONG official site](https://www.lottehotel.com/myeongdong-l7/en/main.html)
-**24-hour-desk evidence:** [current property listing](https://www.booking.com/hotel/kr/l7-myeongdong-by-lotte.en-gb.html)
+**Book:** [Somerset Palace Seoul official site](https://www.discoverasr.com/en/somerset-serviced-residence/korea-south/somerset-palace-seoul)
+**24-hour evidence:** [official property brochure/data](https://www.discoverasr.com/en/somerset-serviced-residence/korea-south/somerset-palace-seoul/download-brochure)
 
-> The late-arrival risk remaining with a central Seoul hotel is transport, not reception. If a delay makes the last train/bus connection uncomfortable, take a taxi rather than racing a closing connection.
+> The remaining late-arrival risk is transport from ICN, not reception. Check live rail and airport-bus service after immigration and baggage collection. Use a taxi rather than racing a closing connection.
 
-## Only the 24-hour-reception shortlist
+## Five source-checked first-night choices
 
-| Choice | When to choose it | Bed / bathroom plan | What was checked | Trade-off |
-|---|---|---|---|---|
-| **L7 MYEONGDONG by LOTTE** | Best overall; you want to start in Seoul | **Deluxe Double**: one queen, private bathroom | Current listing says 24-hour front desk; Myeongdong Station nearby | Still a city transfer from ICN late at night |
-| **Nine Tree by Parnas Seoul Myeongdong 1** | Better-value central Seoul option | **Deluxe**: one queen, private bathroom | Current listing says 24-hour front desk | Do not choose Standard Double/Double if the queen-size requirement is firm; those planner entries use a smaller double bed |
-| **Grand Hyatt Incheon** | Safest fallback after a major delay | Choose a **1 King Bed** room; private bathroom | Hyatt property data lists daily hours 00:00–23:59; current booking listing says check-in ends anytime | This is **near ICN, not in central Seoul**; transfer to Seoul the next day |
+| Rank | Choice | Book this room | 24-hour evidence | Main trade-off |
+|---:|---|---|---|---|
+| **1** | **Somerset Palace Seoul** | **Studio Executive** — one queen, private bathroom, washer/dryer | [Official Ascott property data](https://www.discoverasr.com/en/somerset-serviced-residence/korea-south/somerset-palace-seoul/download-brochure) lists 24-hour reception | Palace/Insadong area rather than Myeongdong |
+| **2** | **L7 MYEONGDONG by LOTTE** | **Deluxe Double** — one queen, private bathroom | [Major current property listing](https://www.booking.com/hotel/kr/l7-myeongdong-by-lotte.en-gb.html) lists a 24-hour front desk | Direct official LOTTE pages do not clearly publish reception hours; recheck the linked evidence |
+| **3** | **ibis Ambassador Seoul Myeongdong** | Standard Room with 1 Double Bed | [Korea Tourism Organization](https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=96506) explicitly lists 24-hour reception service | The cited room is a double, not a confirmed queen |
+| **4** | **Nine Tree by Parnas Seoul Myeongdong 1** | **Deluxe** — one queen, private bathroom | [Major current property listing](https://www.booking.com/hotel/kr/nine-tree.html) lists a 24-hour front desk | Do not choose the smaller Standard Double if queen width is required |
+| **5** | **Grand Hyatt Incheon** | **1 King Bed** — private bathroom | [Official Hyatt property data](https://www.hyatt.com/grand-hyatt/en-US/inche-grand-hyatt-incheon) publishes daily opening hours of 00:00–23:59, while [Expedia](https://www.expedia.com/Incheon-Hotels-Grand-Hyatt-Incheon.h976006.Hotel-Information) lists check-in as ending anytime | Near ICN, not central Seoul; transfer into Seoul the next morning |
 
-### Evidence links
+### Why Somerset ranks above the other city hotels
 
-- [L7 MYEONGDONG — 24-hour front desk and location](https://www.booking.com/hotel/kr/l7-myeongdong-by-lotte.en-gb.html)
-- [Nine Tree by Parnas Seoul Myeongdong 1 — 24-hour front desk](https://www.booking.com/hotel/kr/nine-tree.html)
-- [Grand Hyatt Incheon — official hotel page](https://www.hyatt.com/grand-hyatt/en-US/inche-grand-hyatt-incheon)
-- [Grand Hyatt Incheon — current booking listing, check-in end “anytime”](https://www.expedia.com/Incheon-Hotels-Grand-Hyatt-Incheon.h976006.Hotel-Information)
+The official-source chain is unusually complete: the same hotel-group site confirms round-the-clock reception, normal check-in/out hours, room facilities, a queen-bed room, and local transport. L7 remains an excellent Myeongdong choice, but its explicit 24-hour-desk evidence is currently on a major booking platform rather than on the LOTTE page.
 
-## Important distinction: 24-hour desk vs. 24-hour check-in
+### Why Grand Hyatt remains the delay fallback
 
-A hotel showing a **24-hour front desk** is the best practical signal that staff can handle a late arrival. It does **not** automatically mean a reservation can be left unannounced until the next morning.
+Grand Hyatt Incheon avoids the long late-night trip into Seoul. Hyatt's official structured property data lists daily opening hours of 00:00–23:59, and Expedia lists check-in as ending anytime. Together those are useful all-day operating signals, but it is still important to contact the hotel and obtain a written late-check-in acknowledgement for the specific reservation. Also check the current airport transfer method; never assume a hotel shuttle runs after midnight.
 
-For every option above:
+## Important distinction: 24-hour reception vs. guaranteed late check-in
 
-1. Book the night corresponding to the **calendar date on which the flight lands**.
-2. Add the flight number and planned ICN arrival time to the reservation.
-3. Send the property a message right away and ask it to **confirm the room will be held after midnight**.
-4. Save the confirmation, property phone number, and address offline before flying.
+A **24-hour reception/front desk** is the screening requirement for this shortlist. It does **not** automatically mean a reservation may be left unannounced after midnight.
+
+For every option:
+
+1. Book the hotel night corresponding to **October 31, 2026**, the calendar date on which the flight is scheduled to land.
+2. Add the flight number and the **21:00 ICN arrival** to the reservation.
+3. Message the property immediately and ask it to confirm that the room will be held if delays put arrival after midnight.
+4. Keep the written reply, hotel phone number, booking confirmation, and Korean/English address available offline.
+5. Re-open the evidence and official booking links shortly before payment because reception and transfer policies can change.
 
 ### Copy-and-send message
 
 ```text
 Hello [hotel name],
 
-I have a reservation for [arrival date]. My flight is scheduled to arrive
-at Incheon International Airport at 21:00. Delays could mean that I arrive
-after midnight.
+I have a reservation for October 31, 2026. My flight is scheduled to arrive
+at Incheon International Airport at 21:00. Immigration, baggage collection,
+or a flight delay could mean that I arrive after midnight.
 
-Please confirm that my reservation will be held for late check-in. I will
-share my booking confirmation and flight number with you.
+Please confirm in writing that my reservation will be held for late check-in.
+I will share my booking confirmation and flight number with you.
 
 Thank you.
 ```
 
-The website’s **“Copy late-arrival note”** button fills this message for each candidate.
+The website's **Copy late-arrival note** button fills this message with the itinerary date and hotel name.
 
-## Transport rule for a delayed flight
+## Transport rule after landing
 
-Do not treat the 24-hour desk as proof that airport transfer is also available all night:
+- Check the final AREX, subway, and airport-limousine departure using live information on the day.
+- Allow time for immigration, bags, and finding the platform or bus stop; a 21:00 touchdown is not a 21:00 airport departure.
+- Use a taxi if the final connection is tight.
+- If a major delay makes crossing into Seoul unattractive, use the Grand Hyatt Incheon fallback and move to Seoul in daylight.
 
-- Re-check the last rail/bus or hotel-shuttle time on the day you fly.
-- If the timetable is tight after immigration and baggage collection, use a taxi to the central Seoul hotel.
-- If getting into central Seoul late no longer sounds worthwhile, book the **Grand Hyatt Incheon** arrival-night fallback and travel into Seoul the following morning.
-- For airport hotels, check that property’s **current** transfer timetable; do not assume its shuttle runs after midnight.
+## Why the other 64 hotel entries are not marked late-arrival-safe
 
-## Why the rest of the planner is not filtered by this rule
-
-This requirement exists only because of the first-night flight arrival. Subsequent hotel changes are daytime travel days in the itinerary, so the regular city shortlist focuses on the ongoing requirements instead: one queen/king bed for two, private bathroom, transport access, budget, and laundry.
+The expanded city list now contains **69 hotels total**, including **55 across the three planned cities**. A normal check-in time such as 15:00 does not prove that reception is staffed around the clock. Only the five options above receive the first-night badge. Later hotel changes occur on daytime itinerary legs, so the rest of the planner emphasizes bed setup, private bathroom, transit, budget, and laundry instead.

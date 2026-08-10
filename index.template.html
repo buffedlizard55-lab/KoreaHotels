@@ -1,0 +1,872 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A simple, researched hotel decision guide for a South Korea trip, with a verified late-arrival shortlist for the first night in Seoul.">
+  <title>South Korea Hotel Shortlist</title>
+  <style>
+    :root {
+      --ink: #17211d;
+      --ink-soft: #46544d;
+      --paper: #fbfaf6;
+      --surface: #ffffff;
+      --soft: #f0f4ef;
+      --line: #d9dfd8;
+      --forest: #174e3a;
+      --forest-dark: #0d3829;
+      --mint: #dff1e7;
+      --mint-strong: #a9d8bb;
+      --gold: #bb7d18;
+      --gold-soft: #fff1d7;
+      --brick: #a94734;
+      --brick-soft: #f9e9e4;
+      --blue: #2f638d;
+      --shadow: 0 12px 28px rgba(27, 45, 35, .08);
+      --radius: 18px;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--paper);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.55;
+    }
+    a { color: inherit; }
+    button, input { font: inherit; }
+    button { cursor: pointer; }
+    button:focus-visible, a:focus-visible, input:focus-visible {
+      outline: 3px solid #4b9d7b;
+      outline-offset: 3px;
+    }
+    .shell { width: min(1160px, calc(100% - 40px)); margin: 0 auto; }
+    .skip-link {
+      position: absolute;
+      left: 12px;
+      top: -48px;
+      z-index: 20;
+      padding: 8px 12px;
+      border-radius: 8px;
+      color: #fff;
+      background: var(--forest-dark);
+    }
+    .skip-link:focus { top: 12px; }
+
+    .hero {
+      color: #fff;
+      background:
+        radial-gradient(circle at 86% 15%, rgba(244, 190, 80, .28), transparent 23rem),
+        radial-gradient(circle at 8% 86%, rgba(129, 209, 166, .14), transparent 30rem),
+        linear-gradient(128deg, #0b3326 0%, #155842 55%, #195a48 100%);
+      padding: 52px 0 40px;
+    }
+    .eyebrow {
+      margin: 0 0 9px;
+      color: #bce5ce;
+      font-weight: 800;
+      font-size: .78rem;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+    h1, h2, h3, p { margin-top: 0; }
+    h1 {
+      max-width: 760px;
+      margin-bottom: 13px;
+      font-size: clamp(2.2rem, 5vw, 4.25rem);
+      line-height: 1.03;
+      letter-spacing: -.055em;
+    }
+    .hero-copy {
+      max-width: 700px;
+      margin-bottom: 24px;
+      color: rgba(255,255,255,.9);
+      font-size: clamp(1rem, 2vw, 1.18rem);
+    }
+    .trip-chips { display: flex; flex-wrap: wrap; gap: 9px; }
+    .trip-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      padding: 7px 11px;
+      border: 1px solid rgba(255,255,255,.24);
+      border-radius: 999px;
+      background: rgba(255,255,255,.11);
+      color: #fff;
+      font-size: .87rem;
+    }
+    .trip-chip b { font-weight: 800; }
+
+    .site-nav {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      border-bottom: 1px solid var(--line);
+      background: rgba(251, 250, 246, .94);
+      backdrop-filter: blur(12px);
+    }
+    .site-nav .shell {
+      display: flex;
+      gap: 4px;
+      align-items: center;
+      min-height: 58px;
+      overflow-x: auto;
+      scrollbar-width: thin;
+    }
+    .site-nav a {
+      flex: 0 0 auto;
+      padding: 8px 10px;
+      border-radius: 9px;
+      color: var(--ink-soft);
+      font-size: .89rem;
+      font-weight: 750;
+      text-decoration: none;
+    }
+    .site-nav a:hover { color: var(--forest); background: var(--mint); }
+
+    main { padding: 36px 0 72px; }
+    section { scroll-margin-top: 76px; }
+    section + section { margin-top: 64px; }
+    .section-kicker {
+      margin-bottom: 5px;
+      color: var(--forest);
+      font-weight: 800;
+      font-size: .78rem;
+      letter-spacing: .11em;
+      text-transform: uppercase;
+    }
+    .section-heading {
+      max-width: 760px;
+      margin-bottom: 9px;
+      font-size: clamp(1.7rem, 3vw, 2.45rem);
+      line-height: 1.1;
+      letter-spacing: -.035em;
+    }
+    .section-description {
+      max-width: 770px;
+      margin-bottom: 22px;
+      color: var(--ink-soft);
+      font-size: 1.02rem;
+    }
+
+    .arrival-alert {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 14px;
+      align-items: start;
+      margin: 22px 0;
+      padding: 17px 18px;
+      border: 1px solid #e8ce8f;
+      border-radius: 14px;
+      background: var(--gold-soft);
+    }
+    .arrival-alert .icon { font-size: 1.35rem; line-height: 1; }
+    .arrival-alert h3 { margin: 0 0 3px; font-size: 1rem; }
+    .arrival-alert p { margin: 0; color: #624612; font-size: .93rem; }
+
+    .decision-card {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 22px;
+      align-items: end;
+      margin-bottom: 18px;
+      padding: 24px;
+      border: 1px solid var(--mint-strong);
+      border-radius: var(--radius);
+      background: linear-gradient(135deg, #eaf8ef, #f7fcf8 68%);
+      box-shadow: var(--shadow);
+    }
+    .decision-card h3 { margin-bottom: 5px; font-size: 1.32rem; }
+    .decision-card p { margin: 0; color: #28543e; }
+    .decision-label {
+      display: inline-block;
+      margin-bottom: 9px;
+      color: var(--forest);
+      font-size: .76rem;
+      font-weight: 900;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+    .decision-alt {
+      max-width: 260px;
+      margin: 0 !important;
+      padding-left: 18px;
+      border-left: 2px solid #9ac6a9;
+      font-size: .88rem;
+    }
+
+    .arrival-grid, .hotel-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+    }
+    .arrival-card, .hotel-card {
+      display: flex;
+      min-width: 0;
+      flex-direction: column;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--surface);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+    .arrival-card.recommended { border: 2px solid var(--forest); }
+    .card-top { padding: 20px 20px 13px; }
+    .card-body { flex: 1; padding: 0 20px 19px; }
+    .card-footer {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      padding: 14px 20px 19px;
+      border-top: 1px solid var(--line);
+    }
+    .label-row {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+    .card-label {
+      color: var(--forest);
+      font-size: .75rem;
+      font-weight: 900;
+      letter-spacing: .06em;
+      line-height: 1.35;
+      text-transform: uppercase;
+    }
+    .card-rank {
+      flex: 0 0 auto;
+      display: inline-grid;
+      width: 25px;
+      height: 25px;
+      place-items: center;
+      border-radius: 50%;
+      color: #fff;
+      background: var(--forest);
+      font-size: .76rem;
+      font-weight: 900;
+    }
+    .card-title { margin-bottom: 4px; font-size: 1.18rem; line-height: 1.18; }
+    .card-subtitle { margin-bottom: 0; color: var(--ink-soft); font-size: .89rem; }
+    .tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 12px 0 15px; }
+    .tag {
+      padding: 4px 8px;
+      border-radius: 999px;
+      background: var(--soft);
+      color: #36473f;
+      font-size: .73rem;
+      font-weight: 750;
+      line-height: 1.25;
+    }
+    .tag.good { background: var(--mint); color: #155439; }
+    .tag.warn { background: var(--gold-soft); color: #754c07; }
+    .detail-list { display: grid; gap: 10px; margin: 0; }
+    .detail-list > div { display: grid; gap: 2px; }
+    .detail-list dt {
+      color: var(--ink-soft);
+      font-size: .72rem;
+      font-weight: 850;
+      letter-spacing: .045em;
+      text-transform: uppercase;
+    }
+    .detail-list dd { margin: 0; font-size: .88rem; }
+    .reason {
+      margin: 17px 0 0;
+      padding: 12px 13px;
+      border-radius: 10px;
+      background: #f2f7f3;
+      color: #28543e;
+      font-size: .88rem;
+    }
+    .tradeoff {
+      margin: 10px 0 0;
+      color: var(--ink-soft);
+      font-size: .82rem;
+    }
+    .tradeoff b { color: var(--ink); }
+
+    .button, .button:visited {
+      display: inline-flex;
+      flex: 1 1 130px;
+      align-items: center;
+      justify-content: center;
+      min-height: 39px;
+      padding: 8px 11px;
+      border: 1px solid transparent;
+      border-radius: 10px;
+      color: #fff;
+      background: var(--forest);
+      font-size: .82rem;
+      font-weight: 800;
+      text-align: center;
+      text-decoration: none;
+    }
+    .button:hover { color: #fff; background: var(--forest-dark); text-decoration: none; }
+    .button.secondary, .button.secondary:visited {
+      border-color: var(--line);
+      color: var(--ink);
+      background: #fff;
+    }
+    .button.secondary:hover { border-color: var(--forest); color: var(--forest); background: #f9fcf9; }
+    button.button { cursor: pointer; }
+
+    .source-line {
+      margin: 12px 0 0;
+      color: var(--ink-soft);
+      font-size: .77rem;
+    }
+    .source-line a { color: var(--blue); font-weight: 750; }
+    .source-line a:hover { color: #18496f; }
+
+    .arrival-steps {
+      margin-top: 22px;
+      padding: 22px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--surface);
+    }
+    .arrival-steps h3 { margin-bottom: 14px; font-size: 1.08rem; }
+    .steps { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; padding: 0; margin: 0; list-style: none; counter-reset: step; }
+    .steps li { position: relative; padding: 39px 8px 0 0; counter-increment: step; color: var(--ink-soft); font-size: .85rem; }
+    .steps li::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: grid;
+      width: 27px;
+      height: 27px;
+      place-items: center;
+      border-radius: 50%;
+      color: #fff;
+      background: var(--forest);
+      content: counter(step);
+      font-size: .77rem;
+      font-weight: 900;
+    }
+    .steps strong { display: block; margin-bottom: 4px; color: var(--ink); font-size: .89rem; }
+
+    .planner {
+      padding-top: 8px;
+      border-top: 1px solid var(--line);
+    }
+    .city-tabs {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin: 22px 0 15px;
+    }
+    .city-tab, .filter-button {
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      color: var(--ink-soft);
+      background: var(--surface);
+      font-size: .85rem;
+      font-weight: 800;
+    }
+    .city-tab { padding: 9px 14px; }
+    .city-tab:hover, .filter-button:hover { border-color: #8bb99b; color: var(--forest); }
+    .city-tab.is-active { border-color: var(--forest); color: #fff; background: var(--forest); }
+    .city-tab small { margin-left: 4px; opacity: .76; font-weight: 650; }
+    .planner-tools {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-bottom: 19px;
+      padding: 14px;
+      border: 1px solid var(--line);
+      border-radius: 13px;
+      background: var(--surface);
+    }
+    .planner-info h3 { margin: 0 0 1px; font-size: 1.08rem; }
+    .planner-info p { margin: 0; color: var(--ink-soft); font-size: .84rem; }
+    .filter-group { display: flex; gap: 7px; flex-wrap: wrap; }
+    .filter-button { padding: 7px 11px; }
+    .filter-button.is-active { border-color: #9acbab; color: var(--forest); background: var(--mint); }
+    .search-wrap { flex: 1 1 210px; }
+    .search-wrap label { display: block; margin-bottom: 4px; color: var(--ink-soft); font-size: .72rem; font-weight: 800; }
+    .search-wrap input {
+      width: 100%;
+      min-height: 38px;
+      padding: 8px 11px;
+      border: 1px solid var(--line);
+      border-radius: 9px;
+      color: var(--ink);
+      background: #fff;
+    }
+    .search-wrap input::placeholder { color: #758177; }
+
+    .hotel-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .hotel-card .card-top { padding-bottom: 11px; }
+    .tier {
+      display: inline-flex;
+      flex: 0 0 auto;
+      align-items: center;
+      padding: 4px 8px;
+      border-radius: 999px;
+      color: #fff;
+      font-size: .71rem;
+      font-weight: 850;
+      text-transform: capitalize;
+    }
+    .tier-budget { background: #397943; }
+    .tier-mid { background: #a76b10; }
+    .tier-premium { background: #78477e; }
+    .price-range { margin: 10px 0 0; color: var(--forest); font-size: 1.05rem; font-weight: 850; }
+    .price-range span { color: var(--ink-soft); font-size: .76rem; font-weight: 600; }
+    .hotel-card .reason { margin-top: 13px; }
+    .hotel-card .detail-list { margin-top: 13px; }
+    .arrival-mark {
+      margin-top: 12px;
+      color: var(--forest);
+      font-size: .78rem;
+      font-weight: 850;
+    }
+    .empty-state {
+      grid-column: 1 / -1;
+      padding: 32px;
+      border: 1px dashed #aebbb2;
+      border-radius: var(--radius);
+      color: var(--ink-soft);
+      background: var(--surface);
+      text-align: center;
+    }
+
+    .notes-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .note-card {
+      padding: 21px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--surface);
+    }
+    .note-card h3 { margin-bottom: 8px; font-size: 1.06rem; }
+    .note-card p, .note-card li { color: var(--ink-soft); font-size: .9rem; }
+    .note-card p:last-child { margin-bottom: 0; }
+    .note-card ul { margin: 0; padding-left: 18px; }
+    .note-card a { color: var(--blue); font-weight: 750; }
+    .note-card a:hover { color: #18496f; }
+    .toast {
+      position: fixed;
+      right: 18px;
+      bottom: 18px;
+      z-index: 20;
+      max-width: min(440px, calc(100% - 36px));
+      padding: 11px 14px;
+      border-radius: 10px;
+      color: #fff;
+      background: var(--forest-dark);
+      box-shadow: 0 10px 28px rgba(0,0,0,.2);
+      font-size: .86rem;
+      opacity: 0;
+      transform: translateY(8px);
+      pointer-events: none;
+      transition: opacity .2s ease, transform .2s ease;
+    }
+    .toast.is-visible { opacity: 1; transform: translateY(0); }
+    footer { padding: 26px 0 38px; border-top: 1px solid var(--line); color: var(--ink-soft); font-size: .8rem; }
+    footer p { max-width: 920px; margin-bottom: 7px; }
+
+    @media (max-width: 930px) {
+      .arrival-grid, .hotel-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .steps { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+    @media (max-width: 620px) {
+      .shell { width: min(100% - 28px, 1160px); }
+      .hero { padding: 39px 0 32px; }
+      main { padding-top: 27px; }
+      section + section { margin-top: 48px; }
+      .decision-card { grid-template-columns: 1fr; gap: 15px; padding: 19px; }
+      .decision-alt { max-width: none; }
+      .arrival-grid, .hotel-grid, .notes-grid, .steps { grid-template-columns: 1fr; }
+      .card-top { padding: 18px 17px 12px; }
+      .card-body { padding: 0 17px 17px; }
+      .card-footer { padding: 13px 17px 17px; }
+      .arrival-steps { padding: 18px; }
+      .planner-tools { align-items: stretch; }
+      .filter-group { order: 2; }
+      .search-wrap { order: 3; flex-basis: 100%; }
+      .site-nav .shell { width: min(100% - 20px, 1160px); }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#arrival">Skip to the arrival-night decision</a>
+
+  <header class="hero">
+    <div class="shell">
+      <p class="eyebrow">South Korea trip · hotel decisions</p>
+      <h1>Choose stays with the late-arrival night already solved.</h1>
+      <p class="hero-copy">A focused hotel planner for Seoul, Gyeongju, and Busan. The first night gets special treatment: your 21:00 ICN arrival only sees hotels with currently listed 24-hour reception coverage.</p>
+      <div class="trip-chips" id="trip-chips" aria-label="Trip overview"></div>
+    </div>
+  </header>
+
+  <nav class="site-nav" aria-label="Page sections">
+    <div class="shell">
+      <a href="#arrival">Arrival night</a>
+      <a href="#shortlist">Trip shortlist</a>
+      <a href="#booking-notes">Booking notes</a>
+    </div>
+  </nav>
+
+  <main class="shell">
+    <section id="arrival" aria-labelledby="arrival-title">
+      <p class="section-kicker">Start here</p>
+      <h2 class="section-heading" id="arrival-title">First night in Seoul: only options with a 24-hour reception signal</h2>
+      <p class="section-description" id="arrival-description"></p>
+
+      <div class="arrival-alert">
+        <div class="icon" aria-hidden="true">⚠</div>
+        <div>
+          <h3>24-hour front desk is not an automatic no-show waiver.</h3>
+          <p>Book the night matching the calendar date you land. Then tell the property your flight number and that a delay could put you past midnight. This shortlist uses 24-hour reception as a safety screen, but the property must still hold your specific reservation.</p>
+        </div>
+      </div>
+
+      <div class="decision-card" id="decision-card"></div>
+      <div class="arrival-grid" id="arrival-grid" aria-live="polite"></div>
+      <div class="arrival-steps" aria-labelledby="steps-title">
+        <h3 id="steps-title">Four things to do after choosing the first night</h3>
+        <ol class="steps" id="arrival-steps"></ol>
+      </div>
+    </section>
+
+    <section id="shortlist" aria-labelledby="shortlist-title">
+      <p class="section-kicker">The rest of the trip</p>
+      <h2 class="section-heading" id="shortlist-title">Simple city-by-city hotel shortlist</h2>
+      <p class="section-description">Use the city tabs to compare the research already in this planner. Estimates are guide prices for a room for two; follow through to the official site for the live rate, room inventory, cancellation terms, and current policy.</p>
+
+      <div class="planner">
+        <div class="city-tabs" id="city-tabs" role="group" aria-label="Choose a city"></div>
+        <div class="planner-tools">
+          <div class="planner-info">
+            <h3 id="city-title">Seoul hotels</h3>
+            <p id="city-summary"></p>
+          </div>
+          <div class="filter-group" aria-label="Hotel filters">
+            <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">All stays</button>
+            <button class="filter-button" type="button" data-filter="fits" aria-pressed="false">Core needs match</button>
+            <button class="filter-button" type="button" data-filter="laundry" aria-pressed="false">Laundry</button>
+          </div>
+          <div class="search-wrap">
+            <label for="hotel-search">Search this city</label>
+            <input id="hotel-search" type="search" placeholder="Hotel or neighborhood" autocomplete="off">
+          </div>
+        </div>
+        <div class="hotel-grid" id="hotel-grid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section id="booking-notes" aria-labelledby="booking-notes-title">
+      <p class="section-kicker">Useful guardrails</p>
+      <h2 class="section-heading" id="booking-notes-title">How this shortlist is meant to be used</h2>
+      <div class="notes-grid">
+        <article class="note-card">
+          <h3>What the green “core needs” mark means</h3>
+          <p>It flags a planner entry with a one-bed room for two, a private bathroom, and walkable rail/subway access. Select the named room type when booking: a hotel can also sell twin rooms or smaller double beds that do not meet the preference.</p>
+          <p>Gyeongju is the deliberate exception: its KTX station is outside the usual Old Town and Bomun hotel areas, so no practical city hotel is a walkable rail stay.</p>
+        </article>
+        <article class="note-card">
+          <h3>How the arrival-night evidence works</h3>
+          <p id="research-note"></p>
+          <ul>
+            <li>Use each card’s evidence link to re-check the 24-hour-reception claim before paying.</li>
+            <li>Use the official booking link for the reservation itself where possible.</li>
+            <li>See the detailed <a href="guide/arrival-night.md">arrival-night research note</a> in this repo for source links and the booking-message template.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="shell">
+      <p><strong>Planning aid, not live inventory.</strong> Prices and amenities can change. Confirm the exact room’s bed configuration, total price, cancellation terms, airport transfer, and late-arrival acknowledgement directly with the hotel before booking.</p>
+      <p id="footer-note"></p>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script>
+    const DATA = __DATA__;
+
+    const escapeHtml = (value) => String(value ?? "")
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/\"/g, "&quot;")
+      .replace(/'/g, "&#039;");
+
+    const safeUrl = (value) => /^https?:\/\//i.test(String(value || "")) ? String(value) : "#";
+    const plural = (count, word) => `${count} ${word}${count === 1 ? "" : "s"}`;
+
+    function formatDate(value) {
+      if (!value) return "";
+      const date = new Date(`${value}T12:00:00`);
+      if (Number.isNaN(date.getTime())) return value;
+      return new Intl.DateTimeFormat("en", { month: "short", day: "numeric", year: "numeric" }).format(date);
+    }
+
+    function showToast(message) {
+      const toast = document.getElementById("toast");
+      toast.textContent = message;
+      toast.classList.add("is-visible");
+      window.clearTimeout(showToast.timeout);
+      showToast.timeout = window.setTimeout(() => toast.classList.remove("is-visible"), 3300);
+    }
+
+    function hotelById(id) {
+      return DATA.hotels.find((hotel) => hotel.id === id);
+    }
+
+    function copyLateArrivalNote(candidate) {
+      const arrivalDate = formatDate(DATA.trip?.checkIn) || "[arrival date]";
+      const hotelName = hotelById(candidate.hotelId)?.name || (candidate.id === "incheon-grand-hyatt" ? "Grand Hyatt Incheon" : "Hotel team");
+      const text = [
+        `Hello ${hotelName},`,
+        "",
+        `I have a reservation for ${arrivalDate}. My flight is scheduled to arrive at ${DATA.arrivalNight.airport} at ${DATA.arrivalNight.arrivalTime}. Delays could mean that I arrive after midnight.`,
+        "",
+        "Please confirm that my reservation will be held for late check-in. I will share my booking confirmation and flight number with you.",
+        "",
+        "Thank you."
+      ].join("\n");
+
+      if (navigator.clipboard?.writeText) {
+        navigator.clipboard.writeText(text).then(
+          () => showToast("Late-arrival message copied. Send it after booking."),
+          () => fallbackCopy(text)
+        );
+      } else {
+        fallbackCopy(text);
+      }
+    }
+
+    function fallbackCopy(text) {
+      window.prompt("Copy this late-arrival message:", text);
+    }
+
+    function renderTripHeader() {
+      const chips = document.getElementById("trip-chips");
+      const trip = DATA.trip || {};
+      const arrival = DATA.arrivalNight || {};
+      const dates = trip.checkIn && trip.checkOut ? `${formatDate(trip.checkIn)} → ${formatDate(trip.checkOut)}` : "Dates to confirm";
+      chips.innerHTML = [
+        `<span class="trip-chip">📅 <b>${escapeHtml(dates)}</b></span>`,
+        `<span class="trip-chip">🌙 <b>${escapeHtml(plural(Number(trip.nights || 0), "night"))}</b></span>`,
+        `<span class="trip-chip">✈️ ICN arrival <b>${escapeHtml(arrival.arrivalTime || "21:00")}</b></span>`,
+        `<span class="trip-chip">🛎️ first night: <b>24-hour reception</b></span>`
+      ].join("");
+    }
+
+    function renderArrival() {
+      const arrival = DATA.arrivalNight || {};
+      const recommended = arrival.candidates?.find((candidate) => candidate.id === arrival.recommendedId) || arrival.candidates?.[0];
+      document.getElementById("arrival-description").textContent = arrival.requirement || "Choose a late-arrival-safe hotel for the first night.";
+
+      const decision = document.getElementById("decision-card");
+      if (recommended) {
+        decision.innerHTML = `
+          <div>
+            <span class="decision-label">The recommended decision</span>
+            <h3>${escapeHtml(arrival.decision?.recommended || `Book ${recommended.name}.`)}</h3>
+            <p>${escapeHtml(arrival.decision?.why || recommended.why)}</p>
+          </div>
+          <p class="decision-alt"><strong>Airport fallback:</strong> ${escapeHtml(arrival.decision?.airportFallback || "Use an airport hotel if you prefer not to travel into the city late at night.")}</p>
+        `;
+      }
+
+      const grid = document.getElementById("arrival-grid");
+      grid.innerHTML = (arrival.candidates || []).map((candidate) => {
+        const linkedHotel = candidate.hotelId ? hotelById(candidate.hotelId) : null;
+        const name = linkedHotel?.name || (candidate.id === "incheon-grand-hyatt" ? "Grand Hyatt Incheon" : candidate.id);
+        const cardClass = candidate.id === arrival.recommendedId ? "arrival-card recommended" : "arrival-card";
+        return `
+          <article class="${cardClass}">
+            <div class="card-top">
+              <div class="label-row">
+                <span class="card-label">${escapeHtml(candidate.label)}</span>
+                <span class="card-rank" aria-label="Rank ${escapeHtml(candidate.rank)}">${escapeHtml(candidate.rank)}</span>
+              </div>
+              <h3 class="card-title">${escapeHtml(name)}</h3>
+              <p class="card-subtitle">${escapeHtml(candidate.location)}</p>
+              <div class="tags">
+                <span class="tag good">🛎️ ${escapeHtml(candidate.frontDesk)}</span>
+                <span class="tag">${escapeHtml(candidate.tier)}</span>
+                <span class="tag">${escapeHtml(candidate.checkIn)} check-in</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <dl class="detail-list">
+                <div><dt>Book this room</dt><dd>${escapeHtml(candidate.room)}</dd></div>
+                <div><dt>Planning price</dt><dd>${escapeHtml(candidate.estimatedRate)}</dd></div>
+                <div><dt>Location / transfer</dt><dd>${escapeHtml(candidate.station)}</dd></div>
+              </dl>
+              <p class="reason"><strong>Why it works:</strong> ${escapeHtml(candidate.why)}</p>
+              <p class="tradeoff"><b>Watch for:</b> ${escapeHtml(candidate.tradeoff)}</p>
+              <p class="source-line"><a href="${safeUrl(candidate.evidenceUrl)}" target="_blank" rel="noopener noreferrer">Check 24-hour evidence ↗</a><br>${escapeHtml(candidate.evidenceLabel)}<br><q>${escapeHtml(candidate.evidenceQuote)}</q></p>
+            </div>
+            <div class="card-footer">
+              <a class="button" href="${safeUrl(candidate.officialUrl)}" target="_blank" rel="noopener noreferrer">Official booking ↗</a>
+              <button class="button secondary" type="button" data-copy-arrival="${escapeHtml(candidate.id)}">Copy late-arrival note</button>
+            </div>
+          </article>
+        `;
+      }).join("");
+
+      grid.querySelectorAll("[data-copy-arrival]").forEach((button) => {
+        button.addEventListener("click", () => {
+          const candidate = arrival.candidates.find((item) => item.id === button.dataset.copyArrival);
+          if (candidate) copyLateArrivalNote(candidate);
+        });
+      });
+
+      document.getElementById("arrival-steps").innerHTML = (arrival.steps || []).map((step) => `
+        <li><strong>${escapeHtml(step.title)}</strong>${escapeHtml(step.body)}</li>
+      `).join("");
+
+      document.getElementById("research-note").textContent = `${arrival.definition || ""} Arrival evidence was last checked ${formatDate(arrival.lastVerified)}.`;
+      document.getElementById("footer-note").textContent = `Arrival-night sources were last checked ${formatDate(arrival.lastVerified)}. The larger city list uses the itinerary and hotel research included in this repository.`;
+    }
+
+    const cityInfo = () => {
+      const source = [...(DATA.itinerary?.legs || []), ...(DATA.itinerary?.alternatives || [])];
+      return source.reduce((accumulator, leg) => {
+        accumulator[leg.city] = leg;
+        return accumulator;
+      }, {});
+    };
+
+    const CITY_INFO = cityInfo();
+    const CITY_ORDER = ["Seoul", "Gyeongju", "Busan", "Cheonan", "Daejeon"].filter((city) => DATA.hotels.some((hotel) => hotel.city === city));
+    let activeCity = CITY_ORDER.includes("Seoul") ? "Seoul" : CITY_ORDER[0];
+    let activeFilter = "all";
+
+    function cityDetail(city) {
+      const info = CITY_INFO[city];
+      if (!info) return `${DATA.hotels.filter((hotel) => hotel.city === city).length} researched stays`;
+      const alternative = (DATA.itinerary?.alternatives || []).some((leg) => leg.city === city);
+      const timeframe = [info.dates, info.nights ? plural(info.nights, "night") : ""].filter(Boolean).join(" · ");
+      return `${alternative ? "Alternative stop" : "Planned stop"}${timeframe ? ` — ${timeframe}` : ""}`;
+    }
+
+    function renderCityTabs() {
+      const container = document.getElementById("city-tabs");
+      container.innerHTML = CITY_ORDER.map((city) => {
+        const active = city === activeCity;
+        const info = CITY_INFO[city];
+        const label = info?.nights ? `${info.nights}N` : `${DATA.hotels.filter((hotel) => hotel.city === city).length} stays`;
+        return `<button class="city-tab ${active ? "is-active" : ""}" type="button" data-city="${escapeHtml(city)}" aria-pressed="${active}">${escapeHtml(city)} <small>${escapeHtml(label)}</small></button>`;
+      }).join("");
+      container.querySelectorAll("[data-city]").forEach((button) => {
+        button.addEventListener("click", () => {
+          activeCity = button.dataset.city;
+          document.getElementById("hotel-search").value = "";
+          renderCityTabs();
+          renderHotels();
+        });
+      });
+    }
+
+    function priorityForHotel(hotel) {
+      const arrival = DATA.arrivalNight || {};
+      const candidate = (arrival.candidates || []).find((item) => item.hotelId === hotel.id);
+      if (candidate) return candidate.rank;
+      return 20 + (hotel.fits ? 0 : 10) + (Number(hotel.priceFrom) || 0) / 1000;
+    }
+
+    function preferredRoom(hotel) {
+      const rooms = hotel.rooms || [];
+      return rooms.find((room) => room.oneBedOnly && room.privateBathroom && ["queen", "king"].includes(String(room.bedType).toLowerCase()))
+        || rooms.find((room) => room.oneBedOnly && room.privateBathroom)
+        || rooms[0];
+    }
+
+    function renderHotels() {
+      const search = document.getElementById("hotel-search").value.trim().toLowerCase();
+      const hotels = DATA.hotels
+        .filter((hotel) => hotel.city === activeCity)
+        .filter((hotel) => activeFilter !== "fits" || hotel.fits)
+        .filter((hotel) => activeFilter !== "laundry" || hotel.hasOnSiteLaundry)
+        .filter((hotel) => !search || [hotel.name, hotel.area, hotel.neighborhood, hotel.why].filter(Boolean).join(" ").toLowerCase().includes(search))
+        .sort((a, b) => priorityForHotel(a) - priorityForHotel(b));
+
+      document.getElementById("city-title").textContent = `${activeCity} hotel shortlist`;
+      document.getElementById("city-summary").textContent = cityDetail(activeCity);
+
+      const grid = document.getElementById("hotel-grid");
+      if (!hotels.length) {
+        grid.innerHTML = `<div class="empty-state">No stays match that filter in ${escapeHtml(activeCity)}. Try “All stays” or a broader search.</div>`;
+        return;
+      }
+
+      const arrivalCandidateByHotel = new Map((DATA.arrivalNight?.candidates || []).filter((candidate) => candidate.hotelId).map((candidate) => [candidate.hotelId, candidate]));
+      grid.innerHTML = hotels.map((hotel) => {
+        const room = preferredRoom(hotel) || {};
+        const isArrival = arrivalCandidateByHotel.get(hotel.id);
+        const tier = String(hotel.tier || "mid").toLowerCase();
+        const station = hotel.stationWalkTime || hotel.neighborhood || "Check current local transport";
+        const roomText = room.name ? `${room.name} — ${room.bedNote || room.bedSize || room.bed || "bed details"}` : "Confirm a one-bed room directly";
+        return `
+          <article class="hotel-card">
+            <div class="card-top">
+              <div class="label-row">
+                <span class="tier tier-${escapeHtml(tier)}">${escapeHtml(hotel.tier || "mid-range")}</span>
+                <span class="card-label">${escapeHtml("★".repeat(Math.max(0, Math.min(5, Number(hotel.stars) || 0))))}</span>
+              </div>
+              <h3 class="card-title">${escapeHtml(hotel.name)}</h3>
+              <p class="card-subtitle">${escapeHtml(hotel.area || hotel.neighborhood || activeCity)}</p>
+              <p class="price-range">$${escapeHtml(hotel.priceFrom)}–${escapeHtml(hotel.priceTo)} <span>USD / night estimate</span></p>
+              <div class="tags">
+                <span class="tag ${hotel.fits ? "good" : "warn"}">${hotel.fits ? "✓ Core needs match" : "△ Check core fit"}</span>
+                ${hotel.hasOnSiteLaundry ? '<span class="tag">🧺 Laundry</span>' : ''}
+                ${isArrival ? '<span class="tag good">🛎️ 24-hour arrival option</span>' : ''}
+              </div>
+            </div>
+            <div class="card-body">
+              <dl class="detail-list">
+                <div><dt>Best room to compare</dt><dd>${escapeHtml(roomText)}</dd></div>
+                <div><dt>Transport</dt><dd>${escapeHtml(station)}</dd></div>
+                <div><dt>Normal hours</dt><dd>Check-in ${escapeHtml(hotel.checkIn)} · check-out ${escapeHtml(hotel.checkOut)}</dd></div>
+                ${!hotel.fits && hotel.fitReason ? `<div><dt>Check before booking</dt><dd>${escapeHtml(hotel.fitReason)}</dd></div>` : ''}
+              </dl>
+              <p class="reason">${escapeHtml(hotel.why || "Review the official listing for the best room and current terms.")}</p>
+              ${isArrival ? '<p class="arrival-mark">For the first night, open the Arrival night section and send the late-arrival note after booking.</p>' : ''}
+            </div>
+            <div class="card-footer">
+              ${hotel.officialUrl ? `<a class="button" href="${safeUrl(hotel.officialUrl)}" target="_blank" rel="noopener noreferrer">Official site ↗</a>` : '<span class="button secondary" aria-disabled="true">Official site unavailable</span>'}
+              ${hotel.compareUrl ? `<a class="button secondary" href="${safeUrl(hotel.compareUrl)}" target="_blank" rel="noopener noreferrer">Compare rates ↗</a>` : ''}
+            </div>
+          </article>
+        `;
+      }).join("");
+    }
+
+    function initPlanner() {
+      renderCityTabs();
+      renderHotels();
+      document.querySelectorAll("[data-filter]").forEach((button) => {
+        button.addEventListener("click", () => {
+          activeFilter = button.dataset.filter;
+          document.querySelectorAll("[data-filter]").forEach((item) => {
+            const selected = item.dataset.filter === activeFilter;
+            item.classList.toggle("is-active", selected);
+            item.setAttribute("aria-pressed", String(selected));
+          });
+          renderHotels();
+        });
+      });
+      document.getElementById("hotel-search").addEventListener("input", renderHotels);
+    }
+
+    renderTripHeader();
+    renderArrival();
+    initPlanner();
+  </script>
+</body>
+</html>

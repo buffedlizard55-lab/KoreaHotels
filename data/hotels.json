@@ -99,7 +99,13 @@
       "lng": 126.987,
       "priceNote": "Prices are typical 2026 estimates for standard double/queen. Check official site or OTA for live rates on your dates.",
       "hasOnSiteLaundry": true,
-      "stationWalkTime": "2 min walk to Myeongdong Station"
+      "stationWalkTime": "2 min walk to Myeongdong Station",
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://www.lottehotel.com/myeongdong-l7/en/main.html",
+        "note": "LOTTE confirms the operating Myeongdong property, address, rooms and facilities. Its separate arrival card uses a major trusted listing for the explicit 24-hour-desk claim."
+      }
     },
     {
       "id": "seoul-nine-tree",
@@ -167,7 +173,7 @@
         "Laundry",
         "Business center"
       ],
-      "officialUrl": "https://www.ninetreehotel.com/eng/myeongdong1/main.do",
+      "officialUrl": "https://www.ninetreehotels.com/nth1/?lang=en",
       "officialLabel": "Official site (ninetreehotel.com)",
       "compareUrl": "https://www.kayak.com/hotels/Seoul,c40k/Nine-Tree-by-Parnas-Seoul-Myeongdong-1",
       "compareLabel": "Compare rates (KAYAK)",
@@ -183,7 +189,13 @@
       "lng": 126.9835,
       "priceNote": "Prices are typical 2026 estimates for standard double/queen. Check official site or OTA for live rates on your dates.",
       "hasOnSiteLaundry": true,
-      "stationWalkTime": "1 min walk to Myeongdong Station"
+      "stationWalkTime": "1 min walk to Myeongdong Station",
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://www.ninetreehotels.com/nth1/?lang=en",
+        "note": "Parnas confirms the 144-room Myeongdong I property, room categories, coin laundry and one-minute Myeongdong Station access. The explicit 24-hour evidence is linked separately on the arrival card."
+      }
     },
     {
       "id": "seoul-ibis-styles",
@@ -200,14 +212,14 @@
       "checkOut": "12:00",
       "policies": [
         "Check-in from 15:00; check-out by 12:00.",
-        "Free breakfast included (typical Ibis Styles perk).",
+        "Breakfast is available; inclusion depends on the selected rate.",
         "Free Wi-Fi."
       ],
       "rooms": [
         {
           "name": "Standard Double",
           "price": "$90–110/night",
-          "note": "Compact, free breakfast",
+          "note": "Compact standard room; check breakfast inclusion",
           "bed": "double",
           "oneBed": true,
           "bedNote": "Single double bed (not two beds pushed together)",
@@ -235,7 +247,7 @@
         "Rooms are compact but clean & functional — great price-to-quality."
       ],
       "amenities": [
-        "Free breakfast",
+        "Breakfast available",
         "Roof terrace",
         "Top-floor restaurant",
         "Free Wi-Fi"
@@ -244,9 +256,9 @@
       "officialLabel": "Official site (all.accor.com / Accor ALL)",
       "compareUrl": "https://www.kayak.com/hotels/Seoul,c40k/Ibis-Styles-Ambassador-Seoul-Myeongdong",
       "compareLabel": "Compare rates (KAYAK)",
-      "why": "Best budget-quality balance: free breakfast, central location, reliable Accor standard.",
+      "why": "Central Accor budget option with compact rooms; compare rates that include breakfast rather than assuming it is free.",
       "highlights": [
-        "Free breakfast",
+        "Breakfast packages",
         "Roof terrace views",
         "Accor ALL points"
       ],
@@ -256,7 +268,13 @@
       "lng": 126.9838,
       "priceNote": "Prices are typical 2026 estimates for standard double/queen. Check official site or OTA for live rates on your dates.",
       "hasOnSiteLaundry": false,
-      "stationWalkTime": "3 min walk to Myeongdong Station"
+      "stationWalkTime": "3 min walk to Myeongdong Station",
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://all.accor.com/hotel/1976/index.en.shtml",
+        "note": "Accor confirms the current hotel, central address, normal hours and services. Breakfast and exact bed width must be checked in the selected live rate."
+      }
     },
     {
       "id": "seoul-ibis-insadong",
@@ -327,7 +345,13 @@
       "lat": 37.5742,
       "lng": 126.9832,
       "priceNote": "Prices are typical 2026 estimates for standard double/queen. Check official site or OTA for live rates on your dates.",
-      "hasOnSiteLaundry": true
+      "hasOnSiteLaundry": true,
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://all.accor.com/hotel/1888/index.en.shtml",
+        "note": "Accor confirms the operating Insadong property, address, normal hours and services; the recorded double room remains below the planner queen-width rule."
+      }
     },
     {
       "id": "seoul-four-seasons",
@@ -399,7 +423,13 @@
       "lat": 37.5702,
       "lng": 126.9742,
       "priceNote": "Prices are typical 2026 estimates for standard double/queen. Check official site or OTA for live rates on your dates.",
-      "hasOnSiteLaundry": false
+      "hasOnSiteLaundry": false,
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://www.fourseasons.com/seoul/",
+        "note": "Four Seasons confirms the current Gwanghwamun property, accommodations, dining, spa and central location."
+      }
     },
     {
       "id": "seoul-fairmont",
@@ -455,7 +485,7 @@
         "Multiple restaurants & bars",
         "Gym"
       ],
-      "officialUrl": "https://www.fairmont.com/seoul/",
+      "officialUrl": "https://www.fairmont.com/en/hotels/seoul/fairmont-ambassador-seoul.html",
       "officialLabel": "Official site (fairmont.com)",
       "compareUrl": "https://www.kayak.com/hotels/Seoul,c40k/Fairmont-Ambassador-Seoul",
       "compareLabel": "Compare rates (KAYAK)",
@@ -470,7 +500,13 @@
       "lat": 37.526,
       "lng": 126.9275,
       "priceNote": "Prices are typical 2026 estimates for standard double/queen. Check official site or OTA for live rates on your dates.",
-      "hasOnSiteLaundry": false
+      "hasOnSiteLaundry": false,
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://www.fairmont.com/en/hotels/seoul/fairmont-ambassador-seoul.html",
+        "note": "Fairmont/Accor confirms the Yeouido property, rooms, wellness facilities and location beside The Hyundai Seoul."
+      }
     },
     {
       "id": "busan-shilla-stay",
@@ -568,7 +604,13 @@
       "lng": 129.1587,
       "priceNote": "Prices are typical 2026 estimates for standard double/queen. Check official site or OTA for live rates on your dates.",
       "hasOnSiteLaundry": true,
-      "stationWalkTime": "5-9 min walk to Haeundae Station"
+      "stationWalkTime": "5-9 min walk to Haeundae Station",
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://www.shillastay.com/haeundae/main.do?lang=en",
+        "note": "Shilla Stay confirms the operating Haeundae property, rooms, facilities and booking channel; select Deluxe or Premier for the recorded queen setup."
+      }
     },
     {
       "id": "busan-l7-haeundae",
@@ -641,7 +683,13 @@
       "lng": 129.1555,
       "priceNote": "Prices are typical 2026 estimates for standard double/queen. Check official site or OTA for live rates on your dates.",
       "hasOnSiteLaundry": true,
-      "stationWalkTime": "10 min walk to Haeundae Station"
+      "stationWalkTime": "10 min walk to Haeundae Station",
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://www.lottehotel.com/haeundae-l7/en/main.html",
+        "note": "LOTTE confirms the current Haeundae L7 property, rooms, pool, facilities and booking channel."
+      }
     },
     {
       "id": "busan-asti",
@@ -725,7 +773,13 @@
       "lng": 129.0417,
       "priceNote": "Prices are typical 2026 estimates for standard double/queen. Check official site or OTA for live rates on your dates.",
       "hasOnSiteLaundry": false,
-      "stationWalkTime": "1 min walk to Busan Station"
+      "stationWalkTime": "1 min walk to Busan Station",
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Official property site",
+        "sourceUrl": "https://www.astihotel.com",
+        "note": "ASTI confirms the operating hotel beside Busan Station and its room/facility inventory; reconfirm the Executive king in live availability."
+      }
     },
     {
       "id": "busan-grand-josun",
@@ -742,8 +796,8 @@
       "checkOut": "11:00",
       "policies": [
         "Check-in from 15:00; check-out by 11:00.",
-        "Grand Josun is part of The Josun Hotels brand (Lotte affiliate).",
-        "Free breakfast options; best-rate guarantee on official site."
+        "Grand Josun is part of Josun Hotels & Resorts; it is not a LOTTE property.",
+        "Breakfast packages may be available; confirm inclusion and current direct-booking terms."
       ],
       "rooms": [
         {
@@ -796,7 +850,7 @@
         }
       ],
       "promos": [
-        "The Josun Hospitality membership (Josun Rewards / Lotte-affiliated perks).",
+        "Josun Hotels & Resorts direct packages and membership offers.",
         "Book direct on josun.com for best-rate guarantee & packages."
       ],
       "amenities": [
@@ -806,7 +860,7 @@
         "Multiple restaurants",
         "Gym"
       ],
-      "officialUrl": "https://www.josun.com/eng/hotel/main/index.do",
+      "officialUrl": "https://gjb.josunhotel.com/main.do?locale=en",
       "officialLabel": "Official site (josun.com)",
       "compareUrl": "https://www.kayak.com/hotels/Busan,c41830/Grand-Josun-Busan",
       "compareLabel": "Compare rates (KAYAK)",
@@ -821,7 +875,13 @@
       "lat": 35.1572,
       "lng": 129.1626,
       "priceNote": "Prices are typical 2026 estimates for standard double/queen. Check official site or OTA for live rates on your dates.",
-      "hasOnSiteLaundry": false
+      "hasOnSiteLaundry": false,
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://gjb.josunhotel.com/main.do?locale=en",
+        "note": "Josun Hotels & Resorts confirms the current Grand Josun Busan property and direct booking channel; it is not a LOTTE property."
+      }
     },
     {
       "id": "busan-park-hyatt",
@@ -878,7 +938,7 @@
         "Marina views",
         "Gym"
       ],
-      "officialUrl": "https://www.hyatt.com/park-hyatt/busan",
+      "officialUrl": "https://www.hyatt.com/park-hyatt/en-US/busph-park-hyatt-busan",
       "officialLabel": "Official site (hyatt.com)",
       "compareUrl": "https://www.kayak.com/hotels/Busan,c41830/Park-Hyatt-Busan",
       "compareLabel": "Compare rates (KAYAK)",
@@ -893,7 +953,13 @@
       "lat": 35.1528,
       "lng": 129.1496,
       "priceNote": "Prices are typical 2026 estimates for standard double/queen. Check official site or OTA for live rates on your dates.",
-      "hasOnSiteLaundry": false
+      "hasOnSiteLaundry": false,
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://www.hyatt.com/park-hyatt/en-US/busph-park-hyatt-busan",
+        "note": "Hyatt confirms the operating Marine City property, accommodations, dining and wellness facilities."
+      }
     },
     {
       "id": "gyeongju-hwangnamkwan",
@@ -950,7 +1016,7 @@
         "Hanbok rental",
         "Free Wi-Fi"
       ],
-      "officialUrl": "https://www.hwangnamkwan.co.kr",
+      "officialUrl": "http://www.hanokvillage.co.kr",
       "officialLabel": "Official site (hwangnamkwan.co.kr)",
       "compareUrl": "https://www.kayak.com/hotels/Gyeongju,c41830/Hwangnamkwan-Hanok-Hotel",
       "compareLabel": "Compare rates (KAYAK)",
@@ -964,7 +1030,13 @@
       "fitReason": "Hanok ondol beds · no subway in Gyeongju",
       "lat": 35.8364,
       "lng": 129.2286,
-      "hasOnSiteLaundry": false
+      "hasOnSiteLaundry": false,
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Korea Tourism Organization + property site",
+        "sourceUrl": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=63039",
+        "note": "VISITKOREA confirms Hwangnamguan at 1038 Poseok-ro, its hanok buildings, and bathrooms/toilets in each room; confirm the current booking channel and bedding directly."
+      }
     },
     {
       "id": "gyeongju-commodore",
@@ -1048,7 +1120,13 @@
       "fitReason": "No subway in Gyeongju",
       "lat": 35.8265,
       "lng": 129.244,
-      "hasOnSiteLaundry": false
+      "hasOnSiteLaundry": false,
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Official hotel + Korea Tourism Organization",
+        "sourceUrl": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=99034",
+        "note": "VISITKOREA and Commodore confirm the operating 262-room Bomun property, 14:00/12:00 hours, room classes and resort facilities."
+      }
     },
     {
       "id": "gyeongju-lahan",
@@ -1065,7 +1143,7 @@
       "checkOut": "11:00",
       "policies": [
         "Check-in from 15:00; check-out by 11:00.",
-        "Lahan is a premium hotel brand (lottery/hotel group).",
+        "Lahan Select is the premium resort brand used by this Bomun Lake property.",
         "Free Wi-Fi; multiple dining venues."
       ],
       "rooms": [
@@ -1132,7 +1210,13 @@
       "fitReason": "No subway in Gyeongju",
       "lat": 35.8332,
       "lng": 129.2402,
-      "hasOnSiteLaundry": false
+      "hasOnSiteLaundry": false,
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://www.lahan.com/gyeongju/en/main.do",
+        "note": "LAHAN confirms the current Bomun Lake property, rooms, dining and leisure facilities; check the exact queen category in live inventory."
+      }
     },
     {
       "id": "gyeongju-hilton",
@@ -1230,7 +1314,13 @@
       "fitReason": "No subway in Gyeongju",
       "lat": 35.8401,
       "lng": 129.2861,
-      "hasOnSiteLaundry": false
+      "hasOnSiteLaundry": false,
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Official hotel + Korea Tourism Organization",
+        "sourceUrl": "https://www.hilton.com/en/hotels/kyjgyhi-hilton-gyeongju/",
+        "note": "Hilton and VISITKOREA confirm the operating Bomun Lake hotel, 15:00/11:00 hours, king categories and resort facilities."
+      }
     },
     {
       "id": "gyeongju-gg-hotel",
@@ -1285,7 +1375,7 @@
         "Laundry",
         "24-hr reception"
       ],
-      "officialUrl": null,
+      "officialUrl": "https://www.gghotel.co.kr",
       "officialLabel": "Book via OTA (no official English site)",
       "compareUrl": "https://www.kayak.com/hotels/Gyeongju,c41830/GG-Hotel-Gyeongju",
       "compareLabel": "Compare rates (KAYAK)",
@@ -1299,7 +1389,13 @@
       "fitReason": "No subway in Gyeongju",
       "lat": 35.84,
       "lng": 129.2116,
-      "hasOnSiteLaundry": true
+      "hasOnSiteLaundry": true,
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Property site + established Korea tour operator",
+        "sourceUrl": "https://www.koreaetour.com/gyeongju-gg-hotel/",
+        "note": "Korea E Tour cross-checks the official GG Hotel domain, address and intercity-terminal location; current room and reception details must be reconfirmed directly."
+      }
     },
     {
       "id": "cheonan-shilla-stay",
@@ -2262,7 +2358,7 @@
         "Laundry facilities"
       ],
       "hasOnSiteLaundry": true,
-      "officialUrl": "https://www.skyparkhotel.com",
+      "officialUrl": "https://www.skyparkhotel.com/html/accommdation/accom3_tab1_01.asp",
       "officialLabel": "Book via OTA",
       "compareUrl": "https://www.kayak.com/hotels/Seoul,c40k/Hotel-Skypark-Myeongdong-3",
       "compareLabel": "Compare rates (KAYAK)",
@@ -2274,7 +2370,13 @@
       "fits": false,
       "fitReason": "Listed one-bed room is a double (~140 cm), below the planner’s queen-size minimum",
       "lat": 37.561,
-      "lng": 126.985
+      "lng": 126.985,
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://www.skyparkhotel.com/html/accommdation/accom3_tab1_01.asp",
+        "note": "Hotel Skypark confirms the Myeongdong III branch, 139 Toegye-ro address, Myeongdong Station and airport-limousine access."
+      }
     },
     {
       "id": "seoul-lescape",
@@ -2288,9 +2390,9 @@
       "priceTo": 420,
       "currency": "USD",
       "checkIn": "15:00",
-      "checkOut": "12:00",
+      "checkOut": "11:00",
       "policies": [
-        "Check-in from 15:00; check-out by 12:00.",
+        "Check-in from 15:00; check-out by 11:00.",
         "Free Wi-Fi."
       ],
       "rooms": [
@@ -2316,7 +2418,7 @@
         "Free Wi-Fi"
       ],
       "hasOnSiteLaundry": true,
-      "officialUrl": "https://www.marriott.com/hotels/travel/selak-lescape-a-luxury-collection-hotel-seoul-myeongdong/",
+      "officialUrl": "https://www.marriott.com/en-us/hotels/sellm-lescape-a-luxury-collection-hotel-seoul-myeongdong/overview/",
       "officialLabel": "Book via Marriott or OTA",
       "compareUrl": "https://www.kayak.com/hotels/Seoul,c40k/LEscape-A-Luxury-Collection-Hotel-Seoul-Myeongdong",
       "compareLabel": "Compare rates (KAYAK)",
@@ -2328,7 +2430,13 @@
       "fits": true,
       "fitReason": "King · Myeongdong Stn ~4 min",
       "lat": 37.562,
-      "lng": 126.984
+      "lng": 126.984,
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://www.marriott.com/en-us/hotels/sellm-lescape-a-luxury-collection-hotel-seoul-myeongdong/overview/",
+        "note": "Marriott confirms the current Luxury Collection affiliation, 67 Toegye-ro address, 15:00/11:00 hours and hotel facilities."
+      }
     },
     {
       "id": "busan-toyoko-haeundae2",
@@ -2381,7 +2489,13 @@
       "fits": false,
       "fitReason": "Listed one-bed room is a double (~140 cm), below the planner’s queen-size minimum",
       "lat": 35.16,
-      "lng": 129.16
+      "lng": 129.16,
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://www.toyoko-inn.com/eng/search/detail/00256/",
+        "note": "Toyoko Inn confirms the Haeundae 2 branch, normal hours, rooms and hotel services; the double width remains below or unconfirmed for the planner queen rule."
+      }
     },
     {
       "id": "busan-ramada-encore-haeundae",
@@ -2434,27 +2548,2346 @@
       "fits": false,
       "fitReason": "Listed one-bed room is a double (~140 cm), below the planner’s queen-size minimum",
       "lat": 35.16,
-      "lng": 129.16
+      "lng": 129.16,
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://www.wyndhamhotels.com/ramada/busan-south-korea/ramada-encore-haeundae/overview",
+        "note": "Wyndham confirms the operating Haeundae property, exact address and direct booking channel; the listed standard double is not treated as a queen."
+      }
+    },
+    {
+      "id": "seoul-somerset-palace",
+      "city": "Seoul",
+      "name": "Somerset Palace Seoul",
+      "tier": "mid",
+      "stars": 4,
+      "area": "Gwanghwamun / Insadong",
+      "neighborhood": "Between Gyeongbokgung, Insadong, Anguk and Gwanghwamun",
+      "priceFrom": 140,
+      "priceTo": 220,
+      "currency": "USD",
+      "checkIn": "15:00",
+      "checkOut": "12:00",
+      "policies": [
+        "Standard check-in from 15:00; check-out by 12:00.",
+        "Room inventory, cancellation terms, and inclusions vary by rate; confirm them on the official booking page.",
+        "24-hour reception is not assumed for the general city list; use the separate arrival-night shortlist for night one."
+      ],
+      "rooms": [
+        {
+          "name": "Studio Executive",
+          "price": "$140–190/night",
+          "note": "Kitchen, washer/dryer and private bathroom",
+          "bed": "queen",
+          "bedType": "queen",
+          "bedSize": "Queen (official room page)",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single Queen bed (not two beds pushed together)"
+        }
+      ],
+      "promos": [
+        "Check the official property page for member, advance-purchase, and length-of-stay rates."
+      ],
+      "amenities": [
+        "In-room washer and dryer",
+        "Kitchen",
+        "Fitness center",
+        "Seasonal rooftop pool",
+        "24-hour reception"
+      ],
+      "hasOnSiteLaundry": true,
+      "officialUrl": "https://www.discoverasr.com/en/somerset-serviced-residence/korea-south/somerset-palace-seoul",
+      "officialLabel": "Official property / hotel-group site",
+      "compareUrl": "https://www.google.com/travel/search?q=Somerset+Palace+Seoul+Seoul",
+      "compareLabel": "Compare live rates (Google Hotels)",
+      "why": "The strongest long-stay palace-area option: an apartment-style room with its own laundry and the planner's best official-source late-arrival evidence.",
+      "highlights": [
+        "Officially listed 24-hour reception",
+        "Washer/dryer in apartment",
+        "Walk to palaces and Insadong"
+      ],
+      "fits": true,
+      "fitReason": "Queen Studio Executive · Anguk about 3 min",
+      "lat": 37.5748318,
+      "lng": 126.9814698,
+      "priceNote": "Planning estimate for autumn 2026, not a live quote. Confirm the total for the exact room and dates.",
+      "stationWalkTime": "3 min walk to Anguk; about 5 min to Gwanghwamun/Jonggak",
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://www.discoverasr.com/en/somerset-serviced-residence/korea-south/somerset-palace-seoul",
+        "note": "Official Ascott pages confirm the property, 15:00/12:00 hours, nearby subway stations, a queen Studio Executive, private bathroom, washer/dryer, and 24-hour reception."
+      }
+    },
+    {
+      "id": "seoul-ibis-ambassador-myeongdong",
+      "city": "Seoul",
+      "name": "ibis Ambassador Seoul Myeongdong",
+      "tier": "mid",
+      "stars": 3,
+      "area": "Myeongdong",
+      "neighborhood": "Namdaemun-ro beside the Myeongdong shopping district",
+      "priceFrom": 100,
+      "priceTo": 150,
+      "currency": "USD",
+      "checkIn": "14:00",
+      "checkOut": "12:00",
+      "policies": [
+        "Standard check-in from 14:00; check-out by 12:00.",
+        "Room inventory, cancellation terms, and inclusions vary by rate; confirm them on the official booking page.",
+        "24-hour reception is not assumed for the general city list; use the separate arrival-night shortlist for night one."
+      ],
+      "rooms": [
+        {
+          "name": "Standard Room with 1 Double Bed",
+          "price": "$100–130/night",
+          "note": "Private en-suite bathroom",
+          "bed": "double",
+          "bedType": "double",
+          "bedSize": "Double (size not published on the cited official page)",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single Double bed (not two beds pushed together)"
+        }
+      ],
+      "promos": [
+        "Check the official property page for member, advance-purchase, and length-of-stay rates."
+      ],
+      "amenities": [
+        "Restaurant",
+        "Fitness center",
+        "Bar",
+        "Wi-Fi",
+        "24-hour reception service"
+      ],
+      "hasOnSiteLaundry": false,
+      "officialUrl": "https://all.accor.com/hotel/6317/index.en.shtml",
+      "officialLabel": "Official property / hotel-group site",
+      "compareUrl": "https://www.google.com/travel/search?q=ibis+Ambassador+Seoul+Myeongdong+Seoul",
+      "compareLabel": "Compare live rates (Google Hotels)",
+      "why": "A centrally located Accor option with unusually strong government-tourism evidence for round-the-clock reception.",
+      "highlights": [
+        "Official tourism 24-hour reception evidence",
+        "Central shopping location",
+        "Accor ALL rates"
+      ],
+      "fits": false,
+      "fitReason": "Officially named room has one double bed; confirm its exact width if a queen is required",
+      "lat": 37.564316,
+      "lng": 126.982635,
+      "priceNote": "Planning estimate for autumn 2026, not a live quote. Confirm the total for the exact room and dates.",
+      "stationWalkTime": "4 min walk to Euljiro 1-ga; about 7 min to Myeongdong Station",
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Official hotel + Korea Tourism Organization",
+        "sourceUrl": "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=96506",
+        "note": "Accor confirms the hotel and 14:00/12:00 hours; government-run VISITKOREA explicitly lists 24-hour reception service."
+      }
+    },
+    {
+      "id": "seoul-moxy-myeongdong",
+      "city": "Seoul",
+      "name": "Moxy Seoul, Myeongdong",
+      "tier": "mid",
+      "stars": 3,
+      "area": "Myeongdong",
+      "neighborhood": "Inside the Myeongdong shopping district near airport-bus stops",
+      "priceFrom": 150,
+      "priceTo": 230,
+      "currency": "USD",
+      "checkIn": "16:00",
+      "checkOut": "12:00",
+      "policies": [
+        "Standard check-in from 16:00; check-out by 12:00.",
+        "Room inventory, cancellation terms, and inclusions vary by rate; confirm them on the official booking page.",
+        "24-hour reception is not assumed for the general city list; use the separate arrival-night shortlist for night one."
+      ],
+      "rooms": [
+        {
+          "name": "King Guest Room",
+          "price": "$150–205/night",
+          "note": "Private en-suite bathroom",
+          "bed": "king",
+          "bedType": "king",
+          "bedSize": "King (official Marriott room category)",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single King bed (not two beds pushed together)"
+        }
+      ],
+      "promos": [
+        "Check the official property page for member, advance-purchase, and length-of-stay rates."
+      ],
+      "amenities": [
+        "Bar Moxy",
+        "24-hour grab-and-go",
+        "Fitness access",
+        "Wi-Fi",
+        "On-site laundry"
+      ],
+      "hasOnSiteLaundry": true,
+      "officialUrl": "https://www.marriott.com/en-us/hotels/selmx-moxy-seoul-myeongdong/overview/",
+      "officialLabel": "Official property / hotel-group site",
+      "compareUrl": "https://www.google.com/travel/search?q=Moxy+Seoul%2C+Myeongdong+Seoul",
+      "compareLabel": "Compare live rates (Google Hotels)",
+      "why": "A playful, newer Marriott option in the middle of Myeongdong with a true king-room category and convenient airport-bus access.",
+      "highlights": [
+        "King room",
+        "Marriott Bonvoy",
+        "Myeongdong shopping at the door"
+      ],
+      "fits": true,
+      "fitReason": "King room · Myeongdong Station about 5 min",
+      "lat": 37.56191,
+      "lng": 126.98264,
+      "priceNote": "Planning estimate for autumn 2026, not a live quote. Confirm the total for the exact room and dates.",
+      "stationWalkTime": "5 min walk to Myeongdong Station",
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://www.marriott.com/en-us/hotels/selmx-moxy-seoul-myeongdong/overview/",
+        "note": "Marriott confirms the property, address, 16:00/12:00 hours, Myeongdong access, hotel amenities and king room categories."
+      }
+    },
+    {
+      "id": "seoul-le-meridien-myeongdong",
+      "city": "Seoul",
+      "name": "Le Méridien Seoul, Myeongdong",
+      "tier": "premium",
+      "stars": 5,
+      "area": "Myeongdong",
+      "neighborhood": "Luxury half of the Le Méridien/Moxy dual-brand property",
+      "priceFrom": 300,
+      "priceTo": 450,
+      "currency": "USD",
+      "checkIn": "16:00",
+      "checkOut": "12:00",
+      "policies": [
+        "Standard check-in from 16:00; check-out by 12:00.",
+        "Room inventory, cancellation terms, and inclusions vary by rate; confirm them on the official booking page.",
+        "24-hour reception is not assumed for the general city list; use the separate arrival-night shortlist for night one."
+      ],
+      "rooms": [
+        {
+          "name": "Deluxe King",
+          "price": "$300–380/night",
+          "note": "Private en-suite bathroom",
+          "bed": "king",
+          "bedType": "king",
+          "bedSize": "King (official Marriott category)",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single King bed (not two beds pushed together)"
+        }
+      ],
+      "promos": [
+        "Check the official property page for member, advance-purchase, and length-of-stay rates."
+      ],
+      "amenities": [
+        "Indoor pool",
+        "Fitness center",
+        "Restaurant",
+        "Club lounge",
+        "On-site laundry"
+      ],
+      "hasOnSiteLaundry": true,
+      "officialUrl": "https://www.marriott.com/en-us/hotels/selmm-le-meridien-seoul-myeongdong/overview/",
+      "officialLabel": "Official property / hotel-group site",
+      "compareUrl": "https://www.google.com/travel/search?q=Le+M%C3%A9ridien+Seoul%2C+Myeongdong+Seoul",
+      "compareLabel": "Compare live rates (Google Hotels)",
+      "why": "A modern full-service luxury stay directly in Myeongdong, especially useful for Marriott status and indoor-pool access.",
+      "highlights": [
+        "Indoor pool",
+        "Marriott Bonvoy",
+        "Central luxury base"
+      ],
+      "fits": true,
+      "fitReason": "King room · Myeongdong Station about 5 min",
+      "lat": 37.56186,
+      "lng": 126.98268,
+      "priceNote": "Planning estimate for autumn 2026, not a live quote. Confirm the total for the exact room and dates.",
+      "stationWalkTime": "5 min walk to Myeongdong Station",
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://www.marriott.com/en-us/hotels/selmm-le-meridien-seoul-myeongdong/overview/",
+        "note": "Marriott confirms the 5-star property, address, 16:00/12:00 hours, pool, lounge and accommodations."
+      }
+    },
+    {
+      "id": "seoul-aloft-myeongdong",
+      "city": "Seoul",
+      "name": "Aloft Seoul Myeongdong",
+      "tier": "mid",
+      "stars": 4,
+      "area": "Myeongdong",
+      "neighborhood": "Namdaemun-ro between Myeongdong and the department stores",
+      "priceFrom": 150,
+      "priceTo": 230,
+      "currency": "USD",
+      "checkIn": "15:00",
+      "checkOut": "12:00",
+      "policies": [
+        "Standard check-in from 15:00; check-out by 12:00.",
+        "Room inventory, cancellation terms, and inclusions vary by rate; confirm them on the official booking page.",
+        "24-hour reception is not assumed for the general city list; use the separate arrival-night shortlist for night one."
+      ],
+      "rooms": [
+        {
+          "name": "Deluxe King",
+          "price": "$160–215/night",
+          "note": "Private en-suite bathroom",
+          "bed": "king",
+          "bedType": "king",
+          "bedSize": "King (official Marriott room category)",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single King bed (not two beds pushed together)"
+        }
+      ],
+      "promos": [
+        "Check the official property page for member, advance-purchase, and length-of-stay rates."
+      ],
+      "amenities": [
+        "Fitness center",
+        "Bar",
+        "Restaurant",
+        "Coin laundry",
+        "Wi-Fi"
+      ],
+      "hasOnSiteLaundry": true,
+      "officialUrl": "https://www.marriott.com/en-us/hotels/selmo-aloft-seoul-myeongdong/overview/",
+      "officialLabel": "Official property / hotel-group site",
+      "compareUrl": "https://www.google.com/travel/search?q=Aloft+Seoul+Myeongdong+Seoul",
+      "compareLabel": "Compare live rates (Google Hotels)",
+      "why": "A reliable upper-midscale Marriott with a king room and coin laundry in one of the trip's most convenient neighborhoods.",
+      "highlights": [
+        "Deluxe King",
+        "Coin laundry",
+        "Myeongdong/Namdaemun access"
+      ],
+      "fits": true,
+      "fitReason": "Deluxe King · Myeongdong Station about 6 min",
+      "lat": 37.562099,
+      "lng": 126.981713,
+      "priceNote": "Planning estimate for autumn 2026, not a live quote. Confirm the total for the exact room and dates.",
+      "stationWalkTime": "6 min walk to Myeongdong Station",
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://www.marriott.com/en-us/hotels/selmo-aloft-seoul-myeongdong/overview/",
+        "note": "Marriott confirms the property, 15:00/12:00 hours, location and Deluxe King category."
+      }
+    },
+    {
+      "id": "seoul-courtyard-myeongdong",
+      "city": "Seoul",
+      "name": "Courtyard by Marriott Seoul Myeongdong",
+      "tier": "mid",
+      "stars": 4,
+      "area": "Namdaemun / Myeongdong",
+      "neighborhood": "By Namdaemun Market and Sungnyemun, walkable to Myeongdong",
+      "priceFrom": 170,
+      "priceTo": 260,
+      "currency": "USD",
+      "checkIn": "15:00",
+      "checkOut": "11:00",
+      "policies": [
+        "Standard check-in from 15:00; check-out by 11:00.",
+        "Room inventory, cancellation terms, and inclusions vary by rate; confirm them on the official booking page.",
+        "24-hour reception is not assumed for the general city list; use the separate arrival-night shortlist for night one."
+      ],
+      "rooms": [
+        {
+          "name": "Deluxe King",
+          "price": "$175–230/night",
+          "note": "Private en-suite bathroom",
+          "bed": "king",
+          "bedType": "king",
+          "bedSize": "King (official Marriott room page)",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single King bed (not two beds pushed together)"
+        }
+      ],
+      "promos": [
+        "Check the official property page for member, advance-purchase, and length-of-stay rates."
+      ],
+      "amenities": [
+        "Fitness center",
+        "Restaurant",
+        "Bar",
+        "Wi-Fi",
+        "Room service"
+      ],
+      "hasOnSiteLaundry": false,
+      "officialUrl": "https://www.marriott.com/en-us/hotels/selsn-courtyard-seoul-myeongdong/overview/",
+      "officialLabel": "Official property / hotel-group site",
+      "compareUrl": "https://www.google.com/travel/search?q=Courtyard+by+Marriott+Seoul+Myeongdong+Seoul",
+      "compareLabel": "Compare live rates (Google Hotels)",
+      "why": "A polished full-service option between Namdaemun and Myeongdong with larger king rooms than many nearby business hotels.",
+      "highlights": [
+        "Deluxe King",
+        "Near Namdaemun Market",
+        "Marriott Bonvoy"
+      ],
+      "fits": true,
+      "fitReason": "Deluxe King · Hoehyeon Station about 5 min",
+      "lat": 37.561153,
+      "lng": 126.976972,
+      "priceNote": "Planning estimate for autumn 2026, not a live quote. Confirm the total for the exact room and dates.",
+      "stationWalkTime": "5 min walk to Hoehyeon Station; 12 min to Seoul Station",
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://www.marriott.com/en-us/hotels/selsn-courtyard-seoul-myeongdong/overview/",
+        "note": "Marriott confirms the property, address, 15:00/11:00 hours, private accommodation and Deluxe King category."
+      }
+    },
+    {
+      "id": "seoul-four-points-myeongdong",
+      "city": "Seoul",
+      "name": "Four Points by Sheraton Josun, Seoul Myeongdong",
+      "tier": "mid",
+      "stars": 4,
+      "area": "Myeongdong / Euljiro",
+      "neighborhood": "Near Euljiro 3-ga interchange, east side of Myeongdong",
+      "priceFrom": 120,
+      "priceTo": 190,
+      "currency": "USD",
+      "checkIn": "15:00",
+      "checkOut": "12:00",
+      "policies": [
+        "Standard check-in from 15:00; check-out by 12:00.",
+        "Room inventory, cancellation terms, and inclusions vary by rate; confirm them on the official booking page.",
+        "24-hour reception is not assumed for the general city list; use the separate arrival-night shortlist for night one."
+      ],
+      "rooms": [
+        {
+          "name": "Deluxe King",
+          "price": "$130–175/night",
+          "note": "Private en-suite bathroom",
+          "bed": "king",
+          "bedType": "king",
+          "bedSize": "King (official Marriott room page)",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single King bed (not two beds pushed together)"
+        }
+      ],
+      "promos": [
+        "Check the official property page for member, advance-purchase, and length-of-stay rates."
+      ],
+      "amenities": [
+        "Fitness center",
+        "Restaurant",
+        "Bar",
+        "Wi-Fi",
+        "Business center"
+      ],
+      "hasOnSiteLaundry": false,
+      "officialUrl": "https://www.marriott.com/en-us/hotels/selfd-four-points-josun-seoul-myeongdong/overview/",
+      "officialLabel": "Official property / hotel-group site",
+      "compareUrl": "https://www.google.com/travel/search?q=Four+Points+by+Sheraton+Josun%2C+Seoul+Myeongdong+Seoul",
+      "compareLabel": "Compare live rates (Google Hotels)",
+      "why": "Strong value for a true king room beside a two-line subway interchange, while remaining walkable to Myeongdong.",
+      "highlights": [
+        "King room",
+        "Euljiro 3-ga interchange",
+        "Marriott Bonvoy"
+      ],
+      "fits": true,
+      "fitReason": "Deluxe King · Euljiro 3-ga about 2 min",
+      "lat": 37.565614,
+      "lng": 126.98933,
+      "priceNote": "Planning estimate for autumn 2026, not a live quote. Confirm the total for the exact room and dates.",
+      "stationWalkTime": "2 min walk to Euljiro 3-ga Station",
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://www.marriott.com/en-us/hotels/selfd-four-points-josun-seoul-myeongdong/overview/",
+        "note": "Marriott confirms the hotel, 15:00/12:00 hours, address, transit-friendly location and king category."
+      }
+    },
+    {
+      "id": "seoul-nine-tree-myeongdong2",
+      "city": "Seoul",
+      "name": "Nine Tree by Parnas Seoul Myeongdong 2",
+      "tier": "mid",
+      "stars": 4,
+      "area": "Myeongdong / Euljiro",
+      "neighborhood": "Mareunnae-ro, near Euljiro 3-ga and Chungmuro",
+      "priceFrom": 100,
+      "priceTo": 170,
+      "currency": "USD",
+      "checkIn": "15:00",
+      "checkOut": "12:00",
+      "policies": [
+        "Standard check-in from 15:00; check-out by 12:00.",
+        "Room inventory, cancellation terms, and inclusions vary by rate; confirm them on the official booking page.",
+        "24-hour reception is not assumed for the general city list; use the separate arrival-night shortlist for night one."
+      ],
+      "rooms": [
+        {
+          "name": "Hollywood Double",
+          "price": "$120–155/night",
+          "note": "Private en-suite bathroom",
+          "bed": "king",
+          "bedType": "king",
+          "bedSize": "King / Hollywood double configuration",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single King bed (not two beds pushed together)"
+        }
+      ],
+      "promos": [
+        "Check the official property page for member, advance-purchase, and length-of-stay rates."
+      ],
+      "amenities": [
+        "Fitness room",
+        "Restaurant",
+        "Lounge 9",
+        "Coin laundry",
+        "Convenience store"
+      ],
+      "hasOnSiteLaundry": true,
+      "officialUrl": "https://www.ninetreehotels.com/nth2/?lang=en",
+      "officialLabel": "Official property / hotel-group site",
+      "compareUrl": "https://www.google.com/travel/search?q=Nine+Tree+by+Parnas+Seoul+Myeongdong+2+Seoul",
+      "compareLabel": "Compare live rates (Google Hotels)",
+      "why": "A larger Nine Tree with coin laundry, a lounge and a king-width Hollywood Double near two useful subway lines.",
+      "highlights": [
+        "Hollywood Double",
+        "Coin laundry",
+        "Euljiro 3-ga access"
+      ],
+      "fits": true,
+      "fitReason": "Hollywood Double · Euljiro 3-ga about 4 min",
+      "lat": 37.56436,
+      "lng": 126.99083,
+      "priceNote": "Planning estimate for autumn 2026, not a live quote. Confirm the total for the exact room and dates.",
+      "stationWalkTime": "4 min walk to Euljiro 3-ga Station",
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://www.ninetreehotels.com/nth2/?lang=en",
+        "note": "The official Parnas site confirms this 408-room property, its room categories, facilities and Myeongdong location."
+      }
+    },
+    {
+      "id": "seoul-nine-tree-insadong",
+      "city": "Seoul",
+      "name": "Nine Tree by Parnas Seoul Insadong",
+      "tier": "mid",
+      "stars": 4,
+      "area": "Insadong / Gwanghwamun",
+      "neighborhood": "Insa-dong-gil beside Jogyesa and the palace district",
+      "priceFrom": 120,
+      "priceTo": 190,
+      "currency": "USD",
+      "checkIn": "15:00",
+      "checkOut": "12:00",
+      "policies": [
+        "Standard check-in from 15:00; check-out by 12:00.",
+        "Room inventory, cancellation terms, and inclusions vary by rate; confirm them on the official booking page.",
+        "24-hour reception is not assumed for the general city list; use the separate arrival-night shortlist for night one."
+      ],
+      "rooms": [
+        {
+          "name": "Standard Double",
+          "price": "$120–160/night",
+          "note": "Private en-suite bathroom",
+          "bed": "queen",
+          "bedType": "queen",
+          "bedSize": "Queen (current trusted room listing; reconfirm at booking)",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single Queen bed (not two beds pushed together)"
+        }
+      ],
+      "promos": [
+        "Check the official property page for member, advance-purchase, and length-of-stay rates."
+      ],
+      "amenities": [
+        "Fitness room",
+        "Lounge 9",
+        "Rooftop bar",
+        "Coin laundry",
+        "Self lockers"
+      ],
+      "hasOnSiteLaundry": true,
+      "officialUrl": "https://www.ninetreehotels.com/nth3/",
+      "officialLabel": "Official property / hotel-group site",
+      "compareUrl": "https://www.google.com/travel/search?q=Nine+Tree+by+Parnas+Seoul+Insadong+Seoul",
+      "compareLabel": "Compare live rates (Google Hotels)",
+      "why": "One of the most practical palace-area bases: atmospheric Insadong outside, modern rooms and self-service laundry inside.",
+      "highlights": [
+        "Anguk Station 3 min",
+        "Coin laundry",
+        "Walk to palaces"
+      ],
+      "fits": true,
+      "fitReason": "Standard Double/queen listing · Anguk about 3 min",
+      "lat": 37.5746,
+      "lng": 126.9834,
+      "priceNote": "Planning estimate for autumn 2026, not a live quote. Confirm the total for the exact room and dates.",
+      "stationWalkTime": "3 min walk to Anguk Station",
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://www.ninetreehotels.com/nth3/",
+        "note": "The official Parnas page confirms the hotel, Insadong address, Standard Double category, facilities and 3-minute Anguk access."
+      }
+    },
+    {
+      "id": "seoul-shilla-stay-gwanghwamun",
+      "city": "Seoul",
+      "name": "Shilla Stay Gwanghwamun Myeongdong",
+      "tier": "mid",
+      "stars": 4,
+      "area": "Gwanghwamun / Jongno",
+      "neighborhood": "Near Jogyesa, Gwanghwamun Square, Jonggak and Anguk",
+      "priceFrom": 110,
+      "priceTo": 180,
+      "currency": "USD",
+      "checkIn": "15:00",
+      "checkOut": "12:00",
+      "policies": [
+        "Standard check-in from 15:00; check-out by 12:00.",
+        "Room inventory, cancellation terms, and inclusions vary by rate; confirm them on the official booking page.",
+        "24-hour reception is not assumed for the general city list; use the separate arrival-night shortlist for night one."
+      ],
+      "rooms": [
+        {
+          "name": "Hollywood Double",
+          "price": "$125–165/night",
+          "note": "Private en-suite bathroom",
+          "bed": "king",
+          "bedType": "king",
+          "bedSize": "King / Hollywood double (confirm selected rate)",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single King bed (not two beds pushed together)"
+        }
+      ],
+      "promos": [
+        "Check the official property page for member, advance-purchase, and length-of-stay rates."
+      ],
+      "amenities": [
+        "Fitness center",
+        "Restaurant",
+        "Bar",
+        "Wi-Fi",
+        "Business corner"
+      ],
+      "hasOnSiteLaundry": false,
+      "officialUrl": "https://www.shillastay.com/gwanghwamun/accommodation/viewAccmo.do?contId=ST",
+      "officialLabel": "Official property / hotel-group site",
+      "compareUrl": "https://www.google.com/travel/search?q=Shilla+Stay+Gwanghwamun+Myeongdong+Seoul",
+      "compareLabel": "Compare live rates (Google Hotels)",
+      "why": "A dependable Korean chain base for the palace district, with several subway stations and Jongno dining in walking distance.",
+      "highlights": [
+        "Palace district",
+        "Shilla Rewards",
+        "Several nearby subway lines"
+      ],
+      "fits": true,
+      "fitReason": "Hollywood Double/king · Jonggak about 6 min",
+      "lat": 37.5725,
+      "lng": 126.9812,
+      "priceNote": "Planning estimate for autumn 2026, not a live quote. Confirm the total for the exact room and dates.",
+      "stationWalkTime": "6 min walk to Jonggak; about 8 min to Gwanghwamun/Anguk",
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://www.shillastay.com/gwanghwamun/accommodation/viewAccmo.do?contId=ST",
+        "note": "Shilla Stay confirms the property and 15:00/noon policy; current trusted inventory identifies a Hollywood Double king category."
+      }
+    },
+    {
+      "id": "seoul-lotte-hotel",
+      "city": "Seoul",
+      "name": "LOTTE HOTEL SEOUL",
+      "tier": "premium",
+      "stars": 5,
+      "area": "Myeongdong / City Hall",
+      "neighborhood": "Euljiro 1-ga, connected to Lotte shopping and near City Hall",
+      "priceFrom": 240,
+      "priceTo": 420,
+      "currency": "USD",
+      "checkIn": "15:00",
+      "checkOut": "11:00",
+      "policies": [
+        "Standard check-in from 15:00; check-out by 11:00.",
+        "Room inventory, cancellation terms, and inclusions vary by rate; confirm them on the official booking page.",
+        "24-hour reception is not assumed for the general city list; use the separate arrival-night shortlist for night one."
+      ],
+      "rooms": [
+        {
+          "name": "Main Tower Deluxe Double",
+          "price": "$250–340/night",
+          "note": "Private en-suite bathroom",
+          "bed": "king",
+          "bedType": "king",
+          "bedSize": "Double/king configuration — confirm bed wording in live rate",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single King bed (not two beds pushed together)"
+        }
+      ],
+      "promos": [
+        "Check the official property page for member, advance-purchase, and length-of-stay rates."
+      ],
+      "amenities": [
+        "Indoor pool",
+        "Spa and sauna",
+        "Fitness center",
+        "Eight dining venues",
+        "Club lounge"
+      ],
+      "hasOnSiteLaundry": false,
+      "officialUrl": "https://www.lottehotel.com/seoul-hotel/en/rooms",
+      "officialLabel": "Official property / hotel-group site",
+      "compareUrl": "https://www.google.com/travel/search?q=LOTTE+HOTEL+SEOUL+Seoul",
+      "compareLabel": "Compare live rates (Google Hotels)",
+      "why": "The classic full-service splurge in central Seoul, with direct access to shopping and Euljiro 1-ga Station.",
+      "highlights": [
+        "Connected to Euljiro 1-ga",
+        "Pool and spa",
+        "LOTTE Rewards"
+      ],
+      "fits": true,
+      "fitReason": "Deluxe Double/king selection · Euljiro 1-ga connected",
+      "lat": 37.5653,
+      "lng": 126.9809,
+      "priceNote": "Planning estimate for autumn 2026, not a live quote. Confirm the total for the exact room and dates.",
+      "stationWalkTime": "Direct connection to Euljiro 1-ga Station",
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://www.lottehotel.com/seoul-hotel/en/rooms",
+        "note": "LOTTE's official site confirms the 5-star 1,015-room hotel, central address, Main/Executive Towers, room categories and facilities."
+      }
+    },
+    {
+      "id": "seoul-westin-josun",
+      "city": "Seoul",
+      "name": "The Westin Josun Seoul",
+      "tier": "premium",
+      "stars": 5,
+      "area": "City Hall / Myeongdong",
+      "neighborhood": "Sogong-ro between City Hall and Myeongdong",
+      "priceFrom": 280,
+      "priceTo": 450,
+      "currency": "USD",
+      "checkIn": "15:00",
+      "checkOut": "12:00",
+      "policies": [
+        "Standard check-in from 15:00; check-out by 12:00.",
+        "Room inventory, cancellation terms, and inclusions vary by rate; confirm them on the official booking page.",
+        "24-hour reception is not assumed for the general city list; use the separate arrival-night shortlist for night one."
+      ],
+      "rooms": [
+        {
+          "name": "Deluxe King",
+          "price": "$290–380/night",
+          "note": "Private en-suite bathroom",
+          "bed": "king",
+          "bedType": "king",
+          "bedSize": "King (official Marriott category)",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single King bed (not two beds pushed together)"
+        }
+      ],
+      "promos": [
+        "Check the official property page for member, advance-purchase, and length-of-stay rates."
+      ],
+      "amenities": [
+        "Indoor pool",
+        "Spa",
+        "Fitness center",
+        "Club lounge",
+        "Restaurants"
+      ],
+      "hasOnSiteLaundry": false,
+      "officialUrl": "https://www.marriott.com/en-us/hotels/selwi-the-westin-josun-seoul/overview/",
+      "officialLabel": "Official property / hotel-group site",
+      "compareUrl": "https://www.google.com/travel/search?q=The+Westin+Josun+Seoul+Seoul",
+      "compareLabel": "Compare live rates (Google Hotels)",
+      "why": "Historic luxury with a true king category and a location that works equally well for Myeongdong, City Hall and the palaces.",
+      "highlights": [
+        "Deluxe King",
+        "Indoor pool and spa",
+        "Marriott Bonvoy"
+      ],
+      "fits": true,
+      "fitReason": "Deluxe King · City Hall about 4 min",
+      "lat": 37.564548,
+      "lng": 126.97998,
+      "priceNote": "Planning estimate for autumn 2026, not a live quote. Confirm the total for the exact room and dates.",
+      "stationWalkTime": "4 min walk to City Hall Station",
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://www.marriott.com/en-us/hotels/selwi-the-westin-josun-seoul/overview/",
+        "note": "Marriott confirms the historic 5-star hotel, address, 15:00/12:00 hours, Deluxe King category, pool, spa and central location."
+      }
+    },
+    {
+      "id": "gyeongju-kolon",
+      "city": "Gyeongju",
+      "name": "Kolon Hotel Gyeongju",
+      "tier": "mid",
+      "stars": 4,
+      "area": "Bulguksa / Tohamsan",
+      "neighborhood": "Resort-style property close to Bulguksa Temple",
+      "priceFrom": 65,
+      "priceTo": 120,
+      "currency": "USD",
+      "checkIn": "15:00",
+      "checkOut": "11:00",
+      "policies": [
+        "Standard check-in from 15:00; check-out by 11:00.",
+        "Room inventory, cancellation terms, and inclusions vary by rate; confirm them on the official booking page.",
+        "24-hour reception is not assumed for the general city list; use the separate arrival-night shortlist for night one."
+      ],
+      "rooms": [
+        {
+          "name": "Premier Double",
+          "price": "$70–105/night",
+          "note": "Private en-suite bathroom",
+          "bed": "double",
+          "bedType": "double",
+          "bedSize": "Double (exact width not published in cited source)",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single Double bed (not two beds pushed together)"
+        }
+      ],
+      "promos": [
+        "Check the official property page for member, advance-purchase, and length-of-stay rates."
+      ],
+      "amenities": [
+        "Seasonal pool",
+        "Sauna",
+        "Golf course",
+        "Restaurant",
+        "Convenience store"
+      ],
+      "hasOnSiteLaundry": false,
+      "officialUrl": "https://www.kolonhotel.co.kr/",
+      "officialLabel": "Official property / hotel-group site",
+      "compareUrl": "https://www.google.com/travel/search?q=Kolon+Hotel+Gyeongju+Gyeongju",
+      "compareLabel": "Compare live rates (Google Hotels)",
+      "why": "The best full-service choice when Bulguksa and Seokguram are the priority rather than Old Town nightlife.",
+      "highlights": [
+        "Near Bulguksa",
+        "Hot-spring/sauna facilities",
+        "Seasonal pool"
+      ],
+      "fits": false,
+      "fitReason": "No practical walk to Singyeongju KTX; cited double width needs confirmation",
+      "lat": 35.787835,
+      "lng": 129.321768,
+      "priceNote": "Planning estimate for autumn 2026, not a live quote. Confirm the total for the exact room and dates.",
+      "stationWalkTime": "Taxi/bus required from Singyeongju KTX and Old Town",
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Official hotel + Korea Tourism Organization",
+        "sourceUrl": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=99009",
+        "note": "The hotel and VISITKOREA confirm the property, 15:00/11:00 hours, room classes, facilities and Bulguksa location."
+      }
+    },
+    {
+      "id": "gyeongju-the-k",
+      "city": "Gyeongju",
+      "name": "The-K Hotel Gyeongju",
+      "tier": "mid",
+      "stars": 4,
+      "area": "Bomun Lake Resort",
+      "neighborhood": "Expo-ro near HICO and Bomun resort attractions",
+      "priceFrom": 80,
+      "priceTo": 140,
+      "currency": "USD",
+      "checkIn": "14:00",
+      "checkOut": "11:00",
+      "policies": [
+        "Standard check-in from 14:00; check-out by 11:00.",
+        "Room inventory, cancellation terms, and inclusions vary by rate; confirm them on the official booking page.",
+        "24-hour reception is not assumed for the general city list; use the separate arrival-night shortlist for night one."
+      ],
+      "rooms": [
+        {
+          "name": "Double Suite",
+          "price": "$105–140/night",
+          "note": "Private en-suite bathroom",
+          "bed": "double",
+          "bedType": "double",
+          "bedSize": "Double (official category; width not stated)",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single Double bed (not two beds pushed together)"
+        }
+      ],
+      "promos": [
+        "Check the official property page for member, advance-purchase, and length-of-stay rates."
+      ],
+      "amenities": [
+        "Hot-spring sauna",
+        "Restaurants",
+        "Banquet facilities",
+        "Parking",
+        "Wi-Fi"
+      ],
+      "hasOnSiteLaundry": false,
+      "officialUrl": "http://www.thek-hotel.co.kr/gyeongju/",
+      "officialLabel": "Official property / hotel-group site",
+      "compareUrl": "https://www.google.com/travel/search?q=The-K+Hotel+Gyeongju+Gyeongju",
+      "compareLabel": "Compare live rates (Google Hotels)",
+      "why": "An established Bomun convention hotel with hot-spring sauna facilities and generally moderate pricing.",
+      "highlights": [
+        "Hot-spring sauna",
+        "Bomun/HICO location",
+        "Large established property"
+      ],
+      "fits": false,
+      "fitReason": "No practical walk to Singyeongju KTX; double-bed width is not stated",
+      "lat": 35.839,
+      "lng": 129.289,
+      "priceNote": "Planning estimate for autumn 2026, not a live quote. Confirm the total for the exact room and dates.",
+      "stationWalkTime": "Bus/taxi required; near HICO within Bomun complex",
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Official hotel + Korea Tourism Organization",
+        "sourceUrl": "https://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=1061398",
+        "note": "The official hotel and VISITKOREA confirm the Bomun property, room classes, facilities and normal hours."
+      }
+    },
+    {
+      "id": "gyeongju-kinock",
+      "city": "Gyeongju",
+      "name": "KINOCK Gyeongju",
+      "tier": "premium",
+      "stars": 3,
+      "area": "North Bomun",
+      "neighborhood": "Pet-specialist hotel at the former Suites Hotel Gyeongju site",
+      "priceFrom": 130,
+      "priceTo": 220,
+      "currency": "USD",
+      "checkIn": "15:00",
+      "checkOut": "11:00",
+      "policies": [
+        "Check-in from 15:00; check-out by 11:00.",
+        "The former Suites Hotel Gyeongju was fully renovated and relaunched as the dog-friendly KINOCK in 2024.",
+        "All spaces are designed to be shared with dogs; review pet rules even if traveling without one.",
+        "24-hour reception is not assumed for the ICN arrival night."
+      ],
+      "rooms": [
+        {
+          "name": "KINOCK Premier",
+          "price": "$150–205/night",
+          "note": "Pet-friendly room; private bathroom",
+          "bed": "queen",
+          "bedType": "queen",
+          "bedSize": "Queen (current trusted inventory; reconfirm on official booking page)",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single Queen bed (not two beds pushed together)"
+        }
+      ],
+      "promos": [
+        "Official KINOCK packages often combine the room with breakfast, dog-park access, dining, or boarding."
+      ],
+      "amenities": [
+        "Pet park",
+        "Pet boarding",
+        "Cafe and restaurant",
+        "Private BBQ",
+        "Garden"
+      ],
+      "hasOnSiteLaundry": false,
+      "officialUrl": "https://www.kinock.co.kr/gj/ko/Home/Main",
+      "officialLabel": "Official site (kinock.co.kr)",
+      "compareUrl": "https://www.google.com/travel/search?q=KINOCK+Gyeongju",
+      "compareLabel": "Compare live rates (Google Hotels)",
+      "why": "A fully renovated pet-specialist stay for travelers bringing a dog; it replaces the outdated Suites Hotel Gyeongju entry rather than pretending the old property still operates.",
+      "highlights": [
+        "Fully renovated in 2024",
+        "Dog-friendly throughout",
+        "Queen categories available"
+      ],
+      "fits": false,
+      "fitReason": "Queen/private bathroom fit, but no practical walk to Singyeongju KTX and the whole hotel is pet-oriented",
+      "lat": 35.8538135,
+      "lng": 129.2772925,
+      "priceNote": "Planning estimate for autumn 2026, not a live quote. Confirm the total for the exact room and dates.",
+      "stationWalkTime": "Bus/taxi required; north Bomun area",
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://www.kinock.co.kr/gj/ko/Home/Main",
+        "note": "The official KINOCK site confirms the current brand, address and pet-focused rooms/facilities. Trusted current inventory confirms the 2024 full renovation, 15:00/11:00 hours and queen Premier/Signature categories."
+      }
+    },
+    {
+      "id": "gyeongju-swiss-rosen",
+      "city": "Gyeongju",
+      "name": "Benikea Swiss Rosen Hotel Gyeongju",
+      "tier": "budget",
+      "stars": 3,
+      "area": "Bomun / HICO",
+      "neighborhood": "Short walk from HICO in the Bomun Tourist Complex",
+      "priceFrom": 55,
+      "priceTo": 90,
+      "currency": "USD",
+      "checkIn": "15:00",
+      "checkOut": "11:00",
+      "policies": [
+        "Standard check-in from 15:00; check-out by 11:00.",
+        "Room inventory, cancellation terms, and inclusions vary by rate; confirm them on the official booking page.",
+        "24-hour reception is not assumed for the general city list; use the separate arrival-night shortlist for night one."
+      ],
+      "rooms": [
+        {
+          "name": "Deluxe Double",
+          "price": "$60–80/night",
+          "note": "Private en-suite bathroom",
+          "bed": "double",
+          "bedType": "double",
+          "bedSize": "Double (exact width not published)",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single Double bed (not two beds pushed together)"
+        }
+      ],
+      "promos": [
+        "Check the official property page for member, advance-purchase, and length-of-stay rates."
+      ],
+      "amenities": [
+        "Seasonal outdoor pool",
+        "Fitness room",
+        "Restaurant",
+        "Free parking",
+        "Laundry service"
+      ],
+      "hasOnSiteLaundry": false,
+      "officialUrl": "https://www.benikea.com/",
+      "officialLabel": "Official property / hotel-group site",
+      "compareUrl": "https://www.google.com/travel/search?q=Benikea+Swiss+Rosen+Hotel+Gyeongju+Gyeongju",
+      "compareLabel": "Compare live rates (Google Hotels)",
+      "why": "One of the lowest-cost conventional hotels in Bomun, convenient for HICO and the lake resorts.",
+      "highlights": [
+        "Budget Bomun option",
+        "Seasonal pool",
+        "Near HICO"
+      ],
+      "fits": false,
+      "fitReason": "No practical walk to Singyeongju KTX; exact double-bed width needs confirmation",
+      "lat": 35.839931,
+      "lng": 129.292394,
+      "priceNote": "Planning estimate for autumn 2026, not a live quote. Confirm the total for the exact room and dates.",
+      "stationWalkTime": "Bus/taxi required; about 3 min walk to HICO",
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Korea Tourism Organization / BENIKEA",
+        "sourceUrl": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=85181",
+        "note": "Government-run VISITKOREA confirms the 60-room hotel, room categories, facilities and Bomun/HICO location; live check-in can vary by season."
+      }
+    },
+    {
+      "id": "gyeongju-rivertain",
+      "city": "Gyeongju",
+      "name": "Rivertain Hotel Gyeongju",
+      "tier": "mid",
+      "stars": 3,
+      "area": "City center / bus terminal",
+      "neighborhood": "Beside Gyeongju Intercity Bus Terminal and walkable to Hwangnidan-gil",
+      "priceFrom": 75,
+      "priceTo": 120,
+      "currency": "USD",
+      "checkIn": "16:00",
+      "checkOut": "12:00",
+      "policies": [
+        "Standard check-in from 16:00; check-out by 12:00.",
+        "Room inventory, cancellation terms, and inclusions vary by rate; confirm them on the official booking page.",
+        "24-hour reception is not assumed for the general city list; use the separate arrival-night shortlist for night one."
+      ],
+      "rooms": [
+        {
+          "name": "Standard Double",
+          "price": "$75–100/night",
+          "note": "Private en-suite bathroom",
+          "bed": "double",
+          "bedType": "double",
+          "bedSize": "Double (bed width not stated by the cited source)",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single Double bed (not two beds pushed together)"
+        }
+      ],
+      "promos": [
+        "Check the official property page for member, advance-purchase, and length-of-stay rates."
+      ],
+      "amenities": [
+        "Breakfast",
+        "Clothing styler",
+        "Restaurant",
+        "Parking",
+        "Wi-Fi"
+      ],
+      "hasOnSiteLaundry": false,
+      "officialUrl": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=60519",
+      "officialLabel": "Official property / hotel-group site",
+      "compareUrl": "https://www.google.com/travel/search?q=Rivertain+Hotel+Gyeongju+Gyeongju",
+      "compareLabel": "Compare live rates (Google Hotels)",
+      "why": "The strongest conventional-hotel addition for Old Town: modern rooms, breakfast and immediate access to intercity buses.",
+      "highlights": [
+        "Korea Quality certified",
+        "By intercity bus terminal",
+        "Walk to Hwangnidan-gil"
+      ],
+      "fits": false,
+      "fitReason": "Excellent bus access but no practical walk to Singyeongju KTX; bed width needs confirmation",
+      "lat": 35.840425,
+      "lng": 129.202729,
+      "priceNote": "Planning estimate for autumn 2026, not a live quote. Confirm the total for the exact room and dates.",
+      "stationWalkTime": "5 min walk to Gyeongju Intercity Bus Terminal; KTX still requires bus/taxi",
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Korea Tourism Organization — Korea Quality certified",
+        "sourceUrl": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=60519",
+        "note": "VISITKOREA identifies this Korea Quality-certified hotel, its private room amenities, breakfast and five-minute bus-terminal access."
+      }
+    },
+    {
+      "id": "gyeongju-hanokinn",
+      "city": "Gyeongju",
+      "name": "HanokInn",
+      "tier": "premium",
+      "stars": 3,
+      "area": "Hwangnidan-gil / Old Town",
+      "neighborhood": "Back gate opens toward Hwangnidan-gil, Cheomseongdae and Daereungwon",
+      "priceFrom": 150,
+      "priceTo": 240,
+      "currency": "USD",
+      "checkIn": "14:30",
+      "checkOut": "10:30",
+      "policies": [
+        "Standard check-in from 14:30; check-out by 10:30.",
+        "Room inventory, cancellation terms, and inclusions vary by rate; confirm them on the official booking page.",
+        "24-hour reception is not assumed for the general city list; use the separate arrival-night shortlist for night one."
+      ],
+      "rooms": [
+        {
+          "name": "Hanok Double Room",
+          "price": "$160–220/night",
+          "note": "Private toilet; confirm bathing layout and bedding",
+          "bed": "ondol",
+          "bedType": "ondol",
+          "bedSize": "Traditional hanok bedding / double-room category",
+          "oneBed": false,
+          "oneBedOnly": false,
+          "privateBathroom": true,
+          "bedNote": "Ondol / multi-bed setup — confirm exact configuration"
+        }
+      ],
+      "promos": [
+        "Check the official property page for member, advance-purchase, and length-of-stay rates."
+      ],
+      "amenities": [
+        "Traditional hanok courtyard",
+        "Breakfast cafe",
+        "Wi-Fi",
+        "Air conditioning",
+        "Private toilet"
+      ],
+      "hasOnSiteLaundry": false,
+      "officialUrl": "http://www.hanokinn.com/",
+      "officialLabel": "Official property / hotel-group site",
+      "compareUrl": "https://www.google.com/travel/search?q=HanokInn+Gyeongju",
+      "compareLabel": "Compare live rates (Google Hotels)",
+      "why": "A small, higher-end traditional stay in one of the best possible Old Town locations.",
+      "highlights": [
+        "Seven-room hanok",
+        "Breakfast",
+        "Back gate to heritage district"
+      ],
+      "fits": false,
+      "fitReason": "Traditional bedding and no practical walk to Singyeongju KTX",
+      "lat": 35.834555,
+      "lng": 129.211449,
+      "priceNote": "Planning estimate for autumn 2026, not a live quote. Confirm the total for the exact room and dates.",
+      "stationWalkTime": "Walkable Old Town; bus/taxi required from Singyeongju KTX",
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Korea Tourism Organization + property site",
+        "sourceUrl": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=45559",
+        "note": "VISITKOREA confirms seven rooms, 14:30/10:30 hours, in-room toilets and immediate Old Town access."
+      }
+    },
+    {
+      "id": "gyeongju-wiyeonjae",
+      "city": "Gyeongju",
+      "name": "Wiyeonjae Hanok Stay",
+      "tier": "mid",
+      "stars": 3,
+      "area": "Historic Area / Cheomseongdae",
+      "neighborhood": "On the edge of the historic area, with major Silla sites on foot",
+      "priceFrom": 85,
+      "priceTo": 140,
+      "currency": "USD",
+      "checkIn": "15:00",
+      "checkOut": "11:00",
+      "policies": [
+        "Standard check-in from 15:00; check-out by 11:00.",
+        "Room inventory, cancellation terms, and inclusions vary by rate; confirm them on the official booking page.",
+        "24-hour reception is not assumed for the general city list; use the separate arrival-night shortlist for night one."
+      ],
+      "rooms": [
+        {
+          "name": "Ondol Room",
+          "price": "$85–125/night",
+          "note": "Private bathroom confirmed by VISITKOREA",
+          "bed": "ondol",
+          "bedType": "ondol",
+          "bedSize": "Ondol floor bedding",
+          "oneBed": false,
+          "oneBedOnly": false,
+          "privateBathroom": true,
+          "bedNote": "Ondol / multi-bed setup — confirm exact configuration"
+        }
+      ],
+      "promos": [
+        "Check the official property page for member, advance-purchase, and length-of-stay rates."
+      ],
+      "amenities": [
+        "Private bathroom in every room",
+        "Free breakfast",
+        "Parking",
+        "Wi-Fi",
+        "Ondol heating"
+      ],
+      "hasOnSiteLaundry": false,
+      "officialUrl": "http://www.wiyeonjae.kr/",
+      "officialLabel": "Official property / hotel-group site",
+      "compareUrl": "https://www.google.com/travel/search?q=Wiyeonjae+Hanok+Stay+Gyeongju",
+      "compareLabel": "Compare live rates (Google Hotels)",
+      "why": "A well-located hanok option when authentic floor bedding matters more than a western queen bed.",
+      "highlights": [
+        "All rooms have bathrooms",
+        "Free breakfast",
+        "Walk to Cheomseongdae"
+      ],
+      "fits": false,
+      "fitReason": "Ondol floor bedding and no practical walk to Singyeongju KTX",
+      "lat": 35.836152,
+      "lng": 129.217976,
+      "priceNote": "Planning estimate for autumn 2026, not a live quote. Confirm the total for the exact room and dates.",
+      "stationWalkTime": "Walk to historic sites; bus/taxi required from Singyeongju KTX",
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Korea Tourism Organization + property site",
+        "sourceUrl": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=45556",
+        "note": "VISITKOREA confirms all-ondol rooms, bathrooms in every room, free breakfast and walkability to the major historic sites."
+      }
+    },
+    {
+      "id": "gyeongju-nadul-hanok",
+      "city": "Gyeongju",
+      "name": "Nadul Hanok",
+      "tier": "mid",
+      "stars": 3,
+      "area": "Historic Area / Cheomseongdae",
+      "neighborhood": "About a minute on foot from Cheomseongdae",
+      "priceFrom": 80,
+      "priceTo": 130,
+      "currency": "USD",
+      "checkIn": "15:00",
+      "checkOut": "11:00",
+      "policies": [
+        "Standard check-in from 15:00; check-out by 11:00.",
+        "Room inventory, cancellation terms, and inclusions vary by rate; confirm them on the official booking page.",
+        "24-hour reception is not assumed for the general city list; use the separate arrival-night shortlist for night one."
+      ],
+      "rooms": [
+        {
+          "name": "Hanok Room with Bed",
+          "price": "$80–115/night",
+          "note": "Private toilet and bathroom confirmed",
+          "bed": "double",
+          "bedType": "double",
+          "bedSize": "Bed provided; exact size not published",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single Double bed (not two beds pushed together)"
+        }
+      ],
+      "promos": [
+        "Check the official property page for member, advance-purchase, and length-of-stay rates."
+      ],
+      "amenities": [
+        "Private bathroom",
+        "Free breakfast",
+        "Shared kitchenette",
+        "Wi-Fi",
+        "Ondol heating"
+      ],
+      "hasOnSiteLaundry": false,
+      "officialUrl": "http://gjhanok.com/",
+      "officialLabel": "Official property / hotel-group site",
+      "compareUrl": "https://www.google.com/travel/search?q=Nadul+Hanok+Gyeongju",
+      "compareLabel": "Compare live rates (Google Hotels)",
+      "why": "A useful middle ground between hanok atmosphere and western-bed convenience, exceptionally close to the historic sights.",
+      "highlights": [
+        "Bed plus private bathroom",
+        "Free breakfast",
+        "One minute to Cheomseongdae"
+      ],
+      "fits": false,
+      "fitReason": "Bed width is not published and Singyeongju KTX is not walkable",
+      "lat": 35.835975,
+      "lng": 129.218409,
+      "priceNote": "Planning estimate for autumn 2026, not a live quote. Confirm the total for the exact room and dates.",
+      "stationWalkTime": "Walk to historic sites; bus/taxi required from Singyeongju KTX",
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Korea Tourism Organization + property site",
+        "sourceUrl": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=63076",
+        "note": "VISITKOREA confirms beds, private toilet/bathroom, breakfast, shared kitchen and one-minute Cheomseongdae access."
+      }
+    },
+    {
+      "id": "gyeongju-sono-calm",
+      "city": "Gyeongju",
+      "name": "SONO Calm Gyeongju",
+      "tier": "mid",
+      "stars": 4,
+      "area": "Bomun Lake Resort",
+      "neighborhood": "Large family-oriented resort directly by Bomun Lake",
+      "priceFrom": 90,
+      "priceTo": 160,
+      "currency": "USD",
+      "checkIn": "15:00",
+      "checkOut": "11:00",
+      "policies": [
+        "Check-in 15:00; check-out 11:00.",
+        "The official room page says to contact the front desk/reservation center in advance for arrival after 22:00.",
+        "This is not an arrival-night recommendation for the ICN landing."
+      ],
+      "rooms": [
+        {
+          "name": "Family Lake",
+          "price": "$95–135/night",
+          "note": "Kitchen and private bathroom",
+          "bed": "multi-bed",
+          "bedType": "multi-bed",
+          "bedSize": "1 double + 2 single beds; official room layout",
+          "oneBed": false,
+          "oneBedOnly": false,
+          "privateBathroom": true,
+          "bedNote": "Multi-Bed / multi-bed setup — confirm exact configuration"
+        }
+      ],
+      "promos": [
+        "Check the official property page for member, advance-purchase, and length-of-stay rates."
+      ],
+      "amenities": [
+        "Kitchen rooms",
+        "Pool and spa complex",
+        "Restaurants",
+        "Arcade",
+        "Lake views"
+      ],
+      "hasOnSiteLaundry": false,
+      "officialUrl": "https://www.sonohotelsresorts.com/calm_gju/resort",
+      "officialLabel": "Official property / hotel-group site",
+      "compareUrl": "https://www.google.com/travel/search?q=SONO+Calm+Gyeongju+Gyeongju",
+      "compareLabel": "Compare live rates (Google Hotels)",
+      "why": "The broadest family-resort inventory at Bomun, with large rooms and kitchens; less ideal for a couple seeking exactly one bed.",
+      "highlights": [
+        "Bomun Lake",
+        "Large family rooms",
+        "Pool/spa complex"
+      ],
+      "fits": false,
+      "fitReason": "Multi-bed family layout and no practical walk to Singyeongju KTX",
+      "lat": 35.846575,
+      "lng": 129.281853,
+      "priceNote": "Planning estimate for autumn 2026, not a live quote. Confirm the total for the exact room and dates.",
+      "stationWalkTime": "Bus/taxi required; central Bomun Lake location",
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://www.sonohotelsresorts.com/calm_gju/resort",
+        "note": "SONO's official site confirms the renamed Gyeongju property, current rooms, 15:00/11:00 hours, layouts and after-22:00 advance-contact rule."
+      }
+    },
+    {
+      "id": "gyeongju-kensington",
+      "city": "Gyeongju",
+      "name": "Kensington Resort Gyeongju",
+      "tier": "mid",
+      "stars": 4,
+      "area": "North Bomun",
+      "neighborhood": "Large apartment-style resort north of Bomun Lake",
+      "priceFrom": 80,
+      "priceTo": 140,
+      "currency": "USD",
+      "checkIn": "15:00",
+      "checkOut": "11:00",
+      "policies": [
+        "Standard check-in from 15:00; check-out by 11:00.",
+        "Room inventory, cancellation terms, and inclusions vary by rate; confirm them on the official booking page.",
+        "24-hour reception is not assumed for the general city list; use the separate arrival-night shortlist for night one."
+      ],
+      "rooms": [
+        {
+          "name": "Kensington Studio",
+          "price": "$85–120/night",
+          "note": "Private en-suite bathroom",
+          "bed": "double",
+          "bedType": "double",
+          "bedSize": "One double bed; width not stated",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single Double bed (not two beds pushed together)"
+        }
+      ],
+      "promos": [
+        "Check the official property page for member, advance-purchase, and length-of-stay rates."
+      ],
+      "amenities": [
+        "Kitchenette rooms",
+        "Restaurant",
+        "Kids club",
+        "Garden",
+        "Parking"
+      ],
+      "hasOnSiteLaundry": false,
+      "officialUrl": "https://www.kensington.co.kr/rgj",
+      "officialLabel": "Official property / hotel-group site",
+      "compareUrl": "https://www.google.com/travel/search?q=Kensington+Resort+Gyeongju+Gyeongju",
+      "compareLabel": "Compare live rates (Google Hotels)",
+      "why": "A roomy apartment-style choice for travelers who prefer a kitchenette and quieter north-Bomun setting.",
+      "highlights": [
+        "Large studio layouts",
+        "Kitchenette",
+        "Family facilities"
+      ],
+      "fits": false,
+      "fitReason": "Double width needs confirmation and Singyeongju KTX is not walkable",
+      "lat": 35.860729,
+      "lng": 129.268387,
+      "priceNote": "Planning estimate for autumn 2026, not a live quote. Confirm the total for the exact room and dates.",
+      "stationWalkTime": "Bus/taxi required; north side of Bomun resort",
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://www.kensington.co.kr/rgj",
+        "note": "Kensington's official property page confirms the resort; current trusted property data confirms the address, apartment layouts and normal hours."
+      }
+    },
+    {
+      "id": "busan-signiel",
+      "city": "Busan",
+      "name": "SIGNIEL BUSAN",
+      "tier": "premium",
+      "stars": 5,
+      "area": "Haeundae / Mipo",
+      "neighborhood": "LCT tower at the east end of Haeundae Beach",
+      "priceFrom": 210,
+      "priceTo": 350,
+      "currency": "USD",
+      "checkIn": "15:00",
+      "checkOut": "11:00",
+      "policies": [
+        "Standard check-in from 15:00; check-out by 11:00.",
+        "Room inventory, cancellation terms, and inclusions vary by rate; confirm them on the official booking page.",
+        "24-hour reception is not assumed for the general city list; use the separate arrival-night shortlist for night one."
+      ],
+      "rooms": [
+        {
+          "name": "SIGNIEL Premier Double Ocean View",
+          "price": "$240–330/night",
+          "note": "Private en-suite bathroom",
+          "bed": "queen",
+          "bedType": "queen",
+          "bedSize": "Queen/double category — reconfirm exact bed in selected rate",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single Queen bed (not two beds pushed together)"
+        }
+      ],
+      "promos": [
+        "Check the official property page for member, advance-purchase, and length-of-stay rates."
+      ],
+      "amenities": [
+        "Indoor and outdoor pools",
+        "Spa",
+        "Kids lounge",
+        "Ocean-view balconies",
+        "Restaurants"
+      ],
+      "hasOnSiteLaundry": false,
+      "officialUrl": "https://www.lottehotel.com/busan-signiel/en/rooms",
+      "officialLabel": "Official property / hotel-group site",
+      "compareUrl": "https://www.google.com/travel/search?q=SIGNIEL+BUSAN+Busan",
+      "compareLabel": "Compare live rates (Google Hotels)",
+      "why": "The top modern beachfront splurge, with expansive rooms and the most dramatic Haeundae views in the list.",
+      "highlights": [
+        "LCT ocean views",
+        "Indoor/outdoor pools",
+        "LOTTE Rewards"
+      ],
+      "fits": true,
+      "fitReason": "Premier Double · Jung-dong Station about 12 min",
+      "lat": 35.160402,
+      "lng": 129.169119,
+      "priceNote": "Planning estimate for autumn 2026, not a live quote. Confirm the total for the exact room and dates.",
+      "stationWalkTime": "About 12 min walk to Jung-dong Station; Mipo Blue Line nearby",
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://www.lottehotel.com/busan-signiel/en/rooms/signiel-premier-familytwin-ocean-view.html",
+        "note": "LOTTE confirms the hotel, address, 15:00/11:00 hours, room categories, occupancy and ocean-view facilities; reconfirm the exact Premier Double bed in live inventory."
+      }
+    },
+    {
+      "id": "busan-paradise",
+      "city": "Busan",
+      "name": "Paradise Hotel Busan",
+      "tier": "premium",
+      "stars": 5,
+      "area": "Haeundae beachfront",
+      "neighborhood": "Directly on Haeundae Beach near the aquarium and Mipo end",
+      "priceFrom": 160,
+      "priceTo": 280,
+      "currency": "USD",
+      "checkIn": "15:00",
+      "checkOut": "11:00",
+      "policies": [
+        "Standard check-in from 15:00; check-out by 11:00.",
+        "Room inventory, cancellation terms, and inclusions vary by rate; confirm them on the official booking page.",
+        "24-hour reception is not assumed for the general city list; use the separate arrival-night shortlist for night one."
+      ],
+      "rooms": [
+        {
+          "name": "Premium Deluxe Ocean King",
+          "price": "$190–260/night",
+          "note": "Private en-suite bathroom",
+          "bed": "king",
+          "bedType": "king",
+          "bedSize": "King (official Paradise room page)",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single King bed (not two beds pushed together)"
+        }
+      ],
+      "promos": [
+        "Check the official property page for member, advance-purchase, and length-of-stay rates."
+      ],
+      "amenities": [
+        "Outdoor hot-spring spa",
+        "Pool",
+        "Beach access",
+        "Kids facilities",
+        "Restaurants"
+      ],
+      "hasOnSiteLaundry": false,
+      "officialUrl": "https://www.busanparadisehotel.co.kr/front/hotel/room/view?RR_ROOM_CATEGORY=PREMIUM_DELUXE&RR_ROOM_TYPE=PREMIUM_DELUXE_OCEAN_DOUBLE",
+      "officialLabel": "Official property / hotel-group site",
+      "compareUrl": "https://www.google.com/travel/search?q=Paradise+Hotel+Busan+Busan",
+      "compareLabel": "Compare live rates (Google Hotels)",
+      "why": "A classic Haeundae resort with direct beach access and outdoor hot-spring facilities, often below newer luxury competitors.",
+      "highlights": [
+        "Direct beach access",
+        "Outdoor hot springs",
+        "Large resort facilities"
+      ],
+      "fits": true,
+      "fitReason": "Deluxe King · Haeundae Station about 10 min",
+      "lat": 35.160141,
+      "lng": 129.16469,
+      "priceNote": "Planning estimate for autumn 2026, not a live quote. Confirm the total for the exact room and dates.",
+      "stationWalkTime": "10 min walk to Haeundae Station",
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Official hotel + Korea Tourism Organization",
+        "sourceUrl": "https://www.busanparadisehotel.co.kr/front/hotel/room/view?RR_ROOM_CATEGORY=PREMIUM_DELUXE&RR_ROOM_TYPE=PREMIUM_DELUXE_OCEAN_DOUBLE",
+        "note": "The official Paradise page confirms the Premium Deluxe Ocean King, king bed, private bathroom amenities and hotel contact; VISITKOREA confirms the property and resort facilities."
+      }
+    },
+    {
+      "id": "busan-westin-josun",
+      "city": "Busan",
+      "name": "The Westin Josun Busan",
+      "tier": "premium",
+      "stars": 5,
+      "area": "Haeundae / Dongbaek",
+      "neighborhood": "At Dongbaek Island on the quieter west end of Haeundae Beach",
+      "priceFrom": 170,
+      "priceTo": 270,
+      "currency": "USD",
+      "checkIn": "15:00",
+      "checkOut": "12:00",
+      "policies": [
+        "Standard check-in from 15:00; check-out by 12:00.",
+        "Room inventory, cancellation terms, and inclusions vary by rate; confirm them on the official booking page.",
+        "24-hour reception is not assumed for the general city list; use the separate arrival-night shortlist for night one."
+      ],
+      "rooms": [
+        {
+          "name": "Deluxe King",
+          "price": "$180–240/night",
+          "note": "Private en-suite bathroom",
+          "bed": "king",
+          "bedType": "king",
+          "bedSize": "King (official Marriott category)",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single King bed (not two beds pushed together)"
+        }
+      ],
+      "promos": [
+        "Check the official property page for member, advance-purchase, and length-of-stay rates."
+      ],
+      "amenities": [
+        "Indoor pool",
+        "Sauna",
+        "Fitness center",
+        "Beach access",
+        "Club lounge"
+      ],
+      "hasOnSiteLaundry": false,
+      "officialUrl": "https://www.marriott.com/en-us/hotels/puswi-the-westin-josun-busan/overview/",
+      "officialLabel": "Official property / hotel-group site",
+      "compareUrl": "https://www.google.com/travel/search?q=The+Westin+Josun+Busan+Busan",
+      "compareLabel": "Compare live rates (Google Hotels)",
+      "why": "The best established luxury base for travelers who want both Haeundae Beach and the Dongbaek coastal walk.",
+      "highlights": [
+        "Dongbaek Island",
+        "Indoor pool",
+        "Marriott Bonvoy"
+      ],
+      "fits": true,
+      "fitReason": "Deluxe King · Dongbaek Station about 10 min",
+      "lat": 35.156074,
+      "lng": 129.154029,
+      "priceNote": "Planning estimate for autumn 2026, not a live quote. Confirm the total for the exact room and dates.",
+      "stationWalkTime": "10 min walk to Dongbaek Station",
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://www.marriott.com/en-us/hotels/puswi-the-westin-josun-busan/overview/",
+        "note": "Marriott confirms the property, address, 15:00/12:00 hours, rooms and resort facilities; VISITKOREA separately confirms the hotel details."
+      }
+    },
+    {
+      "id": "busan-fairfield-haeundae",
+      "city": "Busan",
+      "name": "Fairfield by Marriott Busan",
+      "tier": "budget",
+      "stars": 3,
+      "area": "Haeundae",
+      "neighborhood": "East side of central Haeundae, walkable to beach and Mipo",
+      "priceFrom": 75,
+      "priceTo": 125,
+      "currency": "USD",
+      "checkIn": "15:00",
+      "checkOut": "12:00",
+      "policies": [
+        "Standard check-in from 15:00; check-out by 12:00.",
+        "Room inventory, cancellation terms, and inclusions vary by rate; confirm them on the official booking page.",
+        "24-hour reception is not assumed for the general city list; use the separate arrival-night shortlist for night one."
+      ],
+      "rooms": [
+        {
+          "name": "Standard King",
+          "price": "$80–110/night",
+          "note": "Private en-suite bathroom",
+          "bed": "king",
+          "bedType": "king",
+          "bedSize": "King (official Marriott category)",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single King bed (not two beds pushed together)"
+        }
+      ],
+      "promos": [
+        "Check the official property page for member, advance-purchase, and length-of-stay rates."
+      ],
+      "amenities": [
+        "Fitness center",
+        "Restaurant",
+        "Wi-Fi",
+        "Business services"
+      ],
+      "hasOnSiteLaundry": false,
+      "officialUrl": "https://www.marriott.com/en-us/hotels/pusfi-fairfield-busan/overview/",
+      "officialLabel": "Official property / hotel-group site",
+      "compareUrl": "https://www.google.com/travel/search?q=Fairfield+by+Marriott+Busan+Busan",
+      "compareLabel": "Compare live rates (Google Hotels)",
+      "why": "One of the most economical reliable-chain ways to secure a king bed near Haeundae Beach.",
+      "highlights": [
+        "King room value",
+        "Marriott Bonvoy",
+        "Walk to Haeundae Beach"
+      ],
+      "fits": true,
+      "fitReason": "Standard King · Haeundae Station about 10 min",
+      "lat": 35.1607,
+      "lng": 129.1668,
+      "priceNote": "Planning estimate for autumn 2026, not a live quote. Confirm the total for the exact room and dates.",
+      "stationWalkTime": "About 10 min walk to Haeundae Station",
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://www.marriott.com/en-us/hotels/pusfi-fairfield-busan/overview/",
+        "note": "Marriott confirms this Haeundae property, 15:00/12:00 hours, location, amenities and king inventory."
+      }
+    },
+    {
+      "id": "busan-ibis-budget-haeundae",
+      "city": "Busan",
+      "name": "ibis budget Ambassador Busan Haeundae",
+      "tier": "budget",
+      "stars": 2,
+      "area": "Haeundae / Dongbaek",
+      "neighborhood": "Across from the beach on its quieter west side",
+      "priceFrom": 45,
+      "priceTo": 80,
+      "currency": "USD",
+      "checkIn": "15:00",
+      "checkOut": "11:00",
+      "policies": [
+        "Standard check-in from 15:00; check-out by 11:00.",
+        "Room inventory, cancellation terms, and inclusions vary by rate; confirm them on the official booking page.",
+        "24-hour reception is not assumed for the general city list; use the separate arrival-night shortlist for night one."
+      ],
+      "rooms": [
+        {
+          "name": "Standard Double",
+          "price": "$45–70/night",
+          "note": "Private en-suite bathroom",
+          "bed": "double",
+          "bedType": "double",
+          "bedSize": "Double (exact width not stated)",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single Double bed (not two beds pushed together)"
+        }
+      ],
+      "promos": [
+        "Check the official property page for member, advance-purchase, and length-of-stay rates."
+      ],
+      "amenities": [
+        "Fitness center",
+        "Breakfast restaurant",
+        "Wi-Fi",
+        "24-hour reception",
+        "Ironing room"
+      ],
+      "hasOnSiteLaundry": false,
+      "officialUrl": "https://all.accor.com/hotel/9106/index.en.shtml",
+      "officialLabel": "Official property / hotel-group site",
+      "compareUrl": "https://www.google.com/travel/search?q=ibis+budget+Ambassador+Busan+Haeundae+Busan",
+      "compareLabel": "Compare live rates (Google Hotels)",
+      "why": "The lowest-cost international-chain beach option; a good value if the double-bed width is acceptable.",
+      "highlights": [
+        "Very low beach-area price",
+        "Official 24-hour reception listing",
+        "Accor ALL"
+      ],
+      "fits": false,
+      "fitReason": "Listed room is a double and exact width is not stated",
+      "lat": 35.1586,
+      "lng": 129.1549,
+      "priceNote": "Planning estimate for autumn 2026, not a live quote. Confirm the total for the exact room and dates.",
+      "stationWalkTime": "8 min walk to Dongbaek Station",
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://all.accor.com/hotel/9106/index.en.shtml",
+        "note": "Accor confirms the 177-room property, 15:00/11:00 hours, beach location and reception open 24 hours a day."
+      }
+    },
+    {
+      "id": "busan-ibis-haeundae",
+      "city": "Busan",
+      "name": "ibis Ambassador Busan Haeundae",
+      "tier": "budget",
+      "stars": 3,
+      "area": "Haeundae",
+      "neighborhood": "Central Haeundae near beach, market and metro",
+      "priceFrom": 60,
+      "priceTo": 100,
+      "currency": "USD",
+      "checkIn": "15:00",
+      "checkOut": "12:00",
+      "policies": [
+        "Standard check-in from 15:00; check-out by 12:00.",
+        "Room inventory, cancellation terms, and inclusions vary by rate; confirm them on the official booking page.",
+        "24-hour reception is not assumed for the general city list; use the separate arrival-night shortlist for night one."
+      ],
+      "rooms": [
+        {
+          "name": "Standard Room with Sofa",
+          "price": "$70–95/night",
+          "note": "Private en-suite bathroom",
+          "bed": "queen",
+          "bedType": "queen",
+          "bedSize": "Queen category — confirm exact live room",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single Queen bed (not two beds pushed together)"
+        }
+      ],
+      "promos": [
+        "Check the official property page for member, advance-purchase, and length-of-stay rates."
+      ],
+      "amenities": [
+        "Restaurant",
+        "Fitness center",
+        "Self-service laundry",
+        "Wi-Fi",
+        "Convenience stores nearby"
+      ],
+      "hasOnSiteLaundry": true,
+      "officialUrl": "https://all.accor.com/hotel/9643/index.en.shtml",
+      "officialLabel": "Official property / hotel-group site",
+      "compareUrl": "https://www.google.com/travel/search?q=ibis+Ambassador+Busan+Haeundae+Busan",
+      "compareLabel": "Compare live rates (Google Hotels)",
+      "why": "A practical long-stay beach base with self-service laundry and a central position between Haeundae Station and the sand.",
+      "highlights": [
+        "Self-service laundry",
+        "Accor ALL",
+        "Central Haeundae"
+      ],
+      "fits": true,
+      "fitReason": "Queen/sofa category · Haeundae Station about 8 min",
+      "lat": 35.160361,
+      "lng": 129.157949,
+      "priceNote": "Planning estimate for autumn 2026, not a live quote. Confirm the total for the exact room and dates.",
+      "stationWalkTime": "8 min walk to Haeundae Station",
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://all.accor.com/hotel/9643/index.en.shtml",
+        "note": "Accor confirms the property, address, 15:00/12:00 hours, beach access and hotel services including self-service laundry."
+      }
+    },
+    {
+      "id": "busan-lotte-hotel",
+      "city": "Busan",
+      "name": "LOTTE HOTEL BUSAN",
+      "tier": "premium",
+      "stars": 5,
+      "area": "Seomyeon",
+      "neighborhood": "Connected to Lotte shopping and Seomyeon subway interchange",
+      "priceFrom": 130,
+      "priceTo": 220,
+      "currency": "USD",
+      "checkIn": "15:00",
+      "checkOut": "11:00",
+      "policies": [
+        "Standard check-in from 15:00; check-out by 11:00.",
+        "Room inventory, cancellation terms, and inclusions vary by rate; confirm them on the official booking page.",
+        "24-hour reception is not assumed for the general city list; use the separate arrival-night shortlist for night one."
+      ],
+      "rooms": [
+        {
+          "name": "Premier Double",
+          "price": "$145–195/night",
+          "note": "Private en-suite bathroom",
+          "bed": "king",
+          "bedType": "king",
+          "bedSize": "Double/king selection — confirm bed in live rate",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single King bed (not two beds pushed together)"
+        }
+      ],
+      "promos": [
+        "Check the official property page for member, advance-purchase, and length-of-stay rates."
+      ],
+      "amenities": [
+        "Indoor and outdoor pools",
+        "Spa and sauna",
+        "Fitness center",
+        "Restaurants",
+        "Shopping/casino complex"
+      ],
+      "hasOnSiteLaundry": false,
+      "officialUrl": "https://www.lottehotel.com/busan-hotel/en/rooms/premier-room.html",
+      "officialLabel": "Official property / hotel-group site",
+      "compareUrl": "https://www.google.com/travel/search?q=LOTTE+HOTEL+BUSAN+Busan",
+      "compareLabel": "Compare live rates (Google Hotels)",
+      "why": "The strongest full-service choice for a Seomyeon split, directly at Busan's most useful subway interchange.",
+      "highlights": [
+        "Seomyeon interchange",
+        "Pool and spa",
+        "LOTTE Rewards"
+      ],
+      "fits": true,
+      "fitReason": "Premier Double · Seomyeon Station connected",
+      "lat": 35.156769,
+      "lng": 129.055869,
+      "priceNote": "Planning estimate for autumn 2026, not a live quote. Confirm the total for the exact room and dates.",
+      "stationWalkTime": "Direct/very short access to Seomyeon Station",
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://www.lottehotel.com/busan-hotel/en/rooms/premier-room.html",
+        "note": "LOTTE confirms the property, Premier Double/Twin categories, 15:00/11:00 hours, city view and central Busan facilities."
+      }
+    },
+    {
+      "id": "busan-avani-central",
+      "city": "Busan",
+      "name": "Avani Central Busan",
+      "tier": "mid",
+      "stars": 4,
+      "area": "BIFC / Seomyeon",
+      "neighborhood": "Beside Busan International Finance Center, one metro stop from Seomyeon",
+      "priceFrom": 80,
+      "priceTo": 130,
+      "currency": "USD",
+      "checkIn": "15:00",
+      "checkOut": "11:00",
+      "policies": [
+        "Standard check-in from 15:00; check-out by 11:00.",
+        "Room inventory, cancellation terms, and inclusions vary by rate; confirm them on the official booking page.",
+        "24-hour reception is not assumed for the general city list; use the separate arrival-night shortlist for night one."
+      ],
+      "rooms": [
+        {
+          "name": "Avani Deluxe City View King",
+          "price": "$85–115/night",
+          "note": "Private en-suite bathroom",
+          "bed": "king",
+          "bedType": "king",
+          "bedSize": "King (official Avani room page)",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single King bed (not two beds pushed together)"
+        }
+      ],
+      "promos": [
+        "Check the official property page for member, advance-purchase, and length-of-stay rates."
+      ],
+      "amenities": [
+        "Fitness center",
+        "Spa",
+        "Sky bar",
+        "Restaurant",
+        "Laundry service"
+      ],
+      "hasOnSiteLaundry": false,
+      "officialUrl": "https://www.avanihotels.com/en/central-busan",
+      "officialLabel": "Official property / hotel-group site",
+      "compareUrl": "https://www.google.com/travel/search?q=Avani+Central+Busan+Busan",
+      "compareLabel": "Compare live rates (Google Hotels)",
+      "why": "Modern four-star value with larger king rooms and very easy metro access, without Seomyeon's busiest street noise.",
+      "highlights": [
+        "Official king category",
+        "BIFC subway access",
+        "Modern four-star value"
+      ],
+      "fits": true,
+      "fitReason": "Deluxe King · BIFC Station about 2 min",
+      "lat": 35.14875,
+      "lng": 129.065277,
+      "priceNote": "Planning estimate for autumn 2026, not a live quote. Confirm the total for the exact room and dates.",
+      "stationWalkTime": "2 min walk to International Finance Center–Busan Bank Station",
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://www.avanihotels.com/en/central-busan",
+        "note": "Avani confirms the 289-room hotel, address, 15:00/11:00 hours, king rooms, five-minute Seomyeon proximity and facilities."
+      }
+    },
+    {
+      "id": "busan-ramada-station",
+      "city": "Busan",
+      "name": "Ramada Encore by Wyndham Busan Station",
+      "tier": "mid",
+      "stars": 4,
+      "area": "Busan Station / Dong-gu",
+      "neighborhood": "Immediately beside KTX Busan Station",
+      "priceFrom": 65,
+      "priceTo": 110,
+      "currency": "USD",
+      "checkIn": "15:00",
+      "checkOut": "11:00",
+      "policies": [
+        "Standard check-in from 15:00; check-out by 11:00.",
+        "Room inventory, cancellation terms, and inclusions vary by rate; confirm them on the official booking page.",
+        "24-hour reception is not assumed for the general city list; use the separate arrival-night shortlist for night one."
+      ],
+      "rooms": [
+        {
+          "name": "Queen Room",
+          "price": "$75–100/night",
+          "note": "Private en-suite bathroom",
+          "bed": "queen",
+          "bedType": "queen",
+          "bedSize": "Queen (current official/trusted room inventory)",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single Queen bed (not two beds pushed together)"
+        }
+      ],
+      "promos": [
+        "Check the official property page for member, advance-purchase, and length-of-stay rates."
+      ],
+      "amenities": [
+        "Fitness center",
+        "Restaurant",
+        "Coin laundry",
+        "Wi-Fi",
+        "Business center"
+      ],
+      "hasOnSiteLaundry": true,
+      "officialUrl": "https://www.wyndhamhotels.com/ramada/busan-south-korea/ramada-encore-busan-station/overview",
+      "officialLabel": "Official property / hotel-group site",
+      "compareUrl": "https://www.google.com/travel/search?q=Ramada+Encore+by+Wyndham+Busan+Station+Busan",
+      "compareLabel": "Compare live rates (Google Hotels)",
+      "why": "An excellent KTX-day value: a queen option, coin laundry and full business-hotel facilities steps from the platforms.",
+      "highlights": [
+        "Beside KTX",
+        "Coin laundry",
+        "Wyndham Rewards"
+      ],
+      "fits": true,
+      "fitReason": "Queen room · Busan Station about 1 min",
+      "lat": 35.11443,
+      "lng": 129.04021,
+      "priceNote": "Planning estimate for autumn 2026, not a live quote. Confirm the total for the exact room and dates.",
+      "stationWalkTime": "1 min walk to Busan KTX/subway Station",
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://www.wyndhamhotels.com/ramada/busan-south-korea/ramada-encore-busan-station/overview",
+        "note": "Wyndham confirms the hotel beside Busan Station, guest-room amenities, fitness, coin laundry and dining; normal hours are cross-checked with current property data."
+      }
+    },
+    {
+      "id": "busan-toyoko-station1",
+      "city": "Busan",
+      "name": "Toyoko Inn Busan Station No.1",
+      "tier": "budget",
+      "stars": 3,
+      "area": "Busan Station / Dong-gu",
+      "neighborhood": "Directly outside KTX Busan Station Exit 1",
+      "priceFrom": 50,
+      "priceTo": 75,
+      "currency": "USD",
+      "checkIn": "15:00",
+      "checkOut": "10:00",
+      "policies": [
+        "Standard check-in from 15:00; check-out by 10:00.",
+        "Room inventory, cancellation terms, and inclusions vary by rate; confirm them on the official booking page.",
+        "24-hour reception is not assumed for the general city list; use the separate arrival-night shortlist for night one."
+      ],
+      "rooms": [
+        {
+          "name": "Double Room",
+          "price": "$55–70/night",
+          "note": "Private en-suite bathroom",
+          "bed": "double",
+          "bedType": "double",
+          "bedSize": "Double (confirm width on live booking page)",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single Double bed (not two beds pushed together)"
+        }
+      ],
+      "promos": [
+        "Check the official property page for member, advance-purchase, and length-of-stay rates."
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Laundromat",
+        "Lockers",
+        "Wi-Fi",
+        "Parking"
+      ],
+      "hasOnSiteLaundry": true,
+      "officialUrl": "https://www.toyoko-inn.com/eng/search/detail/00194/",
+      "officialLabel": "Official property / hotel-group site",
+      "compareUrl": "https://www.google.com/travel/search?q=Toyoko+Inn+Busan+Station+No.1+Busan",
+      "compareLabel": "Compare live rates (Google Hotels)",
+      "why": "The simplest ultra-budget KTX base, with breakfast and laundry included in a very low typical rate.",
+      "highlights": [
+        "Outside KTX Exit 1",
+        "Free breakfast",
+        "Laundromat"
+      ],
+      "fits": false,
+      "fitReason": "Official listing does not state a queen-width bed",
+      "lat": 35.114244,
+      "lng": 129.040997,
+      "priceNote": "Planning estimate for autumn 2026, not a live quote. Confirm the total for the exact room and dates.",
+      "stationWalkTime": "Immediately outside Busan KTX Station Exit 1",
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://www.toyoko-inn.com/eng/search/detail/00194/",
+        "note": "Toyoko Inn confirms the exact address, 15:00/10:00 hours, free breakfast, laundromat and immediate KTX access."
+      }
+    },
+    {
+      "id": "busan-crown-harbor",
+      "city": "Busan",
+      "name": "Crown Harbor Hotel Busan",
+      "tier": "mid",
+      "stars": 4,
+      "area": "Jungang / Nampo",
+      "neighborhood": "Between Busan Station and Nampo, near the port and Jungang metro",
+      "priceFrom": 55,
+      "priceTo": 95,
+      "currency": "USD",
+      "checkIn": "15:00",
+      "checkOut": "12:00",
+      "policies": [
+        "Standard check-in from 15:00; check-out by 12:00.",
+        "Room inventory, cancellation terms, and inclusions vary by rate; confirm them on the official booking page.",
+        "24-hour reception is not assumed for the general city list; use the separate arrival-night shortlist for night one."
+      ],
+      "rooms": [
+        {
+          "name": "Deluxe Double",
+          "price": "$65–90/night",
+          "note": "Private en-suite bathroom",
+          "bed": "double",
+          "bedType": "double",
+          "bedSize": "Double (exact width not stated)",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single Double bed (not two beds pushed together)"
+        }
+      ],
+      "promos": [
+        "Check the official property page for member, advance-purchase, and length-of-stay rates."
+      ],
+      "amenities": [
+        "Fitness center",
+        "Restaurant",
+        "Convenience store",
+        "Parking",
+        "Laundry service"
+      ],
+      "hasOnSiteLaundry": false,
+      "officialUrl": "http://www.crownharborhotel.com/teaser/html/index_kor.html",
+      "officialLabel": "Official property page (Korean)",
+      "compareUrl": "https://www.google.com/travel/search?q=Crown+Harbor+Hotel+Busan+Busan",
+      "compareLabel": "Compare live rates (Google Hotels)",
+      "why": "A strong-value harbor-area base that splits the difference between KTX access and the Nampo/Jagalchi sights.",
+      "highlights": [
+        "Jungang metro",
+        "Harbor/old downtown location",
+        "Often low rates"
+      ],
+      "fits": false,
+      "fitReason": "Listed double-bed width is not confirmed",
+      "lat": 35.107578,
+      "lng": 129.036804,
+      "priceNote": "Planning estimate for autumn 2026, not a live quote. Confirm the total for the exact room and dates.",
+      "stationWalkTime": "4 min walk to Jungang Station; one subway stop from Busan Station",
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Property site + established Korea tour operator",
+        "sourceUrl": "https://www.koreaetour.com/busan-crown-harbor-hotel/",
+        "note": "The official Crown Harbor domain and Korea E Tour cross-check the property, 500-room scale, address, phone and Jungang/port location."
+      }
+    },
+    {
+      "id": "busan-fairfield-songdo",
+      "city": "Busan",
+      "name": "Fairfield by Marriott Busan Songdo Beach",
+      "tier": "mid",
+      "stars": 3,
+      "area": "Songdo Beach",
+      "neighborhood": "Beachfront south of Nampo, near Songdo cable car",
+      "priceFrom": 80,
+      "priceTo": 140,
+      "currency": "USD",
+      "checkIn": "15:00",
+      "checkOut": "11:00",
+      "policies": [
+        "Standard check-in from 15:00; check-out by 11:00.",
+        "Room inventory, cancellation terms, and inclusions vary by rate; confirm them on the official booking page.",
+        "24-hour reception is not assumed for the general city list; use the separate arrival-night shortlist for night one."
+      ],
+      "rooms": [
+        {
+          "name": "Standard King Ocean View",
+          "price": "$90–125/night",
+          "note": "Private en-suite bathroom",
+          "bed": "king",
+          "bedType": "king",
+          "bedSize": "King (official Marriott category)",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single King bed (not two beds pushed together)"
+        }
+      ],
+      "promos": [
+        "Check the official property page for member, advance-purchase, and length-of-stay rates."
+      ],
+      "amenities": [
+        "Beachfront",
+        "Fitness center",
+        "Restaurant",
+        "Wi-Fi",
+        "Parking"
+      ],
+      "hasOnSiteLaundry": false,
+      "officialUrl": "https://www.marriott.com/en-us/hotels/pusfb-fairfield-busan-songdo-beach/overview/",
+      "officialLabel": "Official property / hotel-group site",
+      "compareUrl": "https://www.google.com/travel/search?q=Fairfield+by+Marriott+Busan+Songdo+Beach+Busan",
+      "compareLabel": "Compare live rates (Google Hotels)",
+      "why": "A good-value ocean-view option for a quieter beach and easy taxi/bus access to Nampo and Gamcheon.",
+      "highlights": [
+        "Songdo beachfront",
+        "Ocean-view king",
+        "Near cable car"
+      ],
+      "fits": false,
+      "fitReason": "Excellent bus/taxi access but no walkable Busan Metro station",
+      "lat": 35.076,
+      "lng": 129.0238,
+      "priceNote": "Planning estimate for autumn 2026, not a live quote. Confirm the total for the exact room and dates.",
+      "stationWalkTime": "Bus/taxi to Nampo and Jagalchi; no walkable metro station",
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://www.marriott.com/en-us/hotels/pusfb-fairfield-busan-songdo-beach/overview/",
+        "note": "Marriott confirms the beachfront property, 15:00/11:00 hours, private rooms and hotel services."
+      }
+    },
+    {
+      "id": "busan-wyndham-grand",
+      "city": "Busan",
+      "name": "Wyndham Grand Busan Ijin",
+      "tier": "premium",
+      "stars": 5,
+      "area": "Songdo / Amnam",
+      "neighborhood": "Newer waterfront property at Songdo, south of Nampo",
+      "priceFrom": 120,
+      "priceTo": 210,
+      "currency": "USD",
+      "checkIn": "15:00",
+      "checkOut": "11:00",
+      "policies": [
+        "Standard check-in from 15:00; check-out by 11:00.",
+        "Room inventory, cancellation terms, and inclusions vary by rate; confirm them on the official booking page.",
+        "24-hour reception is not assumed for the general city list; use the separate arrival-night shortlist for night one."
+      ],
+      "rooms": [
+        {
+          "name": "Deluxe King",
+          "price": "$135–185/night",
+          "note": "Private en-suite bathroom",
+          "bed": "king",
+          "bedType": "king",
+          "bedSize": "King (official Wyndham category)",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single King bed (not two beds pushed together)"
+        }
+      ],
+      "promos": [
+        "Check the official property page for member, advance-purchase, and length-of-stay rates."
+      ],
+      "amenities": [
+        "Indoor pool",
+        "Fitness center",
+        "Sauna",
+        "Restaurants",
+        "Ocean views"
+      ],
+      "hasOnSiteLaundry": false,
+      "officialUrl": "https://www.wyndhamhotels.com/wyndham-grand/busan-south-korea/wyndham-grand-busan-ijin/overview",
+      "officialLabel": "Official property / hotel-group site",
+      "compareUrl": "https://www.google.com/travel/search?q=Wyndham+Grand+Busan+Ijin+Busan",
+      "compareLabel": "Compare live rates (Google Hotels)",
+      "why": "A newer full-service waterfront splurge for travelers prioritizing Songdo and Nampo over direct subway access.",
+      "highlights": [
+        "Newer waterfront luxury",
+        "Indoor pool",
+        "Wyndham Rewards"
+      ],
+      "fits": false,
+      "fitReason": "King room and private bath fit, but no walkable Busan Metro station",
+      "lat": 35.078533,
+      "lng": 129.024254,
+      "priceNote": "Planning estimate for autumn 2026, not a live quote. Confirm the total for the exact room and dates.",
+      "stationWalkTime": "Bus/taxi to Nampo/Jagalchi; no walkable metro station",
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://www.wyndhamhotels.com/wyndham-grand/busan-south-korea/wyndham-grand-busan-ijin/overview",
+        "note": "Wyndham confirms the property, exact Songdo address, contact details and waterfront hotel listing."
+      }
     }
   ],
   "meta": {
-    "pricingLastChecked": "2026-08-04",
-    "pricingSource": "Public listings from Trip.com, Booking.com, official hotel sites (estimates only)"
+    "pricingLastChecked": "2026-08-10",
+    "pricingSource": "Planning estimates cross-checked against official hotel/brand pages and government tourism listings; use official booking pages for live totals.",
+    "hotelResearchLastChecked": "2026-08-10",
+    "expandedPrimaryCityHotels": 55,
+    "verifiedPrimaryCityHotels": 55
   },
   "arrivalNight": {
-    "title": "First night in Seoul — late-arrival shortlist",
+    "title": "First night in Seoul — officially verified late-arrival shortlist",
     "airport": "Incheon International Airport (ICN)",
     "arrivalTime": "21:00",
     "arrivalCity": "Seoul",
     "firstNightOnly": true,
     "lastVerified": "2026-08-10",
-    "requirement": "For the first booked night only, use a hotel with a currently listed 24-hour staffed front desk / reception so a delayed arrival does not strand the reservation.",
-    "definition": "A 24-hour desk is the evidence threshold for this shortlist. It is not the same as permission to arrive after midnight without notice: book the correct arrival date and tell the hotel your flight number and expected late arrival.",
-    "recommendedId": "seoul-l7-myeongdong",
+    "requirement": "For the first booked night only, use a hotel with a currently documented 24-hour reception/front desk. Official hotel or government-tourism evidence is preferred, and every option still requires a late-arrival message.",
+    "definition": "A current official hotel/brand page, government tourism listing, or major trusted booking platform must explicitly show 24-hour reception/front-desk coverage or an equivalent anytime check-in signal. This is not a guarantee that an unannounced no-show will be held: book the landing date, share the flight number, and obtain written confirmation for a possible after-midnight arrival.",
+    "recommendedId": "seoul-somerset-palace",
     "decision": {
-      "recommended": "Book L7 MYEONGDONG by LOTTE — Deluxe Double for the first night if you want to wake up in central Seoul.",
-      "why": "It is the strongest balance of a verified 24-hour front desk, a one-queen-bed room in the planner, a private bathroom, and a two-minute walk to Myeongdong Station.",
-      "airportFallback": "Choose Grand Hyatt Incheon instead only if avoiding the late trip into Seoul matters more than being in central Seoul on night one. It is an airport hotel, not a Seoul-city hotel."
+      "recommended": "Book Somerset Palace Seoul — Studio Executive for the first night.",
+      "why": "It has the strongest source chain in the shortlist: the official Ascott property page lists 24-hour reception, the official room page lists one queen bed plus a private bathroom and washer/dryer, and the property is about three minutes from Anguk Station in the palace/Insadong area.",
+      "airportFallback": "Choose Grand Hyatt Incheon only if avoiding the late trip into Seoul matters more than waking up in the city. It is near ICN, not a Seoul sightseeing base."
     },
     "steps": [
       {
@@ -2476,10 +4909,33 @@
     ],
     "candidates": [
       {
+        "id": "seoul-somerset-palace",
+        "hotelId": "seoul-somerset-palace",
+        "rank": 1,
+        "label": "Top pick — strongest official-source evidence",
+        "location": "Gwanghwamun / Insadong, Seoul",
+        "tier": "Mid-range",
+        "checkIn": "15:00",
+        "checkOut": "12:00",
+        "frontDesk": "24-hour reception listed by the official property site",
+        "room": "Studio Executive — one queen bed, private bathroom, kitchen and washer/dryer",
+        "privateBathroom": true,
+        "station": "Anguk Station — about a 3-minute walk; Gwanghwamun/Jonggak about 5 minutes",
+        "estimatedRate": "$140–190/night for Studio Executive — planning estimate, not a live quote",
+        "why": "It keeps night one in central Seoul while pairing the clearest official 24-hour-reception statement with a queen room and useful in-room laundry for the longer stay.",
+        "tradeoff": "It is in the palace/Insadong area rather than Myeongdong. The late airport-to-city journey still depends on live rail/bus timing.",
+        "bookingNote": "Book Studio Executive for the calendar date you land, send the flight number, and ask Ascott to confirm the room will be held after midnight.",
+        "officialUrl": "https://www.discoverasr.com/en/somerset-serviced-residence/korea-south/somerset-palace-seoul",
+        "evidenceUrl": "https://www.discoverasr.com/en/somerset-serviced-residence/korea-south/somerset-palace-seoul/download-brochure",
+        "evidenceType": "Official hotel/brand page",
+        "evidenceLabel": "Official Somerset / Ascott property brochure: 24-hour reception, room facilities and normal hours",
+        "evidenceQuote": "The official property data lists “24-hour reception”; its Studio Executive page lists one queen-size bed, a private bathroom, and a washing machine and dryer."
+      },
+      {
         "id": "seoul-l7-myeongdong",
         "hotelId": "seoul-l7-myeongdong",
-        "rank": 1,
-        "label": "Top pick — go straight to central Seoul",
+        "rank": 2,
+        "label": "Central Myeongdong pick — trusted listing evidence",
         "location": "Myeongdong, Seoul",
         "tier": "Mid-range",
         "checkIn": "15:00",
@@ -2495,13 +4951,37 @@
         "officialUrl": "https://www.lottehotel.com/myeongdong-l7/en/main.html",
         "evidenceUrl": "https://www.booking.com/hotel/kr/l7-myeongdong-by-lotte.en-gb.html",
         "evidenceLabel": "Property listing: 24-hour front desk, en-suite bathroom, and Myeongdong Station proximity",
-        "evidenceQuote": "The property listing states that L7 Myeongdong has a 24-hour front desk and is a few minutes' walk from Myeongdong Station."
+        "evidenceQuote": "The property listing states that L7 Myeongdong has a 24-hour front desk and is a few minutes' walk from Myeongdong Station.",
+        "evidenceType": "Major trusted booking platform"
+      },
+      {
+        "id": "seoul-ibis-ambassador-myeongdong",
+        "hotelId": "seoul-ibis-ambassador-myeongdong",
+        "rank": 3,
+        "label": "Official-tourism value option — central Myeongdong",
+        "location": "Myeongdong, Seoul",
+        "tier": "Mid-range",
+        "checkIn": "14:00",
+        "checkOut": "12:00",
+        "frontDesk": "24-hour reception service listed by VISITKOREA",
+        "room": "Standard Room with 1 Double Bed — private bathroom; exact bed width needs confirmation",
+        "privateBathroom": true,
+        "station": "Euljiro 1-ga — about 4 minutes; Myeongdong Station about 7 minutes",
+        "estimatedRate": "$100–130/night — planning estimate, not a live quote",
+        "why": "It provides a lower-cost central option with round-the-clock reception documented by the Korea Tourism Organization and direct official booking through Accor.",
+        "tradeoff": "The cited room is a double, not a confirmed queen. Choose Somerset or L7 if bed width is non-negotiable.",
+        "bookingNote": "Confirm the exact bed width, reserve the landing date on Accor, then message the hotel with the flight number and possible post-midnight arrival.",
+        "officialUrl": "https://all.accor.com/hotel/6317/index.en.shtml",
+        "evidenceUrl": "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=96506",
+        "evidenceType": "Government tourism authority",
+        "evidenceLabel": "Korea Tourism Organization (VISITKOREA): 24-hour reception service",
+        "evidenceQuote": "The government-run VISITKOREA property entry says that all rooms have standard business-hotel facilities and the hotel provides “a 24-hour reception service.”"
       },
       {
         "id": "seoul-nine-tree-myeongdong-1",
         "hotelId": "seoul-nine-tree",
-        "rank": 2,
-        "label": "Value pick — go straight to central Seoul",
+        "rank": 4,
+        "label": "Second Myeongdong value pick",
         "location": "Myeongdong, Seoul",
         "tier": "Mid-range",
         "checkIn": "15:00",
@@ -2514,15 +4994,16 @@
         "why": "A more economical central option that still keeps the one-queen-bed and near-station preferences when you choose the Deluxe room.",
         "tradeoff": "The less-expensive Standard/Double rooms in the planner use a smaller double bed, so do not select those if the queen-size requirement is non-negotiable.",
         "bookingNote": "Choose the Deluxe room, not Standard Double; message the hotel with the late-arrival details after booking.",
-        "officialUrl": "https://www.ninetreehotel.com/eng/myeongdong1/main.do",
+        "officialUrl": "https://www.ninetreehotels.com/nth1/?lang=en",
         "evidenceUrl": "https://www.booking.com/hotel/kr/nine-tree.html",
         "evidenceLabel": "Property listing: 24-hour front desk",
-        "evidenceQuote": "The property listing says the hotel has a 24-hour front desk that can assist with laundry, luggage storage, and ticketing."
+        "evidenceQuote": "The property listing says the hotel has a 24-hour front desk that can assist with laundry, luggage storage, and ticketing.",
+        "evidenceType": "Major trusted booking platform"
       },
       {
         "id": "incheon-grand-hyatt",
         "hotelId": null,
-        "rank": 3,
+        "rank": 5,
         "label": "Most delay-proof — sleep by ICN, move to Seoul tomorrow",
         "location": "Incheon Airport area — not central Seoul",
         "tier": "Premium",
@@ -2538,9 +5019,11 @@
         "bookingNote": "Check the property's current airport-transfer timetable and notify it of your flight number; do not assume every hotel shuttle runs after midnight.",
         "officialUrl": "https://www.hyatt.com/grand-hyatt/en-US/inche-grand-hyatt-incheon",
         "evidenceUrl": "https://www.expedia.com/Incheon-Hotels-Grand-Hyatt-Incheon.h976006.Hotel-Information",
-        "evidenceLabel": "Official hotel page + current booking listing: all-day hotel hours and check-in end time 'anytime'",
-        "evidenceQuote": "Hyatt's property data lists daily opening hours from 00:00 to 23:59; Expedia currently lists check-in as ending anytime."
+        "evidenceLabel": "Official Hyatt property hours + major trusted booking listing with check-in end “anytime”",
+        "evidenceQuote": "Hyatt’s official property data publishes daily opening hours from 00:00 to 23:59; Expedia lists check-in as ending anytime. Contact the hotel with the flight number and obtain a written acknowledgement.",
+        "evidenceType": "Official hotel/brand + major trusted booking platform"
       }
-    ]
+    ],
+    "verificationStandard": "Official hotel/brand source preferred; government tourism authority or major trusted booking platform accepted when the property site does not publish reception hours."
   }
 }

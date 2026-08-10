@@ -37,11 +37,10 @@ This is prime **fall foliage** season in Korea. Expect mild, crisp days (roughly
 5–15°C) and colorful leaves at Gyeongju's Bulguksa, Seoul's palaces, and Busan's
 mountains. Weather and rates are generally favorable — a good time for value.
 
-## Quick hotel shortlist (full details in the interactive index.html)
+## Expanded hotel coverage (full details in interactive `index.html`)
 
-- **Seoul budget/mid:** Ibis Styles Myeongdong · Nine Tree Myeongdong · Ibis Insadong · L7 Myeongdong
-- **Seoul premium:** Fairmont Ambassador · Four Seasons
-- **Gyeongju budget/mid:** GG Hotel · Hwangnamkwan Hanok · Commodore
-- **Gyeongju premium:** Lahan Select · Hilton
-- **Busan budget/mid:** Shilla Stay Haeundae · ASTI Busan Station · L7 Haeundae
-- **Busan premium:** Grand Josun · Park Hyatt
+- **Seoul — 20:** Myeongdong, City Hall, Gwanghwamun, Insadong, Jongno, Namdaemun, and Yeouido. Somerset Palace is the first-night recommendation because its official page lists 24-hour reception.
+- **Gyeongju — 15:** four Old Town/hanok choices, two bus-terminal/center choices, eight Bomun-area stays, and Kolon by Bulguksa.
+- **Busan — 20:** twelve Haeundae/Dongbaek/Mipo choices, two Seomyeon/BIFC choices, four Station/Jungang choices, and two Songdo choices.
+
+Use the website's city tabs and search rather than treating this as a single ranked list. The right Busan and Gyeongju district matters as much as the hotel.

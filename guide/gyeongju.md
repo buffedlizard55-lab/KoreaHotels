@@ -1,44 +1,69 @@
-# Gyeongju — Hotels & Booking Guide
+# Gyeongju — Expanded Hotels & Booking Guide
 
-**Recommended:** 6 nights (Nov 8 – Nov 14). Gyeongju is the ancient Silla capital —
-a compact historic city where the best places to stay are either the **Old Town**
-(hanok guesthouses near the tombs & Cheomseongdae) or **Bomun Lake Resort** (bigger
-resort hotels).
+**Planned stay:** 6 nights (Nov 8 – Nov 14)
+**Coverage:** **15 hotels and hanok stays** across Old Town, the bus-terminal area, Bomun Lake, and Bulguksa.
 
-## Where to stay
-- **Old Town (Hwangnam-dong / Hwangseong)** — hanok guesthouses, walkable to Cheomseongdae
-  Observatory, Daereungwon tombs, Wolji Pond. Most atmospheric; fewer big hotels.
-- **Bomun Lake Resort** — large 4–5 star resorts with pools, spas, lake walks. A short
-  taxi/bus ride to the historic center.
+## The transport caveat
 
-> ⚠️ **Gyeongju has fewer hotels than the big cities and its best hanok properties sell
-> out early. Book these as soon as your dates are firm.**
+Gyeongju has no subway, and **Singyeongju KTX Station is outside the normal accommodation districts**. None of these entries is labeled a full core-needs match because a practical walk from KTX is not available. “Good transport” here means one of the following:
 
-## Best-value picks (official links)
+- walkable to Old Town sights and local buses;
+- beside Gyeongju Intercity Bus Terminal; or
+- inside the Bomun resort bus/taxi network.
 
-| Hotel | Tier | Room types (per night, est.) | Check-in / out | Official |
-|-------|------|------------------------------|----------------|----------|
-| GG Hotel | Budget | Standard $55–66 · Deluxe $66–78 | 15:00 / 11:00 | [via OTA (no English site)](https://www.kayak.com/hotels/Gyeongju,c41830/GG-Hotel-Gyeongju) |
-| Hwangnamkwan Hanok Hotel | Mid | Standard Hanok $80–105 · Deluxe Hanok $105–130 | 15:00 / 11:00 | [hwangnamkwan.co.kr](https://www.hwangnamkwan.co.kr) |
-| Commodore Hotel Gyeongju | Mid | Superior $66–80 · Deluxe $80–95 · Double (lake view) $100–130 | 14:00 / 12:00 | [commodorehotel.co.kr](https://www.commodorehotel.co.kr) |
-| Lahan Select Gyeongju | Premium | Deluxe $100–120 · Double $108–130 · Queen $120–150 | 15:00 / 11:00 | [lahan.com](https://www.lahan.com/gyeongju/en/main.do) |
-| Hilton Gyeongju | Premium | King $125–140 · Deluxe $140–165 · Standard (twin) $150–185 · Executive $250–380 | 15:00 / 11:00 | [hilton.com](https://www.hilton.com/en/hotels/kyjgyhi-hilton-gyeongju/) |
+## Choose the district first
 
-## Loyalty & deals
-- **Hilton Honors** (Hilton Gyeongju): points + member rates; indoor/outdoor pools,
-  water slide, kids' areas — good for families.
-- **Lahan** and **Commodore** official sites often run seasonal lake-view and
-  length-of-stay packages.
-- **Hanoks (Hwangnamkwan)** — book direct or via OTA; culture value is the draw, not points.
+- **Old Town / Hwangnidan-gil / Cheomseongdae** — best for walking to Daereungwon, Cheomseongdae, Woljeonggyo, cafes, and evening-lit heritage sites.
+- **City center / intercity bus terminal** — easiest luggage transfer and local-bus access; a short walk to Hwangnidan-gil.
+- **Bomun Lake** — large hotels, pools, spas, and lake walks; use bus or taxi for Old Town.
+- **Bulguksa / Tohamsan** — quiet resort setting near Bulguksa and Seokguram, but less convenient for central evenings.
 
-## Rules to know
-- Commodore: check-in 14:00, check-out 12:00; some room types exclude children;
-  adult extra bed ≈ KRW 36,300/night; no pets.
-- Hilton: check-in 15:00–23:59, check-out 11:00; children over 1 welcome; no cots/extra beds; no pets.
-- Traditional hanoks often have firmer/ondol (heated-floor) sleeping arrangements —
-  check if mattresses are provided before booking if you prefer soft beds.
+## All 15 Gyeongju options
 
-## Don't miss
-- **Bulguksa Temple** & **Seokguram Grotto** (UNESCO) · **Cheomseongdae** observatory ·
-  **Daereungwon** tomb complex · **Wolji (Anapji) Pond** at night · **Yangdong Village** ·
-  Gyeongju National Museum. Fall foliage is spectacular here in early–mid November.
+Planning prices are estimates for autumn 2026. Traditional stays may use ondol floor bedding; read the room note rather than assuming a western bed.
+
+| Hotel | Area | Estimate | Room to compare | Source status |
+|---|---|---:|---|---|
+| [Hwangnamkwan Hanok Hotel](https://www.hwangnamkwan.co.kr) | Old Town | $80–130 | Standard Hanok / ondol | **Source checked** |
+| [HanokInn](http://www.hanokinn.com/) | Hwangnidan-gil | $150–240 | Hanok Double Room | **VISITKOREA + property checked** |
+| [Wiyeonjae Hanok Stay](http://www.wiyeonjae.kr/) | Cheomseongdae | $85–140 | Ondol Room | **VISITKOREA + property checked** |
+| [Nadul Hanok](http://gjhanok.com/) | Cheomseongdae | $80–130 | Hanok Room with Bed | **VISITKOREA + property checked** |
+| [Rivertain Hotel Gyeongju](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=60519) | Bus terminal / center | $75–120 | Standard Double | **Korea Quality certified** |
+| [GG Hotel Gyeongju](https://www.kayak.com/hotels/Gyeongju,c41830/GG-Hotel-Gyeongju) | Bus terminal / center | $55–75 | Standard Double | **Source checked**; no current official English site |
+| [Commodore Hotel Gyeongju](https://www.commodorehotel.co.kr) | Bomun Lake | $90–140 | Superior / Deluxe Double | **Source checked** |
+| [Lahan Select Gyeongju](https://www.lahan.com/gyeongju/en/main.do) | Bomun Lake | $130–190 | Queen | **Source checked** |
+| [Hilton Gyeongju](https://www.hilton.com/en/hotels/kyjgyhi-hilton-gyeongju/) | Bomun Lake | $140–220 | King | **Source checked** |
+| [The-K Hotel Gyeongju](http://www.thek-hotel.co.kr/gyeongju/) | Bomun Lake | $80–140 | Double Suite | **Property + VISITKOREA checked** |
+| [KINOCK Gyeongju](https://www.kinock.co.kr/gj/ko/Home/Main) | North Bomun | $130–220 | KINOCK Premier — queen | **Official current brand checked** |
+| [Benikea Swiss Rosen Hotel](https://www.benikea.com/) | Bomun / HICO | $55–90 | Deluxe Double | **VISITKOREA / BENIKEA checked** |
+| [SONO Calm Gyeongju](https://www.sonohotelsresorts.com/calm_gju/resort) | Bomun Lake | $90–160 | Family Lake — multi-bed | **Official SONO checked** |
+| [Kensington Resort Gyeongju](https://www.kensington.co.kr/rgj) | North Bomun | $80–140 | Kensington Studio | **Official property checked** |
+| [Kolon Hotel Gyeongju](https://www.kolonhotel.co.kr/) | Bulguksa / Tohamsan | $65–120 | Premier Double | **Property + VISITKOREA checked** |
+
+## Best fits by use
+
+- **Best conventional Old Town access:** Rivertain Hotel — beside the intercity terminal and walkable to Hwangnidan-gil.
+- **Best hanok with a western bed:** Nadul Hanok — government tourism information confirms a bed and private toilet/bathroom.
+- **Best fully traditional location:** Wiyeonjae — all ondol, all rooms with bathrooms, near Cheomseongdae.
+- **Best Bomun one-bed choice:** Lahan Select Queen or Hilton King.
+- **Best budget Bomun choice:** Benikea Swiss Rosen.
+- **Best for travelers with a dog:** KINOCK, the fully renovated pet hotel that replaced the former Suites Hotel Gyeongju.
+- **Best for Bulguksa:** Kolon Hotel.
+- **Best large family resort:** SONO Calm; note that its highlighted room is a multi-bed layout.
+
+## Late arrival at Gyeongju properties
+
+The ICN late-arrival requirement applies only to the first night in Seoul. Still, some Gyeongju properties publish cutoffs:
+
+- SONO's official room page says to **contact the front desk/reservation center before arrival after 22:00**.
+- Rivertain's current front-desk information is not round-the-clock; notify it for a late arrival.
+- Smaller hanok stays may be owner-operated and require an arranged arrival time.
+
+Plan the Seoul-to-Gyeongju transfer during the day and send an estimated arrival time to any hanok.
+
+## Booking checks
+
+1. Confirm whether “double” means a western bed and ask for its width if 150 cm is essential.
+2. For ondol, ask how many floor mattresses are supplied and whether the bathroom is inside the room.
+3. Check bus frequency before choosing Bomun or Bulguksa; taxis may be the practical evening option.
+4. Book Old Town and small hanok inventory early because there are few rooms.

@@ -59,6 +59,21 @@ Each standard hotel record is shown in the city shortlist.
 
 `officialUrl` may be `null` only where a reliable official booking page is not available.
 
+#### `verification` (all planned-city entries)
+
+Every Seoul, Gyeongju, and Busan entry carries an auditable source block:
+
+```json
+{
+  "lastChecked": "2026-08-10",
+  "sourceType": "Official hotel/brand",
+  "sourceUrl": "https://official.example/property",
+  "note": "What the linked source confirms"
+}
+```
+
+The website shows this note and date on the hotel card. The validator requires it for every hotel in the three planned cities and rejects incomplete blocks. Legacy Cheonan/Daejeon alternatives may omit it. The expanded-list baseline is 20 Seoul, 15 Gyeongju, and 20 Busan records.
+
 #### `rooms[]`
 
 Each room needs:
@@ -124,9 +139,10 @@ Each candidate must include:
 | `room`, `privateBathroom`, `station`, `estimatedRate` | Booking / transport comparison fields |
 | `why`, `tradeoff`, `bookingNote` | Human decision guidance |
 | `officialUrl` | Where to book directly |
+| `evidenceType` | `Official hotel/brand page`, `Government tourism authority`, `Major trusted booking platform`, or the allowed official + platform combination |
 | `evidenceUrl`, `evidenceLabel`, `evidenceQuote` | Auditable source for the late-arrival claim |
 
-The validator requires an HTTP(S) official-booking link and evidence link for every arrival candidate. Keep `lastVerified` current whenever the evidence is rechecked.
+The validator requires an HTTP(S) official-booking link, evidence link, accepted evidence type, and unique rank for every arrival candidate. The recommended candidate must use direct official hotel/brand evidence. Keep `lastVerified` current whenever the evidence is rechecked.
 
 **Important:** `frontDesk` means the property currently shows a 24-hour staffed reception or an equivalent late-check-in signal. It must never be represented as a guarantee that an unannounced post-midnight reservation will be retained. The `definition`, `steps`, and `bookingNote` should always tell the traveler to notify the hotel.
 
@@ -162,12 +178,14 @@ Optional alternative legs use the same structure. The UI shows them as **Alterna
 
 `validate.py` checks:
 
-- standard hotels have all required fields and room detail fields
+- standard hotels have all required fields, unique IDs, and room detail fields
 - all rooms include `bedType`, `oneBedOnly`, and `privateBathroom`
 - all standard hotels include `hasOnSiteLaundry`
+- every planned-city hotel has a `verification` block with a date, source type, HTTP(S) source link, and explanatory note
+- the expanded primary-city baseline remains at least 20 Seoul, 15 Gyeongju, and 20 Busan records
 - the `arrivalNight` block exists and has a non-empty candidate set
-- every arrival candidate has a unique ID, 24-hour / anytime front-desk signal, valid booking link, valid evidence link, and (if supplied) a valid `hotelId`
-- `recommendedId` points to one of the arrival candidates
+- every arrival candidate has a unique ID and rank, 24-hour / anytime front-desk signal, accepted evidence type, valid booking link, valid evidence link, and (if supplied) a valid `hotelId`
+- `recommendedId` points to a candidate backed by direct official hotel/brand evidence
 - `itinerary.json` includes a `legs` array
 
 ```bash

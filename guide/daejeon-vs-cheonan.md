@@ -69,4 +69,4 @@ Both are far more cost-effective than extending Seoul or using Gyeongju as the t
 
 **Next step**: Want me to add Daejeon hotels to `hotels.json` as well, or update the itinerary JSON with Cheonan (or Daejeon) as the third leg?
 
-**Update (Aug 2026)**: Both Cheonan (5 hotels) and Daejeon (6 hotels) are now fully added to `data/hotels.json` in the same structured format as Seoul/Busan/Gyeongju. The planner (`index.html`) can now use these hotels for budget calculations and day planning. `data/itinerary.json` also includes both cities as `alternatives`.
+**Update (Aug 2026)**: Both Cheonan (7 hotels) and Daejeon (7 hotels) are now fully added to `data/hotels.json` in the same structured format as Seoul/Busan/Gyeongju. The planner (`index.html`) can now use these hotels for budget calculations and day planning. `data/itinerary.json` also includes both cities as `alternatives`.

@@ -25,6 +25,16 @@ REQUIRED_ROOM_FIELDS = [
     "oneBed", "oneBedOnly", "privateBathroom", "bedNote"
 ]
 
+REQUIRED_VERIFICATION_FIELDS = [
+    "lastChecked", "sourceType", "sourceUrl", "note"
+]
+
+MIN_PRIMARY_CITY_HOTELS = {
+    "Seoul": 20,
+    "Gyeongju": 15,
+    "Busan": 20,
+}
+
 # The arrival-night block is intentionally strict: it is the only shortlist
 # that makes a 24-hour-reception claim, so every candidate needs an auditable
 # source link and a direct-booking link.
@@ -37,7 +47,7 @@ REQUIRED_ARRIVAL_CANDIDATE_FIELDS = [
     "id", "rank", "label", "location", "tier", "checkIn", "checkOut",
     "frontDesk", "room", "privateBathroom", "station", "estimatedRate",
     "why", "tradeoff", "bookingNote", "officialUrl", "evidenceUrl",
-    "evidenceLabel", "evidenceQuote"
+    "evidenceType", "evidenceLabel", "evidenceQuote"
 ]
 
 def load_json(path):
@@ -63,13 +73,20 @@ def validate_hotels(data):
 
     errors = 0
     warnings = 0
+    verified = 0
+    ids = set()
 
     for h in hotels:
-        # Check required fields
+        # Check required fields and stable unique IDs.
         for field in REQUIRED_HOTEL_FIELDS:
             if field not in h:
                 print(f"  ❌ Missing field '{field}' in {h.get('name', h.get('id'))}")
                 errors += 1
+
+        if h.get("id") in ids:
+            print(f"  ❌ Duplicate hotel id '{h.get('id')}'")
+            errors += 1
+        ids.add(h.get("id"))
 
         # Check rooms
         for room in h.get("rooms", []):
@@ -88,11 +105,44 @@ def validate_hotels(data):
         if not h.get("officialUrl"):
             print(f"  ⚠️  No officialUrl for {h['name']} (city: {h['city']})")
             warnings += 1
+        elif not isinstance(h.get("officialUrl"), str) or not h["officialUrl"].startswith(("https://", "http://")):
+            print(f"  ❌ Invalid officialUrl in {h['name']}")
+            errors += 1
 
         # Check hasOnSiteLaundry
         if "hasOnSiteLaundry" not in h:
             print(f"  ❌ Missing hasOnSiteLaundry in {h['name']}")
             errors += 1
+
+        # Every hotel in the three planned cities carries an auditable, dated
+        # source note. Alternative-city legacy entries may omit it, but any
+        # supplied block must still be complete.
+        verification = h.get("verification")
+        if h.get("city") in MIN_PRIMARY_CITY_HOTELS and verification is None:
+            print(f"  ❌ Missing verification block in planned-city hotel {h['name']}")
+            errors += 1
+        if verification is not None:
+            verified += 1
+            if not isinstance(verification, dict):
+                print(f"  ❌ Invalid verification block in {h['name']}")
+                errors += 1
+            else:
+                for field in REQUIRED_VERIFICATION_FIELDS:
+                    if not verification.get(field):
+                        print(f"  ❌ Missing verification field '{field}' in {h['name']}")
+                        errors += 1
+                source_url = verification.get("sourceUrl", "")
+                if not isinstance(source_url, str) or not source_url.startswith(("https://", "http://")):
+                    print(f"  ❌ Invalid verification sourceUrl in {h['name']}")
+                    errors += 1
+
+    city_counts = {city: sum(h.get("city") == city for h in hotels) for city in MIN_PRIMARY_CITY_HOTELS}
+    for city, minimum in MIN_PRIMARY_CITY_HOTELS.items():
+        if city_counts[city] < minimum:
+            print(f"  ❌ {city} has {city_counts[city]} hotels; expanded-list minimum is {minimum}")
+            errors += 1
+
+    print(f"Dated source notes: {verified}; planned-city coverage: " + ", ".join(f"{city} {count}" for city, count in city_counts.items()))
 
     if errors == 0:
         print("✅ No critical errors in hotels.json")
@@ -129,7 +179,9 @@ def validate_arrival_night(data):
         return errors
 
     ids = set()
+    ranks = set()
     hotel_ids = {hotel.get("id") for hotel in data.get("hotels", [])}
+    allowed_evidence_types = {"Official hotel/brand page", "Government tourism authority", "Major trusted booking platform", "Official hotel/brand + major trusted booking platform"}
     for candidate in candidates:
         name = candidate.get("id", "unnamed arrival candidate")
         for field in REQUIRED_ARRIVAL_CANDIDATE_FIELDS:
@@ -141,6 +193,15 @@ def validate_arrival_night(data):
             print(f"  ❌ Duplicate arrival candidate id '{candidate.get('id')}'")
             errors += 1
         ids.add(candidate.get("id"))
+
+        if candidate.get("rank") in ranks:
+            print(f"  ❌ Duplicate arrival candidate rank '{candidate.get('rank')}'")
+            errors += 1
+        ranks.add(candidate.get("rank"))
+
+        if candidate.get("evidenceType") not in allowed_evidence_types:
+            print(f"  ❌ Unrecognized evidenceType in {name}")
+            errors += 1
 
         for url_field in ("officialUrl", "evidenceUrl"):
             if url_field in candidate and not valid_http_url(candidate[url_field]):
@@ -158,6 +219,11 @@ def validate_arrival_night(data):
     if arrival.get("recommendedId") not in ids:
         print("  ❌ recommendedId does not point to an arrival-night candidate")
         errors += 1
+    else:
+        recommended = next(candidate for candidate in candidates if candidate.get("id") == arrival.get("recommendedId"))
+        if recommended.get("evidenceType") != "Official hotel/brand page":
+            print("  ❌ Recommended arrival hotel must use direct official hotel/brand evidence")
+            errors += 1
 
     if errors == 0:
         print(f"✅ {len(candidates)} arrival-night candidates have booking + evidence links")

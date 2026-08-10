@@ -104,7 +104,9 @@
         "lastChecked": "2026-08-10",
         "sourceType": "Official hotel/brand",
         "sourceUrl": "https://www.lottehotel.com/myeongdong-l7/en/main.html",
-        "note": "LOTTE confirms the operating Myeongdong property, address, rooms and facilities. Its separate arrival card uses a major trusted listing for the explicit 24-hour-desk claim."
+        "note": "LOTTE confirms the operating Myeongdong property, address, rooms and facilities. Its separate arrival card uses a major trusted listing for the explicit 24-hour-desk claim.",
+        "canonicalName": "L7 MYEONGDONG by LOTTE HOTELS",
+        "existenceStatus": "Verified operating property"
       }
     },
     {
@@ -194,7 +196,12 @@
         "lastChecked": "2026-08-10",
         "sourceType": "Official hotel/brand",
         "sourceUrl": "https://www.ninetreehotels.com/nth1/?lang=en",
-        "note": "Parnas confirms the 144-room Myeongdong I property, room categories, coin laundry and one-minute Myeongdong Station access. The explicit 24-hour evidence is linked separately on the arrival card."
+        "note": "Parnas confirms the 144-room Myeongdong I property, room categories, coin laundry and one-minute Myeongdong Station access. The explicit 24-hour evidence is linked separately on the arrival card.",
+        "canonicalName": "Nine Tree by Parnas Seoul Myeongdong 1",
+        "existenceStatus": "Verified operating property",
+        "distinctFrom": [
+          "seoul-nine-tree-myeongdong2"
+        ]
       }
     },
     {
@@ -273,7 +280,12 @@
         "lastChecked": "2026-08-10",
         "sourceType": "Official hotel/brand",
         "sourceUrl": "https://all.accor.com/hotel/1976/index.en.shtml",
-        "note": "Accor confirms the current hotel, central address, normal hours and services. Breakfast and exact bed width must be checked in the selected live rate."
+        "note": "Accor confirms the current hotel, central address, normal hours and services. Breakfast and exact bed width must be checked in the selected live rate.",
+        "canonicalName": "Ibis Styles Ambassador Seoul Myeongdong",
+        "existenceStatus": "Verified operating property",
+        "distinctFrom": [
+          "seoul-ibis-ambassador-myeongdong"
+        ]
       }
     },
     {
@@ -350,7 +362,9 @@
         "lastChecked": "2026-08-10",
         "sourceType": "Official hotel/brand",
         "sourceUrl": "https://all.accor.com/hotel/1888/index.en.shtml",
-        "note": "Accor confirms the operating Insadong property, address, normal hours and services; the recorded double room remains below the planner queen-width rule."
+        "note": "Accor confirms the operating Insadong property, address, normal hours and services; the recorded double room remains below the planner queen-width rule.",
+        "canonicalName": "Ibis Ambassador Insadong (newly refurbished)",
+        "existenceStatus": "Verified operating property"
       }
     },
     {
@@ -428,7 +442,9 @@
         "lastChecked": "2026-08-10",
         "sourceType": "Official hotel/brand",
         "sourceUrl": "https://www.fourseasons.com/seoul/",
-        "note": "Four Seasons confirms the current Gwanghwamun property, accommodations, dining, spa and central location."
+        "note": "Four Seasons confirms the current Gwanghwamun property, accommodations, dining, spa and central location.",
+        "canonicalName": "Four Seasons Hotel Seoul",
+        "existenceStatus": "Verified operating property"
       }
     },
     {
@@ -505,7 +521,9 @@
         "lastChecked": "2026-08-10",
         "sourceType": "Official hotel/brand",
         "sourceUrl": "https://www.fairmont.com/en/hotels/seoul/fairmont-ambassador-seoul.html",
-        "note": "Fairmont/Accor confirms the Yeouido property, rooms, wellness facilities and location beside The Hyundai Seoul."
+        "note": "Fairmont/Accor confirms the Yeouido property, rooms, wellness facilities and location beside The Hyundai Seoul.",
+        "canonicalName": "Fairmont Ambassador Seoul",
+        "existenceStatus": "Verified operating property"
       }
     },
     {
@@ -609,7 +627,9 @@
         "lastChecked": "2026-08-10",
         "sourceType": "Official hotel/brand",
         "sourceUrl": "https://www.shillastay.com/haeundae/main.do?lang=en",
-        "note": "Shilla Stay confirms the operating Haeundae property, rooms, facilities and booking channel; select Deluxe or Premier for the recorded queen setup."
+        "note": "Shilla Stay confirms the operating Haeundae property, rooms, facilities and booking channel; select Deluxe or Premier for the recorded queen setup.",
+        "canonicalName": "Shilla Stay Busan Haeundae",
+        "existenceStatus": "Verified operating property"
       }
     },
     {
@@ -688,7 +708,9 @@
         "lastChecked": "2026-08-10",
         "sourceType": "Official hotel/brand",
         "sourceUrl": "https://www.lottehotel.com/haeundae-l7/en/main.html",
-        "note": "LOTTE confirms the current Haeundae L7 property, rooms, pool, facilities and booking channel."
+        "note": "LOTTE confirms the current Haeundae L7 property, rooms, pool, facilities and booking channel.",
+        "canonicalName": "L7 HAEUNDAE by LOTTE HOTELS",
+        "existenceStatus": "Verified operating property"
       }
     },
     {
@@ -778,7 +800,9 @@
         "lastChecked": "2026-08-10",
         "sourceType": "Official property site",
         "sourceUrl": "https://www.astihotel.com",
-        "note": "ASTI confirms the operating hotel beside Busan Station and its room/facility inventory; reconfirm the Executive king in live availability."
+        "note": "ASTI confirms the operating hotel beside Busan Station and its room/facility inventory; reconfirm the Executive king in live availability.",
+        "canonicalName": "ASTI Hotel Busan Station",
+        "existenceStatus": "Verified operating property"
       }
     },
     {
@@ -880,7 +904,9 @@
         "lastChecked": "2026-08-10",
         "sourceType": "Official hotel/brand",
         "sourceUrl": "https://gjb.josunhotel.com/main.do?locale=en",
-        "note": "Josun Hotels & Resorts confirms the current Grand Josun Busan property and direct booking channel; it is not a LOTTE property."
+        "note": "Josun Hotels & Resorts confirms the current Grand Josun Busan property and direct booking channel; it is not a LOTTE property.",
+        "canonicalName": "Grand Josun Busan",
+        "existenceStatus": "Verified operating property"
       }
     },
     {
@@ -958,7 +984,9 @@
         "lastChecked": "2026-08-10",
         "sourceType": "Official hotel/brand",
         "sourceUrl": "https://www.hyatt.com/park-hyatt/en-US/busph-park-hyatt-busan",
-        "note": "Hyatt confirms the operating Marine City property, accommodations, dining and wellness facilities."
+        "note": "Hyatt confirms the operating Marine City property, accommodations, dining and wellness facilities.",
+        "canonicalName": "Park Hyatt Busan",
+        "existenceStatus": "Verified operating property"
       }
     },
     {
@@ -1035,7 +1063,9 @@
         "lastChecked": "2026-08-10",
         "sourceType": "Korea Tourism Organization + property site",
         "sourceUrl": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=63039",
-        "note": "VISITKOREA confirms Hwangnamguan at 1038 Poseok-ro, its hanok buildings, and bathrooms/toilets in each room; confirm the current booking channel and bedding directly."
+        "note": "VISITKOREA confirms Hwangnamguan at 1038 Poseok-ro, its hanok buildings, and bathrooms/toilets in each room; confirm the current booking channel and bedding directly.",
+        "canonicalName": "Hwangnamkwan Hanok Hotel (황남관 한옥호텔)",
+        "existenceStatus": "Verified operating property"
       }
     },
     {
@@ -1125,7 +1155,9 @@
         "lastChecked": "2026-08-10",
         "sourceType": "Official hotel + Korea Tourism Organization",
         "sourceUrl": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=99034",
-        "note": "VISITKOREA and Commodore confirm the operating 262-room Bomun property, 14:00/12:00 hours, room classes and resort facilities."
+        "note": "VISITKOREA and Commodore confirm the operating 262-room Bomun property, 14:00/12:00 hours, room classes and resort facilities.",
+        "canonicalName": "Commodore Hotel Gyeongju",
+        "existenceStatus": "Verified operating property"
       }
     },
     {
@@ -1215,7 +1247,9 @@
         "lastChecked": "2026-08-10",
         "sourceType": "Official hotel/brand",
         "sourceUrl": "https://www.lahan.com/gyeongju/en/main.do",
-        "note": "LAHAN confirms the current Bomun Lake property, rooms, dining and leisure facilities; check the exact queen category in live inventory."
+        "note": "LAHAN confirms the current Bomun Lake property, rooms, dining and leisure facilities; check the exact queen category in live inventory.",
+        "canonicalName": "Lahan Select Gyeongju",
+        "existenceStatus": "Verified operating property"
       }
     },
     {
@@ -1319,7 +1353,9 @@
         "lastChecked": "2026-08-10",
         "sourceType": "Official hotel + Korea Tourism Organization",
         "sourceUrl": "https://www.hilton.com/en/hotels/kyjgyhi-hilton-gyeongju/",
-        "note": "Hilton and VISITKOREA confirm the operating Bomun Lake hotel, 15:00/11:00 hours, king categories and resort facilities."
+        "note": "Hilton and VISITKOREA confirm the operating Bomun Lake hotel, 15:00/11:00 hours, king categories and resort facilities.",
+        "canonicalName": "Hilton Gyeongju",
+        "existenceStatus": "Verified operating property"
       }
     },
     {
@@ -1394,7 +1430,9 @@
         "lastChecked": "2026-08-10",
         "sourceType": "Property site + established Korea tour operator",
         "sourceUrl": "https://www.koreaetour.com/gyeongju-gg-hotel/",
-        "note": "Korea E Tour cross-checks the official GG Hotel domain, address and intercity-terminal location; current room and reception details must be reconfirmed directly."
+        "note": "Korea E Tour cross-checks the official GG Hotel domain, address and intercity-terminal location; current room and reception details must be reconfirmed directly.",
+        "canonicalName": "GG Hotel Gyeongju",
+        "existenceStatus": "Verified operating property"
       }
     },
     {
@@ -1403,17 +1441,16 @@
       "name": "Shilla Stay Cheonan",
       "tier": "mid",
       "stars": 4,
-      "area": "Cheonan Station / Bus Terminal",
-      "neighborhood": "Central Cheonan near Cheonan Station and bus terminal; easy access to KTX via short taxi or subway",
+      "area": "Seongjeong-dong / central Cheonan",
+      "neighborhood": "177 Dongseo-daero; central business district, but not a short walk from KTX",
       "priceFrom": 65,
       "priceTo": 95,
       "currency": "USD",
       "checkIn": "15:00",
-      "checkOut": "11:00",
+      "checkOut": "12:00",
       "policies": [
-        "Check-in from 15:00; check-out by 11:00.",
-        "Free Wi-Fi throughout. Free parking available.",
-        "Children welcome; standard Shilla Stay policies apply."
+        "Check-in after 15:00; check-out by 12:00 on the official Shilla page.",
+        "The official room list uses Double, Twin, and Family Twin wording; no queen width is assumed."
       ],
       "rooms": [
         {
@@ -1422,9 +1459,9 @@
           "note": "Most popular entry level",
           "bed": "double",
           "oneBed": true,
-          "bedNote": "Single double bed (not two beds pushed together)",
+          "bedNote": "Single Double bed; confirm exact width directly",
           "bedType": "double",
-          "bedSize": "Double (approx 140x200cm)",
+          "bedSize": "Double (exact width not confirmed by identity source)",
           "privateBathroom": true,
           "oneBedOnly": true
         },
@@ -1432,11 +1469,11 @@
           "name": "Deluxe",
           "price": "$75–95/night",
           "note": "Larger room, popular upgrade",
-          "bed": "queen",
+          "bed": "double",
           "oneBed": true,
-          "bedNote": "Single queen bed (not two beds pushed together)",
-          "bedType": "queen",
-          "bedSize": "Queen (approx 150x200cm)",
+          "bedNote": "Single Double bed; confirm exact width directly",
+          "bedType": "double",
+          "bedSize": "Double (exact width not confirmed by identity source)",
           "privateBathroom": true,
           "oneBedOnly": true
         }
@@ -1449,12 +1486,11 @@
         "Fitness center",
         "Restaurant",
         "Bar / lounge",
-        "Free Wi-Fi",
-        "Laundry",
+        "Wi-Fi",
         "Business center"
       ],
-      "officialUrl": "https://www.shillastay.com/cheonan/main.do?lang=en",
-      "officialLabel": "Official site (shillastay.com)",
+      "officialUrl": "https://m.shillastay.com/cheonan/guestservice/viewGuestservice.do?lang=en",
+      "officialLabel": "Official Shilla Stay property page",
       "compareUrl": "https://www.kayak.com/hotels/Cheonan,c58525/Shilla-Stay-Cheonan",
       "compareLabel": "Compare rates (KAYAK)",
       "why": "Best overall value and reliability — trusted Shilla brand at a much lower price than Seoul or Busan.",
@@ -1463,13 +1499,21 @@
         "Gym + restaurant on site",
         "Very convenient central location"
       ],
-      "fits": true,
-      "fitReason": "Queen/Double · Cheonan Station ~5–10 min walk or short taxi",
+      "fits": false,
+      "fitReason": "Official rooms use Double/Twin wording and the property is not walkable to Cheonan-Asan KTX",
       "lat": 36.8257,
       "lng": 127.1433,
       "priceNote": "Prices are typical 2026 estimates for standard double/queen. Check official site or OTA for live rates on your dates.",
-      "hasOnSiteLaundry": true,
-      "stationWalkTime": "8 min walk to Cheonan Station"
+      "hasOnSiteLaundry": false,
+      "stationWalkTime": "Taxi/local transit to Cheonan Station; longer transfer to Cheonan-Asan KTX",
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://m.shillastay.com/cheonan/inquires/contactus/contactus.do",
+        "canonicalName": "Shilla Stay Cheonan",
+        "existenceStatus": "Verified operating property",
+        "note": "Shilla Stay confirms the distinct Cheonan property at 177 Dongseo-daero, phone +82-41-415-9000; the official guest-service page confirms 15:00/noon hours."
+      }
     },
     {
       "id": "cheonan-ramada-encore",
@@ -1477,8 +1521,8 @@
       "name": "Ramada Encore by Wyndham Cheonan",
       "tier": "mid",
       "stars": 3,
-      "area": "Central Cheonan",
-      "neighborhood": "Convenient central location with easy access to Cheonan Station and shopping",
+      "area": "Ssangyong-dong / southwest Cheonan",
+      "neighborhood": "12 Chadoldeul-gil, Seobuk-gu",
       "priceFrom": 60,
       "priceTo": 90,
       "currency": "USD",
@@ -1496,9 +1540,9 @@
           "note": "Clean and functional",
           "bed": "double",
           "oneBed": true,
-          "bedNote": "Single double bed (not two beds pushed together)",
+          "bedNote": "Single Double bed; confirm exact width directly",
           "bedType": "double",
-          "bedSize": "Double (approx 140x200cm)",
+          "bedSize": "Double (exact width not confirmed by identity source)",
           "privateBathroom": true,
           "oneBedOnly": true
         },
@@ -1506,11 +1550,11 @@
           "name": "Deluxe",
           "price": "$70–90/night",
           "note": "Larger with better views",
-          "bed": "queen",
+          "bed": "double",
           "oneBed": true,
-          "bedNote": "Single queen bed (not two beds pushed together)",
-          "bedType": "queen",
-          "bedSize": "Queen (approx 150x200cm)",
+          "bedNote": "Single Double bed; confirm exact width directly",
+          "bedType": "double",
+          "bedSize": "Double (exact width not confirmed by identity source)",
           "privateBathroom": true,
           "oneBedOnly": true
         }
@@ -1525,8 +1569,8 @@
         "Laundry",
         "Business center"
       ],
-      "officialUrl": "https://www.wyndhamhotels.com/ramada/cheonan-south-korea/ramada-encore-cheonan/overview",
-      "officialLabel": "Official site (wyndhamhotels.com)",
+      "officialUrl": "https://www.wyndhamhotels.com/ramada/cheonan-si-south-korea/ramada-encore-cheonan/overview",
+      "officialLabel": "Official Wyndham property page",
       "compareUrl": "https://www.kayak.com/hotels/Cheonan,c58525/Ramada-Encore-Cheonan",
       "compareLabel": "Compare rates (KAYAK)",
       "why": "Strong value mid-range chain with consistent quality and good breakfast reviews.",
@@ -1535,13 +1579,21 @@
         "Great breakfast options",
         "Central & convenient"
       ],
-      "fits": true,
-      "fitReason": "Double/Queen · Cheonan Station ~10 min",
-      "lat": 36.81,
-      "lng": 127.15,
+      "fits": false,
+      "fitReason": "Official Wyndham identity is verified, but the queen width and walkable rail fit are not confirmed",
+      "lat": 36.797838,
+      "lng": 127.126968,
       "priceNote": "Prices are typical 2026 estimates for standard double/queen. Check official site or OTA for live rates on your dates.",
       "hasOnSiteLaundry": true,
-      "stationWalkTime": "10 min walk to Cheonan Station"
+      "stationWalkTime": "Use local transit/taxi; not beside Cheonan or Cheonan-Asan station",
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://www.wyndhamhotels.com/ramada/cheonan-si-south-korea/ramada-encore-cheonan/overview",
+        "canonicalName": "Ramada Encore by Wyndham CheonAn",
+        "existenceStatus": "Verified operating property",
+        "note": "Wyndham confirms a separate Cheonan property at 12 Chadoldeul-gil, coordinates 36.797838/127.126968 and phone +82-41-570-3000."
+      }
     },
     {
       "id": "cheonan-on-city",
@@ -1549,13 +1601,13 @@
       "name": "ON City Hotel",
       "tier": "mid",
       "stars": 3,
-      "area": "Cheonan Station area",
-      "neighborhood": "Near Cheonan Station; good access to transport and local amenities",
+      "area": "Buldang-dong / Cheonan City Hall",
+      "neighborhood": "105 Buldang 4-ro, Seobuk-gu; about 3.5 km from Cheonan-Asan Station",
       "priceFrom": 55,
       "priceTo": 80,
       "currency": "USD",
       "checkIn": "15:00",
-      "checkOut": "11:00",
+      "checkOut": "12:00",
       "policies": [
         "Check-in from 15:00; check-out by 11:00.",
         "Free Wi-Fi. Fitness center available."
@@ -1567,9 +1619,9 @@
           "note": "Entry level, clean",
           "bed": "double",
           "oneBed": true,
-          "bedNote": "Single double bed (not two beds pushed together)",
+          "bedNote": "Single Double bed; confirm exact width directly",
           "bedType": "double",
-          "bedSize": "Double (approx 140x200cm)",
+          "bedSize": "Double (exact width not confirmed by identity source)",
           "privateBathroom": true,
           "oneBedOnly": true
         },
@@ -1577,11 +1629,11 @@
           "name": "Deluxe",
           "price": "$65–80/night",
           "note": "More space",
-          "bed": "queen",
+          "bed": "double",
           "oneBed": true,
-          "bedNote": "Single queen bed (not two beds pushed together)",
-          "bedType": "queen",
-          "bedSize": "Queen (approx 150x200cm)",
+          "bedNote": "Single Double bed; confirm exact width directly",
+          "bedType": "double",
+          "bedSize": "Double (exact width not confirmed by identity source)",
           "privateBathroom": true,
           "oneBedOnly": true
         }
@@ -1595,8 +1647,8 @@
         "Restaurant options nearby",
         "Laundry facilities"
       ],
-      "officialUrl": "https://www.oncityhotel.com",
-      "officialLabel": "Book via OTA (Trip.com / Booking.com)",
+      "officialUrl": "http://www.oncityhotel.com/web/eng/asp/index/index.asp",
+      "officialLabel": "Official ON City Hotel site",
       "compareUrl": "https://www.kayak.com/hotels/Cheonan,c58525/ON-City-Hotel",
       "compareLabel": "Compare rates (KAYAK)",
       "why": "Excellent budget-mid value with fitness amenities and strong guest feedback.",
@@ -1605,13 +1657,21 @@
         "Very affordable",
         "Good location near station"
       ],
-      "fits": true,
-      "fitReason": "Double/Queen · Cheonan Station ~5–8 min",
-      "lat": 36.82,
-      "lng": 127.14,
+      "fits": false,
+      "fitReason": "Official identity is verified but it is not walkable to Cheonan-Asan KTX and queen width is not confirmed",
+      "lat": 36.813999,
+      "lng": 127.109191,
       "priceNote": "Prices are typical 2026 estimates for standard double/queen. Check official site or OTA for live rates on your dates.",
       "hasOnSiteLaundry": true,
-      "stationWalkTime": "7 min walk to Cheonan Station"
+      "stationWalkTime": "About 3.5 km to Cheonan-Asan Station; use taxi/local transit",
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Official property site",
+        "sourceUrl": "http://www.oncityhotel.com/web/eng/asp/index/index.asp",
+        "canonicalName": "ON City Hotel",
+        "existenceStatus": "Verified operating property",
+        "note": "The official English site confirms ON City Hotel at 105 Buldang 4-ro, phone +82-41-553-8080 and 15:00/noon hours; VISITKOREA independently matches the address."
+      }
     },
     {
       "id": "cheonan-sono-belle",
@@ -1619,8 +1679,8 @@
       "name": "Sono Belle Cheonan",
       "tier": "mid",
       "stars": 4,
-      "area": "Cheonan area",
-      "neighborhood": "Resort-style property with good access to KTX and city center",
+      "area": "Seongnam-myeon / resort area",
+      "neighborhood": "200 Jonghaphyuyangji-ro by the water park and Independence Hall; remote from city rail stations",
       "priceFrom": 80,
       "priceTo": 120,
       "currency": "USD",
@@ -1632,43 +1692,30 @@
       ],
       "rooms": [
         {
-          "name": "Deluxe",
-          "price": "$80–100/night",
-          "note": "Standard resort room",
-          "bed": "double/queen",
-          "oneBed": true,
-          "bedNote": "Single queen bed (not two beds pushed together)",
-          "bedType": "queen",
-          "bedSize": "Queen (approx 150x200cm)",
+          "name": "Family Standard",
+          "price": "$80–110/night",
+          "note": "Family resort layout with kitchenette/private bathroom",
+          "bed": "multi-bed",
+          "bedType": "multi-bed",
+          "bedSize": "Two double beds on current official room page",
+          "oneBed": false,
+          "oneBedOnly": false,
           "privateBathroom": true,
-          "oneBedOnly": true
-        },
-        {
-          "name": "Suite / Superior",
-          "price": "$100–120/night",
-          "note": "Larger with better views",
-          "bed": "queen",
-          "oneBed": true,
-          "bedNote": "Single queen bed (not two beds pushed together)",
-          "bedType": "queen",
-          "bedSize": "Queen (approx 150x200cm)",
-          "privateBathroom": true,
-          "oneBedOnly": true
+          "bedNote": "Two Double beds; not a one-bed room"
         }
       ],
       "promos": [
         "Higher-end option with resort amenities at still-reasonable prices."
       ],
       "amenities": [
-        "Pool (seasonal)",
-        "Spa",
+        "Water park / pools",
+        "Spa and sauna",
         "Restaurant",
-        "Gym",
-        "Free Wi-Fi",
-        "Laundry facilities"
+        "Arcade",
+        "Wi-Fi"
       ],
-      "officialUrl": "https://www.sonohotelsresorts.com",
-      "officialLabel": "Book via OTA",
+      "officialUrl": "https://www.sonohotelsresorts.com/belle_ca/roomsviewall",
+      "officialLabel": "Official SONO property page",
       "compareUrl": "https://www.kayak.com/hotels/Cheonan,c58525/Sono-Belle-Cheonan",
       "compareLabel": "Compare rates (KAYAK)",
       "why": "Best resort-style pick for a more relaxing 6-night stay while staying cost-effective.",
@@ -1677,22 +1724,30 @@
         "Higher comfort level",
         "Good value for 4-star"
       ],
-      "fits": true,
-      "fitReason": "Queen · ~15–20 min to Cheonan-Asan KTX",
-      "lat": 36.83,
-      "lng": 127.16,
+      "fits": false,
+      "fitReason": "Remote family resort with multi-bed rooms; not a walkable rail stay",
+      "lat": 36.757191,
+      "lng": 127.224121,
       "priceNote": "Prices are typical 2026 estimates for standard double/queen. Check official site or OTA for live rates on your dates.",
-      "hasOnSiteLaundry": true,
-      "stationWalkTime": "15 min to Cheonan-Asan KTX"
+      "hasOnSiteLaundry": false,
+      "stationWalkTime": "Taxi/car required; remote from Cheonan and Cheonan-Asan rail stations",
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://www.sonohotelsresorts.com/belle_ca/roomsviewall",
+        "canonicalName": "SONO Belle Cheonan",
+        "existenceStatus": "Verified operating property",
+        "note": "SONO confirms this distinct Cheonan resort, its current family/multi-bed room inventory and 15:00/11:00 hours. The group directory gives the address at 200 Jonghaphyuyangji-ro."
+      }
     },
     {
       "id": "cheonan-best-western-asan",
       "city": "Cheonan",
-      "name": "Best Western Asan Hotel",
+      "name": "SureStay Plus Hotel by Best Western Asan",
       "tier": "mid",
       "stars": 3,
-      "area": "Cheonan-Asan Station area",
-      "neighborhood": "Very close to Cheonan-Asan KTX station — ideal for rail travelers",
+      "area": "Tangjeong, Asan",
+      "neighborhood": "32 Onsaem-ro, Tangjeong-myeon; approximately 6 km from Cheonan-Asan Station",
       "priceFrom": 70,
       "priceTo": 100,
       "currency": "USD",
@@ -1709,9 +1764,9 @@
           "note": "Clean chain standard",
           "bed": "double",
           "oneBed": true,
-          "bedNote": "Single double bed (not two beds pushed together)",
+          "bedNote": "Single Double bed; confirm exact width directly",
           "bedType": "double",
-          "bedSize": "Double (approx 140x200cm)",
+          "bedSize": "Double (exact width not confirmed by identity source)",
           "privateBathroom": true,
           "oneBedOnly": true
         },
@@ -1719,11 +1774,11 @@
           "name": "Deluxe",
           "price": "$80–100/night",
           "note": "Larger room",
-          "bed": "queen",
+          "bed": "double",
           "oneBed": true,
-          "bedNote": "Single queen bed (not two beds pushed together)",
-          "bedType": "queen",
-          "bedSize": "Queen (approx 150x200cm)",
+          "bedNote": "Single Double bed; confirm exact width directly",
+          "bedType": "double",
+          "bedSize": "Double (exact width not confirmed by identity source)",
           "privateBathroom": true,
           "oneBedOnly": true
         }
@@ -1738,8 +1793,8 @@
         "Business center",
         "Laundry facilities"
       ],
-      "officialUrl": "https://www.bestwestern.com/en_US/book/hotel-details.cheonan-south-korea.html",
-      "officialLabel": "Official site (bestwestern.com)",
+      "officialUrl": null,
+      "officialLabel": "No stable official property page found; use trusted listing",
       "compareUrl": "https://www.kayak.com/hotels/Cheonan,c58525/Best-Western-Asan-Hotel",
       "compareLabel": "Compare rates (KAYAK)",
       "why": "Best location for pure KTX convenience — right by the high-speed station.",
@@ -1748,13 +1803,21 @@
         "Reliable international chain",
         "Parking included"
       ],
-      "fits": true,
-      "fitReason": "Double/Queen · Cheonan-Asan KTX ~5–8 min walk",
-      "lat": 36.84,
-      "lng": 127.13,
+      "fits": false,
+      "fitReason": "Real Asan property, but about 6 km from Cheonan-Asan KTX and the one-bed width is not confirmed",
+      "lat": 36.796612,
+      "lng": 127.054309,
       "priceNote": "Prices are typical 2026 estimates for standard double/queen. Check official site or OTA for live rates on your dates.",
       "hasOnSiteLaundry": true,
-      "stationWalkTime": "5 min walk to Cheonan-Asan KTX"
+      "stationWalkTime": "Approximately 6 km to Cheonan-Asan Station; taxi required",
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Major trusted booking platform",
+        "sourceUrl": "https://www.booking.com/hotel/kr/surestay-plus-by-best-western.html",
+        "canonicalName": "SureStay Plus Hotel by Best Western Asan",
+        "existenceStatus": "Verified operating property",
+        "note": "Booking.com confirms the operating SureStay Plus property, Best Western affiliation, full address, 24-hour desk and private-bath rooms. It is in Asan, not beside KTX."
+      }
     },
     {
       "id": "daejeon-toyoko-inn",
@@ -1763,7 +1826,7 @@
       "tier": "budget",
       "stars": 3,
       "area": "Government Complex / Dunsan",
-      "neighborhood": "Near Government Complex Daejeon Metro Station; convenient for business and central access",
+      "neighborhood": "13 Dunsanjung-ro 134beon-gil; near Government Complex Daejeon Station",
       "priceFrom": 48,
       "priceTo": 70,
       "currency": "USD",
@@ -1805,13 +1868,13 @@
         "Toyoko Inn loyalty program benefits."
       ],
       "amenities": [
-        "Free breakfast (often)",
-        "Free Wi-Fi",
-        "Laundry",
-        "Business center"
+        "Free breakfast",
+        "Wi-Fi",
+        "Laundromat",
+        "Business services"
       ],
-      "officialUrl": "https://www.toyoko-inn.com/eng/hotel/00235/index.html",
-      "officialLabel": "Official site (toyoko-inn.com)",
+      "officialUrl": "https://www.toyoko-inn.com/eng/search/detail/00234/",
+      "officialLabel": "Official Toyoko Inn property page",
       "compareUrl": "https://www.kayak.com/hotels/Daejeon,c61292/Toyoko-Inn-Daejeon-Government-Complex",
       "compareLabel": "Compare rates (KAYAK)",
       "why": "Best budget/reliable chain option — excellent value with consistent quality and often free breakfast.",
@@ -1822,11 +1885,19 @@
       ],
       "fits": false,
       "fitReason": "Listed one-bed room is a double (~140 cm), below the planner’s queen-size minimum",
-      "lat": 36.35,
-      "lng": 127.38,
+      "lat": 36.359007,
+      "lng": 127.387923,
       "priceNote": "Prices are typical 2026 estimates for standard double/queen. Check official site or OTA for live rates on your dates.",
       "hasOnSiteLaundry": true,
-      "stationWalkTime": "6 min walk to Daejeon Station"
+      "stationWalkTime": "10 min walk from Government Complex Daejeon Station Exit 4",
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://www.toyoko-inn.com/eng/search/detail/00234/",
+        "canonicalName": "Toyoko Inn Daejeon Government Complex",
+        "existenceStatus": "Verified operating property",
+        "note": "Toyoko Inn confirms the unique property code 00234, exact Daejeon address, coordinates, 15:00/10:00 hours, breakfast and laundromat."
+      }
     },
     {
       "id": "daejeon-ramada",
@@ -1834,8 +1905,8 @@
       "name": "Ramada by Wyndham Daejeon",
       "tier": "mid",
       "stars": 3,
-      "area": "Central Daejeon",
-      "neighborhood": "Good access to Daejeon Station and city center",
+      "area": "Yuseong Hot Springs",
+      "neighborhood": "127 Gyeryong-ro, Yuseong-gu",
       "priceFrom": 65,
       "priceTo": 95,
       "currency": "USD",
@@ -1852,9 +1923,9 @@
           "note": "Clean mid-range standard",
           "bed": "double",
           "oneBed": true,
-          "bedNote": "Single double bed (not two beds pushed together)",
+          "bedNote": "Single Double bed; confirm exact width directly",
           "bedType": "double",
-          "bedSize": "Double (approx 140x200cm)",
+          "bedSize": "Double (exact width not confirmed by identity source)",
           "privateBathroom": true,
           "oneBedOnly": true
         },
@@ -1862,11 +1933,11 @@
           "name": "Deluxe",
           "price": "$75–95/night",
           "note": "Larger room",
-          "bed": "queen",
+          "bed": "double",
           "oneBed": true,
-          "bedNote": "Single queen bed (not two beds pushed together)",
-          "bedType": "queen",
-          "bedSize": "Queen (approx 150x200cm)",
+          "bedNote": "Single Double bed; confirm exact width directly",
+          "bedType": "double",
+          "bedSize": "Double (exact width not confirmed by identity source)",
           "privateBathroom": true,
           "oneBedOnly": true
         }
@@ -1882,7 +1953,7 @@
         "Laundry facilities"
       ],
       "officialUrl": "https://www.wyndhamhotels.com/ramada/daejeon-south-korea/ramada-daejeon/overview",
-      "officialLabel": "Book via OTA or Wyndham site",
+      "officialLabel": "Official Wyndham property page",
       "compareUrl": "https://www.kayak.com/hotels/Daejeon,c61292/Ramada-by-Wyndham-Daejeon",
       "compareLabel": "Compare rates (KAYAK)",
       "why": "Solid mid-range international chain option with good amenities.",
@@ -1891,13 +1962,21 @@
         "Reliable brand",
         "Central location"
       ],
-      "fits": true,
-      "fitReason": "Double/Queen · Daejeon Station area ~10–15 min",
-      "lat": 36.35,
-      "lng": 127.39,
+      "fits": false,
+      "fitReason": "Official property is verified, but the recorded queen width is not confirmed by the identity source",
+      "lat": 36.354416,
+      "lng": 127.33547,
       "priceNote": "Prices are typical 2026 estimates for standard double/queen. Check official site or OTA for live rates on your dates.",
       "hasOnSiteLaundry": true,
-      "stationWalkTime": "8 min walk to Daejeon Station"
+      "stationWalkTime": "Near Yuseong Spa district; use local metro/taxi, not Daejeon KTX on foot",
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://www.wyndhamhotels.com/ramada/daejeon-south-korea/ramada-daejeon/overview",
+        "canonicalName": "Ramada by Wyndham Daejeon",
+        "existenceStatus": "Verified operating property",
+        "note": "Wyndham confirms the distinct Ramada Daejeon at 127 Gyeryong-ro, coordinates 36.354416/127.335470 and phone +82-42-540-1000."
+      }
     },
     {
       "id": "daejeon-lotte-city",
@@ -1905,8 +1984,8 @@
       "name": "LOTTE City Hotel Daejeon",
       "tier": "mid",
       "stars": 4,
-      "area": "Yuseong / Convention area",
-      "neighborhood": "Near Daejeon Convention Center and Yuseong Hot Springs district",
+      "area": "Daejeon Convention Center / Expo area",
+      "neighborhood": "33 Expo-ro 123beon-gil opposite Daejeon Convention Center",
       "priceFrom": 80,
       "priceTo": 110,
       "currency": "USD",
@@ -1921,11 +2000,11 @@
           "name": "Deluxe",
           "price": "$80–95/night",
           "note": "Popular standard room",
-          "bed": "double/queen",
+          "bed": "double",
           "oneBed": true,
-          "bedNote": "Single queen bed (not two beds pushed together)",
-          "bedType": "queen",
-          "bedSize": "Queen (approx 150x200cm)",
+          "bedNote": "Single Double bed; confirm exact width directly",
+          "bedType": "double",
+          "bedSize": "Double (exact width not confirmed by identity source)",
           "privateBathroom": true,
           "oneBedOnly": true
         },
@@ -1933,11 +2012,11 @@
           "name": "Superior / Suite",
           "price": "$95–110/night",
           "note": "Larger with better views",
-          "bed": "queen",
+          "bed": "double",
           "oneBed": true,
-          "bedNote": "Single queen bed (not two beds pushed together)",
-          "bedType": "queen",
-          "bedSize": "Queen (approx 150x200cm)",
+          "bedNote": "Single Double bed; confirm exact width directly",
+          "bedType": "double",
+          "bedSize": "Double (exact width not confirmed by identity source)",
           "privateBathroom": true,
           "oneBedOnly": true
         }
@@ -1952,8 +2031,8 @@
         "Business center",
         "Laundry facilities"
       ],
-      "officialUrl": "https://www.lottehotel.com/city/daejeon/en/",
-      "officialLabel": "Book via OTA or Lotte site",
+      "officialUrl": "https://www.lottehotel.com/prerendered/daejeon-city/en/index.html",
+      "officialLabel": "Official LOTTE property page",
       "compareUrl": "https://www.kayak.com/hotels/Daejeon,c61292/LOTTE-City-Hotel-Daejeon",
       "compareLabel": "Compare rates (KAYAK)",
       "why": "Premium-feel mid-range option near convention center and hot springs area.",
@@ -1962,27 +2041,35 @@
         "Good dining options",
         "Higher comfort level"
       ],
-      "fits": true,
-      "fitReason": "Queen · Yuseong area ~10–15 min to station",
-      "lat": 36.36,
-      "lng": 127.36,
+      "fits": false,
+      "fitReason": "Official property and rooms are verified, but it is not a walkable rail/subway hotel",
+      "lat": 36.3751,
+      "lng": 127.3877,
       "priceNote": "Prices are typical 2026 estimates for standard double/queen. Check official site or OTA for live rates on your dates.",
       "hasOnSiteLaundry": true,
-      "stationWalkTime": "12 min walk to Yuseong Hot Springs area"
+      "stationWalkTime": "Taxi/bus to Government Complex metro or Daejeon KTX; no nearby walkable station",
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://www.lottehotel.com/prerendered/daejeon-city/en/index.html",
+        "canonicalName": "LOTTE City Hotel Daejeon",
+        "existenceStatus": "Verified operating property",
+        "note": "LOTTE confirms a distinct 306-room hotel at 33 Expo-ro 123beon-gil, 15:00/11:00 hours and convention-center location."
+      }
     },
     {
       "id": "daejeon-benikea-daelim",
       "city": "Daejeon",
-      "name": "Benikea Daelim Hotel",
+      "name": "BENIKEA Hotel Daelim",
       "tier": "budget",
       "stars": 3,
-      "area": "Near Daejeon Station",
-      "neighborhood": "Very close to Daejeon KTX Station — ideal for rail travelers",
+      "area": "Jungangno / central Daejeon",
+      "neighborhood": "50 Daejong-ro 505beon-gil near Jungangno Station",
       "priceFrom": 45,
       "priceTo": 65,
       "currency": "USD",
       "checkIn": "15:00",
-      "checkOut": "11:00",
+      "checkOut": "12:00",
       "policies": [
         "Check-in from 15:00; check-out by 11:00.",
         "Free Wi-Fi. Basic but clean."
@@ -2020,8 +2107,8 @@
         "Free Wi-Fi",
         "Laundry"
       ],
-      "officialUrl": "https://benikea.com",
-      "officialLabel": "Book via OTA",
+      "officialUrl": "http://www.daelimhotel.com/",
+      "officialLabel": "Official property site",
       "compareUrl": "https://www.kayak.com/hotels/Daejeon,c61292/Benikea-Daelim-Hotel",
       "compareLabel": "Compare rates (KAYAK)",
       "why": "Best ultra-budget pick right by the KTX station.",
@@ -2032,20 +2119,28 @@
       ],
       "fits": false,
       "fitReason": "Listed one-bed room is a double (~140 cm), below the planner’s queen-size minimum",
-      "lat": 36.35,
-      "lng": 127.39,
+      "lat": 36.328455,
+      "lng": 127.422413,
       "priceNote": "Prices are typical 2026 estimates for standard double/queen. Check official site or OTA for live rates on your dates.",
       "hasOnSiteLaundry": true,
-      "stationWalkTime": "4 min walk to Daejeon Station"
+      "stationWalkTime": "Short walk to Jungangno metro; roughly 10–15 min walk to Daejeon KTX",
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Government tourism authority",
+        "sourceUrl": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=85393",
+        "canonicalName": "BENIKEA Hotel Daelim",
+        "existenceStatus": "Verified operating property",
+        "note": "VISITKOREA confirms this distinct BENIKEA property, exact central-Daejeon address, phone and proximity to Daejeon Station; the property site matches."
+      }
     },
     {
       "id": "daejeon-hotel-stendhal",
       "city": "Daejeon",
-      "name": "Hotel Stendhal",
+      "name": "Le Stendal Hotel",
       "tier": "mid",
       "stars": 3,
-      "area": "Yuseong / Hot Springs area",
-      "neighborhood": "Near Yuseong Hot Springs and Chungnam National University",
+      "area": "Yuseong Hot Springs",
+      "neighborhood": "14 Oncheonbuk-ro, Yuseong-gu",
       "priceFrom": 70,
       "priceTo": 95,
       "currency": "USD",
@@ -2062,9 +2157,9 @@
           "note": "Clean and comfortable",
           "bed": "double",
           "oneBed": true,
-          "bedNote": "Single double bed (not two beds pushed together)",
+          "bedNote": "Single Double bed; confirm exact width directly",
           "bedType": "double",
-          "bedSize": "Double (approx 140x200cm)",
+          "bedSize": "Double (exact width not confirmed by identity source)",
           "privateBathroom": true,
           "oneBedOnly": true
         },
@@ -2072,11 +2167,11 @@
           "name": "Deluxe",
           "price": "$80–95/night",
           "note": "Popular upgrade",
-          "bed": "queen",
+          "bed": "double",
           "oneBed": true,
-          "bedNote": "Single queen bed (not two beds pushed together)",
-          "bedType": "queen",
-          "bedSize": "Queen (approx 150x200cm)",
+          "bedNote": "Single Double bed; confirm exact width directly",
+          "bedType": "double",
+          "bedSize": "Double (exact width not confirmed by identity source)",
           "privateBathroom": true,
           "oneBedOnly": true
         }
@@ -2089,8 +2184,8 @@
         "Restaurant nearby",
         "Laundry facilities"
       ],
-      "officialUrl": null,
-      "officialLabel": "Book via OTA (no official English site)",
+      "officialUrl": "http://stendhalhotel.co.kr/",
+      "officialLabel": "Official property site",
       "compareUrl": "https://www.kayak.com/hotels/Daejeon,c61292/Hotel-Stendhal",
       "compareLabel": "Compare rates (KAYAK)",
       "why": "Good mid-range option in the popular Yuseong hot springs district.",
@@ -2099,27 +2194,35 @@
         "Good reviews",
         "Relaxed area"
       ],
-      "fits": true,
-      "fitReason": "Double/Queen · Yuseong area",
-      "lat": 36.36,
-      "lng": 127.35,
+      "fits": false,
+      "fitReason": "Official property is verified, but queen width is not established by the identity source",
+      "lat": 36.35701,
+      "lng": 127.34475,
       "priceNote": "Prices are typical 2026 estimates for standard double/queen. Check official site or OTA for live rates on your dates.",
       "hasOnSiteLaundry": true,
-      "stationWalkTime": "10 min walk to Yuseong area"
+      "stationWalkTime": "Walk/local transit within Yuseong; not near Daejeon KTX",
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Official property site",
+        "sourceUrl": "http://stendhalhotel.co.kr/",
+        "canonicalName": "Le Stendal Hotel",
+        "existenceStatus": "Verified operating property",
+        "note": "The official Stendhal domain and multiple trusted hotel directories match the 70-room property at 14 Oncheonbuk-ro and phone +82-42-822-1435."
+      }
     },
     {
       "id": "cheonan-brown-dot",
       "city": "Cheonan",
-      "name": "Cheonan Brown Dot Hotel Cheonan Station",
+      "name": "Brown Dot Hotel Cheonan Dongnam (Cheonan Station)",
       "tier": "budget",
       "stars": 3,
-      "area": "Cheonan Station area",
-      "neighborhood": "Very close to Cheonan Station",
+      "area": "Cheonan Station / Dongnam-gu",
+      "neighborhood": "7-1 Keunsijang-gil; about 900 m from Cheonan Station",
       "priceFrom": 45,
       "priceTo": 70,
       "currency": "USD",
-      "checkIn": "15:00",
-      "checkOut": "11:00",
+      "checkIn": "17:00",
+      "checkOut": "12:00",
       "policies": [
         "Check-in from 15:00; check-out by 11:00.",
         "Free Wi-Fi."
@@ -2131,11 +2234,11 @@
           "note": "Budget-friendly near station",
           "bed": "double",
           "bedType": "double",
-          "bedSize": "Double (approx 140x200cm)",
+          "bedSize": "Double (exact width not confirmed by identity source)",
           "oneBed": true,
           "oneBedOnly": true,
           "privateBathroom": true,
-          "bedNote": "Single Double bed (not two beds pushed together)"
+          "bedNote": "Single Double bed; confirm exact width directly"
         }
       ],
       "promos": [
@@ -2147,7 +2250,7 @@
       ],
       "hasOnSiteLaundry": true,
       "officialUrl": null,
-      "officialLabel": "Book via OTA (no official English site)",
+      "officialLabel": "No official property site found; use trusted listing",
       "compareUrl": "https://www.kayak.com/hotels/Cheonan,c58525/Cheonan-Brown-Dot-Hotel-Cheonan-Station",
       "compareLabel": "Compare rates (KAYAK)",
       "why": "Excellent budget pick right by Cheonan Station.",
@@ -2156,9 +2259,18 @@
         "Good value"
       ],
       "fits": false,
-      "fitReason": "Listed one-bed room is a double (~140 cm), below the planner’s queen-size minimum",
-      "lat": 36.81,
-      "lng": 127.15
+      "fitReason": "Real station-area property, but the bed width is not confirmed as queen",
+      "lat": 36.80186,
+      "lng": 127.1474,
+      "stationWalkTime": "About 900 m / 12 min walk to Cheonan Station",
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Major trusted booking platform",
+        "sourceUrl": "https://www.trip.com/hotels/cheonan-si-hotel-detail-62705121/brown-dot-hotel-cheonan-dongnam/",
+        "canonicalName": "Brown Dot Hotel Cheonan Dongnam",
+        "existenceStatus": "Verified operating property",
+        "note": "Trip.com and Google Hotels independently match this 36-room property at 7-1 Keunsijang-gil and distinguish it from other Brown Dot branches in Cheonan."
+      }
     },
     {
       "id": "cheonan-mains",
@@ -2166,12 +2278,12 @@
       "name": "The Mains Hotel",
       "tier": "mid",
       "stars": 3,
-      "area": "Central Cheonan",
-      "neighborhood": "Good central location with restaurant",
+      "area": "Cheongsu district / Dongnam-gu",
+      "neighborhood": "34 Cheongsu 11-ro; southeast Cheonan, not a station hotel",
       "priceFrom": 55,
       "priceTo": 80,
       "currency": "USD",
-      "checkIn": "15:00",
+      "checkIn": "14:00",
       "checkOut": "11:00",
       "policies": [
         "Check-in from 15:00; check-out by 11:00.",
@@ -2184,11 +2296,11 @@
           "note": "Clean with restaurant on site",
           "bed": "double",
           "bedType": "double",
-          "bedSize": "Double (approx 140x200cm)",
+          "bedSize": "Double (exact width not confirmed by identity source)",
           "oneBed": true,
           "oneBedOnly": true,
           "privateBathroom": true,
-          "bedNote": "Single Double bed (not two beds pushed together)"
+          "bedNote": "Single Double bed; confirm exact width directly"
         }
       ],
       "promos": [
@@ -2201,7 +2313,7 @@
       ],
       "hasOnSiteLaundry": true,
       "officialUrl": null,
-      "officialLabel": "Book via OTA (no official English site)",
+      "officialLabel": "No official property site found; use trusted listing",
       "compareUrl": "https://www.kayak.com/hotels/Cheonan,c58525/The-Mains-Hotel",
       "compareLabel": "Compare rates (KAYAK)",
       "why": "Good mid-range value with restaurant.",
@@ -2210,9 +2322,18 @@
         "Solid reviews"
       ],
       "fits": false,
-      "fitReason": "Listed one-bed room is a double (~140 cm), below the planner’s queen-size minimum",
-      "lat": 36.82,
-      "lng": 127.15
+      "fitReason": "Verified real property, but not walkable to a rail station and queen width is not confirmed",
+      "lat": 36.782455,
+      "lng": 127.156279,
+      "stationWalkTime": "Taxi/local transit required; about 6 km from Cheonan-Asan Station",
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Major trusted booking platform",
+        "sourceUrl": "https://www.booking.com/hotel/kr/the-mains.html",
+        "canonicalName": "The Mains Hotel",
+        "existenceStatus": "Verified operating property",
+        "note": "Booking.com confirms The Mains Hotel at 34 Cheongsu 11-ro; Trip.com independently lists 75 rooms and the same property phone/address."
+      }
     },
     {
       "id": "daejeon-hotel-interciti",
@@ -2220,12 +2341,12 @@
       "name": "Hotel Interciti",
       "tier": "mid",
       "stars": 3,
-      "area": "Yuseong area",
-      "neighborhood": "Near hot springs and university",
+      "area": "Yuseong Hot Springs",
+      "neighborhood": "92 Oncheon-ro, Yuseong-gu",
       "priceFrom": 65,
       "priceTo": 90,
       "currency": "USD",
-      "checkIn": "15:00",
+      "checkIn": "14:00",
       "checkOut": "11:00",
       "policies": [
         "Check-in from 15:00; check-out by 11:00.",
@@ -2249,12 +2370,15 @@
         "Good location near hot springs."
       ],
       "amenities": [
-        "Free Wi-Fi",
-        "Laundry facilities"
+        "Wi-Fi",
+        "Hot-spring sauna",
+        "Fitness center",
+        "Restaurant",
+        "Laundry service"
       ],
       "hasOnSiteLaundry": true,
-      "officialUrl": null,
-      "officialLabel": "Book via OTA (no official English site)",
+      "officialUrl": "https://www.hotelinterciti.com/",
+      "officialLabel": "Official property site",
       "compareUrl": "https://www.kayak.com/hotels/Daejeon,c61292/Hotel-Interciti",
       "compareLabel": "Compare rates (KAYAK)",
       "why": "Solid mid-range choice in the popular Yuseong district.",
@@ -2264,8 +2388,17 @@
       ],
       "fits": false,
       "fitReason": "Listed one-bed room is a double (~140 cm), below the planner’s queen-size minimum",
-      "lat": 36.36,
-      "lng": 127.35
+      "lat": 36.354292,
+      "lng": 127.347858,
+      "stationWalkTime": "Yuseong district local transit; about 10 km from Daejeon KTX",
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Official hotel + Korea Tourism Organization",
+        "sourceUrl": "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=86274",
+        "canonicalName": "Hotel Interciti",
+        "existenceStatus": "Verified operating property",
+        "note": "VISITKOREA and Hotel Interciti both confirm the distinct property at 92 Oncheon-ro, its room inventory, hot-spring facilities and phone."
+      }
     },
     {
       "id": "daejeon-aank-air",
@@ -2273,13 +2406,13 @@
       "name": "Aank Air Hotel Daejeon Station",
       "tier": "budget",
       "stars": 3,
-      "area": "Daejeon Station area",
-      "neighborhood": "Very close to Daejeon KTX Station",
+      "area": "Daejeon Station / Jung-gu",
+      "neighborhood": "6 Mokcheok 9-gil, about a 9-minute walk from Daejeon Station",
       "priceFrom": 42,
       "priceTo": 62,
       "currency": "USD",
-      "checkIn": "15:00",
-      "checkOut": "11:00",
+      "checkIn": "20:00",
+      "checkOut": "12:00",
       "policies": [
         "Check-in from 15:00; check-out by 11:00.",
         "Free Wi-Fi."
@@ -2291,11 +2424,11 @@
           "note": "Budget option near station",
           "bed": "double",
           "bedType": "double",
-          "bedSize": "Double (approx 140x200cm)",
+          "bedSize": "Double (exact width not confirmed by identity source)",
           "oneBed": true,
           "oneBedOnly": true,
           "privateBathroom": true,
-          "bedNote": "Single Double bed (not two beds pushed together)"
+          "bedNote": "Single Double bed; confirm exact width directly"
         }
       ],
       "promos": [
@@ -2306,7 +2439,7 @@
       ],
       "hasOnSiteLaundry": false,
       "officialUrl": null,
-      "officialLabel": "Book via OTA (no official English site)",
+      "officialLabel": "No official property site found; use trusted listing",
       "compareUrl": "https://www.kayak.com/hotels/Daejeon,c61292/Aank-Air-Hotel-Daejeon-Station",
       "compareLabel": "Compare rates (KAYAK)",
       "why": "Great budget pick right by Daejeon Station.",
@@ -2316,8 +2449,17 @@
       ],
       "fits": false,
       "fitReason": "Listed one-bed room is a double (~140 cm), below the planner’s queen-size minimum",
-      "lat": 36.35,
-      "lng": 127.39
+      "lat": 36.330984,
+      "lng": 127.426422,
+      "stationWalkTime": "About 9 min walk to Daejeon KTX/subway Station",
+      "verification": {
+        "lastChecked": "2026-08-10",
+        "sourceType": "Major trusted booking platform",
+        "sourceUrl": "https://www.booking.com/hotel/kr/aank-daejeon-station.html",
+        "canonicalName": "Aank Air Hotel Daejeon Station",
+        "existenceStatus": "Verified operating property",
+        "note": "Booking.com confirms the exact Aank Air Daejeon Station property at 6 Mokcheok 9-gil, distinct from other Aank branches; current sources indicate a late 20:00 standard check-in."
+      }
     },
     {
       "id": "seoul-skypark-myeongdong3",
@@ -2375,7 +2517,9 @@
         "lastChecked": "2026-08-10",
         "sourceType": "Official hotel/brand",
         "sourceUrl": "https://www.skyparkhotel.com/html/accommdation/accom3_tab1_01.asp",
-        "note": "Hotel Skypark confirms the Myeongdong III branch, 139 Toegye-ro address, Myeongdong Station and airport-limousine access."
+        "note": "Hotel Skypark confirms the Myeongdong III branch, 139 Toegye-ro address, Myeongdong Station and airport-limousine access.",
+        "canonicalName": "Hotel Skypark Myeongdong 3",
+        "existenceStatus": "Verified operating property"
       }
     },
     {
@@ -2435,13 +2579,15 @@
         "lastChecked": "2026-08-10",
         "sourceType": "Official hotel/brand",
         "sourceUrl": "https://www.marriott.com/en-us/hotels/sellm-lescape-a-luxury-collection-hotel-seoul-myeongdong/overview/",
-        "note": "Marriott confirms the current Luxury Collection affiliation, 67 Toegye-ro address, 15:00/11:00 hours and hotel facilities."
+        "note": "Marriott confirms the current Luxury Collection affiliation, 67 Toegye-ro address, 15:00/11:00 hours and hotel facilities.",
+        "canonicalName": "L'Escape, A Luxury Collection Hotel, Seoul Myeongdong",
+        "existenceStatus": "Verified operating property"
       }
     },
     {
       "id": "busan-toyoko-haeundae2",
       "city": "Busan",
-      "name": "Toyoko Inn Busan Haeundae 2",
+      "name": "Toyoko Inn Busan Haeundae No.2",
       "tier": "budget",
       "stars": 3,
       "area": "Haeundae",
@@ -2488,14 +2634,20 @@
       ],
       "fits": false,
       "fitReason": "Listed one-bed room is a double (~140 cm), below the planner’s queen-size minimum",
-      "lat": 35.16,
-      "lng": 129.16,
+      "lat": 35.159583,
+      "lng": 129.15751,
       "verification": {
         "lastChecked": "2026-08-10",
         "sourceType": "Official hotel/brand",
         "sourceUrl": "https://www.toyoko-inn.com/eng/search/detail/00256/",
-        "note": "Toyoko Inn confirms the Haeundae 2 branch, normal hours, rooms and hotel services; the double width remains below or unconfirmed for the planner queen rule."
-      }
+        "note": "Toyoko Inn confirms unique property code 00256, the address at 5 Haeundaehaebyeon-ro 237beon-gil, coordinates, 15:00/10:00 hours, free breakfast and laundromat.",
+        "canonicalName": "Toyoko Inn Busan Haeundae No.2",
+        "existenceStatus": "Verified operating property",
+        "distinctFrom": [
+          "busan-toyoko-station1"
+        ]
+      },
+      "stationWalkTime": "10 min walk from Haeundae Station Exit 5"
     },
     {
       "id": "busan-ramada-encore-haeundae",
@@ -2547,14 +2699,20 @@
       ],
       "fits": false,
       "fitReason": "Listed one-bed room is a double (~140 cm), below the planner’s queen-size minimum",
-      "lat": 35.16,
-      "lng": 129.16,
+      "lat": 35.163472,
+      "lng": 129.159444,
       "verification": {
         "lastChecked": "2026-08-10",
         "sourceType": "Official hotel/brand",
         "sourceUrl": "https://www.wyndhamhotels.com/ramada/busan-south-korea/ramada-encore-haeundae/overview",
-        "note": "Wyndham confirms the operating Haeundae property, exact address and direct booking channel; the listed standard double is not treated as a queen."
-      }
+        "note": "Wyndham confirms the distinct Haeundae property at 9 Gunam-ro, coordinates 35.163472/129.159444 and phone +82-51-610-3000; it is separate from Ramada Encore Busan Station.",
+        "canonicalName": "Ramada Encore by Wyndham Busan Haeundae",
+        "existenceStatus": "Verified operating property",
+        "distinctFrom": [
+          "busan-ramada-station"
+        ]
+      },
+      "stationWalkTime": "Very short walk to Haeundae Station"
     },
     {
       "id": "seoul-somerset-palace",
@@ -2619,7 +2777,9 @@
         "lastChecked": "2026-08-10",
         "sourceType": "Official hotel/brand",
         "sourceUrl": "https://www.discoverasr.com/en/somerset-serviced-residence/korea-south/somerset-palace-seoul",
-        "note": "Official Ascott pages confirm the property, 15:00/12:00 hours, nearby subway stations, a queen Studio Executive, private bathroom, washer/dryer, and 24-hour reception."
+        "note": "Official Ascott pages confirm the property, 15:00/12:00 hours, nearby subway stations, a queen Studio Executive, private bathroom, washer/dryer, and 24-hour reception.",
+        "canonicalName": "Somerset Palace Seoul",
+        "existenceStatus": "Verified operating property"
       }
     },
     {
@@ -2685,7 +2845,12 @@
         "lastChecked": "2026-08-10",
         "sourceType": "Official hotel + Korea Tourism Organization",
         "sourceUrl": "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=96506",
-        "note": "Accor confirms the hotel and 14:00/12:00 hours; government-run VISITKOREA explicitly lists 24-hour reception service."
+        "note": "Accor confirms the hotel and 14:00/12:00 hours; government-run VISITKOREA explicitly lists 24-hour reception service.",
+        "canonicalName": "ibis Ambassador Seoul Myeongdong",
+        "existenceStatus": "Verified operating property",
+        "distinctFrom": [
+          "seoul-ibis-styles"
+        ]
       }
     },
     {
@@ -2751,7 +2916,12 @@
         "lastChecked": "2026-08-10",
         "sourceType": "Official hotel/brand",
         "sourceUrl": "https://www.marriott.com/en-us/hotels/selmx-moxy-seoul-myeongdong/overview/",
-        "note": "Marriott confirms the property, address, 16:00/12:00 hours, Myeongdong access, hotel amenities and king room categories."
+        "note": "Marriott confirms the property, address, 16:00/12:00 hours, Myeongdong access, hotel amenities and king room categories.",
+        "canonicalName": "Moxy Seoul, Myeongdong",
+        "existenceStatus": "Verified operating property",
+        "distinctFrom": [
+          "seoul-le-meridien-myeongdong"
+        ]
       }
     },
     {
@@ -2817,7 +2987,12 @@
         "lastChecked": "2026-08-10",
         "sourceType": "Official hotel/brand",
         "sourceUrl": "https://www.marriott.com/en-us/hotels/selmm-le-meridien-seoul-myeongdong/overview/",
-        "note": "Marriott confirms the 5-star property, address, 16:00/12:00 hours, pool, lounge and accommodations."
+        "note": "Marriott confirms the 5-star property, address, 16:00/12:00 hours, pool, lounge and accommodations.",
+        "canonicalName": "Le Méridien Seoul, Myeongdong",
+        "existenceStatus": "Verified operating property",
+        "distinctFrom": [
+          "seoul-moxy-myeongdong"
+        ]
       }
     },
     {
@@ -2883,7 +3058,9 @@
         "lastChecked": "2026-08-10",
         "sourceType": "Official hotel/brand",
         "sourceUrl": "https://www.marriott.com/en-us/hotels/selmo-aloft-seoul-myeongdong/overview/",
-        "note": "Marriott confirms the property, 15:00/12:00 hours, location and Deluxe King category."
+        "note": "Marriott confirms the property, 15:00/12:00 hours, location and Deluxe King category.",
+        "canonicalName": "Aloft Seoul Myeongdong",
+        "existenceStatus": "Verified operating property"
       }
     },
     {
@@ -2949,7 +3126,9 @@
         "lastChecked": "2026-08-10",
         "sourceType": "Official hotel/brand",
         "sourceUrl": "https://www.marriott.com/en-us/hotels/selsn-courtyard-seoul-myeongdong/overview/",
-        "note": "Marriott confirms the property, address, 15:00/11:00 hours, private accommodation and Deluxe King category."
+        "note": "Marriott confirms the property, address, 15:00/11:00 hours, private accommodation and Deluxe King category.",
+        "canonicalName": "Courtyard by Marriott Seoul Myeongdong",
+        "existenceStatus": "Verified operating property"
       }
     },
     {
@@ -3015,7 +3194,9 @@
         "lastChecked": "2026-08-10",
         "sourceType": "Official hotel/brand",
         "sourceUrl": "https://www.marriott.com/en-us/hotels/selfd-four-points-josun-seoul-myeongdong/overview/",
-        "note": "Marriott confirms the hotel, 15:00/12:00 hours, address, transit-friendly location and king category."
+        "note": "Marriott confirms the hotel, 15:00/12:00 hours, address, transit-friendly location and king category.",
+        "canonicalName": "Four Points by Sheraton Josun, Seoul Myeongdong",
+        "existenceStatus": "Verified operating property"
       }
     },
     {
@@ -3081,7 +3262,12 @@
         "lastChecked": "2026-08-10",
         "sourceType": "Official hotel/brand",
         "sourceUrl": "https://www.ninetreehotels.com/nth2/?lang=en",
-        "note": "The official Parnas site confirms this 408-room property, its room categories, facilities and Myeongdong location."
+        "note": "The official Parnas site confirms this 408-room property, its room categories, facilities and Myeongdong location.",
+        "canonicalName": "Nine Tree by Parnas Seoul Myeongdong 2",
+        "existenceStatus": "Verified operating property",
+        "distinctFrom": [
+          "seoul-nine-tree"
+        ]
       }
     },
     {
@@ -3147,7 +3333,9 @@
         "lastChecked": "2026-08-10",
         "sourceType": "Official hotel/brand",
         "sourceUrl": "https://www.ninetreehotels.com/nth3/",
-        "note": "The official Parnas page confirms the hotel, Insadong address, Standard Double category, facilities and 3-minute Anguk access."
+        "note": "The official Parnas page confirms the hotel, Insadong address, Standard Double category, facilities and 3-minute Anguk access.",
+        "canonicalName": "Nine Tree by Parnas Seoul Insadong",
+        "existenceStatus": "Verified operating property"
       }
     },
     {
@@ -3213,7 +3401,9 @@
         "lastChecked": "2026-08-10",
         "sourceType": "Official hotel/brand",
         "sourceUrl": "https://www.shillastay.com/gwanghwamun/accommodation/viewAccmo.do?contId=ST",
-        "note": "Shilla Stay confirms the property and 15:00/noon policy; current trusted inventory identifies a Hollywood Double king category."
+        "note": "Shilla Stay confirms the property and 15:00/noon policy; current trusted inventory identifies a Hollywood Double king category.",
+        "canonicalName": "Shilla Stay Gwanghwamun Myeongdong",
+        "existenceStatus": "Verified operating property"
       }
     },
     {
@@ -3279,7 +3469,9 @@
         "lastChecked": "2026-08-10",
         "sourceType": "Official hotel/brand",
         "sourceUrl": "https://www.lottehotel.com/seoul-hotel/en/rooms",
-        "note": "LOTTE's official site confirms the 5-star 1,015-room hotel, central address, Main/Executive Towers, room categories and facilities."
+        "note": "LOTTE's official site confirms the 5-star 1,015-room hotel, central address, Main/Executive Towers, room categories and facilities.",
+        "canonicalName": "LOTTE HOTEL SEOUL",
+        "existenceStatus": "Verified operating property"
       }
     },
     {
@@ -3345,7 +3537,9 @@
         "lastChecked": "2026-08-10",
         "sourceType": "Official hotel/brand",
         "sourceUrl": "https://www.marriott.com/en-us/hotels/selwi-the-westin-josun-seoul/overview/",
-        "note": "Marriott confirms the historic 5-star hotel, address, 15:00/12:00 hours, Deluxe King category, pool, spa and central location."
+        "note": "Marriott confirms the historic 5-star hotel, address, 15:00/12:00 hours, Deluxe King category, pool, spa and central location.",
+        "canonicalName": "The Westin Josun Seoul",
+        "existenceStatus": "Verified operating property"
       }
     },
     {
@@ -3411,7 +3605,9 @@
         "lastChecked": "2026-08-10",
         "sourceType": "Official hotel + Korea Tourism Organization",
         "sourceUrl": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=99009",
-        "note": "The hotel and VISITKOREA confirm the property, 15:00/11:00 hours, room classes, facilities and Bulguksa location."
+        "note": "The hotel and VISITKOREA confirm the property, 15:00/11:00 hours, room classes, facilities and Bulguksa location.",
+        "canonicalName": "Kolon Hotel Gyeongju",
+        "existenceStatus": "Verified operating property"
       }
     },
     {
@@ -3477,7 +3673,9 @@
         "lastChecked": "2026-08-10",
         "sourceType": "Official hotel + Korea Tourism Organization",
         "sourceUrl": "https://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=1061398",
-        "note": "The official hotel and VISITKOREA confirm the Bomun property, room classes, facilities and normal hours."
+        "note": "The official hotel and VISITKOREA confirm the Bomun property, room classes, facilities and normal hours.",
+        "canonicalName": "The-K Hotel Gyeongju",
+        "existenceStatus": "Verified operating property"
       }
     },
     {
@@ -3544,7 +3742,9 @@
         "lastChecked": "2026-08-10",
         "sourceType": "Official hotel/brand",
         "sourceUrl": "https://www.kinock.co.kr/gj/ko/Home/Main",
-        "note": "The official KINOCK site confirms the current brand, address and pet-focused rooms/facilities. Trusted current inventory confirms the 2024 full renovation, 15:00/11:00 hours and queen Premier/Signature categories."
+        "note": "The official KINOCK site confirms the current brand, address and pet-focused rooms/facilities. Trusted current inventory confirms the 2024 full renovation, 15:00/11:00 hours and queen Premier/Signature categories.",
+        "canonicalName": "KINOCK Gyeongju",
+        "existenceStatus": "Verified operating property"
       }
     },
     {
@@ -3610,7 +3810,9 @@
         "lastChecked": "2026-08-10",
         "sourceType": "Korea Tourism Organization / BENIKEA",
         "sourceUrl": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=85181",
-        "note": "Government-run VISITKOREA confirms the 60-room hotel, room categories, facilities and Bomun/HICO location; live check-in can vary by season."
+        "note": "Government-run VISITKOREA confirms the 60-room hotel, room categories, facilities and Bomun/HICO location; live check-in can vary by season.",
+        "canonicalName": "Benikea Swiss Rosen Hotel Gyeongju",
+        "existenceStatus": "Verified operating property"
       }
     },
     {
@@ -3676,7 +3878,9 @@
         "lastChecked": "2026-08-10",
         "sourceType": "Korea Tourism Organization — Korea Quality certified",
         "sourceUrl": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=60519",
-        "note": "VISITKOREA identifies this Korea Quality-certified hotel, its private room amenities, breakfast and five-minute bus-terminal access."
+        "note": "VISITKOREA identifies this Korea Quality-certified hotel, its private room amenities, breakfast and five-minute bus-terminal access.",
+        "canonicalName": "Rivertain Hotel Gyeongju",
+        "existenceStatus": "Verified operating property"
       }
     },
     {
@@ -3742,7 +3946,9 @@
         "lastChecked": "2026-08-10",
         "sourceType": "Korea Tourism Organization + property site",
         "sourceUrl": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=45559",
-        "note": "VISITKOREA confirms seven rooms, 14:30/10:30 hours, in-room toilets and immediate Old Town access."
+        "note": "VISITKOREA confirms seven rooms, 14:30/10:30 hours, in-room toilets and immediate Old Town access.",
+        "canonicalName": "HanokInn",
+        "existenceStatus": "Verified operating property"
       }
     },
     {
@@ -3808,7 +4014,9 @@
         "lastChecked": "2026-08-10",
         "sourceType": "Korea Tourism Organization + property site",
         "sourceUrl": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=45556",
-        "note": "VISITKOREA confirms all-ondol rooms, bathrooms in every room, free breakfast and walkability to the major historic sites."
+        "note": "VISITKOREA confirms all-ondol rooms, bathrooms in every room, free breakfast and walkability to the major historic sites.",
+        "canonicalName": "Wiyeonjae Hanok Stay",
+        "existenceStatus": "Verified operating property"
       }
     },
     {
@@ -3874,7 +4082,9 @@
         "lastChecked": "2026-08-10",
         "sourceType": "Korea Tourism Organization + property site",
         "sourceUrl": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=63076",
-        "note": "VISITKOREA confirms beds, private toilet/bathroom, breakfast, shared kitchen and one-minute Cheomseongdae access."
+        "note": "VISITKOREA confirms beds, private toilet/bathroom, breakfast, shared kitchen and one-minute Cheomseongdae access.",
+        "canonicalName": "Nadul Hanok",
+        "existenceStatus": "Verified operating property"
       }
     },
     {
@@ -3940,7 +4150,9 @@
         "lastChecked": "2026-08-10",
         "sourceType": "Official hotel/brand",
         "sourceUrl": "https://www.sonohotelsresorts.com/calm_gju/resort",
-        "note": "SONO's official site confirms the renamed Gyeongju property, current rooms, 15:00/11:00 hours, layouts and after-22:00 advance-contact rule."
+        "note": "SONO's official site confirms the renamed Gyeongju property, current rooms, 15:00/11:00 hours, layouts and after-22:00 advance-contact rule.",
+        "canonicalName": "SONO Calm Gyeongju",
+        "existenceStatus": "Verified operating property"
       }
     },
     {
@@ -4006,7 +4218,9 @@
         "lastChecked": "2026-08-10",
         "sourceType": "Official hotel/brand",
         "sourceUrl": "https://www.kensington.co.kr/rgj",
-        "note": "Kensington's official property page confirms the resort; current trusted property data confirms the address, apartment layouts and normal hours."
+        "note": "Kensington's official property page confirms the resort; current trusted property data confirms the address, apartment layouts and normal hours.",
+        "canonicalName": "Kensington Resort Gyeongju",
+        "existenceStatus": "Verified operating property"
       }
     },
     {
@@ -4072,7 +4286,9 @@
         "lastChecked": "2026-08-10",
         "sourceType": "Official hotel/brand",
         "sourceUrl": "https://www.lottehotel.com/busan-signiel/en/rooms/signiel-premier-familytwin-ocean-view.html",
-        "note": "LOTTE confirms the hotel, address, 15:00/11:00 hours, room categories, occupancy and ocean-view facilities; reconfirm the exact Premier Double bed in live inventory."
+        "note": "LOTTE confirms the hotel, address, 15:00/11:00 hours, room categories, occupancy and ocean-view facilities; reconfirm the exact Premier Double bed in live inventory.",
+        "canonicalName": "SIGNIEL BUSAN",
+        "existenceStatus": "Verified operating property"
       }
     },
     {
@@ -4138,7 +4354,9 @@
         "lastChecked": "2026-08-10",
         "sourceType": "Official hotel + Korea Tourism Organization",
         "sourceUrl": "https://www.busanparadisehotel.co.kr/front/hotel/room/view?RR_ROOM_CATEGORY=PREMIUM_DELUXE&RR_ROOM_TYPE=PREMIUM_DELUXE_OCEAN_DOUBLE",
-        "note": "The official Paradise page confirms the Premium Deluxe Ocean King, king bed, private bathroom amenities and hotel contact; VISITKOREA confirms the property and resort facilities."
+        "note": "The official Paradise page confirms the Premium Deluxe Ocean King, king bed, private bathroom amenities and hotel contact; VISITKOREA confirms the property and resort facilities.",
+        "canonicalName": "Paradise Hotel Busan",
+        "existenceStatus": "Verified operating property"
       }
     },
     {
@@ -4204,7 +4422,9 @@
         "lastChecked": "2026-08-10",
         "sourceType": "Official hotel/brand",
         "sourceUrl": "https://www.marriott.com/en-us/hotels/puswi-the-westin-josun-busan/overview/",
-        "note": "Marriott confirms the property, address, 15:00/12:00 hours, rooms and resort facilities; VISITKOREA separately confirms the hotel details."
+        "note": "Marriott confirms the property, address, 15:00/12:00 hours, rooms and resort facilities; VISITKOREA separately confirms the hotel details.",
+        "canonicalName": "The Westin Josun Busan",
+        "existenceStatus": "Verified operating property"
       }
     },
     {
@@ -4269,7 +4489,12 @@
         "lastChecked": "2026-08-10",
         "sourceType": "Official hotel/brand",
         "sourceUrl": "https://www.marriott.com/en-us/hotels/pusfi-fairfield-busan/overview/",
-        "note": "Marriott confirms this Haeundae property, 15:00/12:00 hours, location, amenities and king inventory."
+        "note": "Marriott confirms this Haeundae property, 15:00/12:00 hours, location, amenities and king inventory.",
+        "canonicalName": "Fairfield by Marriott Busan",
+        "existenceStatus": "Verified operating property",
+        "distinctFrom": [
+          "busan-fairfield-songdo"
+        ]
       }
     },
     {
@@ -4335,7 +4560,9 @@
         "lastChecked": "2026-08-10",
         "sourceType": "Official hotel/brand",
         "sourceUrl": "https://all.accor.com/hotel/9106/index.en.shtml",
-        "note": "Accor confirms the 177-room property, 15:00/11:00 hours, beach location and reception open 24 hours a day."
+        "note": "Accor confirms the 177-room property, 15:00/11:00 hours, beach location and reception open 24 hours a day.",
+        "canonicalName": "ibis budget Ambassador Busan Haeundae",
+        "existenceStatus": "Verified operating property"
       }
     },
     {
@@ -4401,7 +4628,9 @@
         "lastChecked": "2026-08-10",
         "sourceType": "Official hotel/brand",
         "sourceUrl": "https://all.accor.com/hotel/9643/index.en.shtml",
-        "note": "Accor confirms the property, address, 15:00/12:00 hours, beach access and hotel services including self-service laundry."
+        "note": "Accor confirms the property, address, 15:00/12:00 hours, beach access and hotel services including self-service laundry.",
+        "canonicalName": "ibis Ambassador Busan Haeundae",
+        "existenceStatus": "Verified operating property"
       }
     },
     {
@@ -4467,7 +4696,9 @@
         "lastChecked": "2026-08-10",
         "sourceType": "Official hotel/brand",
         "sourceUrl": "https://www.lottehotel.com/busan-hotel/en/rooms/premier-room.html",
-        "note": "LOTTE confirms the property, Premier Double/Twin categories, 15:00/11:00 hours, city view and central Busan facilities."
+        "note": "LOTTE confirms the property, Premier Double/Twin categories, 15:00/11:00 hours, city view and central Busan facilities.",
+        "canonicalName": "LOTTE HOTEL BUSAN",
+        "existenceStatus": "Verified operating property"
       }
     },
     {
@@ -4533,7 +4764,9 @@
         "lastChecked": "2026-08-10",
         "sourceType": "Official hotel/brand",
         "sourceUrl": "https://www.avanihotels.com/en/central-busan",
-        "note": "Avani confirms the 289-room hotel, address, 15:00/11:00 hours, king rooms, five-minute Seomyeon proximity and facilities."
+        "note": "Avani confirms the 289-room hotel, address, 15:00/11:00 hours, king rooms, five-minute Seomyeon proximity and facilities.",
+        "canonicalName": "Avani Central Busan",
+        "existenceStatus": "Verified operating property"
       }
     },
     {
@@ -4599,7 +4832,12 @@
         "lastChecked": "2026-08-10",
         "sourceType": "Official hotel/brand",
         "sourceUrl": "https://www.wyndhamhotels.com/ramada/busan-south-korea/ramada-encore-busan-station/overview",
-        "note": "Wyndham confirms the hotel beside Busan Station, guest-room amenities, fitness, coin laundry and dining; normal hours are cross-checked with current property data."
+        "note": "Wyndham confirms the hotel beside Busan Station, guest-room amenities, fitness, coin laundry and dining; normal hours are cross-checked with current property data.",
+        "canonicalName": "Ramada Encore by Wyndham Busan Station",
+        "existenceStatus": "Verified operating property",
+        "distinctFrom": [
+          "busan-ramada-encore-haeundae"
+        ]
       }
     },
     {
@@ -4665,7 +4903,12 @@
         "lastChecked": "2026-08-10",
         "sourceType": "Official hotel/brand",
         "sourceUrl": "https://www.toyoko-inn.com/eng/search/detail/00194/",
-        "note": "Toyoko Inn confirms the exact address, 15:00/10:00 hours, free breakfast, laundromat and immediate KTX access."
+        "note": "Toyoko Inn confirms the exact address, 15:00/10:00 hours, free breakfast, laundromat and immediate KTX access.",
+        "canonicalName": "Toyoko Inn Busan Station No.1",
+        "existenceStatus": "Verified operating property",
+        "distinctFrom": [
+          "busan-toyoko-haeundae2"
+        ]
       }
     },
     {
@@ -4731,7 +4974,9 @@
         "lastChecked": "2026-08-10",
         "sourceType": "Property site + established Korea tour operator",
         "sourceUrl": "https://www.koreaetour.com/busan-crown-harbor-hotel/",
-        "note": "The official Crown Harbor domain and Korea E Tour cross-check the property, 500-room scale, address, phone and Jungang/port location."
+        "note": "The official Crown Harbor domain and Korea E Tour cross-check the property, 500-room scale, address, phone and Jungang/port location.",
+        "canonicalName": "Crown Harbor Hotel Busan",
+        "existenceStatus": "Verified operating property"
       }
     },
     {
@@ -4797,7 +5042,12 @@
         "lastChecked": "2026-08-10",
         "sourceType": "Official hotel/brand",
         "sourceUrl": "https://www.marriott.com/en-us/hotels/pusfb-fairfield-busan-songdo-beach/overview/",
-        "note": "Marriott confirms the beachfront property, 15:00/11:00 hours, private rooms and hotel services."
+        "note": "Marriott confirms the beachfront property, 15:00/11:00 hours, private rooms and hotel services.",
+        "canonicalName": "Fairfield by Marriott Busan Songdo Beach",
+        "existenceStatus": "Verified operating property",
+        "distinctFrom": [
+          "busan-fairfield-haeundae"
+        ]
       }
     },
     {
@@ -4863,16 +5113,21 @@
         "lastChecked": "2026-08-10",
         "sourceType": "Official hotel/brand",
         "sourceUrl": "https://www.wyndhamhotels.com/wyndham-grand/busan-south-korea/wyndham-grand-busan-ijin/overview",
-        "note": "Wyndham confirms the property, exact Songdo address, contact details and waterfront hotel listing."
+        "note": "Wyndham confirms the property, exact Songdo address, contact details and waterfront hotel listing.",
+        "canonicalName": "Wyndham Grand Busan Ijin",
+        "existenceStatus": "Verified operating property"
       }
     }
   ],
   "meta": {
     "pricingLastChecked": "2026-08-10",
-    "pricingSource": "Planning estimates cross-checked against official hotel/brand pages and government tourism listings; use official booking pages for live totals.",
+    "pricingSource": "Planning estimates only; property identities were cross-checked against official hotel/brand pages, government tourism listings, or exact-property major trusted platforms.",
     "hotelResearchLastChecked": "2026-08-10",
     "expandedPrimaryCityHotels": 55,
-    "verifiedPrimaryCityHotels": 55
+    "verifiedPrimaryCityHotels": 55,
+    "identityAuditLastChecked": "2026-08-10",
+    "verifiedHotelRecords": 69,
+    "duplicateHotelRecords": 0
   },
   "arrivalNight": {
     "title": "First night in Seoul — officially verified late-arrival shortlist",

@@ -6,8 +6,12 @@ Checks hotels.json, its arrival-night shortlist, and itinerary.json for required
 Run with: python3 validate.py
 """
 
+import difflib
 import json
+import re
 import sys
+import unicodedata
+from collections import defaultdict
 
 HOTELS_FILE = "data/hotels.json"
 ITINERARY_FILE = "data/itinerary.json"
@@ -26,7 +30,8 @@ REQUIRED_ROOM_FIELDS = [
 ]
 
 REQUIRED_VERIFICATION_FIELDS = [
-    "lastChecked", "sourceType", "sourceUrl", "note"
+    "lastChecked", "sourceType", "sourceUrl", "canonicalName",
+    "existenceStatus", "note"
 ]
 
 MIN_PRIMARY_CITY_HOTELS = {
@@ -66,15 +71,29 @@ def room_meets_queen_or_king_requirement(room):
     )
 
 
+def normalize_identity_name(value):
+    """Normalize a sourced hotel name for exact/fuzzy duplicate checks."""
+    ascii_name = unicodedata.normalize("NFKD", str(value)).encode("ascii", "ignore").decode().lower()
+    return re.sub(r"[^a-z0-9]+", "", ascii_name)
+
+
+def canonical_url(value):
+    """Normalize source URLs enough to catch the same property link twice."""
+    return str(value or "").strip().rstrip("/").lower()
+
+
 def validate_hotels(data):
     print("=== Validating hotels.json ===")
     hotels = data.get("hotels", [])
     print(f"Total hotels: {len(hotels)}")
 
     errors = 0
-    warnings = 0
     verified = 0
     ids = set()
+    canonical_names = defaultdict(list)
+    official_urls = defaultdict(list)
+    source_urls = defaultdict(list)
+    coordinates = defaultdict(list)
 
     for h in hotels:
         # Check required fields and stable unique IDs.
@@ -101,40 +120,85 @@ def validate_hotels(data):
             print(f"  ❌ {h.get('name', h.get('id'))} is marked fits=true but has no private-bath queen/king room")
             errors += 1
 
-        # Check officialUrl
-        if not h.get("officialUrl"):
-            print(f"  ⚠️  No officialUrl for {h['name']} (city: {h['city']})")
-            warnings += 1
-        elif not isinstance(h.get("officialUrl"), str) or not h["officialUrl"].startswith(("https://", "http://")):
-            print(f"  ❌ Invalid officialUrl in {h['name']}")
-            errors += 1
+        # An official property URL is preferred, but some independent hotels
+        # have only a government-tourism or major-platform identity source.
+        if h.get("officialUrl"):
+            if not isinstance(h.get("officialUrl"), str) or not h["officialUrl"].startswith(("https://", "http://")):
+                print(f"  ❌ Invalid officialUrl in {h['name']}")
+                errors += 1
+            else:
+                official_urls[canonical_url(h["officialUrl"])].append(h["id"])
 
         # Check hasOnSiteLaundry
         if "hasOnSiteLaundry" not in h:
             print(f"  ❌ Missing hasOnSiteLaundry in {h['name']}")
             errors += 1
 
-        # Every hotel in the three planned cities carries an auditable, dated
-        # source note. Alternative-city legacy entries may omit it, but any
-        # supplied block must still be complete.
+        # Every record must identify a real operating property through one
+        # dated official, government-tourism, or major trusted source.
         verification = h.get("verification")
-        if h.get("city") in MIN_PRIMARY_CITY_HOTELS and verification is None:
-            print(f"  ❌ Missing verification block in planned-city hotel {h['name']}")
+        if not isinstance(verification, dict):
+            print(f"  ❌ Missing/invalid verification block in {h['name']}")
             errors += 1
-        if verification is not None:
+        else:
             verified += 1
-            if not isinstance(verification, dict):
-                print(f"  ❌ Invalid verification block in {h['name']}")
+            for field in REQUIRED_VERIFICATION_FIELDS:
+                if not verification.get(field):
+                    print(f"  ❌ Missing verification field '{field}' in {h['name']}")
+                    errors += 1
+
+            source_url = verification.get("sourceUrl", "")
+            if not isinstance(source_url, str) or not source_url.startswith(("https://", "http://")):
+                print(f"  ❌ Invalid verification sourceUrl in {h['name']}")
                 errors += 1
             else:
-                for field in REQUIRED_VERIFICATION_FIELDS:
-                    if not verification.get(field):
-                        print(f"  ❌ Missing verification field '{field}' in {h['name']}")
-                        errors += 1
-                source_url = verification.get("sourceUrl", "")
-                if not isinstance(source_url, str) or not source_url.startswith(("https://", "http://")):
-                    print(f"  ❌ Invalid verification sourceUrl in {h['name']}")
-                    errors += 1
+                source_urls[canonical_url(source_url)].append(h["id"])
+
+            if verification.get("existenceStatus") != "Verified operating property":
+                print(f"  ❌ Unverified existenceStatus in {h['name']}")
+                errors += 1
+
+            canonical_name = normalize_identity_name(verification.get("canonicalName", ""))
+            if canonical_name:
+                canonical_names[(h.get("city"), canonical_name)].append(h["id"])
+
+        if isinstance(h.get("lat"), (int, float)) and isinstance(h.get("lng"), (int, float)):
+            coordinates[(round(h["lat"], 6), round(h["lng"], 6))].append(h["id"])
+
+    # Identity-level duplicate detection: IDs alone are not enough because a
+    # duplicate property could be entered under a new slug or spelling.
+    for (city, canonical_name), matching_ids in canonical_names.items():
+        if len(matching_ids) > 1:
+            print(f"  ❌ Duplicate canonical hotel name in {city}: {matching_ids}")
+            errors += 1
+
+    for label, mapping in (("official URL", official_urls), ("verification source URL", source_urls)):
+        for url, matching_ids in mapping.items():
+            if len(matching_ids) > 1:
+                print(f"  ❌ Duplicate {label} used by {matching_ids}: {url}")
+                errors += 1
+
+    for coordinate, matching_ids in coordinates.items():
+        if len(matching_ids) > 1:
+            print(f"  ❌ Exact duplicate coordinates {coordinate} used by {matching_ids}")
+            errors += 1
+
+    for index, first in enumerate(hotels):
+        first_verification = first.get("verification") or {}
+        first_name = normalize_identity_name(first_verification.get("canonicalName", first.get("name", "")))
+        for second in hotels[index + 1:]:
+            if first.get("city") != second.get("city"):
+                continue
+            second_verification = second.get("verification") or {}
+            second_name = normalize_identity_name(second_verification.get("canonicalName", second.get("name", "")))
+            similarity = difflib.SequenceMatcher(None, first_name, second_name).ratio()
+            if similarity < 0.92:
+                continue
+            first_exceptions = set(first_verification.get("distinctFrom", []))
+            second_exceptions = set(second_verification.get("distinctFrom", []))
+            if second.get("id") not in first_exceptions or first.get("id") not in second_exceptions:
+                print(f"  ❌ Possible fuzzy duplicate ({similarity:.0%}): {first['id']} / {second['id']}")
+                errors += 1
 
     city_counts = {city: sum(h.get("city") == city for h in hotels) for city in MIN_PRIMARY_CITY_HOTELS}
     for city, minimum in MIN_PRIMARY_CITY_HOTELS.items():
@@ -142,15 +206,12 @@ def validate_hotels(data):
             print(f"  ❌ {city} has {city_counts[city]} hotels; expanded-list minimum is {minimum}")
             errors += 1
 
-    print(f"Dated source notes: {verified}; planned-city coverage: " + ", ".join(f"{city} {count}" for city, count in city_counts.items()))
+    print(f"Verified identities: {verified}/{len(hotels)}; planned-city coverage: " + ", ".join(f"{city} {count}" for city, count in city_counts.items()))
 
     if errors == 0:
-        print("✅ No critical errors in hotels.json")
+        print(f"✅ {len(hotels)} unique, source-verified hotel records; no duplicate IDs, names, URLs, or coordinates")
     else:
         print(f"❌ Found {errors} critical errors")
-
-    if warnings > 0:
-        print(f"⚠️  {warnings} warnings (mostly missing officialUrl)")
 
     return errors
 

@@ -436,7 +436,7 @@
       text-align: center;
     }
 
-    .notes-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .notes-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
     .note-card {
       padding: 21px;
       border: 1px solid var(--line);
@@ -471,7 +471,7 @@
     footer p { max-width: 920px; margin-bottom: 7px; }
 
     @media (max-width: 930px) {
-      .arrival-grid, .hotel-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .arrival-grid, .hotel-grid, .notes-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .steps { grid-template-columns: repeat(2, minmax(0, 1fr)); }
     }
     @media (max-width: 620px) {
@@ -538,7 +538,7 @@
     <section id="shortlist" aria-labelledby="shortlist-title">
       <p class="section-kicker">The rest of the trip</p>
       <h2 class="section-heading" id="shortlist-title">Expanded city-by-city hotel list</h2>
-      <p class="section-description">Compare 20 Seoul stays, 15 Gyeongju stays, and 20 Busan stays across the neighborhoods in the itinerary. Every planned-city entry includes a dated official or trusted verification note. Prices remain planning estimates for two; use the linked official site for live inventory, totals, and terms.</p>
+      <p class="section-description">Compare 20 Seoul stays, 15 Gyeongju stays, 20 Busan stays, and 14 alternative-city properties. All 69 entries have a dated canonical identity source and passed duplicate checks. Prices remain planning estimates for two; use the linked official or trusted source for live inventory, totals, and terms.</p>
 
       <div class="planner">
         <div class="city-tabs" id="city-tabs" role="group" aria-label="Choose a city"></div>
@@ -578,6 +578,11 @@
             <li>Use the official booking link for the reservation itself where possible.</li>
             <li>See the detailed <a href="guide/arrival-night.md">arrival-night research note</a> in this repo for source links and the booking-message template.</li>
           </ul>
+        </article>
+        <article class="note-card">
+          <h3>Identity and duplicate audit</h3>
+          <p>All 69 records have a sourced canonical property name and a unique identity link. Validation rejects duplicate IDs, canonical names, official URLs, verification URLs, and exact coordinates; highly similar branch names require an explicit distinct-property cross-check.</p>
+          <p>See the complete <a href="guide/verification-audit.md">verification audit</a> for every hotel and source.</p>
         </article>
       </div>
     </section>
@@ -660,7 +665,8 @@
         `<span class="trip-chip">📅 <b>${escapeHtml(dates)}</b></span>`,
         `<span class="trip-chip">🌙 <b>${escapeHtml(plural(Number(trip.nights || 0), "night"))}</b></span>`,
         `<span class="trip-chip">✈️ ICN arrival <b>${escapeHtml(arrival.arrivalTime || "21:00")}</b></span>`,
-        `<span class="trip-chip">🛎️ first night: <b>24-hour reception</b></span>`
+        `<span class="trip-chip">🛎️ first night: <b>24-hour reception</b></span>`,
+        `<span class="trip-chip">🔎 <b>${DATA.hotels.length} unique, verified hotels</b></span>`
       ].join("");
     }
 
@@ -732,7 +738,7 @@
 
       document.getElementById("research-note").textContent = `${arrival.definition || ""} ${arrival.verificationStandard || ""} Arrival evidence was last checked ${formatDate(arrival.lastVerified)}.`;
       const primaryCount = DATA.hotels.filter((hotel) => ["Seoul", "Gyeongju", "Busan"].includes(hotel.city)).length;
-      document.getElementById("footer-note").textContent = `Arrival-night sources were last checked ${formatDate(arrival.lastVerified)}. The planner now includes ${primaryCount} stays across the three planned cities; every planned-city entry links to its official or trusted verification source.`;
+      document.getElementById("footer-note").textContent = `Arrival-night sources were last checked ${formatDate(arrival.lastVerified)}. All ${DATA.hotels.length} hotel records have a unique canonical identity and an official, government-tourism, or major trusted verification source; ${primaryCount} are in the three planned cities.`;
     }
 
     const cityInfo = () => {
@@ -840,11 +846,11 @@
                 ${!hotel.fits && hotel.fitReason ? `<div><dt>Check before booking</dt><dd>${escapeHtml(hotel.fitReason)}</dd></div>` : ''}
               </dl>
               <p class="reason">${escapeHtml(hotel.why || "Review the official listing for the best room and current terms.")}</p>
-              ${hotel.verification ? `<p class="source-line"><strong>${escapeHtml(hotel.verification.sourceType)}</strong> · checked ${escapeHtml(formatDate(hotel.verification.lastChecked))}<br><a href="${safeUrl(hotel.verification.sourceUrl)}" target="_blank" rel="noopener noreferrer">Open verification source ↗</a><br>${escapeHtml(hotel.verification.note)}</p>` : ''}
+              ${hotel.verification ? `<p class="source-line"><strong>${escapeHtml(hotel.verification.existenceStatus || "Source verified")}</strong> · ${escapeHtml(hotel.verification.sourceType)} · checked ${escapeHtml(formatDate(hotel.verification.lastChecked))}<br><a href="${safeUrl(hotel.verification.sourceUrl)}" target="_blank" rel="noopener noreferrer">Open identity source ↗</a><br>${escapeHtml(hotel.verification.note)}</p>` : ''}
               ${isArrival ? '<p class="arrival-mark">For the first night, open the Arrival night section and send the late-arrival note after booking.</p>' : ''}
             </div>
             <div class="card-footer">
-              ${hotel.officialUrl ? `<a class="button" href="${safeUrl(hotel.officialUrl)}" target="_blank" rel="noopener noreferrer">Official site ↗</a>` : '<span class="button secondary" aria-disabled="true">Official site unavailable</span>'}
+              ${hotel.officialUrl ? `<a class="button" href="${safeUrl(hotel.officialUrl)}" target="_blank" rel="noopener noreferrer">Official site ↗</a>` : '<span class="button secondary" aria-disabled="true">Use trusted identity source above</span>'}
               ${hotel.compareUrl ? `<a class="button secondary" href="${safeUrl(hotel.compareUrl)}" target="_blank" rel="noopener noreferrer">Compare rates ↗</a>` : ''}
             </div>
           </article>

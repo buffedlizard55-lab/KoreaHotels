@@ -59,20 +59,22 @@ Each standard hotel record is shown in the city shortlist.
 
 `officialUrl` may be `null` only where a reliable official booking page is not available.
 
-#### `verification` (all planned-city entries)
+#### `verification` (every hotel entry)
 
-Every Seoul, Gyeongju, and Busan entry carries an auditable source block:
+All 69 records carry an auditable property-identity block:
 
 ```json
 {
   "lastChecked": "2026-08-10",
   "sourceType": "Official hotel/brand",
   "sourceUrl": "https://official.example/property",
-  "note": "What the linked source confirms"
+  "canonicalName": "Official Property Name",
+  "existenceStatus": "Verified operating property",
+  "note": "What the linked identity source confirms"
 }
 ```
 
-The website shows this note and date on the hotel card. The validator requires it for every hotel in the three planned cities and rejects incomplete blocks. Legacy Cheonan/Daejeon alternatives may omit it. The expanded-list baseline is 20 Seoul, 15 Gyeongju, and 20 Busan records.
+`sourceUrl` must identify that exact hotel through an official property/brand page, a government tourism authority, or a major trusted booking platform. It must be unique across the dataset. A `distinctFrom` array is required when two legitimate branches have highly similar canonical names. The website shows the status, source, date, and note on every card.
 
 #### `rooms[]`
 
@@ -180,8 +182,11 @@ Optional alternative legs use the same structure. The UI shows them as **Alterna
 
 - standard hotels have all required fields, unique IDs, and room detail fields
 - all rooms include `bedType`, `oneBedOnly`, and `privateBathroom`
-- all standard hotels include `hasOnSiteLaundry`
-- every planned-city hotel has a `verification` block with a date, source type, HTTP(S) source link, and explanatory note
+- every hotel has a complete, dated `verification` block and `Verified operating property` status
+- canonical names are unique within a city
+- official URLs and exact-property verification URLs are not reused by another hotel
+- exact coordinates are not duplicated
+- highly similar same-city names are rejected unless both records explicitly cross-reference each other as distinct branches
 - the expanded primary-city baseline remains at least 20 Seoul, 15 Gyeongju, and 20 Busan records
 - the `arrivalNight` block exists and has a non-empty candidate set
 - every arrival candidate has a unique ID and rank, 24-hour / anytime front-desk signal, accepted evidence type, valid booking link, valid evidence link, and (if supplied) a valid `hotelId`

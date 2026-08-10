@@ -36,7 +36,8 @@ Open [`index.html`](index.html) in a browser to use the planner. It is intention
 - **Arrival night** — five source-checked late-arrival options, evidence links, trade-offs, and a copyable message to send the hotel.
 - **Expanded city lists** — browse 20 Seoul, 15 Gyeongju, 20 Busan, 7 Cheonan, and 7 Daejeon hotels.
 - **Quick filters** — view all stays, only core-needs matches, or stays with laundry; search within the current city.
-- **Useful details at a glance** — estimated nightly range, recommended room, bed setup, bathroom/transport fit, normal check-in/out time, official booking site, and rate-comparison link.
+- **Useful details at a glance** — estimated nightly range, recommended room, bed setup, bathroom/transport fit, normal check-in/out time, canonical identity source, and rate-comparison link.
+- **Duplicate protection** — all 69 records are source verified; similarly named branches are cross-checked as distinct properties.
 
 There is no account, tracker, or backend. It is a static planning document that can be hosted with GitHub Pages or opened locally.
 
@@ -52,7 +53,7 @@ For regular stays, a green **“Core needs match”** badge means the research h
 | **Private bathroom** | An en-suite bathroom in the room |
 | **Transport access** | Walkable subway or KTX access where that is practical |
 
-**Gyeongju is the known exception:** Singyeongju KTX station is outside the Old Town/Bomun hotel districts, so no realistic central Gyeongju hotel is walkable to rail. The website labels that transport caveat instead of pretending otherwise.
+**Gyeongju is the planned-route exception:** Singyeongju KTX station is outside the Old Town/Bomun hotel districts, so no realistic central Gyeongju hotel is walkable to rail. The audited Cheonan/Daejeon alternatives are also conservatively unmarked until both exact queen/king width and walkable rail access are established.
 
 ---
 
@@ -101,6 +102,7 @@ Then visit `http://localhost:8000` in a local browser, or open `index.html` dire
 │   └── itinerary.json      # Dates, city order, and alternatives
 ├── guide/
 │   ├── arrival-night.md    # 24-hour reception research + late-arrival workflow
+│   ├── verification-audit.md # Canonical identity and duplicate audit for all 69 records
 │   ├── seoul.md            # City notes
 │   ├── gyeongju.md
 │   ├── busan.md
@@ -115,7 +117,8 @@ Then visit `http://localhost:8000` in a local browser, or open `index.html` dire
 
 ## Research and booking guardrails
 
-- Arrival-night evidence and all **55 planned-city hotel records** were checked **August 10, 2026**; 35 of those hotels are new in this expansion. Every planned-city card now shows the source type, date, verification note, and link. Recheck them just before booking because staffing, rooms, and late-arrival rules can change.
+- Arrival-night evidence and **all 69 hotel records** were identity-checked **August 10, 2026**. Every card shows a canonical property source, source type, date, and verification note. The validator rejects duplicate IDs, sourced names, official URLs, identity-source URLs, and exact coordinates; similar branch names require an explicit distinct-property cross-check.
+- No duplicate hotel entries remain. Five independent hotels without a stable official page are retained only because a government-tourism or major trusted booking source confirms the exact property and address. See [`guide/verification-audit.md`](guide/verification-audit.md).
 - A 24-hour front desk covers the **hotel-arrival** risk, not the **airport-transfer** risk. Check live public-transport / shuttle timing on the day; take a taxi when the final connection is tight.
 - Use the exact recommended room type. A property may list a lower-priced twin or smaller double that does not meet the one-queen/king preference.
 - Use official booking sites where possible, then cross-check a reputable OTA for the current total and cancellation terms.
@@ -123,7 +126,7 @@ Then visit `http://localhost:8000` in a local browser, or open `index.html` dire
 ## Updating the planner
 
 1. Edit `data/hotels.json` or `data/itinerary.json`.
-2. For an arrival-night candidate, preserve its `officialUrl`, `evidenceUrl`, and source description.
-3. Run `python3 validate.py`.
+2. Preserve each hotel's `verification.canonicalName`, `existenceStatus`, unique `sourceUrl`, source description, and (for arrival candidates) reception evidence.
+3. Run `python3 validate.py`; duplicate identity checks are automatic.
 4. Run `python3 build.py`.
 5. Review the generated `index.html` before publishing.

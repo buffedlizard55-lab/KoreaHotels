@@ -80,21 +80,14 @@ Strong western-bed/private-bath choices, if the station-distance rule is relaxed
 
 For HanokInn and Wiyeonjae, confirm ondol/futon setup rather than assuming a western mattress.
 
-## Alternative-city matches
+## Alternative cities: no current green matches
 
-### Cheonan
+The identity audit corrected placeholder coordinates, overstated station walking times, and unverified queen labels in the legacy Cheonan/Daejeon records. All 14 are real, distinct properties, but none is currently marked green because the exact queen/king width and practical walkable rail access are not both established by the cited sources.
 
-- Shilla Stay Cheonan — Deluxe Queen
-- Ramada Encore Cheonan — Deluxe Queen
-- ON City Hotel — Deluxe Queen
-- Sono Belle Cheonan — Deluxe Queen
-- Best Western Asan — Deluxe Queen
+- **Cheonan/Asan:** Brown Dot Dongnam is about 900 m from Cheonan Station; the other entries require local transit or taxi. Cheonan-Asan KTX is several kilometers from the listed business hotels.
+- **Daejeon:** Aank Air is about nine minutes from Daejeon Station; BENIKEA Daelim is in the central/Jungangno area. The Ramada, Stendal, and Interciti are in Yuseong, while LOTTE City is in the convention area.
 
-### Daejeon
-
-- Ramada by Wyndham Daejeon — Deluxe Queen
-- LOTTE City Hotel Daejeon — Deluxe Queen
-- Hotel Stendhal — Deluxe Queen
+Use the exact-property source on each card and confirm bed width before changing `fits` to true.
 
 ## Before paying
 

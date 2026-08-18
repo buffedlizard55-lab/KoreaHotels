@@ -22,7 +22,24 @@
       "Prices are Booking.com's display conversion to USD, 'before taxes' unless the row says otherwise (most rows say 'Excluded: 10% TAX').",
       "'Free cancellation before <date>' is the policy Booking displayed at capture time; the authoritative terms are those shown at checkout.",
       "Official brand sites may show different prices/availability than Booking.com (e.g. a hotel 'not available' here may be bookable direct)."
-    ]
+    ],
+    "stayByCity": {
+      "Seoul": {
+        "checkIn": "2026-11-01",
+        "checkOut": "2026-11-09",
+        "nights": 8
+      },
+      "Gyeongju": {
+        "checkIn": "2026-11-09",
+        "checkOut": "2026-11-15",
+        "nights": 6
+      },
+      "Busan": {
+        "checkIn": "2026-11-15",
+        "checkOut": "2026-11-22",
+        "nights": 7
+      }
+    }
   },
   "captures": [
     {
@@ -746,6 +763,56 @@
       "capturedAtUtc": "2026-08-18T13:20:37Z",
       "finding": "Final sweep closeout. Aloft Seoul Myeongdong: rate table failed to render before capture on THREE attempts (identity and slug verified; coin laundry confirmed) - remains uncaptured, try again later or price it on Marriott direct. Four Points by Sheraton Josun Myeongdong: three web searches surfaced no booking.com property page URL (TripAdvisor/HRS/Priceline/Trip.com only, plus TripAdvisor showing a Booking.com widget price for other dates) - Booking.com listing URL could not be resolved by search this session; price it on Marriott/FourPoints direct or locate the listing manually. Slug resolution this run: ibis Styles = ibis-styles-seoul-myeongdong, ibis Ambassador MD = ibis-myeong-dong (legacy), Nine Tree Insadong = nine-tree-premier-insadong, Courtyard = courtyard-by-marriott-seoul-namdaemun (legacy). Failed guesses not to retry: courtyard-by-marriott-seoul-myeongdong, courtyard-seoul-myeongdong.",
       "note": "FINAL STATUS: all 20 Seoul hotels accounted for - 18 captured with data (16 refundable rates + 2 no-availability negatives), 1 render-failed (Aloft), 1 source-unresolved (Four Points Josun). Plus Grand Hyatt Incheon arrival fallback captured."
+    },
+    {
+      "captureId": "2026-08-18T13:43:35Z-gyeongju-market-snapshot",
+      "hotelId": null,
+      "scope": "market-snapshot",
+      "capturedAtUtc": "2026-08-18T13:43:35Z",
+      "timestampSource": "booking.com chal_t=17870606155240",
+      "sourceUrl": "https://www.booking.com/searchresults.html?ss=Gyeongju&checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD&nflt=fc%3D2",
+      "finding": "Gyeongju search with the Free cancellation filter returned 174 refundable properties for Nov 9-15, 2026 (37 hotels, 61 guesthouses, 47 four-star, 2 five-star; queen-bed rooms in 43, king in 11). Brands filter confirms exactly one Hilton and one Kensington property listed. Top card example: Aventa Hotel Standard Double (1 queen, breakfast included, free cancellation) $78/night, $469 total/6 nights (members price).",
+      "note": "Refundable inventory for the Gyeongju window is plentiful; resort-area properties with pools = 65."
+    },
+    {
+      "captureId": "2026-08-18T13:43:35Z-the-k-hotel-gyeongju",
+      "hotelId": "gyeongju-the-k",
+      "propertyName": "The K Hotel Gyeongju",
+      "propertyVerifiedBy": "Page H1 'The K Hotel Gyeongju', address 45, Expo-ro, Gyeongju; description uses both 'The-K Hotel Gyeongju' (repo name) and 'The K Hotel Gyeongju' - same property; 24-hour front desk confirmed in description",
+      "bookingSlug": "the-k-gyeong-ju",
+      "recordCheck": {
+        "repoName": "The-K Hotel Gyeongju",
+        "pageName": "The K Hotel Gyeongju",
+        "verdict": "match (minor styling difference in name)",
+        "areaNote": "Repo area 'Bomun Lake Resort'; page address is Expo-ro (HICO/Expo zone adjacent to Bomun). Compatible.",
+        "newDataPoint": "Booking guest score at capture: 7.1/10 from 66 reviews (lower than typical shortlist hotels)."
+      },
+      "capturedAtUtc": "2026-08-18T13:43:35Z",
+      "timestampSource": "booking.com chal_t=17870606155234",
+      "sourceUrl": "https://www.booking.com/hotel/kr/the-k-gyeong-ju.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Hwangnyoung View Room with Ondol Floor",
+          "beds": "4 futon beds (ondol)",
+          "meetsOneBedNeed": false,
+          "pricePerNightUsd": 125,
+          "totalStayUsd": 752,
+          "taxNote": "Excluded: 10% TAX + City tax; 334 sq ft",
+          "meals": "Breakfast $23/person/night (optional)",
+          "cancellationAsShown": "Free cancellation before November 6, 2026 - free until 3 days before arrival; within 3 days you are charged the TOTAL PRICE of the reservation; no-show fee the same.",
+          "prepaymentAsShown": "Pay the property before arrival - prepayment of the TOTAL price charged within 3 days of arrival. Marked 'Fully refundable during free cancellation'.",
+          "note": "Harsher terms than the Seoul norm: total-price penalty (not first-night) inside the window, and the full stay is charged 3 days out."
+        }
+      ]
+    },
+    {
+      "captureId": "2026-08-18T13:43:12Z-gyeongju-slug-run1",
+      "hotelId": null,
+      "scope": "unresolved-attempts",
+      "capturedAtUtc": "2026-08-18T13:43:12Z",
+      "finding": "Gyeongju slug guesses that 404'd (do not retry): hilton-gyeongju, hwangnamkwan, commodore-hotel-gyeongju, lahan-select-gyeongju, sono-calm-gyeongju. Resolved via search: The-K = the-k-gyeong-ju. Gyeongju slugs are largely non-guessable; next run should search-resolve each remaining property (Hilton, Commodore, Lahan, Hwangnamkwan, SONO Calm, Kolon, GG, KINOCK, Swiss Rosen, Rivertain, HanokInn, Wiyeonjae, Nadul, Kensington).",
+      "note": "Busan (20 hotels, Nov 15-22) not yet started."
     }
   ]
 }

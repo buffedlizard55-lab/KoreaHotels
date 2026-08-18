@@ -3932,6 +3932,21 @@
         "note": "The official hotel and VISITKOREA confirm the Bomun property, room classes, facilities and normal hours.",
         "canonicalName": "The-K Hotel Gyeongju",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T13:43:35Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/the-k-gyeong-ju.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Hwangnyoung View Room with Ondol Floor",
+        "beds": "4 futon beds (ondol)",
+        "pricePerNight": 125,
+        "totalStay": 752,
+        "currency": "USD (display conversion; 10% tax + city tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 6, 2026 — but inside 3 days the penalty is the TOTAL stay price",
+        "prepayment": "Full stay charged by the property within 3 days of arrival",
+        "note": "Gyeongju terms run harsher than Seoul's. Ondol room (futon beds) — not a one-bed queen/king room."
       }
     },
     {
@@ -5409,7 +5424,7 @@
         "Grand Hyatt Incheon (arrival-night fallback)"
       ],
       "history": "data/pricing-history.json (append-only, UTC-timestamped)",
-      "status": "18 of 20 Seoul hotels captured (16 refundable + 2 no-availability negatives); Aloft render-failed, Four Points Josun Booking-listing-unresolved"
+      "status": "Seoul 20/20 accounted for (18 captured + Aloft render-fail + Four Points unlisted). Gyeongju 1/15 captured (The-K) + market snapshot; Busan 0/20 not started."
     }
   },
   "arrivalNight": {

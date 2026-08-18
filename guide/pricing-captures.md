@@ -1,6 +1,6 @@
 # Timestamped Refundable Pricing — Method & Log
 
-**Stay priced:** Seoul, **check-in Sun Nov 1, 2026 → check-out Mon Nov 9, 2026** (8 nights, 2 adults, 1 room).
+**Stay windows priced (per city):** Seoul **Nov 1–9** (8 nights) · Gyeongju **Nov 9–15** (6 nights) · Busan **Nov 15–22** (7 nights). All at 2 adults, 1 room.
 **Decision log:** the Oct 31 arrival night (ICN lands 21:00) is intentionally left **unbooked** for now.
 
 This guide documents exactly how refundable, dated, timestamped prices are obtained for the Seoul shortlist, what is already captured, and what is not. The append-only data lives in [`data/pricing-history.json`](../data/pricing-history.json); hotels with a completed capture also show a **♻️ Refundable rate** badge on the planner card.
@@ -92,3 +92,23 @@ All prices: Booking.com USD display, taxes as noted per row (most exclude 10% ta
 - **Four Points by Sheraton Josun Myeongdong** — no Booking.com property page surfaced across three searches (TripAdvisor/HRS/Priceline/Trip.com only). Price it on FourPoints.com/Marriott direct; third-party snapshots around capture time showed ~$232–268 refundable rates for *other* dates, which are **not** recorded as data for Nov 1–9.
 
 **Not bookable for Nov 1–9 via this source at capture time:** Four Seasons, ibis Ambassador Insadong — check official sites before ruling them out.
+
+---
+
+## Gyeongju — Nov 9–15, 2026 (6 nights) — in progress
+
+**Market snapshot (2026-08-18 ~13:23 UTC):** 174 Gyeongju properties with free cancellation for the exact window (37 hotels, 61 guesthouses; 47 four-star, 2 five-star; queen-bed rooms in 43, king in 11). Hilton and Kensington are each confirmed listed on Booking.com with exactly one Gyeongju property. Cheapest verified refundable example card: Aventa Hotel, Standard Double (1 queen, breakfast included), $78/night, $469 total.
+
+| Hotel (verified on page) | Refundable? | Room | $/night | 6-night total | Free cancellation until | Prepay |
+|---|---|---|---:|---:|---|---|
+| The K Hotel Gyeongju | ✅ | Hwangnyoung View Ondol (4 futons) | $125 | $752 | **Nov 6, 2026** — ⚠️ inside 3 days the penalty is the **total stay** | Full stay charged 3 days out |
+
+**Record-vs-page check (The K):** name matches (repo "The-K" / page "The K"); address 45 Expo-ro is the Expo/HICO zone adjacent to the repo's "Bomun Lake Resort" area label — compatible. New data point: Booking guest score 7.1/10 (66 reviews), low for the shortlist. 24-hour front desk confirmed on-page.
+
+**Gyeongju terms warning:** the first capture already shows a harsher pattern than Seoul — total-price cancellation penalties (not first-night) and full prepayment charged days before arrival. Read every Gyeongju rate's fine print twice.
+
+**Slug log (do not retry):** `hilton-gyeongju`, `hwangnamkwan`, `commodore-hotel-gyeongju`, `lahan-select-gyeongju`, `sono-calm-gyeongju` all 404. `the-k-gyeong-ju` resolved. Remaining 14 Gyeongju properties need search-resolved slugs: Hilton, Commodore, Lahan Select, Hwangnamkwan, SONO Calm, Kolon, GG, KINOCK, Benikea Swiss Rosen, Rivertain, HanokInn, Wiyeonjae, Nadul, Kensington.
+
+## Busan — Nov 15–22, 2026 (7 nights) — not yet started
+
+20 properties queued; same method, dates `checkin=2026-11-15&checkout=2026-11-22`.

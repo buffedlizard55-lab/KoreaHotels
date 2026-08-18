@@ -4205,6 +4205,21 @@
         "note": "VISITKOREA identifies this Korea Quality-certified hotel, its private room amenities, breakfast and five-minute bus-terminal access.",
         "canonicalName": "Rivertain Hotel Gyeongju",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T15:19:17Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/rivertain-hotel-gyeongju.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Standard Double Room (spa tub)",
+        "beds": "1 full bed",
+        "pricePerNight": 82,
+        "totalStay": 490,
+        "currency": "USD (display conversion; 8% deal applied; 10% tax excluded)",
+        "breakfastIncluded": true,
+        "freeCancellation": "Free cancellation before November 6, 2026 — inside 3 days the penalty is the TOTAL stay price",
+        "prepayment": "Pay nothing until November 4, 2026",
+        "note": "Cheapest refundable Gyeongju option AND cheapest one-bed room, breakfast included, 24h desk, central. 2 rooms left at capture."
       }
     },
     {
@@ -5500,7 +5515,7 @@
         "Grand Hyatt Incheon (arrival-night fallback)"
       ],
       "history": "data/pricing-history.json (append-only, UTC-timestamped)",
-      "status": "Seoul 20/20. Gyeongju 9/15 progressed (Commodore, The-K, Lahan, Kensington, Swiss Rosen captured; Hwangnamkwan + HanokInn no-availability; Hilton verified/pending-price; Wiyeonjae unlisted). Remaining: Hilton price, SONO Calm, GG, KINOCK, Rivertain, Nadul. Busan 0/20."
+      "status": "Seoul 20/20. Gyeongju 11/15 progressed (Rivertain, Kensington, Swiss Rosen, Commodore, Lahan, The-K captured; Hwangnamkwan + HanokInn no-availability; Hilton + Kinock verified/pending-price; Wiyeonjae unlisted). Remaining: Hilton retry, Kinock price, SONO Calm, GG, Nadul. Busan 0/20."
     }
   },
   "arrivalNight": {

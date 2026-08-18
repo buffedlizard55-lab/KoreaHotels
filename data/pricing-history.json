@@ -1040,6 +1040,66 @@
       "capturedAtUtc": "2026-08-18T15:04:24Z",
       "finding": "Hilton Gyeongju: slug gyeongju-hilton VERIFIED (H1 + address 484-7 Bomun-ro; 8.2/10, Free Wifi 10.0); dated rate table began with 'Premium King Room, 1 king bed, lake view' but the price fell past the capture boundary - capture pending chunk 1 next run. Slug resolutions this run: Hilton = gyeongju-hilton, Lahan = hyundai-gyeongju (legacy), Kensington = kensington-resort-gyeongju, Swiss Rosen = swiss-rosen. SONO Calm candidate slug: sono-bellehotel (third-party mirror name 'ex. Sono Belle Gyeongju') - untested.",
       "note": "Remaining Gyeongju: Hilton (chunk 1), SONO Calm (slug candidate), GG Hotel, KINOCK, Rivertain, Nadul Hanok. Then Busan 20."
+    },
+    {
+      "captureId": "2026-08-18T15:19:17Z-rivertain-hotel-gyeongju",
+      "hotelId": "gyeongju-rivertain",
+      "propertyName": "Rivertain Hotel Gyeongju",
+      "propertyVerifiedBy": "Page H1 'Rivertain Hotel Gyeongju', address 23 Taejong-ro 685beon-gil (city center / near bus terminal + station - matches repo area); 24-hour front desk confirmed (en-gb page); adults-only rooms per description; score 8.6/10 (421 reviews), location 9.1",
+      "bookingSlug": "rivertain-hotel-gyeongju",
+      "recordCheck": {
+        "repoName": "Rivertain Hotel Gyeongju",
+        "pageName": "Rivertain Hotel Gyeongju",
+        "verdict": "match",
+        "newDataPoints": "Adults-only rooms; spa tub in standard doubles; hotel previously branded 'Richemont' per building photo captions"
+      },
+      "capturedAtUtc": "2026-08-18T15:19:17Z",
+      "timestampSource": "booking.com chal_t=17870663577899",
+      "sourceUrl": "https://www.booking.com/hotel/kr/rivertain-hotel-gyeongju.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Standard Double Room (spa tub, 307 sq ft)",
+          "beds": "1 full bed",
+          "meetsOneBedNeed": true,
+          "unitsLeftAsShown": "We have 2 left",
+          "pricePerNightUsd": 82,
+          "totalStayUsd": 490,
+          "priceNote": "8% Booking-paid discount; original $532; total before taxes $489.62",
+          "taxNote": "Excluded: 10% TAX",
+          "meals": "Good breakfast INCLUDED (rated 7.6)",
+          "cancellationAsShown": "Free cancellation before November 6, 2026 - free until 3 days before arrival; within 3 days of arrival the cancellation fee is the TOTAL PRICE of the reservation; no-show fee the same.",
+          "prepaymentAsShown": "Pay nothing until November 4, 2026 (auto-charge or pay-at-book choice).",
+          "note": "Cheapest refundable Gyeongju capture AND the cheapest one-bed room, with breakfast - but the inside-window penalty is the whole stay, not one night."
+        }
+      ]
+    },
+    {
+      "captureId": "2026-08-18T15:19:17Z-kinock-gyeongju-partial",
+      "hotelId": "gyeongju-kinock",
+      "propertyName": "Kinock",
+      "propertyVerifiedBy": "Page H1 'Kinock', address 280-12, Bomun-ro (North Bomun - matches repo area); slug is legacy 'the-suite-gyeongju'; Booking titles it 'Kinock - Pet Hotel'",
+      "bookingSlug": "the-suite-gyeongju",
+      "recordCheck": {
+        "repoName": "KINOCK Gyeongju",
+        "pageName": "Kinock (Pet Hotel)",
+        "verdict": "match, with a MATERIAL positioning note",
+        "newDataPoints": "This is a PET-focused hotel: guest reviews are overwhelmingly about dog facilities (pet park, dog-training, boarding/bath services). Score 8.4/10 from only 27 reviews. Fine facilities (9.0) but value-for-money 7.5. Rate table cut at capture boundary - price pending."
+      },
+      "capturedAtUtc": "2026-08-18T15:19:17Z",
+      "timestampSource": "booking.com chal_t=17870663577941",
+      "sourceUrl": "https://www.booking.com/hotel/kr/the-suite-gyeongju.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": null,
+      "finding": "Identity and dates verified; the rate table began after the capture boundary - price pending a chunk-1 read next run. No availability statement was shown, so availability is unknown, not negative.",
+      "note": "Pet-hotel positioning should factor into whether it stays on the shortlist at all."
+    },
+    {
+      "captureId": "2026-08-18T15:18:50Z-gyeongju-slug-run4",
+      "hotelId": null,
+      "scope": "unresolved-attempts",
+      "capturedAtUtc": "2026-08-18T15:18:50Z",
+      "finding": "SONO Calm: slug guess 'sono-bellehotel' 404; NEW candidate for next run: 'daemyung-resort-gyeongju' (its h-rez mirror subdomain is daemyung-resort-gyeongju.h-rez.com; SONO was formerly Daemyung Resort). GG Hotel Gyeongju: confirmed ON Booking.com via Google Hotels (listed 'from $82, Booking.com') but the property-page URL did not surface; address 3 Taejong-ro 699beon-gil; 24-hour front desk per Google amenities; slug candidate 'gyeongju-gg-hotel' untested. Hilton Gyeongju: rate table failed to render on a second attempt (identity + dates verified; price still pending). Nadul Hanok: not surfaced in combined search - needs its own query.",
+      "note": "Gyeongju closeout remaining: Hilton retry, Kinock chunk 1, SONO Calm guess, GG guess, Nadul search. Then Busan 20."
     }
   ]
 }

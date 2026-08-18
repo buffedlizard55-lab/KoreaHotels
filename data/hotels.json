@@ -36,40 +36,40 @@
       ],
       "rooms": [
         {
-          "name": "Deluxe Double",
+          "name": "Superior Double",
           "price": "$150–185/night",
-          "note": "Most popular; city/Namsan view",
-          "bed": "queen",
-          "oneBed": true,
-          "bedNote": "Single queen bed (not two beds pushed together)",
-          "bedType": "queen",
-          "bedSize": "Queen (approx 150x200cm)",
-          "privateBathroom": true,
-          "oneBedOnly": true
-        },
-        {
-          "name": "Corner Deluxe",
-          "price": "$185–210/night",
-          "note": "Corner windows, more light",
-          "bed": "king/queen",
-          "oneBed": true,
-          "bedNote": "Single king bed (not two beds pushed together)",
-          "bedType": "king",
-          "bedSize": "King (approx 180x200cm)",
-          "privateBathroom": true,
-          "oneBedOnly": true
-        },
-        {
-          "name": "Deluxe Twin",
-          "price": "$160–195/night",
-          "note": "Two beds for sharing",
-          "bed": "twin",
-          "oneBed": false,
-          "bedNote": "Single double bed (not two beds pushed together)",
+          "note": "City / Namsan view",
+          "bed": "double",
           "bedType": "double",
-          "bedSize": "Double (approx 140x200cm)",
+          "bedSize": "1 double/full bed (Booking: '1 full bed')",
+          "oneBed": true,
+          "oneBedOnly": true,
           "privateBathroom": true,
-          "oneBedOnly": false
+          "bedNote": "Single double bed — not a confirmed queen"
+        },
+        {
+          "name": "Standard Twin",
+          "price": "$160–195/night",
+          "note": "Two single beds",
+          "bed": "twin",
+          "bedType": "twin",
+          "bedSize": "2 single beds",
+          "oneBed": false,
+          "oneBedOnly": false,
+          "privateBathroom": true,
+          "bedNote": "Two single beds"
+        },
+        {
+          "name": "Hollywood Double",
+          "price": "$185–210/night",
+          "note": "Wider bed (two mattresses joined)",
+          "bed": "double",
+          "bedType": "double",
+          "bedSize": "Hollywood (two mattresses joined; wider than standard double)",
+          "oneBed": false,
+          "oneBedOnly": false,
+          "privateBathroom": true,
+          "bedNote": "Two mattresses pushed together — not a single queen/king mattress"
         }
       ],
       "promos": [
@@ -93,18 +93,18 @@
         "Rooftop sky terrace",
         "LOTTE member rates & packages"
       ],
-      "fits": true,
-      "fitReason": "Queen deluxe · Myeongdong Stn ~2 min",
+      "fits": false,
+      "fitReason": "No confirmed single queen/king bed — official inventory uses double/twin beds (corrected 2026-08-18)",
       "lat": 37.5612,
       "lng": 126.987,
       "priceNote": "Prices are typical 2026 estimates for standard double/queen. Check official site or OTA for live rates on your dates.",
       "hasOnSiteLaundry": true,
       "stationWalkTime": "2 min walk to Myeongdong Station",
       "verification": {
-        "lastChecked": "2026-08-10",
+        "lastChecked": "2026-08-18",
         "sourceType": "Official hotel/brand",
         "sourceUrl": "https://www.lottehotel.com/myeongdong-l7/en/main.html",
-        "note": "LOTTE confirms the operating Myeongdong property, address, rooms and facilities. Its separate arrival card uses a major trusted listing for the explicit 24-hour-desk claim.",
+        "note": "LOTTE's L7 Myeongdong inventory (Standard/Superior Double = 1 double, Twin = 2 single, Hollywood = joined mattresses, suites) does not include the 'Deluxe Double — queen' the prior record claimed; rooms corrected 2026-08-18. Booking confirms a 24-hour front desk and coin laundry.",
         "canonicalName": "L7 MYEONGDONG by LOTTE HOTELS",
         "existenceStatus": "Verified operating property"
       },
@@ -146,38 +146,38 @@
         {
           "name": "Standard Double",
           "price": "$92–105/night",
-          "note": "Entry level, compact",
-          "bed": "double",
-          "oneBed": true,
-          "bedNote": "Single double bed (not two beds pushed together)",
-          "bedType": "double",
-          "bedSize": "Double (approx 140x200cm)",
-          "privateBathroom": true,
-          "oneBedOnly": true
-        },
-        {
-          "name": "Double",
-          "price": "$105–118/night",
-          "note": "Most booked",
-          "bed": "double",
-          "oneBed": true,
-          "bedNote": "Single double bed (not two beds pushed together)",
-          "bedType": "double",
-          "bedSize": "Double (approx 140x200cm)",
-          "privateBathroom": true,
-          "oneBedOnly": true
-        },
-        {
-          "name": "Deluxe",
-          "price": "$120–138/night",
-          "note": "Larger, corner options",
+          "note": "Compact; official bed 160×190 cm",
           "bed": "queen",
-          "oneBed": true,
-          "bedNote": "Single queen bed (not two beds pushed together)",
           "bedType": "queen",
-          "bedSize": "Queen (approx 150x200cm)",
+          "bedSize": "Double bed 160×190 cm (official Nine Tree Korean spec) ≈ queen width",
+          "oneBed": true,
+          "oneBedOnly": true,
           "privateBathroom": true,
-          "oneBedOnly": true
+          "bedNote": "Single 160 cm bed (official spec; Booking labels it 'full')"
+        },
+        {
+          "name": "Hollywood Double",
+          "price": "$105–118/night",
+          "note": "Queen-width (Booking: 1 queen bed)",
+          "bed": "queen",
+          "bedType": "queen",
+          "bedSize": "Queen (Booking: 'Hollywood Double Room — 1 queen bed')",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single queen bed (not two beds pushed together)"
+        },
+        {
+          "name": "Deluxe Twin",
+          "price": "$120–138/night",
+          "note": "Two single beds",
+          "bed": "twin",
+          "bedType": "twin",
+          "bedSize": "2 single beds",
+          "oneBed": false,
+          "oneBedOnly": false,
+          "privateBathroom": true,
+          "bedNote": "Two single beds"
         }
       ],
       "promos": [
@@ -201,17 +201,17 @@
         "Great value per square foot"
       ],
       "fits": true,
-      "fitReason": "Double/Deluxe · Myeongdong Stn ~1 min",
+      "fitReason": "Standard/Hollywood Double (160 cm / queen) · Myeongdong Stn ~1 min",
       "lat": 37.5603,
       "lng": 126.9835,
       "priceNote": "Prices are typical 2026 estimates for standard double/queen. Check official site or OTA for live rates on your dates.",
       "hasOnSiteLaundry": true,
       "stationWalkTime": "1 min walk to Myeongdong Station",
       "verification": {
-        "lastChecked": "2026-08-10",
+        "lastChecked": "2026-08-18",
         "sourceType": "Official hotel/brand",
         "sourceUrl": "https://www.ninetreehotels.com/nth1/?lang=en",
-        "note": "Parnas confirms the 144-room Myeongdong I property, room categories, coin laundry and one-minute Myeongdong Station access. The explicit 24-hour evidence is linked separately on the arrival card.",
+        "note": "Official Nine Tree MD1 specs list Standard Double at 160×190 cm (queen-width) and Hollywood Double as the queen room; the prior 'Deluxe = queen' room did not exist. Corrected 2026-08-18.",
         "canonicalName": "Nine Tree by Parnas Seoul Myeongdong 1",
         "existenceStatus": "Verified operating property",
         "distinctFrom": [
@@ -239,7 +239,7 @@
       "city": "Seoul",
       "name": "Ibis Styles Ambassador Seoul Myeongdong",
       "tier": "budget",
-      "stars": 3,
+      "stars": 4,
       "area": "Myeongdong",
       "neighborhood": "Central Myeongdong; within walking distance of N Seoul Tower cable car & airport limousine stops",
       "priceFrom": 90,
@@ -289,7 +289,7 @@
         "Top-floor restaurant",
         "Free Wi-Fi"
       ],
-      "officialUrl": "https://all.accor.com/hotel/1976/index.en.shtml",
+      "officialUrl": "https://all.accor.com/hotel/9771/index.en.shtml",
       "officialLabel": "Official site (all.accor.com / Accor ALL)",
       "compareUrl": "https://www.kayak.com/hotels/Seoul,c40k/Ibis-Styles-Ambassador-Seoul-Myeongdong",
       "compareLabel": "Compare rates (KAYAK)",
@@ -307,10 +307,10 @@
       "hasOnSiteLaundry": false,
       "stationWalkTime": "3 min walk to Myeongdong Station",
       "verification": {
-        "lastChecked": "2026-08-10",
+        "lastChecked": "2026-08-18",
         "sourceType": "Official hotel/brand",
-        "sourceUrl": "https://all.accor.com/hotel/1976/index.en.shtml",
-        "note": "Accor confirms the current hotel, central address, normal hours and services. Breakfast and exact bed width must be checked in the selected live rate.",
+        "sourceUrl": "https://all.accor.com/hotel/9771/index.en.shtml",
+        "note": "Accor confirms the 4-star, 180-room ibis Styles Ambassador Seoul Myeongdong at 302 Samil-daero; Standard/Superior rooms use one double bed (16-24 m2). CORRECTION 2026-08-18: the prior record's Accor code 1976 is a Mercure in Forbach, France.",
         "canonicalName": "Ibis Styles Ambassador Seoul Myeongdong",
         "existenceStatus": "Verified operating property",
         "distinctFrom": [
@@ -338,7 +338,7 @@
       "city": "Seoul",
       "name": "Ibis Ambassador Insadong (newly refurbished)",
       "tier": "mid",
-      "stars": 4,
+      "stars": 3,
       "area": "Insadong / Jongno (historic & arts district)",
       "neighborhood": "Overlooks Ikseon-dong Hanok village; walkable to Gyeongbokgung, Bukchon & Jogyesa",
       "priceFrom": 110,
@@ -353,28 +353,28 @@
       ],
       "rooms": [
         {
-          "name": "Standard",
+          "name": "Superior (Renovated)",
           "price": "$110–130/night",
-          "note": "Fresh post-renovation rooms",
-          "bed": "double",
+          "note": "Recently renovated; queen bed",
+          "bed": "queen",
+          "bedType": "queen",
+          "bedSize": "Queen (Accor: Superior '1 Double Bed' = 1 Queen size bed)",
           "oneBed": true,
-          "bedNote": "Single double bed (not two beds pushed together)",
-          "bedType": "double",
-          "bedSize": "Double (approx 140x200cm)",
+          "oneBedOnly": true,
           "privateBathroom": true,
-          "oneBedOnly": true
+          "bedNote": "Single queen bed (Accor official bedding; not two beds pushed together)"
         },
         {
-          "name": "Superior",
+          "name": "Premium (Renovated)",
           "price": "$130–155/night",
-          "note": "Hanok village view",
-          "bed": "double",
-          "oneBed": true,
-          "bedNote": "Single double bed (not two beds pushed together)",
-          "bedType": "double",
-          "bedSize": "Double (approx 140x200cm)",
+          "note": "1 queen + 1 single, family-friendly",
+          "bed": "queen+single",
+          "bedType": "queen",
+          "bedSize": "1 queen + 1 single (Accor)",
+          "oneBed": false,
+          "oneBedOnly": false,
           "privateBathroom": true,
-          "oneBedOnly": true
+          "bedNote": "1 queen bed + 1 single bed"
         }
       ],
       "promos": [
@@ -387,7 +387,7 @@
         "Free Wi-Fi",
         "Laundry"
       ],
-      "officialUrl": "https://all.accor.com/hotel/1888/index.en.shtml",
+      "officialUrl": "https://all.accor.com/hotel/8002/index.en.shtml",
       "officialLabel": "Official site (all.accor.com / Accor ALL)",
       "compareUrl": "https://www.kayak.com/hotels/Seoul,c40k/Ibis-Ambassador-Insadong",
       "compareLabel": "Compare rates (KAYAK)",
@@ -397,17 +397,17 @@
         "Ikseon-dong hanok views",
         "Near palaces & museums"
       ],
-      "fits": false,
-      "fitReason": "Listed one-bed room is a double (~140 cm), below the planner’s queen-size minimum",
+      "fits": true,
+      "fitReason": "Superior (queen) · Jongno 3-ga ~4 min",
       "lat": 37.5742,
       "lng": 126.9832,
       "priceNote": "Prices are typical 2026 estimates for standard double/queen. Check official site or OTA for live rates on your dates.",
       "hasOnSiteLaundry": true,
       "verification": {
-        "lastChecked": "2026-08-10",
+        "lastChecked": "2026-08-18",
         "sourceType": "Official hotel/brand",
-        "sourceUrl": "https://all.accor.com/hotel/1888/index.en.shtml",
-        "note": "Accor confirms the operating Insadong property, address, normal hours and services; the recorded double room remains below the planner queen-width rule.",
+        "sourceUrl": "https://all.accor.com/hotel/8002/index.en.shtml",
+        "note": "Accor confirms ibis Ambassador Seoul Insadong (newly renovated 2025) at 31 Samil-daero 30-gil (3-star). The Superior '1 Double Bed' is listed as 1 Queen size bed; Premium adds a single. CORRECTION 2026-08-18: prior Accor code 1888 was a Mercure in Bourges, France, and the bed was a queen, not a 140 cm double.",
         "canonicalName": "Ibis Ambassador Insadong (newly refurbished)",
         "existenceStatus": "Verified operating property"
       },
@@ -3130,16 +3130,16 @@
       ],
       "rooms": [
         {
-          "name": "King Guest Room",
+          "name": "Queen Guest Room",
           "price": "$150–205/night",
           "note": "Private en-suite bathroom",
-          "bed": "king",
-          "bedType": "king",
-          "bedSize": "King (official Marriott room category)",
+          "bed": "queen",
+          "bedType": "queen",
+          "bedSize": "Queen (Moxy Myeongdong lead-in is 1 Queen or 2 Double)",
           "oneBed": true,
           "oneBedOnly": true,
           "privateBathroom": true,
-          "bedNote": "Single King bed (not two beds pushed together)"
+          "bedNote": "Single queen bed (not two beds pushed together)"
         }
       ],
       "promos": [
@@ -3164,16 +3164,16 @@
         "Myeongdong shopping at the door"
       ],
       "fits": true,
-      "fitReason": "King room · Myeongdong Station about 5 min",
+      "fitReason": "Queen room · Myeongdong Station about 5 min",
       "lat": 37.56191,
       "lng": 126.98264,
       "priceNote": "Planning estimate for autumn 2026, not a live quote. Confirm the total for the exact room and dates.",
       "stationWalkTime": "5 min walk to Myeongdong Station",
       "verification": {
-        "lastChecked": "2026-08-10",
+        "lastChecked": "2026-08-18",
         "sourceType": "Official hotel/brand",
         "sourceUrl": "https://www.marriott.com/en-us/hotels/selmx-moxy-seoul-myeongdong/overview/",
-        "note": "Marriott confirms the property, address, 16:00/12:00 hours, Myeongdong access, hotel amenities and king room categories.",
+        "note": "Marriott confirms the property, address, 16:00/12:00 hours, Myeongdong access, hotel amenities and king room categories. CORRECTION 2026-08-18: Moxy Myeongdong's lead-in room is 1 Queen or 2 Double, not a king.",
         "canonicalName": "Moxy Seoul, Myeongdong",
         "existenceStatus": "Verified operating property",
         "distinctFrom": [
@@ -3776,13 +3776,13 @@
           "name": "Main Tower Deluxe Double",
           "price": "$250–340/night",
           "note": "Private en-suite bathroom",
-          "bed": "king",
-          "bedType": "king",
-          "bedSize": "Double/king configuration — confirm bed wording in live rate",
+          "bed": "double",
+          "bedType": "double",
+          "bedSize": "1 double/full bed (Booking: '1 full bed'); Korean 'double' may be wider — confirm",
           "oneBed": true,
           "oneBedOnly": true,
           "privateBathroom": true,
-          "bedNote": "Single King bed (not two beds pushed together)"
+          "bedNote": "Single double bed (Booking); not a confirmed queen/king"
         }
       ],
       "promos": [
@@ -3806,17 +3806,17 @@
         "Pool and spa",
         "LOTTE Rewards"
       ],
-      "fits": true,
-      "fitReason": "Deluxe Double/king selection · Euljiro 1-ga connected",
+      "fits": false,
+      "fitReason": "Main Tower Deluxe Double is a double/full per Booking — queen/king width not confirmed (corrected 2026-08-18)",
       "lat": 37.5653,
       "lng": 126.9809,
       "priceNote": "Planning estimate for autumn 2026, not a live quote. Confirm the total for the exact room and dates.",
       "stationWalkTime": "Direct connection to Euljiro 1-ga Station",
       "verification": {
-        "lastChecked": "2026-08-10",
+        "lastChecked": "2026-08-18",
         "sourceType": "Official hotel/brand",
         "sourceUrl": "https://www.lottehotel.com/seoul-hotel/en/rooms",
-        "note": "LOTTE's official site confirms the 5-star 1,015-room hotel, central address, Main/Executive Towers, room categories and facilities.",
+        "note": "LOTTE's official site confirms the 5-star 1,015-room hotel, central address, Main/Executive Towers, room categories and facilities. CORRECTION 2026-08-18: Booking lists 'Deluxe Double Room - Main Tower' as 1 full bed, not a king.",
         "canonicalName": "LOTTE HOTEL SEOUL",
         "existenceStatus": "Verified operating property"
       },
@@ -5690,6 +5690,437 @@
         "canonicalName": "Wyndham Grand Busan Ijin",
         "existenceStatus": "Verified operating property"
       }
+    },
+    {
+      "id": "suwon-novotel-ambassador",
+      "city": "Suwon",
+      "name": "Novotel Ambassador Suwon",
+      "tier": "mid",
+      "stars": 4,
+      "area": "Suwon Station / Paldal-gu",
+      "neighborhood": "902 Dukyoungdaero; directly connected to Suwon Station (Gyeongbu KTX + Seoul Metro Line 1)",
+      "priceFrom": 120,
+      "priceTo": 200,
+      "currency": "USD",
+      "checkIn": "15:00",
+      "checkOut": "12:00",
+      "policies": [
+        "Check-in from 15:00; check-out by 12:00 (Accor).",
+        "Direct access to Suwon KTX & subway stations.",
+        "About 20 minutes to Suwon Hwaseong Fortress (UNESCO)."
+      ],
+      "rooms": [
+        {
+          "name": "Superior 1 King",
+          "price": "$120–150/night",
+          "note": "Base room",
+          "bed": "king",
+          "bedType": "king",
+          "bedSize": "King (Accor: 1 x King size bed)",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single king bed (not two beds pushed together)"
+        },
+        {
+          "name": "Superior 2 Single",
+          "price": "$120–150/night",
+          "note": "Two single beds",
+          "bed": "twin",
+          "bedType": "twin",
+          "bedSize": "2 single beds",
+          "oneBed": false,
+          "oneBedOnly": false,
+          "privateBathroom": true,
+          "bedNote": "Two single beds"
+        },
+        {
+          "name": "Deluxe 1 King (high floor)",
+          "price": "$140–180/night",
+          "note": "Business / high floor",
+          "bed": "king",
+          "bedType": "king",
+          "bedSize": "King (Accor)",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single king bed"
+        }
+      ],
+      "promos": [
+        "Accor ALL member rates; book direct on accor.com.",
+        "Sauna and massage facilities (extra cost)."
+      ],
+      "amenities": [
+        "Restaurant (The Square)",
+        "Fitness center",
+        "Sauna & massage (paid)",
+        "Free Wi-Fi",
+        "Breakfast"
+      ],
+      "hasOnSiteLaundry": false,
+      "officialUrl": "https://all.accor.com/hotel/8748/index.en.shtml",
+      "officialLabel": "Official site (all.accor.com / Accor ALL)",
+      "compareUrl": "https://www.google.com/travel/search?q=Novotel+Ambassador+Suwon",
+      "compareLabel": "Compare live rates (Google Hotels)",
+      "why": "The strongest Suwon base: king rooms with direct Suwon Station (KTX + metro) access and Hwaseong Fortress ~20 minutes away.",
+      "highlights": [
+        "Direct Suwon Station access",
+        "King rooms",
+        "Accor ALL"
+      ],
+      "fits": true,
+      "fitReason": "Superior King · Suwon Station direct",
+      "lat": 37.268556,
+      "lng": 126.999248,
+      "priceNote": "Planning estimate for autumn 2026; confirm the live rate for your dates.",
+      "stationWalkTime": "Direct access to Suwon Station (KTX + Line 1)",
+      "verification": {
+        "lastChecked": "2026-08-18",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://all.accor.com/hotel/8748/index.en.shtml",
+        "canonicalName": "Novotel Ambassador Suwon",
+        "existenceStatus": "Verified operating property",
+        "note": "Accor confirms the 4-star Novotel Ambassador Suwon at 902 Dukyoungdaero with direct Suwon KTX/subway access, 15:00/12:00 hours and king room categories."
+      }
+    },
+    {
+      "id": "suwon-four-points",
+      "city": "Suwon",
+      "name": "Four Points by Sheraton Suwon",
+      "tier": "mid",
+      "stars": 4,
+      "area": "Ingye-dong / central Suwon",
+      "neighborhood": "27 Hyowon-ro 307beon-gil, Paldal-gu; opened 2022, 221 rooms",
+      "priceFrom": 115,
+      "priceTo": 180,
+      "currency": "USD",
+      "checkIn": "15:00",
+      "checkOut": "12:00",
+      "policies": [
+        "Check-in from 15:00; check-out by 12:00 (Marriott).",
+        "Marriott Bonvoy member rates."
+      ],
+      "rooms": [
+        {
+          "name": "Premier King",
+          "price": "$115–145/night",
+          "note": "City or park view",
+          "bed": "king",
+          "bedType": "king",
+          "bedSize": "King (official Marriott category)",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single king bed (not two beds pushed together)"
+        },
+        {
+          "name": "Premier Twin",
+          "price": "$115–145/night",
+          "note": "Two single beds",
+          "bed": "twin",
+          "bedType": "twin",
+          "bedSize": "2 single beds",
+          "oneBed": false,
+          "oneBedOnly": false,
+          "privateBathroom": true,
+          "bedNote": "Two single beds"
+        }
+      ],
+      "promos": [
+        "Marriott Bonvoy points and member rates."
+      ],
+      "amenities": [
+        "Restaurant (The Eatery)",
+        "Fitness",
+        "Poolside bar",
+        "Free Wi-Fi"
+      ],
+      "hasOnSiteLaundry": false,
+      "officialUrl": "https://www.marriott.com/en-us/hotels/selfo-four-points-suwon/overview/",
+      "officialLabel": "Official property / hotel-group site",
+      "compareUrl": "https://www.google.com/travel/search?q=Four+Points+by+Sheraton+Suwon",
+      "compareLabel": "Compare live rates (Google Hotels)",
+      "why": "A modern (2022) 4-star with king rooms in central Ingye-dong, near Suwon City Hall and the restaurant district.",
+      "highlights": [
+        "Opened 2022",
+        "King rooms",
+        "Central Ingye-dong"
+      ],
+      "fits": false,
+      "fitReason": "King room + private bath confirmed, but walkable metro distance not yet verified",
+      "lat": 37.262226,
+      "lng": 127.03567,
+      "priceNote": "Planning estimate for autumn 2026; confirm the live rate for your dates.",
+      "stationWalkTime": "Central Ingye-dong; nearest metro walk to be confirmed",
+      "verification": {
+        "lastChecked": "2026-08-18",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://www.marriott.com/en-us/hotels/selfo-four-points-suwon/overview/",
+        "canonicalName": "Four Points by Sheraton Suwon",
+        "existenceStatus": "Verified operating property",
+        "note": "Marriott confirms the 4-star Four Points by Sheraton Suwon (opened 2022, 221 rooms) in Ingye-dong with Premier King/Twin categories."
+      }
+    },
+    {
+      "id": "suwon-ramada-plaza",
+      "city": "Suwon",
+      "name": "Ramada Plaza by Wyndham Suwon",
+      "tier": "mid",
+      "stars": 4,
+      "area": "Paldal-gu",
+      "neighborhood": "150 Jungbu-daero; about 12 min by car from Suwon Station",
+      "priceFrom": 90,
+      "priceTo": 140,
+      "currency": "USD",
+      "checkIn": "15:00",
+      "checkOut": "12:00",
+      "policies": [
+        "24-hour front desk.",
+        "Suwon Subway Station is ~12 min away by car (not walkable)."
+      ],
+      "rooms": [
+        {
+          "name": "Superior Double",
+          "price": "$90–110/night",
+          "note": "29 m²",
+          "bed": "double",
+          "bedType": "double",
+          "bedSize": "1 double bed (29 m²)",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single double bed"
+        },
+        {
+          "name": "Deluxe King",
+          "price": "$100–125/night",
+          "note": "Listed as '1 queen bed' despite 'King' name",
+          "bed": "queen",
+          "bedType": "queen",
+          "bedSize": "Queen (Booking lists '1 queen bed' for the 'King' rooms)",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single queen bed (Booking); room name says 'King'"
+        },
+        {
+          "name": "Deluxe Twin",
+          "price": "$100–125/night",
+          "note": "Two single beds",
+          "bed": "twin",
+          "bedType": "twin",
+          "bedSize": "2 single beds",
+          "oneBed": false,
+          "oneBedOnly": false,
+          "privateBathroom": true,
+          "bedNote": "Two single beds"
+        }
+      ],
+      "promos": [
+        "Wyndham Rewards points and member rates."
+      ],
+      "amenities": [
+        "24-hour front desk",
+        "3 restaurants",
+        "Bar",
+        "Free parking",
+        "Free Wi-Fi"
+      ],
+      "hasOnSiteLaundry": false,
+      "officialUrl": null,
+      "officialLabel": "No verified official page this session; use trusted listing",
+      "compareUrl": "https://www.google.com/travel/search?q=Ramada+Plaza+by+Wyndham+Suwon",
+      "compareLabel": "Compare live rates (Google Hotels)",
+      "why": "An established 4-star near central Suwon with a 24-hour desk; note the ~12-min drive to Suwon Station.",
+      "highlights": [
+        "24-hour front desk",
+        "Established 4-star",
+        "Central Paldal-gu"
+      ],
+      "fits": false,
+      "fitReason": "Not walkable to Suwon Station; 'King' rooms are listed as 1 queen bed",
+      "lat": 37.277775,
+      "lng": 127.032364,
+      "priceNote": "Planning estimate for autumn 2026; confirm the live rate for your dates.",
+      "stationWalkTime": "About 12 min by car from Suwon Station",
+      "verification": {
+        "lastChecked": "2026-08-18",
+        "sourceType": "Major trusted booking platform",
+        "sourceUrl": "https://www.booking.com/hotel/kr/ramada-plaza-suwon.html",
+        "canonicalName": "Ramada Plaza by Wyndham Suwon",
+        "existenceStatus": "Verified operating property",
+        "note": "Booking.com confirms the 4-star Ramada Plaza by Wyndham Suwon at 150 Jungbu-daero, its room inventory (Deluxe King = 1 queen; Superior Double = 1 double) and 24-hour front desk."
+      }
+    },
+    {
+      "id": "suwon-courtyard",
+      "city": "Suwon",
+      "name": "Courtyard by Marriott Suwon",
+      "tier": "mid",
+      "stars": 4,
+      "area": "Gwanggyo New Town / Yeongtong-gu",
+      "neighborhood": "320 Gwanggyohosugongwon-ro; 6 min from Gwanggyo Jungang Station",
+      "priceFrom": 140,
+      "priceTo": 200,
+      "currency": "USD",
+      "checkIn": "15:00",
+      "checkOut": "12:00",
+      "policies": [
+        "Check-in from 15:00; check-out by 12:00 (Marriott).",
+        "Interconnected with Suwon Convention Center and Galleria."
+      ],
+      "rooms": [
+        {
+          "name": "Comfortable King",
+          "price": "$140–175/night",
+          "note": "Lake/city view",
+          "bed": "king",
+          "bedType": "king",
+          "bedSize": "King (official Marriott category)",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single king bed (not two beds pushed together)"
+        },
+        {
+          "name": "Comfortable 2 Double",
+          "price": "$140–175/night",
+          "note": "Two full beds",
+          "bed": "double",
+          "bedType": "double",
+          "bedSize": "2 full/double beds",
+          "oneBed": false,
+          "oneBedOnly": false,
+          "privateBathroom": true,
+          "bedNote": "Two double beds"
+        }
+      ],
+      "promos": [
+        "Marriott Bonvoy points and member rates."
+      ],
+      "amenities": [
+        "Fitness",
+        "Restaurant (Suwon Kitchen)",
+        "Self-serve laundry",
+        "Free parking",
+        "Free Wi-Fi"
+      ],
+      "hasOnSiteLaundry": true,
+      "officialUrl": "https://www.marriott.com/en-us/hotels/selcw-courtyard-suwon/overview/",
+      "officialLabel": "Official property / hotel-group site",
+      "compareUrl": "https://www.google.com/travel/search?q=Courtyard+by+Marriott+Suwon",
+      "compareLabel": "Compare live rates (Google Hotels)",
+      "why": "A modern 4-star in Gwanggyo New Town with king rooms, lake-park views and easy access to the convention center.",
+      "highlights": [
+        "Gwanggyo Lake Park",
+        "King rooms",
+        "Self-serve laundry"
+      ],
+      "fits": false,
+      "fitReason": "King room + private bath fit, but it is in Gwanggyo (~30 min from Suwon Station / Hwaseong)",
+      "lat": 37.285057,
+      "lng": 127.05786,
+      "priceNote": "Planning estimate for autumn 2026; confirm the live rate for your dates.",
+      "stationWalkTime": "6 min walk to Gwanggyo Jungang Station",
+      "verification": {
+        "lastChecked": "2026-08-18",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://www.marriott.com/en-us/hotels/selcw-courtyard-suwon/overview/",
+        "canonicalName": "Courtyard by Marriott Suwon",
+        "existenceStatus": "Verified operating property",
+        "note": "Marriott confirms the 4-star Courtyard by Marriott Suwon in Gwanggyo New Town (288 rooms) with Comfortable King and 2-Double categories."
+      }
+    },
+    {
+      "id": "suwon-ibis",
+      "city": "Suwon",
+      "name": "ibis Ambassador Suwon",
+      "tier": "budget",
+      "stars": 3,
+      "area": "Suwon City Hall / Paldal-gu",
+      "neighborhood": "132 Kwonkwang-ro; 0.2 mi from Suwon City Hall",
+      "priceFrom": 70,
+      "priceTo": 110,
+      "currency": "USD",
+      "checkIn": "15:00",
+      "checkOut": "12:00",
+      "policies": [
+        "Check-in from 15:00; check-out by 12:00.",
+        "Fully renovated in 2021."
+      ],
+      "rooms": [
+        {
+          "name": "Standard 1 Double",
+          "price": "$70–90/night",
+          "note": "Entry level",
+          "bed": "double",
+          "bedType": "double",
+          "bedSize": "1 double bed (width not stated)",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single double bed; confirm width"
+        },
+        {
+          "name": "Standard 2 Twin",
+          "price": "$70–90/night",
+          "note": "Two single beds",
+          "bed": "twin",
+          "bedType": "twin",
+          "bedSize": "2 single beds",
+          "oneBed": false,
+          "oneBedOnly": false,
+          "privateBathroom": true,
+          "bedNote": "Two single beds"
+        },
+        {
+          "name": "Junior Suite 1 King",
+          "price": "$100–130/night",
+          "note": "Suite",
+          "bed": "king",
+          "bedType": "king",
+          "bedSize": "King (Junior Suite)",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single king bed"
+        }
+      ],
+      "promos": [
+        "Accor ALL member rates."
+      ],
+      "amenities": [
+        "Restaurant",
+        "Fitness",
+        "Free Wi-Fi",
+        "Breakfast"
+      ],
+      "hasOnSiteLaundry": false,
+      "officialUrl": "https://ibis.accor.com/en/destination/city/hotels-suwon-v5590.html",
+      "officialLabel": "Official ibis/Accor brand page (Suwon)",
+      "compareUrl": "https://www.google.com/travel/search?q=ibis+Ambassador+Suwon",
+      "compareLabel": "Compare live rates (Google Hotels)",
+      "why": "A budget Accor base near Suwon City Hall, fully renovated in 2021.",
+      "highlights": [
+        "Near city hall",
+        "Renovated 2021",
+        "Accor ALL"
+      ],
+      "fits": false,
+      "fitReason": "Standard rooms are double; king only in the Junior Suite; station walk not verified",
+      "lat": 37.259094,
+      "lng": 127.031286,
+      "priceNote": "Planning estimate for autumn 2026; confirm the live rate for your dates.",
+      "stationWalkTime": "0.2 mi to Suwon City Hall; 2 min to bus/airport-shuttle stop",
+      "verification": {
+        "lastChecked": "2026-08-18",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://ibis.accor.com/en/destination/city/hotels-suwon-v5590.html",
+        "canonicalName": "ibis Ambassador Suwon",
+        "existenceStatus": "Verified operating property",
+        "note": "Accor's official ibis Suwon page confirms the property at 132 Kwonkwang-ro (renovated 2021) near Suwon City Hall; confirm exact room codes on the property page."
+      }
     }
   ],
   "meta": {
@@ -5698,8 +6129,8 @@
     "hotelResearchLastChecked": "2026-08-10",
     "expandedPrimaryCityHotels": 55,
     "verifiedPrimaryCityHotels": 55,
-    "identityAuditLastChecked": "2026-08-10",
-    "verifiedHotelRecords": 69,
+    "identityAuditLastChecked": "2026-08-18",
+    "verifiedHotelRecords": 74,
     "duplicateHotelRecords": 0,
     "refundableRateCaptures": {
       "lastRun": "2026-08-18",
@@ -5796,13 +6227,13 @@
         "checkIn": "15:00",
         "checkOut": "11:00",
         "frontDesk": "24-hour front desk listed",
-        "room": "Deluxe Double — one queen bed (approx. 150 × 200 cm)",
+        "room": "Superior Double — one double bed (confirm width; not a confirmed queen)",
         "privateBathroom": true,
         "station": "Myeongdong Station — about a 2-minute walk",
         "estimatedRate": "$150–185/night — planning estimate, not a live quote",
         "why": "The simplest one-hotel start: the late-arrival requirement is covered without giving up a central base for the rest of Seoul.",
         "tradeoff": "The ICN-to-Myeongdong journey is still the variable after a delay. Switch to a taxi if the final train or bus connection is no longer comfortable.",
-        "bookingNote": "Book the Deluxe Double specifically, then message the property with your flight number and possible after-midnight arrival.",
+        "bookingNote": "Book a Superior Double (or confirm a queen/king bed with the hotel directly), then message the property with your flight number and possible after-midnight arrival.",
         "officialUrl": "https://www.lottehotel.com/myeongdong-l7/en/main.html",
         "evidenceUrl": "https://www.booking.com/hotel/kr/l7-myeongdong-by-lotte.en-gb.html",
         "evidenceLabel": "Property listing: 24-hour front desk, en-suite bathroom, and Myeongdong Station proximity",
@@ -5842,13 +6273,13 @@
         "checkIn": "15:00",
         "checkOut": "11:00",
         "frontDesk": "24-hour front desk listed",
-        "room": "Deluxe — one queen bed (approx. 150 × 200 cm)",
+        "room": "Standard Double (160 cm) or Hollywood Double — one queen-width bed",
         "privateBathroom": true,
         "station": "Myeongdong Station — about a 1-minute walk",
         "estimatedRate": "$120–138/night for the Deluxe — planning estimate, not a live quote",
         "why": "A more economical central option that still keeps the one-queen-bed and near-station preferences when you choose the Deluxe room.",
-        "tradeoff": "The less-expensive Standard/Double rooms in the planner use a smaller double bed, so do not select those if the queen-size requirement is non-negotiable.",
-        "bookingNote": "Choose the Deluxe room, not Standard Double; message the hotel with the late-arrival details after booking.",
+        "tradeoff": "Choose the Hollywood Double or Standard Double for a queen-width bed; the twin rooms have two single beds.",
+        "bookingNote": "Choose Hollywood Double or Standard Double (not a twin), then message the hotel with the late-arrival details after booking.",
         "officialUrl": "https://www.ninetreehotels.com/nth1/?lang=en",
         "evidenceUrl": "https://www.booking.com/hotel/kr/nine-tree.html",
         "evidenceLabel": "Property listing: 24-hour front desk",

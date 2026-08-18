@@ -1,6 +1,6 @@
 # Seoul — Expanded Hotels & Booking Guide
 
-**Planned stay:** 8 nights (Oct 31 – Nov 8)
+**Planned stay:** 8 nights (Nov 1 – Nov 9; the Oct 31 ICN arrival night is handled separately in the Arrival-night section)
 **Coverage:** **20 hotels** across Myeongdong, City Hall, Gwanghwamun, Insadong, Jongno, Namdaemun, and Yeouido.
 
 ## Arrival-night exception — 21:00 ICN arrival

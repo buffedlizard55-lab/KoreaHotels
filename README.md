@@ -38,7 +38,7 @@ Open [`index.html`](index.html) in a browser to use the planner. It is intention
 - **Quick filters** — view all stays, only core-needs matches, or stays with laundry; search within the current city.
 - **Useful details at a glance** — estimated nightly range, recommended room, bed setup, bathroom/transport fit, normal check-in/out time, canonical identity source, and rate-comparison link.
 - **Timestamped refundable pricing (Seoul, Nov 1–9, 2026)** — hotel cards show a ♻️ badge with the captured refundable rate, cancellation deadline, and UTC capture time; the append-only log with verbatim rate rows lives in [`data/pricing-history.json`](data/pricing-history.json) and the method is documented in [`guide/pricing-captures.md`](guide/pricing-captures.md).
-- **Duplicate protection** — all 69 records are source verified; similarly named branches are cross-checked as distinct properties.
+- **Duplicate protection** — all 74 records are source verified; similarly named branches are cross-checked as distinct properties.
 
 There is no account, tracker, or backend. It is a static planning document that can be hosted with GitHub Pages or opened locally.
 
@@ -67,8 +67,9 @@ For regular stays, a green **“Core needs match”** badge means the research h
 | Busan | 20 | Haeundae, Seomyeon, Busan Station, Nampo, and Songdo options |
 | Cheonan | 7 | KTX-corridor alternative |
 | Daejeon | 7 | KTX-corridor alternative |
+| Suwon | 5 | Seoul-area base (Suwon Station + Hwaseong Fortress) |
 | **Planned cities** | **55** | Seoul + Gyeongju + Busan |
-| **Total** | **69** | Full city-by-city comparison set |
+| **Total** | **74** | Full city-by-city comparison set |
 
 Prices are planning estimates for the 2026 autumn itinerary, not live inventory. Always verify a live rate and exact room configuration before paying.
 
@@ -99,11 +100,11 @@ Then visit `http://localhost:8000` in a local browser, or open `index.html` dire
 ├── index.template.html     # Site shell; data is embedded at build time
 ├── index.html              # Generated static planner
 ├── data/
-│   ├── hotels.json         # 69 city hotels + five-option arrivalNight shortlist and source links
+│   ├── hotels.json         # 74 city hotels + five-option arrivalNight shortlist and source links
 │   └── itinerary.json      # Dates, city order, and alternatives
 ├── guide/
 │   ├── arrival-night.md    # 24-hour reception research + late-arrival workflow
-│   ├── verification-audit.md # Canonical identity and duplicate audit for all 69 records
+│   ├── verification-audit.md # Canonical identity and duplicate audit for all 74 records
 │   ├── seoul.md            # City notes
 │   ├── gyeongju.md
 │   ├── busan.md
@@ -118,7 +119,7 @@ Then visit `http://localhost:8000` in a local browser, or open `index.html` dire
 
 ## Research and booking guardrails
 
-- Arrival-night evidence and **all 69 hotel records** were identity-checked **August 10, 2026**. Every card shows a canonical property source, source type, date, and verification note. The validator rejects duplicate IDs, sourced names, official URLs, identity-source URLs, and exact coordinates; similar branch names require an explicit distinct-property cross-check.
+- Arrival-night evidence and **all 74 hotel records** were identity-checked (Seoul/Gyeongju/Busan/Cheonan/Daejeon on August 10, 2026; the Suwon shortlist on August 18, 2026). Every card shows a canonical property source, source type, date, and verification note. The validator rejects duplicate IDs, sourced names, official URLs, identity-source URLs, and exact coordinates; similar branch names require an explicit distinct-property cross-check.
 - No duplicate hotel entries remain. Five independent hotels without a stable official page are retained only because a government-tourism or major trusted booking source confirms the exact property and address. See [`guide/verification-audit.md`](guide/verification-audit.md).
 - A 24-hour front desk covers the **hotel-arrival** risk, not the **airport-transfer** risk. Check live public-transport / shuttle timing on the day; take a taxi when the final connection is tight.
 - Use the exact recommended room type. A property may list a lower-priced twin or smaller double that does not meet the one-queen/king preference.

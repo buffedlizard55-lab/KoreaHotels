@@ -4,24 +4,24 @@
     "name": "South Korea Trip",
     "checkIn": "2026-10-31",
     "checkOut": "2026-11-22",
-    "note": "Total 22 nights. You can adjust start/end and the per-city nights anytime."
+    "note": "Arrive Oct 31 21:00 at ICN. Oct 31 arrival night intentionally left unbooked (decision 2026-08-17). Booked nights: Nov 1–21, checkout Nov 22 (21 nights)."
   },
   "legs": [
     {
       "city": "Seoul",
       "nights": 8,
-      "dates": "Oct 31 – Nov 8",
+      "dates": "Nov 1 – Nov 9",
       "locations": [
         "Myeongdong (shopping / central)",
         "Gwanghwamun & Gyeongbokgung (palaces / historic)"
       ],
       "hotelChoice": null,
-      "note": "Edit this to your actual dates and preferred neighborhood."
+      "note": "Refundable-rate captures for these exact dates live in data/pricing-history.json. Oct 31 arrival night is unbooked — see guide/arrival-night.md if that changes."
     },
     {
       "city": "Gyeongju",
       "nights": 6,
-      "dates": "Nov 8 – Nov 14",
+      "dates": "Nov 9 – Nov 15",
       "locations": [
         "Old Town / Hwangnam-dong (hanok village, near tombs)",
         "Bomun Lake Resort (resort hotels)"
@@ -31,8 +31,8 @@
     },
     {
       "city": "Busan",
-      "nights": 8,
-      "dates": "Nov 14 – Nov 22",
+      "nights": 7,
+      "dates": "Nov 15 – Nov 22",
       "locations": [
         "Haeundae (beach / resort)",
         "Busan Station / Dong-gu (KTX arrivals, harbour)"

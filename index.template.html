@@ -417,6 +417,11 @@
     .tier-mid { background: #a76b10; }
     .tier-premium { background: #78477e; }
     .price-range { margin: 10px 0 0; color: var(--forest); font-size: 1.05rem; font-weight: 850; }
+    .refund-rate { margin: 8px 0 0; padding: 8px 10px; border: 1px solid var(--forest); border-radius: 10px; background: rgba(46, 90, 57, 0.07); font-size: 0.86rem; line-height: 1.45; }
+    .refund-rate.unavailable { border-style: dashed; background: rgba(0, 0, 0, 0.04); }
+    .refund-rate strong { display: block; margin-bottom: 2px; }
+    .refund-rate .refund-meta { color: #444; }
+    .refund-rate a { font-weight: 650; }
     .price-range span { color: var(--ink-soft); font-size: .76rem; font-weight: 600; }
     .hotel-card .reason { margin-top: 13px; }
     .hotel-card .detail-list { margin-top: 13px; }
@@ -789,7 +794,28 @@
       return 20 + (hotel.fits ? 0 : 10) + (Number(hotel.priceFrom) || 0) / 1000;
     }
 
-    function preferredRoom(hotel) {
+      function renderRefundableRate(rate) {
+        if (!rate) return '';
+        const stamp = rate.capturedAtUtc ? `captured ${escapeHtml(rate.capturedAtUtc.replace('T', ' ').slice(0, 16))} UTC` : 'timestamped capture';
+        if (!rate.available) {
+          return `<div class="refund-rate unavailable">
+            <strong>🚫 No refundable rate found — Nov 1–9, 2026</strong>
+            <span class="refund-meta">${escapeHtml(rate.finding || 'No availability shown on the capture source.')} <a href="${safeUrl(rate.sourceUrl)}" target="_blank" rel="noopener noreferrer">Source ↗</a> · ${stamp}</span>
+          </div>`;
+        }
+        const price = rate.totalStay
+          ? `$${escapeHtml(rate.pricePerNight)}/night · $${escapeHtml(rate.totalStay)} total (8 nights)`
+          : 'price on source page';
+        return `<div class="refund-rate">
+          <strong>♻️ Refundable rate — Nov 1–9, 2026</strong>
+          <span class="refund-meta">${escapeHtml(rate.room)} · ${escapeHtml(price)}<br>
+          ${escapeHtml(rate.freeCancellation || '')}<br>
+          ${escapeHtml(rate.prepayment || '')}<br>
+          <a href="${safeUrl(rate.sourceUrl)}" target="_blank" rel="noopener noreferrer">Live source ↗</a> · ${stamp} · verify before paying</span>
+        </div>`;
+      }
+
+      function preferredRoom(hotel) {
       const rooms = hotel.rooms || [];
       return rooms.find((room) => room.oneBedOnly && room.privateBathroom && ["queen", "king"].includes(String(room.bedType).toLowerCase()))
         || rooms.find((room) => room.oneBedOnly && room.privateBathroom)
@@ -831,6 +857,7 @@
               <h3 class="card-title">${escapeHtml(hotel.name)}</h3>
               <p class="card-subtitle">${escapeHtml(hotel.area || hotel.neighborhood || activeCity)}</p>
               <p class="price-range">$${escapeHtml(hotel.priceFrom)}–${escapeHtml(hotel.priceTo)} <span>USD / night estimate</span></p>
+              ${hotel.refundableRate ? renderRefundableRate(hotel.refundableRate) : ''}
               <div class="tags">
                 <span class="tag ${hotel.fits ? "good" : "warn"}">${hotel.fits ? "✓ Core needs match" : "△ Check core fit"}</span>
                 ${hotel.hasOnSiteLaundry ? '<span class="tag">🧺 Laundry</span>' : ''}

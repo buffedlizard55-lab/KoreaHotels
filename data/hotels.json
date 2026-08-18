@@ -7,7 +7,7 @@
     "note": "Oct 31 – Nov 22, 2026 (22 nights). Autumn shoulder season — leaf-peeping, mild temps, lighter crowds than summer, and generally better hotel rates than spring high season. Prices below are typical nightly USD figures for a standard double; always confirm the live rate for YOUR dates on the hotel's official site."
   },
   "split": {
-    "recommended": "Seoul 8 nights (Oct 31–Nov 8) · Gyeongju 6 nights (Nov 8–Nov 14) · Busan 8 nights (Nov 14–Nov 22)",
+    "recommended": "Seoul 8 nights (Nov 1–9) · Gyeongju 6 nights (Nov 9–15) · Busan 7 nights (Nov 15–22). The Oct 31 arrival night (ICN lands 21:00) is intentionally left unbooked for now — see guide/arrival-night.md if that changes.",
     "rationale": "Seoul is the biggest city and main transport hub, so bookending the trip there is practical. Gyeongju is compact (5–7 nights = relaxed pace + day trips to Bulguksa & Yangdong Village). Busan is large and spread across two personalities (Haeundae beachside vs. Nampo old town), so 7–9 nights lets you split between neighborhoods.",
     "alternatives": [
       "More Seoul: 10 / 4 / 8 (Gyeongju trimmed to a long weekend)",
@@ -107,6 +107,21 @@
         "note": "LOTTE confirms the operating Myeongdong property, address, rooms and facilities. Its separate arrival card uses a major trusted listing for the explicit 24-hour-desk claim.",
         "canonicalName": "L7 MYEONGDONG by LOTTE HOTELS",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T05:52:57Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/l7-myeongdong-by-lotte.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Standard Double Room",
+        "beds": "1 full bed",
+        "pricePerNight": 295,
+        "totalStay": 2358,
+        "currency": "USD (display conversion; 5% discount applied; 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before October 29, 2026 (free until 3 days before arrival; inside 3 days = first night)",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "5 units left at this price at capture time. Verify the live page before booking."
       }
     },
     {
@@ -202,6 +217,21 @@
         "distinctFrom": [
           "seoul-nine-tree-myeongdong2"
         ]
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T13:05:07Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/nine-tree.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Double Room",
+        "beds": "1 full bed",
+        "pricePerNight": 205,
+        "totalStay": 1643,
+        "currency": "USD (display conversion; 32% discount applied; 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before October 29, 2026 — free until 3 days before arrival; inside 3 days, first night",
+        "prepayment": "Pay nothing until October 27, 2026",
+        "note": "Cheaper $197/night rate exists but its free-cancel window closes Oct 18 and the inside-window penalty is the TOTAL stay price. $222/night adds breakfast on the lenient terms."
       }
     },
     {
@@ -286,6 +316,21 @@
         "distinctFrom": [
           "seoul-ibis-ambassador-myeongdong"
         ]
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T13:19:43Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/ibis-styles-seoul-myeongdong.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Standard Double Room",
+        "beds": "1 full bed",
+        "pricePerNight": 187,
+        "totalStay": 1499,
+        "currency": "USD (display conversion; 10% VAT excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before October 31, 2026 — free until 1 day before arrival; inside 1 day, first night",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Cheapest verified refundable one-bed total of the sweep. Non-refundable saves only $75 over 8 nights."
       }
     },
     {
@@ -365,6 +410,14 @@
         "note": "Accor confirms the operating Insadong property, address, normal hours and services; the recorded double room remains below the planner queen-width rule.",
         "canonicalName": "Ibis Ambassador Insadong (newly refurbished)",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T13:11:10Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/ibis-ambassador-insadong.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": false,
+        "finding": "Booking.com showed no availability for Nov 1–9, 2026 at capture time; check Accor/official site direct.",
+        "note": "Negative result on one source at one moment — not proof the hotel is full."
       }
     },
     {
@@ -445,6 +498,14 @@
         "note": "Four Seasons confirms the current Gwanghwamun property, accommodations, dining, spa and central location.",
         "canonicalName": "Four Seasons Hotel Seoul",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T05:52:30Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/four-seasons-seoul.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": false,
+        "finding": "Booking.com showed no availability for Nov 1–9, 2026 at capture time; check the official Four Seasons site direct.",
+        "note": "Negative result on one source at one moment — not proof the hotel is full."
       }
     },
     {
@@ -524,6 +585,21 @@
         "note": "Fairmont/Accor confirms the Yeouido property, rooms, wellness facilities and location beside The Hyundai Seoul.",
         "canonicalName": "Fairmont Ambassador Seoul",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T13:04:38Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/fairmont-ambassador-seoul.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Fairmont Twin Room (2-adult refundable rate; room attribution by table position)",
+        "beds": "2 twin beds",
+        "pricePerNight": 583,
+        "totalStay": 4666,
+        "currency": "USD (display conversion; 10% VAT excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before 6:00 PM on October 31, 2026 — day before arrival; after that, first night",
+        "prepayment": "Pay nothing until October 29, 2026",
+        "note": "Cheaper $467/night rate is only PARTIALLY refundable (first-night fee from booking, charged upfront) — not free cancellation. Yeouido location."
       }
     },
     {
@@ -630,6 +706,21 @@
         "note": "Shilla Stay confirms the operating Haeundae property, rooms, facilities and booking channel; select Deluxe or Premier for the recorded queen setup.",
         "canonicalName": "Shilla Stay Busan Haeundae",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T15:55:38Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/shilla-stay-haeundae.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Standard Double with City View",
+        "beds": "1 full bed",
+        "pricePerNight": 184,
+        "totalStay": 1288,
+        "currency": "USD (display conversion; 54% deal applied; 10% tax + city tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 12, 2026 — 3 days out; then first night",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Cheapest one-bed refundable in Busan so far; beachfront; breakfast-included variant $215/night."
       }
     },
     {
@@ -711,6 +802,21 @@
         "note": "LOTTE confirms the current Haeundae L7 property, rooms, pool, facilities and booking channel.",
         "canonicalName": "L7 HAEUNDAE by LOTTE HOTELS",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T15:59:54Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/l7-haeundae-busan.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Standard King Town View (4F–9F)",
+        "beds": "1 king bed",
+        "pricePerNight": 185,
+        "totalStay": 1294,
+        "currency": "USD (display conversion; 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 12, 2026 — 3 days out; then first night",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "One minute from Haeundae Beach. Queen-bed variants $186–193/night. 2 king rooms left at capture."
       }
     },
     {
@@ -803,6 +909,21 @@
         "note": "ASTI confirms the operating hotel beside Busan Station and its room/facility inventory; reconfirm the Executive king in live availability.",
         "canonicalName": "ASTI Hotel Busan Station",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T16:02:28Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/asti-busan.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Standard Double with City View",
+        "beds": "1 full bed",
+        "pricePerNight": 78,
+        "totalStay": 543,
+        "currency": "USD (display conversion; KRW 76,730 tax/stay excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 14, 2026 (day before) — Partner Offer: pay in advance, no modifications",
+        "prepayment": "Pay in advance (partner offer)",
+        "note": "1 min from Busan Station; 24h desk; laundry. Non-partner rates pending re-read."
       }
     },
     {
@@ -907,6 +1028,21 @@
         "note": "Josun Hotels & Resorts confirms the current Grand Josun Busan property and direct booking channel; it is not a LOTTE property.",
         "canonicalName": "Grand Josun Busan",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T15:46:13Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/grand-josun-busan.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Premier King City View (sauna + private lounge)",
+        "beds": "1 queen bed (page spec despite 'King' name)",
+        "pricePerNight": 347,
+        "totalStay": 2431,
+        "currency": "USD (display conversion; 10% tax excluded)",
+        "breakfastIncluded": true,
+        "freeCancellation": "Free cancellation before November 13, 2026 — inside 2 days the penalty is the TOTAL stay price",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Cheapest refundable row at this hotel: $280/night ($1,961) without breakfast. 3 left at capture."
       }
     },
     {
@@ -987,6 +1123,21 @@
         "note": "Hyatt confirms the operating Marine City property, accommodations, dining and wellness facilities.",
         "canonicalName": "Park Hyatt Busan",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T15:46:13Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/park-hyatt-busan.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "King Room with Ocean View",
+        "beds": "1 king bed",
+        "pricePerNight": 532,
+        "totalStay": 3721,
+        "currency": "USD (display conversion; 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 14, 2026 — day before arrival; then first night",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Refundability premium is steep: non-refundable is $372/night ($2,605)."
       }
     },
     {
@@ -1066,6 +1217,14 @@
         "note": "VISITKOREA confirms Hwangnamguan at 1038 Poseok-ro, its hanok buildings, and bathrooms/toilets in each room; confirm the current booking channel and bedding directly.",
         "canonicalName": "Hwangnamkwan Hanok Hotel (황남관 한옥호텔)",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T15:00:49Z",
+        "source": "Booking.com property page (dated)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/hwangnamguan-hanok-village-gyeongjusi.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": false,
+        "finding": "No availability for the full Nov 9–15 window on Booking.com at capture time; only 3-night slices bookable (e.g. Nov 14–17 from $294).",
+        "note": "Booking name: 'Hwangnamguan Hanok Village' (same property). Check-in ends 22:00 — not a 24-hour desk. Try direct booking for the full window."
       }
     },
     {
@@ -1158,6 +1317,21 @@
         "note": "VISITKOREA and Commodore confirm the operating 262-room Bomun property, 14:00/12:00 hours, room classes and resort facilities.",
         "canonicalName": "Commodore Hotel Gyeongju",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T15:00:48Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/commodore-gyeongju.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Imperial Suite with Mountain View",
+        "beds": "2 beds (1 twin + 1 full)",
+        "pricePerNight": 205,
+        "totalStay": 1365,
+        "currency": "USD (display conversion; 10% service charge included, 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 8, 2026 — free until 1 day before arrival; inside 1 day, first night",
+        "prepayment": "Pay nothing until November 6, 2026",
+        "note": "Best Gyeongju terms captured so far. Search card also showed a $186/nt ($1,254) deal price at the same moment — check signed-in price. Pools temporarily closed; 3 rooms left at capture."
       }
     },
     {
@@ -1250,6 +1424,21 @@
         "note": "LAHAN confirms the current Bomun Lake property, rooms, dining and leisure facilities; check the exact queen category in live inventory.",
         "canonicalName": "Lahan Select Gyeongju",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T15:04:24Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/hyundai-gyeongju.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Deluxe King Suite (1 queen, lake-view balcony, 829 ft²)",
+        "beds": "1 queen bed",
+        "pricePerNight": 265,
+        "totalStay": 1764,
+        "currency": "USD (display conversion; 10% service charge included, 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 7, 2026 (inside-window penalty text cut at capture — re-verify before booking)",
+        "prepayment": "Pay the property before arrival — fully refundable during free cancellation",
+        "note": "Booking slug is legacy 'hyundai-gyeongju' (former Hyundai Hotel). 4 suites left at capture."
       }
     },
     {
@@ -2520,6 +2709,21 @@
         "note": "Hotel Skypark confirms the Myeongdong III branch, 139 Toegye-ro address, Myeongdong Station and airport-limousine access.",
         "canonicalName": "Hotel Skypark Myeongdong 3",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T13:05:07Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/skypark-myeongdong-3.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Double Room",
+        "beds": "1 full bed",
+        "pricePerNight": 180,
+        "totalStay": 1612,
+        "currency": "USD (display conversion; 10% service charge included, 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before October 29, 2026 — free until 3 days before arrival; inside 3 days, first night",
+        "prepayment": "Pay nothing until October 27, 2026",
+        "note": "Refundable costs only $18 more in total than the non-refundable rate ($1,612 vs $1,594) — take the refundable."
       }
     },
     {
@@ -2582,6 +2786,21 @@
         "note": "Marriott confirms the current Luxury Collection affiliation, 67 Toegye-ro address, 15:00/11:00 hours and hotel facilities.",
         "canonicalName": "L'Escape, A Luxury Collection Hotel, Seoul Myeongdong",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T13:11:39Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/l-39-escape.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Classic King Room with City View",
+        "beds": "1 king bed",
+        "pricePerNight": 305,
+        "totalStay": 2443,
+        "currency": "USD (display conversion; 10% deal applied; 10% VAT excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 1, 2026 — free until 12:00 AM on the day of arrival; then first night",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Booking slug is 'l-39-escape'. Breakfast-included variant $389/night; Amour King $318/night, same terms."
       }
     },
     {
@@ -2647,7 +2866,15 @@
           "busan-toyoko-station1"
         ]
       },
-      "stationWalkTime": "10 min walk from Haeundae Station Exit 5"
+      "stationWalkTime": "10 min walk from Haeundae Station Exit 5",
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T16:02:28Z",
+        "source": "Booking.com property page (dated)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/toyoko-inn-busan-haeundae-2.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": false,
+        "finding": "No availability for Nov 15–22 on Booking.com at capture time; all room types unavailable for the dates.",
+        "note": "Beachfront budget pick sold out for the full week."
+      }
     },
     {
       "id": "busan-ramada-encore-haeundae",
@@ -2780,6 +3007,21 @@
         "note": "Official Ascott pages confirm the property, 15:00/12:00 hours, nearby subway stations, a queen Studio Executive, private bathroom, washer/dryer, and 24-hour reception.",
         "canonicalName": "Somerset Palace Seoul",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T05:52:30Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/somerset-palace-seoul.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Deluxe Queen Room with Two Queen Beds",
+        "beds": "2 queen beds (also books 1-bed Studio; its $1,824 total was only partially captured)",
+        "pricePerNight": 249,
+        "totalStay": 1994,
+        "currency": "USD (display conversion; 10% tax excluded)",
+        "breakfastIncluded": true,
+        "freeCancellation": "Free cancellation before October 30, 2026 (free until 2 days before arrival; inside 2 days = first night)",
+        "prepayment": "Pay nothing until October 28, 2026",
+        "note": "Verify the live page before booking; terms shown at checkout are authoritative."
       }
     },
     {
@@ -2851,6 +3093,21 @@
         "distinctFrom": [
           "seoul-ibis-styles"
         ]
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T13:19:37Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/ibis-myeong-dong.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Standard Double Room",
+        "beds": "1 full bed",
+        "pricePerNight": 313,
+        "totalStay": 2503,
+        "currency": "USD (display conversion; 10% VAT excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before 6:00 PM on October 31, 2026 — day before arrival; then first night",
+        "prepayment": "No prepayment needed — pay at the property (or pay-nothing-until-Oct-29 variant)",
+        "note": "Largest refundability premium of the sweep: non-refundable is $266/night ($376 less over the stay). Arrival-night candidate; coin laundry on site."
       }
     },
     {
@@ -2922,6 +3179,21 @@
         "distinctFrom": [
           "seoul-le-meridien-myeongdong"
         ]
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T13:03:57Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/moxy-seoul-myeongdong.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Queen Room with Two Queen Beds and City View",
+        "beds": "2 queen beds",
+        "pricePerNight": 296,
+        "totalStay": 2367,
+        "currency": "USD (display conversion; 10% VAT excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 1, 2026 — free until 12:00 AM on the day of arrival; after that, first night",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Best cancellation terms captured in this run (day-of-arrival cutoff). 5 units left at capture time."
       }
     },
     {
@@ -2993,6 +3265,21 @@
         "distinctFrom": [
           "seoul-moxy-myeongdong"
         ]
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T13:11:10Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/le-meridien-seoul-myeongdong.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Deluxe King Room with City View",
+        "beds": "1 king bed",
+        "pricePerNight": 624,
+        "totalStay": 4992,
+        "currency": "USD (display conversion; 10% VAT excluded)",
+        "breakfastIncluded": true,
+        "freeCancellation": "Free cancellation before November 1, 2026 — free until 12:00 AM on the day of arrival; then first night",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "No-breakfast variant seen at $567/night ($4,539) with the same day-of-arrival cutoff."
       }
     },
     {
@@ -3129,6 +3416,21 @@
         "note": "Marriott confirms the property, address, 15:00/11:00 hours, private accommodation and Deluxe King category.",
         "canonicalName": "Courtyard by Marriott Seoul Myeongdong",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T13:20:09Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/courtyard-by-marriott-seoul-namdaemun.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Guest Room, 1 King",
+        "beds": "1 king bed",
+        "pricePerNight": 324,
+        "totalStay": 2595,
+        "currency": "USD (display conversion; 10% VAT excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 1, 2026 — free until 12:00 AM on the day of arrival; then first night",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Hotel was formerly 'Courtyard Seoul Namdaemun' (legacy Booking slug); 5 units left at capture."
       }
     },
     {
@@ -3268,6 +3570,21 @@
         "distinctFrom": [
           "seoul-nine-tree"
         ]
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T13:11:40Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/nine-tree-premier-myeongdong.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Hollywood Double Room",
+        "beds": "1 king bed",
+        "pricePerNight": 303,
+        "totalStay": 2422,
+        "currency": "USD (display conversion; 32% deals applied; 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before October 29, 2026 — free until 3 days before arrival; inside 3 days, first night",
+        "prepayment": "Pay nothing until October 27, 2026",
+        "note": "Partner Offer at $214/night ($1,714) is cheaper but pay-in-advance with no modifications."
       }
     },
     {
@@ -3336,6 +3653,21 @@
         "note": "The official Parnas page confirms the hotel, Insadong address, Standard Double category, facilities and 3-minute Anguk access.",
         "canonicalName": "Nine Tree by Parnas Seoul Insadong",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T13:19:37Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/nine-tree-premier-insadong.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Deluxe Double w/ Jogyesa View, High Floor, Bath",
+        "beds": "1 queen bed",
+        "pricePerNight": 235,
+        "totalStay": 1881,
+        "currency": "USD (display conversion; 32% deals applied; 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before October 29, 2026 — free until 3 days before arrival; inside 3 days, first night",
+        "prepayment": "Pay nothing until October 27, 2026",
+        "note": "The cheaper $226/night rate closes its window Oct 18 with a whole-stay penalty inside 14 days — same trap as Nine Tree MD1."
       }
     },
     {
@@ -3404,6 +3736,21 @@
         "note": "Shilla Stay confirms the property and 15:00/noon policy; current trusted inventory identifies a Hollywood Double king category.",
         "canonicalName": "Shilla Stay Gwanghwamun Myeongdong",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T13:11:10Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/shilla-stay-gwanghwamun.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Standard Double Room (high floor)",
+        "beds": "1 full bed",
+        "pricePerNight": 200,
+        "totalStay": 1600,
+        "currency": "USD (display conversion; 43% deal applied; 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before October 29, 2026 — free until 3 days before arrival; inside 3 days, first night",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Cheapest verified refundable one-bed TOTAL so far ($1,600/8 nights). Breakfast-included variant $243/night."
       }
     },
     {
@@ -3472,6 +3819,21 @@
         "note": "LOTTE's official site confirms the 5-star 1,015-room hotel, central address, Main/Executive Towers, room categories and facilities.",
         "canonicalName": "LOTTE HOTEL SEOUL",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T13:05:07Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/lotte-seoul-seoul.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Main Tower Grand Superior Double",
+        "beds": "1 full bed",
+        "pricePerNight": 364,
+        "totalStay": 3235,
+        "currency": "USD (display conversion; 10% service charge included, 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before October 29, 2026 — free until 3 days before arrival; inside 3 days, first night",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Booking.com now lists this property as 'THE GRAND LOTTE SEOUL — Formerly known as Lotte Hotel Seoul' (same 30 Eulji-ro address). Breakfast-included variant $468/night."
       }
     },
     {
@@ -3540,6 +3902,21 @@
         "note": "Marriott confirms the historic 5-star hotel, address, 15:00/12:00 hours, Deluxe King category, pool, spa and central location.",
         "canonicalName": "The Westin Josun Seoul",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T13:11:40Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/westin-chosun-seoul.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Deluxe King Room",
+        "beds": "1 king bed",
+        "pricePerNight": 398,
+        "totalStay": 3532,
+        "currency": "USD (display conversion; 10% service charge included, 10% VAT excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 1, 2026 — free until 12:00 AM on the day of arrival",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Booking serves this property under its legacy slug 'westin-chosun-seoul' (former name Westin Chosun)."
       }
     },
     {
@@ -3676,6 +4053,21 @@
         "note": "The official hotel and VISITKOREA confirm the Bomun property, room classes, facilities and normal hours.",
         "canonicalName": "The-K Hotel Gyeongju",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T13:43:35Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/the-k-gyeong-ju.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Hwangnyoung View Room with Ondol Floor",
+        "beds": "4 futon beds (ondol)",
+        "pricePerNight": 125,
+        "totalStay": 752,
+        "currency": "USD (display conversion; 10% tax + city tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 6, 2026 — but inside 3 days the penalty is the TOTAL stay price",
+        "prepayment": "Full stay charged by the property within 3 days of arrival",
+        "note": "Gyeongju terms run harsher than Seoul's. Ondol room (futon beds) — not a one-bed queen/king room."
       }
     },
     {
@@ -3745,6 +4137,21 @@
         "note": "The official KINOCK site confirms the current brand, address and pet-focused rooms/facilities. Trusted current inventory confirms the 2024 full renovation, 15:00/11:00 hours and queen Premier/Signature categories.",
         "canonicalName": "KINOCK Gyeongju",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T15:24:49Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/the-suite-gyeongju.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "KINOCK PKG room — private pool + spa tub (pkg incl. breakfast service + Pet Park pass)",
+        "beds": "1 queen bed",
+        "pricePerNight": 171,
+        "totalStay": 1028,
+        "currency": "USD (display conversion; 45% deals applied; 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 2, 2026 — inside 7 days the penalty is the FIRST NIGHT only (most forgiving in Gyeongju)",
+        "prepayment": "Pay nothing until October 31, 2026",
+        "note": "Pet-focused hotel — reviews center on dog facilities. 2 left at capture."
       }
     },
     {
@@ -3813,6 +4220,21 @@
         "note": "Government-run VISITKOREA confirms the 60-room hotel, room categories, facilities and Bomun/HICO location; live check-in can vary by season.",
         "canonicalName": "Benikea Swiss Rosen Hotel Gyeongju",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T15:04:24Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/swiss-rosen.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Standard Twin Room (1 twin + 1 full, 323 ft²)",
+        "beds": "2 beds",
+        "pricePerNight": 83,
+        "totalStay": 556,
+        "currency": "USD (display conversion; 19% deals applied; 10% service charge included, 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 6, 2026 (penalty text cut at capture — re-verify)",
+        "prepayment": "Pay nothing until November 4, 2026",
+        "note": "Cheapest refundable Gyeongju capture ($556/6 nights); twin room, 2 left; pool temporarily closed; check-in ends 23:30."
       }
     },
     {
@@ -3881,6 +4303,21 @@
         "note": "VISITKOREA identifies this Korea Quality-certified hotel, its private room amenities, breakfast and five-minute bus-terminal access.",
         "canonicalName": "Rivertain Hotel Gyeongju",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T15:19:17Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/rivertain-hotel-gyeongju.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Standard Double Room (spa tub)",
+        "beds": "1 full bed",
+        "pricePerNight": 82,
+        "totalStay": 490,
+        "currency": "USD (display conversion; 8% deal applied; 10% tax excluded)",
+        "breakfastIncluded": true,
+        "freeCancellation": "Free cancellation before November 6, 2026 — inside 3 days the penalty is the TOTAL stay price",
+        "prepayment": "Pay nothing until November 4, 2026",
+        "note": "Cheapest refundable Gyeongju option AND cheapest one-bed room, breakfast included, 24h desk, central. 2 rooms left at capture."
       }
     },
     {
@@ -3949,6 +4386,14 @@
         "note": "VISITKOREA confirms seven rooms, 14:30/10:30 hours, in-room toilets and immediate Old Town access.",
         "canonicalName": "HanokInn",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T15:00:49Z",
+        "source": "Booking.com property page (dated)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/hanogin.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": false,
+        "finding": "No availability for Nov 9–15 on Booking.com at capture time.",
+        "note": "9.6/10 rated hanok B&B with included breakfast — long windows sell out early; try direct contact."
       }
     },
     {
@@ -4153,6 +4598,14 @@
         "note": "SONO's official site confirms the renamed Gyeongju property, current rooms, 15:00/11:00 hours, layouts and after-22:00 advance-contact rule.",
         "canonicalName": "SONO Calm Gyeongju",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T15:24:49Z",
+        "source": "Booking.com property page (dated)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/daemyung-resort-gyeongju.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": false,
+        "finding": "No availability for Nov 9–15 on Booking.com at capture time; all kitchenette suites marked unavailable for the dates.",
+        "note": "Booking slug is legacy 'daemyung-resort-gyeongju' (ex-Daemyung Resort). Score 7.5/10."
       }
     },
     {
@@ -4221,6 +4674,21 @@
         "note": "Kensington's official property page confirms the resort; current trusted property data confirms the address, apartment layouts and normal hours.",
         "canonicalName": "Kensington Resort Gyeongju",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T15:04:24Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/kensington-resort-gyeongju.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Kensington Deluxe — Fully Renovated (2 full beds, 746 ft² apartment)",
+        "beds": "2 full beds",
+        "pricePerNight": 160,
+        "totalStay": 957,
+        "currency": "USD (display conversion; 30% deal applied; 10% tax excluded)",
+        "breakfastIncluded": true,
+        "freeCancellation": "Free cancellation before November 2, 2026 — window closes 7 days out (penalty text cut at capture)",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Best Gyeongju value so far: $957/6 nights WITH breakfast. Star rating inconsistent on source (3★ vs 4★)."
       }
     },
     {
@@ -4289,6 +4757,21 @@
         "note": "LOTTE confirms the hotel, address, 15:00/11:00 hours, room categories, occupancy and ocean-view facilities; reconfirm the exact Premier Double bed in live inventory.",
         "canonicalName": "SIGNIEL BUSAN",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T15:46:13Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/signiel-busan.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Premier Double with City View (lounge access)",
+        "beds": "1 king bed",
+        "pricePerNight": 297,
+        "totalStay": 2306,
+        "currency": "USD (display conversion; 7% deal applied; 10% service charge included, 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 10, 2026 — 5 days out; then first night",
+        "prepayment": "Pay nothing until November 8, 2026",
+        "note": "Michelin 2 Keys. Cheapest one-king 5★ refundable in Busan so far."
       }
     },
     {
@@ -4357,6 +4840,21 @@
         "note": "The official Paradise page confirms the Premium Deluxe Ocean King, king bed, private bathroom amenities and hotel contact; VISITKOREA confirms the property and resort facilities.",
         "canonicalName": "Paradise Hotel Busan",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T15:59:54Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/paradise-busan.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Deluxe Double City View (Main Building, pool+fitness incl.)",
+        "beds": "1 king bed",
+        "pricePerNight": 246,
+        "totalStay": 1915,
+        "currency": "USD (display conversion; 10% service charge included, 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 13, 2026 — 2 days out; then first night",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Cheaper $1,581 partner offer exists but is pay-in-advance with no modifications. Beachfront casino/spa property."
       }
     },
     {
@@ -4425,6 +4923,21 @@
         "note": "Marriott confirms the property, address, 15:00/12:00 hours, rooms and resort facilities; VISITKOREA separately confirms the hotel details.",
         "canonicalName": "The Westin Josun Busan",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T15:58:15Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/the-westin-chosun-busan.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Deluxe Park King (Dongbaek Park view)",
+        "beds": "1 full bed (page spec)",
+        "pricePerNight": 224,
+        "totalStay": 1742,
+        "currency": "USD (display conversion; 10% service charge included, 10% VAT excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 13, 2026 (penalty text cut at capture — re-verify)",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Slug is legacy 'the-westin-chosun-busan'. Beachfront between Dongbaek Island and Haeundae."
       }
     },
     {
@@ -4699,6 +5212,21 @@
         "note": "LOTTE confirms the property, Premier Double/Twin categories, 15:00/11:00 hours, city view and central Busan facilities.",
         "canonicalName": "LOTTE HOTEL BUSAN",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T15:58:15Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/lotte-busan.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Deluxe Double Room (city view)",
+        "beds": "1 king bed",
+        "pricePerNight": 162,
+        "totalStay": 1256,
+        "currency": "USD (display conversion; 10% service charge included, 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 14, 2026 — day before arrival (penalty text cut at capture — re-verify)",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Best one-king 5★ value in Busan so far. Sauna/gym is a paid add-on for Deluxe rooms. 5 left at capture."
       }
     },
     {
@@ -4767,6 +5295,21 @@
         "note": "Avani confirms the 289-room hotel, address, 15:00/11:00 hours, king rooms, five-minute Seomyeon proximity and facilities.",
         "canonicalName": "Avani Central Busan",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T15:57:55Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/avani-central-busan.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Deluxe King with Mountain View (high floor)",
+        "beds": "1 queen bed (page spec despite 'King' name)",
+        "pricePerNight": 86,
+        "totalStay": 599,
+        "currency": "USD (Genius member rate, 18% off; 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 12, 2026 — 3 days out; then first night (no-show = total)",
+        "prepayment": "Pay nothing until November 10, 2026",
+        "note": "Cheapest refundable capture in Busan (member pricing; non-member slightly higher). 24h desk, near Seomyeon."
       }
     },
     {
@@ -4838,6 +5381,21 @@
         "distinctFrom": [
           "busan-ramada-encore-haeundae"
         ]
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T16:04:13Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/ramada-encore-by-wyndham-busan.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Superior Double (Premier $2/nt more)",
+        "beds": "1 full bed",
+        "pricePerNight": 94,
+        "totalStay": 655,
+        "currency": "USD (display conversion; 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 13, 2026 — 2 days out; then first night",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Queen room $116/nt; Queen Studio $129/nt. Next to Busan Station; 24h desk + laundry."
       }
     },
     {
@@ -4909,6 +5467,21 @@
         "distinctFrom": [
           "busan-toyoko-haeundae2"
         ]
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T16:02:28Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/toyoko-inn-busan-no-1.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Economy Double Room",
+        "beds": "1 full bed",
+        "pricePerNight": 58,
+        "totalStay": 406,
+        "currency": "USD (display conversion; 8% deal applied; 10% tax excluded)",
+        "breakfastIncluded": true,
+        "freeCancellation": "Free cancellation before November 14, 2026 — ⚠️ inside 1 day the penalty is the TOTAL stay price",
+        "prepayment": "Pay nothing until November 12, 2026",
+        "note": "Cheapest refundable capture of the entire trip, WITH free breakfast. At Busan Station exit 1; 24h desk; coin laundry. Small economy room."
       }
     },
     {
@@ -5127,7 +5700,34 @@
     "verifiedPrimaryCityHotels": 55,
     "identityAuditLastChecked": "2026-08-10",
     "verifiedHotelRecords": 69,
-    "duplicateHotelRecords": 0
+    "duplicateHotelRecords": 0,
+    "refundableRateCaptures": {
+      "lastRun": "2026-08-18",
+      "stay": "Seoul Nov 1–9, 2026 (8 nights, 2 adults)",
+      "captured": [
+        "seoul-somerset-palace",
+        "seoul-l7-myeongdong",
+        "seoul-four-seasons",
+        "seoul-moxy-myeongdong",
+        "seoul-fairmont",
+        "seoul-nine-tree",
+        "seoul-skypark-myeongdong3",
+        "seoul-lotte-hotel",
+        "seoul-le-meridien-myeongdong",
+        "seoul-shilla-stay-gwanghwamun",
+        "seoul-westin-josun",
+        "seoul-lescape",
+        "seoul-nine-tree-myeongdong2",
+        "seoul-ibis-insadong",
+        "seoul-ibis-styles",
+        "seoul-ibis-ambassador-myeongdong",
+        "seoul-nine-tree-insadong",
+        "seoul-courtyard-myeongdong",
+        "Grand Hyatt Incheon (arrival-night fallback)"
+      ],
+      "history": "data/pricing-history.json (append-only, UTC-timestamped)",
+      "status": "Seoul 20/20. Gyeongju 15/15. Busan 13/20 captured (Ramada Station complete now) + Ramada Haeundae verified/pending; slugs resolved for Fairfield x2 + Crown Harbor (fetches pending); Wyndham Grand + ibis x2 likely not on Booking."
+    }
   },
   "arrivalNight": {
     "title": "First night in Seoul — officially verified late-arrival shortlist",

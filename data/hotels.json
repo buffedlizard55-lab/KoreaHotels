@@ -1234,6 +1234,21 @@
         "note": "VISITKOREA and Commodore confirm the operating 262-room Bomun property, 14:00/12:00 hours, room classes and resort facilities.",
         "canonicalName": "Commodore Hotel Gyeongju",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T14:47:34Z",
+        "source": "Booking.com search-results card (property-page capture pending)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/commodore-gyeongju.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Imperial Suite with Mountain View",
+        "beds": "2 beds (1 twin, 1 full)",
+        "pricePerNight": 186,
+        "totalStay": 1254,
+        "currency": "USD (display conversion; tax note not yet captured)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free-cancellation flag confirmed on the dated card — exact deadline pending property-page capture",
+        "prepayment": "Not yet captured",
+        "note": "Card-level capture only; 3 units left at this price. Full terms on next pass."
       }
     },
     {
@@ -5424,7 +5439,7 @@
         "Grand Hyatt Incheon (arrival-night fallback)"
       ],
       "history": "data/pricing-history.json (append-only, UTC-timestamped)",
-      "status": "Seoul 20/20 accounted for (18 captured + Aloft render-fail + Four Points unlisted). Gyeongju 1/15 captured (The-K) + market snapshot; Busan 0/20 not started."
+      "status": "Seoul 20/20 accounted for. Gyeongju 3/15 captured or card-captured (The-K full, Commodore card-level, market snapshots) + 2 more slugs resolved (Hwangnamkwan, HanokInn); Wiyeonjae likely not on Booking. Busan 0/20 not started."
     }
   },
   "arrivalNight": {

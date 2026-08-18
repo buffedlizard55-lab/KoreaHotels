@@ -813,6 +813,49 @@
       "capturedAtUtc": "2026-08-18T13:43:12Z",
       "finding": "Gyeongju slug guesses that 404'd (do not retry): hilton-gyeongju, hwangnamkwan, commodore-hotel-gyeongju, lahan-select-gyeongju, sono-calm-gyeongju. Resolved via search: The-K = the-k-gyeong-ju. Gyeongju slugs are largely non-guessable; next run should search-resolve each remaining property (Hilton, Commodore, Lahan, Hwangnamkwan, SONO Calm, Kolon, GG, KINOCK, Swiss Rosen, Rivertain, HanokInn, Wiyeonjae, Nadul, Kensington).",
       "note": "Busan (20 hotels, Nov 15-22) not yet started."
+    },
+    {
+      "captureId": "2026-08-18T14:47:34Z-gyeongju-4-5star-market",
+      "hotelId": null,
+      "scope": "market-snapshot",
+      "capturedAtUtc": "2026-08-18T14:47:34Z",
+      "timestampSource": "booking.com chal_t=1787064454506",
+      "sourceUrl": "https://www.booking.com/searchresults.html?ss=Gyeongju&checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&nflt=fc%3D2%3Bclass%3D4%3Bclass%3D5",
+      "finding": "Gyeongju 4-5-star + free-cancellation filter for Nov 9-15, 2026: 49 properties found, and the page warned 'Based on your filters, 86% of places to stay are unavailable on our site' - upper-mid refundable inventory for this window is much tighter than Seoul's. Queen-bed rooms: 15, king: 5. No-prepayment rates: only 12.",
+      "note": "Implication: for Gyeongju, book refundable EARLY; the resort tier is thin for these dates."
+    },
+    {
+      "captureId": "2026-08-18T14:47:34Z-commodore-gyeongju-card",
+      "hotelId": "gyeongju-commodore",
+      "propertyName": "Commodore Hotel Gyeongju",
+      "propertyVerifiedBy": "Search-results card title 'Commodore Hotel Gyeongju' (4.1 mi from downtown = Bomun resort zone, matching repo area 'Bomun Lake Resort'); 8.0/10 from 632 reviews",
+      "bookingSlug": "commodore-gyeongju",
+      "captureLevel": "search-results card - property-page capture (with full cancellation/prepayment text) still pending",
+      "capturedAtUtc": "2026-08-18T14:47:34Z",
+      "timestampSource": "booking.com chal_t=1787064454506 / srepoch=1787064457",
+      "sourceUrl": "https://www.booking.com/hotel/kr/commodore-gyeongju.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Imperial Suite with Mountain View",
+          "beds": "2 beds (1 twin, 1 full) - private suite",
+          "meetsOneBedNeed": false,
+          "unitsLeftAsShown": "We have 3 left at this price",
+          "pricePerNightUsd": 186,
+          "totalStayUsd": 1254,
+          "priceNote": "Discounted from $1,365; card-level capture - tax note and cancellation deadline text NOT yet read; verify on the property page before booking",
+          "cancellationAsShown": "Card showed the 'Free cancellation' flag only; exact deadline pending property-page capture.",
+          "prepaymentAsShown": "Not yet captured."
+        }
+      ]
+    },
+    {
+      "captureId": "2026-08-18T14:47:34Z-gyeongju-slug-run2",
+      "hotelId": null,
+      "scope": "slug-resolutions",
+      "capturedAtUtc": "2026-08-18T14:47:34Z",
+      "finding": "Resolved slugs: Commodore = commodore-gyeongju; Hwangnamkwan = hwangnamguan-hanok-village-gyeongjusi (Booking name 'Hwangnamguan Hanok Village', 2-star, address 1038 Poseok-ro; same property as repo's 'Hwangnamkwan Hanok Hotel' per matching address/phone on cross-check; NOTE check-in window 15:00-22:00, NOT 24-hour); HanokInn = hanogin (9.8/10, 412 reviews, Korean breakfast included). Wiyeonjae Hanok Stay: no Booking.com listing found in search (kr-gyeongju/Rakuten/VisitKorea only; 5-room hanok booking via wiyeonjae.kr) - likely NOT capturable via this source. Nadul Hanok: not yet searched.",
+      "note": "Still to resolve: Hilton, Lahan Select, SONO Calm, Kolon, GG, KINOCK, Benikea Swiss Rosen, Rivertain, Nadul, Kensington (the 4-5-star filtered search page contains these cards in later chunks - next run can harvest from chunk 1+ of the same URL, or property-page capture Commodore/Hwangnamkwan/HanokInn with the resolved slugs)."
     }
   ]
 }

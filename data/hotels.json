@@ -983,6 +983,21 @@
         "note": "Josun Hotels & Resorts confirms the current Grand Josun Busan property and direct booking channel; it is not a LOTTE property.",
         "canonicalName": "Grand Josun Busan",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T15:46:13Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/grand-josun-busan.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Premier King City View (sauna + private lounge)",
+        "beds": "1 queen bed (page spec despite 'King' name)",
+        "pricePerNight": 347,
+        "totalStay": 2431,
+        "currency": "USD (display conversion; 10% tax excluded)",
+        "breakfastIncluded": true,
+        "freeCancellation": "Free cancellation before November 13, 2026 — inside 2 days the penalty is the TOTAL stay price",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Cheapest refundable row at this hotel: $280/night ($1,961) without breakfast. 3 left at capture."
       }
     },
     {
@@ -1063,6 +1078,21 @@
         "note": "Hyatt confirms the operating Marine City property, accommodations, dining and wellness facilities.",
         "canonicalName": "Park Hyatt Busan",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T15:46:13Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/park-hyatt-busan.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "King Room with Ocean View",
+        "beds": "1 king bed",
+        "pricePerNight": 532,
+        "totalStay": 3721,
+        "currency": "USD (display conversion; 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 14, 2026 — day before arrival; then first night",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Refundability premium is steep: non-refundable is $372/night ($2,605)."
       }
     },
     {
@@ -4674,6 +4704,21 @@
         "note": "LOTTE confirms the hotel, address, 15:00/11:00 hours, room categories, occupancy and ocean-view facilities; reconfirm the exact Premier Double bed in live inventory.",
         "canonicalName": "SIGNIEL BUSAN",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T15:46:13Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/signiel-busan.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Premier Double with City View (lounge access)",
+        "beds": "1 king bed",
+        "pricePerNight": 297,
+        "totalStay": 2306,
+        "currency": "USD (display conversion; 7% deal applied; 10% service charge included, 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 10, 2026 — 5 days out; then first night",
+        "prepayment": "Pay nothing until November 8, 2026",
+        "note": "Michelin 2 Keys. Cheapest one-king 5★ refundable in Busan so far."
       }
     },
     {
@@ -5538,7 +5583,7 @@
         "Grand Hyatt Incheon (arrival-night fallback)"
       ],
       "history": "data/pricing-history.json (append-only, UTC-timestamped)",
-      "status": "Seoul 20/20. Gyeongju 15/15 (3 pending: Hilton render, GG slug, Kolon). Busan opened: market snapshot + Park Hyatt/Signiel/Grand Josun identity-verified (prices pending chunk 1); Paradise slug unresolved; 16 more to resolve."
+      "status": "Seoul 20/20. Gyeongju 15/15. Busan 4/20 (Park Hyatt, Signiel, Grand Josun captured + market snapshot); Paradise slug unresolved; 16 more to resolve."
     }
   },
   "arrivalNight": {

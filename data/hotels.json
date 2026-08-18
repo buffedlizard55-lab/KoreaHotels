@@ -1142,6 +1142,14 @@
         "note": "VISITKOREA confirms Hwangnamguan at 1038 Poseok-ro, its hanok buildings, and bathrooms/toilets in each room; confirm the current booking channel and bedding directly.",
         "canonicalName": "Hwangnamkwan Hanok Hotel (황남관 한옥호텔)",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T15:00:49Z",
+        "source": "Booking.com property page (dated)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/hwangnamguan-hanok-village-gyeongjusi.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": false,
+        "finding": "No availability for the full Nov 9–15 window on Booking.com at capture time; only 3-night slices bookable (e.g. Nov 14–17 from $294).",
+        "note": "Booking name: 'Hwangnamguan Hanok Village' (same property). Check-in ends 22:00 — not a 24-hour desk. Try direct booking for the full window."
       }
     },
     {
@@ -1236,19 +1244,19 @@
         "existenceStatus": "Verified operating property"
       },
       "refundableRate": {
-        "capturedAtUtc": "2026-08-18T14:47:34Z",
-        "source": "Booking.com search-results card (property-page capture pending)",
+        "capturedAtUtc": "2026-08-18T15:00:48Z",
+        "source": "Booking.com property page (dated rate table)",
         "sourceUrl": "https://www.booking.com/hotel/kr/commodore-gyeongju.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
         "available": true,
         "room": "Imperial Suite with Mountain View",
-        "beds": "2 beds (1 twin, 1 full)",
-        "pricePerNight": 186,
-        "totalStay": 1254,
-        "currency": "USD (display conversion; tax note not yet captured)",
+        "beds": "2 beds (1 twin + 1 full)",
+        "pricePerNight": 205,
+        "totalStay": 1365,
+        "currency": "USD (display conversion; 10% service charge included, 10% tax excluded)",
         "breakfastIncluded": false,
-        "freeCancellation": "Free-cancellation flag confirmed on the dated card — exact deadline pending property-page capture",
-        "prepayment": "Not yet captured",
-        "note": "Card-level capture only; 3 units left at this price. Full terms on next pass."
+        "freeCancellation": "Free cancellation before November 8, 2026 — free until 1 day before arrival; inside 1 day, first night",
+        "prepayment": "Pay nothing until November 6, 2026",
+        "note": "Best Gyeongju terms captured so far. Search card also showed a $186/nt ($1,254) deal price at the same moment — check signed-in price. Pools temporarily closed; 3 rooms left at capture."
       }
     },
     {
@@ -4235,6 +4243,14 @@
         "note": "VISITKOREA confirms seven rooms, 14:30/10:30 hours, in-room toilets and immediate Old Town access.",
         "canonicalName": "HanokInn",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T15:00:49Z",
+        "source": "Booking.com property page (dated)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/hanogin.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": false,
+        "finding": "No availability for Nov 9–15 on Booking.com at capture time.",
+        "note": "9.6/10 rated hanok B&B with included breakfast — long windows sell out early; try direct contact."
       }
     },
     {
@@ -5439,7 +5455,7 @@
         "Grand Hyatt Incheon (arrival-night fallback)"
       ],
       "history": "data/pricing-history.json (append-only, UTC-timestamped)",
-      "status": "Seoul 20/20 accounted for. Gyeongju 3/15 captured or card-captured (The-K full, Commodore card-level, market snapshots) + 2 more slugs resolved (Hwangnamkwan, HanokInn); Wiyeonjae likely not on Booking. Busan 0/20 not started."
+      "status": "Seoul 20/20. Gyeongju 6/15 progressed (Commodore full, The-K full, Hwangnamkwan + HanokInn no-availability negatives, market x3); Wiyeonjae not on Booking. Remaining Gyeongju: Hilton, Lahan, SONO Calm, Kolon, GG, KINOCK, Swiss Rosen, Rivertain, Nadul, Kensington. Busan 0/20."
     }
   },
   "arrivalNight": {

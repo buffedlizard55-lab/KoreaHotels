@@ -101,7 +101,15 @@ All prices: Booking.com USD display, taxes as noted per row (most exclude 10% ta
 
 | Hotel (verified on page) | Refundable? | Room | $/night | 6-night total | Free cancellation until | Prepay |
 |---|---|---|---:|---:|---|---|
+| Commodore Hotel Gyeongju | ✅ | Imperial Suite Mtn View (2 beds) | $205 | $1,365 | **Nov 8, 2026** (1 day out; then 1st night) | Pay nothing until Nov 6 |
 | The K Hotel Gyeongju | ✅ | Hwangnyoung View Ondol (4 futons) | $125 | $752 | **Nov 6, 2026** — ⚠️ inside 3 days the penalty is the **total stay** | Full stay charged 3 days out |
+| Hwangnamkwan ("Hwangnamguan Hanok Village") | 🚫 full window | — | — | — | **No availability Nov 9–15**; only 3-night slices (e.g. Nov 14–17 from $294) | — |
+| HanokInn | 🚫 full window | — | — | — | **No availability Nov 9–15** on Booking.com | — |
+| Wiyeonjae Hanok Stay | 🚫 not listed | — | — | — | No Booking.com listing found (books direct at wiyeonjae.kr) | — |
+
+**⚠️ The Gyeongju pattern so far:** the heritage/hanok tier does **not** stretch across the full 6-night window — both hanok options in the shortlist show no availability for Nov 9–15, the 4–5★ refundable filter returns just 49 properties with an "86% unavailable" warning, and only 12 no-prepayment rates exist. If a hanok stay matters, either book direct immediately, split the stay, or shift dates. Available 4–5★ free-cancellation properties that ARE bookable for the whole window are largely *not* on the repo shortlist (e.g. Hanok stay Mokhyang $233/nt w/ breakfast, 1 left; Muuun — recorded in the history file as market context only).
+
+**Record-vs-page checks (Gyeongju so far):** The-K name matches (page "The K"); Commodore matches (page also says "Chosun"; pools temporarily closed; 8.0/10); Hwangnamkwan = Booking "Hwangnamguan Hanok Village," same property, **check-in ends 22:00**; HanokInn matches (9.6/10, staff 9.9).
 
 **Record-vs-page check (The K):** name matches (repo "The-K" / page "The K"); address 45 Expo-ro is the Expo/HICO zone adjacent to the repo's "Bomun Lake Resort" area label — compatible. New data point: Booking guest score 7.1/10 (66 reviews), low for the shortlist. 24-hour front desk confirmed on-page.
 

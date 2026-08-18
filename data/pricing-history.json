@@ -856,6 +856,87 @@
       "capturedAtUtc": "2026-08-18T14:47:34Z",
       "finding": "Resolved slugs: Commodore = commodore-gyeongju; Hwangnamkwan = hwangnamguan-hanok-village-gyeongjusi (Booking name 'Hwangnamguan Hanok Village', 2-star, address 1038 Poseok-ro; same property as repo's 'Hwangnamkwan Hanok Hotel' per matching address/phone on cross-check; NOTE check-in window 15:00-22:00, NOT 24-hour); HanokInn = hanogin (9.8/10, 412 reviews, Korean breakfast included). Wiyeonjae Hanok Stay: no Booking.com listing found in search (kr-gyeongju/Rakuten/VisitKorea only; 5-room hanok booking via wiyeonjae.kr) - likely NOT capturable via this source. Nadul Hanok: not yet searched.",
       "note": "Still to resolve: Hilton, Lahan Select, SONO Calm, Kolon, GG, KINOCK, Benikea Swiss Rosen, Rivertain, Nadul, Kensington (the 4-5-star filtered search page contains these cards in later chunks - next run can harvest from chunk 1+ of the same URL, or property-page capture Commodore/Hwangnamkwan/HanokInn with the resolved slugs)."
+    },
+    {
+      "captureId": "2026-08-18T15:00:48Z-commodore-gyeongju-full",
+      "hotelId": "gyeongju-commodore",
+      "propertyName": "Commodore Hotel Gyeongju",
+      "propertyVerifiedBy": "Page H1 'Commodore Hotel Gyeongju', address 422, Bomun-ro (Bomun Tourism Complex - matches repo area 'Bomun Lake Resort'); description names it 'Commodore Hotel Gyeongju Chosun'",
+      "bookingSlug": "commodore-gyeongju",
+      "recordCheck": {
+        "repoName": "Commodore Hotel Gyeongju",
+        "pageName": "Commodore Hotel Gyeongju (Chosun)",
+        "verdict": "match",
+        "newDataPoints": "Booking score 8.0/10 (632 reviews); '2 swimming pools (temporarily closed)' per amenities list at capture time."
+      },
+      "capturedAtUtc": "2026-08-18T15:00:48Z",
+      "timestampSource": "booking.com chal_t=17870652488654",
+      "sourceUrl": "https://www.booking.com/hotel/kr/commodore-gyeongju.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Imperial Suite with Mountain View",
+          "beds": "2 beds (1 twin + 1 full)",
+          "meetsOneBedNeed": false,
+          "unitsLeftAsShown": "We have 3 left",
+          "pricePerNightUsd": 205,
+          "totalStayUsd": 1365,
+          "priceNote": "Property-page price; the dated search card separately showed a discounted deal price of $186/nt ($1,254 total) at the same timestamp - signed-in/member pricing may differ",
+          "taxNote": "Included: 10% service charge; Excluded: 10% TAX; 463 sq ft",
+          "meals": "Buffet breakfast $23/person/night (not included); rated 8.4",
+          "cancellationAsShown": "Free cancellation before November 8, 2026 - free until 1 day before arrival; within 1 day the fee is the cost of the first night; no-show fee is the total price of the reservation.",
+          "prepaymentAsShown": "Pay nothing until November 6, 2026 (auto-charge or pay-at-book choice).",
+          "note": "The most lenient Gyeongju terms captured so far (1-day cutoff, first-night penalty)."
+        }
+      ]
+    },
+    {
+      "captureId": "2026-08-18T15:00:49Z-hwangnamguan-hanok-village",
+      "hotelId": "gyeongju-hwangnamkwan",
+      "propertyName": "Hwangnamguan Hanok Village (repo: Hwangnamkwan Hanok Hotel)",
+      "propertyVerifiedBy": "Page H1 'Hwangnamguan Hanok Village', address 1038, Poseok-ro - matches repo property via address/phone cross-check (HotelsCombined lists it as 'Gyeongju Hwangnamkwan Hanok Hotel' at the same address); Booking score 8.4/10 (733 reviews), location 9.6",
+      "bookingSlug": "hwangnamguan-hanok-village-gyeongjusi",
+      "recordCheck": {
+        "repoName": "Hwangnamkwan Hanok Hotel",
+        "pageName": "Hwangnamguan Hanok Village (2-star)",
+        "verdict": "same property, different romanization/marketing name",
+        "newDataPoints": "Check-in window 15:00-22:00 (NOT 24-hour); minimum age 18; no cribs/extra beds."
+      },
+      "capturedAtUtc": "2026-08-18T15:00:49Z",
+      "timestampSource": "booking.com chal_t=17870652499269",
+      "sourceUrl": "https://www.booking.com/hotel/kr/hwangnamguan-hanok-village-gyeongjusi.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": false,
+      "finding": "Page stated: 'We have no availability here between Mon, Nov 9, 2026 and Sun, Nov 15, 2026.' The FULL 6-night window is not bookable here via Booking.com at capture time. Booking's own 'Alternative dates' suggestions were 3-night slices only: Nov 9-12 from $590, Nov 10-13 from $590, Nov 11-14 from $609, Nov 14-17 from $294, Nov 15-18 from $276.",
+      "note": "Consistent with the 86%-unavailable market finding: heritage-stay inventory does not stretch across the full window. Direct-site booking might still work."
+    },
+    {
+      "captureId": "2026-08-18T15:00:49Z-hanokinn",
+      "hotelId": "gyeongju-hanokinn",
+      "propertyName": "HanokInn",
+      "propertyVerifiedBy": "Page H1 'HanokInn', address 19 Poseok-ro 1050beon-gil (Hwangnam-dong hanok district - matches repo area 'Hwangnadan-gil / Old Town'); Booking score 9.6/10 (606 reviews), staff 9.9",
+      "bookingSlug": "hanogin",
+      "recordCheck": {
+        "repoName": "HanokInn",
+        "pageName": "HanokInn",
+        "verdict": "match",
+        "newDataPoints": "Exceptional breakfast included (vegetarian/vegan/Asian); private check-in/out; no elevator; 2-bed family rooms."
+      },
+      "capturedAtUtc": "2026-08-18T15:00:49Z",
+      "timestampSource": "booking.com chal_t=17870652499425",
+      "sourceUrl": "https://www.booking.com/hotel/kr/hanogin.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": false,
+      "finding": "Page stated: 'We have no availability here between Mon, Nov 9, 2026 and Sun, Nov 15, 2026.' Not bookable for the full window via Booking.com at capture time.",
+      "note": "Small hanok B&B (few rooms); long windows sell out early. Try direct contact."
+    },
+    {
+      "captureId": "2026-08-18T15:00:50Z-gyeongju-available-alternatives-note",
+      "hotelId": null,
+      "scope": "market-snapshot",
+      "capturedAtUtc": "2026-08-18T15:00:50Z",
+      "timestampSource": "booking.com srepoch=1787065250",
+      "sourceUrl": "https://www.booking.com/searchresults.html?ss=Gyeongju&checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&nflt=fc%3D2%3Bclass%3D4%3Bclass%3D5",
+      "finding": "Chunk-1 cards of the 4-5-star free-cancellation search show AVAILABLE properties for the full window that are NOT in the repo shortlist - all hanok/guesthouse-style: 'Hanok stay Dagagam' (card top), 'Hanok stay Mokhyang' Family Room with Mountain View (2 full beds, breakfast included, free cancellation, 1 left) $233/nt ($1,565/6nt), 'Muuun' Family Room with Garden View (2 beds, breakfast included, free cancellation). None of the repo's remaining resort hotels (Hilton, Lahan, SONO Calm, Kensington, Kolon) appeared in the first two chunks of cards - they are likely deeper in the list or lack bookable inventory for the window.",
+      "note": "Recorded as market context only - these properties are not in the repo's verified shortlist, so no cards/badges were created for them."
     }
   ]
 }

@@ -1418,6 +1418,66 @@
       "capturedAtUtc": "2026-08-18T15:58:15Z",
       "finding": "L7 HAEUNDAE by LOTTE: slug l7-haeundae-busan VERIFIED (H1 + 55 Haeun-daero 570beon-gil; 9.0/10/2,935; 1-min from beach; 24h desk) - rate table began (Twin Standard $184/nt visible, row cut), price pending. Paradise Hotel Busan: slug paradise-busan VERIFIED (H1 + 296 Haeundaehaebyeon-ro; 9.0/10/706; beachfront, casino, outdoor spa; 24h desk per h-rez mirror) - rate table past Genius promo, price pending.",
       "note": "Busan: 7 fully captured + L7/Paradise verified/pending. Remaining to resolve: ASTI, Toyoko x2, Ramada Encore x2, Fairfield x2, ibis x2, Crown Harbor, Wyndham Grand Ijin."
+    },
+    {
+      "captureId": "2026-08-18T15:59:54Z-l7-haeundae-busan",
+      "hotelId": "busan-l7-haeundae",
+      "propertyName": "L7 HAEUNDAE by LOTTE HOTELS",
+      "propertyVerifiedBy": "Prior-run verification (H1 + 55 Haeun-daero 570beon-gil; 9.0/2,935; 1-min from Haeundae Beach); price rows read this run",
+      "bookingSlug": "l7-haeundae-busan",
+      "capturedAtUtc": "2026-08-18T15:59:54Z",
+      "timestampSource": "booking.com chal_t=1787068794963",
+      "sourceUrl": "https://www.booking.com/hotel/kr/l7-haeundae-busan.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Standard King Town View (4F-9F, 248 sq ft)",
+          "beds": "1 king bed",
+          "meetsOneBedNeed": true,
+          "unitsLeftAsShown": "We have 2 left",
+          "pricePerNightUsd": 185,
+          "totalStayUsd": 1294,
+          "taxNote": "Excluded: 10% TAX",
+          "meals": "Buffet breakfast $21/person/night (not included)",
+          "cancellationAsShown": "Free cancellation before November 12, 2026 - free until 3 days before arrival; within 3 days the fee is the cost of the first night; no-show fee the same.",
+          "prepaymentAsShown": "No prepayment needed - pay at the property.",
+          "note": "Second one-KING value pick of Busan (with Lotte Hotel). Also: Superior Queen (full bed) $186/nt ($1,301); Superior Queen Ocean View $193/nt ($1,350)."
+        }
+      ]
+    },
+    {
+      "captureId": "2026-08-18T15:59:54Z-paradise-hotel-busan",
+      "hotelId": "busan-paradise",
+      "propertyName": "Paradise Hotel Busan",
+      "propertyVerifiedBy": "Prior-run verification (H1 + 296 Haeundaehaebyeon-ro; 9.0/706; beachfront, casino, outdoor spa); price rows read this run",
+      "bookingSlug": "paradise-busan",
+      "capturedAtUtc": "2026-08-18T15:59:54Z",
+      "timestampSource": "booking.com chal_t=1787068795039",
+      "sourceUrl": "https://www.booking.com/hotel/kr/paradise-busan.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Deluxe Double Room with City View - Main Building (355 sq ft; includes once-daily pool+fitness access for 2)",
+          "beds": "1 king bed",
+          "meetsOneBedNeed": true,
+          "unitsLeftAsShown": "We have 2 left",
+          "pricePerNightUsd": 246,
+          "totalStayUsd": 1915,
+          "taxNote": "Included: 10% service charge; Excluded: 10% TAX",
+          "meals": "Breakfast $45/person/night (not included; rated 8.9); breakfast-included variant $303/nt ($2,354)",
+          "cancellationAsShown": "Free cancellation before November 13, 2026 - free until 2 days before arrival; within 2 days charged the cost of the first night; no-show fee the same.",
+          "prepaymentAsShown": "No prepayment needed - pay at the property.",
+          "comparisonNote": "Partner Offer at $207/nt ($1,581, KRW service/tax amounts per stay) is cheaper but pay-in-advance with no modifications."
+        }
+      ]
+    },
+    {
+      "captureId": "2026-08-18T15:59:54Z-busan-run6",
+      "hotelId": null,
+      "scope": "unresolved-attempts",
+      "capturedAtUtc": "2026-08-18T15:59:54Z",
+      "finding": "Failed slug guesses (do not retry): asti-hotel-busan, wyndham-grand-busan-ijin, crown-harbor-hotel-busan. Remaining to resolve via search: ASTI, Toyoko Inn Haeundae No.2, Toyoko Inn Station No.1, Ramada Encore Haeundae, Ramada Encore Station, Fairfield Haeundae, Fairfield Songdo, ibis Ambassador Haeundae, ibis budget Haeundae, Crown Harbor, Wyndham Grand Ijin.",
+      "note": "Busan: 9 fully captured. 11 remaining."
     }
   ]
 }

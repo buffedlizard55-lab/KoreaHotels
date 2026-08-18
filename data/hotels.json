@@ -802,6 +802,21 @@
         "note": "LOTTE confirms the current Haeundae L7 property, rooms, pool, facilities and booking channel.",
         "canonicalName": "L7 HAEUNDAE by LOTTE HOTELS",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T15:59:54Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/l7-haeundae-busan.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Standard King Town View (4F–9F)",
+        "beds": "1 king bed",
+        "pricePerNight": 185,
+        "totalStay": 1294,
+        "currency": "USD (display conversion; 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 12, 2026 — 3 days out; then first night",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "One minute from Haeundae Beach. Queen-bed variants $186–193/night. 2 king rooms left at capture."
       }
     },
     {
@@ -4802,6 +4817,21 @@
         "note": "The official Paradise page confirms the Premium Deluxe Ocean King, king bed, private bathroom amenities and hotel contact; VISITKOREA confirms the property and resort facilities.",
         "canonicalName": "Paradise Hotel Busan",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T15:59:54Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/paradise-busan.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Deluxe Double City View (Main Building, pool+fitness incl.)",
+        "beds": "1 king bed",
+        "pricePerNight": 246,
+        "totalStay": 1915,
+        "currency": "USD (display conversion; 10% service charge included, 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 13, 2026 — 2 days out; then first night",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Cheaper $1,581 partner offer exists but is pay-in-advance with no modifications. Beachfront casino/spa property."
       }
     },
     {
@@ -5643,7 +5673,7 @@
         "Grand Hyatt Incheon (arrival-night fallback)"
       ],
       "history": "data/pricing-history.json (append-only, UTC-timestamped)",
-      "status": "Seoul 20/20. Gyeongju 15/15. Busan 9/20 progressed (Avani, Westin Josun, Lotte, Shilla Stay, Park Hyatt, Signiel, Grand Josun captured; L7 + Paradise verified/pending). Remaining: ASTI, Toyoko x2, Ramada x2, Fairfield x2, ibis x2, Crown Harbor, Wyndham."
+      "status": "Seoul 20/20. Gyeongju 15/15. Busan 11/20 (9 fully captured + L7/Paradise now captured too = 11; remaining 9: ASTI, Toyoko x2, Ramada x2, Fairfield x2, ibis x2 + Crown Harbor, Wyndham)."
     }
   },
   "arrivalNight": {

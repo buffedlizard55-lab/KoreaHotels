@@ -5583,7 +5583,7 @@
         "Grand Hyatt Incheon (arrival-night fallback)"
       ],
       "history": "data/pricing-history.json (append-only, UTC-timestamped)",
-      "status": "Seoul 20/20. Gyeongju 15/15. Busan 4/20 (Park Hyatt, Signiel, Grand Josun captured + market snapshot); Paradise slug unresolved; 16 more to resolve."
+      "status": "Seoul 20/20. Gyeongju 15/15. Busan 5/20 progressed (Park Hyatt, Signiel, Grand Josun captured; Shilla Stay verified, price pending; market snapshot). Bad slugs logged: l7-haeundae-by-lotte, ibis x2, paradise-hotel-busan."
     }
   },
   "arrivalNight": {

@@ -1280,6 +1280,14 @@
           "prepaymentAsShown": "No prepayment needed - pay at the property."
         }
       ]
+    },
+    {
+      "captureId": "2026-08-18T15:53:08Z-busan-run3",
+      "hotelId": null,
+      "scope": "partial-and-resolutions",
+      "capturedAtUtc": "2026-08-18T15:53:08Z",
+      "finding": "Shilla Stay Busan Haeundae: slug shilla-stay-haeundae VERIFIED (H1 + address 46, Haeundae-ro 570beon-gil; beachfront; 8.2/10 from 2,146 reviews; 1,800 ft from Haeundae Station per page) - rate table fell past the capture boundary, price pending chunk-1 read. Failed slug guesses (do not retry): l7-haeundae-by-lotte, ibis-ambassador-busan-haeundae (bounced to search results), ibis-budget-ambassador-busan-haeundae.",
+      "note": "Busan status: 3 fully captured + Shilla Stay verified/pending + market snapshot. Entry re-applied after a sandbox shell outage."
     }
   ]
 }

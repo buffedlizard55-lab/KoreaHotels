@@ -5538,7 +5538,7 @@
         "Grand Hyatt Incheon (arrival-night fallback)"
       ],
       "history": "data/pricing-history.json (append-only, UTC-timestamped)",
-      "status": "Seoul 20/20. Gyeongju 15/15 accounted: 7 refundable captured, 3 no-availability (Hwangnamkwan, HanokInn, SONO Calm), 2 not on Booking (Wiyeonjae, Nadul), 3 pending (Hilton render-fail x3, GG slug, Kolon unsearched). Busan 0/20 next."
+      "status": "Seoul 20/20. Gyeongju 15/15 (3 pending: Hilton render, GG slug, Kolon). Busan opened: market snapshot + Park Hyatt/Signiel/Grand Josun identity-verified (prices pending chunk 1); Paradise slug unresolved; 16 more to resolve."
     }
   },
   "arrivalNight": {

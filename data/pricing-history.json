@@ -1163,6 +1163,24 @@
       "capturedAtUtc": "2026-08-18T15:24:49Z",
       "finding": "Gyeongju final status - 15/15 accounted for: 7 refundable rates captured (Rivertain $490, Swiss Rosen $556, The-K $752, Kensington $957, Kinock queen $1,028, Commodore $1,365, Lahan $1,764); 3 no-availability for the full window (Hwangnamkwan, HanokInn, SONO Calm); 2 not listed on Booking.com (Wiyeonjae -> wiyeonjae.kr; Nadul Hanok -> gjhanok.com/hanok platforms, per wehome/kozaza listings); 3 unresolved this session: Hilton (rate table render-failed x2 + HTTP 500 on retry; identity + dates verified, slug gyeongju-hilton), GG Hotel (on Booking per Google ~$82 with 24h desk, but slug guesses gyeongju-gg-hotel and prior guesses failed; address 3 Taejong-ro 699beon-gil), Kolon Hotel (slug never attempted - not yet searched).",
       "note": "Next: Hilton/GG/Kolon retries, then the full Busan sweep (20 hotels, Nov 15-22)."
+    },
+    {
+      "captureId": "2026-08-18T15:36:28Z-busan-market-snapshot",
+      "hotelId": null,
+      "scope": "market-snapshot",
+      "capturedAtUtc": "2026-08-18T15:36:28Z",
+      "timestampSource": "booking.com chal_t=1787067388039",
+      "sourceUrl": "https://www.booking.com/searchresults.html?ss=Busan&checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&nflt=fc%3D2",
+      "finding": "Busan search with the Free cancellation filter returned 418 refundable properties for Nov 15-22, 2026 (227 hotels; Haeundae 93; 10 five-star; queen-bed rooms in 174, king 47; only 50 no-prepayment rates). Shortlist brands confirmed listed: Fairfield x2, Toyoko Inn x2, Shilla Stay x2, Ramada x1, Wyndham x1, Lotte x1, Park Hyatt x1, Avani x1, Westin x1. Cheapest verified example card: H avenue Songjeong (Haeundae, Standard Double 1 full bed, free cancellation) $54/nt, $381 total/7 nights.",
+      "note": "Refundable inventory for the Busan window is plentiful, unlike Gyeongju."
+    },
+    {
+      "captureId": "2026-08-18T15:36:28Z-busan-run1-verified-pending",
+      "hotelId": null,
+      "scope": "partial-and-resolutions",
+      "capturedAtUtc": "2026-08-18T15:36:28Z",
+      "finding": "Slug guesses verified on first try (identity + address + dated page): Park Hyatt Busan = park-hyatt-busan (51 Marine City 1-ro; 9.1/10); Signiel Busan = signiel-busan (30 Dalmaji-gil; 9.1/10; 'Michelin Keys 2 Hotel' noted on page); Grand Josun Busan = grand-josun-busan (292 Haeundaehaebyeon-ro beachfront; 9.2/10). ALL THREE rate tables began after the capture boundary - prices pending chunk-1 reads next run (labeled pending, not estimated). paradise-hotel-busan 404'd (do not retry); Paradise slug unresolved.",
+      "note": "Remaining Busan to resolve: Paradise, Shilla Stay Haeundae, L7 Haeundae, ASTI, Toyoko x2, Ramada Encore x2, Westin Josun, Fairfield x2, ibis x2, Lotte, Avani, Crown Harbor, Wyndham Grand Ijin."
     }
   ]
 }

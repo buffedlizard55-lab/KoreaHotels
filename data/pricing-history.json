@@ -1288,6 +1288,40 @@
       "capturedAtUtc": "2026-08-18T15:53:08Z",
       "finding": "Shilla Stay Busan Haeundae: slug shilla-stay-haeundae VERIFIED (H1 + address 46, Haeundae-ro 570beon-gil; beachfront; 8.2/10 from 2,146 reviews; 1,800 ft from Haeundae Station per page) - rate table fell past the capture boundary, price pending chunk-1 read. Failed slug guesses (do not retry): l7-haeundae-by-lotte, ibis-ambassador-busan-haeundae (bounced to search results), ibis-budget-ambassador-busan-haeundae.",
       "note": "Busan status: 3 fully captured + Shilla Stay verified/pending + market snapshot. Entry re-applied after a sandbox shell outage."
+    },
+    {
+      "captureId": "2026-08-18T15:55:38Z-shilla-stay-busan-haeundae",
+      "hotelId": "busan-shilla-stay",
+      "propertyName": "Shilla Stay Busan Haeundae",
+      "propertyVerifiedBy": "Prior-run verification (H1 + 46, Haeundae-ro 570beon-gil, beachfront, 8.2/10/2,146 reviews); price rows read this run",
+      "bookingSlug": "shilla-stay-haeundae",
+      "capturedAtUtc": "2026-08-18T15:55:38Z",
+      "timestampSource": "booking.com chal_t=1787068538140",
+      "sourceUrl": "https://www.booking.com/hotel/kr/shilla-stay-haeundae.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Standard Double Room with City View",
+          "beds": "1 full bed",
+          "meetsOneBedNeed": true,
+          "pricePerNightUsd": 184,
+          "totalStayUsd": 1288,
+          "priceNote": "54% off deal; original $2,800; total before taxes $1,287.92; 312 sq ft",
+          "taxNote": "Excluded: 10% TAX + City tax",
+          "meals": "American breakfast $20/person/night (not included); breakfast-included variant $215/nt ($1,502)",
+          "cancellationAsShown": "Free cancellation before November 12, 2026 - free until 3 days before arrival; within 3 days charged the cost of the first night; no-show fee the same.",
+          "prepaymentAsShown": "No prepayment needed - pay at the property.",
+          "note": "Cheapest one-bed refundable capture in Busan so far, at the beach."
+        }
+      ]
+    },
+    {
+      "captureId": "2026-08-18T15:55:38Z-busan-run4",
+      "hotelId": null,
+      "scope": "partial-and-resolutions",
+      "capturedAtUtc": "2026-08-18T15:55:38Z",
+      "finding": "Avani Central Busan: slug avani-central-busan VERIFIED (H1 + 133 Jeonpo-daero Nam-gu, near Seomyeon; 8.7/10/753 reviews; 24-hour front desk confirmed) - rate table past the Genius promo boundary, price pending. Failed slug guesses (do not retry): westin-chosun-busan, lotte-hotel-busan.",
+      "note": "Busan: 4 fully captured + Avani verified/pending. Remaining: Paradise, L7 Haeundae, ASTI, Toyoko x2, Ramada x2, Westin Josun, Fairfield x2, ibis x2, Lotte, Crown Harbor, Wyndham Grand."
     }
   ]
 }

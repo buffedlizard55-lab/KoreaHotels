@@ -395,6 +395,14 @@
         "note": "Accor confirms the operating Insadong property, address, normal hours and services; the recorded double room remains below the planner queen-width rule.",
         "canonicalName": "Ibis Ambassador Insadong (newly refurbished)",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T13:11:10Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/ibis-ambassador-insadong.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": false,
+        "finding": "Booking.com showed no availability for Nov 1–9, 2026 at capture time; check Accor/official site direct.",
+        "note": "Negative result on one source at one moment — not proof the hotel is full."
       }
     },
     {
@@ -2650,6 +2658,21 @@
         "note": "Marriott confirms the current Luxury Collection affiliation, 67 Toegye-ro address, 15:00/11:00 hours and hotel facilities.",
         "canonicalName": "L'Escape, A Luxury Collection Hotel, Seoul Myeongdong",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T13:11:39Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/l-39-escape.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Classic King Room with City View",
+        "beds": "1 king bed",
+        "pricePerNight": 305,
+        "totalStay": 2443,
+        "currency": "USD (display conversion; 10% deal applied; 10% VAT excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 1, 2026 — free until 12:00 AM on the day of arrival; then first night",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Booking slug is 'l-39-escape'. Breakfast-included variant $389/night; Amour King $318/night, same terms."
       }
     },
     {
@@ -3091,6 +3114,21 @@
         "distinctFrom": [
           "seoul-moxy-myeongdong"
         ]
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T13:11:10Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/le-meridien-seoul-myeongdong.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Deluxe King Room with City View",
+        "beds": "1 king bed",
+        "pricePerNight": 624,
+        "totalStay": 4992,
+        "currency": "USD (display conversion; 10% VAT excluded)",
+        "breakfastIncluded": true,
+        "freeCancellation": "Free cancellation before November 1, 2026 — free until 12:00 AM on the day of arrival; then first night",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "No-breakfast variant seen at $567/night ($4,539) with the same day-of-arrival cutoff."
       }
     },
     {
@@ -3366,6 +3404,21 @@
         "distinctFrom": [
           "seoul-nine-tree"
         ]
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T13:11:40Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/nine-tree-premier-myeongdong.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Hollywood Double Room",
+        "beds": "1 king bed",
+        "pricePerNight": 303,
+        "totalStay": 2422,
+        "currency": "USD (display conversion; 32% deals applied; 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before October 29, 2026 — free until 3 days before arrival; inside 3 days, first night",
+        "prepayment": "Pay nothing until October 27, 2026",
+        "note": "Partner Offer at $214/night ($1,714) is cheaper but pay-in-advance with no modifications."
       }
     },
     {
@@ -3502,6 +3555,21 @@
         "note": "Shilla Stay confirms the property and 15:00/noon policy; current trusted inventory identifies a Hollywood Double king category.",
         "canonicalName": "Shilla Stay Gwanghwamun Myeongdong",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T13:11:10Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/shilla-stay-gwanghwamun.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Standard Double Room (high floor)",
+        "beds": "1 full bed",
+        "pricePerNight": 200,
+        "totalStay": 1600,
+        "currency": "USD (display conversion; 43% deal applied; 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before October 29, 2026 — free until 3 days before arrival; inside 3 days, first night",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Cheapest verified refundable one-bed TOTAL so far ($1,600/8 nights). Breakfast-included variant $243/night."
       }
     },
     {
@@ -3653,6 +3721,21 @@
         "note": "Marriott confirms the historic 5-star hotel, address, 15:00/12:00 hours, Deluxe King category, pool, spa and central location.",
         "canonicalName": "The Westin Josun Seoul",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T13:11:40Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/westin-chosun-seoul.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Deluxe King Room",
+        "beds": "1 king bed",
+        "pricePerNight": 398,
+        "totalStay": 3532,
+        "currency": "USD (display conversion; 10% service charge included, 10% VAT excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 1, 2026 — free until 12:00 AM on the day of arrival",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Booking serves this property under its legacy slug 'westin-chosun-seoul' (former name Westin Chosun)."
       }
     },
     {
@@ -5253,6 +5336,12 @@
         "seoul-nine-tree",
         "seoul-skypark-myeongdong3",
         "seoul-lotte-hotel",
+        "seoul-le-meridien-myeongdong",
+        "seoul-shilla-stay-gwanghwamun",
+        "seoul-westin-josun",
+        "seoul-lescape",
+        "seoul-nine-tree-myeongdong2",
+        "seoul-ibis-insadong",
         "Grand Hyatt Incheon (arrival-night fallback)"
       ],
       "history": "data/pricing-history.json (append-only, UTC-timestamped)"

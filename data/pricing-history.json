@@ -400,6 +400,210 @@
       "capturedAtUtc": "2026-08-18T13:05:07Z",
       "finding": "Additional slug guesses that returned 404 (do not retry): the-westin-josun-seoul, ibis-styles-ambassador-seoul-myeongdong, ibis-ambassador-myeongdong. Le Meridien Seoul Myeongdong: slug 'le-meridien-seoul-myeongdong' VERIFIED (H1 + address 38 Myeongdong 8na-gil) but the rate table did not render before capture on both attempts - retry next run. L'Escape: web search surfaced no booking.com property URL (only third-party hotel directories) - slug still unknown.",
       "note": "Remaining Seoul hotels to capture: Le Meridien Myeongdong (slug known, rerun), Westin Josun Seoul, L'Escape, ibis Styles Ambassador Myeongdong, ibis Ambassador Seoul Myeongdong, ibis Ambassador Insadong, Nine Tree by Parnas Myeongdong 2, Nine Tree by Parnas Seoul Insadong, Shilla Stay Gwanghwamun, Courtyard by Marriott Myeongdong, Four Points by Sheraton Josun Myeongdong, Aloft Seoul Myeongdong."
+    },
+    {
+      "captureId": "2026-08-18T13:11:10Z-le-meridien-seoul-myeongdong",
+      "hotelId": "seoul-le-meridien-myeongdong",
+      "propertyName": "Le Meridien Seoul Myeongdong",
+      "propertyVerifiedBy": "Page H1 'Le Meridien Seoul Myeongdong', address 38, Myeongdong 8na-gil, Jung-gu; description confirms 24-hour front desk",
+      "bookingSlug": "le-meridien-seoul-myeongdong",
+      "capturedAtUtc": "2026-08-18T13:11:10Z",
+      "timestampSource": "booking.com chal_t=17870586700667 (price rows read 2026-08-18T13:12:08Z, chal_t=17870587280046)",
+      "sourceUrl": "https://www.booking.com/hotel/kr/le-meridien-seoul-myeongdong.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Deluxe King Room with City View",
+          "beds": "1 king bed",
+          "meetsOneBedNeed": true,
+          "unitsLeftAsShown": "We have 5 left",
+          "pricePerNightUsd": 624,
+          "totalStayUsd": 4992,
+          "taxNote": "Excluded: 10% VAT",
+          "meals": "Buffet breakfast INCLUDED; lunch/dinner $81",
+          "cancellationAsShown": "Free cancellation before November 1, 2026 - free until 12:00 AM on the day of arrival; after that the fee is the cost of the first night; no-show fee equals the cancellation fee.",
+          "prepaymentAsShown": "No prepayment needed - pay at the property."
+        },
+        {
+          "room": "Deluxe King row without breakfast (continuation row; same room group)",
+          "beds": "1 king bed",
+          "meetsOneBedNeed": true,
+          "roomAttributionConfidence": "partial - continuation row without repeated header",
+          "pricePerNightUsd": 567,
+          "totalStayUsd": 4539,
+          "taxNote": "Excluded: 10% VAT",
+          "meals": "Buffet breakfast $47/person/night (not included)",
+          "cancellationAsShown": "Free cancellation before November 1, 2026 (day of arrival, 12:00 AM cutoff).",
+          "prepaymentAsShown": "No prepayment needed - pay at the property."
+        }
+      ]
+    },
+    {
+      "captureId": "2026-08-18T13:11:10Z-shilla-stay-gwanghwamun",
+      "hotelId": "seoul-shilla-stay-gwanghwamun",
+      "propertyName": "Shilla Stay Gwanghwamun Myeongdong",
+      "propertyVerifiedBy": "Page H1 'Shilla Stay Gwanghwamun Myeongdong', address 71, Sambong-ro, Jongno-gu; description confirms 24-hour front desk",
+      "bookingSlug": "shilla-stay-gwanghwamun",
+      "capturedAtUtc": "2026-08-18T13:11:10Z",
+      "timestampSource": "booking.com chal_t=17870586700622 (price rows read 2026-08-18T13:11:39Z, chal_t=17870586999855)",
+      "sourceUrl": "https://www.booking.com/hotel/kr/shilla-stay-gwanghwamun.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Standard Double Room (high floor)",
+          "beds": "1 full bed",
+          "meetsOneBedNeed": true,
+          "pricePerNightUsd": 200,
+          "totalStayUsd": 1600,
+          "priceNote": "43% off deal; original $2,807; total before taxes $1,599.93; 260 sq ft",
+          "taxNote": "Excluded: 10% TAX",
+          "meals": "Buffet breakfast $20/person/night (not included)",
+          "cancellationAsShown": "Free cancellation before October 29, 2026 - free until 3 days before arrival; within 3 days charged the cost of the first night; no-show fee equals the cancellation fee.",
+          "prepaymentAsShown": "No prepayment needed - pay at the property.",
+          "note": "Cheapest verified refundable 1-bed TOTAL of the run so far ($1,600/8 nights)."
+        },
+        {
+          "room": "Standard Double Room - breakfast included variant",
+          "beds": "1 full bed",
+          "meetsOneBedNeed": true,
+          "pricePerNightUsd": 243,
+          "totalStayUsd": 1942,
+          "taxNote": "Excluded: 10% TAX",
+          "meals": "Buffet breakfast included",
+          "cancellationAsShown": "Free cancellation before October 29, 2026 (3-day cutoff, first-night penalty inside).",
+          "prepaymentAsShown": "No prepayment needed - pay at the property."
+        },
+        {
+          "room": "Standard Double Room - cheaper variant with first-night prepayment",
+          "beds": "1 full bed",
+          "meetsOneBedNeed": true,
+          "pricePerNightUsd": 211,
+          "totalStayUsd": 1684,
+          "taxNote": "Excluded: 10% TAX",
+          "cancellationAsShown": "Free cancellation before October 29, 2026 (3-day cutoff); marked 'Fully refundable during free cancellation'.",
+          "prepaymentAsShown": "Pay the property before arrival - you'll be charged a prepayment of the first night within 3 days of arrival."
+        }
+      ]
+    },
+    {
+      "captureId": "2026-08-18T13:11:40Z-westin-josun-seoul",
+      "hotelId": "seoul-westin-josun",
+      "propertyName": "Westin Josun Seoul Hotel",
+      "propertyVerifiedBy": "Page H1 'Westin Josun Seoul Hotel', address 106, Sogong-ro, Jung-gu. NOTE: Booking.com serves it under legacy slug westin-chosun-seoul (hotel was formerly Westin Chosun)",
+      "bookingSlug": "westin-chosun-seoul (legacy slug)",
+      "capturedAtUtc": "2026-08-18T13:11:40Z",
+      "timestampSource": "booking.com chal_t=17870587000000",
+      "sourceUrl": "https://www.booking.com/hotel/kr/westin-chosun-seoul.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Deluxe King Room",
+          "beds": "1 king bed",
+          "meetsOneBedNeed": true,
+          "unitsLeftAsShown": "We have 5 left",
+          "pricePerNightUsd": 398,
+          "totalStayUsd": 3532,
+          "taxNote": "Included: 10% service charge; Excluded: 10% VAT; 388 sq ft",
+          "meals": "Continental breakfast $49/person/night (not included); lunch/dinner $117",
+          "cancellationAsShown": "Free cancellation before November 1, 2026 - free until 12:00 AM on the day of arrival (row text cut at capture boundary after this point; the deadline and free-until clause above were fully visible).",
+          "prepaymentAsShown": "No prepayment needed - pay at the property."
+        }
+      ]
+    },
+    {
+      "captureId": "2026-08-18T13:11:39Z-l-escape-seoul-myeongdong",
+      "hotelId": "seoul-lescape",
+      "propertyName": "L'Escape, a Luxury Collection Hotel, Seoul Myeongdong",
+      "propertyVerifiedBy": "Page H1 'L'Escape, a Luxury Collection Hotel, Seoul Myeongdong', address 67 Toegye-ro, Jung-gu; description confirms 24-hour front desk",
+      "bookingSlug": "l-39-escape",
+      "capturedAtUtc": "2026-08-18T13:11:39Z",
+      "timestampSource": "booking.com chal_t=17870586999950 (price rows read 2026-08-18T13:12:08Z, chal_t=17870587288167)",
+      "sourceUrl": "https://www.booking.com/hotel/kr/l-39-escape.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Classic King Room with City View",
+          "beds": "1 king bed",
+          "meetsOneBedNeed": true,
+          "unitsLeftAsShown": "We have 5 left",
+          "pricePerNightUsd": 305,
+          "totalStayUsd": 2443,
+          "priceNote": "10% off deal; original $2,715; total before taxes $2,443.49; 291 sq ft",
+          "taxNote": "Excluded: 10% VAT",
+          "meals": "Continental breakfast $39/person/night (not included); breakfast-included variant $389/nt ($3,111 total)",
+          "cancellationAsShown": "Free cancellation before November 1, 2026 - free until 12:00 AM on the day of arrival; after that the fee is the cost of the first night; no-show fee equals the cancellation fee.",
+          "prepaymentAsShown": "No prepayment needed - pay at the property."
+        },
+        {
+          "room": "Amour King Room with City View",
+          "beds": "1 king bed",
+          "meetsOneBedNeed": true,
+          "pricePerNightUsd": 318,
+          "totalStayUsd": 2545,
+          "taxNote": "Excluded: 10% VAT",
+          "meals": "Continental breakfast $39/person/night (not included)",
+          "cancellationAsShown": "Free cancellation before November 1, 2026 (day-of-arrival cutoff).",
+          "prepaymentAsShown": "No prepayment needed - pay at the property."
+        }
+      ]
+    },
+    {
+      "captureId": "2026-08-18T13:11:40Z-nine-tree-myeongdong-2",
+      "hotelId": "seoul-nine-tree-myeongdong2",
+      "propertyName": "Nine Tree by Parnas Seoul Myeongdong 2",
+      "propertyVerifiedBy": "Page H1 'Nine Tree by Parnas Seoul Myeongdong 2', address 28, Mareunnae-ro, Jung-gu; description confirms 24-hour front desk and laundry",
+      "bookingSlug": "nine-tree-premier-myeongdong",
+      "capturedAtUtc": "2026-08-18T13:11:40Z",
+      "timestampSource": "booking.com chal_t=17870587000029 (price rows read 2026-08-18T13:12:08Z, chal_t=17870587288103)",
+      "sourceUrl": "https://www.booking.com/hotel/kr/nine-tree-premier-myeongdong.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Hollywood Double Room",
+          "beds": "1 king bed",
+          "meetsOneBedNeed": true,
+          "unitsLeftAsShown": "We have 3 left",
+          "pricePerNightUsd": 303,
+          "totalStayUsd": 2422,
+          "priceNote": "32% off deals; original $3,549; total before taxes $2,422.38; 285 sq ft",
+          "taxNote": "Excluded: 10% TAX",
+          "meals": "Buffet breakfast $21/person/night (not included); breakfast-included variant $335/nt ($2,680 total)",
+          "cancellationAsShown": "Free cancellation before October 29, 2026 - free until 3 days before arrival; within 3 days the fee is the cost of the first night; no-show fee is the total price of the reservation.",
+          "prepaymentAsShown": "Pay nothing until October 27, 2026."
+        },
+        {
+          "room": "Hollywood Double Room - Partner Offer rate",
+          "beds": "1 king bed",
+          "meetsOneBedNeed": true,
+          "pricePerNightUsd": 214,
+          "totalStayUsd": 1714,
+          "taxNote": "Excluded: KRW 242,367 tax per stay",
+          "cancellationAsShown": "Free cancellation before October 29, 2026 (3-day cutoff). No modifications allowed.",
+          "prepaymentAsShown": "Pay in advance; facilitated by a Booking.com partner company; confirmed within 2 minutes.",
+          "comparisonNote": "Saves $708 over the stay vs the standard refundable rate, but payment is taken upfront and no modifications are allowed."
+        }
+      ]
+    },
+    {
+      "captureId": "2026-08-18T13:11:10Z-ibis-ambassador-insadong",
+      "hotelId": "seoul-ibis-insadong",
+      "propertyName": "ibis Ambassador Seoul Insadong-Newly renovated in 2025",
+      "propertyVerifiedBy": "Page H1 'ibis Ambassador Seoul Insadong-Newly renovated in 2025', address 31, Samil-daero 30-gil, Jongno-gu; amenities list includes 24-hour front desk",
+      "bookingSlug": "ibis-ambassador-insadong",
+      "capturedAtUtc": "2026-08-18T13:11:10Z",
+      "timestampSource": "booking.com chal_t=17870586700866",
+      "sourceUrl": "https://www.booking.com/hotel/kr/ibis-ambassador-insadong.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": false,
+      "finding": "Page stated: 'We have no availability here between Sun, Nov 1, 2026 and Mon, Nov 9, 2026.' Listed room types (Superior Double 1 queen, Superior Twin, etc.) all showed 'Not available on our site for your dates'.",
+      "note": "Booking.com-specific negative at capture time; check Accor/official site before concluding anything. Note Booking's name for the property says 'Newly renovated in 2025' (repo record says 'newly refurbished')."
+    },
+    {
+      "captureId": "2026-08-18T13:12:08Z-run3-unresolved",
+      "hotelId": null,
+      "scope": "unresolved-attempts",
+      "capturedAtUtc": "2026-08-18T13:12:08Z",
+      "finding": "Run 3: slug guess 'courtyard-by-marriott-seoul-myeongdong' 404 (do not retry). Aloft Seoul Myeongdong: slug 'aloft-seoul-myeongdong' VERIFIED (H1 'Aloft by Marriott Seoul Myeongdong', address 56 Namdaemunro; coin-operated self-service laundry confirmed in description) but the rate table failed to render before capture on BOTH attempts this session - retry next run. Slug resolutions found via search: Westin Josun = westin-chosun-seoul (legacy), L'Escape = l-39-escape, Nine Tree MD2 = nine-tree-premier-myeongdong.",
+      "note": "Remaining Seoul hotels: Aloft (rerun), Courtyard by Marriott Myeongdong, Four Points by Sheraton Josun Myeongdong, ibis Styles Ambassador Myeongdong, ibis Ambassador Seoul Myeongdong, Nine Tree by Parnas Seoul Insadong."
     }
   ]
 }

@@ -51,9 +51,16 @@ Open the URL pattern above in a normal browser (replace `<property-slug>`, e.g. 
 | THE GRAND LOTTE SEOUL (ex-Lotte Hotel Seoul) | ✅ | Main Tower Grand Superior Double (1 full bed) | $364 | $3,235 | **Oct 29, 2026** (3 days; then 1st night) | No prepayment — pay at property |
 | Fairmont Ambassador Seoul | ✅ | Fairmont Twin (2 twins; 2-adult rate) | $583 | $4,666 | **6:00 PM Oct 31, 2026** (day before arrival; then 1st night) | Pay nothing until Oct 29 |
 | Fairmont — cheaper "partially refundable" ⚠️ | ✅* | Fairmont Twin (2 twins) | $467 | $3,733 | *Not free cancellation*: first-night fee from booking moment, charged upfront | Pay online at booking |
+| Le Méridien Seoul Myeongdong | ✅ | Deluxe King w/ City View (1 king, breakfast incl.) | $624 | $4,992 | **Nov 1, 2026 — day of arrival (12:00 AM)**; then 1st night | No prepayment — pay at property |
+| Westin Josun Seoul | ✅ | Deluxe King (1 king) | $398 | $3,532 | **Nov 1, 2026 — day of arrival (12:00 AM)** | No prepayment — pay at property |
+| L'Escape (Luxury Collection) | ✅ | Classic King w/ City View (1 king) | $305 | $2,443 | **Nov 1, 2026 — day of arrival (12:00 AM)**; then 1st night | No prepayment — pay at property |
+| Shilla Stay Gwanghwamun | ✅ | Standard Double high floor (1 full bed) | $200 | $1,600 | **Oct 29, 2026** (3 days; then 1st night) | No prepayment — pay at property |
+| Nine Tree by Parnas Myeongdong 2 | ✅ | Hollywood Double (1 KING bed) | $303 | $2,422 | **Oct 29, 2026** (3 days; then 1st night) | Pay nothing until Oct 27 |
+| Nine Tree MD 2 — Partner Offer ⚠️ | ✅* | Hollywood Double (1 king) | $214 | $1,714 | Oct 29, 2026 (3 days) — but pay-in-advance, NO modifications | Pay in advance at booking |
 | Grand Hyatt Incheon (arrival fallback) | ✅ | King Room High Floor | $253 | $2,023 | **Oct 31, 2026** (1 day out; then 1st night) | No prepayment — pay at property |
 | Grand Hyatt Incheon — non-refundable rate | ❌ (rate choice) | King Room High Floor | $221 | $1,767 | — none (full forfeit) | Charged at booking |
 | Four Seasons Hotel Seoul | 🚫 via this source | — | — | — | Booking.com showed **no availability** for Nov 1–9 |
+| ibis Ambassador Insadong | 🚫 via this source | — | — | — | Booking.com showed **no availability** for Nov 1–9 |
 
 ✅* = labeled refundable but with materially worse terms than the alternative row — read the cancellation column carefully.
 
@@ -62,15 +69,17 @@ All prices: Booking.com USD display, taxes as noted per row (most exclude 10% ta
 **Market snapshot (run 1 timestamp):** a Seoul-wide search with the *Free cancellation* filter for Nov 1–9, 2026 returned **2,044 refundable properties**, so refundable inventory for these dates is plentiful; e.g. Lake Tourist Hotel (Songpa) showed $46/night, $365 total, free cancellation + no prepayment.
 
 **Notes worth knowing (all from the captured pages):**
-- **Cheapest verified refundable 1-bed room so far: Hotel Skypark Myeongdong 3 at $180/night** — and its refundable rate costs only **$18 more for the whole stay** than the non-refundable one.
-- **Best cancellation terms: Moxy Myeongdong** — free cancellation until 12:00 AM on the day of arrival, no prepayment.
-- **Beware cheap "free cancellation" rates:** Nine Tree's $197 rate closes its window Oct 18 and charges the whole stay if you cancel inside 14 days; Fairmont's $467 rate is "partially refundable" (first-night fee always) with upfront charge.
-- **Rebrand spotted:** Booking.com now titles Lotte Hotel Seoul as **"THE GRAND LOTTE SEOUL — Formerly known as Lotte Hotel Seoul"** (same 30 Eulji-ro address).
+- **Cheapest verified refundable 1-bed TOTAL: Shilla Stay Gwanghwamun at $1,600 for 8 nights** ($200/night high-floor double, no prepayment). Skypark M3 is close at $1,612.
+- **Best cancellation terms: Le Méridien, Westin Josun, L'Escape, and Moxy** — free cancellation until 12:00 AM on the day of arrival itself, no prepayment.
+- **Beware cheap "free cancellation" rates:** Nine Tree MD1's $197 rate closes its window Oct 18 and charges the whole stay inside 14 days; Fairmont's $467 rate is "partially refundable" (first-night fee always) with upfront charge; Nine Tree MD2's $214 partner offer takes payment upfront with no modifications.
+- **Rebrands/legacy slugs spotted:** Booking.com now titles Lotte Hotel Seoul as **"THE GRAND LOTTE SEOUL"**; Westin Josun is served under legacy slug `westin-chosun-seoul`; L'Escape's slug is `l-39-escape`.
 
 ---
 
 ## Still to capture (next passes)
 
-Slug guesses that failed (do not retry): `lotte-hotel-seoul`, `ibis-ambassador-seoul-myeongdong`, `nine-tree-by-parnas-seoul-myeongdong`, `l7-myeongdong`, `the-westin-josun-seoul`, `ibis-styles-ambassador-seoul-myeongdong`, `ibis-ambassador-myeongdong`.
+Slug guesses that failed (do not retry): `lotte-hotel-seoul`, `ibis-ambassador-seoul-myeongdong`, `nine-tree-by-parnas-seoul-myeongdong`, `l7-myeongdong`, `the-westin-josun-seoul`, `ibis-styles-ambassador-seoul-myeongdong`, `ibis-ambassador-myeongdong`, `courtyard-by-marriott-seoul-myeongdong`.
 
-Hotels awaiting a verified capture: Le Méridien Myeongdong (slug `le-meridien-seoul-myeongdong` verified; rate table did not render — rerun) · Westin Josun Seoul · L'Escape (booking.com slug still unknown) · ibis Styles Ambassador Myeongdong · ibis Ambassador Seoul Myeongdong · ibis Ambassador Insadong · Nine Tree by Parnas Myeongdong 2 · Nine Tree by Parnas Seoul Insadong · Shilla Stay Gwanghwamun · Courtyard by Marriott Myeongdong · Four Points by Sheraton Josun Myeongdong · Aloft Seoul Myeongdong.
+Hotels awaiting a verified capture: Aloft Myeongdong (slug `aloft-seoul-myeongdong` verified, coin laundry confirmed; rate table failed to render twice — rerun) · Courtyard by Marriott Myeongdong · Four Points by Sheraton Josun Myeongdong · ibis Styles Ambassador Myeongdong · ibis Ambassador Seoul Myeongdong · Nine Tree by Parnas Seoul Insadong.
+
+**Status: 14 of 20 Seoul hotels captured (12 refundable rates + 2 no-availability negatives), plus the Grand Hyatt Incheon arrival fallback.**

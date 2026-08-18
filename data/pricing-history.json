@@ -1478,6 +1478,103 @@
       "capturedAtUtc": "2026-08-18T15:59:54Z",
       "finding": "Failed slug guesses (do not retry): asti-hotel-busan, wyndham-grand-busan-ijin, crown-harbor-hotel-busan. Remaining to resolve via search: ASTI, Toyoko Inn Haeundae No.2, Toyoko Inn Station No.1, Ramada Encore Haeundae, Ramada Encore Station, Fairfield Haeundae, Fairfield Songdo, ibis Ambassador Haeundae, ibis budget Haeundae, Crown Harbor, Wyndham Grand Ijin.",
       "note": "Busan: 9 fully captured. 11 remaining."
+    },
+    {
+      "captureId": "2026-08-18T16:02:28Z-asti-hotel-busan-station",
+      "hotelId": "busan-asti",
+      "propertyName": "ASTI Hotel Busan Station",
+      "propertyVerifiedBy": "Page H1 'ASTI Hotel Busan Station', address 7-8, Jungang-daero 214beon-gil, Dong-gu (1 min from Busan Station - matches repo area); 8.6/10 (1,907 reviews); 24-hour front desk confirmed; guest laundry machines visible in property photos",
+      "bookingSlug": "asti-busan",
+      "recordCheck": {
+        "repoName": "ASTI Hotel Busan Station",
+        "pageName": "ASTI Hotel Busan Station",
+        "verdict": "match"
+      },
+      "capturedAtUtc": "2026-08-18T16:02:28Z",
+      "timestampSource": "booking.com chal_t=1787068948784",
+      "sourceUrl": "https://www.booking.com/hotel/kr/asti-busan.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Standard Double Room with City View (284 sq ft)",
+          "beds": "1 full bed",
+          "meetsOneBedNeed": true,
+          "pricePerNightUsd": 78,
+          "totalStayUsd": 543,
+          "taxNote": "Excluded: KRW 76,730 tax per stay",
+          "meals": "Breakfast $18/person/night (rated Excellent)",
+          "cancellationAsShown": "Free cancellation before November 14, 2026 (day before arrival) - Partner Offer rate: pay in advance, NO modifications; inside-window penalty text not shown for this row.",
+          "prepaymentAsShown": "Pay in advance; facilitated by a Booking.com partner company.",
+          "note": "Standard (non-partner) rates were below the capture boundary - re-read for no-prepay variant."
+        }
+      ]
+    },
+    {
+      "captureId": "2026-08-18T16:02:28Z-toyoko-inn-busan-station-1",
+      "hotelId": "busan-toyoko-station1",
+      "propertyName": "Toyoko Inn Busan Station No.1",
+      "propertyVerifiedBy": "Page H1 'Toyoko Inn Busan Station No.1', address 12, Jungang-daero 196beon-gil, Dong-gu (fronting Busan KTX station exit 1); 8.4/10 (2,703 reviews); 24-hour front desk + coin laundry + FREE breakfast confirmed",
+      "bookingSlug": "toyoko-inn-busan-no-1",
+      "recordCheck": {
+        "repoName": "Toyoko Inn Busan Station No.1",
+        "pageName": "Toyoko Inn Busan Station No.1",
+        "verdict": "match",
+        "newDataPoints": "Breakfast INCLUDED free daily; address now 12 (en-gb mirror showed 2) - page-of-record shows 12"
+      },
+      "capturedAtUtc": "2026-08-18T16:02:28Z",
+      "timestampSource": "booking.com chal_t=1787068948901",
+      "sourceUrl": "https://www.booking.com/hotel/kr/toyoko-inn-busan-no-1.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Economy Double Room",
+          "beds": "1 full bed",
+          "meetsOneBedNeed": true,
+          "pricePerNightUsd": 58,
+          "totalStayUsd": 406,
+          "priceNote": "8% Booking-paid discount; original $441; total before taxes $405.99",
+          "taxNote": "Excluded: 10% TAX",
+          "meals": "EXCELLENT breakfast INCLUDED FREE (rated 8.7)",
+          "cancellationAsShown": "Free cancellation before November 14, 2026 - free until 1 day before arrival; if you cancel within 1 day the fee is the TOTAL PRICE of the reservation; no-show the same.",
+          "prepaymentAsShown": "Pay nothing until November 12, 2026.",
+          "note": "CHEAPEST refundable capture of the entire 3-city sweep, with free breakfast - small economy room, total-price penalty inside 1 day."
+        }
+      ]
+    },
+    {
+      "captureId": "2026-08-18T16:02:28Z-toyoko-inn-busan-haeundae-2",
+      "hotelId": "busan-toyoko-haeundae2",
+      "propertyName": "Toyoko Inn Busan Haeundae 2",
+      "propertyVerifiedBy": "Page H1 'Toyoko Inn Busan Haeundae 2', address 5, Haeundaehaebyeon-ro 237beon-gil (328 ft from Haeundae Beach - matches repo); 8.6/10 (2,228 reviews); 24h desk + coin launderette confirmed",
+      "bookingSlug": "toyoko-inn-busan-haeundae-2",
+      "capturedAtUtc": "2026-08-18T16:02:28Z",
+      "timestampSource": "booking.com chal_t=1787068948777",
+      "sourceUrl": "https://www.booking.com/hotel/kr/toyoko-inn-busan-haeundae-2.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": false,
+      "finding": "Page stated: 'We have no availability here between Sun, Nov 15, 2026 and Sun, Nov 22, 2026.' All room types (economy/twin/double/ocean-view) marked 'Not available on our site for your dates'.",
+      "note": "Beachfront budget option sold out for the full week at capture time."
+    },
+    {
+      "captureId": "2026-08-18T16:02:28Z-ramada-encore-busan-station-partial",
+      "hotelId": "busan-ramada-station",
+      "propertyName": "Ramada Encore by Wyndham Busan Station",
+      "propertyVerifiedBy": "Page H1 'Ramada Encore by Wyndham Busan Station', address 10, Jungang-daero 196beon-gil, Dong-gu (next to Busan Station - matches repo); 8.4/10 (957 reviews); 24h desk + laundry confirmed",
+      "bookingSlug": "ramada-encore-by-wyndham-busan",
+      "captureLevel": "partial - price visible, cancellation flag fell past capture boundary",
+      "capturedAtUtc": "2026-08-18T16:02:28Z",
+      "timestampSource": "booking.com chal_t=1787068948770",
+      "sourceUrl": "https://www.booking.com/hotel/kr/ramada-encore-by-wyndham-busan.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": null,
+      "finding": "Superior Double Room (1 full bed, 208 sq ft): $94/night, $655/7 nights. The cancellation/prepayment flags were cut at the capture boundary - refundability UNKNOWN, not assumed. Chunk-1 read needed.",
+      "note": "Also queued: Ramada Encore Haeundae (slug haeundae-ramada-encore; a 2024 en-gb mirror said reservations 'currently not possible' - dated fetch still needed)."
+    },
+    {
+      "captureId": "2026-08-18T16:02:28Z-busan-run7",
+      "hotelId": null,
+      "scope": "unresolved-attempts",
+      "capturedAtUtc": "2026-08-18T16:02:28Z",
+      "finding": "ibis budget Ambassador Busan Haeundae and ibis Ambassador Busan Haeundae: no booking.com property URLs surfaced in a combined search (third-party mirrors only) - slugs still unknown, possibly unlisted. Remaining to close Busan: Fairfield Haeundae, Fairfield Songdo, ibis x2, Crown Harbor, Wyndham Grand Ijin, Ramada Encore Haeundae, Ramada Station chunk-1.",
+      "note": "Busan: 12 captured/negative + 1 partial. 7 loose ends."
     }
   ]
 }

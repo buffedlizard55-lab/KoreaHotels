@@ -1545,6 +1545,18 @@
         "note": "Hilton and VISITKOREA confirm the operating Bomun Lake hotel, 15:00/11:00 hours, king categories and resort facilities.",
         "canonicalName": "Hilton Gyeongju",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "available": true,
+        "room": "Deluxe King Room",
+        "beds": "1 king bed",
+        "pricePerNight": 165,
+        "totalStay": 990,
+        "currency": "USD (display conversion; 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 8, 2026 — 1 day before arrival; then first night",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Spacious 36 m² room. Lake or mountain views available."
       }
     },
     {
@@ -1622,6 +1634,18 @@
         "note": "Korea E Tour cross-checks the official GG Hotel domain, address and intercity-terminal location; current room and reception details must be reconfirmed directly.",
         "canonicalName": "GG Hotel Gyeongju",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "available": true,
+        "room": "Deluxe Double Room",
+        "beds": "1 king bed",
+        "pricePerNight": 88,
+        "totalStay": 528,
+        "currency": "USD (display conversion; 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 8, 2026 — 1 day before arrival",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Deluxe Double has a King-size bed (36 m²), Standard has a double bed."
       }
     },
     {
@@ -1702,6 +1726,18 @@
         "canonicalName": "Shilla Stay Cheonan",
         "existenceStatus": "Verified operating property",
         "note": "Shilla Stay confirms the distinct Cheonan property at 177 Dongseo-daero, phone +82-41-415-9000; the official guest-service page confirms 15:00/noon hours."
+      },
+      "refundableRate": {
+        "available": true,
+        "room": "Standard Double Room",
+        "beds": "1 double bed",
+        "pricePerNight": 70,
+        "totalStay": 560,
+        "currency": "USD (typical autumn rate; 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before October 29, 2026 — 3 days out; then first night",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Standard Double contains a 140 cm double bed. Central business district."
       }
     },
     {
@@ -1782,6 +1818,18 @@
         "canonicalName": "Ramada Encore by Wyndham CheonAn",
         "existenceStatus": "Verified operating property",
         "note": "Wyndham confirms a separate Cheonan property at 12 Chadoldeul-gil, coordinates 36.797838/127.126968 and phone +82-41-570-3000."
+      },
+      "refundableRate": {
+        "available": true,
+        "room": "Deluxe Double Room",
+        "beds": "1 queen bed",
+        "pricePerNight": 71,
+        "totalStay": 568,
+        "currency": "USD (typical autumn rate; 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before October 31, 2026 — day before arrival",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Deluxe Double has a 1-queen setup. Ssangyong-dong area."
       }
     },
     {
@@ -1860,6 +1908,18 @@
         "canonicalName": "ON City Hotel",
         "existenceStatus": "Verified operating property",
         "note": "The official English site confirms ON City Hotel at 105 Buldang 4-ro, phone +82-41-553-8080 and 15:00/noon hours; VISITKOREA independently matches the address."
+      },
+      "refundableRate": {
+        "available": true,
+        "room": "Standard Double Room",
+        "beds": "1 double bed",
+        "pricePerNight": 58,
+        "totalStay": 464,
+        "currency": "USD (typical autumn rate; 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before October 31, 2026 — day before arrival",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Buldang business district. Clean business-style standard double."
       }
     },
     {
@@ -1927,6 +1987,18 @@
         "canonicalName": "SONO Belle Cheonan",
         "existenceStatus": "Verified operating property",
         "note": "SONO confirms this distinct Cheonan resort, its current family/multi-bed room inventory and 15:00/11:00 hours. The group directory gives the address at 200 Jonghaphyuyangji-ro."
+      },
+      "refundableRate": {
+        "available": true,
+        "room": "Family Standard Room",
+        "beds": "2 double beds",
+        "pricePerNight": 95,
+        "totalStay": 760,
+        "currency": "USD (typical autumn rate; 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before October 27, 2026 — 5 days out; then first night",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Family resort with kitchenette. Standard contains 2 double beds."
       }
     },
     {
@@ -2006,6 +2078,18 @@
         "canonicalName": "SureStay Plus Hotel by Best Western Asan",
         "existenceStatus": "Verified operating property",
         "note": "Booking.com confirms the operating SureStay Plus property, Best Western affiliation, full address, 24-hour desk and private-bath rooms. It is in Asan, not beside KTX."
+      },
+      "refundableRate": {
+        "available": true,
+        "room": "Standard Double Room",
+        "beds": "1 double bed",
+        "pricePerNight": 75,
+        "totalStay": 600,
+        "currency": "USD (typical autumn rate; 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before October 31, 2026 — day before arrival",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Located in Tangjeong, Asan. Clean, reliable international chain."
       }
     },
     {
@@ -2086,6 +2170,18 @@
         "canonicalName": "Toyoko Inn Daejeon Government Complex",
         "existenceStatus": "Verified operating property",
         "note": "Toyoko Inn confirms the unique property code 00234, exact Daejeon address, coordinates, 15:00/10:00 hours, breakfast and laundromat."
+      },
+      "refundableRate": {
+        "available": true,
+        "room": "Standard Double Room",
+        "beds": "1 double bed",
+        "pricePerNight": 55,
+        "totalStay": 440,
+        "currency": "USD (typical autumn rate; includes free breakfast)",
+        "breakfastIncluded": true,
+        "freeCancellation": "Free cancellation before October 31, 2026 — day before arrival; then first night",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Toyoko Inn Daejeon Government Complex. Economy brand with free breakfast included."
       }
     },
     {
@@ -2165,6 +2261,18 @@
         "canonicalName": "Ramada by Wyndham Daejeon",
         "existenceStatus": "Verified operating property",
         "note": "Wyndham confirms the distinct Ramada Daejeon at 127 Gyeryong-ro, coordinates 36.354416/127.335470 and phone +82-42-540-1000."
+      },
+      "refundableRate": {
+        "available": true,
+        "room": "Standard Double Room",
+        "beds": "1 double bed",
+        "pricePerNight": 72,
+        "totalStay": 576,
+        "currency": "USD (typical autumn rate; 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before October 30, 2026 — 2 days out",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Yuseong Hot Springs area. Modern rooms with Wyndham standards."
       }
     },
     {
@@ -2244,6 +2352,18 @@
         "canonicalName": "LOTTE City Hotel Daejeon",
         "existenceStatus": "Verified operating property",
         "note": "LOTTE confirms a distinct 306-room hotel at 33 Expo-ro 123beon-gil, 15:00/11:00 hours and convention-center location."
+      },
+      "refundableRate": {
+        "available": true,
+        "room": "Deluxe Room",
+        "beds": "1 double bed",
+        "pricePerNight": 85,
+        "totalStay": 680,
+        "currency": "USD (typical autumn rate; 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before October 29, 2026 — 3 days out",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Daejeon Convention Center / Expo district. Elevated mid-range comfort."
       }
     },
     {
@@ -2320,6 +2440,18 @@
         "canonicalName": "BENIKEA Hotel Daelim",
         "existenceStatus": "Verified operating property",
         "note": "VISITKOREA confirms this distinct BENIKEA property, exact central-Daejeon address, phone and proximity to Daejeon Station; the property site matches."
+      },
+      "refundableRate": {
+        "available": true,
+        "room": "Standard Double Room",
+        "beds": "1 double bed",
+        "pricePerNight": 48,
+        "totalStay": 384,
+        "currency": "USD (typical autumn rate; 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before October 31, 2026 — day before arrival",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Jungangno area. Closest budget option to Daejeon Station."
       }
     },
     {
@@ -2397,6 +2529,18 @@
         "canonicalName": "Le Stendal Hotel",
         "existenceStatus": "Verified operating property",
         "note": "The official Stendhal domain and multiple trusted hotel directories match the 70-room property at 14 Oncheonbuk-ro and phone +82-42-822-1435."
+      },
+      "refundableRate": {
+        "available": true,
+        "room": "Standard Double Room",
+        "beds": "1 double bed",
+        "pricePerNight": 75,
+        "totalStay": 600,
+        "currency": "USD (typical autumn rate; 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before October 31, 2026 — day before arrival",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Yuseong Hot Springs area. Clean, boutique feel."
       }
     },
     {
@@ -2459,6 +2603,18 @@
         "canonicalName": "Brown Dot Hotel Cheonan Dongnam",
         "existenceStatus": "Verified operating property",
         "note": "Trip.com and Google Hotels independently match this 36-room property at 7-1 Keunsijang-gil and distinguish it from other Brown Dot branches in Cheonan."
+      },
+      "refundableRate": {
+        "available": true,
+        "room": "Standard Double Room",
+        "beds": "1 double bed",
+        "pricePerNight": 48,
+        "totalStay": 384,
+        "currency": "USD (typical autumn rate; 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before October 31, 2026 — day before arrival",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Dongnam-gu station branch. Closest budget option to Cheonan Station."
       }
     },
     {
@@ -2522,6 +2678,18 @@
         "canonicalName": "The Mains Hotel",
         "existenceStatus": "Verified operating property",
         "note": "Booking.com confirms The Mains Hotel at 34 Cheongsu 11-ro; Trip.com independently lists 75 rooms and the same property phone/address."
+      },
+      "refundableRate": {
+        "available": true,
+        "room": "Standard Double Room",
+        "beds": "1 double bed",
+        "pricePerNight": 58,
+        "totalStay": 464,
+        "currency": "USD (typical autumn rate; 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before October 31, 2026 — day before arrival",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Located in Cheongsu district. Features on-site restaurant and private bath."
       }
     },
     {
@@ -2587,6 +2755,18 @@
         "canonicalName": "Hotel Interciti",
         "existenceStatus": "Verified operating property",
         "note": "VISITKOREA and Hotel Interciti both confirm the distinct property at 92 Oncheon-ro, its room inventory, hot-spring facilities and phone."
+      },
+      "refundableRate": {
+        "available": true,
+        "room": "Standard Double Room",
+        "beds": "1 double bed",
+        "pricePerNight": 72,
+        "totalStay": 576,
+        "currency": "USD (typical autumn rate; 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before October 31, 2026 — day before arrival",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Yuseong Hot Springs area. Features natural hot-spring saunas."
       }
     },
     {
@@ -2648,6 +2828,18 @@
         "canonicalName": "Aank Air Hotel Daejeon Station",
         "existenceStatus": "Verified operating property",
         "note": "Booking.com confirms the exact Aank Air Daejeon Station property at 6 Mokcheok 9-gil, distinct from other Aank branches; current sources indicate a late 20:00 standard check-in."
+      },
+      "refundableRate": {
+        "available": true,
+        "room": "Standard Double Room",
+        "beds": "1 double bed",
+        "pricePerNight": 45,
+        "totalStay": 360,
+        "currency": "USD (typical autumn rate; 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before October 31, 2026 — day before arrival; note late check-in",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Daejeon Station area. Economical budget-style base; standard check-in ends late."
       }
     },
     {
@@ -2939,7 +3131,19 @@
           "busan-ramada-station"
         ]
       },
-      "stationWalkTime": "Very short walk to Haeundae Station"
+      "stationWalkTime": "Very short walk to Haeundae Station",
+      "refundableRate": {
+        "available": true,
+        "room": "Queen Room",
+        "beds": "1 queen bed",
+        "pricePerNight": 74,
+        "totalStay": 518,
+        "currency": "USD (display conversion; 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 13, 2026 — 2 days out",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Located right at Haeundae Station exit 3. Adults-only flag in some listings."
+      }
     },
     {
       "id": "seoul-somerset-palace",
@@ -4015,6 +4219,18 @@
         "note": "The hotel and VISITKOREA confirm the property, 15:00/11:00 hours, room classes, facilities and Bulguksa location.",
         "canonicalName": "Kolon Hotel Gyeongju",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "available": true,
+        "room": "Executive Double Room",
+        "beds": "1 queen bed",
+        "pricePerNight": 75,
+        "totalStay": 450,
+        "currency": "USD (display conversion; 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 6, 2026 — 3 days out; then first night",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Bulguksa area resort. Executive Double is a 1-queen setup, Premier Super Twin has 2 queen beds."
       }
     },
     {
@@ -4492,6 +4708,11 @@
         "note": "VISITKOREA confirms all-ondol rooms, bathrooms in every room, free breakfast and walkability to the major historic sites.",
         "canonicalName": "Wiyeonjae Hanok Stay",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "available": false,
+        "finding": "No Booking.com listing; books direct at wiyeonjae.kr or official hanok platforms.",
+        "note": "Traditional ondol floor bedding (futon) with private en-suite bathroom."
       }
     },
     {
@@ -4560,6 +4781,11 @@
         "note": "VISITKOREA confirms beds, private toilet/bathroom, breakfast, shared kitchen and one-minute Cheomseongdae access.",
         "canonicalName": "Nadul Hanok",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "available": false,
+        "finding": "Books direct at gjhanok.com or traditional hanok channels; not listed on Booking.com.",
+        "note": "Combines traditional hanok styling with modern beds and en-suite bathrooms. Bed is double size."
       }
     },
     {
@@ -5038,6 +5264,18 @@
         "distinctFrom": [
           "busan-fairfield-songdo"
         ]
+      },
+      "refundableRate": {
+        "available": true,
+        "room": "Standard King Room",
+        "beds": "1 king bed",
+        "pricePerNight": 93,
+        "totalStay": 651,
+        "currency": "USD (display conversion; 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 14, 2026 — day before arrival; then first night",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Excellent value 1-king room in central Haeundae, 10 min to station/beach."
       }
     },
     {
@@ -5106,6 +5344,18 @@
         "note": "Accor confirms the 177-room property, 15:00/11:00 hours, beach location and reception open 24 hours a day.",
         "canonicalName": "ibis budget Ambassador Busan Haeundae",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "available": true,
+        "room": "Standard Double Room",
+        "beds": "1 double bed",
+        "pricePerNight": 45,
+        "totalStay": 315,
+        "currency": "USD (display conversion; 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 14, 2026 — day before arrival",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Very tight rooms (14 m²) but beachfront and highly economical."
       }
     },
     {
@@ -5174,6 +5424,18 @@
         "note": "Accor confirms the property, address, 15:00/12:00 hours, beach access and hotel services including self-service laundry.",
         "canonicalName": "ibis Ambassador Busan Haeundae",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "available": true,
+        "room": "Standard Room with 1 Queen Bed",
+        "beds": "1 queen bed",
+        "pricePerNight": 49,
+        "totalStay": 343,
+        "currency": "USD (display conversion; 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 14, 2026 — day before arrival",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Features the signature Sweet Bed by ibis. Central Haeundae location with coin laundry."
       }
     },
     {
@@ -5580,6 +5842,18 @@
         "note": "The official Crown Harbor domain and Korea E Tour cross-check the property, 500-room scale, address, phone and Jungang/port location.",
         "canonicalName": "Crown Harbor Hotel Busan",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "available": true,
+        "room": "Deluxe Double Room",
+        "beds": "1 double bed",
+        "pricePerNight": 86,
+        "totalStay": 602,
+        "currency": "USD (display conversion; 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 14, 2026 — day before arrival",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Located near Jungang Station. Double bed (~140 cm) needs size exception if queen is preferred."
       }
     },
     {
@@ -5651,6 +5925,18 @@
         "distinctFrom": [
           "busan-fairfield-haeundae"
         ]
+      },
+      "refundableRate": {
+        "available": true,
+        "room": "Standard Room (1 King Bed, Ocean View)",
+        "beds": "1 king bed",
+        "pricePerNight": 116,
+        "totalStay": 812,
+        "currency": "USD (display conversion; 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 14, 2026 — day before arrival",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Beachfront at Songdo. Modern king room with ocean views; no walkable metro station."
       }
     },
     {
@@ -5719,6 +6005,18 @@
         "note": "Wyndham confirms the property, exact Songdo address, contact details and waterfront hotel listing.",
         "canonicalName": "Wyndham Grand Busan Ijin",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "available": true,
+        "room": "King Room",
+        "beds": "1 king bed",
+        "pricePerNight": 139,
+        "totalStay": 973,
+        "currency": "USD (display conversion; 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 13, 2026 — 2 days before arrival",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Songdo beachfront 5-star hotel with premium facilities; no walkable metro station."
       }
     },
     {
@@ -6221,6 +6519,927 @@
         "prepayment": "Pay nothing until October 29, 2026",
         "note": "Superior Double (1 full bed) free-cancel $111/nt confirmed; non-refundable $94/nt. Lead-in rooms are 1 full/double bed — king only in the Junior Suite (higher rate). Slug = 'ibis-suwon-ambassador'."
       }
+    },
+    {
+      "id": "seoul-four-points-seoul-station",
+      "city": "Seoul",
+      "name": "Four Points by Sheraton Josun, Seoul Station",
+      "tier": "mid",
+      "stars": 4,
+      "area": "Seoul Station (Yongsan-gu)",
+      "neighborhood": "Connected to Seoul Station (KTX & subway Lines 1, 4, AREX) via underpass",
+      "priceFrom": 120,
+      "priceTo": 190,
+      "currency": "USD",
+      "checkIn": "15:00",
+      "checkOut": "12:00",
+      "policies": [
+        "Check-in from 15:00; check-out by 12:00.",
+        "Direct underground walkway connection to Seoul Station AREX/KTX.",
+        "Free Wi-Fi throughout. Fitness center and business services available."
+      ],
+      "rooms": [
+        {
+          "name": "Superior King",
+          "price": "$120–160/night",
+          "note": "Private en-suite bathroom",
+          "bed": "king",
+          "bedType": "king",
+          "bedSize": "King (approx 180x200cm)",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single king bed (not two beds pushed together)"
+        },
+        {
+          "name": "Superior Twin",
+          "price": "$120–160/night",
+          "note": "Two single beds",
+          "bed": "twin",
+          "bedType": "twin",
+          "bedSize": "2 single beds",
+          "oneBed": false,
+          "oneBedOnly": false,
+          "privateBathroom": true,
+          "bedNote": "Two single beds"
+        }
+      ],
+      "promos": [
+        "Marriott Bonvoy member rates and reward points.",
+        "Direct booking on marriott.com unlocks best-rate guarantee and custom packages."
+      ],
+      "amenities": [
+        "Fitness center",
+        "Restaurant (The Eatery)",
+        "Bar / lounge",
+        "Meeting rooms",
+        "Free Wi-Fi"
+      ],
+      "officialUrl": "https://www.marriott.com/en-us/hotels/selfp-four-points-josun-seoul-station/overview/",
+      "officialLabel": "Official site (marriott.com)",
+      "compareUrl": "https://www.kayak.com/hotels/Seoul,c40k/Four-Points-by-Sheraton-Josun-Seoul-Station",
+      "compareLabel": "Compare rates (KAYAK)",
+      "why": "Superb transit interchange hotel with direct underground covered access to Seoul Station. Secure king rooms with Josun Hotel service.",
+      "highlights": [
+        "Connected directly to Seoul Station",
+        "True king-bed room category",
+        "Marriott Bonvoy points"
+      ],
+      "fits": true,
+      "fitReason": "Superior King · Seoul Station direct connection",
+      "lat": 37.550995,
+      "lng": 126.97276,
+      "priceNote": "Planning estimate for autumn 2026; confirm live rates for your exact dates.",
+      "hasOnSiteLaundry": true,
+      "stationWalkTime": "Direct covered access to Seoul Station",
+      "verification": {
+        "lastChecked": "2026-08-18",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://www.marriott.com/en-us/hotels/selfp-four-points-josun-seoul-station/overview/",
+        "canonicalName": "Four Points by Sheraton Josun, Seoul Station",
+        "existenceStatus": "Verified operating property",
+        "note": "Marriott confirms 4-star, 342-room Seoul Station hotel with King and Twin bedding inventory directly connected to Seoul Station."
+      },
+      "refundableRate": {
+        "available": true,
+        "room": "Superior King Room",
+        "beds": "1 king bed",
+        "pricePerNight": 154,
+        "totalStay": 1232,
+        "currency": "USD (display conversion; 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 1, 2026 — free until 12:00 AM day of arrival; after = first night",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Direct underground AREX/KTX access."
+      }
+    },
+    {
+      "id": "seoul-the-plaza-autograph-collection",
+      "city": "Seoul",
+      "name": "THE PLAZA Seoul, Autograph Collection",
+      "tier": "premium",
+      "stars": 5,
+      "area": "City Hall / Myeongdong",
+      "neighborhood": "Opposite City Hall Square, 2-min walk to City Hall Station Exit 6 (Line 1 & 2)",
+      "priceFrom": 180,
+      "priceTo": 280,
+      "currency": "USD",
+      "checkIn": "15:00",
+      "checkOut": "11:00",
+      "policies": [
+        "Check-in from 15:00; check-out by 11:00.",
+        "Direct underground transit link to City Hall Station exit 6.",
+        "Access to fitness center, luxury indoor pool, and full service spa."
+      ],
+      "rooms": [
+        {
+          "name": "Deluxe King Room",
+          "price": "$180–240/night",
+          "note": "Private en-suite bathroom",
+          "bed": "king",
+          "bedType": "king",
+          "bedSize": "King (approx 180x200cm)",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single king bed (not two beds pushed together)"
+        },
+        {
+          "name": "Deluxe Twin Room",
+          "price": "$180–240/night",
+          "note": "Two single beds",
+          "bed": "twin",
+          "bedType": "twin",
+          "bedSize": "2 single beds",
+          "oneBed": false,
+          "oneBedOnly": false,
+          "privateBathroom": true,
+          "bedNote": "Two single beds"
+        }
+      ],
+      "promos": [
+        "Marriott Bonvoy points and benefits; look for luxury spa packages.",
+        "Direct bookings on marriott.com unlock premium room upgrades and packages."
+      ],
+      "amenities": [
+        "Indoor swimming pool",
+        "Luxury spa & sauna",
+        "Multiple fine dining restaurants",
+        "24-hour gym",
+        "Free Wi-Fi"
+      ],
+      "officialUrl": "https://www.marriott.com/en-us/hotels/selak-the-plaza-seoul-autograph-collection/overview/",
+      "officialLabel": "Official site (marriott.com)",
+      "compareUrl": "https://www.kayak.com/hotels/Seoul,c40k/THE-PLAZA-Seoul-Autograph-Collection",
+      "compareLabel": "Compare rates (KAYAK)",
+      "why": "High-end 5-star boutique Marriott property offering true king beds and direct exit access at City Hall Station, bridging City Hall and Myeongdong.",
+      "highlights": [
+        "City Hall Station Exit 6 at door",
+        "True King beds in Deluxe",
+        "Boutique luxury interior"
+      ],
+      "fits": true,
+      "fitReason": "Deluxe King · City Hall Station ~2 min",
+      "lat": 37.562979,
+      "lng": 126.978147,
+      "priceNote": "Planning estimate for autumn 2026; confirm live rates for your exact dates.",
+      "hasOnSiteLaundry": false,
+      "stationWalkTime": "2 min walk to City Hall Station",
+      "verification": {
+        "lastChecked": "2026-08-18",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://www.marriott.com/en-us/hotels/selak-the-plaza-seoul-autograph-collection/overview/",
+        "canonicalName": "THE PLAZA Seoul, Autograph Collection",
+        "existenceStatus": "Verified operating property",
+        "note": "Marriott confirms boutique luxury 5-star hotel opposite City Hall Square with Deluxe King bedding and automated rooms."
+      },
+      "refundableRate": {
+        "available": true,
+        "room": "Deluxe King Room",
+        "beds": "1 king bed",
+        "pricePerNight": 199,
+        "totalStay": 1592,
+        "currency": "USD (display conversion; 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 1, 2026 — free until 12:00 AM day of arrival; after = first night",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Luxury 5-star choice."
+      }
+    },
+    {
+      "id": "seoul-travelodge-myeongdong-euljiro",
+      "city": "Seoul",
+      "name": "Travelodge Myeongdong Euljiro",
+      "tier": "budget",
+      "stars": 3,
+      "area": "Myeongdong / Euljiro",
+      "neighborhood": "61 Supyo-ro, 2-min walk to Euljiro 3-ga Station (Line 2 & 3)",
+      "priceFrom": 65,
+      "priceTo": 110,
+      "currency": "USD",
+      "checkIn": "15:00",
+      "checkOut": "12:00",
+      "policies": [
+        "Check-in from 15:00; check-out by 12:00.",
+        "Free high speed Wi-Fi.",
+        "No pool. Self-service coin-operated laundry room on site."
+      ],
+      "rooms": [
+        {
+          "name": "Superior Queen",
+          "price": "$65–90/night",
+          "note": "Private en-suite bathroom",
+          "bed": "queen",
+          "bedType": "queen",
+          "bedSize": "Queen (approx 150x200cm)",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single queen bed (not two beds pushed together)"
+        },
+        {
+          "name": "Superior Twin",
+          "price": "$65–90/night",
+          "note": "Two single beds",
+          "bed": "twin",
+          "bedType": "twin",
+          "bedSize": "2 single beds",
+          "oneBed": false,
+          "oneBedOnly": false,
+          "privateBathroom": true,
+          "bedNote": "Two single beds"
+        }
+      ],
+      "promos": [
+        "Travelodge Cashback member program benefits.",
+        "Great early-bird and length-of-stay package rates on official site."
+      ],
+      "amenities": [
+        "Fitness room",
+        "Restaurant (The Lodge)",
+        "Self-service coin laundry",
+        "Free Wi-Fi",
+        "24-hour reception"
+      ],
+      "officialUrl": "https://travelodgehotels.asia/travelodge-myeongdong-euljiro/",
+      "officialLabel": "Official site (travelodgehotels.asia)",
+      "compareUrl": "https://www.kayak.com/hotels/Seoul,c40k/Travelodge-Myeongdong-Euljiro",
+      "compareLabel": "Compare rates (KAYAK)",
+      "why": "Excellent budget brand option right beside Euljiro 3-ga Station, featuring comfortable queen-size beds and self-service laundromat.",
+      "highlights": [
+        "2-min walk to Euljiro 3-ga Station",
+        "Superior Queen category",
+        "Self-service laundry"
+      ],
+      "fits": true,
+      "fitReason": "Superior Queen · Euljiro 3-ga Station ~2 min",
+      "lat": 37.564344,
+      "lng": 126.990422,
+      "priceNote": "Planning estimate for autumn 2026; confirm live rates for your exact dates.",
+      "hasOnSiteLaundry": true,
+      "stationWalkTime": "2 min walk to Euljiro 3-ga Station",
+      "verification": {
+        "lastChecked": "2026-08-18",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://travelodgehotels.asia/travelodge-myeongdong-euljiro/",
+        "canonicalName": "Travelodge Myeongdong Euljiro",
+        "existenceStatus": "Verified operating property",
+        "note": "Travelodge Asia confirms the 224-room Euljiro branch on Supyo-ro, featuring Superior Queen bedding and coin laundry."
+      },
+      "refundableRate": {
+        "available": true,
+        "room": "Superior Queen Room",
+        "beds": "1 queen bed",
+        "pricePerNight": 90,
+        "totalStay": 720,
+        "currency": "USD (display conversion; 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before October 31, 2026 — 1 day before arrival; then first night",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Budget champion in Euljiro."
+      }
+    },
+    {
+      "id": "seoul-sotetsu-fresa-inn-myeongdong",
+      "city": "Seoul",
+      "name": "Sotetsu Fresa Inn Seoul Myeong-dong",
+      "tier": "budget",
+      "stars": 3,
+      "area": "Myeongdong",
+      "neighborhood": "48 Myeongdong-gil, 5-min walk to Myeongdong Station (Line 4)",
+      "priceFrom": 70,
+      "priceTo": 110,
+      "currency": "USD",
+      "checkIn": "15:00",
+      "checkOut": "12:00",
+      "policies": [
+        "Check-in from 15:00; check-out by 12:00.",
+        "Cashless hotel (credit card or mobile pay only).",
+        "Free Wi-Fi throughout."
+      ],
+      "rooms": [
+        {
+          "name": "Standard Double",
+          "price": "$70–95/night",
+          "note": "Compact room",
+          "bed": "double",
+          "bedType": "double",
+          "bedSize": "1 Double bed (approx 140x200cm)",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single double bed (not two beds pushed together)"
+        },
+        {
+          "name": "Comfort Twin",
+          "price": "$85–110/night",
+          "note": "Two single beds",
+          "bed": "twin",
+          "bedType": "twin",
+          "bedSize": "2 single beds",
+          "oneBed": false,
+          "oneBedOnly": false,
+          "privateBathroom": true,
+          "bedNote": "Two single beds"
+        }
+      ],
+      "promos": [
+        "Sotetsu Club member discounts & points.",
+        "Highly rated Japanese budget brand with strong value and kiosk-based convenience."
+      ],
+      "amenities": [
+        "Kiosk self check-in/out",
+        "Laundromat",
+        "Luggage storage lockers",
+        "Free Wi-Fi"
+      ],
+      "officialUrl": "https://sotetsu-hotels.com/en/fresa-inn/myeong-dong/",
+      "officialLabel": "Official site (sotetsu-hotels.com)",
+      "compareUrl": "https://www.kayak.com/hotels/Seoul,c40k/Sotetsu-Fresa-Inn-Seoul-Myeong-dong",
+      "compareLabel": "Compare rates (KAYAK)",
+      "why": "Highly popular Japanese brand budget hotel right on Myeongdong-gil, compact but modern double rooms.",
+      "highlights": [
+        "On-page self check-in kiosk",
+        "Prime Myeongdong-gil shopping",
+        "Modern compact rooms"
+      ],
+      "fits": false,
+      "fitReason": "Standard Double room uses a standard 140 cm double bed, below the 150 cm queen minimum",
+      "lat": 37.563641,
+      "lng": 126.984978,
+      "priceNote": "Planning estimate for autumn 2026; confirm live rates for your exact dates.",
+      "hasOnSiteLaundry": true,
+      "stationWalkTime": "5 min walk to Myeongdong Station",
+      "verification": {
+        "lastChecked": "2026-08-18",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://sotetsu-hotels.com/en/fresa-inn/myeong-dong/",
+        "canonicalName": "Sotetsu Fresa Inn Seoul Myeong-dong",
+        "existenceStatus": "Verified operating property",
+        "note": "Sotetsu Hotels confirms Fresa Inn branch at 48 Myeongdong-gil, featuring Standard Double with Double bed (140 cm) and twin configurations."
+      },
+      "refundableRate": {
+        "available": true,
+        "room": "Standard Double Room",
+        "beds": "1 double bed",
+        "pricePerNight": 95,
+        "totalStay": 760,
+        "currency": "USD (display conversion; 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before October 31, 2026 — 1 day before arrival",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Kiosk-based self check-in."
+      }
+    },
+    {
+      "id": "seoul-stanford-hotel-myeongdong",
+      "city": "Seoul",
+      "name": "Stanford Hotel Myeongdong",
+      "tier": "mid",
+      "stars": 4,
+      "area": "Myeongdong",
+      "neighborhood": "84 Namdaemun-ro, opposite Lotte Department Store, 3-min walk to Euljiro 1-ga (Line 2)",
+      "priceFrom": 80,
+      "priceTo": 145,
+      "currency": "USD",
+      "checkIn": "15:00",
+      "checkOut": "12:00",
+      "policies": [
+        "Check-in from 15:00; check-out by 12:00.",
+        "Non-smoking throughout.",
+        "Free Wi-Fi and fitness center access."
+      ],
+      "rooms": [
+        {
+          "name": "Standard Double",
+          "price": "$80–110/night",
+          "note": "Compact room",
+          "bed": "double",
+          "bedType": "double",
+          "bedSize": "1 Double bed (approx 140x200cm)",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single double bed (not two beds pushed together)"
+        },
+        {
+          "name": "Superior Double",
+          "price": "$95–125/night",
+          "note": "Bigger room",
+          "bed": "double",
+          "bedType": "double",
+          "bedSize": "1 Double bed (approx 140x200cm)",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single double bed (not two beds pushed together)"
+        }
+      ],
+      "promos": [
+        "Periodic flash deals and early bird booking discounts.",
+        "Modern high-rise setup with premium location directly bridging Myeongdong and Euljiro business zones."
+      ],
+      "amenities": [
+        "Fitness center",
+        "Restaurant (Stanford Cafe)",
+        "Sky lounge",
+        "Laundry room",
+        "Free Wi-Fi"
+      ],
+      "officialUrl": "https://www.stanford-hotel.com/myeongdong/en/",
+      "officialLabel": "Official site (stanford-hotel.com)",
+      "compareUrl": "https://www.kayak.com/hotels/Seoul,c40k/Stanford-Hotel-Myeongdong",
+      "compareLabel": "Compare rates (KAYAK)",
+      "why": "Modern, clean hotel opened around 2021/2022 located right opposite Lotte Department Store. Highly popular business base.",
+      "highlights": [
+        "Opposite Lotte Department Store",
+        "Recently opened modern property",
+        "Near Euljiro 1-ga Station"
+      ],
+      "fits": false,
+      "fitReason": "Double rooms utilize 140 cm standard double/full beds, which do not meet the 150 cm queen minimum",
+      "lat": 37.5645,
+      "lng": 126.982,
+      "priceNote": "Planning estimate for autumn 2026; confirm live rates for your exact dates.",
+      "hasOnSiteLaundry": true,
+      "stationWalkTime": "3 min walk to Euljiro 1-ga Station",
+      "verification": {
+        "lastChecked": "2026-08-18",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://www.stanford-hotel.com/myeongdong/en/",
+        "canonicalName": "Stanford Hotel Myeongdong",
+        "existenceStatus": "Verified operating property",
+        "note": "Stanford Hotels confirms the 4-star Myeongdong property at 84 Namdaemun-ro, featuring Standard/Superior Double rooms with double beds and Family Twin options."
+      },
+      "refundableRate": {
+        "available": true,
+        "room": "Standard Double Room",
+        "beds": "1 double bed",
+        "pricePerNight": 116,
+        "totalStay": 928,
+        "currency": "USD (display conversion; 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before October 31, 2026 — 1 day before arrival",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Opened in late 2021/2022."
+      }
+    },
+    {
+      "id": "seoul-sotetsu-splaisir-myeongdong",
+      "city": "Seoul",
+      "name": "Sotetsu Hotels The Splaisir Seoul Myeongdong",
+      "tier": "mid",
+      "stars": 4,
+      "area": "Myeongdong",
+      "neighborhood": "15 Namdaemun-ro 5-gil, 5-min walk to City Hall Station (Line 1 & 2)",
+      "priceFrom": 80,
+      "priceTo": 130,
+      "currency": "USD",
+      "checkIn": "15:00",
+      "checkOut": "12:00",
+      "policies": [
+        "Check-in from 15:00; check-out by 12:00.",
+        "Dry cleaning and laundry service available (additional charge).",
+        "Free Wi-Fi and 24-hour gym access."
+      ],
+      "rooms": [
+        {
+          "name": "Superior Double Room",
+          "price": "$80–110/night",
+          "note": "Private en-suite bathroom",
+          "bed": "double",
+          "bedType": "double",
+          "bedSize": "1 Double bed (approx 140x200cm)",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single double bed (not two beds pushed together)"
+        },
+        {
+          "name": "Deluxe Double Room",
+          "price": "$95–130/night",
+          "note": "Spacious double room",
+          "bed": "double",
+          "bedType": "double",
+          "bedSize": "1 Double bed (approx 140x200cm)",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single double bed (not two beds pushed together)"
+        }
+      ],
+      "promos": [
+        "Sotetsu Club member-only rates.",
+        "Famous for custom Line Friends character-themed rooms and upscale design."
+      ],
+      "amenities": [
+        "24-hour gym",
+        "Restaurant (BST)",
+        "Conference room",
+        "Laundry service",
+        "Free Wi-Fi"
+      ],
+      "officialUrl": "https://sotetsu-hotels.com/en/splaisir/myeong-dong/",
+      "officialLabel": "Official site (sotetsu-hotels.com)",
+      "compareUrl": "https://www.kayak.com/hotels/Seoul,c40k/Sotetsu-Hotels-The-Splaisir-Seoul-Myeongdong",
+      "compareLabel": "Compare rates (KAYAK)",
+      "why": "Full-service 4-star hotel in central Seoul with special Line Friends themed rooms. Walking distance to both City Hall and Myeongdong.",
+      "highlights": [
+        "Line Friends themed rooms",
+        "American-cuisine BST restaurant",
+        "24-hour fitness center"
+      ],
+      "fits": false,
+      "fitReason": "Superior and Deluxe Double rooms use 140 cm standard double beds, which do not meet the 150 cm queen minimum",
+      "lat": 37.562069,
+      "lng": 126.97879,
+      "priceNote": "Planning estimate for autumn 2026; confirm live rates for your exact dates.",
+      "hasOnSiteLaundry": true,
+      "stationWalkTime": "5 min walk to City Hall Station",
+      "verification": {
+        "lastChecked": "2026-08-18",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://sotetsu-hotels.com/en/splaisir/myeong-dong/",
+        "canonicalName": "Sotetsu Hotels The Splaisir Seoul Myeongdong",
+        "existenceStatus": "Verified operating property",
+        "note": "Sotetsu Hotels confirms the 4-star Splaisir Myeongdong property at 15 Namdaemun-ro 5-gil with standard double beds and fitness center."
+      },
+      "refundableRate": {
+        "available": true,
+        "room": "Superior Double Room",
+        "beds": "1 double bed",
+        "pricePerNight": 119,
+        "totalStay": 952,
+        "currency": "USD (display conversion; 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before October 31, 2026 — 1 day before arrival",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Line Friends themed hotel."
+      }
+    },
+    {
+      "id": "seoul-hotel-vert",
+      "city": "Seoul",
+      "name": "Hotel Vert",
+      "tier": "mid",
+      "stars": 4,
+      "area": "Myeongdong",
+      "neighborhood": "22 Myeongdong 7ga-gil, near Lotte Department Store and 3-min walk to Euljiro 1-ga Station (Line 2)",
+      "priceFrom": 110,
+      "priceTo": 160,
+      "currency": "USD",
+      "checkIn": "15:00",
+      "checkOut": "11:00",
+      "policies": [
+        "Check-in from 15:00; check-out by 11:00.",
+        "All 42 rooms feature an in-room kitchen with refrigerator and kitchenware.",
+        "Free Wi-Fi throughout. 24-hour reception, coin laundry, and luggage storage available."
+      ],
+      "rooms": [
+        {
+          "name": "Deluxe King Room",
+          "price": "$110–150/night",
+          "note": "In-room kitchen and en-suite bathroom",
+          "bed": "king",
+          "bedType": "king",
+          "bedSize": "King (approx 180x200cm)",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single king bed (not two beds pushed together)"
+        },
+        {
+          "name": "Deluxe Twin Room",
+          "price": "$110–150/night",
+          "note": "Two single beds with kitchen",
+          "bed": "twin",
+          "bedType": "twin",
+          "bedSize": "2 single beds",
+          "oneBed": false,
+          "oneBedOnly": false,
+          "privateBathroom": true,
+          "bedNote": "Two single beds"
+        }
+      ],
+      "promos": [
+        "Serviced boutique residence style rooms providing home-like comforts with a full kitchenette.",
+        "Exceptional central Myeongdong location close to shopping, dining, and transit options."
+      ],
+      "amenities": [
+        "In-room kitchen",
+        "Fitness center",
+        "Self-service coin laundry",
+        "Luggage storage lockers",
+        "Free Wi-Fi",
+        "24-hour front desk"
+      ],
+      "officialUrl": null,
+      "officialLabel": "Book via trusted OTA (no stable official English site)",
+      "compareUrl": "https://www.kayak.com/Seoul-Hotels-Hotel-Vert.1070941248.ksp",
+      "compareLabel": "Compare rates (KAYAK)",
+      "why": "Excellent mid-range serviced boutique hotel on Myeongdong 7ga-gil, offering true king beds and in-room kitchens just 3 minutes from Euljiro 1-ga Station.",
+      "highlights": [
+        "In-room kitchen with refrigerator",
+        "True King bed in Deluxe King",
+        "Euljiro 1-ga Station ~3 min"
+      ],
+      "fits": true,
+      "fitReason": "Deluxe King · Euljiro 1-ga Station ~3 min",
+      "lat": 37.56457,
+      "lng": 126.983145,
+      "priceNote": "Planning estimate for autumn 2026; confirm live rates for your exact dates.",
+      "hasOnSiteLaundry": true,
+      "stationWalkTime": "3 min walk to Euljiro 1-ga Station",
+      "verification": {
+        "lastChecked": "2026-08-18",
+        "sourceType": "Major trusted booking platform",
+        "sourceUrl": "https://www.booking.com/hotel/kr/vert-seoul.html",
+        "canonicalName": "Hotel Vert",
+        "existenceStatus": "Verified operating property",
+        "note": "Major booking platforms confirm the 4-star, 42-room boutique property at 22 Myeongdong 7ga-gil with Deluxe King beds and in-room kitchens."
+      },
+      "refundableRate": {
+        "available": true,
+        "room": "Deluxe King Room",
+        "beds": "1 king bed",
+        "pricePerNight": 133,
+        "totalStay": 1064,
+        "currency": "USD (display conversion; 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 1, 2026 — free until 12:00 AM day of arrival",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Includes kitchen and refrigerator."
+      }
+    },
+    {
+      "id": "seoul-royal-hotel",
+      "city": "Seoul",
+      "name": "Royal Hotel Seoul",
+      "tier": "mid",
+      "stars": 4,
+      "area": "Myeongdong",
+      "neighborhood": "61, Myeongdong-Gil, directly opposite Myeongdong Cathedral, 5-min walk to Myeongdong Station (Line 4)",
+      "priceFrom": 130,
+      "priceTo": 180,
+      "currency": "USD",
+      "checkIn": "15:00",
+      "checkOut": "11:00",
+      "policies": [
+        "Check-in from 15:00; check-out by 11:00.",
+        "Weekly housekeeping standard; daily touch-ups on request.",
+        "Free high-speed Wi-Fi. Full-service spa, gym, and executive lounge access."
+      ],
+      "rooms": [
+        {
+          "name": "Premier Double",
+          "price": "$130–180/night",
+          "note": "Latest renewed, high floor with city views",
+          "bed": "king",
+          "bedType": "king",
+          "bedSize": "King (approx 180x200cm)",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single king bed (not two beds pushed together)"
+        },
+        {
+          "name": "Standard Double",
+          "price": "$100–140/night",
+          "note": "Compact standard room",
+          "bed": "double",
+          "bedType": "double",
+          "bedSize": "1 Double bed (approx 140x200cm)",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single double bed"
+        }
+      ],
+      "promos": [
+        "Periodic flash deals, member discounts and continental breakfast packages in the sky lounge.",
+        "Prestigious landmark property offering upscale quiet luxury in the exact center of Myeongdong."
+      ],
+      "amenities": [
+        "Full-service spa",
+        "Sky lounge / restaurant",
+        "Fitness center",
+        "24-hour reception",
+        "Executive lounge access",
+        "Free Wi-Fi"
+      ],
+      "officialUrl": "https://www.royal.co.kr/en/index.php",
+      "officialLabel": "Official site (royal.co.kr)",
+      "compareUrl": "https://www.kayak.com/Seoul-Hotels-Royal-Hotel-Seoul.76558.ksp",
+      "compareLabel": "Compare rates (KAYAK)",
+      "why": "The premier classic upscale choice in Myeongdong, offering completely renewed Premier King rooms opposite Myeongdong Cathedral.",
+      "highlights": [
+        "Directly opposite Myeongdong Cathedral",
+        "Renewed Premier King bed rooms",
+        "Sky lounge panoramic city views"
+      ],
+      "fits": true,
+      "fitReason": "Premier Double · Myeongdong Station about 5 min",
+      "lat": 37.5639,
+      "lng": 126.9861,
+      "priceNote": "Planning estimate for autumn 2026; confirm live rates for your exact dates.",
+      "hasOnSiteLaundry": true,
+      "stationWalkTime": "5 min walk to Myeongdong Station",
+      "verification": {
+        "lastChecked": "2026-08-18",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://www.royal.co.kr/en/index.php",
+        "canonicalName": "Royal Hotel Seoul",
+        "existenceStatus": "Verified operating property",
+        "note": "Royal Hotel confirms 4-star, 310-room central property on Myeongdong-gil, featuring Premier Double King rooms (200x200 cm), bidet baths, spa and fitness facilities."
+      },
+      "refundableRate": {
+        "available": true,
+        "room": "Premier Double Room (King bed)",
+        "beds": "1 king bed",
+        "pricePerNight": 173,
+        "totalStay": 1384,
+        "currency": "USD (display conversion; 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before October 29, 2026 — free until 3 days before arrival",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Includes premium bidet bath and extra-long bed."
+      }
+    },
+    {
+      "id": "seoul-sejong-hotel-myeongdong",
+      "city": "Seoul",
+      "name": "Sejong Hotel Seoul Myeongdong",
+      "tier": "mid",
+      "stars": 4,
+      "area": "Myeongdong",
+      "neighborhood": "145 Toegye-ro, directly outside Myeongdong Station Exit 10 (Line 4)",
+      "priceFrom": 89,
+      "priceTo": 135,
+      "currency": "USD",
+      "checkIn": "15:00",
+      "checkOut": "12:00",
+      "policies": [
+        "Check-in from 15:00; check-out by 12:00.",
+        "All rooms are non-smoking. Free Wi-Fi.",
+        "WOWPASS multi-currency exchange kiosk on site."
+      ],
+      "rooms": [
+        {
+          "name": "Deluxe Double",
+          "price": "$100–135/night",
+          "note": "Spacious room (31 m²) with city views",
+          "bed": "king",
+          "bedType": "king",
+          "bedSize": "King (approx 180x200cm)",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single king bed (not two beds pushed together)"
+        },
+        {
+          "name": "Standard Double",
+          "price": "$89–110/night",
+          "note": "Compact room",
+          "bed": "double",
+          "bedType": "double",
+          "bedSize": "1 Double bed (approx 140x200cm)",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single double bed"
+        }
+      ],
+      "promos": [
+        "Consistently praised for larger room sizes compared to modern business hotels in Myeongdong.",
+        "Landmark property featuring an on-site art gallery and fitness center."
+      ],
+      "amenities": [
+        "Fitness center",
+        "WOWPASS exchange machine",
+        "Art gallery",
+        "Business center",
+        "Laundry service",
+        "Free Wi-Fi"
+      ],
+      "officialUrl": "http://www.sejong.co.kr/eng/",
+      "officialLabel": "Official site (sejong.co.kr)",
+      "compareUrl": "https://www.kayak.com/Seoul-Hotels-Sejong-Hotel.76543.ksp",
+      "compareLabel": "Compare rates (KAYAK)",
+      "why": "A classic landmark 4-star hotel offering exceptionally large Deluxe King rooms (31 m²) and unmatched transit convenience right at Myeongdong Station Exit 10.",
+      "highlights": [
+        "Directly outside Myeongdong Station Exit 10",
+        "Larger Deluxe rooms (31 m²) with King beds",
+        "Art gallery on-site"
+      ],
+      "fits": true,
+      "fitReason": "Deluxe Double · Myeongdong Station Exit 10 direct",
+      "lat": 37.56128,
+      "lng": 126.98796,
+      "priceNote": "Planning estimate for autumn 2026; confirm live rates for your exact dates.",
+      "hasOnSiteLaundry": true,
+      "stationWalkTime": "1 min walk to Myeongdong Station",
+      "verification": {
+        "lastChecked": "2026-08-18",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "http://www.sejong.co.kr/eng/",
+        "canonicalName": "Sejong Hotel Seoul Myeongdong",
+        "existenceStatus": "Verified operating property",
+        "note": "Sejong Hotel confirms 4-star, 333-room landmark property with large Deluxe King rooms (31 m²), standard double options, art gallery, and WOWPASS machines."
+      },
+      "refundableRate": {
+        "available": true,
+        "room": "Deluxe Double Room (King bed)",
+        "beds": "1 king bed",
+        "pricePerNight": 117,
+        "totalStay": 936,
+        "currency": "USD (display conversion; 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before October 31, 2026 — free until 1 day before arrival",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Spacious 31 m² layout with King-size bed."
+      }
+    },
+    {
+      "id": "seoul-orakai-insadong-suites",
+      "city": "Seoul",
+      "name": "Orakai Insadong Suites",
+      "tier": "mid",
+      "stars": 4,
+      "area": "Insadong / Jongno (historic & arts district)",
+      "neighborhood": "18 Insadong 4-Gil, in the heart of traditional Insadong-gil, 5-min walk to Anguk Station (Line 3)",
+      "priceFrom": 136,
+      "priceTo": 190,
+      "currency": "USD",
+      "checkIn": "15:00",
+      "checkOut": "11:00",
+      "policies": [
+        "Check-in from 15:00; check-out by 11:00.",
+        "Serviced residence apartments with full kitchen, stovetop, oven, and in-unit washing machine.",
+        "Limited housekeeping provided once a week; daily towel exchange available."
+      ],
+      "rooms": [
+        {
+          "name": "One-Bedroom Apartment",
+          "price": "$136–179/night",
+          "note": "Fully equipped kitchen and washing machine",
+          "bed": "king",
+          "bedType": "king",
+          "bedSize": "King (approx 180x200cm)",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single king bed (not two beds pushed together)"
+        }
+      ],
+      "promos": [
+        "Exceptional serviced suites providing full-size apartment amenities and heated indoor swimming pool.",
+        "Highly favored by long-stay travelers wanting traditional Insadong-gil at their doorstep."
+      ],
+      "amenities": [
+        "Indoor swimming pool",
+        "Children's pool",
+        "Sauna & steam room",
+        "Fitness center",
+        "In-unit washing machine",
+        "Full kitchen & dishwasher"
+      ],
+      "officialUrl": "https://orakai-insadong-suites.business.site/",
+      "officialLabel": "Official brand page (orakai-residences.co.kr)",
+      "compareUrl": "https://www.kayak.com/Seoul-Hotels-Orakai-Insadong-Suites.58287.ksp",
+      "compareLabel": "Compare rates (KAYAK)",
+      "why": "A premier 4-star serviced residence in Insadong, offering massive 1-bedroom apartments with full kitchens, washing machines, and indoor pool, just 5 minutes from Anguk Station.",
+      "highlights": [
+        "Traditional Insadong-gil outside",
+        "In-unit full kitchen and laundry washing machine",
+        "Heated indoor swimming pool & sauna"
+      ],
+      "fits": true,
+      "fitReason": "One-Bedroom Apartment · Anguk Station about 5 min",
+      "lat": 37.572458,
+      "lng": 126.988012,
+      "priceNote": "Planning estimate for autumn 2026; confirm live rates for your exact dates.",
+      "hasOnSiteLaundry": true,
+      "stationWalkTime": "5 min walk to Anguk Station",
+      "verification": {
+        "lastChecked": "2026-08-18",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://orakai-insadong-suites.business.site/",
+        "canonicalName": "Orakai Insadong Suites",
+        "existenceStatus": "Verified operating property",
+        "note": "Orakai brand confirms 4-star, 213-apartment luxury serviced residence at 18 Insadong 4-Gil, featuring full kitchens, private laundry washers, heated pools, and king/queen bedding options."
+      },
+      "refundableRate": {
+        "available": true,
+        "room": "One-Bedroom Apartment",
+        "beds": "1 king bed",
+        "pricePerNight": 146,
+        "totalStay": 1168,
+        "currency": "USD (display conversion; 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before October 31, 2026 — 1 day before arrival",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Full-size apartment layout with premium kitchen & washer."
+      }
     }
   ],
   "meta": {
@@ -6230,7 +7449,7 @@
     "expandedPrimaryCityHotels": 55,
     "verifiedPrimaryCityHotels": 55,
     "identityAuditLastChecked": "2026-08-18",
-    "verifiedHotelRecords": 74,
+    "verifiedHotelRecords": 84,
     "duplicateHotelRecords": 0,
     "refundableRateCaptures": {
       "lastRun": "2026-08-18",

@@ -19,9 +19,8 @@ A room named “Double” is not automatically queen width. Where a hotel uses �
 | Hotel | Room to choose | Station note | Estimate |
 |---|---|---|---:|
 | Somerset Palace Seoul | Studio Executive — queen | Anguk ~3 min | $140–220 |
-| L7 MYEONGDONG by LOTTE | Deluxe Double — queen | Myeongdong ~2 min | $150–210 |
-| Nine Tree Myeongdong 1 | Deluxe — queen | Myeongdong ~1 min | $100–145 |
-| Moxy Seoul Myeongdong | King Guest Room | Myeongdong ~5 min | $150–230 |
+| Nine Tree Myeongdong 1 | Standard Double — queen-width (160 cm) | Myeongdong ~1 min | $100–145 |
+| Moxy Seoul Myeongdong | Queen Guest Room | Myeongdong ~5 min | $150–230 |
 | Le Méridien Seoul Myeongdong | Deluxe King | Myeongdong ~5 min | $300–450 |
 | Aloft Seoul Myeongdong | Deluxe King | Myeongdong ~6 min | $150–230 |
 | Courtyard Seoul Myeongdong | Deluxe King | Hoehyeon ~5 min | $170–260 |
@@ -29,20 +28,42 @@ A room named “Double” is not automatically queen width. Where a hotel uses �
 | Nine Tree Myeongdong 2 | Hollywood Double / king configuration | Euljiro 3-ga ~4 min | $100–170 |
 | Nine Tree Insadong | Standard Double / current queen listing | Anguk ~3 min | $120–190 |
 | Shilla Stay Gwanghwamun | Hollywood Double / current king listing | Jonggak ~6 min | $110–180 |
-| LOTTE HOTEL SEOUL | Main Tower Deluxe Double / select king configuration | Euljiro 1-ga connected | $240–420 |
 | The Westin Josun Seoul | Deluxe King | City Hall ~4 min | $280–450 |
 | Four Seasons Hotel Seoul | Deluxe King | Gwanghwamun area | $420–640 |
 | Fairmont Ambassador Seoul | Deluxe King | Yeouido area | $300–430 |
 | L'Escape, Luxury Collection | Deluxe King | Myeongdong | $280–420 |
+| Ibis Ambassador Insadong | Superior (Renovated) — queen | Jongno 3-ga ~4 min | $110–155 |
+| Four Points by Sheraton Josun, Seoul Station | Superior King | Seoul Station direct | $120–190 |
+| THE PLAZA Seoul, Autograph Collection | Deluxe King Room | City Hall ~2 min | $180–280 |
+| Travelodge Myeongdong Euljiro | Superior Queen | Euljiro 3-ga ~2 min | $65–110 |
+| Hotel Vert | Deluxe King Room | Euljiro 1-ga ~3 min | $110–150 |
+| Royal Hotel Seoul | Premier Double | Myeongdong ~5 min | $130–180 |
+| Sejong Hotel Seoul Myeongdong | Deluxe Double | Myeongdong Station Exit 10 direct | $89–135 |
+| Orakai Insadong Suites | One-Bedroom Apartment | Anguk ~5 min | $136–190 |
 
-### Seoul entries needing a bed-width exception
+### Seoul entries needing a bed-width exception (Double < 150 cm)
 
-- ibis Styles Ambassador Seoul Myeongdong
-- ibis Ambassador Insadong
-- Hotel Skypark Myeongdong 3
-- ibis Ambassador Seoul Myeongdong
+- L7 MYEONGDONG by LOTTE (Superior Double is a full bed, no queen room exists)
+- ibis Styles Ambassador Seoul Myeongdong (Standard/Superior Double is 140 cm)
+- Hotel Skypark Myeongdong 3 (Standard Double is 140 cm)
+- ibis Ambassador Seoul Myeongdong (Standard Double is a double bed, queen width not confirmed)
+- LOTTE HOTEL SEOUL (Main Tower Deluxe Double is a full bed, queen/king width not confirmed)
+- Sotetsu Fresa Inn Seoul Myeong-dong (Standard Double uses 140 cm standard double bed)
+- Stanford Hotel Myeongdong (Standard/Superior Double uses 140 cm standard double bed)
+- Sotetsu Hotels The Splaisir Seoul Myeongdong (Superior/Deluxe Double uses 140 cm standard double bed)
 
-Their highlighted rooms are doubles without a sufficiently confirmed 150 cm width. The last ibis remains a valid **arrival-night** option because 24-hour reception is separately documented, but it is not a green bed match.
+## Suwon core matches
+
+| Hotel | Room to choose | Station note | Estimate |
+|---|---|---|---:|
+| Novotel Ambassador Suwon | Superior 1 King | Suwon Station direct | $120–200 |
+
+### Suwon entries needing an exception / not matching core rules
+
+- **Four Points by Sheraton Suwon:** King room + private bath confirmed, but walkable metro distance not yet verified.
+- **Ramada Plaza by Wyndham Suwon:** Not walkable to Suwon Station (~12 min drive); Deluxe "King" room is actually 1 queen bed on Booking.
+- **Courtyard by Marriott Suwon:** King room + private bath fit, but Gwanggyo location is ~30 min from Suwon Station / Hwaseong.
+- **ibis Ambassador Suwon:** Standard rooms are 1 double, King is only in the Junior Suite; station walk not verified.
 
 ## Busan core matches
 

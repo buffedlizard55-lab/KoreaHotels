@@ -4054,6 +4054,21 @@
         "note": "The official KINOCK site confirms the current brand, address and pet-focused rooms/facilities. Trusted current inventory confirms the 2024 full renovation, 15:00/11:00 hours and queen Premier/Signature categories.",
         "canonicalName": "KINOCK Gyeongju",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T15:24:49Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/the-suite-gyeongju.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "KINOCK PKG room — private pool + spa tub (pkg incl. breakfast service + Pet Park pass)",
+        "beds": "1 queen bed",
+        "pricePerNight": 171,
+        "totalStay": 1028,
+        "currency": "USD (display conversion; 45% deals applied; 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 2, 2026 — inside 7 days the penalty is the FIRST NIGHT only (most forgiving in Gyeongju)",
+        "prepayment": "Pay nothing until October 31, 2026",
+        "note": "Pet-focused hotel — reviews center on dog facilities. 2 left at capture."
       }
     },
     {
@@ -4500,6 +4515,14 @@
         "note": "SONO's official site confirms the renamed Gyeongju property, current rooms, 15:00/11:00 hours, layouts and after-22:00 advance-contact rule.",
         "canonicalName": "SONO Calm Gyeongju",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T15:24:49Z",
+        "source": "Booking.com property page (dated)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/daemyung-resort-gyeongju.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": false,
+        "finding": "No availability for Nov 9–15 on Booking.com at capture time; all kitchenette suites marked unavailable for the dates.",
+        "note": "Booking slug is legacy 'daemyung-resort-gyeongju' (ex-Daemyung Resort). Score 7.5/10."
       }
     },
     {
@@ -5515,7 +5538,7 @@
         "Grand Hyatt Incheon (arrival-night fallback)"
       ],
       "history": "data/pricing-history.json (append-only, UTC-timestamped)",
-      "status": "Seoul 20/20. Gyeongju 11/15 progressed (Rivertain, Kensington, Swiss Rosen, Commodore, Lahan, The-K captured; Hwangnamkwan + HanokInn no-availability; Hilton + Kinock verified/pending-price; Wiyeonjae unlisted). Remaining: Hilton retry, Kinock price, SONO Calm, GG, Nadul. Busan 0/20."
+      "status": "Seoul 20/20. Gyeongju 15/15 accounted: 7 refundable captured, 3 no-availability (Hwangnamkwan, HanokInn, SONO Calm), 2 not on Booking (Wiyeonjae, Nadul), 3 pending (Hilton render-fail x3, GG slug, Kolon unsearched). Busan 0/20 next."
     }
   },
   "arrivalNight": {

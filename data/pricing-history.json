@@ -1100,6 +1100,69 @@
       "capturedAtUtc": "2026-08-18T15:18:50Z",
       "finding": "SONO Calm: slug guess 'sono-bellehotel' 404; NEW candidate for next run: 'daemyung-resort-gyeongju' (its h-rez mirror subdomain is daemyung-resort-gyeongju.h-rez.com; SONO was formerly Daemyung Resort). GG Hotel Gyeongju: confirmed ON Booking.com via Google Hotels (listed 'from $82, Booking.com') but the property-page URL did not surface; address 3 Taejong-ro 699beon-gil; 24-hour front desk per Google amenities; slug candidate 'gyeongju-gg-hotel' untested. Hilton Gyeongju: rate table failed to render on a second attempt (identity + dates verified; price still pending). Nadul Hanok: not surfaced in combined search - needs its own query.",
       "note": "Gyeongju closeout remaining: Hilton retry, Kinock chunk 1, SONO Calm guess, GG guess, Nadul search. Then Busan 20."
+    },
+    {
+      "captureId": "2026-08-18T15:24:49Z-kinock-gyeongju-full",
+      "hotelId": "gyeongju-kinock",
+      "propertyName": "Kinock (Pet Hotel)",
+      "propertyVerifiedBy": "Continuation of prior verified capture (H1 'Kinock', 280-12 Bomun-ro); price rows read from chunk 1",
+      "bookingSlug": "the-suite-gyeongju",
+      "capturedAtUtc": "2026-08-18T15:24:49Z",
+      "timestampSource": "booking.com chal_t=1787066689049",
+      "sourceUrl": "https://www.booking.com/hotel/kr/the-suite-gyeongju.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "KINOCK PKG room with private pool + spa tub (incl. Good-morning service for 2 + Pet Park day pass), 570 sq ft",
+          "beds": "1 queen bed",
+          "meetsOneBedNeed": true,
+          "unitsLeftAsShown": "We have 2 left",
+          "pricePerNightUsd": 171,
+          "totalStayUsd": 1028,
+          "priceNote": "45% Early Booker + Booking-paid deals; original $1,883; total before taxes $1,027.91",
+          "taxNote": "Excluded: 10% TAX",
+          "meals": "Continental breakfast $7/person/night (optional; rated 2.5 from 1 review)",
+          "cancellationAsShown": "Free cancellation before November 2, 2026 - free until 7 days before arrival; within 7 days the fee is the cost of the FIRST NIGHT only; no-show fee the same.",
+          "prepaymentAsShown": "Pay nothing until October 31, 2026.",
+          "note": "Most forgiving penalty structure in Gyeongju (first-night, not total-stay). Still a pet-focused property."
+        },
+        {
+          "room": "KINOCK DELUXE B (pkg incl.) 495 sq ft",
+          "beds": "2 full beds",
+          "meetsOneBedNeed": false,
+          "pricePerNightUsd": 138,
+          "totalStayUsd": 827,
+          "taxNote": "Excluded: 10% TAX",
+          "cancellationAsShown": "Free cancellation before November 2, 2026 (7-day cutoff, first-night penalty).",
+          "prepaymentAsShown": "Pay nothing until October 31, 2026."
+        }
+      ]
+    },
+    {
+      "captureId": "2026-08-18T15:24:49Z-sono-calm-gyeongju",
+      "hotelId": "gyeongju-sono-calm",
+      "propertyName": "Sono Calm Gyeongju",
+      "propertyVerifiedBy": "Page H1 'Sono Calm Gyeongju', address 400-1 Sinpyeong-Dong (Bomun lakefront - matches repo area); slug is legacy 'daemyung-resort-gyeongju' (ex-Daemyung Resort); Sono Hotels & Resorts brand; score 7.5/10 (63 reviews); description still reads 'Daemyung Resort'",
+      "bookingSlug": "daemyung-resort-gyeongju",
+      "recordCheck": {
+        "repoName": "SONO Calm Gyeongju",
+        "pageName": "Sono Calm Gyeongju (legacy Daemyung Resort)",
+        "verdict": "match"
+      },
+      "capturedAtUtc": "2026-08-18T15:24:49Z",
+      "timestampSource": "booking.com chal_t=1787066689044",
+      "sourceUrl": "https://www.booking.com/hotel/kr/daemyung-resort-gyeongju.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": false,
+      "finding": "Page stated: 'We have no availability here between Mon, Nov 9, 2026 and Sun, Nov 15, 2026.' All listed family/suite room types (kitchenette units) showed 'Not available on our site for your dates'.",
+      "note": "Third Gyeongju property (after Hwangnamkwan, HanokInn) with zero availability for the full 6-night window."
+    },
+    {
+      "captureId": "2026-08-18T15:24:49Z-gyeongju-closeout",
+      "hotelId": null,
+      "scope": "closeout",
+      "capturedAtUtc": "2026-08-18T15:24:49Z",
+      "finding": "Gyeongju final status - 15/15 accounted for: 7 refundable rates captured (Rivertain $490, Swiss Rosen $556, The-K $752, Kensington $957, Kinock queen $1,028, Commodore $1,365, Lahan $1,764); 3 no-availability for the full window (Hwangnamkwan, HanokInn, SONO Calm); 2 not listed on Booking.com (Wiyeonjae -> wiyeonjae.kr; Nadul Hanok -> gjhanok.com/hanok platforms, per wehome/kozaza listings); 3 unresolved this session: Hilton (rate table render-failed x2 + HTTP 500 on retry; identity + dates verified, slug gyeongju-hilton), GG Hotel (on Booking per Google ~$82 with 24h desk, but slug guesses gyeongju-gg-hotel and prior guesses failed; address 3 Taejong-ro 699beon-gil), Kolon Hotel (slug never attempted - not yet searched).",
+      "note": "Next: Hilton/GG/Kolon retries, then the full Busan sweep (20 hotels, Nov 15-22)."
     }
   ]
 }

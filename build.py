@@ -13,6 +13,8 @@ Usage:
 """
 import json
 
+from findings import build_findings
+
 HOTELS = 'data/hotels.json'
 ITINERARY = 'data/itinerary.json'
 TEMPLATE = 'index.template.html'
@@ -34,6 +36,8 @@ def main():
         'arrivalNight': hotels.get('arrivalNight', {}),
         'itinerary': itinerary,
         'hotels': hotels['hotels'],
+        'findings': build_findings(hotels, itinerary),
+        'meta': hotels.get('meta', {}),
     }
     data_json = json.dumps(data, ensure_ascii=False, separators=(',', ':'))
 

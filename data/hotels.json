@@ -7,7 +7,7 @@
     "note": "Oct 31 – Nov 22, 2026 (22 nights). Autumn shoulder season — leaf-peeping, mild temps, lighter crowds than summer, and generally better hotel rates than spring high season. Prices below are typical nightly USD figures for a standard double; always confirm the live rate for YOUR dates on the hotel's official site."
   },
   "split": {
-    "recommended": "Seoul 8 nights (Oct 31–Nov 8) · Gyeongju 6 nights (Nov 8–Nov 14) · Busan 8 nights (Nov 14–Nov 22)",
+    "recommended": "Seoul 8 nights (Nov 1–9) · Gyeongju 6 nights (Nov 9–15) · Busan 7 nights (Nov 15–22). The Oct 31 arrival night (ICN lands 21:00) is intentionally left unbooked for now — see guide/arrival-night.md if that changes.",
     "rationale": "Seoul is the biggest city and main transport hub, so bookending the trip there is practical. Gyeongju is compact (5–7 nights = relaxed pace + day trips to Bulguksa & Yangdong Village). Busan is large and spread across two personalities (Haeundae beachside vs. Nampo old town), so 7–9 nights lets you split between neighborhoods.",
     "alternatives": [
       "More Seoul: 10 / 4 / 8 (Gyeongju trimmed to a long weekend)",
@@ -107,6 +107,21 @@
         "note": "LOTTE confirms the operating Myeongdong property, address, rooms and facilities. Its separate arrival card uses a major trusted listing for the explicit 24-hour-desk claim.",
         "canonicalName": "L7 MYEONGDONG by LOTTE HOTELS",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T05:52:57Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/l7-myeongdong-by-lotte.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Standard Double Room",
+        "beds": "1 full bed",
+        "pricePerNight": 295,
+        "totalStay": 2358,
+        "currency": "USD (display conversion; 5% discount applied; 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before October 29, 2026 (free until 3 days before arrival; inside 3 days = first night)",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "5 units left at this price at capture time. Verify the live page before booking."
       }
     },
     {
@@ -445,6 +460,14 @@
         "note": "Four Seasons confirms the current Gwanghwamun property, accommodations, dining, spa and central location.",
         "canonicalName": "Four Seasons Hotel Seoul",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T05:52:30Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/four-seasons-seoul.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": false,
+        "finding": "Booking.com showed no availability for Nov 1–9, 2026 at capture time; check the official Four Seasons site direct.",
+        "note": "Negative result on one source at one moment — not proof the hotel is full."
       }
     },
     {
@@ -2780,6 +2803,21 @@
         "note": "Official Ascott pages confirm the property, 15:00/12:00 hours, nearby subway stations, a queen Studio Executive, private bathroom, washer/dryer, and 24-hour reception.",
         "canonicalName": "Somerset Palace Seoul",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T05:52:30Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/somerset-palace-seoul.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Deluxe Queen Room with Two Queen Beds",
+        "beds": "2 queen beds (also books 1-bed Studio; its $1,824 total was only partially captured)",
+        "pricePerNight": 249,
+        "totalStay": 1994,
+        "currency": "USD (display conversion; 10% tax excluded)",
+        "breakfastIncluded": true,
+        "freeCancellation": "Free cancellation before October 30, 2026 (free until 2 days before arrival; inside 2 days = first night)",
+        "prepayment": "Pay nothing until October 28, 2026",
+        "note": "Verify the live page before booking; terms shown at checkout are authoritative."
       }
     },
     {
@@ -5127,7 +5165,18 @@
     "verifiedPrimaryCityHotels": 55,
     "identityAuditLastChecked": "2026-08-10",
     "verifiedHotelRecords": 69,
-    "duplicateHotelRecords": 0
+    "duplicateHotelRecords": 0,
+    "refundableRateCaptures": {
+      "lastRun": "2026-08-18",
+      "stay": "Seoul Nov 1–9, 2026 (8 nights, 2 adults)",
+      "captured": [
+        "seoul-somerset-palace",
+        "seoul-l7-myeongdong",
+        "seoul-four-seasons",
+        "Grand Hyatt Incheon (arrival-night fallback)"
+      ],
+      "history": "data/pricing-history.json (append-only, UTC-timestamped)"
+    }
   },
   "arrivalNight": {
     "title": "First night in Seoul — officially verified late-arrival shortlist",

@@ -1,0 +1,173 @@
+{
+  "_readme": [
+    "APPEND-ONLY timestamped rate captures. Never edit or delete existing entries;",
+    "add new entries with a fresh capturedAtUtc to build a price history.",
+    "Every price below was read directly from the named source page at the captured",
+    "UTC time (corroborated by the source URL's own chal_t/srepoch epoch parameter).",
+    "No price in this file is estimated or remembered - if it is not on the source",
+    "page, it does not go in here."
+  ],
+  "method": {
+    "stay": { "checkIn": "2026-11-01", "checkOut": "2026-11-09", "nights": 8, "occupancy": "2 adults, 1 room" },
+    "source": "Booking.com property page loaded with date parameters (checkin/checkout/group_adults/no_rooms/selected_currency=USD), free-cancellation context",
+    "urlPattern": "https://www.booking.com/hotel/kr/<property-slug>.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+    "captureRule": "Room rows are copied verbatim: room name, bed count, per-night price, stay total, tax note, cancellation deadline text, prepayment text. 404 slug guesses and unverified rows are never recorded as data.",
+    "caveats": [
+      "Rates are per rate-plan, not per hotel; they can change or sell out at any time after capture.",
+      "Prices are Booking.com's display conversion to USD, 'before taxes' unless the row says otherwise (most rows say 'Excluded: 10% TAX').",
+      "'Free cancellation before <date>' is the policy Booking displayed at capture time; the authoritative terms are those shown at checkout.",
+      "Official brand sites may show different prices/availability than Booking.com (e.g. a hotel 'not available' here may be bookable direct)."
+    ]
+  },
+  "captures": [
+    {
+      "captureId": "2026-08-18T05:46:07Z-market-snapshot",
+      "hotelId": null,
+      "scope": "market-snapshot",
+      "capturedAtUtc": "2026-08-18T05:46:07Z",
+      "timestampSource": "booking.com chal_t=1787031967785 in served URL",
+      "sourceUrl": "https://www.booking.com/searchresults.html?ss=Seoul&checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&nflt=fc%3D2",
+      "finding": "Seoul search with the Free cancellation filter returned 2,044 properties with free cancellation for Nov 1-9, 2026; the cheapest verified example card (Lake Tourist Hotel, Songpa-Gu, Double Room, free cancellation + no prepayment) showed $46/night, $365 total for 8 nights.",
+      "note": "Establishes that refundable inventory for these exact dates is plentiful on this source at capture time."
+    },
+    {
+      "captureId": "2026-08-18T05:52:30Z-somerset-palace-seoul",
+      "hotelId": "seoul-somerset-palace",
+      "propertyName": "Somerset Palace Seoul",
+      "propertyVerifiedBy": "Page H1 'Somerset Palace Seoul', address 7, Yulgok-ro 2-gil, Jongno-gu, Seoul; amenities list includes '24-hour front desk'",
+      "bookingSlug": "somerset-palace-seoul",
+      "capturedAtUtc": "2026-08-18T05:52:30Z",
+      "timestampSource": "booking.com chal_t=1787032350640 in served URL (price rows re-read 05:52:57Z, chal_t=1787032377968)",
+      "sourceUrl": "https://www.booking.com/hotel/kr/somerset-palace-seoul.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Deluxe Queen Room with Two Queen Beds",
+          "beds": "2 queen beds",
+          "meetsOneBedNeed": false,
+          "pricePerNightUsd": 249,
+          "totalStayUsd": 1994,
+          "taxNote": "Excluded: 10% TAX",
+          "meals": "Continental breakfast included (a $263/night rate variant without breakfast included was also listed)",
+          "cancellationAsShown": "Free cancellation before October 30, 2026 - free until 2 days before arrival; within 2 days of arrival the fee is the cost of the first night; no-show fee equals the cancellation fee.",
+          "prepaymentAsShown": "Pay nothing until October 28, 2026 (payment due Oct 28, property time; auto-charge or pay-at-book choice)."
+        },
+        {
+          "room": "Executive Queen Room with Two Queen Beds",
+          "beds": "2 queen beds",
+          "meetsOneBedNeed": false,
+          "pricePerNightUsd": 256,
+          "totalStayUsd": 2050,
+          "taxNote": "Excluded: 10% TAX",
+          "meals": "Continental breakfast included ($270/night variant without breakfast also listed)",
+          "cancellationAsShown": "Free cancellation before October 30, 2026 (same terms as above).",
+          "prepaymentAsShown": "Pay nothing until October 28, 2026."
+        },
+        {
+          "room": "Studio (1 full bed, 312 sq ft, private kitchen/bath, washing machine)",
+          "beds": "1 full bed",
+          "meetsOneBedNeed": true,
+          "pricePerNightUsd": null,
+          "totalStayUsd": 1824,
+          "totalStayConfidence": "partial - the room's Select Rooms column showed ($1,824) for 1 room but the row's price/cancellation text was cut at the capture boundary; per-night figure not visible. Re-verify before relying on this row.",
+          "taxNote": "Not captured for this row",
+          "cancellationAsShown": "Not fully captured for this row (other rows on the page showed Free cancellation before October 30, 2026).",
+          "prepaymentAsShown": "Not captured for this row."
+        }
+      ]
+    },
+    {
+      "captureId": "2026-08-18T05:52:30Z-l7-myeongdong",
+      "hotelId": "seoul-l7-myeongdong",
+      "propertyName": "L7 MYEONGDONG by LOTTE HOTELS",
+      "propertyVerifiedBy": "Page H1 'L7 MYEONGDONG by LOTTE HOTELS', address 137, Toegye-ro, Jung-gu, Seoul; description mentions '24-hour front desk' and coin-operated laundry",
+      "bookingSlug": "l7-myeongdong-by-lotte",
+      "capturedAtUtc": "2026-08-18T05:52:57Z",
+      "timestampSource": "booking.com chal_t=1787032377964 in served URL (price rows read 05:53:38Z, chal_t=1787032418212)",
+      "sourceUrl": "https://www.booking.com/hotel/kr/l7-myeongdong-by-lotte.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Standard Double Room",
+          "beds": "1 full bed",
+          "meetsOneBedNeed": true,
+          "unitsLeftAsShown": "We have 5 left",
+          "pricePerNightUsd": 295,
+          "totalStayUsd": 2358,
+          "priceNote": "Discounted rate (5% off; original $2,482); $295 is the average per-night price; total before taxes $2,357.58",
+          "taxNote": "Excluded: 10% TAX",
+          "meals": "Breakfast available at $21/person/night (a $341/night variant with breakfast included was also listed at $2,728 total)",
+          "cancellationAsShown": "Free cancellation before October 29, 2026 - free until 3 days before arrival; within 3 days of arrival the fee is the cost of the first night; no-show fee equals the cancellation fee.",
+          "prepaymentAsShown": "No prepayment needed - pay at the property."
+        },
+        {
+          "room": "Standard Twin Room (row preceding Standard Double)",
+          "beds": "2 twin beds",
+          "meetsOneBedNeed": false,
+          "pricePerNightUsd": 287,
+          "totalStayUsd": 2297,
+          "taxNote": "Excluded: 10% TAX",
+          "cancellationAsShown": "Free cancellation before October 29, 2026 (3-day cutoff, first-night fee inside).",
+          "prepaymentAsShown": "No prepayment needed - pay at the property."
+        }
+      ]
+    },
+    {
+      "captureId": "2026-08-18T05:52:30Z-grand-hyatt-incheon",
+      "hotelId": null,
+      "arrivalNightCandidate": true,
+      "propertyName": "Grand Hyatt Incheon",
+      "propertyVerifiedBy": "Page H1 'Grand Hyatt Incheon', address 208 Yeongjonghaeannam-ro 321beon-gil, Yeongjong-gu, Incheon (3 min from ICN Terminal 1); free airport shuttle described",
+      "bookingSlug": "hyatt-regency-incheon (legacy slug - the page serves Grand Hyatt Incheon)",
+      "capturedAtUtc": "2026-08-18T05:52:30Z",
+      "timestampSource": "booking.com chal_t=1787032350625 in request URL (price rows read 05:52:57Z, chal_t=1787032377885)",
+      "sourceUrl": "https://www.booking.com/hotel/kr/hyatt-regency-incheon.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "King Room - High Floor (refundable rate)",
+          "beds": "1 king bed",
+          "meetsOneBedNeed": true,
+          "pricePerNightUsd": 253,
+          "totalStayUsd": 2023,
+          "taxNote": "Excluded: 10% TAX",
+          "meals": "Buffet breakfast $37/person/night (not included)",
+          "cancellationAsShown": "Free cancellation before October 31, 2026 - free until 1 day before arrival; within 1 day of arrival the fee is the cost of the first night; no-show fee equals the cancellation fee.",
+          "prepaymentAsShown": "No prepayment needed - pay at the property."
+        },
+        {
+          "room": "King Room - High Floor (non-refundable rate, same room)",
+          "beds": "1 king bed",
+          "meetsOneBedNeed": true,
+          "pricePerNightUsd": 221,
+          "totalStayUsd": 1767,
+          "taxNote": "Excluded: 10% TAX",
+          "cancellationAsShown": "Non-refundable - cancel/modify/no-show fee is the total price of the reservation.",
+          "prepaymentAsShown": "Pay online - total charged at time of booking.",
+          "comparisonNote": "Refundability premium at capture time: $32/night ($256 over 8 nights) + you keep the right to cancel until 1 day before arrival."
+        }
+      ]
+    },
+    {
+      "captureId": "2026-08-18T05:52:30Z-four-seasons-seoul",
+      "hotelId": "seoul-four-seasons",
+      "propertyName": "Four Seasons Hotel Seoul",
+      "propertyVerifiedBy": "Page H1 'Four Seasons Hotel Seoul', address 97, Saemunan-ro, Jongno-gu, Seoul",
+      "bookingSlug": "four-seasons-seoul",
+      "capturedAtUtc": "2026-08-18T05:52:30Z",
+      "timestampSource": "booking.com chal_t=1787032350623 in served URL",
+      "sourceUrl": "https://www.booking.com/hotel/kr/four-seasons-seoul.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": false,
+      "finding": "Page stated: 'We have no availability here between Sun, Nov 1, 2026 and Mon, Nov 9, 2026.' Listed room types (Premier King, Premier Double, Corner Premier King, Club King) all showed 'Not available on our site for your dates'.",
+      "note": "This is a Booking.com-specific negative at capture time, not proof the hotel is full - check the official Four Seasons site before concluding anything."
+    },
+    {
+      "captureId": "2026-08-18T05:52:57Z-slug-resolution-failures",
+      "hotelId": null,
+      "scope": "unresolved-attempts",
+      "capturedAtUtc": "2026-08-18T05:52:57Z",
+      "finding": "Slug guesses that returned Booking.com 404 (no data recorded, listed so the next capture pass does not retry them): l7-myeongdong (correct slug is l7-myeongdong-by-lotte), lotte-hotel-seoul, ibis-ambassador-seoul-myeongdong, nine-tree-by-parnas-seoul-myeongdong.",
+      "note": "Remaining Seoul hotels still to capture: Nine Tree by Parnas Myeongdong 1 & 2 & Insadong, ibis Styles Ambassador Myeongdong, ibis Ambassador Myeongdong, ibis Ambassador Insadong, Skypark Myeongdong 3, L'Escape, Moxy Myeongdong, Le Meridien Myeongdong, Aloft Myeongdong, Courtyard Myeongdong, Four Points Josun Myeongdong, Shilla Stay Gwanghwamun, LOTTE HOTEL SEOUL, Westin Josun Seoul, Fairmont Ambassador."
+    }
+  ]
+}

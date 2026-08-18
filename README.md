@@ -37,6 +37,7 @@ Open [`index.html`](index.html) in a browser to use the planner. It is intention
 - **Expanded city lists** — browse 20 Seoul, 15 Gyeongju, 20 Busan, 7 Cheonan, and 7 Daejeon hotels.
 - **Quick filters** — view all stays, only core-needs matches, or stays with laundry; search within the current city.
 - **Useful details at a glance** — estimated nightly range, recommended room, bed setup, bathroom/transport fit, normal check-in/out time, canonical identity source, and rate-comparison link.
+- **Timestamped refundable pricing (Seoul, Nov 1–9, 2026)** — hotel cards show a ♻️ badge with the captured refundable rate, cancellation deadline, and UTC capture time; the append-only log with verbatim rate rows lives in [`data/pricing-history.json`](data/pricing-history.json) and the method is documented in [`guide/pricing-captures.md`](guide/pricing-captures.md).
 - **Duplicate protection** — all 69 records are source verified; similarly named branches are cross-checked as distinct properties.
 
 There is no account, tracker, or backend. It is a static planning document that can be hosted with GitHub Pages or opened locally.

@@ -33,12 +33,12 @@ A room named “Double” is not automatically queen width. Where a hotel uses �
 | Fairmont Ambassador Seoul | Deluxe King | Yeouido area | $300–430 |
 | L'Escape, Luxury Collection | Deluxe King | Myeongdong | $280–420 |
 | Ibis Ambassador Insadong | Superior (Renovated) — queen | Jongno 3-ga ~4 min | $110–155 |
-| Four Points by Sheraton Josun, Seoul Station | Superior King | Seoul Station direct | $120–190 |
+| Four Points by Sheraton Josun, Seoul Station | **Deluxe Guest room, 1 King** (official Marriott). Lead-in Booking room is Superior Double = 1 full. | Seoul Station underground passage | Deluxe King not isolated; Superior Double $181 live |
 | THE PLAZA Seoul, Autograph Collection | Deluxe King Room | City Hall ~2 min | $180–280 |
 | Travelodge Myeongdong Euljiro | Superior Queen | Euljiro 3-ga ~2 min | $65–110 |
 | Hotel Vert | Deluxe King Room | Euljiro 1-ga ~3 min | $110–150 |
 | Royal Hotel Seoul | Premier Double | Myeongdong ~5 min | $130–180 |
-| Sejong Hotel Seoul Myeongdong | Deluxe Double | Myeongdong Station Exit 10 direct | $89–135 |
+| Sejong Hotel Seoul Myeongdong | Deluxe Double — **1 queen** (Booking dated table; not a king) | Myeongdong Station Exit 10 direct | $207 live Nov 1–9 |
 | Orakai Insadong Suites | One-Bedroom Apartment | Anguk ~5 min | $136–190 |
 
 ### Seoul entries needing a bed-width exception (Double < 150 cm)

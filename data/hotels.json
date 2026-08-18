@@ -4870,6 +4870,21 @@
         "note": "Marriott confirms the property, address, 15:00/12:00 hours, rooms and resort facilities; VISITKOREA separately confirms the hotel details.",
         "canonicalName": "The Westin Josun Busan",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T15:58:15Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/the-westin-chosun-busan.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Deluxe Park King (Dongbaek Park view)",
+        "beds": "1 full bed (page spec)",
+        "pricePerNight": 224,
+        "totalStay": 1742,
+        "currency": "USD (display conversion; 10% service charge included, 10% VAT excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 13, 2026 (penalty text cut at capture — re-verify)",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Slug is legacy 'the-westin-chosun-busan'. Beachfront between Dongbaek Island and Haeundae."
       }
     },
     {
@@ -5144,6 +5159,21 @@
         "note": "LOTTE confirms the property, Premier Double/Twin categories, 15:00/11:00 hours, city view and central Busan facilities.",
         "canonicalName": "LOTTE HOTEL BUSAN",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T15:58:15Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/lotte-busan.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Deluxe Double Room (city view)",
+        "beds": "1 king bed",
+        "pricePerNight": 162,
+        "totalStay": 1256,
+        "currency": "USD (display conversion; 10% service charge included, 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 14, 2026 — day before arrival (penalty text cut at capture — re-verify)",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Best one-king 5★ value in Busan so far. Sauna/gym is a paid add-on for Deluxe rooms. 5 left at capture."
       }
     },
     {
@@ -5212,6 +5242,21 @@
         "note": "Avani confirms the 289-room hotel, address, 15:00/11:00 hours, king rooms, five-minute Seomyeon proximity and facilities.",
         "canonicalName": "Avani Central Busan",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T15:57:55Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/avani-central-busan.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Deluxe King with Mountain View (high floor)",
+        "beds": "1 queen bed (page spec despite 'King' name)",
+        "pricePerNight": 86,
+        "totalStay": 599,
+        "currency": "USD (Genius member rate, 18% off; 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 12, 2026 — 3 days out; then first night (no-show = total)",
+        "prepayment": "Pay nothing until November 10, 2026",
+        "note": "Cheapest refundable capture in Busan (member pricing; non-member slightly higher). 24h desk, near Seomyeon."
       }
     },
     {
@@ -5598,7 +5643,7 @@
         "Grand Hyatt Incheon (arrival-night fallback)"
       ],
       "history": "data/pricing-history.json (append-only, UTC-timestamped)",
-      "status": "Seoul 20/20. Gyeongju 15/15. Busan 6/20 progressed (Park Hyatt, Signiel, Grand Josun, Shilla Stay captured; Avani verified/pending; market snapshot). Bad slugs logged."
+      "status": "Seoul 20/20. Gyeongju 15/15. Busan 9/20 progressed (Avani, Westin Josun, Lotte, Shilla Stay, Park Hyatt, Signiel, Grand Josun captured; L7 + Paradise verified/pending). Remaining: ASTI, Toyoko x2, Ramada x2, Fairfield x2, ibis x2, Crown Harbor, Wyndham."
     }
   },
   "arrivalNight": {

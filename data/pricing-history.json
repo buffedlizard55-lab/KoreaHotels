@@ -1322,6 +1322,102 @@
       "capturedAtUtc": "2026-08-18T15:55:38Z",
       "finding": "Avani Central Busan: slug avani-central-busan VERIFIED (H1 + 133 Jeonpo-daero Nam-gu, near Seomyeon; 8.7/10/753 reviews; 24-hour front desk confirmed) - rate table past the Genius promo boundary, price pending. Failed slug guesses (do not retry): westin-chosun-busan, lotte-hotel-busan.",
       "note": "Busan: 4 fully captured + Avani verified/pending. Remaining: Paradise, L7 Haeundae, ASTI, Toyoko x2, Ramada x2, Westin Josun, Fairfield x2, ibis x2, Lotte, Crown Harbor, Wyndham Grand."
+    },
+    {
+      "captureId": "2026-08-18T15:57:55Z-avani-central-busan",
+      "hotelId": "busan-avani-central",
+      "propertyName": "Avani Central Busan",
+      "propertyVerifiedBy": "Prior-run verification (H1 + 133 Jeonpo-daero Nam-gu; 8.7/10/753; 24h desk); price rows read this run",
+      "bookingSlug": "avani-central-busan",
+      "capturedAtUtc": "2026-08-18T15:57:55Z",
+      "timestampSource": "booking.com chal_t=1787068675195",
+      "sourceUrl": "https://www.booking.com/hotel/kr/avani-central-busan.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Deluxe King Room with Mountain View (high floor, 301 sq ft)",
+          "beds": "1 queen bed (page spec despite 'King' name)",
+          "meetsOneBedNeed": true,
+          "pricePerNightUsd": 86,
+          "totalStayUsd": 599,
+          "priceNote": "Genius member rate; 18% off deals; original $731; total before taxes $598.74",
+          "taxNote": "Excluded: 10% TAX",
+          "meals": "Buffet breakfast $20/person/night (not included; rated 8.4)",
+          "cancellationAsShown": "Free cancellation before November 12, 2026 - free until 3 days before arrival; within 3 days the fee is the cost of the first night; no-show fee is the total price of the reservation.",
+          "prepaymentAsShown": "Pay nothing until November 10, 2026.",
+          "note": "CHEAPEST refundable capture in Busan of any tier (non-member pricing may be slightly higher). Non-refundable Genius variant $539."
+        }
+      ]
+    },
+    {
+      "captureId": "2026-08-18T15:58:15Z-the-westin-josun-busan",
+      "hotelId": "busan-westin-josun",
+      "propertyName": "The Westin Josun Busan",
+      "propertyVerifiedBy": "Page H1 'The Westin Josun Busan', address 67, Dongbaek-ro, Haeundae (Dongbaek - matches repo area); slug is legacy 'the-westin-chosun-busan'; 9.0/10 (448 reviews); beachfront",
+      "bookingSlug": "the-westin-chosun-busan",
+      "recordCheck": {
+        "repoName": "The Westin Josun Busan",
+        "pageName": "The Westin Josun Busan",
+        "verdict": "match; legacy Chosun slug",
+        "newDataPoints": "'Deluxe Park King' room lists a FULL bed per page spec"
+      },
+      "capturedAtUtc": "2026-08-18T15:58:15Z",
+      "timestampSource": "booking.com chal_t=1787068695161",
+      "sourceUrl": "https://www.booking.com/hotel/kr/the-westin-chosun-busan.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Deluxe Park King, Dongbaek Park view (312 sq ft)",
+          "beds": "1 full bed (page spec despite 'King' name)",
+          "meetsOneBedNeed": true,
+          "pricePerNightUsd": 224,
+          "totalStayUsd": 1742,
+          "taxNote": "Included: 10% service charge; Excluded: 10% VAT",
+          "meals": "Breakfast $44/person/night (rated 'Excellent')",
+          "cancellationAsShown": "Free cancellation before November 13, 2026 (deadline fully visible; inside-window penalty sentence cut at capture boundary - unverified until re-read).",
+          "prepaymentAsShown": "No prepayment needed - pay at the property."
+        }
+      ]
+    },
+    {
+      "captureId": "2026-08-18T15:58:15Z-lotte-hotel-busan",
+      "hotelId": "busan-lotte-hotel",
+      "propertyName": "Lotte Hotel Busan",
+      "propertyVerifiedBy": "Page H1 'Lotte Hotel Busan', address 772, Gaya-daero, Busanjin-gu (Seomyeon - matches repo); 8.9/10 (2,648 reviews); connected to Seomyeon station via underground arcade",
+      "bookingSlug": "lotte-busan",
+      "recordCheck": {
+        "repoName": "LOTTE HOTEL BUSAN",
+        "pageName": "Lotte Hotel Busan",
+        "verdict": "match",
+        "newDataPoints": "Sauna/gym now a PAID add-on (KRW 25,000 pp/night) for Superior/Deluxe rooms per fine print"
+      },
+      "capturedAtUtc": "2026-08-18T15:58:15Z",
+      "timestampSource": "booking.com chal_t=1787068695114",
+      "sourceUrl": "https://www.booking.com/hotel/kr/lotte-busan.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Deluxe Double Room (city view, 355 sq ft)",
+          "beds": "1 king bed",
+          "meetsOneBedNeed": true,
+          "unitsLeftAsShown": "We have 5 left",
+          "pricePerNightUsd": 162,
+          "totalStayUsd": 1256,
+          "taxNote": "Included: 10% service charge; Excluded: 10% TAX",
+          "meals": "Buffet breakfast $49/person/night (not included; rated 8.9)",
+          "cancellationAsShown": "Free cancellation before November 14, 2026 (day before arrival; penalty sentence cut at capture boundary - unverified until re-read).",
+          "prepaymentAsShown": "No prepayment needed - pay at the property.",
+          "note": "Best one-KING value in Busan so far: 5-star at $1,256/7 nights with a day-before-arrival cutoff."
+        }
+      ]
+    },
+    {
+      "captureId": "2026-08-18T15:58:15Z-busan-run5",
+      "hotelId": null,
+      "scope": "partial-and-resolutions",
+      "capturedAtUtc": "2026-08-18T15:58:15Z",
+      "finding": "L7 HAEUNDAE by LOTTE: slug l7-haeundae-busan VERIFIED (H1 + 55 Haeun-daero 570beon-gil; 9.0/10/2,935; 1-min from beach; 24h desk) - rate table began (Twin Standard $184/nt visible, row cut), price pending. Paradise Hotel Busan: slug paradise-busan VERIFIED (H1 + 296 Haeundaehaebyeon-ro; 9.0/10/706; beachfront, casino, outdoor spa; 24h desk per h-rez mirror) - rate table past Genius promo, price pending.",
+      "note": "Busan: 7 fully captured + L7/Paradise verified/pending. Remaining to resolve: ASTI, Toyoko x2, Ramada Encore x2, Fairfield x2, ibis x2, Crown Harbor, Wyndham Grand Ijin."
     }
   ]
 }

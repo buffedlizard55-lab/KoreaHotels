@@ -937,6 +937,109 @@
       "sourceUrl": "https://www.booking.com/searchresults.html?ss=Gyeongju&checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&nflt=fc%3D2%3Bclass%3D4%3Bclass%3D5",
       "finding": "Chunk-1 cards of the 4-5-star free-cancellation search show AVAILABLE properties for the full window that are NOT in the repo shortlist - all hanok/guesthouse-style: 'Hanok stay Dagagam' (card top), 'Hanok stay Mokhyang' Family Room with Mountain View (2 full beds, breakfast included, free cancellation, 1 left) $233/nt ($1,565/6nt), 'Muuun' Family Room with Garden View (2 beds, breakfast included, free cancellation). None of the repo's remaining resort hotels (Hilton, Lahan, SONO Calm, Kensington, Kolon) appeared in the first two chunks of cards - they are likely deeper in the list or lack bookable inventory for the window.",
       "note": "Recorded as market context only - these properties are not in the repo's verified shortlist, so no cards/badges were created for them."
+    },
+    {
+      "captureId": "2026-08-18T15:04:24Z-lahan-select-gyeongju",
+      "hotelId": "gyeongju-lahan",
+      "propertyName": "Lahan Select Gyeongju",
+      "propertyVerifiedBy": "Page H1 'Lahan Select Gyeongju', address 338, Bomun-ro (matches repo area Bomun Lake Resort); NOTE legacy Booking slug 'hyundai-gyeongju' (former Hyundai Hotel); score 8.4/10 (401 reviews); '2 swimming pools (1 open)'",
+      "bookingSlug": "hyundai-gyeongju",
+      "recordCheck": {
+        "repoName": "Lahan Select Gyeongju",
+        "pageName": "Lahan Select Gyeongju",
+        "verdict": "match; slug reveals former Hyundai Hotel identity"
+      },
+      "capturedAtUtc": "2026-08-18T15:04:24Z",
+      "timestampSource": "booking.com chal_t=17870654644161",
+      "sourceUrl": "https://www.booking.com/hotel/kr/hyundai-gyeongju.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Deluxe King Suite (living room + separate bedroom, balcony, lake view, 829 sq ft)",
+          "beds": "1 queen bed (page's own description; despite 'King Suite' name)",
+          "meetsOneBedNeed": true,
+          "unitsLeftAsShown": "We have 4 left",
+          "pricePerNightUsd": 265,
+          "totalStayUsd": 1764,
+          "taxNote": "Included: 10% service charge; Excluded: 10% TAX",
+          "meals": "Buffet breakfast $34/person/night (not included)",
+          "cancellationAsShown": "Free cancellation before November 7, 2026 - the exact inside-window penalty sentence was cut at the capture boundary; treat the deadline as confirmed and the penalty as unverified until re-read.",
+          "prepaymentAsShown": "Pay the property before arrival - marked 'Fully refundable during free cancellation'."
+        }
+      ]
+    },
+    {
+      "captureId": "2026-08-18T15:04:24Z-kensington-resort-gyeongju",
+      "hotelId": "gyeongju-kensington",
+      "propertyName": "Kensington Resort Gyeongju",
+      "propertyVerifiedBy": "Page H1 'Kensington Resort Gyeongju', address 182-29, Bomun-ro (North Bomun - matches repo area); Kensington Hotels & Resorts brand shown; score 8.3/10 (119 reviews); en-gb page says 3-star, 2025 page text says 4-star - star rating inconsistent on source",
+      "bookingSlug": "kensington-resort-gyeongju",
+      "recordCheck": {
+        "repoName": "Kensington Resort Gyeongju",
+        "pageName": "Kensington Resort Gyeongju",
+        "verdict": "match",
+        "newDataPoints": "24-hour front desk (per earlier en-gb snippet); Pororo Aqua Village 4-min walk; star rating inconsistent (3 vs 4) on source pages"
+      },
+      "capturedAtUtc": "2026-08-18T15:04:24Z",
+      "timestampSource": "booking.com chal_t=17870654644390",
+      "sourceUrl": "https://www.booking.com/hotel/kr/kensington-resort-gyeongju.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Kensington Deluxe - Fully Renovated Room (entire apartment, 746 sq ft, terrace)",
+          "beds": "2 full beds",
+          "meetsOneBedNeed": false,
+          "pricePerNightUsd": 160,
+          "totalStayUsd": 957,
+          "priceNote": "30% off deal; original $1,368; total before taxes $957.32",
+          "taxNote": "Excluded: 10% TAX",
+          "meals": "Buffet breakfast INCLUDED",
+          "cancellationAsShown": "Free cancellation before November 2, 2026 - a 7-day-out cutoff (earlier than others in this run); the inside-window penalty sentence was cut at the capture boundary - unverified until re-read.",
+          "prepaymentAsShown": "No prepayment needed - pay at the property.",
+          "note": "Best Gyeongju value captured: $957/6 nights with breakfast, no prepayment - but the free-cancel window closes a full week before arrival."
+        }
+      ]
+    },
+    {
+      "captureId": "2026-08-18T15:04:24Z-benikea-swiss-rosen",
+      "hotelId": "gyeongju-swiss-rosen",
+      "propertyName": "Benikea Swiss Rosen Hotel",
+      "propertyVerifiedBy": "Page H1 'Benikea Swiss Rosen Hotel', address 465-37, Bomun-ro; HICO Convention Center 3-min walk (matches repo area 'Bomun / HICO'); 24-hour front desk confirmed in description; score 7.7/10 (239 reviews); outdoor pool 'temporarily closed'",
+      "bookingSlug": "swiss-rosen",
+      "recordCheck": {
+        "repoName": "Benikea Swiss Rosen Hotel Gyeongju",
+        "pageName": "Benikea Swiss Rosen Hotel",
+        "verdict": "match",
+        "newDataPoints": "Check-in 15:00-23:30 per house rules; pool temporarily closed at capture"
+      },
+      "capturedAtUtc": "2026-08-18T15:04:24Z",
+      "timestampSource": "booking.com chal_t=17870654644277",
+      "sourceUrl": "https://www.booking.com/hotel/kr/swiss-rosen.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Standard Twin Room",
+          "beds": "2 beds (1 twin + 1 full)",
+          "meetsOneBedNeed": false,
+          "unitsLeftAsShown": "We have 2 left",
+          "pricePerNightUsd": 83,
+          "totalStayUsd": 556,
+          "priceNote": "19% off deals; original $688; total before taxes $555.95; 323 sq ft",
+          "taxNote": "Included: 10% service charge; Excluded: 10% TAX",
+          "meals": "American breakfast $11/person/night (optional)",
+          "cancellationAsShown": "Free cancellation before November 6, 2026 (2-3 days out; the penalty sentence was cut at the capture boundary - unverified until re-read).",
+          "prepaymentAsShown": "Pay nothing until November 4, 2026.",
+          "note": "Cheapest refundable Gyeongju capture of the run ($556/6 nights) - twin-bed room, 2 left."
+        }
+      ]
+    },
+    {
+      "captureId": "2026-08-18T15:04:24Z-gyeongju-slug-run3",
+      "hotelId": null,
+      "scope": "partial-and-resolutions",
+      "capturedAtUtc": "2026-08-18T15:04:24Z",
+      "finding": "Hilton Gyeongju: slug gyeongju-hilton VERIFIED (H1 + address 484-7 Bomun-ro; 8.2/10, Free Wifi 10.0); dated rate table began with 'Premium King Room, 1 king bed, lake view' but the price fell past the capture boundary - capture pending chunk 1 next run. Slug resolutions this run: Hilton = gyeongju-hilton, Lahan = hyundai-gyeongju (legacy), Kensington = kensington-resort-gyeongju, Swiss Rosen = swiss-rosen. SONO Calm candidate slug: sono-bellehotel (third-party mirror name 'ex. Sono Belle Gyeongju') - untested.",
+      "note": "Remaining Gyeongju: Hilton (chunk 1), SONO Calm (slug candidate), GG Hotel, KINOCK, Rivertain, Nadul Hanok. Then Busan 20."
     }
   ]
 }

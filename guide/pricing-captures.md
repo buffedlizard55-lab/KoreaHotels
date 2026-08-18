@@ -101,8 +101,12 @@ All prices: Booking.com USD display, taxes as noted per row (most exclude 10% ta
 
 | Hotel (verified on page) | Refundable? | Room | $/night | 6-night total | Free cancellation until | Prepay |
 |---|---|---|---:|---:|---|---|
+| Kensington Resort Gyeongju | ✅ | Kensington Deluxe (2 full beds, **breakfast incl.**) | $160 | **$957** | **Nov 2, 2026** ⚠️ 7-day-out cutoff (penalty text cut at capture) | No prepayment — pay at property |
+| Benikea Swiss Rosen | ✅ | Standard Twin (twin + full) | $83 | **$556** | **Nov 6, 2026** (penalty text cut at capture) | Nothing until Nov 4 |
+| Lahan Select (slug `hyundai-gyeongju`) | ✅ | Deluxe King Suite (1 queen, lake view) | $265 | $1,764 | **Nov 7, 2026** (penalty text cut at capture) | Pay at property, refundable in window |
 | Commodore Hotel Gyeongju | ✅ | Imperial Suite Mtn View (2 beds) | $205 | $1,365 | **Nov 8, 2026** (1 day out; then 1st night) | Pay nothing until Nov 6 |
 | The K Hotel Gyeongju | ✅ | Hwangnyoung View Ondol (4 futons) | $125 | $752 | **Nov 6, 2026** — ⚠️ inside 3 days the penalty is the **total stay** | Full stay charged 3 days out |
+| Hilton Gyeongju (slug `gyeongju-hilton`) | ⏳ | Premium King (1 king, lake view) — price past capture boundary; identity + dates verified | — | — | next run | — |
 | Hwangnamkwan ("Hwangnamguan Hanok Village") | 🚫 full window | — | — | — | **No availability Nov 9–15**; only 3-night slices (e.g. Nov 14–17 from $294) | — |
 | HanokInn | 🚫 full window | — | — | — | **No availability Nov 9–15** on Booking.com | — |
 | Wiyeonjae Hanok Stay | 🚫 not listed | — | — | — | No Booking.com listing found (books direct at wiyeonjae.kr) | — |

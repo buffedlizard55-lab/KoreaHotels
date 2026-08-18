@@ -59,6 +59,13 @@ Open the URL pattern above in a normal browser (replace `<property-slug>`, e.g. 
 | Nine Tree MD 2 — Partner Offer ⚠️ | ✅* | Hollywood Double (1 king) | $214 | $1,714 | Oct 29, 2026 (3 days) — but pay-in-advance, NO modifications | Pay in advance at booking |
 | Grand Hyatt Incheon (arrival fallback) | ✅ | King Room High Floor | $253 | $2,023 | **Oct 31, 2026** (1 day out; then 1st night) | No prepayment — pay at property |
 | Grand Hyatt Incheon — non-refundable rate | ❌ (rate choice) | King Room High Floor | $221 | $1,767 | — none (full forfeit) | Charged at booking |
+| ibis Styles Ambassador Myeongdong | ✅ | Standard Double (1 full bed) | $187 | **$1,499** | **Oct 31, 2026** (1 day out; then 1st night) | No prepayment — pay at property |
+| ibis Styles MD — non-refundable rate | ❌ (rate choice) | Standard Double (1 full bed) | $178 | $1,424 | — none | Charged at booking |
+| ibis Ambassador Myeongdong | ✅ | Standard Double (1 full bed) | $313 | $2,503 | **6:00 PM Oct 31, 2026** (day before arrival) | No prepayment — pay at property |
+| ibis Ambassador MD — non-refundable rate | ❌ (rate choice) | Standard Double (1 full bed) | $266 | $2,127 | — none | Charged at booking |
+| Nine Tree by Parnas Seoul Insadong | ✅ | Deluxe Double w/ Jogyesa View (1 queen) | $235 | $1,881 | **Oct 29, 2026** (3 days; then 1st night) | Pay nothing until Oct 27 |
+| Nine Tree Insadong — cheaper rate ⚠️ | ✅* | Same room | $226 | $1,805 | **Oct 18, 2026 only**; inside 14 days the penalty is the **total stay price** | Pay nothing until Oct 16 |
+| Courtyard by Marriott Myeongdong | ✅ | Guest Room, 1 King | $324 | $2,595 | **Nov 1, 2026 — day of arrival (12:00 AM)** | No prepayment — pay at property |
 | Four Seasons Hotel Seoul | 🚫 via this source | — | — | — | Booking.com showed **no availability** for Nov 1–9 |
 | ibis Ambassador Insadong | 🚫 via this source | — | — | — | Booking.com showed **no availability** for Nov 1–9 |
 
@@ -69,17 +76,19 @@ All prices: Booking.com USD display, taxes as noted per row (most exclude 10% ta
 **Market snapshot (run 1 timestamp):** a Seoul-wide search with the *Free cancellation* filter for Nov 1–9, 2026 returned **2,044 refundable properties**, so refundable inventory for these dates is plentiful; e.g. Lake Tourist Hotel (Songpa) showed $46/night, $365 total, free cancellation + no prepayment.
 
 **Notes worth knowing (all from the captured pages):**
-- **Cheapest verified refundable 1-bed TOTAL: Shilla Stay Gwanghwamun at $1,600 for 8 nights** ($200/night high-floor double, no prepayment). Skypark M3 is close at $1,612.
-- **Best cancellation terms: Le Méridien, Westin Josun, L'Escape, and Moxy** — free cancellation until 12:00 AM on the day of arrival itself, no prepayment.
-- **Beware cheap "free cancellation" rates:** Nine Tree MD1's $197 rate closes its window Oct 18 and charges the whole stay inside 14 days; Fairmont's $467 rate is "partially refundable" (first-night fee always) with upfront charge; Nine Tree MD2's $214 partner offer takes payment upfront with no modifications.
-- **Rebrands/legacy slugs spotted:** Booking.com now titles Lotte Hotel Seoul as **"THE GRAND LOTTE SEOUL"**; Westin Josun is served under legacy slug `westin-chosun-seoul`; L'Escape's slug is `l-39-escape`.
+- **Cheapest verified refundable 1-bed TOTAL: ibis Styles Ambassador Myeongdong at $1,499 for 8 nights** ($187/night, free cancel until 1 day before arrival, no prepayment). Runners-up: Shilla Stay Gwanghwamun $1,600, Skypark M3 $1,612, Nine Tree MD1 $1,643.
+- **Best cancellation terms: Le Méridien, Westin Josun, L'Escape, Courtyard, and Moxy** — free cancellation until 12:00 AM on the day of arrival itself, no prepayment.
+- **Beware cheap "free cancellation" rates:** Nine Tree MD1's $197 and Insadong's $226 rates close their windows Oct 18 and charge the whole stay inside 14 days; Fairmont's $467 rate is "partially refundable" (first-night fee always) with upfront charge; Nine Tree MD2's $214 partner offer takes payment upfront with no modifications.
+- **Biggest refundability premium to avoid overpaying:** ibis Ambassador Myeongdong ($266 non-refundable vs $313 refundable = $376/stay premium). Smallest: Skypark M3 ($18/stay) and ibis Styles ($75/stay).
+- **Rebrands/legacy slugs spotted:** Lotte Hotel Seoul → **"THE GRAND LOTTE SEOUL"**; Westin Josun → slug `westin-chosun-seoul`; Courtyard Myeongdong → slug `courtyard-by-marriott-seoul-namdaemun` (ex-Namdaemun); L'Escape → slug `l-39-escape`; ibis Ambassador Myeongdong → slug `ibis-myeong-dong`.
 
 ---
 
-## Still to capture (next passes)
+## Sweep closeout (2026-08-18)
 
-Slug guesses that failed (do not retry): `lotte-hotel-seoul`, `ibis-ambassador-seoul-myeongdong`, `nine-tree-by-parnas-seoul-myeongdong`, `l7-myeongdong`, `the-westin-josun-seoul`, `ibis-styles-ambassador-seoul-myeongdong`, `ibis-ambassador-myeongdong`, `courtyard-by-marriott-seoul-myeongdong`.
+**All 20 Seoul hotels are accounted for.** 18 captured with data (16 refundable rates + 2 no-availability negatives on this source), plus the Grand Hyatt Incheon arrival fallback. Two could not be priced via Booking.com this session, recorded as such (no estimates substituted):
 
-Hotels awaiting a verified capture: Aloft Myeongdong (slug `aloft-seoul-myeongdong` verified, coin laundry confirmed; rate table failed to render twice — rerun) · Courtyard by Marriott Myeongdong · Four Points by Sheraton Josun Myeongdong · ibis Styles Ambassador Myeongdong · ibis Ambassador Seoul Myeongdong · Nine Tree by Parnas Seoul Insadong.
+- **Aloft Myeongdong** — property and slug verified (coin laundry confirmed), but the rate table failed to render before capture on three attempts. Price it on Marriott direct or retry the capture later.
+- **Four Points by Sheraton Josun Myeongdong** — no Booking.com property page surfaced across three searches (TripAdvisor/HRS/Priceline/Trip.com only). Price it on FourPoints.com/Marriott direct; third-party snapshots around capture time showed ~$232–268 refundable rates for *other* dates, which are **not** recorded as data for Nov 1–9.
 
-**Status: 14 of 20 Seoul hotels captured (12 refundable rates + 2 no-availability negatives), plus the Grand Hyatt Incheon arrival fallback.**
+**Not bookable for Nov 1–9 via this source at capture time:** Four Seasons, ibis Ambassador Insadong — check official sites before ruling them out.

@@ -316,6 +316,21 @@
         "distinctFrom": [
           "seoul-ibis-ambassador-myeongdong"
         ]
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T13:19:43Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/ibis-styles-seoul-myeongdong.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Standard Double Room",
+        "beds": "1 full bed",
+        "pricePerNight": 187,
+        "totalStay": 1499,
+        "currency": "USD (display conversion; 10% VAT excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before October 31, 2026 — free until 1 day before arrival; inside 1 day, first night",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Cheapest verified refundable one-bed total of the sweep. Non-refundable saves only $75 over 8 nights."
       }
     },
     {
@@ -2957,6 +2972,21 @@
         "distinctFrom": [
           "seoul-ibis-styles"
         ]
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T13:19:37Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/ibis-myeong-dong.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Standard Double Room",
+        "beds": "1 full bed",
+        "pricePerNight": 313,
+        "totalStay": 2503,
+        "currency": "USD (display conversion; 10% VAT excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before 6:00 PM on October 31, 2026 — day before arrival; then first night",
+        "prepayment": "No prepayment needed — pay at the property (or pay-nothing-until-Oct-29 variant)",
+        "note": "Largest refundability premium of the sweep: non-refundable is $266/night ($376 less over the stay). Arrival-night candidate; coin laundry on site."
       }
     },
     {
@@ -3265,6 +3295,21 @@
         "note": "Marriott confirms the property, address, 15:00/11:00 hours, private accommodation and Deluxe King category.",
         "canonicalName": "Courtyard by Marriott Seoul Myeongdong",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T13:20:09Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/courtyard-by-marriott-seoul-namdaemun.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Guest Room, 1 King",
+        "beds": "1 king bed",
+        "pricePerNight": 324,
+        "totalStay": 2595,
+        "currency": "USD (display conversion; 10% VAT excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 1, 2026 — free until 12:00 AM on the day of arrival; then first night",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Hotel was formerly 'Courtyard Seoul Namdaemun' (legacy Booking slug); 5 units left at capture."
       }
     },
     {
@@ -3487,6 +3532,21 @@
         "note": "The official Parnas page confirms the hotel, Insadong address, Standard Double category, facilities and 3-minute Anguk access.",
         "canonicalName": "Nine Tree by Parnas Seoul Insadong",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T13:19:37Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/nine-tree-premier-insadong.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Deluxe Double w/ Jogyesa View, High Floor, Bath",
+        "beds": "1 queen bed",
+        "pricePerNight": 235,
+        "totalStay": 1881,
+        "currency": "USD (display conversion; 32% deals applied; 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before October 29, 2026 — free until 3 days before arrival; inside 3 days, first night",
+        "prepayment": "Pay nothing until October 27, 2026",
+        "note": "The cheaper $226/night rate closes its window Oct 18 with a whole-stay penalty inside 14 days — same trap as Nine Tree MD1."
       }
     },
     {
@@ -5342,9 +5402,14 @@
         "seoul-lescape",
         "seoul-nine-tree-myeongdong2",
         "seoul-ibis-insadong",
+        "seoul-ibis-styles",
+        "seoul-ibis-ambassador-myeongdong",
+        "seoul-nine-tree-insadong",
+        "seoul-courtyard-myeongdong",
         "Grand Hyatt Incheon (arrival-night fallback)"
       ],
-      "history": "data/pricing-history.json (append-only, UTC-timestamped)"
+      "history": "data/pricing-history.json (append-only, UTC-timestamped)",
+      "status": "18 of 20 Seoul hotels captured (16 refundable + 2 no-availability negatives); Aloft render-failed, Four Points Josun Booking-listing-unresolved"
     }
   },
   "arrivalNight": {

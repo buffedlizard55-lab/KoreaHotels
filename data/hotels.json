@@ -136,9 +136,9 @@
       "priceTo": 145,
       "currency": "USD",
       "checkIn": "15:00",
-      "checkOut": "11:00",
+      "checkOut": "12:00",
       "policies": [
-        "Check-in from 15:00; check-out by 11:00.",
+        "Check-in from 15:00; check-out by 12:00.",
         "Free in-room Wi-Fi.",
         "No on-site pool. Standard Korean 3-star business-hotel rules."
       ],
@@ -158,17 +158,17 @@
         {
           "name": "Hollywood Double",
           "price": "$105–118/night",
-          "note": "Queen-width (Booking: 1 queen bed)",
-          "bed": "queen",
-          "bedType": "queen",
-          "bedSize": "Queen (Booking: 'Hollywood Double Room — 1 queen bed')",
-          "oneBed": true,
-          "oneBedOnly": true,
+          "note": "Two single beds joined (official: 싱글 110×190 mm ×2)",
+          "bed": "twin",
+          "bedType": "twin",
+          "bedSize": "2 single beds (110×190 cm) joined — official Nine Tree Korean spec",
+          "oneBed": false,
+          "oneBedOnly": false,
           "privateBathroom": true,
-          "bedNote": "Single queen bed (not two beds pushed together)"
+          "bedNote": "Two single beds pushed together — NOT a single queen/king mattress"
         },
         {
-          "name": "Deluxe Twin",
+          "name": "Standard Twin",
           "price": "$120–138/night",
           "note": "Two single beds",
           "bed": "twin",
@@ -201,7 +201,7 @@
         "Great value per square foot"
       ],
       "fits": true,
-      "fitReason": "Standard/Hollywood Double (160 cm / queen) · Myeongdong Stn ~1 min",
+      "fitReason": "Standard Double (160 cm / queen-width) · Myeongdong Stn ~1 min",
       "lat": 37.5603,
       "lng": 126.9835,
       "priceNote": "Prices are typical 2026 estimates for standard double/queen. Check official site or OTA for live rates on your dates.",
@@ -211,7 +211,7 @@
         "lastChecked": "2026-08-18",
         "sourceType": "Official hotel/brand",
         "sourceUrl": "https://www.ninetreehotels.com/nth1/?lang=en",
-        "note": "Official Nine Tree MD1 specs list Standard Double at 160×190 cm (queen-width) and Hollywood Double as the queen room; the prior 'Deluxe = queen' room did not exist. Corrected 2026-08-18.",
+        "note": "Official Nine Tree MD1 specs: Standard Double = 더블 160×190 cm (queen-width); Hollywood Double = 싱글 110×190 cm ×2 (two single beds joined, NOT a single queen). The prior 'Deluxe = queen' room did not exist. Corrected 2026-08-18 (bed specs re-verified live).",
         "canonicalName": "Nine Tree by Parnas Seoul Myeongdong 1",
         "existenceStatus": "Verified operating property",
         "distinctFrom": [
@@ -3009,19 +3009,19 @@
         "existenceStatus": "Verified operating property"
       },
       "refundableRate": {
-        "capturedAtUtc": "2026-08-18T05:52:30Z",
-        "source": "Booking.com property page (dated rate table)",
+        "capturedAtUtc": "2026-08-18T19:00:00Z",
+        "source": "Booking.com property page (dated rate table, live fetch 2026-08-18)",
         "sourceUrl": "https://www.booking.com/hotel/kr/somerset-palace-seoul.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
         "available": true,
-        "room": "Deluxe Queen Room with Two Queen Beds",
-        "beds": "2 queen beds (also books 1-bed Studio; its $1,824 total was only partially captured)",
-        "pricePerNight": 249,
-        "totalStay": 1994,
+        "room": "Executive One-Bedroom (= Ascott 'Studio Executive')",
+        "beds": "1 queen bed",
+        "pricePerNight": 228,
+        "totalStay": 1824,
         "currency": "USD (display conversion; 10% tax excluded)",
         "breakfastIncluded": true,
-        "freeCancellation": "Free cancellation before October 30, 2026 (free until 2 days before arrival; inside 2 days = first night)",
+        "freeCancellation": "Free cancellation before October 30, 2026 — free until 2 days before arrival; inside 2 days = first night",
         "prepayment": "Pay nothing until October 28, 2026",
-        "note": "Verify the live page before booking; terms shown at checkout are authoritative."
+        "note": "CORRECTED: prior capture ($249) was the 2-queen 'Deluxe Queen Room with Two Queen Beds'. The true one-bed refundable is 'Executive One-Bedroom' = 1 queen bed at $228/nt ($1,824). 2-queen room $249/nt; Executive 2-queen $256/nt."
       }
     },
     {
@@ -3181,19 +3181,19 @@
         ]
       },
       "refundableRate": {
-        "capturedAtUtc": "2026-08-18T13:03:57Z",
-        "source": "Booking.com property page (dated rate table)",
+        "capturedAtUtc": "2026-08-18T19:00:00Z",
+        "source": "Booking.com property page (dated rate table, live fetch 2026-08-18)",
         "sourceUrl": "https://www.booking.com/hotel/kr/moxy-seoul-myeongdong.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
         "available": true,
-        "room": "Queen Room with Two Queen Beds and City View",
-        "beds": "2 queen beds",
-        "pricePerNight": 296,
-        "totalStay": 2367,
+        "room": "Queen Room with City View",
+        "beds": "1 queen bed",
+        "pricePerNight": 308,
+        "totalStay": 2460,
         "currency": "USD (display conversion; 10% VAT excluded)",
         "breakfastIncluded": false,
-        "freeCancellation": "Free cancellation before November 1, 2026 — free until 12:00 AM on the day of arrival; after that, first night",
+        "freeCancellation": "Free cancellation before November 1, 2026 — free until 12:00 AM day of arrival; after = first night",
         "prepayment": "No prepayment needed — pay at the property",
-        "note": "Best cancellation terms captured in this run (day-of-arrival cutoff). 5 units left at capture time."
+        "note": "CORRECTED: prior capture ($296) was the 2-queen 'Queen Room with Two Queen Beds'. The true one-bed refundable is 'Queen Room with City View' = 1 queen bed at $308/nt ($2,460). 2-queen $296/nt; breakfast +$21/pp."
       }
     },
     {
@@ -3348,6 +3348,21 @@
         "note": "Marriott confirms the property, 15:00/12:00 hours, location and Deluxe King category.",
         "canonicalName": "Aloft Seoul Myeongdong",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T19:00:00Z",
+        "source": "Booking.com property page (dated rate table, live fetch 2026-08-18)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/aloft-seoul-myeongdong.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Aloft Room, 1 King (high floor)",
+        "beds": "1 king bed",
+        "pricePerNight": 323,
+        "totalStay": 2581,
+        "currency": "USD (display conversion; 10% VAT excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before October 31, 2026 — free until 1 day before arrival; inside 1 day = first night",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Cheapest refundable one-bed (king). 'Savvy Room, 1 King' $344/nt; 'Aloft Room, 2 Twin' $323/nt. Breakfast +$23/pp."
       }
     },
     {
@@ -3499,6 +3514,21 @@
         "note": "Marriott confirms the hotel, 15:00/12:00 hours, address, transit-friendly location and king category.",
         "canonicalName": "Four Points by Sheraton Josun, Seoul Myeongdong",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T19:00:00Z",
+        "source": "Booking.com property page (dated rate table, live fetch 2026-08-18)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/four-points-by-sheraton-seoul-myeongdong.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Superior room with a double bed and city view",
+        "beds": "1 full bed",
+        "pricePerNight": 234,
+        "totalStay": 2081,
+        "currency": "USD (display conversion; 10% service charge included, 10% VAT excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before October 29, 2026 — 3 days before arrival; inside 3 days = first night (a $276/nt row also exists with day-of-arrival cutoff Nov 1)",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Lead-in one-bed on Booking is 1 FULL/double bed, not a king — the data's 'Deluxe King' does not appear in Booking's unauthenticated view. Cheapest refundable one-bed = $234/nt (1 full)."
       }
     },
     {
@@ -5782,6 +5812,16 @@
         "canonicalName": "Novotel Ambassador Suwon",
         "existenceStatus": "Verified operating property",
         "note": "Accor confirms the 4-star Novotel Ambassador Suwon at 902 Dukyoungdaero with direct Suwon KTX/subway access, 15:00/12:00 hours and king room categories."
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T19:00:00Z",
+        "source": "Booking.com property page (dated rate table, live fetch 2026-08-18)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/novotel-ambassador-suwon.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": false,
+        "finding": "No Booking.com availability for Nov 1–9, 2026 (all room types 'not available on our site'). Book Accor direct.",
+        "room": "(no bookable room on Booking)",
+        "beds": "1 king (Deluxe/Executive/Superior King), 2 twin (Superior Twin)",
+        "note": "Room inventory on Booking: Deluxe King, Executive King, Superior King (1 king each), Superior Twin (2 twin), Deluxe Double Garden View (1 king), Junior King Suite. 287 rooms; direct Suwon KTX/subway access confirmed."
       }
     },
     {
@@ -5860,6 +5900,21 @@
         "canonicalName": "Four Points by Sheraton Suwon",
         "existenceStatus": "Verified operating property",
         "note": "Marriott confirms the 4-star Four Points by Sheraton Suwon (opened 2022, 221 rooms) in Ingye-dong with Premier King/Twin categories."
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T19:00:00Z",
+        "source": "Booking.com property page (dated rate table, live fetch 2026-08-18)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/four-points-by-sheraton-suwon.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Premier King Room with City View",
+        "beds": "1 king bed",
+        "pricePerNight": 157,
+        "totalStay": 1259,
+        "currency": "USD (display conversion; 10% VAT excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 1, 2026 — free until 12:00 AM day of arrival; after = first night",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Cheapest refundable one-bed (king). 'Premier Double' rooms on Booking show 2 twin beds ($157–171/nt). Breakfast +$31/pp."
       }
     },
     {
@@ -5951,6 +6006,21 @@
         "canonicalName": "Ramada Plaza by Wyndham Suwon",
         "existenceStatus": "Verified operating property",
         "note": "Booking.com confirms the 4-star Ramada Plaza by Wyndham Suwon at 150 Jungbu-daero, its room inventory (Deluxe King = 1 queen; Superior Double = 1 double) and 24-hour front desk."
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T19:00:00Z",
+        "source": "Booking.com property page (dated rate table, live fetch 2026-08-18)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/ramada-plaza-suwon.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Deluxe King Room (Booking lists 1 QUEEN bed despite 'King' name)",
+        "beds": "1 queen bed",
+        "pricePerNight": 139,
+        "totalStay": 1114,
+        "currency": "USD (display conversion; 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before October 31, 2026 — free until 1 day before arrival; inside 1 day = first night",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "King/queen naming mismatch CONFIRMED live: 'Deluxe King' = 1 queen bed. Superior Double = 1 double; Deluxe Twin = 2 twin ($139/nt). Breakfast +$30/pp. ~12 min by car from Suwon Station."
       }
     },
     {
@@ -6030,6 +6100,21 @@
         "canonicalName": "Courtyard by Marriott Suwon",
         "existenceStatus": "Verified operating property",
         "note": "Marriott confirms the 4-star Courtyard by Marriott Suwon in Gwanggyo New Town (288 rooms) with Comfortable King and 2-Double categories."
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T19:00:00Z",
+        "source": "Booking.com property page (dated rate table, live fetch 2026-08-18)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/courtyard-by-marriott-suwon.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Comfortable, Guest room, 1 King",
+        "beds": "1 king bed",
+        "pricePerNight": 177,
+        "totalStay": 1419,
+        "currency": "USD (display conversion; 10% VAT excluded; king price approximate — attribution at table boundary)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 1, 2026 — free until 12:00 AM day of arrival; after = first night",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "'Comfortable, Guest room, 2 Double' (2 full beds) confirmed at $183/nt. King lead-in ≈ $177/nt — re-confirm exact king attribution before relying on it."
       }
     },
     {
@@ -6120,6 +6205,21 @@
         "canonicalName": "ibis Ambassador Suwon",
         "existenceStatus": "Verified operating property",
         "note": "Accor's official ibis Suwon page confirms the property at 132 Kwonkwang-ro (renovated 2021) near Suwon City Hall; confirm exact room codes on the property page."
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T19:00:00Z",
+        "source": "Booking.com property page (dated rate table, live fetch 2026-08-18)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/ibis-suwon-ambassador.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Standard/Superior Double Room",
+        "beds": "1 full bed",
+        "pricePerNight": 104,
+        "totalStay": 834,
+        "currency": "USD (display conversion; 10% VAT excluded; Standard Double lead-in ≈ $104/nt)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before 6:00 PM on October 31, 2026 — free until day before arrival; after = first night",
+        "prepayment": "Pay nothing until October 29, 2026",
+        "note": "Superior Double (1 full bed) free-cancel $111/nt confirmed; non-refundable $94/nt. Lead-in rooms are 1 full/double bed — king only in the Junior Suite (higher rate). Slug = 'ibis-suwon-ambassador'."
       }
     }
   ],
@@ -6136,28 +6236,35 @@
       "lastRun": "2026-08-18",
       "stay": "Seoul Nov 1–9, 2026 (8 nights, 2 adults)",
       "captured": [
-        "seoul-somerset-palace",
-        "seoul-l7-myeongdong",
-        "seoul-four-seasons",
-        "seoul-moxy-myeongdong",
+        "Grand Hyatt Incheon (arrival-night fallback)",
+        "seoul-aloft-myeongdong",
+        "seoul-courtyard-myeongdong",
         "seoul-fairmont",
-        "seoul-nine-tree",
-        "seoul-skypark-myeongdong3",
-        "seoul-lotte-hotel",
-        "seoul-le-meridien-myeongdong",
-        "seoul-shilla-stay-gwanghwamun",
-        "seoul-westin-josun",
-        "seoul-lescape",
-        "seoul-nine-tree-myeongdong2",
+        "seoul-four-points-myeongdong",
+        "seoul-four-seasons",
+        "seoul-ibis-ambassador-myeongdong",
         "seoul-ibis-insadong",
         "seoul-ibis-styles",
-        "seoul-ibis-ambassador-myeongdong",
+        "seoul-l7-myeongdong",
+        "seoul-le-meridien-myeongdong",
+        "seoul-lescape",
+        "seoul-lotte-hotel",
+        "seoul-moxy-myeongdong",
+        "seoul-nine-tree",
         "seoul-nine-tree-insadong",
-        "seoul-courtyard-myeongdong",
-        "Grand Hyatt Incheon (arrival-night fallback)"
+        "seoul-nine-tree-myeongdong2",
+        "seoul-shilla-stay-gwanghwamun",
+        "seoul-skypark-myeongdong3",
+        "seoul-somerset-palace",
+        "seoul-westin-josun",
+        "suwon-courtyard",
+        "suwon-four-points",
+        "suwon-ibis",
+        "suwon-novotel-ambassador",
+        "suwon-ramada-plaza"
       ],
       "history": "data/pricing-history.json (append-only, UTC-timestamped)",
-      "status": "Seoul 20/20. Gyeongju 15/15. Busan 13/20 captured (Ramada Station complete now) + Ramada Haeundae verified/pending; slugs resolved for Fairfield x2 + Crown Harbor (fetches pending); Wyndham Grand + ibis x2 likely not on Booking."
+      "status": "Seoul 20/20. Suwon 5/5 (Novotel = no Booking availability, book Accor direct). Somerset + Moxy refundableRate corrected to the true one-bed (1 queen) room. All 25 Seoul/Myeongdong/Suwon hotels now have a live Booking price+refundable read (2026-08-18)."
     }
   },
   "arrivalNight": {
@@ -6273,13 +6380,13 @@
         "checkIn": "15:00",
         "checkOut": "11:00",
         "frontDesk": "24-hour front desk listed",
-        "room": "Standard Double (160 cm) or Hollywood Double — one queen-width bed",
+        "room": "Standard Double (160 cm) — one queen-width bed (Hollywood Double is two joined singles, not a queen)",
         "privateBathroom": true,
         "station": "Myeongdong Station — about a 1-minute walk",
         "estimatedRate": "$120–138/night for the Deluxe — planning estimate, not a live quote",
         "why": "A more economical central option that still keeps the one-queen-bed and near-station preferences when you choose the Deluxe room.",
-        "tradeoff": "Choose the Hollywood Double or Standard Double for a queen-width bed; the twin rooms have two single beds.",
-        "bookingNote": "Choose Hollywood Double or Standard Double (not a twin), then message the hotel with the late-arrival details after booking.",
+        "tradeoff": "Choose the Standard Double for a queen-width (160 cm) bed; the Hollywood Double is two joined single beds and the twin rooms have two single beds.",
+        "bookingNote": "Choose Standard Double (not Hollywood Double or a twin), then message the hotel with the late-arrival details after booking.",
         "officialUrl": "https://www.ninetreehotels.com/nth1/?lang=en",
         "evidenceUrl": "https://www.booking.com/hotel/kr/nine-tree.html",
         "evidenceLabel": "Property listing: 24-hour front desk",

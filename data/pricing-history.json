@@ -29,6 +29,11 @@
         "checkOut": "2026-11-09",
         "nights": 8
       },
+      "Suwon": {
+        "checkIn": "2026-11-01",
+        "checkOut": "2026-11-09",
+        "nights": 8
+      },
       "Gyeongju": {
         "checkIn": "2026-11-09",
         "checkOut": "2026-11-15",
@@ -38,6 +43,16 @@
         "checkIn": "2026-11-15",
         "checkOut": "2026-11-22",
         "nights": 7
+      },
+      "Cheonan": {
+        "checkIn": "2026-11-08",
+        "checkOut": "2026-11-14",
+        "nights": 6
+      },
+      "Daejeon": {
+        "checkIn": "2026-11-08",
+        "checkOut": "2026-11-14",
+        "nights": 6
       }
     }
   },
@@ -1850,6 +1865,718 @@
           "cancellationAsShown": "Free cancellation before November 5, 2026 (3 days; then first night)"
         }
       ]
+    },
+    {
+      "captureId": "2026-08-18T18:46:25Z-line-by-line-pass",
+      "scope": "line-by-line-live-pass",
+      "capturedAtUtc": "2026-08-18T18:46:25Z",
+      "note": "Full city-by-city re-open of dated Booking.com tables + official Accor/Nine Tree/Marriott/Toyoko pages. Individual hotel rows appended below.",
+      "checklist": "guide/verification-checklist-2026-08-18-line-by-line.md"
+    },
+    {
+      "captureId": "2026-08-18T18:46:25Z-nine-tree-md1",
+      "hotelId": "seoul-nine-tree",
+      "propertyName": "Nine Tree by Parnas Seoul Myeongdong 1",
+      "capturedAtUtc": "2026-08-18T18:46:25Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/nine-tree.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Double Room",
+          "beds": "1 full bed (official 1600x1900mm)",
+          "meetsOneBedNeed": true,
+          "pricePerNightUsd": 208,
+          "totalStayUsd": 1661,
+          "cancellationAsShown": "Free cancellation before October 29, 2026 (3 days; then first night)"
+        }
+      ]
+    },
+    {
+      "captureId": "2026-08-18T18:46:25Z-sotetsu-fresa",
+      "hotelId": "seoul-sotetsu-fresa-inn-myeongdong",
+      "propertyName": "Sotetsu Fresa Inn Seoul Myeong-dong",
+      "capturedAtUtc": "2026-08-18T18:46:25Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/sotetsu-fresa-inn-seoul-myeong-dong.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Standard Double Room",
+          "beds": "1 full bed",
+          "meetsOneBedNeed": true,
+          "pricePerNightUsd": 180,
+          "totalStayUsd": 1442,
+          "cancellationAsShown": "Free cancellation before October 30, 2026 (2 days; then first night)"
+        }
+      ]
+    },
+    {
+      "captureId": "2026-08-18T18:46:25Z-royal-seoul",
+      "hotelId": "seoul-royal-hotel",
+      "propertyName": "Royal Hotel Seoul Myeongdong",
+      "capturedAtUtc": "2026-08-18T18:46:25Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/seoul-royal.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Premier Double Room",
+          "beds": "1 queen bed",
+          "meetsOneBedNeed": true,
+          "pricePerNightUsd": 320,
+          "totalStayUsd": 2556,
+          "cancellationAsShown": "Free cancellation before October 30, 2026 (2 days; then first night)"
+        }
+      ],
+      "irregularity": "Premier Double is 1 queen, not king. Stored $173 unsourced."
+    },
+    {
+      "captureId": "2026-08-18T18:46:25Z-travelodge-euljiro",
+      "hotelId": "seoul-travelodge-myeongdong-euljiro",
+      "propertyName": "Travelodge Myeongdong Euljiro",
+      "capturedAtUtc": "2026-08-18T18:46:25Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/holiday-inn-express-seoul-euljiro.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Superior Queen Room",
+          "beds": "1 queen bed",
+          "meetsOneBedNeed": true,
+          "pricePerNightUsd": 172,
+          "totalStayUsd": 1377,
+          "cancellationAsShown": "Free cancellation before October 30, 2026 (2 days; then first night)"
+        }
+      ]
+    },
+    {
+      "captureId": "2026-08-18T18:46:25Z-cheonan-mains",
+      "hotelId": "cheonan-mains",
+      "propertyName": "The Mains Hotel",
+      "capturedAtUtc": "2026-08-18T18:46:25Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/the-mains.html?checkin=2026-11-08&checkout=2026-11-14&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Standard Double Room",
+          "beds": "1 full bed",
+          "meetsOneBedNeed": true,
+          "pricePerNightUsd": 45,
+          "totalStayUsd": 272,
+          "cancellationAsShown": "Free cancellation before November 6, 2026 (2 days; then first night)"
+        }
+      ]
+    },
+    {
+      "captureId": "2026-08-18T18:46:25Z-best-western-asan",
+      "hotelId": "cheonan-best-western-asan",
+      "propertyName": "Best Western Asan Hotel",
+      "capturedAtUtc": "2026-08-18T18:46:25Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/surestay-plus-by-best-western.html?checkin=2026-11-08&checkout=2026-11-14&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Standard Double Room",
+          "beds": "1 full bed",
+          "meetsOneBedNeed": true,
+          "pricePerNightUsd": 65,
+          "totalStayUsd": 390,
+          "cancellationAsShown": "Free cancellation before November 5, 2026 (3 days; then TOTAL stay)"
+        }
+      ],
+      "irregularity": "Listing title rebranded from SureStay Plus to Best Western Asan Hotel. Asan, ~4 mi from Cheonan-Asan."
+    },
+    {
+      "captureId": "2026-08-18T18:46:25Z-on-city",
+      "hotelId": "cheonan-on-city",
+      "propertyName": "ON City Hotel",
+      "capturedAtUtc": "2026-08-18T18:46:25Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/on-city.html?checkin=2026-11-08&checkout=2026-11-14&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": false,
+      "finding": "No availability Nov 8–14. Standard Double listed as 1 full bed."
+    },
+    {
+      "captureId": "2026-08-18T18:46:25Z-toyoko-daejeon",
+      "hotelId": "daejeon-toyoko-inn",
+      "propertyName": "Toyoko Inn Daejeon Government Complex",
+      "capturedAtUtc": "2026-08-18T18:46:25Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/toyoko-inn-daejeon-government-complex.html?checkin=2026-11-08&checkout=2026-11-14&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Standard Double Room - Non-Smoking",
+          "beds": "1 queen bed (Booking label; official mm unpublished)",
+          "meetsOneBedNeed": true,
+          "pricePerNightUsd": 60,
+          "totalStayUsd": 359,
+          "cancellationAsShown": "Free cancellation before November 7, 2026 (1 day; then TOTAL stay)",
+          "breakfastIncluded": true
+        }
+      ],
+      "irregularity": "Booking says queen; official Toyoko page did not publish mm. Brand double typically 140 cm."
+    },
+    {
+      "captureId": "2026-08-18T18:46:25Z-aank-daejeon",
+      "hotelId": "daejeon-aank-air",
+      "propertyName": "Anook Air Hotel Daejeon Station",
+      "capturedAtUtc": "2026-08-18T18:46:25Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/aank-daejeon-station.html?checkin=2026-11-08&checkout=2026-11-14&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Standard Double Room",
+          "beds": "1 full bed",
+          "meetsOneBedNeed": true,
+          "pricePerNightUsd": 41,
+          "totalStayUsd": 246,
+          "cancellationAsShown": "Free cancellation before November 1, 2026 (7 days; then TOTAL stay)"
+        }
+      ]
+    },
+    {
+      "captureId": "2026-08-18T18:46:25Z-ramada-daejeon",
+      "hotelId": "daejeon-ramada",
+      "propertyName": "Ramada by Wyndham Daejeon",
+      "capturedAtUtc": "2026-08-18T18:46:25Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/ramada-daejeon.html?checkin=2026-11-08&checkout=2026-11-14&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": false,
+      "finding": "No availability Nov 8–14. King Room / Executive King listed as 1 king."
+    },
+    {
+      "captureId": "2026-08-18T18:46:25Z-wyndham-grand-busan",
+      "hotelId": "busan-wyndham-grand",
+      "propertyName": "Wyndham Grand Busan",
+      "capturedAtUtc": "2026-08-18T18:46:25Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/wyndham-grand-busan.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Premium King Room - Non-Smoking",
+          "beds": "1 king bed",
+          "meetsOneBedNeed": true,
+          "pricePerNightUsd": 147,
+          "totalStayUsd": 1027,
+          "cancellationAsShown": "Free cancellation before November 14, 2026 (1 day; then TOTAL stay; full prepay any time)"
+        }
+      ],
+      "irregularity": "Accessible Premium King = 1 queen. Harsh total-stay + any-time prepay."
+    },
+    {
+      "captureId": "2026-08-18T18:46:25Z-crown-harbor",
+      "hotelId": "busan-crown-harbor",
+      "propertyName": "Crown Harbor Hotel Busan",
+      "capturedAtUtc": "2026-08-18T18:46:25Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/crown-harbour-busan.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "[Busan Minibar] Executive Double City",
+          "beds": "1 full bed",
+          "meetsOneBedNeed": true,
+          "pricePerNightUsd": 98,
+          "totalStayUsd": 688,
+          "cancellationAsShown": "Free cancellation before November 13, 2026 (2 days; then TOTAL stay)"
+        }
+      ]
+    },
+    {
+      "captureId": "2026-08-18T18:46:25Z-ramada-encore-haeundae",
+      "hotelId": "busan-ramada-encore-haeundae",
+      "propertyName": "Ramada Encore by Wyndham Busan Haeundae",
+      "capturedAtUtc": "2026-08-18T18:46:25Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/haeundae-ramada-encore.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": false,
+      "finding": "No availability Nov 15–22. Adults-only. King and queen rooms listed."
+    },
+    {
+      "captureId": "2026-08-18T18:46:25Z-gg-gyeongju",
+      "hotelId": "gyeongju-gg-hotel",
+      "propertyName": "Gyeongju GG Tourist Hotel",
+      "capturedAtUtc": "2026-08-18T18:46:25Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/gyeongju-dy-tourist.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": false,
+      "finding": "No availability Nov 9–15. Deluxe Double listed as 1 queen; Standard Double 1 full; Korean-style 4 futons. Male-only sauna."
+    },
+    {
+      "captureId": "2026-08-18T19:16:00Z-four-city-focus",
+      "scope": "four-city-independent-reopen",
+      "capturedAtUtc": "2026-08-18T19:16:00Z",
+      "note": "Independent re-open of all 5 Suwon + 15 Gyeongju + 7 Cheonan + 7 Daejeon dated Booking tables and Accor/Marriott/Toyoko official pages. Individual rows below. Checklist: guide/verification-suwon-gyeongju-cheonan-daejeon-2026-08-18.md"
+    },
+    {
+      "captureId": "2026-08-18T19:16:00Z-novotel-suwon",
+      "hotelId": "suwon-novotel-ambassador",
+      "propertyName": "Novotel Ambassador Suwon",
+      "capturedAtUtc": "2026-08-18T19:16:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/novotel-ambassador-suwon.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": false,
+      "finding": "No availability Nov 1–9. Listed Deluxe/Executive/Superior King = 1 king. Accor /8748: 1 x King size bed."
+    },
+    {
+      "captureId": "2026-08-18T19:16:00Z-four-points-suwon",
+      "hotelId": "suwon-four-points",
+      "propertyName": "Four Points by Sheraton Suwon",
+      "capturedAtUtc": "2026-08-18T19:16:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/four-points-by-sheraton-suwon.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Premier King Room with City View",
+          "beds": "1 king bed",
+          "meetsOneBedNeed": true,
+          "pricePerNightUsd": 157,
+          "totalStayUsd": 1259,
+          "cancellationAsShown": "Free cancellation before November 1, 2026 — 12:00 AM day of arrival; then first night",
+          "note": "Premier Double at same $157 is 2 twins. Official Marriott: 5 min walk City Hall subway."
+        }
+      ]
+    },
+    {
+      "captureId": "2026-08-18T19:16:00Z-ramada-plaza-suwon",
+      "hotelId": "suwon-ramada-plaza",
+      "propertyName": "Ramada Plaza by Wyndham Suwon",
+      "capturedAtUtc": "2026-08-18T19:16:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/ramada-plaza-suwon.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Superior Double Room",
+          "beds": "1 full bed",
+          "meetsOneBedNeed": true,
+          "pricePerNightUsd": 127,
+          "totalStayUsd": 1018,
+          "cancellationAsShown": "Free cancellation before October 31, 2026 (1 day; then first night)"
+        },
+        {
+          "room": "Deluxe King Room",
+          "beds": "1 queen bed (despite King name)",
+          "meetsOneBedNeed": true,
+          "pricePerNightUsd": 139,
+          "totalStayUsd": 1114,
+          "cancellationAsShown": "Free cancellation before October 31, 2026 (1 day; then first night)"
+        }
+      ],
+      "irregularity": "Deluxe King = 1 queen. Partner Superior $112 is pay-in-advance."
+    },
+    {
+      "captureId": "2026-08-18T19:16:00Z-courtyard-suwon",
+      "hotelId": "suwon-courtyard",
+      "propertyName": "Courtyard by Marriott Suwon",
+      "capturedAtUtc": "2026-08-18T19:16:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/courtyard-by-marriott-suwon.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Comfortable, Guest room, 1 King",
+          "beds": "1 king bed",
+          "meetsOneBedNeed": true,
+          "pricePerNightUsd": 177,
+          "totalStayUsd": 1419,
+          "cancellationAsShown": "Free cancellation before November 1, 2026 — 12:00 AM day of arrival"
+        }
+      ]
+    },
+    {
+      "captureId": "2026-08-18T19:16:00Z-ibis-suwon",
+      "hotelId": "suwon-ibis",
+      "propertyName": "ibis Ambassador Suwon",
+      "capturedAtUtc": "2026-08-18T19:16:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/ibis-suwon-ambassador.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Standard Double (refundable)",
+          "beds": "1 full / Accor 1 x Double 19 m²",
+          "meetsOneBedNeed": true,
+          "pricePerNightUsd": 104,
+          "totalStayUsd": 834,
+          "cancellationAsShown": "Free cancellation before 6:00 PM October 31, 2026"
+        },
+        {
+          "room": "Superior Double (refundable)",
+          "beds": "1 full / Accor 1 x Double 20 m²",
+          "meetsOneBedNeed": true,
+          "pricePerNightUsd": 111,
+          "totalStayUsd": 891,
+          "cancellationAsShown": "Free cancellation before 6:00 PM October 31, 2026"
+        }
+      ]
+    },
+    {
+      "captureId": "2026-08-18T19:16:00Z-hilton-gyeongju",
+      "hotelId": "gyeongju-hilton",
+      "propertyName": "Hilton Gyeongju",
+      "capturedAtUtc": "2026-08-18T19:16:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/gyeongju-hilton.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Premium King Room",
+          "beds": "1 king bed",
+          "meetsOneBedNeed": true,
+          "pricePerNightUsd": 257,
+          "totalStayUsd": 1712,
+          "cancellationAsShown": "Free cancellation before November 7, 2026 (2 days; then first night)"
+        }
+      ]
+    },
+    {
+      "captureId": "2026-08-18T19:16:00Z-lahan-gyeongju",
+      "hotelId": "gyeongju-lahan",
+      "propertyName": "Lahan Select Gyeongju",
+      "capturedAtUtc": "2026-08-18T19:16:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/hyundai-gyeongju.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Deluxe King Suite",
+          "beds": "1 queen bed despite King name",
+          "meetsOneBedNeed": true,
+          "pricePerNightUsd": 265,
+          "totalStayUsd": 1764,
+          "cancellationAsShown": "Free cancellation before November 7, 2026 (2 days; then first night)"
+        }
+      ],
+      "irregularity": "King Suite is 1 queen on Booking."
+    },
+    {
+      "captureId": "2026-08-18T19:16:00Z-rivertain",
+      "hotelId": "gyeongju-rivertain",
+      "propertyName": "Rivertain Hotel Gyeongju",
+      "capturedAtUtc": "2026-08-18T19:16:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/rivertain-hotel-gyeongju.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Standard Double Room",
+          "beds": "1 full bed",
+          "meetsOneBedNeed": true,
+          "pricePerNightUsd": 81,
+          "totalStayUsd": 484,
+          "breakfastIncluded": true,
+          "cancellationAsShown": "Free cancellation before November 6, 2026; within 3 days = TOTAL PRICE"
+        }
+      ]
+    },
+    {
+      "captureId": "2026-08-18T19:16:00Z-kolon",
+      "hotelId": "gyeongju-kolon",
+      "propertyName": "Kolon Hotel",
+      "capturedAtUtc": "2026-08-18T19:16:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/kolon.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Premier Double or Twin Room",
+          "beds": "1 full OR twin+full",
+          "meetsOneBedNeed": null,
+          "pricePerNightUsd": 82,
+          "totalStayUsd": 491,
+          "cancellationAsShown": "Free cancellation before November 6, 2026; within 3 days = TOTAL PRICE; full stay prepaid any time"
+        }
+      ]
+    },
+    {
+      "captureId": "2026-08-18T19:16:00Z-commodore",
+      "hotelId": "gyeongju-commodore",
+      "propertyName": "Commodore Hotel Gyeongju",
+      "capturedAtUtc": "2026-08-18T19:16:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/commodore-gyeongju.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Imperial Suite with Mountain View",
+          "beds": "1 twin + 1 full",
+          "meetsOneBedNeed": false,
+          "pricePerNightUsd": 186,
+          "totalStayUsd": 1254,
+          "cancellationAsShown": "Free cancellation before November 8, 2026 (1 day; then first night)"
+        }
+      ],
+      "note": "Price moved from $189/$1,266."
+    },
+    {
+      "captureId": "2026-08-18T19:16:00Z-kinock",
+      "hotelId": "gyeongju-kinock",
+      "propertyName": "Kinock (Pet Hotel)",
+      "capturedAtUtc": "2026-08-18T19:16:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/the-suite-gyeongju.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "KINOCK PKG PREMIER",
+          "beds": "1 queen bed",
+          "meetsOneBedNeed": true,
+          "pricePerNightUsd": 138,
+          "totalStayUsd": 827,
+          "cancellationAsShown": "Free cancellation before November 2, 2026 (7 days; then first night)"
+        }
+      ],
+      "note": "Price moved from $139/$836. Pet hotel."
+    },
+    {
+      "captureId": "2026-08-18T19:16:00Z-swiss-rosen",
+      "hotelId": "gyeongju-swiss-rosen",
+      "propertyName": "Benikea Swiss Rosen Hotel",
+      "capturedAtUtc": "2026-08-18T19:16:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/swiss-rosen.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Deluxe Double Room",
+          "beds": "1 full bed",
+          "meetsOneBedNeed": true,
+          "pricePerNightUsd": 83,
+          "totalStayUsd": 556,
+          "cancellationAsShown": "Free cancellation before November 6, 2026; within 3 days = TOTAL PRICE"
+        }
+      ],
+      "note": "One-bed Deluxe Double isolated this fetch (prior capture was 2-bed Twin at same price)."
+    },
+    {
+      "captureId": "2026-08-18T19:16:00Z-the-k",
+      "hotelId": "gyeongju-the-k",
+      "propertyName": "The K Hotel Gyeongju",
+      "capturedAtUtc": "2026-08-18T19:16:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/the-k-gyeong-ju.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Hwangnyoung View Room with Ondol Floor",
+          "beds": "4 futon beds",
+          "meetsOneBedNeed": false,
+          "pricePerNightUsd": 125,
+          "totalStayUsd": 752,
+          "cancellationAsShown": "Free cancellation before November 6, 2026; within 3 days = TOTAL PRICE"
+        }
+      ]
+    },
+    {
+      "captureId": "2026-08-18T19:16:00Z-kensington",
+      "hotelId": "gyeongju-kensington",
+      "propertyName": "Kensington Resort Gyeongju",
+      "capturedAtUtc": "2026-08-18T19:16:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/kensington-resort-gyeongju.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Kensington Deluxe - Fully Renovated Room",
+          "beds": "2 full beds",
+          "meetsOneBedNeed": false,
+          "pricePerNightUsd": 160,
+          "totalStayUsd": 957,
+          "breakfastIncluded": true,
+          "cancellationAsShown": "Free cancellation before November 2, 2026 (7 days; then first night)"
+        }
+      ]
+    },
+    {
+      "captureId": "2026-08-18T19:16:00Z-gg",
+      "hotelId": "gyeongju-gg-hotel",
+      "capturedAtUtc": "2026-08-18T19:16:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/gyeongju-dy-tourist.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": false,
+      "finding": "No availability Nov 9–15. Deluxe Double listed 1 queen; Standard Double 1 full."
+    },
+    {
+      "captureId": "2026-08-18T19:16:00Z-hwangnamkwan",
+      "hotelId": "gyeongju-hwangnamkwan",
+      "capturedAtUtc": "2026-08-18T19:16:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/hwangnamguan-hanok-village-gyeongjusi.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": false,
+      "finding": "No availability Nov 9–15. Ondol suite listed 1 full; typical rooms futons."
+    },
+    {
+      "captureId": "2026-08-18T19:16:00Z-hanokinn",
+      "hotelId": "gyeongju-hanokinn",
+      "capturedAtUtc": "2026-08-18T19:16:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/hanogin.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": false,
+      "finding": "No availability Nov 9–15. Economy/Budget listed 1 king."
+    },
+    {
+      "captureId": "2026-08-18T19:16:00Z-sono-calm",
+      "hotelId": "gyeongju-sono-calm",
+      "capturedAtUtc": "2026-08-18T19:16:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/daemyung-resort-gyeongju.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": false,
+      "finding": "No availability Nov 9–15. Family = 1 full + 2 twins."
+    },
+    {
+      "captureId": "2026-08-18T19:16:00Z-shilla-cheonan",
+      "hotelId": "cheonan-shilla-stay",
+      "capturedAtUtc": "2026-08-18T19:16:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/shilla-cheonan.html?checkin=2026-11-08&checkout=2026-11-14&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Standard Double Room with City View",
+          "beds": "1 full bed",
+          "meetsOneBedNeed": true,
+          "pricePerNightUsd": 99,
+          "totalStayUsd": 594,
+          "cancellationAsShown": "Free cancellation before November 7, 2026 (1 day; then first night)"
+        }
+      ]
+    },
+    {
+      "captureId": "2026-08-18T19:16:00Z-ramada-encore-cheonan",
+      "hotelId": "cheonan-ramada-encore",
+      "capturedAtUtc": "2026-08-18T19:16:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/ramada-encore-cheonan.html?checkin=2026-11-08&checkout=2026-11-14&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Double Room",
+          "beds": "1 full bed",
+          "meetsOneBedNeed": true,
+          "pricePerNightUsd": 68,
+          "totalStayUsd": 408,
+          "cancellationAsShown": "Free cancellation before November 7, 2026 (1 day; then first night)"
+        }
+      ]
+    },
+    {
+      "captureId": "2026-08-18T19:16:00Z-on-city",
+      "hotelId": "cheonan-on-city",
+      "capturedAtUtc": "2026-08-18T19:16:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/on-city.html?checkin=2026-11-08&checkout=2026-11-14&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": false,
+      "finding": "No availability Nov 8–14. Standard/Deluxe Double listed 1 full."
+    },
+    {
+      "captureId": "2026-08-18T19:16:00Z-sono-belle",
+      "hotelId": "cheonan-sono-belle",
+      "capturedAtUtc": "2026-08-18T19:16:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/i2i-eeae-i-degi.html?checkin=2026-11-08&checkout=2026-11-14&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "WEST Tower Suite A - Double (With Kitchenette)",
+          "beds": "1 full + 2 futons",
+          "meetsOneBedNeed": false,
+          "pricePerNightUsd": 93,
+          "totalStayUsd": 559,
+          "cancellationAsShown": "Free cancellation before November 3, 2026 (5 days; then first night)"
+        }
+      ]
+    },
+    {
+      "captureId": "2026-08-18T19:16:00Z-best-western-asan",
+      "hotelId": "cheonan-best-western-asan",
+      "capturedAtUtc": "2026-08-18T19:16:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/surestay-plus-by-best-western.html?checkin=2026-11-08&checkout=2026-11-14&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Standard Double Room",
+          "beds": "1 full bed",
+          "meetsOneBedNeed": true,
+          "pricePerNightUsd": 64,
+          "totalStayUsd": 386,
+          "cancellationAsShown": "Free cancellation before November 5, 2026; within 3 days = TOTAL PRICE"
+        }
+      ],
+      "note": "Price moved from $65/$390. H1 Best Western Asan Hotel."
+    },
+    {
+      "captureId": "2026-08-18T19:16:00Z-mains",
+      "hotelId": "cheonan-mains",
+      "capturedAtUtc": "2026-08-18T19:16:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/the-mains.html?checkin=2026-11-08&checkout=2026-11-14&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Standard Double Room",
+          "beds": "1 full bed",
+          "meetsOneBedNeed": true,
+          "pricePerNightUsd": 45,
+          "totalStayUsd": 272,
+          "cancellationAsShown": "Free cancellation before November 6, 2026 (2 days; then first night)"
+        }
+      ]
+    },
+    {
+      "captureId": "2026-08-18T19:16:00Z-brown-dot-dongnam",
+      "hotelId": "cheonan-brown-dot",
+      "capturedAtUtc": "2026-08-18T19:16:00Z",
+      "sourceUrl": "https://www.trip.com/hotels/cheonan-si-hotel-detail-62705121/brown-dot-hotel-cheonan-dongnam/",
+      "refundableAvailable": false,
+      "finding": "No Booking.com Dongnam listing. Do not use Buldang prices."
+    },
+    {
+      "captureId": "2026-08-18T19:16:00Z-ramada-daejeon",
+      "hotelId": "daejeon-ramada",
+      "capturedAtUtc": "2026-08-18T19:16:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/ramada-daejeon.html?checkin=2026-11-08&checkout=2026-11-14&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": false,
+      "finding": "No availability Nov 8–14. King / Executive King listed 1 king. 8 reviews."
+    },
+    {
+      "captureId": "2026-08-18T19:16:00Z-lotte-city-daejeon",
+      "hotelId": "daejeon-lotte-city",
+      "capturedAtUtc": "2026-08-18T19:16:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/lotte-city-daejeon.html?checkin=2026-11-08&checkout=2026-11-14&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Standard Double Room",
+          "beds": "1 full bed",
+          "meetsOneBedNeed": true,
+          "pricePerNightUsd": 156,
+          "totalStayUsd": 933,
+          "cancellationAsShown": "Free cancellation before November 5, 2026 (3 days; then first night)"
+        }
+      ]
+    },
+    {
+      "captureId": "2026-08-18T19:16:00Z-daelim",
+      "hotelId": "daejeon-benikea-daelim",
+      "capturedAtUtc": "2026-08-18T19:16:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/daelim.html?checkin=2026-11-08&checkout=2026-11-14&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Standard Double Room with Shower",
+          "beds": "1 full bed",
+          "meetsOneBedNeed": true,
+          "pricePerNightUsd": 39,
+          "totalStayUsd": 231,
+          "breakfastIncluded": true,
+          "cancellationAsShown": "Free cancellation before November 5, 2026 (3 days; then first night)"
+        }
+      ]
+    },
+    {
+      "captureId": "2026-08-18T19:16:00Z-stendal",
+      "hotelId": "daejeon-hotel-stendhal",
+      "capturedAtUtc": "2026-08-18T19:16:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/seutangdalhotel.html?checkin=2026-11-08&checkout=2026-11-14&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": false,
+      "finding": "No availability Nov 8–14. All listed rooms 1 full. No queen/king."
+    },
+    {
+      "captureId": "2026-08-18T19:16:00Z-interciti",
+      "hotelId": "daejeon-hotel-interciti",
+      "capturedAtUtc": "2026-08-18T19:16:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/hotelinterciti.html?checkin=2026-11-08&checkout=2026-11-14&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": false,
+      "finding": "No availability Nov 8–14. Deluxe Double listed 1 queen; Suite Double 1 king."
+    },
+    {
+      "captureId": "2026-08-18T19:16:00Z-aank",
+      "hotelId": "daejeon-aank-air",
+      "capturedAtUtc": "2026-08-18T19:16:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/aank-daejeon-station.html?checkin=2026-11-08&checkout=2026-11-14&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Standard Double Room",
+          "beds": "1 full bed",
+          "meetsOneBedNeed": true,
+          "pricePerNightUsd": 41,
+          "totalStayUsd": 248,
+          "cancellationAsShown": "Free cancellation before November 1, 2026; within 7 days = TOTAL PRICE"
+        }
+      ],
+      "note": "Refundable total $248 (was $246). Non-ref $37/$221."
     }
   ]
 }

@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="An expanded, source-checked hotel planner for Seoul, Gyeongju, and Busan, with an officially verified late-arrival shortlist for the first night.">
-  <title>South Korea Hotel Shortlist</title>
+  <meta name="description" content="Verified hotel findings for a Seoul–Gyeongju–Busan trip: live refundable quotes, bed counts, recommendations, and sample price totals. No guessed prices.">
+  <title>South Korea Hotel Shortlist — verified findings</title>
   <style>
     :root {
       --ink: #17211d;
@@ -475,8 +475,46 @@
     footer { padding: 26px 0 38px; border-top: 1px solid var(--line); color: var(--ink-soft); font-size: .8rem; }
     footer p { max-width: 920px; margin-bottom: 7px; }
 
+
+    .stat-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin: 18px 0 22px; }
+    .stat-card { padding: 16px 16px 14px; border: 1px solid var(--line); border-radius: 14px; background: var(--surface); box-shadow: var(--shadow); }
+    .stat-card .num { display: block; font-size: 1.85rem; font-weight: 850; letter-spacing: -.04em; color: var(--forest-dark); line-height: 1; }
+    .stat-card p { margin: 7px 0 0; color: var(--ink-soft); font-size: .82rem; }
+    .honesty { margin: 0 0 22px; padding: 14px 16px; border: 1px solid #e8ce8f; border-radius: 14px; background: var(--gold-soft); color: #624612; font-size: .9rem; }
+    .honesty p { margin: 0; }
+    .chart-card, .table-card, .trip-card, .rec-card { border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); box-shadow: var(--shadow); }
+    .chart-card, .table-card { padding: 18px 18px 16px; margin-bottom: 16px; }
+    .chart-card h3, .table-card h3, .trip-card h3, .rec-card h3 { margin: 0 0 12px; font-size: 1.05rem; }
+    .bar-row { display: grid; grid-template-columns: 88px 1fr 44px; gap: 8px; align-items: center; margin: 7px 0; font-size: .82rem; }
+    .bar-track { height: 10px; border-radius: 999px; background: #e7eee8; overflow: hidden; position: relative; }
+    .bar-fill { height: 100%; border-radius: 999px; background: #1f7a54; }
+    .bar-fill.core { background: #bb7d18; position: absolute; top: 0; left: 0; opacity: .9; }
+    .legend { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 10px; color: var(--ink-soft); font-size: .78rem; }
+    .legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 5px; }
+    .data-table { width: 100%; border-collapse: collapse; font-size: .84rem; }
+    .data-table th, .data-table td { padding: 8px 8px; text-align: left; border-bottom: 1px solid var(--line); vertical-align: top; }
+    .data-table th { color: var(--ink-soft); font-size: .72rem; letter-spacing: .04em; text-transform: uppercase; }
+    .data-table a { color: var(--blue); font-weight: 750; text-decoration: none; }
+    .data-table a:hover { text-decoration: underline; }
+    .money { font-variant-numeric: tabular-nums; font-weight: 800; color: var(--forest-dark); white-space: nowrap; }
+    .rec-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; margin: 16px 0 22px; }
+    .rec-card { padding: 18px; }
+    .rec-card .kicker { margin: 0 0 6px; color: var(--forest); font-size: .72rem; font-weight: 900; letter-spacing: .08em; text-transform: uppercase; }
+    .rec-card .price { margin: 8px 0; font-size: 1.2rem; font-weight: 850; color: var(--forest-dark); }
+    .rec-card p { margin: 0 0 8px; color: var(--ink-soft); font-size: .88rem; }
+    .trip-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; margin-bottom: 18px; }
+    .trip-card { padding: 18px; }
+    .trip-card ol { margin: 0 0 12px; padding-left: 18px; }
+    .trip-card li { margin: 4px 0; font-size: .88rem; }
+    .trip-total { margin: 0; padding-top: 10px; border-top: 1px solid var(--line); font-size: 1.05rem; font-weight: 850; }
+    .quote-tabs { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 12px; }
+    .flag-list { margin: 0; padding-left: 18px; color: var(--ink-soft); font-size: .86rem; }
+    .flag-list li { margin: 5px 0; }
+    .subhead { max-width: 760px; margin: 28px 0 10px; font-size: 1.45rem; letter-spacing: -.03em; }
+    .muted { color: var(--ink-soft); font-weight: 600; }
+
     @media (max-width: 930px) {
-      .arrival-grid, .hotel-grid, .notes-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .arrival-grid, .hotel-grid, .notes-grid, .stat-grid, .rec-grid, .trip-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .steps { grid-template-columns: repeat(2, minmax(0, 1fr)); }
     }
     @media (max-width: 620px) {
@@ -486,7 +524,7 @@
       section + section { margin-top: 48px; }
       .decision-card { grid-template-columns: 1fr; gap: 15px; padding: 19px; }
       .decision-alt { max-width: none; }
-      .arrival-grid, .hotel-grid, .notes-grid, .steps { grid-template-columns: 1fr; }
+      .arrival-grid, .hotel-grid, .notes-grid, .steps, .stat-grid, .rec-grid, .trip-grid { grid-template-columns: 1fr; }
       .card-top { padding: 18px 17px 12px; }
       .card-body { padding: 0 17px 17px; }
       .card-footer { padding: 13px 17px 17px; }
@@ -499,26 +537,64 @@
   </style>
 </head>
 <body>
-  <a class="skip-link" href="#arrival">Skip to the arrival-night decision</a>
+  <a class="skip-link" href="#findings">Skip to verified findings</a>
 
   <header class="hero">
     <div class="shell">
-      <p class="eyebrow">South Korea trip · hotel decisions</p>
-      <h1>More hotel choices, with the late-arrival night already solved.</h1>
-      <p class="hero-copy">An expanded planner with 55 stays across Seoul, Gyeongju, and Busan. The first night gets special treatment: your 21:00 ICN arrival only sees hotels backed by a current 24-hour reception signal from an official or trusted source.</p>
+      <p class="eyebrow">South Korea trip · verified findings</p>
+      <h1>What the repo actually verified — prices, beds, and recommendations.</h1>
+      <p class="hero-copy">84 source-checked hotels across Seoul, Gyeongju, Busan, Cheonan, Daejeon, and Suwon. Tables and totals use only UTC-stamped Booking.com quotes. If a width is unpublished or a fetch failed, it is flagged. Nothing is guessed.</p>
       <div class="trip-chips" id="trip-chips" aria-label="Trip overview"></div>
     </div>
   </header>
 
   <nav class="site-nav" aria-label="Page sections">
     <div class="shell">
+      <a href="#findings">Findings</a>
       <a href="#arrival">Arrival night</a>
-      <a href="#shortlist">Trip shortlist</a>
-      <a href="#booking-notes">Booking notes</a>
+      <a href="#shortlist">Hotel list</a>
+      <a href="#booking-notes">How to use this</a>
     </div>
   </nav>
 
   <main class="shell">
+
+    <section id="findings" aria-labelledby="findings-title">
+      <p class="section-kicker">Work completed in this repo</p>
+      <h2 class="section-heading" id="findings-title">Verified findings at a glance</h2>
+      <p class="section-description" id="findings-description"></p>
+      <div class="honesty" id="findings-honesty"></div>
+      <div class="stat-grid" id="findings-stats"></div>
+      <div class="chart-card">
+        <h3>Live quotes and core-needs matches by city</h3>
+        <div id="findings-chart"></div>
+        <div class="legend">
+          <span><i style="background:#e7eee8"></i>Hotels in the list</span>
+          <span><i style="background:#1f7a54"></i>Live refundable quote</span>
+          <span><i style="background:#bb7d18"></i>Core-needs match</span>
+        </div>
+      </div>
+      <div class="table-card">
+        <h3>Coverage by city</h3>
+        <div id="findings-city-table"></div>
+      </div>
+      <h3 class="subhead">Recommendations from the live quotes</h3>
+      <div class="rec-grid" id="findings-recs"></div>
+      <h3 class="subhead">Sample price totals</h3>
+      <p class="section-description">These add captured stay totals. They are not a booked itinerary. Re-open each source before paying. Tax is usually extra.</p>
+      <div class="trip-grid" id="findings-trips"></div>
+      <div class="table-card">
+        <h3>Live refundable quotes (timestamped only)</h3>
+        <div class="quote-tabs" id="quote-tabs"></div>
+        <div id="findings-quotes"></div>
+      </div>
+      <div class="table-card">
+        <h3>Flags to review</h3>
+        <ul class="flag-list" id="findings-flags"></ul>
+        <p class="source-line" id="findings-guides"></p>
+      </div>
+    </section>
+
     <section id="arrival" aria-labelledby="arrival-title">
       <p class="section-kicker">Start here</p>
       <h2 class="section-heading" id="arrival-title">First night in Seoul: five source-checked 24-hour reception options</h2>
@@ -543,7 +619,7 @@
     <section id="shortlist" aria-labelledby="shortlist-title">
       <p class="section-kicker">The rest of the trip</p>
       <h2 class="section-heading" id="shortlist-title">Expanded city-by-city hotel list</h2>
-      <p class="section-description">Compare 20 Seoul stays, 15 Gyeongju stays, 20 Busan stays, and 19 alternative-city properties (Cheonan, Daejeon, Suwon). All 74 entries have a dated canonical identity source and passed duplicate checks. Prices remain planning estimates for two; use the linked official or trusted source for live inventory, totals, and terms.</p>
+      <p class="section-description">Compare 30 Seoul stays, 15 Gyeongju stays, 20 Busan stays, and 19 alternative-city properties (7 Cheonan, 7 Daejeon, 5 Suwon). All 84 entries have a dated identity source. Refundable badges use each city’s stay window. Re-open the live source before paying.</p>
 
       <div class="planner">
         <div class="city-tabs" id="city-tabs" role="group" aria-label="Choose a city"></div>
@@ -556,6 +632,7 @@
             <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">All stays</button>
             <button class="filter-button" type="button" data-filter="fits" aria-pressed="false">Core needs match</button>
             <button class="filter-button" type="button" data-filter="laundry" aria-pressed="false">Laundry</button>
+            <button class="filter-button" type="button" data-filter="live" aria-pressed="false">Live quote</button>
           </div>
           <div class="search-wrap">
             <label for="hotel-search">Search this city</label>
@@ -586,7 +663,7 @@
         </article>
         <article class="note-card">
           <h3>Identity and duplicate audit</h3>
-          <p>All 74 records have a sourced canonical property name and a unique identity link. Validation rejects duplicate IDs, canonical names, official URLs, verification URLs, and exact coordinates; highly similar branch names require an explicit distinct-property cross-check.</p>
+          <p>All 84 records have a sourced canonical property name and a unique identity link. Validation rejects duplicate IDs, canonical names, official URLs, verification URLs, and exact coordinates; highly similar branch names require an explicit distinct-property cross-check.</p>
           <p>See the complete <a href="guide/verification-audit.md">verification audit</a> for every hotel and source.</p>
         </article>
       </div>
@@ -671,7 +748,8 @@
         `<span class="trip-chip">🌙 <b>${escapeHtml(plural(Number(trip.nights || 0), "night"))}</b></span>`,
         `<span class="trip-chip">✈️ ICN arrival <b>${escapeHtml(arrival.arrivalTime || "21:00")}</b></span>`,
         `<span class="trip-chip">🛎️ first night: <b>24-hour reception</b></span>`,
-        `<span class="trip-chip">🔎 <b>${DATA.hotels.length} unique, verified hotels</b></span>`
+        `<span class="trip-chip">🔎 <b>${DATA.hotels.length} unique, verified hotels</b></span>`,
+        DATA.findings?.totals?.liveQuotes != null ? `<span class="trip-chip">♻️ <b>${DATA.findings.totals.liveQuotes} live refundable quotes</b></span>` : ""
       ].join("");
     }
 
@@ -799,15 +877,15 @@
         const stamp = rate.capturedAtUtc ? `captured ${escapeHtml(rate.capturedAtUtc.replace('T', ' ').slice(0, 16))} UTC` : 'timestamped capture';
         if (!rate.available) {
           return `<div class="refund-rate unavailable">
-            <strong>🚫 No refundable rate found — Nov 1–9, 2026</strong>
+            <strong>🚫 No refundable rate found — ${escapeHtml(rate.stayCheckIn || "")} – ${escapeHtml(rate.stayCheckOut || "")}</strong>
             <span class="refund-meta">${escapeHtml(rate.finding || 'No availability shown on the capture source.')} <a href="${safeUrl(rate.sourceUrl)}" target="_blank" rel="noopener noreferrer">Source ↗</a> · ${stamp}</span>
           </div>`;
         }
         const price = rate.totalStay
-          ? `$${escapeHtml(rate.pricePerNight)}/night · $${escapeHtml(rate.totalStay)} total (8 nights)`
+          ? `$${escapeHtml(rate.pricePerNight)}/night · $${escapeHtml(rate.totalStay)} total (${escapeHtml(rate.nights || "?")} nights)`
           : 'price on source page';
         return `<div class="refund-rate">
-          <strong>♻️ Refundable rate — Nov 1–9, 2026</strong>
+          <strong>♻️ Refundable rate — ${escapeHtml(rate.stayCheckIn || "")} – ${escapeHtml(rate.stayCheckOut || "")}</strong>
           <span class="refund-meta">${escapeHtml(rate.room)} · ${escapeHtml(price)}<br>
           ${escapeHtml(rate.freeCancellation || '')}<br>
           ${escapeHtml(rate.prepayment || '')}<br>
@@ -828,6 +906,7 @@
         .filter((hotel) => hotel.city === activeCity)
         .filter((hotel) => activeFilter !== "fits" || hotel.fits)
         .filter((hotel) => activeFilter !== "laundry" || hotel.hasOnSiteLaundry)
+        .filter((hotel) => activeFilter !== "live" || (hotel.refundableRate && hotel.refundableRate.available && hotel.refundableRate.capturedAtUtc && hotel.refundableRate.totalStay))
         .filter((hotel) => !search || [hotel.name, hotel.area, hotel.neighborhood, hotel.why].filter(Boolean).join(" ").toLowerCase().includes(search))
         .sort((a, b) => priorityForHotel(a) - priorityForHotel(b));
 
@@ -902,8 +981,122 @@
       document.getElementById("hotel-search").addEventListener("input", renderHotels);
     }
 
+
+    function money(value) {
+      if (value == null || value === "") return "—";
+      return "$" + Number(value).toLocaleString("en-US");
+    }
+    function bedLabel(kind) {
+      return ({
+        king: "1 king", queen: "1 queen", full: "1 full/double",
+        multi: "2+ beds", mixed: "full or twin", hollywood: "Hollywood / joined",
+        queen_unconfirmed: "queen unconfirmed", unknown: "unpublished"
+      })[kind] || kind || "unpublished";
+    }
+    let quoteCity = "All";
+    function renderFindings() {
+      const f = DATA.findings;
+      if (!f) {
+        document.getElementById("findings-description").textContent = "Findings were not built into this page. Run python3 build.py.";
+        return;
+      }
+      const t = f.totals || {};
+      document.getElementById("findings-description").textContent =
+        "Identity audit and dated Booking.com captures as of " + (f.asOf || "this build") +
+        ". Last UTC stamp in the dataset: " + (f.lastCaptureUtc || "none") + ".";
+      document.getElementById("findings-honesty").innerHTML = "<p><strong>How to read this.</strong> " + escapeHtml(f.method) + "</p>";
+      document.getElementById("findings-stats").innerHTML = [
+        ["Hotels listed", t.hotels, "Every record has a unique identity source."],
+        ["Identity verified", t.identityVerified, "Official, government, or exact-property listing."],
+        ["Live refundable quotes", t.liveQuotes, "Available + price + UTC timestamp."],
+        ["Core-needs matches", t.coreMatches, "Queen/king + private bath + walkable rail, where practical."]
+      ].map(function(row) {
+        return '<article class="stat-card"><span class="num">' + escapeHtml(row[1]) + '</span><p><strong>' +
+          escapeHtml(row[0]) + '</strong><br>' + escapeHtml(row[2]) + '</p></article>';
+      }).join("");
+      const maxHotels = Math.max.apply(null, (f.cities || []).map(function(c) { return c.hotels; }).concat([1]));
+      document.getElementById("findings-chart").innerHTML = (f.cities || []).map(function(c) {
+        const livePct = Math.round((c.liveQuotes / maxHotels) * 100);
+        const corePct = Math.round((c.coreMatches / maxHotels) * 100);
+        return '<div class="bar-row"><strong>' + escapeHtml(c.city) + '</strong>' +
+          '<div class="bar-track" title="' + c.liveQuotes + ' live quotes, ' + c.coreMatches + ' core matches, ' + c.hotels + ' hotels">' +
+          '<div class="bar-fill" style="width:' + livePct + '%"></div>' +
+          '<div class="bar-fill core" style="width:' + corePct + '%"></div></div>' +
+          '<span>' + c.liveQuotes + '/' + c.hotels + '</span></div>';
+      }).join("");
+      document.getElementById("findings-city-table").innerHTML = '<table class="data-table"><thead><tr>' +
+        '<th>City</th><th>Role / dates</th><th>Hotels</th><th>Live quotes</th><th>Sold out</th><th>Core matches</th>' +
+        '<th>Cheapest live one-bed</th><th>Cheapest live queen/king</th></tr></thead><tbody>' +
+        (f.cities || []).map(function(c) {
+          const one = c.cheapestOneBed;
+          const qk = c.cheapestQueenKing;
+          return '<tr><td><strong>' + escapeHtml(c.city) + '</strong></td><td>' + escapeHtml(c.role || "") +
+            (c.dates ? '<br>' + escapeHtml(c.dates) + ' · ' + escapeHtml(c.nights) + 'N' : '') +
+            '</td><td>' + c.hotels + '</td><td>' + c.liveQuotes + '</td><td>' + c.soldOut + '</td><td>' + c.coreMatches +
+            '</td><td>' + (one ? '<span class="money">' + money(one.totalStay) + '</span><br>' + escapeHtml(one.name) + ' · ' + escapeHtml(bedLabel(one.bedClass)) : '—') +
+            '</td><td>' + (qk ? '<span class="money">' + money(qk.totalStay) + '</span><br>' + escapeHtml(qk.name) + ' · ' + escapeHtml(bedLabel(qk.bedClass)) : '—') +
+            '</td></tr>';
+        }).join("") + '</tbody></table>';
+      document.getElementById("findings-recs").innerHTML = (f.recommendations || []).map(function(rec) {
+        if (rec.missing) {
+          return '<article class="rec-card"><p class="kicker">' + escapeHtml(rec.title) + '</p><p>No timestamped quote met this rule.</p><p>' + escapeHtml(rec.why || "") + '</p></article>';
+        }
+        const price = rec.totalStay != null
+          ? money(rec.totalStay) + ' <span class="muted">/ ' + escapeHtml(rec.nights || "?") + ' nights</span>'
+          : 'Book official — no Booking quote';
+        return '<article class="rec-card"><p class="kicker">' + escapeHtml(rec.title) + '</p><h3>' + escapeHtml(rec.name) +
+          '</h3><div class="price">' + price + '</div><p><strong>' + escapeHtml(rec.room || "") + '</strong><br>' +
+          escapeHtml(rec.beds || "") + '</p><p>' + escapeHtml(rec.why || "") + '</p>' +
+          (rec.caveat ? '<p><strong>Watch:</strong> ' + escapeHtml(rec.caveat) + '</p>' : '') +
+          (rec.sourceUrl ? '<p class="source-line"><a href="' + safeUrl(rec.sourceUrl) + '" target="_blank" rel="noopener noreferrer">Open source ↗</a></p>' : '') +
+          '</article>';
+      }).join("");
+      document.getElementById("findings-trips").innerHTML = (f.sampleTrips || []).map(function(trip) {
+        return '<article class="trip-card"><h3>' + escapeHtml(trip.title) + '</h3><ol>' +
+          (trip.legs || []).map(function(leg) {
+            return '<li><strong>' + escapeHtml(leg.city) + '</strong> — ' + escapeHtml(leg.name) + ' · ' +
+              escapeHtml(leg.room || "") + ' · ' + escapeHtml(bedLabel(leg.bedClass)) +
+              ' · <span class="money">' + money(leg.totalStay) + '</span></li>';
+          }).join("") +
+          '</ol><p class="trip-total">Sample total ' + money(trip.total) +
+          ' <span class="muted">USD display, usually before tax</span></p><p>' + escapeHtml(trip.note || "") + '</p></article>';
+      }).join("");
+      const cities = ["All"].concat((f.cities || []).map(function(c) { return c.city; }));
+      document.getElementById("quote-tabs").innerHTML = cities.map(function(city) {
+        return '<button class="filter-button ' + (city === quoteCity ? "is-active" : "") +
+          '" type="button" data-quote-city="' + escapeHtml(city) + '">' + escapeHtml(city) + '</button>';
+      }).join("");
+      document.querySelectorAll("[data-quote-city]").forEach(function(button) {
+        button.addEventListener("click", function() {
+          quoteCity = button.dataset.quoteCity;
+          renderFindings();
+        });
+      });
+      const quotes = (f.quotes || []).filter(function(row) { return quoteCity === "All" || row.city === quoteCity; });
+      document.getElementById("findings-quotes").innerHTML = '<table class="data-table"><thead><tr>' +
+        '<th>City</th><th>Hotel</th><th>Captured room</th><th>Bed</th><th>Stay total</th><th>Per night</th><th>Window</th><th></th></tr></thead><tbody>' +
+        quotes.map(function(row) {
+          return '<tr><td>' + escapeHtml(row.city) + '</td><td>' + escapeHtml(row.name) +
+            (row.fits ? '<br><span class="muted">core-needs hotel</span>' : '') +
+            '</td><td>' + escapeHtml(row.room || "") + '</td><td>' + escapeHtml(bedLabel(row.bedClass)) +
+            '</td><td class="money">' + money(row.totalStay) + '</td><td>' + money(row.pricePerNight) +
+            '</td><td>' + escapeHtml(row.nights || "") + 'N' + (row.breakfastIncluded ? ' · breakfast' : '') +
+            '</td><td>' + (row.sourceUrl ? '<a href="' + safeUrl(row.sourceUrl) + '" target="_blank" rel="noopener noreferrer">Source ↗</a>' : '') +
+            '</td></tr>';
+        }).join("") + '</tbody></table>';
+      document.getElementById("findings-flags").innerHTML = (f.flags || []).map(function(flag) {
+        return '<li><strong>' + escapeHtml(flag.city) + ' · ' + escapeHtml(flag.name) + '.</strong> ' + escapeHtml(flag.text) + '</li>';
+      }).join("");
+      const guides = f.guides || {};
+      document.getElementById("findings-guides").innerHTML =
+        'Line-by-line notes: <a href="' + escapeHtml(guides.fourCity || "guide/verification-suwon-gyeongju-cheonan-daejeon-2026-08-18.md") +
+        '">four-city pass</a> · <a href="' + escapeHtml(guides.lineByLine || "guide/verification-checklist-2026-08-18-line-by-line.md") +
+        '">full checklist</a> · <a href="' + escapeHtml(guides.audit || "guide/verification-audit.md") + '">identity audit</a>.';
+    }
+
     renderTripHeader();
     renderArrival();
+    renderFindings();
     initPlanner();
   </script>
 </body>

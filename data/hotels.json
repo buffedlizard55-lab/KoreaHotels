@@ -5381,6 +5381,21 @@
         "distinctFrom": [
           "busan-ramada-encore-haeundae"
         ]
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T16:04:13Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/ramada-encore-by-wyndham-busan.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Superior Double (Premier $2/nt more)",
+        "beds": "1 full bed",
+        "pricePerNight": 94,
+        "totalStay": 655,
+        "currency": "USD (display conversion; 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 13, 2026 — 2 days out; then first night",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Queen room $116/nt; Queen Studio $129/nt. Next to Busan Station; 24h desk + laundry."
       }
     },
     {
@@ -5711,7 +5726,7 @@
         "Grand Hyatt Incheon (arrival-night fallback)"
       ],
       "history": "data/pricing-history.json (append-only, UTC-timestamped)",
-      "status": "Seoul 20/20. Gyeongju 15/15. Busan 12/20 captured or closed (Toyoko Haeundae no-availability) + Ramada Station partial; loose ends: Fairfield x2, ibis x2 (slugs unknown), Crown Harbor, Wyndham Grand, Ramada Haeundae + chunk-1s."
+      "status": "Seoul 20/20. Gyeongju 15/15. Busan 13/20 captured (Ramada Station complete now) + Ramada Haeundae verified/pending; slugs resolved for Fairfield x2 + Crown Harbor (fetches pending); Wyndham Grand + ibis x2 likely not on Booking."
     }
   },
   "arrivalNight": {

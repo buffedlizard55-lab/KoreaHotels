@@ -5673,7 +5673,7 @@
         "Grand Hyatt Incheon (arrival-night fallback)"
       ],
       "history": "data/pricing-history.json (append-only, UTC-timestamped)",
-      "status": "Seoul 20/20. Gyeongju 15/15. Busan 11/20 (9 fully captured + L7/Paradise now captured too = 11; remaining 9: ASTI, Toyoko x2, Ramada x2, Fairfield x2, ibis x2 + Crown Harbor, Wyndham)."
+      "status": "Seoul 20/20 accounted. Gyeongju 15/15 accounted. Busan 9/20 captured (Park Hyatt, Signiel, Grand Josun, Shilla Stay, Avani, Westin Josun, Lotte, L7 Haeundae, Paradise); 11 remain: ASTI, Toyoko x2, Ramada Encore x2, Fairfield x2, ibis x2, Crown Harbor, Wyndham Grand."
     }
   },
   "arrivalNight": {

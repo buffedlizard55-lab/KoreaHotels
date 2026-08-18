@@ -217,6 +217,21 @@
         "distinctFrom": [
           "seoul-nine-tree-myeongdong2"
         ]
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T13:05:07Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/nine-tree.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Double Room",
+        "beds": "1 full bed",
+        "pricePerNight": 205,
+        "totalStay": 1643,
+        "currency": "USD (display conversion; 32% discount applied; 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before October 29, 2026 — free until 3 days before arrival; inside 3 days, first night",
+        "prepayment": "Pay nothing until October 27, 2026",
+        "note": "Cheaper $197/night rate exists but its free-cancel window closes Oct 18 and the inside-window penalty is the TOTAL stay price. $222/night adds breakfast on the lenient terms."
       }
     },
     {
@@ -547,6 +562,21 @@
         "note": "Fairmont/Accor confirms the Yeouido property, rooms, wellness facilities and location beside The Hyundai Seoul.",
         "canonicalName": "Fairmont Ambassador Seoul",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T13:04:38Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/fairmont-ambassador-seoul.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Fairmont Twin Room (2-adult refundable rate; room attribution by table position)",
+        "beds": "2 twin beds",
+        "pricePerNight": 583,
+        "totalStay": 4666,
+        "currency": "USD (display conversion; 10% VAT excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before 6:00 PM on October 31, 2026 — day before arrival; after that, first night",
+        "prepayment": "Pay nothing until October 29, 2026",
+        "note": "Cheaper $467/night rate is only PARTIALLY refundable (first-night fee from booking, charged upfront) — not free cancellation. Yeouido location."
       }
     },
     {
@@ -2543,6 +2573,21 @@
         "note": "Hotel Skypark confirms the Myeongdong III branch, 139 Toegye-ro address, Myeongdong Station and airport-limousine access.",
         "canonicalName": "Hotel Skypark Myeongdong 3",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T13:05:07Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/skypark-myeongdong-3.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Double Room",
+        "beds": "1 full bed",
+        "pricePerNight": 180,
+        "totalStay": 1612,
+        "currency": "USD (display conversion; 10% service charge included, 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before October 29, 2026 — free until 3 days before arrival; inside 3 days, first night",
+        "prepayment": "Pay nothing until October 27, 2026",
+        "note": "Refundable costs only $18 more in total than the non-refundable rate ($1,612 vs $1,594) — take the refundable."
       }
     },
     {
@@ -2960,6 +3005,21 @@
         "distinctFrom": [
           "seoul-le-meridien-myeongdong"
         ]
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T13:03:57Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/moxy-seoul-myeongdong.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Queen Room with Two Queen Beds and City View",
+        "beds": "2 queen beds",
+        "pricePerNight": 296,
+        "totalStay": 2367,
+        "currency": "USD (display conversion; 10% VAT excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 1, 2026 — free until 12:00 AM on the day of arrival; after that, first night",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Best cancellation terms captured in this run (day-of-arrival cutoff). 5 units left at capture time."
       }
     },
     {
@@ -3510,6 +3570,21 @@
         "note": "LOTTE's official site confirms the 5-star 1,015-room hotel, central address, Main/Executive Towers, room categories and facilities.",
         "canonicalName": "LOTTE HOTEL SEOUL",
         "existenceStatus": "Verified operating property"
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-18T13:05:07Z",
+        "source": "Booking.com property page (dated rate table)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/lotte-seoul-seoul.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "available": true,
+        "room": "Main Tower Grand Superior Double",
+        "beds": "1 full bed",
+        "pricePerNight": 364,
+        "totalStay": 3235,
+        "currency": "USD (display conversion; 10% service charge included, 10% tax excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before October 29, 2026 — free until 3 days before arrival; inside 3 days, first night",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "Booking.com now lists this property as 'THE GRAND LOTTE SEOUL — Formerly known as Lotte Hotel Seoul' (same 30 Eulji-ro address). Breakfast-included variant $468/night."
       }
     },
     {
@@ -5173,6 +5248,11 @@
         "seoul-somerset-palace",
         "seoul-l7-myeongdong",
         "seoul-four-seasons",
+        "seoul-moxy-myeongdong",
+        "seoul-fairmont",
+        "seoul-nine-tree",
+        "seoul-skypark-myeongdong3",
+        "seoul-lotte-hotel",
         "Grand Hyatt Incheon (arrival-night fallback)"
       ],
       "history": "data/pricing-history.json (append-only, UTC-timestamped)"

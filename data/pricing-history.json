@@ -8,7 +8,12 @@
     "page, it does not go in here."
   ],
   "method": {
-    "stay": { "checkIn": "2026-11-01", "checkOut": "2026-11-09", "nights": 8, "occupancy": "2 adults, 1 room" },
+    "stay": {
+      "checkIn": "2026-11-01",
+      "checkOut": "2026-11-09",
+      "nights": 8,
+      "occupancy": "2 adults, 1 room"
+    },
     "source": "Booking.com property page loaded with date parameters (checkin/checkout/group_adults/no_rooms/selected_currency=USD), free-cancellation context",
     "urlPattern": "https://www.booking.com/hotel/kr/<property-slug>.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
     "captureRule": "Room rows are copied verbatim: room name, bed count, per-night price, stay total, tax note, cancellation deadline text, prepayment text. 404 slug guesses and unverified rows are never recorded as data.",
@@ -168,6 +173,233 @@
       "capturedAtUtc": "2026-08-18T05:52:57Z",
       "finding": "Slug guesses that returned Booking.com 404 (no data recorded, listed so the next capture pass does not retry them): l7-myeongdong (correct slug is l7-myeongdong-by-lotte), lotte-hotel-seoul, ibis-ambassador-seoul-myeongdong, nine-tree-by-parnas-seoul-myeongdong.",
       "note": "Remaining Seoul hotels still to capture: Nine Tree by Parnas Myeongdong 1 & 2 & Insadong, ibis Styles Ambassador Myeongdong, ibis Ambassador Myeongdong, ibis Ambassador Insadong, Skypark Myeongdong 3, L'Escape, Moxy Myeongdong, Le Meridien Myeongdong, Aloft Myeongdong, Courtyard Myeongdong, Four Points Josun Myeongdong, Shilla Stay Gwanghwamun, LOTTE HOTEL SEOUL, Westin Josun Seoul, Fairmont Ambassador."
+    },
+    {
+      "captureId": "2026-08-18T13:03:57Z-moxy-seoul-myeongdong",
+      "hotelId": "seoul-moxy-myeongdong",
+      "propertyName": "Moxy Seoul Myeongdong",
+      "propertyVerifiedBy": "Page H1 'Moxy Seoul Myeongdong', address 38, Myeongdong 8na-gil, Jung-gu; amenities list includes '24-hour front desk'",
+      "bookingSlug": "moxy-seoul-myeongdong",
+      "capturedAtUtc": "2026-08-18T13:03:57Z",
+      "timestampSource": "booking.com chal_t=1787058237006 in served URL",
+      "sourceUrl": "https://www.booking.com/hotel/kr/moxy-seoul-myeongdong.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Queen Room with Two Queen Beds and City View",
+          "beds": "2 queen beds",
+          "meetsOneBedNeed": false,
+          "unitsLeftAsShown": "We have 5 left",
+          "pricePerNightUsd": 296,
+          "totalStayUsd": 2367,
+          "taxNote": "Excluded: 10% VAT",
+          "meals": "Breakfast $21/person/night (not included)",
+          "cancellationAsShown": "Free cancellation before November 1, 2026 - free until 12:00 AM on the day of arrival; after that the fee is the cost of the first night; no-show fee equals the cancellation fee.",
+          "prepaymentAsShown": "No prepayment needed - pay at the property.",
+          "note": "Most lenient cancellation deadline captured so far in this run: effectively cancellable free until the arrival date itself."
+        }
+      ]
+    },
+    {
+      "captureId": "2026-08-18T13:04:38Z-fairmont-ambassador-seoul",
+      "hotelId": "seoul-fairmont",
+      "propertyName": "Fairmont Ambassador Seoul",
+      "propertyVerifiedBy": "Page H1 'Fairmont Ambassador Seoul', address 108, Yeoui-daero, Yeongdeungpo-gu (Yeouido); amenities list includes '24-hour front desk'",
+      "bookingSlug": "fairmont-ambassador-seoul",
+      "capturedAtUtc": "2026-08-18T13:03:57Z",
+      "timestampSource": "booking.com chal_t=1787058237083 in served URL (price rows read 13:04:38Z, chal_t=1787058278231)",
+      "sourceUrl": "https://www.booking.com/hotel/kr/fairmont-ambassador-seoul.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Fairmont Twin Room (2-adult; rate rows without a new room-name header between $467-$661 - attributed by table position, header not repeated)",
+          "beds": "2 twin beds (as first row of the group; 441 sq ft)",
+          "meetsOneBedNeed": false,
+          "roomAttributionConfidence": "partial - the $583 row is a continuation row; Booking did not repeat the room name on it",
+          "pricePerNightUsd": 583,
+          "totalStayUsd": 4666,
+          "taxNote": "Excluded: 10% VAT",
+          "meals": "Continental breakfast $57/person/night (not included)",
+          "cancellationAsShown": "Free cancellation before 6:00 PM on October 31, 2026 - free until 6:00 PM the day before arrival; after that the fee is the cost of the first night; no-show fee equals the cancellation fee.",
+          "prepaymentAsShown": "Pay nothing until October 29, 2026 (auto-charge or pay-at-book choice)."
+        },
+        {
+          "room": "Fairmont Twin Room - breakfast included variant of the refundable rate",
+          "beds": "2 twin beds",
+          "meetsOneBedNeed": false,
+          "pricePerNightUsd": 661,
+          "totalStayUsd": 5289,
+          "taxNote": "Excluded: 10% VAT",
+          "cancellationAsShown": "Free cancellation before 6:00 PM on October 31, 2026 (same terms).",
+          "prepaymentAsShown": "Pay nothing until October 29, 2026."
+        },
+        {
+          "room": "Fairmont Twin Room - cheaper 'Partially refundable' rate (NOT free cancellation)",
+          "beds": "2 twin beds",
+          "meetsOneBedNeed": false,
+          "pricePerNightUsd": 467,
+          "totalStayUsd": 3733,
+          "taxNote": "Excluded: 10% VAT",
+          "cancellationAsShown": "Partially refundable - cancel any time after reservation costs the first night; no-show fee equals first night.",
+          "prepaymentAsShown": "Pay online - total charged at time of booking.",
+          "comparisonNote": "The cheap rate is NOT fully refundable despite the label: first-night fee applies from the moment of booking and payment is charged upfront."
+        }
+      ]
+    },
+    {
+      "captureId": "2026-08-18T13:05:07Z-nine-tree-myeongdong-1",
+      "hotelId": "seoul-nine-tree",
+      "propertyName": "Nine Tree by Parnas Seoul Myeongdong 1",
+      "propertyVerifiedBy": "Page H1 'Nine Tree by Parnas Seoul Myeongdong 1', address 51, Myeong-dong 10-gil, Jung-Gu; description confirms '24-hour front desk' and laundry; photo captions show guest laundry machines",
+      "bookingSlug": "nine-tree",
+      "capturedAtUtc": "2026-08-18T13:04:32Z",
+      "timestampSource": "booking.com chal_t=1787058272631 (chunk 0) / 1787058307806 (price rows 13:05:07Z)",
+      "sourceUrl": "https://www.booking.com/hotel/kr/nine-tree.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Double Room",
+          "beds": "1 full bed",
+          "meetsOneBedNeed": true,
+          "pricePerNightUsd": 205,
+          "totalStayUsd": 1643,
+          "priceNote": "32% off Early Booker + Booking-paid discounts; original $2,407; total before taxes $1,642.76",
+          "taxNote": "Excluded: 10% TAX",
+          "meals": "Buffet breakfast $18/person/night (not included)",
+          "cancellationAsShown": "Free cancellation before October 29, 2026 - free until 3 days before arrival; within 3 days the fee is the cost of the first night; no-show fee is the total price of the reservation.",
+          "prepaymentAsShown": "Pay nothing until October 27, 2026.",
+          "note": "The safer refundable option: lenient 3-day cutoff, first-night penalty."
+        },
+        {
+          "room": "Double Room - cheaper variant with stricter terms",
+          "beds": "1 full bed",
+          "meetsOneBedNeed": true,
+          "unitsLeftAsShown": "We have 2 left",
+          "pricePerNightUsd": 197,
+          "totalStayUsd": 1577,
+          "priceNote": "34% off; total before taxes $1,577.05",
+          "taxNote": "Excluded: 10% TAX",
+          "meals": "Buffet breakfast $18/person/night (not included)",
+          "cancellationAsShown": "Free cancellation before October 18, 2026 - free until 14 DAYS before arrival; within 14 days the cancellation fee is the TOTAL PRICE of the reservation (same for no-show).",
+          "prepaymentAsShown": "Pay nothing until October 16, 2026.",
+          "comparisonNote": "Saves $66 over the stay but the free-cancellation window closes Oct 18 and the inside-window penalty is the whole stay, not one night. Read as 'semi-committed'."
+        },
+        {
+          "room": "Double Room - breakfast included",
+          "beds": "1 full bed",
+          "meetsOneBedNeed": true,
+          "pricePerNightUsd": 222,
+          "totalStayUsd": 1777,
+          "taxNote": "Excluded: 10% TAX",
+          "meals": "Buffet breakfast included",
+          "cancellationAsShown": "Free cancellation before October 29, 2026 (3-day cutoff, first-night penalty inside).",
+          "prepaymentAsShown": "Pay nothing until October 27, 2026."
+        },
+        {
+          "room": "Double Room - Partner Offer rate",
+          "beds": "1 full bed",
+          "meetsOneBedNeed": true,
+          "pricePerNightUsd": 169,
+          "totalStayUsd": 1348,
+          "taxNote": "Excluded: KRW 190,657 tax per stay",
+          "cancellationAsShown": "Free cancellation before October 18, 2026 (14-day cutoff; inside window = total price). No modifications allowed.",
+          "prepaymentAsShown": "Pay in advance; facilitated by a Booking.com partner company; confirmed within 2 minutes.",
+          "comparisonNote": "Cheapest but most restricted: partner-offer, pay-in-advance, no modifications."
+        }
+      ]
+    },
+    {
+      "captureId": "2026-08-18T13:05:07Z-skypark-myeongdong-3",
+      "hotelId": "seoul-skypark-myeongdong3",
+      "propertyName": "Hotel Skypark Myeongdong 3",
+      "propertyVerifiedBy": "Page H1 'Hotel Skypark Myeongdong 3', address 139, Toegye-ro, Jung-gu; amenities list includes '24-hour front desk'",
+      "bookingSlug": "skypark-myeongdong-3",
+      "capturedAtUtc": "2026-08-18T13:04:32Z",
+      "timestampSource": "booking.com chal_t=1787058272709 (chunk 0) / 1787058307875 (price rows 13:05:07Z)",
+      "sourceUrl": "https://www.booking.com/hotel/kr/skypark-myeongdong-3.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Double Room",
+          "beds": "1 full bed",
+          "meetsOneBedNeed": true,
+          "pricePerNightUsd": 180,
+          "totalStayUsd": 1612,
+          "priceNote": "10% off Early Booker; total before taxes $1,611.80",
+          "taxNote": "Included: 10% service charge; Excluded: 10% TAX",
+          "meals": "Breakfast $11/person/night (not included)",
+          "cancellationAsShown": "Free cancellation before October 29, 2026 - free until 3 days before arrival; within 3 days the fee is the cost of the first night; no-show fee is the total price of the reservation.",
+          "prepaymentAsShown": "Pay nothing until October 27, 2026.",
+          "note": "Refundability premium over the non-refundable rate is only $18 for the whole stay."
+        },
+        {
+          "room": "Double Room - non-refundable rate (same room)",
+          "beds": "1 full bed",
+          "meetsOneBedNeed": true,
+          "pricePerNightUsd": 178,
+          "totalStayUsd": 1594,
+          "taxNote": "Included: 10% service charge; Excluded: 10% TAX",
+          "cancellationAsShown": "Non-refundable - cancel/modify/no-show fee is the total price. However you can reschedule one time until October 25, 2026 for same or higher price.",
+          "prepaymentAsShown": "Pay online - total charged at time of booking.",
+          "comparisonNote": "Refundable costs $18 more in total ($2.25/night) - effectively free insurance."
+        }
+      ]
+    },
+    {
+      "captureId": "2026-08-18T13:05:07Z-grand-lotte-seoul-formerly-lotte-hotel-seoul",
+      "hotelId": "seoul-lotte-hotel",
+      "propertyName": "THE GRAND LOTTE SEOUL - Formerly known as Lotte Hotel Seoul",
+      "propertyVerifiedBy": "Page H1 'THE GRAND LOTTE SEOUL - Formerly known as Lotte Hotel Seoul', address 30, Eulji-ro, Jung-gu (matches the repo's Lotte Hotel Seoul record); NOTE: Booking.com now shows this property under a rebranded name",
+      "bookingSlug": "lotte-seoul-seoul",
+      "capturedAtUtc": "2026-08-18T13:04:32Z",
+      "timestampSource": "booking.com chal_t=1787058272777 (chunk 0) / 1787058307950 (price rows 13:05:07Z)",
+      "sourceUrl": "https://www.booking.com/hotel/kr/lotte-seoul-seoul.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rebrandNote": "Booking.com title at capture time: 'THE GRAND LOTTE SEOUL - Formerly known as Lotte Hotel Seoul'. Same address as the repo record; official Lotte page remains the identity source in the repo.",
+      "rates": [
+        {
+          "room": "Main Tower Grand Superior Double",
+          "beds": "1 full bed",
+          "meetsOneBedNeed": true,
+          "pricePerNightUsd": 364,
+          "totalStayUsd": 3235,
+          "priceNote": "10% Early Booker discount; total before taxes $3,234.95; 291 sq ft",
+          "taxNote": "Included: 10% service charge; Excluded: 10% TAX",
+          "meals": "Buffet breakfast $45/person/night (not included); breakfast-included variant $468/nt ($4,159 total)",
+          "cancellationAsShown": "Free cancellation before October 29, 2026 - free until 3 days before arrival; within 3 days the fee is the cost of the first night; no-show fee equals the cancellation fee.",
+          "prepaymentAsShown": "No prepayment needed - pay at the property."
+        },
+        {
+          "room": "Main Tower Deluxe Double (club access)",
+          "beds": "1 full bed",
+          "meetsOneBedNeed": true,
+          "unitsLeftAsShown": "We have 5 left",
+          "pricePerNightUsd": 492,
+          "totalStayUsd": 4365,
+          "taxNote": "Included: 10% service charge; Excluded: 10% TAX",
+          "cancellationAsShown": "Free cancellation before October 29, 2026 (3-day cutoff, first-night penalty inside).",
+          "prepaymentAsShown": "No prepayment needed - pay at the property."
+        },
+        {
+          "room": "Main Tower Junior Suite Double",
+          "beds": "1 queen bed",
+          "meetsOneBedNeed": true,
+          "unitsLeftAsShown": "We have 2 left",
+          "pricePerNightUsd": 587,
+          "totalStayUsd": 5213,
+          "taxNote": "Included: 10% service charge; Excluded: 10% TAX",
+          "cancellationAsShown": "Free cancellation before October 29, 2026 (3-day cutoff, first-night penalty inside).",
+          "prepaymentAsShown": "No prepayment needed - pay at the property."
+        }
+      ]
+    },
+    {
+      "captureId": "2026-08-18T13:05:07Z-slug-resolution-run2",
+      "hotelId": null,
+      "scope": "unresolved-attempts",
+      "capturedAtUtc": "2026-08-18T13:05:07Z",
+      "finding": "Additional slug guesses that returned 404 (do not retry): the-westin-josun-seoul, ibis-styles-ambassador-seoul-myeongdong, ibis-ambassador-myeongdong. Le Meridien Seoul Myeongdong: slug 'le-meridien-seoul-myeongdong' VERIFIED (H1 + address 38 Myeongdong 8na-gil) but the rate table did not render before capture on both attempts - retry next run. L'Escape: web search surfaced no booking.com property URL (only third-party hotel directories) - slug still unknown.",
+      "note": "Remaining Seoul hotels to capture: Le Meridien Myeongdong (slug known, rerun), Westin Josun Seoul, L'Escape, ibis Styles Ambassador Myeongdong, ibis Ambassador Seoul Myeongdong, ibis Ambassador Insadong, Nine Tree by Parnas Myeongdong 2, Nine Tree by Parnas Seoul Insadong, Shilla Stay Gwanghwamun, Courtyard by Marriott Myeongdong, Four Points by Sheraton Josun Myeongdong, Aloft Seoul Myeongdong."
     }
   ]
 }

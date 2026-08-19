@@ -5225,6 +5225,72 @@
         }
       ],
       "note": "LIVE 2026-08-19 Nov 15–22. LIVE 2026-08-19. 3 left. Double is 1 full bed ≈140cm."
+    },
+    {
+      "captureId": "2026-08-19T18:00:00Z-seoul-ambassador-pullman-nov1",
+      "hotelId": "seoul-ambassador-pullman",
+      "capturedAtUtc": "2026-08-19T18:00:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/grand-ambassador-seoul-associated-with-pullman.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Deluxe King Room",
+          "beds": "1 king bed",
+          "meetsOneBedNeed": true,
+          "pricePerNightUsd": 292,
+          "totalStayUsd": 2336,
+          "taxNote": "Excluded: 10% VAT",
+          "cancellationAsShown": "Free cancellation before 6:00 PM on October 31, 2026; first-night fee after cutoff."
+        }
+      ],
+      "note": "Live dated Booking capture. Official Pullman page corroborates Deluxe Room with 1 King bed; exact mattress dimensions not published."
+    },
+    {
+      "captureId": "2026-08-19T18:00:00Z-seoul-ambassador-pullman-nov15",
+      "hotelId": "seoul-ambassador-pullman",
+      "capturedAtUtc": "2026-08-19T18:00:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/grand-ambassador-seoul-associated-with-pullman.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Deluxe King Room",
+          "beds": "1 king bed",
+          "meetsOneBedNeed": true,
+          "pricePerNightUsd": 296,
+          "totalStayUsd": 2071,
+          "taxNote": "Excluded: 10% VAT",
+          "cancellationAsShown": "Free cancellation before 6:00 PM on November 14, 2026; first-night fee after cutoff."
+        }
+      ],
+      "note": "Live dated Booking capture. Official Pullman page corroborates Deluxe Room with 1 King bed; exact mattress dimensions not published."
+    },
+    {
+      "captureId": "2026-08-19T18:00:00Z-seoul-migliore-dongdaemun-nov1",
+      "hotelId": "seoul-migliore-dongdaemun",
+      "capturedAtUtc": "2026-08-19T18:00:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/milreore-seoul.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": false,
+      "rates": [],
+      "note": "Live dated Booking capture: property has no availability for Nov 1–9. Page lists an Economy Double as 1 queen bed but it is not sellable; no price or cancellation term recorded."
+    },
+    {
+      "captureId": "2026-08-19T18:00:00Z-seoul-migliore-dongdaemun-nov15",
+      "hotelId": "seoul-migliore-dongdaemun",
+      "capturedAtUtc": "2026-08-19T18:00:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/milreore-seoul.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Deluxe Double Room (Bathtub Random)",
+          "beds": "1 queen bed",
+          "meetsOneBedNeed": false,
+          "pricePerNightUsd": 105,
+          "totalStayUsd": 738,
+          "taxNote": "Excluded: 10% VAT",
+          "cancellationAsShown": "Free cancellation before November 12, 2026."
+        }
+      ],
+      "note": "Live Booking Partner Offer; pay in advance and no modifications. Price excludes separately shown KRW 104,155 tax. Official source did not publish the physical dimensions for this selected room."
     }
   ]
 }

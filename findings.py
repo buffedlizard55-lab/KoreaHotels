@@ -20,9 +20,8 @@ def _text(*parts: Any) -> str:
     return " ".join(str(part or "") for part in parts)
 
 
-def bed_class(hotel: dict) -> str:
-    """Classify the captured refundable row only — not the hotel's room catalog."""
-    rr = _rr(hotel)
+def bed_class_for_rate(rr: dict) -> str:
+    """Classify one captured rate row only — never the hotel room catalog."""
     beds = str(rr.get("beds") or "")
     room = str(rr.get("room") or "")
     # Classify the captured row only. Do not read `note` — it often mentions other rooms.
@@ -70,14 +69,22 @@ def bed_class(hotel: dict) -> str:
     return "unknown"
 
 
-def has_live_quote(hotel: dict) -> bool:
-    rr = _rr(hotel)
+def bed_class(hotel: dict) -> str:
+    """Backward-compatible primary-window classification."""
+    return bed_class_for_rate(_rr(hotel))
+
+
+def has_live_rate(rr: dict) -> bool:
     return bool(
         rr.get("available") is True
         and isinstance(rr.get("pricePerNight"), (int, float))
         and isinstance(rr.get("totalStay"), (int, float))
         and rr.get("capturedAtUtc")
     )
+
+
+def has_live_quote(hotel: dict) -> bool:
+    return has_live_rate(_rr(hotel))
 
 
 def is_one_bed(kind: str) -> bool:
@@ -88,19 +95,25 @@ def is_confirmed_queen_king(kind: str) -> bool:
     return kind in {"king", "queen"}
 
 
-def quote_row(hotel: dict) -> dict[str, Any]:
-    rr = _rr(hotel)
-    kind = bed_class(hotel)
+def quote_row(hotel: dict, rate: dict | None = None, window_key: str = "nov1") -> dict[str, Any]:
+    rr = rate if isinstance(rate, dict) else _rr(hotel)
+    kind = bed_class_for_rate(rr)
+    window = {
+        "nov1": "Nov 1–9, 2026 (8 nights)",
+        "nov15": "Nov 15–22, 2026 (7 nights)",
+    }.get(window_key, "Captured stay window")
     return {
         "id": hotel.get("id"),
         "name": hotel.get("name"),
         "city": hotel.get("city"),
+        "area": hotel.get("area") or "",
+        "neighborhood": hotel.get("neighborhood") or "",
         "fits": bool(hotel.get("fits")),
         "room": rr.get("room"),
         "beds": rr.get("beds"),
         "bedClass": kind,
-        "pricePerNight": rr.get("pricePerNight") if has_live_quote(hotel) else None,
-        "totalStay": rr.get("totalStay") if has_live_quote(hotel) else None,
+        "pricePerNight": rr.get("pricePerNight") if has_live_rate(rr) else None,
+        "totalStay": rr.get("totalStay") if has_live_rate(rr) else None,
         "nights": rr.get("nights"),
         "stayCheckIn": rr.get("stayCheckIn"),
         "stayCheckOut": rr.get("stayCheckOut"),
@@ -113,6 +126,8 @@ def quote_row(hotel: dict) -> dict[str, Any]:
         "finding": rr.get("finding"),
         "note": rr.get("note"),
         "fitReason": hotel.get("fitReason"),
+        "windowKey": window_key,
+        "windowLabel": window,
     }
 
 
@@ -211,8 +226,18 @@ def _flag_rows(hotels: list[dict]) -> list[dict]:
 
 def build_findings(hotels_data: dict, itinerary: dict) -> dict:
     hotels = hotels_data.get("hotels") or []
+    # Primary-city statistics retain the itinerary's original window. Seoul's
+    # alternate window is deliberately added only to the quote display below,
+    # never combined with Nov 1–9 totals or recommendations.
     rows = [quote_row(hotel) for hotel in hotels]
     live_rows = [row for row in rows if row["pricePerNight"] is not None]
+    quote_rows = list(live_rows)
+    quote_rows.extend(
+        quote_row(hotel, hotel.get("refundableRateNov15"), "nov15")
+        for hotel in hotels
+        if hotel.get("city") == "Seoul" and isinstance(hotel.get("refundableRateNov15"), dict)
+        and has_live_rate(hotel.get("refundableRateNov15"))
+    )
     unsourced = [
         hotel
         for hotel in hotels
@@ -421,8 +446,12 @@ def build_findings(hotels_data: dict, itinerary: dict) -> dict:
         "recommendations": recommendations,
         "sampleTrips": sample_trips,
         "quotes": sorted(
-            live_rows,
-            key=lambda row: (CITY_ORDER.index(row["city"]) if row["city"] in CITY_ORDER else 99, row["totalStay"]),
+            quote_rows,
+            key=lambda row: (
+                row.get("windowKey", "nov1"),
+                CITY_ORDER.index(row["city"]) if row["city"] in CITY_ORDER else 99,
+                row["totalStay"],
+            ),
         ),
         "flags": _flag_rows(hotels),
         "guides": {

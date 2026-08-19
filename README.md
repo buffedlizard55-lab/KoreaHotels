@@ -34,7 +34,7 @@ Read the source links, trade-offs, and exact booking workflow in [`guide/arrival
 Open [`index.html`](index.html) in a browser to use the planner. The top of the page is a **verified findings dashboard** (coverage table, charts, recommendations, and sample price totals) built only from UTC-stamped quotes. It is intentionally simple:
 
 - **Arrival night** — five source-checked late-arrival options, evidence links, trade-offs, and a copyable message to send the hotel.
-- **Expanded city lists** — browse 30 Seoul, 15 Gyeongju, 20 Busan, 7 Cheonan, 7 Daejeon, and 5 Suwon hotels.
+- **Expanded city lists** — browse 50 Seoul, 15 Gyeongju, 20 Busan, 7 Cheonan, 7 Daejeon, and 5 Suwon hotels. Seoul now has two date tables (planned Nov 1–9 vs alternate Nov 15–22) in [`guide/verification-seoul-dual-window-nov1-and-nov15-2026.md`](guide/verification-seoul-dual-window-nov1-and-nov15-2026.md).
 - **Quick filters** — view all stays, only core-needs matches, or stays with laundry; search within the current city.
 - **Useful details at a glance** — estimated nightly range, recommended room, bed setup, bathroom/transport fit, normal check-in/out time, canonical identity source, and rate-comparison link.
 - **Timestamped refundable pricing** — hotel cards show a ♻️ badge with the captured refundable rate, cancellation deadline, and UTC capture time; the append-only log lives in [`data/pricing-history.json`](data/pricing-history.json). The four-city (Suwon / Gyeongju / Cheonan / Daejeon) 2026-08-18T19:16Z checklist is [`guide/verification-suwon-gyeongju-cheonan-daejeon-2026-08-18.md`](guide/verification-suwon-gyeongju-cheonan-daejeon-2026-08-18.md). The earlier same-day Seoul-inclusive pass is [`guide/verification-checklist-2026-08-18-line-by-line.md`](guide/verification-checklist-2026-08-18-line-by-line.md).
@@ -62,14 +62,14 @@ For regular stays, a green **“Core needs match”** badge means the research h
 
 | City | Hotels | Planning use |
 |---|---:|---|
-| Seoul | 30 | Five-option first-night shortlist + Myeongdong and palace-area bases |
+| Seoul | 50 | First-night shortlist + Myeongdong / Gangnam / Dongdaemun (dual date windows) |
 | Gyeongju | 15 | Heritage / hanok, Old Town, Bulguksa, and Bomun Lake stays |
 | Busan | 20 | Haeundae, Seomyeon, Busan Station, Nampo, and Songdo options |
 | Cheonan | 7 | KTX-corridor alternative |
 | Daejeon | 7 | KTX-corridor alternative |
 | Suwon | 5 | Seoul-area base (Suwon Station + Hwaseong Fortress) |
 | **Planned cities** | **65** | Seoul + Gyeongju + Busan |
-| **Total** | **84** | Full city-by-city comparison set |
+| **Total** | **104** | Full city-by-city comparison set |
 
 Prices are planning estimates for the 2026 autumn itinerary, not live inventory. Always verify a live rate and exact room configuration before paying.
 

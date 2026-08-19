@@ -584,8 +584,10 @@
       <p class="section-description">These add captured stay totals. They are not a booked itinerary. Re-open each source before paying. Tax is usually extra.</p>
       <div class="trip-grid" id="findings-trips"></div>
       <div class="table-card">
-        <h3>Live refundable quotes (timestamped only)</h3>
-        <div class="quote-tabs" id="quote-tabs"></div>
+        <h3>Live refundable quotes — select one date window</h3>
+        <p class="section-description">These tables never combine Seoul’s two requested windows. Select <strong>Seoul → Myeongdong</strong> to see that area only; every row retains its UTC timestamp and live source link.</p>
+        <div class="quote-tabs" id="quote-window-tabs" aria-label="Quote date window"></div>
+        <div class="quote-tabs" id="quote-scope-tabs" aria-label="Quote area"></div>
         <div id="findings-quotes"></div>
       </div>
       <div class="table-card">
@@ -993,7 +995,8 @@
         queen_unconfirmed: "queen unconfirmed", unknown: "unpublished"
       })[kind] || kind || "unpublished";
     }
-    let quoteCity = "All";
+    let quoteWindow = "nov1";
+    let quoteScope = "All";
     function renderFindings() {
       const f = DATA.findings;
       if (!f) {
@@ -1061,29 +1064,54 @@
           '</ol><p class="trip-total">Sample total ' + money(trip.total) +
           ' <span class="muted">USD display, usually before tax</span></p><p>' + escapeHtml(trip.note || "") + '</p></article>';
       }).join("");
-      const cities = ["All"].concat((f.cities || []).map(function(c) { return c.city; }));
-      document.getElementById("quote-tabs").innerHTML = cities.map(function(city) {
-        return '<button class="filter-button ' + (city === quoteCity ? "is-active" : "") +
-          '" type="button" data-quote-city="' + escapeHtml(city) + '">' + escapeHtml(city) + '</button>';
+      const windows = [
+        ["nov1", "Nov 1–9, 2026 · 8 nights"],
+        ["nov15", "Nov 15–22, 2026 · 7 nights"]
+      ];
+      document.getElementById("quote-window-tabs").innerHTML = windows.map(function(item) {
+        return '<button class="filter-button ' + (item[0] === quoteWindow ? "is-active" : "") +
+          '" type="button" data-quote-window="' + item[0] + '">' + item[1] + '</button>';
       }).join("");
-      document.querySelectorAll("[data-quote-city]").forEach(function(button) {
+      document.querySelectorAll("[data-quote-window]").forEach(function(button) {
         button.addEventListener("click", function() {
-          quoteCity = button.dataset.quoteCity;
+          quoteWindow = button.dataset.quoteWindow;
           renderFindings();
         });
       });
-      const quotes = (f.quotes || []).filter(function(row) { return quoteCity === "All" || row.city === quoteCity; });
-      document.getElementById("findings-quotes").innerHTML = '<table class="data-table"><thead><tr>' +
-        '<th>City</th><th>Hotel</th><th>Captured room</th><th>Bed</th><th>Stay total</th><th>Per night</th><th>Window</th><th></th></tr></thead><tbody>' +
-        quotes.map(function(row) {
-          return '<tr><td>' + escapeHtml(row.city) + '</td><td>' + escapeHtml(row.name) +
-            (row.fits ? '<br><span class="muted">core-needs hotel</span>' : '') +
-            '</td><td>' + escapeHtml(row.room || "") + '</td><td>' + escapeHtml(bedLabel(row.bedClass)) +
-            '</td><td class="money">' + money(row.totalStay) + '</td><td>' + money(row.pricePerNight) +
-            '</td><td>' + escapeHtml(row.nights || "") + 'N' + (row.breakfastIncluded ? ' · breakfast' : '') +
-            '</td><td>' + (row.sourceUrl ? '<a href="' + safeUrl(row.sourceUrl) + '" target="_blank" rel="noopener noreferrer">Source ↗</a>' : '') +
-            '</td></tr>';
-        }).join("") + '</tbody></table>';
+      const scopes = [["All", "All cities"], ["Seoul", "Seoul"], ["Myeongdong", "Seoul → Myeongdong"]];
+      document.getElementById("quote-scope-tabs").innerHTML = scopes.map(function(item) {
+        return '<button class="filter-button ' + (item[0] === quoteScope ? "is-active" : "") +
+          '" type="button" data-quote-scope="' + item[0] + '">' + item[1] + '</button>';
+      }).join("");
+      document.querySelectorAll("[data-quote-scope]").forEach(function(button) {
+        button.addEventListener("click", function() {
+          quoteScope = button.dataset.quoteScope;
+          renderFindings();
+        });
+      });
+      const isMyeongdong = function(row) {
+        return /myeongdong|myeong-dong|myeong dong/i.test([row.name, row.area, row.neighborhood].join(" "));
+      };
+      const quotes = (f.quotes || []).filter(function(row) {
+        if (row.windowKey !== quoteWindow) return false;
+        if (quoteScope === "Seoul") return row.city === "Seoul";
+        if (quoteScope === "Myeongdong") return row.city === "Seoul" && isMyeongdong(row);
+        return true;
+      });
+      const windowLabel = windows.find(function(item) { return item[0] === quoteWindow; })[1];
+      document.getElementById("findings-quotes").innerHTML = quotes.length
+        ? '<table class="data-table"><caption class="source-line" style="caption-side:top;text-align:left">' + escapeHtml(windowLabel) + ' only · source-captured terms may change before checkout.</caption><thead><tr>' +
+          '<th>City / area</th><th>Hotel</th><th>Captured room</th><th>Bed</th><th>Stay total</th><th>Per night</th><th>Free cancellation</th><th>Captured UTC</th><th></th></tr></thead><tbody>' +
+          quotes.map(function(row) {
+            return '<tr><td>' + escapeHtml(row.city) + '<br><span class="muted">' + escapeHtml(row.area || "") + '</span></td><td>' + escapeHtml(row.name) +
+              (row.fits ? '<br><span class="muted">core-needs hotel</span>' : '') +
+              '</td><td>' + escapeHtml(row.room || "") + '</td><td>' + escapeHtml(bedLabel(row.bedClass)) +
+              '</td><td class="money">' + money(row.totalStay) + '</td><td>' + money(row.pricePerNight) +
+              '</td><td>' + escapeHtml(row.freeCancellation || "See source") + '</td><td>' + escapeHtml((row.capturedAtUtc || "").replace("T", " ").replace("Z", " UTC")) +
+              '</td><td>' + (row.sourceUrl ? '<a href="' + safeUrl(row.sourceUrl) + '" target="_blank" rel="noopener noreferrer">Source ↗</a>' : '') +
+              '</td></tr>';
+          }).join("") + '</tbody></table>'
+        : '<p class="empty-state">No timestamped refundable quotes match this date window and scope.</p>';
       document.getElementById("findings-flags").innerHTML = (f.flags || []).map(function(flag) {
         return '<li><strong>' + escapeHtml(flag.city) + ' · ' + escapeHtml(flag.name) + '.</strong> ' + escapeHtml(flag.text) + '</li>';
       }).join("");

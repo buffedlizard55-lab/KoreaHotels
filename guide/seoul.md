@@ -1,7 +1,8 @@
 # Seoul — Expanded Hotels & Booking Guide
 
 **Planned stay:** 8 nights (Nov 1 – Nov 9, 2026; the Oct 31 ICN arrival night is handled separately in the Arrival-night section)
-**Coverage:** **30 hotels** across Myeongdong, City Hall, Gwanghwamun, Insadong, Jongno, Namdaemun, Yeouido, and Seoul Station.
+**Alternate Seoul window (researched separately):** 7 nights Nov 15 – Nov 22, 2026. **Do not mix the two tables.**
+**Coverage:** **50 hotels** — 30 original (Myeongdong / Jongno / City Hall / Seoul Station) + 20 new (Gangnam / Dongdaemun / Namdaemun / Jamsil). Dual-window checklist: [verification-seoul-dual-window-nov1-and-nov15-2026.md](verification-seoul-dual-window-nov1-and-nov15-2026.md).
 
 ## Arrival-night exception — 21:00 ICN arrival
 
@@ -21,9 +22,18 @@ Other screened options are L7 MYEONGDONG, ibis Ambassador Seoul Myeongdong, Nine
 - **Gwanghwamun / Insadong / Jongno** — best for Gyeongbokgung, Bukchon, Changdeokgung, museums, traditional streets, and evening walks.
 - **Yeouido / Seoul Station** — robust transport hubs (AREX express train, Gyeongbu KTX line, multiple subway lines) offering convenient regional or airport transfers.
 
-## Verified Seoul Checklist (30 Options)
+## Two date tables (do not mix)
 
-Rates below are verbatim live snapshots from Booking.com for the standard **Nov 1–9, 2026** window (8 nights, 2 adults, 1 room), before taxes. Bed dimensions are verified from official brand specifications.
+| Window | Nights | Where the numbers live |
+|---|---:|---|
+| **Nov 1–9, 2026** (planned Seoul stay) | 8 | Table in this page (original 30) + Table A in the [dual-window checklist](verification-seoul-dual-window-nov1-and-nov15-2026.md) |
+| **Nov 15–22, 2026** (alternate Seoul window) | 7 | Table B in the [dual-window checklist](verification-seoul-dual-window-nov1-and-nov15-2026.md) only |
+
+Nov 15–22 stay totals are 7 nights. Do not compare them to the 8-night Nov 1–9 totals.
+
+## Verified Seoul Checklist — Table A, Nov 1–9, 2026 (original 30)
+
+Rates below are verbatim live snapshots from Booking.com for the standard **Nov 1–9, 2026** window (8 nights, 2 adults, 1 room), before taxes. Bed dimensions are verified from official brand specifications. The 20 Gangnam / Dongdaemun additions are in the dual-window checklist, not this legacy table.
 
 | Hotel | Area | Live Price Snapshot (Nov 1–9, 2026) | Best Room to Compare (Official Bed Specs) | Core Needs Match? |
 |---|---|---|---|---|

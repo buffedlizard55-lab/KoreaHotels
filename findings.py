@@ -428,6 +428,7 @@ def build_findings(hotels_data: dict, itinerary: dict) -> dict:
         "guides": {
             "fourCity": "guide/verification-suwon-gyeongju-cheonan-daejeon-2026-08-18.md",
             "lineByLine": "guide/verification-checklist-2026-08-18-line-by-line.md",
+            "seoulDualWindow": "guide/verification-seoul-dual-window-nov1-and-nov15-2026.md",
             "audit": "guide/verification-audit.md",
         },
     }

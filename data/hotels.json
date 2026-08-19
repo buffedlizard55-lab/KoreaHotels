@@ -15559,6 +15559,105 @@
         "prepayment": "Pay in advance; Booking Partner Offer; no modifications",
         "note": "LIVE capture. 10% tax shown separately as KRW 104,155 per stay; record price excludes that tax."
       }
+    },
+    {
+      "id": "seoul-hotel-naru-mgallery",
+      "city": "Seoul",
+      "name": "Hotel Naru Seoul - MGallery Collection",
+      "tier": "premium",
+      "stars": 5,
+      "area": "Mapo / Hongdae catchment",
+      "neighborhood": "8 Mapo-daero, Mapo-gu; Han River-facing Mapo property, approximately 3.7 km from Hongik University per Booking property description.",
+      "priceFrom": 314,
+      "priceTo": 319,
+      "currency": "USD",
+      "checkIn": "15:00",
+      "checkOut": "11:00",
+      "policies": [
+        "Rates below are dated Booking captures for 2 adults / 1 room and show 10% VAT excluded.",
+        "Captured refundable rates allow cancellation until 18:00 local time on the day before arrival; first-night fee after cutoff."
+      ],
+      "rooms": [
+        {
+          "name": "Superior Room with 1 King bed, City view",
+          "price": "See dated Booking capture",
+          "note": "Official Accor room inventory: 29 m² / 312 sq ft.",
+          "bed": "king",
+          "bedType": "king",
+          "bedSize": "1 king-size bed (official Accor; exact dimensions not published)",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single king bed; Booking room-level capture and official Accor inventory agree."
+        }
+      ],
+      "promos": [],
+      "amenities": [
+        "Private bathroom",
+        "Indoor and infinity pools",
+        "Fitness centre",
+        "24-hour front desk"
+      ],
+      "hasOnSiteLaundry": false,
+      "officialUrl": "https://all.accor.com/hotel/B5E0/index.en.shtml",
+      "officialLabel": "Official Accor / MGallery property page",
+      "compareUrl": "https://www.booking.com/hotel/kr/naru-seoul-mgallery-ambassador.html",
+      "compareLabel": "Live dated Booking.com rates",
+      "why": "Verified Mapo luxury option with a live refundable one-king rate in both distinct Seoul windows.",
+      "highlights": [
+        "Official Accor inventory confirms one king bed",
+        "Separate refundable rate capture for each date window",
+        "Mapo / Han River location"
+      ],
+      "fits": false,
+      "fitReason": "One king and private bath are verified, but it is a Mapo riverfront property rather than a documented walkable Hongdae-station stay; not marked a strict Hongdae transport match.",
+      "lat": 37.53715,
+      "lng": 126.94399,
+      "stationWalkTime": "Mapo area; verify preferred station walk before booking",
+      "verification": {
+        "lastChecked": "2026-08-19",
+        "sourceType": "Official hotel/brand",
+        "sourceUrl": "https://all.accor.com/hotel/B5E0/index.en.shtml",
+        "canonicalName": "Hotel Naru Seoul - MGallery Collection",
+        "existenceStatus": "Verified operating property",
+        "note": "Official Accor page identifies the operating five-star property and lists Superior Room with 1 King bed, City view. Dated Booking page corroborates one king bed and private bathroom for the captured sellable room."
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-19T18:21:00Z",
+        "source": "Booking.com property page (dated rate table, live fetch 2026-08-19T18:21Z)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/naru-seoul-mgallery-ambassador.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "stayCheckIn": "2026-11-01",
+        "stayCheckOut": "2026-11-09",
+        "nights": 8,
+        "available": true,
+        "room": "Superior King Room - Disability Access - Floors 3-5 (No View)",
+        "beds": "1 king bed",
+        "pricePerNight": 314,
+        "totalStay": 2515,
+        "currency": "USD (display conversion; 10% VAT excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before 6:00 PM on October 31, 2026 — then first-night fee",
+        "prepayment": "Pay nothing until October 29, 2026",
+        "note": "LIVE 2026-08-19. Booking room row says 1 king bed and private/attached bathroom. Official Accor room inventory confirms 1 King bed; exact mattress dimensions not published."
+      },
+      "refundableRateNov15": {
+        "capturedAtUtc": "2026-08-19T18:21:00Z",
+        "source": "Booking.com property page (dated rate table, live fetch 2026-08-19T18:21Z)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/naru-seoul-mgallery-ambassador.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "stayCheckIn": "2026-11-15",
+        "stayCheckOut": "2026-11-22",
+        "nights": 7,
+        "available": true,
+        "room": "Superior King Room - Disability Access - Floors 3-5 (No View)",
+        "beds": "1 king bed",
+        "pricePerNight": 319,
+        "totalStay": 2231,
+        "currency": "USD (display conversion; 10% VAT excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before 6:00 PM on November 14, 2026 — then first-night fee",
+        "prepayment": "Pay nothing until November 12, 2026",
+        "note": "LIVE 2026-08-19. Booking room row says 1 king bed and private/attached bathroom. Official Accor room inventory confirms 1 King bed; exact mattress dimensions not published."
+      }
     }
   ],
   "meta": {

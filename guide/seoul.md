@@ -2,7 +2,7 @@
 
 **Planned stay:** 8 nights (Nov 1 – Nov 9, 2026; the Oct 31 ICN arrival night is handled separately in the Arrival-night section)
 **Alternate Seoul window (researched separately):** 7 nights Nov 15 – Nov 22, 2026. **Do not mix the two tables.**
-**Coverage:** **50 hotels** — 30 original (Myeongdong / Jongno / City Hall / Seoul Station) + 20 new (Gangnam / Dongdaemun / Namdaemun / Jamsil). Dual-window checklist: [verification-seoul-dual-window-nov1-and-nov15-2026.md](verification-seoul-dual-window-nov1-and-nov15-2026.md).
+**Coverage:** **90 hotels** — across Myeongdong, Insadong/Jongno, Dongdaemun, Hongdae, Itaewon/Yongsan, and Gangnam. Dual-window checklist: [verification-seoul-dual-window-nov1-and-nov15-2026.md](verification-seoul-dual-window-nov1-and-nov15-2026.md).
 
 ## Arrival-night exception — 21:00 ICN arrival
 
@@ -20,7 +20,10 @@ Other screened options are L7 MYEONGDONG, ibis Ambassador Seoul Myeongdong, Nine
 
 - **Myeongdong / Euljiro / City Hall** — easiest all-round base for shopping, airport buses, multiple subway lines, Namdaemun, and central sightseeing.
 - **Gwanghwamun / Insadong / Jongno** — best for Gyeongbokgung, Bukchon, Changdeokgung, museums, traditional streets, and evening walks.
-- **Yeouido / Seoul Station** — robust transport hubs (AREX express train, Gyeongbu KTX line, multiple subway lines) offering convenient regional or airport transfers.
+- **Hongdae (Mapo-gu)** — top base for youth culture, street performances, indie boutiques, nightlife, and direct AREX airport rail access at Hongik Univ. Station.
+- **Itaewon / Hannam / Yongsan** — vibrant international dining, nightlife, Namsan mountain views, and major KTX rail hub at Yongsan Station (Seoul Dragon City).
+- **Dongdaemun (DDP)** — 24-hour fashion markets, design plaza, and 3-line subway crossroads (Lines 2, 4, 5).
+- **Gangnam / COEX / Sinsa** — upscale dining, Garosugil fashion, COEX convention center, modern skyline, and luxury hotel chains.
 
 ## Two date tables (do not mix)
 

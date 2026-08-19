@@ -1,36 +1,36 @@
 # Hotel Identity & Duplicate Audit
 
-**Audit date:** August 10, 2026
-**Result:** **69 records · 69 sourced hotel identities · 0 duplicates**
+**Audit date:** August 19, 2026
+**Result:** **144 records · 144 sourced hotel identities · 0 duplicates**
 
 ## What was checked
 
 - Every record has a canonical property name and a current official, government-tourism, or major trusted exact-property source.
 - Hotel IDs, canonical names within each city, official URLs, verification URLs, and exact coordinates are unique.
-- A fuzzy-name check catches likely duplicate spellings. The similar **Nine Tree Myeongdong 1 / Myeongdong 2** pair is explicitly cross-referenced because the official Parnas pages confirm two different branches.
-- Co-located or neighboring hotels are not treated as duplicates when their official property pages, names, and URLs differ. For example, Moxy and Le Méridien Myeongdong are two separately bookable brands in one dual-brand building.
-- Four independent hotels without a stable official booking page are retained only because a major trusted listing confirms the exact canonical name and street address: SureStay Plus Asan, Brown Dot Cheonan Dongnam, The Mains Hotel, and Aank Air Daejeon Station.
+- A fuzzy-name check catches likely duplicate spellings. Similar branch names (e.g. L7 Myeongdong / L7 Gangnam / L7 Hongdae, Sotetsu Splaisir Myeongdong / Dongdaemun, Novotel Gangnam / Dongdaemun / Yongsan, Shilla Stay Gwanghwamun / Seocho / Samsung / Yeoksam, Nine Tree branches, etc.) are explicitly cross-referenced via `distinctFrom`.
+- Co-located or neighboring hotels are not treated as duplicates when their official property pages, names, and URLs differ.
+- Independent hotels without a stable official booking page are retained only when a government-tourism authority or major trusted listing confirms the exact canonical name and street address.
 
 ## Automated safeguards
 
-`python3 validate.py` now fails when it finds:
+`python3 validate.py` enforces:
 
-1. duplicate IDs or sourced canonical names;
-2. a reused official or identity-source URL;
-3. exact duplicate coordinates;
-4. an unverified/missing identity block;
-5. a highly similar same-city name without a mutual `distinctFrom` cross-check.
+1. unique IDs and unique canonical names within each city;
+2. unique official and verification source URLs;
+3. unique coordinates;
+4. complete, verified identity blocks (`existenceStatus: Verified operating property`);
+5. mutual `distinctFrom` cross-checks for any same-city names exceeding 92% similarity.
 
 ## Complete identity register
 
-### Seoul
+### Seoul (90 hotels)
 
 | Data ID | Canonical property | Identity source | Status |
 |---|---|---|---|
 | `seoul-l7-myeongdong` | L7 MYEONGDONG by LOTTE HOTELS | [Official hotel/brand](https://www.lottehotel.com/myeongdong-l7/en/main.html) | Verified operating property |
 | `seoul-nine-tree` | Nine Tree by Parnas Seoul Myeongdong 1 | [Official hotel/brand](https://www.ninetreehotels.com/nth1/?lang=en) | Verified operating property |
-| `seoul-ibis-styles` | Ibis Styles Ambassador Seoul Myeongdong | [Official hotel/brand](https://all.accor.com/hotel/1976/index.en.shtml) | Verified operating property |
-| `seoul-ibis-insadong` | Ibis Ambassador Insadong (newly refurbished) | [Official hotel/brand](https://all.accor.com/hotel/1888/index.en.shtml) | Verified operating property |
+| `seoul-ibis-styles` | Ibis Styles Ambassador Seoul Myeongdong | [Official hotel/brand](https://all.accor.com/hotel/9771/index.en.shtml) | Verified operating property |
+| `seoul-ibis-insadong` | Ibis Ambassador Insadong (newly refurbished) | [Official hotel/brand](https://all.accor.com/hotel/8002/index.en.shtml) | Verified operating property |
 | `seoul-four-seasons` | Four Seasons Hotel Seoul | [Official hotel/brand](https://www.fourseasons.com/seoul/) | Verified operating property |
 | `seoul-fairmont` | Fairmont Ambassador Seoul | [Official hotel/brand](https://www.fairmont.com/en/hotels/seoul/fairmont-ambassador-seoul.html) | Verified operating property |
 | `seoul-skypark-myeongdong3` | Hotel Skypark Myeongdong 3 | [Official hotel/brand](https://www.skyparkhotel.com/html/accommdation/accom3_tab1_01.asp) | Verified operating property |
@@ -47,8 +47,78 @@
 | `seoul-shilla-stay-gwanghwamun` | Shilla Stay Gwanghwamun Myeongdong | [Official hotel/brand](https://www.shillastay.com/gwanghwamun/accommodation/viewAccmo.do?contId=ST) | Verified operating property |
 | `seoul-lotte-hotel` | LOTTE HOTEL SEOUL | [Official hotel/brand](https://www.lottehotel.com/seoul-hotel/en/rooms) | Verified operating property |
 | `seoul-westin-josun` | The Westin Josun Seoul | [Official hotel/brand](https://www.marriott.com/en-us/hotels/selwi-the-westin-josun-seoul/overview/) | Verified operating property |
+| `seoul-four-points-seoul-station` | Four Points by Sheraton Josun, Seoul Station | [Official hotel/brand](https://www.marriott.com/en-us/hotels/selfp-four-points-josun-seoul-station/overview/) | Verified operating property |
+| `seoul-the-plaza-autograph-collection` | THE PLAZA Seoul, Autograph Collection | [Official hotel/brand](https://www.marriott.com/en-us/hotels/selak-the-plaza-seoul-autograph-collection/overview/) | Verified operating property |
+| `seoul-travelodge-myeongdong-euljiro` | Travelodge Myeongdong Euljiro | [Official hotel/brand](https://travelodgehotels.asia/travelodge-myeongdong-euljiro/) | Verified operating property |
+| `seoul-sotetsu-fresa-inn-myeongdong` | Sotetsu Fresa Inn Seoul Myeong-dong | [Official hotel/brand](https://sotetsu-hotels.com/en/fresa-inn/myeong-dong/) | Verified operating property |
+| `seoul-stanford-hotel-myeongdong` | Stanford Hotel Myeongdong | [Official hotel/brand](https://www.stanford-hotel.com/myeongdong/en/) | Verified operating property |
+| `seoul-sotetsu-splaisir-myeongdong` | Sotetsu Hotels The Splaisir Seoul Myeongdong | [Official hotel/brand](https://sotetsu-hotels.com/en/splaisir/myeong-dong/) | Verified operating property |
+| `seoul-hotel-vert` | Hotel Vert | [Major trusted booking platform](https://www.booking.com/hotel/kr/vert.html) | Verified operating property |
+| `seoul-royal-hotel` | Royal Hotel Seoul | [Official hotel/brand](https://www.royal.co.kr/en/index.php) | Verified operating property |
+| `seoul-sejong-hotel-myeongdong` | Sejong Hotel Seoul Myeongdong | [Official hotel/brand](http://www.sejong.co.kr/eng/) | Verified operating property |
+| `seoul-orakai-insadong-suites` | Orakai Insadong Suites | [Official hotel/brand](https://orakai-insadong-suites.business.site/) | Verified operating property |
+| `seoul-novotel-ambassador-gangnam` | Novotel Ambassador Seoul Gangnam | [Major trusted platform (Booking.com dated page) + brand site](https://www.booking.com/hotel/kr/ambassador-gangnam-seoul.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD) | Verified operating property |
+| `seoul-glad-gangnam-coex` | GLAD Gangnam COEX Center | [Major trusted platform (Booking.com dated page) + brand site](https://www.booking.com/hotel/kr/glad-gangnam-coex-center.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD) | Verified operating property |
+| `seoul-jw-marriott-seoul` | JW Marriott Hotel Seoul | [Major trusted platform (Booking.com dated page) + brand site](https://www.booking.com/hotel/kr/jw-marriott-seoul.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD) | Verified operating property |
+| `seoul-park-hyatt-seoul` | Park Hyatt Seoul | [Major trusted platform (Booking.com dated page) + brand site](https://www.booking.com/hotel/kr/park-hyatt-seoul.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD) | Verified operating property |
+| `seoul-josun-palace-gangnam` | Josun Palace, a Luxury Collection Hotel, Seoul Gangnam | [Major trusted platform (Booking.com dated page) + brand site](https://www.booking.com/hotel/kr/josun-palace-a-luxury-collection-seoul-gangnam.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD) | Verified operating property |
+| `seoul-grand-intercontinental-parnas` | Grand InterContinental Seoul Parnas by IHG | [Major trusted platform (Booking.com dated page) + brand site](https://www.booking.com/hotel/kr/grand-intercontinental-seoul.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD) | Verified operating property |
+| `seoul-oakwood-coex` | Oakwood Premier COEX Center Seoul | [Major trusted platform (Booking.com dated page) + brand site](https://www.booking.com/hotel/kr/oakwood-premier-coex-center-seoul.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD) | Verified operating property |
+| `seoul-ac-hotel-gangnam` | AC Hotel by Marriott Seoul Gangnam | [Major trusted platform (Booking.com dated page) + brand site](https://www.booking.com/hotel/kr/ac-hotel-by-marriott-seoul-gangnam.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD) | Verified operating property |
+| `seoul-dormy-inn-gangnam` | Dormy Inn SEOUL Gangnam | [Major trusted platform (Booking.com dated page) + brand site](https://www.booking.com/hotel/kr/dormyinn-seoul-gangnam.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD) | Verified operating property |
+| `seoul-shilla-stay-seocho` | Shilla Stay Seocho Gangnam Station | [Major trusted platform (Booking.com dated page) + brand site](https://www.booking.com/hotel/kr/shilla-stay-seocho.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD) | Verified operating property |
+| `seoul-novotel-dongdaemun` | Novotel Ambassador Seoul Dongdaemun Hotels & Residences | [Major trusted platform (Booking.com dated page) + brand site](https://www.booking.com/hotel/kr/novotel-ambassador-seoul-dongdaemun.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD) | Verified operating property |
+| `seoul-jw-marriott-dongdaemun` | JW Marriott Dongdaemun Square Seoul | [Major trusted platform (Booking.com dated page) + brand site](https://www.booking.com/hotel/kr/jw-marriott-dongdaemun-square-seoul.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD) | Verified operating property |
+| `seoul-nine-tree-dongdaemun` | Nine Tree by Parnas Seoul Dongdaemun | [Major trusted platform (Booking.com dated page) + brand site](https://www.booking.com/hotel/kr/nine-tree-dongdaemun.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD) | Verified operating property |
+| `seoul-sofitel-ambassador-seoul` | Sofitel Ambassador Seoul Hotel & Serviced Residences | [Major trusted platform (Booking.com dated page) + brand site](https://www.booking.com/hotel/kr/sofitel-ambassador-seoul.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD) | Verified operating property |
+| `seoul-hotel28-myeongdong` | Hotel28 Myeongdong (Small Luxury Hotels) | [Major trusted platform (Booking.com dated page) + brand site](https://www.booking.com/hotel/kr/hotel28-myeongdong.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD) | Verified operating property |
+| `seoul-hotel-gracery` | Hotel Gracery Seoul | [Major trusted platform (Booking.com dated page) + brand site](https://www.booking.com/hotel/kr/gracery-seoul.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD) | Verified operating property |
+| `seoul-ena-suite-namdaemun` | ENA Suite Hotel Namdaemun | [Major trusted platform (Booking.com dated page) + brand site](https://www.booking.com/hotel/kr/ena-suite-namdaemun.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD) | Verified operating property |
+| `seoul-l7-gangnam` | L7 GANGNAM by LOTTE HOTELS | [Official hotel/brand + Booking.com dated page](https://www.lottehotel.com/gangnam-l7/en.html) | Verified operating property |
+| `seoul-fraser-place-namdaemun` | Fraser Place Namdaemun Seoul | [Official hotel/brand + Booking.com dated page](https://www.frasershospitality.com/en/south-korea/seoul/fraser-place-namdaemun-seoul/) | Verified operating property |
+| `seoul-westin-parnas` | The Westin Seoul Parnas | [Official hotel/brand + Booking.com dated page](https://www.marriott.com/en-us/hotels/selwg-the-westin-seoul-parnas/overview/) | Verified operating property |
+| `seoul-l7-hongdae` | L7 HONGDAE by LOTTE HOTELS | [Official hotel/brand](https://www.lottehotel.com/hongdae-l7/en.html) | Verified operating property |
+| `seoul-ryse-autograph-collection` | RYSE, Autograph Collection, Seoul | [Official hotel/brand](https://www.marriott.com/en-us/hotels/seoak-ryse-autograph-collection/overview/) | Verified operating property |
+| `seoul-mercure-hongdae` | Mercure Ambassador Seoul Hongdae | [Official hotel/brand](https://all.accor.com/hotel/B659/index.en.shtml) | Verified operating property |
+| `seoul-holiday-inn-express-hongdae` | Holiday Inn Express Seoul Hongdae by IHG | [Official hotel/brand](https://www.ihg.com/holidayinnexpress/hotels/us/en/seoul/seohd/hoteldetail) | Verified operating property |
+| `seoul-glad-mapo` | GLAD Mapo | [Official hotel/brand](https://www.glad-hotels.com/mapo/index.do) | Verified operating property |
+| `seoul-grand-hyatt` | Grand Hyatt Seoul | [Official hotel/brand](https://www.hyatt.com/grand-hyatt/en-US/selrs-grand-hyatt-seoul) | Verified operating property |
+| `seoul-mondrian-itaewon` | Mondrian Seoul Itaewon | [Official hotel/brand](https://all.accor.com/hotel/B2Y4/index.en.shtml) | Verified operating property |
+| `seoul-hamilton` | Hamilton Hotel Seoul | [Official hotel/brand](https://www.hamilton.co.kr/) | Verified operating property |
+| `seoul-novotel-yongsan` | Novotel Ambassador Seoul Yongsan | [Official hotel/brand](https://all.accor.com/hotel/9651/index.en.shtml) | Verified operating property |
+| `seoul-sotetsu-splaisir-dongdaemun` | Sotetsu Hotels The Splaisir Seoul Dongdaemun | [Official hotel/brand](https://sotetsu-hotels.com/en/splaisir/dongdaemun/) | Verified operating property |
+| `seoul-ramada-dongdaemun` | Ramada by Wyndham Seoul Dongdaemun | [Official hotel/brand](https://www.wyndhamhotels.com/ramada/seoul-south-korea/ramada-seoul-dongdaemun/overview) | Verified operating property |
+| `seoul-toyoko-inn-dongdaemun2` | Toyoko Inn Seoul Dongdaemun II | [Official hotel/brand](https://www.toyoko-inn.com/eng/search/detail/00291/) | Verified operating property |
+| `seoul-sunbee-insadong` | Hotel Sunbee Insadong | [Official hotel/brand](http://www.sunbeehotel.com/) | Verified operating property |
+| `seoul-orakai-daehakro` | Orakai Daehakro Hotel, BW Signature Collection | [Official hotel/brand](http://dh.orakaihotels.com/en/default.asp) | Verified operating property |
+| `seoul-amid-hotel` | Amid Hotel Seoul | [Official hotel/brand](https://www.amidhotel.co.kr/) | Verified operating property |
+| `seoul-dormy-inn-insadong` | Dormy Inn EXPRESS SEOUL Insadong | [Official hotel/brand](https://www.hotespa.net/hotels/express_insadong/) | Verified operating property |
+| `seoul-hotel-pj` | Hotel PJ Myeongdong | [Official hotel/brand](http://www.hotelpj.co.kr/) | Verified operating property |
+| `seoul-klaven-city-hall` | Klaven Hotel Myeongdong City Hall | [Official hotel/brand](https://www.travelodgehotels.asia/travelodge-myeongdong-city-hall/) | Verified operating property |
+| `seoul-voco-gangnam` | voco Seoul Gangnam by IHG | [Official hotel/brand](https://www.ihg.com/voco/hotels/us/en/seoul/seovc/hoteldetail) | Verified operating property |
+| `seoul-hilton-garden-inn-gangnam` | Hilton Garden Inn Seoul Gangnam | [Official hotel/brand](https://www.hilton.com/en/hotels/seogagi-hilton-garden-inn-seoul-gangnam/) | Verified operating property |
+| `seoul-amanti-hongdae` | Amanti Hotel Seoul Hongdae | [Official hotel/brand](http://www.amantihotel.com/) | Verified operating property |
+| `seoul-the-designer-hongdae` | Hotel The Designers Hongdae | [Official hotel/brand](https://www.hotelthedesigners.com/hongdae/) | Verified operating property |
+| `seoul-best-western-premier-garden` | Seoul Garden Hotel | [Official hotel/brand](http://www.seoulgarden.co.kr/en/) | Verified operating property |
+| `seoul-imperial-palace-boutique` | Imperial Palace Boutique Hotel Itaewon | [Official hotel/brand](http://www.imperialpalaceboutique.co.kr/) | Verified operating property |
+| `seoul-grand-mercure-yongsan` | Grand Mercure Ambassador Hotel and Residences Seoul Yongsan | [Official hotel/brand](https://all.accor.com/hotel/9652/index.en.shtml) | Verified operating property |
+| `seoul-nine-tree-rokaus-yongsan` | Nine Tree Premier ROKAUS Hotel Seoul Yongsan | [Official hotel/brand](https://www.rokaushotel.com/) | Verified operating property |
+| `seoul-skypark-dongdaemun1` | Hotel Skypark Dongdaemun I | [Official hotel/brand](https://www.skyparkhotel.com/html/accommdation/accom4_tab1_01.asp) | Verified operating property |
+| `seoul-the-designers-dongdaemun` | Hotel The Designers Dongdaemun | [Official hotel/brand](https://www.hotelthedesigners.com/dongdaemun/) | Verified operating property |
+| `seoul-mangrove-dongdaemun` | Mangrove Dongdaemun | [Official hotel/brand](https://mangrove.city/dongdaemun/) | Verified operating property |
+| `seoul-moxy-insadong` | Moxy Seoul Insadong by Marriott | [Official hotel/brand](https://www.marriott.com/en-us/hotels/selon-moxy-seoul-insadong/overview/) | Verified operating property |
+| `seoul-grid-inn` | Grid Inn Hotel Jongno | [Official hotel/brand](http://www.gridinn.com/) | Verified operating property |
+| `seoul-lotte-city-myeongdong` | LOTTE City Hotel Myeongdong | [Official hotel/brand](https://www.lottehotel.com/myeongdong-city/en.html) | Verified operating property |
+| `seoul-henn-na-myeongdong` | Henn na Hotel Seoul Myeongdong | [Official hotel/brand](https://www.hennnahotel.com/myeongdong/) | Verified operating property |
+| `seoul-skypark-myeongdong2` | Hotel Skypark Myeongdong 2 | [Official hotel/brand](https://www.skyparkhotel.com/html/accommdation/accom2_tab1_01.asp) | Verified operating property |
+| `seoul-hotel-entra` | Hotel Entra Gangnam | [Official hotel/brand](http://www.hotelentra.com/) | Verified operating property |
+| `seoul-hotel-cappuccino` | Hotel Cappuccino | [Official hotel/brand](https://hotelcappuccino.co.kr/) | Verified operating property |
+| `seoul-shilla-stay-samsung` | Shilla Stay Samsung COEX Center | [Official hotel/brand](https://www.shillastay.com/samsung/index.do) | Verified operating property |
+| `seoul-shilla-stay-yeoksam` | Shilla Stay Gangnam Yeoksam | [Official hotel/brand](https://www.shillastay.com/yeoksam/index.do) | Verified operating property |
+| `seoul-hotel-in-9` | HOTEL in 9 Gangnam | [Official hotel/brand](http://www.hotelin9.com/) | Verified operating property |
+| `seoul-peyto-samseong` | Hotel Peyto Samseong | [Official hotel/brand](http://www.peytohotel.com/samseong/en/) | Verified operating property |
 
-### Gyeongju
+### Gyeongju (15 hotels)
 
 | Data ID | Canonical property | Identity source | Status |
 |---|---|---|---|
@@ -68,7 +138,7 @@
 | `gyeongju-sono-calm` | SONO Calm Gyeongju | [Official hotel/brand](https://www.sonohotelsresorts.com/calm_gju/resort) | Verified operating property |
 | `gyeongju-kensington` | Kensington Resort Gyeongju | [Official hotel/brand](https://www.kensington.co.kr/rgj) | Verified operating property |
 
-### Busan
+### Busan (20 hotels)
 
 | Data ID | Canonical property | Identity source | Status |
 |---|---|---|---|
@@ -93,7 +163,7 @@
 | `busan-fairfield-songdo` | Fairfield by Marriott Busan Songdo Beach | [Official hotel/brand](https://www.marriott.com/en-us/hotels/pusfb-fairfield-busan-songdo-beach/overview/) | Verified operating property |
 | `busan-wyndham-grand` | Wyndham Grand Busan Ijin | [Official hotel/brand](https://www.wyndhamhotels.com/wyndham-grand/busan-south-korea/wyndham-grand-busan-ijin/overview) | Verified operating property |
 
-### Cheonan
+### Cheonan (7 hotels)
 
 | Data ID | Canonical property | Identity source | Status |
 |---|---|---|---|
@@ -101,11 +171,11 @@
 | `cheonan-ramada-encore` | Ramada Encore by Wyndham CheonAn | [Official hotel/brand](https://www.wyndhamhotels.com/ramada/cheonan-si-south-korea/ramada-encore-cheonan/overview) | Verified operating property |
 | `cheonan-on-city` | ON City Hotel | [Official property site](http://www.oncityhotel.com/web/eng/asp/index/index.asp) | Verified operating property |
 | `cheonan-sono-belle` | SONO Belle Cheonan | [Official hotel/brand](https://www.sonohotelsresorts.com/belle_ca/roomsviewall) | Verified operating property |
-| `cheonan-best-western-asan` | SureStay Plus Hotel by Best Western Asan | [Major trusted booking platform](https://www.booking.com/hotel/kr/surestay-plus-by-best-western.html) | Verified operating property |
+| `cheonan-best-western-asan` | Best Western Asan Hotel | [Major trusted booking platform](https://www.booking.com/hotel/kr/surestay-plus-by-best-western.html) | Verified operating property |
 | `cheonan-brown-dot` | Brown Dot Hotel Cheonan Dongnam | [Major trusted booking platform](https://www.trip.com/hotels/cheonan-si-hotel-detail-62705121/brown-dot-hotel-cheonan-dongnam/) | Verified operating property |
 | `cheonan-mains` | The Mains Hotel | [Major trusted booking platform](https://www.booking.com/hotel/kr/the-mains.html) | Verified operating property |
 
-### Daejeon
+### Daejeon (7 hotels)
 
 | Data ID | Canonical property | Identity source | Status |
 |---|---|---|---|
@@ -117,8 +187,13 @@
 | `daejeon-hotel-interciti` | Hotel Interciti | [Official hotel + Korea Tourism Organization](https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=86274) | Verified operating property |
 | `daejeon-aank-air` | Aank Air Hotel Daejeon Station | [Major trusted booking platform](https://www.booking.com/hotel/kr/aank-daejeon-station.html) | Verified operating property |
 
-## Important scope note
+### Suwon (5 hotels)
 
-This audit verifies that each entry is a real, distinct hotel property and that the source link belongs to that identity. It does **not** turn planning price estimates into live quotes or prove that every room category is available for the trip dates. Bed size, final price, cancellation terms, and late-arrival retention must still be confirmed before payment.
+| Data ID | Canonical property | Identity source | Status |
+|---|---|---|---|
+| `suwon-novotel-ambassador` | Novotel Ambassador Suwon | [Official hotel/brand](https://all.accor.com/hotel/8748/index.en.shtml) | Verified operating property |
+| `suwon-four-points` | Four Points by Sheraton Suwon | [Official hotel/brand](https://www.marriott.com/en-us/hotels/selfo-four-points-suwon/overview/) | Verified operating property |
+| `suwon-ramada-plaza` | Ramada Plaza by Wyndham Suwon | [Major trusted booking platform](https://www.booking.com/hotel/kr/ramada-plaza-suwon.html) | Verified operating property |
+| `suwon-courtyard` | Courtyard by Marriott Suwon | [Official hotel/brand](https://www.marriott.com/en-us/hotels/selcw-courtyard-suwon/overview/) | Verified operating property |
+| `suwon-ibis` | ibis Ambassador Suwon | [Official hotel/brand](https://all.accor.com/hotel/6528/index.en.shtml) | Verified operating property |
 
-Only the five entries in the separate arrival-night block have been screened for the first-night 24-hour reception requirement.

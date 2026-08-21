@@ -12,7 +12,7 @@ Anything missing means the candidate is **held out and documented**, not added w
 
 ---
 
-## Added: 4 (round 1 Busan · round 2 Dongdaemun + Mapo · round 3 Jongno fringe)
+## Added: 5 (round 1 Busan · round 2 Dongdaemun + Mapo · round 3 Jongno fringe · round 4 Gangnam)
 
 ### Hyatt Place Busan Yeonsan — `busan-hyatt-place-yeonsan`
 
@@ -136,6 +136,59 @@ Because the same room code was captured in both windows for both properties:
 6. Distinct from **Fraser Place Namdaemun Seoul**, already in the list under a separate address.
 7. This is the **first new record in this batch series with a genuine `officialUrl`**.
 
+
+---
+
+## Round 4 — Gangnam (added 2026-08-21 ~21:40 UTC)
+
+**Result: 1 added, 2 held out, and one earlier hold-out re-verified instead of left stale.**
+
+### Aloft by Marriott Seoul Gangnam — `seoul-aloft-gangnam`
+
+| Field | Value | Source |
+|---|---|---|
+| Address | 736 Yeongdong-daero, Gangnam-gu, 06075 Seoul | Independent structured listing |
+| Coordinates | 37.52362 / 127.05569 | Same listing |
+| Official site | `https://www.marriott.com/en-us/hotels/selal-aloft-seoul-gangnam/overview/` | Independent listing's `sameAs` field |
+| Room quoted | Aloft River, Guest room, **1 King**, River view — ⚠️ Booking bed label **1 queen bed**, 258 ft², river view | Booking.com rate table |
+| **Nov 1–9, 2026 (8 nt)** | **$218/night · $1,919** — 10% service charge included, 10% VAT excluded. 5 left. | Booking.com |
+| — cancellation | Free cancellation before **October 31, 2026** (1 day); then the first night. **No prepayment — pay at the property.** | Booking.com, verbatim |
+| **Nov 15–22, 2026 (7 nt)** | **$210/night · $1,619** — same terms. 5 left. | Booking.com |
+| — cancellation | Free cancellation before **November 14, 2026** (1 day); then the first night. **No prepayment.** | Booking.com, verbatim |
+| Other rows | Breakfast-inclusive $243/$2,134 (Nov 1–9) and $235/$1,807 (Nov 15–22); Chic River (also queen-labelled) $225/$1,983 and $217/$1,675 | Booking.com |
+
+**Manual verification:** [Nov 1–9](https://www.booking.com/hotel/kr/aloft-seoul-gangnam.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD) · [Nov 15–22](https://www.booking.com/hotel/kr/aloft-seoul-gangnam.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD) · [official Marriott page](https://www.marriott.com/en-us/hotels/selal-aloft-seoul-gangnam/overview/)
+
+**Like-for-like:** the same room code was captured in both windows — $218/nt over 8 nights vs $210/nt over 7 nights, **−4% in the later window**.
+
+**Flags:**
+
+1. **King name, queen label.** Marriott markets *"Guest room, 1 King"*; Booking states **1 queen bed** on the row sold. Unresolved → `fits: false`.
+2. **A Hollywood room is also sold here** — *Aloft Urban Hollywood, Guest room, 1 King* is two mattresses pushed together, not a single king.
+3. **`hasOnSiteLaundry: true` is third-party.** It rests on an independent structured amenity list ("Self-serve laundry", "Washing machine"); Booking's captured facility list did not repeat it. This is the first record in the series with the flag set true — verify it before relying on it.
+4. `stars: 4` and check-in 15:00 / check-out 12:00 come from independent listings, not the captured Booking page.
+5. **A cheaper unnamed row** at $1,793 for 8 nights sits above the Aloft River rows; its room name was cut at a page-chunk boundary and is recorded in the note only.
+6. Distinct from **Aloft Seoul Myeongdong**, already in the list.
+
+---
+
+## Round 4 hold-outs
+
+### InterContinental Seoul COEX — held out
+
+- **Address:** 524 Bongeunsa-ro, Gangnam-gu, 06164 Seoul. **Coordinates:** 37.51286 / 127.05711. Two independent listings agree, and both describe direct COEX Mall access, an indoor pool, spa and indoor golf range, opposite Bongeunsa Temple.
+- **Why held out:** two Booking property-slug attempts — `intercontinental-seoul-coex` and `intercontinental-coex` — both returned Booking's 404 page. **No dated rate page could be reached.**
+- **Important:** this is a **different hotel** from *Grand InterContinental Seoul Parnas*, which is already in the master list. Do not merge them.
+
+### Andaz Seoul Gangnam, By Hyatt — re-verified, still held out
+
+The 2026-08-19 batch-5 report held this out for "no availability". Rather than leave that stale, it was re-fetched on 2026-08-21:
+
+- **Still no sellable inventory for Nov 1–9, 2026.** Every room type is marked *"Not available on our site for your dates"*: Premium King (1 king), Premium Twin (2 twin), King Room – High Floor (1 king), Twin Room – High Floor (2 twin).
+- **House rules captured:** check-in 15:00, check-out 11:00, **minimum check-in age 20**, pets not allowed, children 13+ charged as adults, crib free, extra bed free for 17+.
+- **Location note:** guests consistently report the hotel is directly connected to **Apgujeong Station (Line 3)**.
+- **Status:** direct-booking follow-up on hyatt.com. No price row will be invented.
+
 ---
 
 ## Round 3 hold-outs
@@ -181,10 +234,22 @@ Each Seoul candidate needs **two** dated captures (Nov 1–9 and Nov 15–22) pl
 | Hongdae / Mapo | **Round 2 complete** — LOTTE CITY HOTEL Mapo added (Gongdeok, Hongdae catchment). Hongdae proper (Mapo-gu core) still has room for candidates. |
 | Itaewon | **Round 3 worked** — no property added. The candidate investigated (Nouvelle by Anook) sells **only non-refundable** rates. The four existing Itaewon records (Grand Hyatt, Mondrian, Hamilton, Imperial Palace Boutique) already cover the area's refundable tier. |
 | Jongno / Insadong | **Round 3 partially worked** — Fraser Place Central Seoul added on the Jung-gu/Seodaemun fringe; **Hotel Aventree Jongno held out** pending a working Booking slug. |
-| Myeong-dong | Queued — already the densest area in the list (25+ records), so new candidates must be genuinely new properties, not rebrands. |
-| Gangnam | Queued — Andaz Seoul Gangnam remains held out from batch 5 (no sellable availability in either window). |
+| Myeong-dong | **Deliberately skipped.** With 25+ records already, remaining candidates are overwhelmingly rebrands of properties already listed rather than genuinely new inventory. Revisit only if a specific new property is named. |
+| Gangnam | **Round 4 complete** — Aloft by Marriott Seoul Gangnam added; InterContinental Seoul COEX held out (slug 404); Andaz Seoul Gangnam re-verified as still unavailable for Nov 1–9. |
 | Busan | Round 1 complete: 1 added, 1 held out. |
 
-**Running total across all three rounds: 4 added, 3 held out (each with a recorded finding), 1 identity collision resolved, 0 duplicates created.**
+**Running total across all four rounds: 5 added, 5 held out (each with a recorded finding), 1 identity collision resolved, 1 earlier hold-out re-verified, 0 duplicates created.**
+
+### Open re-tries — all blocked on the same thing
+
+Three candidates have solid identity and coordinates but **no reachable dated rate page** because the Booking property slug could not be guessed:
+
+| Candidate | Coordinates | Slugs already tried |
+|---|---|---|
+| Hotel Aventree Jongno | 37.573027 / 126.98301 | `aventree-jongno`, `aventree-hotel-jongno` |
+| InterContinental Seoul COEX | 37.51286 / 127.05711 | `intercontinental-seoul-coex`, `intercontinental-coex` |
+| Shilla Stay Seobusan | 35.096675 / 128.905259 | `shilla-stay-seobusan` |
+
+Each needs the correct slug (or another dated, fetchable rate source) before it can enter the master list.
 
 Run `python3 validate.py && python3 build.py` after any edit.

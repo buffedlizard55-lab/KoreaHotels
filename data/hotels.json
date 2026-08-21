@@ -16515,6 +16515,143 @@
         "prepayment": "Pay nothing until November 10, 2026 (payment then due, property time)",
         "note": "LIVE 2026-08-21. Only 2 left. A cheaper refundable row on the same page — 732 ft², also 1 king + 1 queen with a private kitchen, 5 left — is $280/nt, $1,959 on identical terms, but its room name was cut at a page-chunk boundary and is therefore NOT recorded as a named row. Breakfast $26 pp. ⚠️ This property had ZERO availability for the Nov 1–9 window, so no cross-window comparison is possible."
       }
+    },
+    {
+      "id": "seoul-aloft-gangnam",
+      "city": "Seoul",
+      "name": "Aloft by Marriott Seoul Gangnam",
+      "tier": "mid",
+      "stars": 4,
+      "area": "Gangnam / COEX (Yeongdong-daero)",
+      "neighborhood": "736 Yeongdong-daero, Gangnam-gu (06075). An independent structured listing places it close to the COEX Convention Center, Starfield COEX Mall and Bongeunsa Temple. Booking's captured page chunks did NOT state a subway walking time — verify it yourself.",
+      "priceFrom": 210,
+      "priceTo": 243,
+      "currency": "USD",
+      "checkIn": "15:00 (from an independent structured listing — not confirmed on the captured Booking page)",
+      "checkOut": "12:00 (same source caveat)",
+      "policies": [
+        "24-hour front desk and express check-in/check-out (independent structured amenity list).",
+        "Breakfast $19 per person per night (optional); breakfast-inclusive rate plans are also sold.",
+        "All captured refundable rates INCLUDE a 10% service charge and EXCLUDE 10% VAT.",
+        "Rooftop garden, bar/lounge, coffee shop, restaurant, convenience store, currency exchange.",
+        "Check-in/check-out times come from a third-party listing, not the captured Booking page."
+      ],
+      "rooms": [
+        {
+          "name": "Aloft River, Guest room, 1 King, River view",
+          "price": "$218/night refundable (Nov 1–9, 2026); $210/night refundable (Nov 15–22, 2026)",
+          "note": "258 ft², river view, minibar; 5 left at capture in both windows",
+          "bed": "queen",
+          "bedType": "queen",
+          "bedSize": "⚠️ Booking bed label: 1 QUEEN bed, although Marriott names the room '1 King'. No width published by any source checked.",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Name/label conflict: sold as '1 King' but Booking states a queen bed. Confirm in writing before booking."
+        },
+        {
+          "name": "Chic River, Guest room, 1 King, River view",
+          "price": "$225/night refundable (Nov 1–9, 2026); $217/night refundable (Nov 15–22, 2026)",
+          "note": "258 ft², river view, coffee machine, minibar",
+          "bed": "queen",
+          "bedType": "queen",
+          "bedSize": "⚠️ Booking bed label: 1 QUEEN bed despite the '1 King' room name",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Same King-name / queen-label conflict as the Aloft River room."
+        },
+        {
+          "name": "Aloft Urban Hollywood, Guest room, 1 King, City view",
+          "price": "Listed in the Nov 15–22, 2026 table; price not captured",
+          "note": "City view",
+          "bed": "double",
+          "bedType": "double",
+          "bedSize": "'Hollywood' configuration — two mattresses pushed together, not a single king mattress",
+          "oneBed": false,
+          "oneBedOnly": false,
+          "privateBathroom": true,
+          "bedNote": "A Hollywood bed is two joined mattresses. Does NOT meet the single-mattress preference."
+        }
+      ],
+      "promos": [
+        "Marriott Bonvoy member rates are not shown on Booking — price the same dates on marriott.com before committing."
+      ],
+      "amenities": [
+        "Restaurant",
+        "Bar / lounge",
+        "Coffee shop",
+        "Rooftop garden",
+        "24-hour front desk",
+        "Self-serve laundry / washing machine",
+        "Convenience store",
+        "Currency exchange"
+      ],
+      "hasOnSiteLaundry": true,
+      "officialUrl": "https://www.marriott.com/en-us/hotels/selal-aloft-seoul-gangnam/overview/",
+      "officialLabel": "Official Marriott property page",
+      "compareUrl": "https://www.booking.com/hotel/kr/aloft-seoul-gangnam.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "compareLabel": "Compare rates (Booking.com dated page, Nov 1–9 2026)",
+      "why": "Adds a Marriott-brand one-bed room in the COEX end of Gangnam with a self-serve laundry — the combination this trip actually needs on a long stay — and it is refundable with no prepayment in both Seoul windows.",
+      "highlights": [
+        "Refundable, pay-at-property in both Seoul windows",
+        "Self-serve laundry / washing machine listed",
+        "Official Marriott property page confirmed"
+      ],
+      "fits": false,
+      "fitReason": "Booking labels the sold room '1 queen bed' while Marriott names it '1 King' — an unresolved conflict — and no source publishes the mattress width. No walkable-rail distance was captured either. Not marked a core-needs match until the bed is confirmed in writing.",
+      "lat": 37.52362,
+      "lng": 127.05569,
+      "priceNote": "Range is the captured refundable span across both windows ($210/nt Aloft River, Nov 15–22, to $243/nt breakfast-inclusive, Nov 1–9). Service charge included, 10% VAT excluded.",
+      "verification": {
+        "lastChecked": "2026-08-21",
+        "sourceType": "Official hotel/brand + major trusted booking platform",
+        "sourceUrl": "https://www.booking.com/hotel/kr/aloft-seoul-gangnam.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "canonicalName": "Aloft by Marriott Seoul Gangnam",
+        "existenceStatus": "Verified operating property",
+        "note": "Booking.com's dated page confirms the property under the name 'Aloft by Marriott Seoul Gangnam' and serves live bookable rate tables for BOTH Nov 1-9 and Nov 15-22 2026, with the same room code priced in each window. An independent structured listing gives 736 Yeongdong-daero, Gangnam-gu, 06075, coordinates 37.52362 / 127.05569, and the official Marriott URL used here (marriott.com/.../selal-aloft-seoul-gangnam). FLAGGED (bed): the room is marketed as 'Guest room, 1 King' but Booking states '1 queen bed' on the row actually sold. Unresolved. FLAGGED: the property also sells an 'Aloft Urban Hollywood, Guest room, 1 King' room - a Hollywood bed is two joined mattresses, not a single king. FLAGGED: hasOnSiteLaundry is set true on the strength of an independent structured amenity list ('Self-serve laundry', 'Washing machine'); Booking's captured facility list did not repeat it - verify. FLAGGED: 'stars: 4' and the check-in/check-out times come from independent listings, not the captured Booking page. Distinct from seoul-aloft-myeongdong, a separate Aloft property in Jung-gu.",
+        "distinctFrom": [
+          "seoul-aloft-myeongdong",
+          "seoul-westin-seoul-parnas",
+          "seoul-shilla-stay-samsung-coex"
+        ]
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-21T21:40:00Z",
+        "source": "Booking.com property page — dated rate table (live fetch 2026-08-21)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/aloft-seoul-gangnam.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "stayCheckIn": "2026-11-01",
+        "stayCheckOut": "2026-11-09",
+        "nights": 8,
+        "available": true,
+        "room": "Aloft River, Guest room, 1 King, River view",
+        "beds": "⚠️ Booking bed label: 1 queen bed (258 ft², river view) despite the '1 King' room name",
+        "pricePerNight": 218,
+        "totalStay": 1919,
+        "currency": "USD (display; 10% service charge INCLUDED; 10% VAT excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before October 31, 2026 — free until 1 day before arrival; then the first night",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "LIVE 2026-08-21. 5 left. Breakfast $19 pp; breakfast-inclusive variant $243/$2,134. Chic River (also queen-labelled) $225/$1,983. A cheaper unnamed row at $1,793 for 8 nights appears above these in the table — its room name was cut at a page-chunk boundary and is NOT recorded."
+      },
+      "refundableRateNov15": {
+        "capturedAtUtc": "2026-08-21T21:40:00Z",
+        "source": "Booking.com property page — dated rate table (live fetch 2026-08-21)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/aloft-seoul-gangnam.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "stayCheckIn": "2026-11-15",
+        "stayCheckOut": "2026-11-22",
+        "nights": 7,
+        "available": true,
+        "room": "Aloft River, Guest room, 1 King, River view",
+        "beds": "⚠️ Booking bed label: 1 queen bed (258 ft², river view) despite the '1 King' room name",
+        "pricePerNight": 210,
+        "totalStay": 1619,
+        "currency": "USD (display; 10% service charge INCLUDED; 10% VAT excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 14, 2026 — free until 1 day before arrival; then the first night",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "LIVE 2026-08-21. 5 left. Same room code as the Nov 1–9 row, so the two windows ARE like-for-like: $218/nt over 8 nights vs $210/nt over 7 nights (−4%). Breakfast-inclusive variant $235/$1,807; Chic River $217/$1,675."
+      }
     }
   ],
   "meta": {
@@ -16524,7 +16661,7 @@
     "expandedPrimaryCityHotels": 50,
     "verifiedPrimaryCityHotels": 50,
     "identityAuditLastChecked": "2026-08-18",
-    "verifiedHotelRecords": 151,
+    "verifiedHotelRecords": 152,
     "duplicateHotelRecords": 0,
     "refundableRateCaptures": {
       "lastRun": "2026-08-21",
@@ -16718,6 +16855,29 @@
           {
             "candidate": "Hotel Aventree Jongno (46 Ujeongguk-ro, Jongno-gu)",
             "reason": "Identity solid — three independent listings agree on the address and coordinates 37.573027 / 126.98301, minutes on foot from Jonggak Station (Line 1). Two Booking property-slug attempts (aventree-jongno, aventree-hotel-jongno) both returned Booking's 404 page, so no dated rate page could be reached. No price, bed count or cancellation term exists to record. Star rating also disagrees across sources (3, 3.5 and 4). Re-try with the correct slug."
+          }
+        ]
+      },
+      {
+        "batch": "2026-08-21 area-by-area, round 4",
+        "areasWorked": [
+          "Seoul / Gangnam"
+        ],
+        "added": [
+          "seoul-aloft-gangnam"
+        ],
+        "windowsCaptured": [
+          "2026-11-01 → 2026-11-09",
+          "2026-11-15 → 2026-11-22"
+        ],
+        "investigatedNotAdded": [
+          {
+            "candidate": "InterContinental Seoul COEX (524 Bongeunsa-ro, Gangnam-gu 06164)",
+            "reason": "Identity confirmed by two independent listings (address, coordinates 37.51286 / 127.05711, direct COEX Mall access, indoor pool). Two Booking property-slug attempts (intercontinental-seoul-coex, intercontinental-coex) both returned Booking's 404 page, so no dated rate page could be reached. Not added without a rate. NOTE: this is a DIFFERENT hotel from Grand InterContinental Seoul Parnas, which is already in the list."
+          },
+          {
+            "candidate": "Andaz Seoul Gangnam, By Hyatt",
+            "reason": "RE-VERIFIED 2026-08-21: still no sellable inventory for Nov 1–9, 2026. Every room type — Premium King (1 king), Premium Twin (2 twin), King Room High Floor (1 king), Twin Room High Floor (2 twin) — is marked 'Not available on our site for your dates'. This confirms the 2026-08-19 batch-5 finding. Booking house rules captured: check-in 15:00, check-out 11:00, minimum check-in age 20, pets not allowed, children 13+ charged as adults. Guests repeatedly note it is directly connected to Apgujeong Station (Line 3). Remains a direct-booking follow-up, not an invented price row."
           }
         ]
       }

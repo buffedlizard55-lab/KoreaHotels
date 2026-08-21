@@ -17543,6 +17543,101 @@
         "prepayment": null,
         "note": "VERIFIED NO AVAILABILITY 2026-08-22 for Nov 9-15, 2026. Every room type is marked 'Not available on our site for your dates'. ⚠️ MARKET SIGNAL: Booking displayed 'Limited supply in Busan for your dates: 2 four-star hotels like this are already unavailable on our site' — the Busan four-star tier for this window is tightening, mirroring the five-star signal seen on the Seoul Nov 1-9 window. Enquire with Kensington direct; no price is invented here."
       }
+    },
+    {
+      "id": "busan-ananti-cove-hilton",
+      "city": "Busan",
+      "name": "Ananti at Busan Cove (Ananti Hilton Busan)",
+      "tier": "luxury",
+      "stars": 5,
+      "area": "Gijang / Ananti Cove (Gijang-gun, east coast)",
+      "neighborhood": "268-32 Gijanghaean-ro, Gijang-eup, Gijang-gun, Busan 46083 — Hilton's own site places it on Busan's eastern shore, about 15 minutes from Haeundae Beach and 25 minutes from BEXCO / Centum City. ⚠️ This is a resort location, NOT walkable to rail; the nearest listed bus stop (Yonggungsa / National Institute of Fisheries Science) is ~950 m and Busan Station is ~40 minutes by car.",
+      "priceFrom": 191,
+      "priceTo": 254,
+      "currency": "USD",
+      "checkIn": "15:00 (Hilton official)",
+      "checkOut": "⚠️ CONFLICT — Hilton's visible page text says 11:00 while its own structured data says 12:00. Confirm.",
+      "policies": [
+        "⚠️ The cancellation ladder is INVERTED and contains a trap — see the flags. The cheapest rate has the LONGEST free-cancellation window.",
+        "Breakfast (continental) $42 per person per night; dinner $93 per person per night.",
+        "Rooms captured are 'Cabin S' — 753 ft² with a balcony, terrace, spa tub, coffee machine and minibar, on the 2nd or 3rd floor.",
+        "Hilton lists NO airport shuttle.",
+        "Resort setting on the coast — plan on taxis or the bus; this is not a walk-to-the-subway base."
+      ],
+      "rooms": [
+        {
+          "name": "Cabin S Forest View Twin Bed",
+          "price": "$191–$254/night refundable (Nov 9–15, 2026)",
+          "note": "753 ft², balcony + terrace, spa tub, mountain/pool view, high floor; 3 left at capture",
+          "bed": "twin",
+          "bedType": "twin",
+          "bedSize": "2 twin beds",
+          "oneBed": false,
+          "oneBedOnly": false,
+          "privateBathroom": true,
+          "bedNote": "Two twin beds — does not meet the single-bed preference."
+        }
+      ],
+      "promos": [
+        "Hilton Honors member rates are not shown on Booking. Because Hilton's own site still markets this as 'Ananti Hilton Busan', price it on hilton.com as well — the two channels may not carry the same inventory."
+      ],
+      "amenities": [
+        "Beachfront / coastal resort",
+        "Spa tub in room",
+        "Balcony and terrace",
+        "Restaurant",
+        "Coffee machine",
+        "Minibar",
+        "Free WiFi"
+      ],
+      "hasOnSiteLaundry": false,
+      "officialUrl": "https://www.hilton.com/en/hotels/pushihi-ananti-hilton-busan/",
+      "officialLabel": "Official Hilton property page (Ananti Hilton Busan)",
+      "compareUrl": "https://www.booking.com/hotel/kr/hilton-busan.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "compareLabel": "Compare rates (Booking.com dated page, Nov 9–15 2026)",
+      "why": "Opens a district the list had never touched — Gijang / Ananti Cove on Busan's east coast — and is the only record so far that pairs a genuine first-party Hilton page with a live dated rate. A 753 ft² cabin with a private spa tub at $191/night is a different proposition from anything else in the Busan set.",
+      "highlights": [
+        "First Gijang / east-coast record in the list",
+        "753 ft² Cabin S with balcony, terrace and in-room spa tub",
+        "Official Hilton first-party page confirmed"
+      ],
+      "fits": false,
+      "fitReason": "The only named, priced room captured is a 2-twin-bed Cabin S. A same-priced sibling row exists whose header fell outside the fetched chunk and may be the one-bed variant, but it is not recorded. There is also no walkable rail access — this is a coastal resort.",
+      "lat": 35.198,
+      "lng": 129.228864,
+      "priceNote": "Range is the captured Nov 9–15, 2026 rate ladder ($191/nt on the 14-day tier to $254/nt on the 5-day tier). All exclude 10% TAX. These are Early Booker Deal + pay-online prices off a common original of $1,675.68 for the 6 nights.",
+      "verification": {
+        "lastChecked": "2026-08-22",
+        "sourceType": "Official hotel/brand + major trusted booking platform",
+        "sourceUrl": "https://www.booking.com/hotel/kr/hilton-busan.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "canonicalName": "Ananti at Busan Cove",
+        "existenceStatus": "Verified operating property",
+        "note": "IDENTITY / REBRAND RESOLVED. The Booking.com property at slug 'hilton-busan' is now titled 'Ananti at Busan Cove' and serves a live dated rate table for Nov 9-15 2026. Hilton's OWN first-party page markets the same site as 'Ananti Hilton Busan'. Four independent signals converge: identical street address (268-32 Gijanghaean-ro, Gijang-eup, 46083), identical coordinates (35.198 / 129.228864 on Hilton vs 35.198 / 129.22886 on a Michelin Guide listing), identical phone (+82 51-509-1111), and a third listing that states outright 'Ananti At Busan Cove - ex. Ananti Hilton Busan'. The Booking slug itself is literally 'hilton-busan'. Recorded as ONE property under the Booking title, with the Hilton page as officialUrl. ⚠️ RESIDUAL UNCERTAINTY: Ananti Cove is a resort COMPLEX that may contain more than one lodging product (hotel, penthouse, villas). A Michelin listing gives 'Ananti at Busan Cove' 306 rooms. If a second Ananti Cove product is ever added, cross-check the address and room count first to avoid a duplicate. ⚠️ CHECK-OUT CONFLICT: Hilton's visible page text says check-out 11:00 while its own structured data says 12:00. FLAGGED: 'stars: 5' comes from an independent listing, not the captured Booking page. FLAGGED: no single-bed room was captured; the named room is a 2-twin Cabin S. FLAGGED: resort location with no walkable rail; Hilton lists no airport shuttle.",
+        "distinctFrom": [
+          "busan-park-hyatt",
+          "busan-signiel",
+          "busan-grand-josun",
+          "busan-paradise"
+        ]
+      },
+      "refundableRateNov9": {
+        "capturedAtUtc": "2026-08-22T02:40:00Z",
+        "source": "Booking.com property page — dated rate table (live fetch 2026-08-22)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/hilton-busan.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "stayCheckIn": "2026-11-09",
+        "stayCheckOut": "2026-11-15",
+        "nights": 6,
+        "available": true,
+        "room": "Cabin S Forest View Twin Bed (14-day cancellation tier)",
+        "beds": "2 twin beds (753 ft², balcony, terrace, spa tub, mountain + pool view, high floor) — NOT a one-bed room",
+        "pricePerNight": 191,
+        "totalStay": 1144,
+        "currency": "USD (display; total before taxes $1,143.65 after 32% off an original $1,675.68 — Early Booker Deal plus a pay-online reduction; 10% TAX excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before October 26, 2026 — free until 14 days before arrival; then the cost of the FIRST NIGHT only (no-show the same)",
+        "prepayment": "Pay nothing until October 24, 2026 (payment then due, property time)",
+        "note": "LIVE 2026-08-22. 3 left. ⚠️ INVERTED CANCELLATION LADDER WITH A TRAP: on this property the CHEAPEST rate has the LONGEST free-cancellation window, and the middle tier is the punitive one. $191/nt = free until 14 days out, then FIRST NIGHT only. $216/nt = free until 7 days out, but inside 7 days the fee is the TOTAL price of the reservation. $254/nt = free until 5 days out, then FIRST NIGHT only. Paying more here buys a shorter runway, and the middle option is the worst of both. A sibling row with the same Cabin S description and identical pricing sits above these; its room header fell outside the fetched chunk and may be the one-bed variant — deliberately not recorded. Breakfast $42 pp, dinner $93 pp."
+      }
     }
   ],
   "meta": {
@@ -17552,7 +17647,7 @@
     "expandedPrimaryCityHotels": 50,
     "verifiedPrimaryCityHotels": 50,
     "identityAuditLastChecked": "2026-08-18",
-    "verifiedHotelRecords": 158,
+    "verifiedHotelRecords": 159,
     "duplicateHotelRecords": 0,
     "refundableRateCaptures": {
       "lastRun": "2026-08-21",
@@ -17926,6 +18021,20 @@
             "reason": "Identity confirmed (39 Seojeon-ro, Busanjin-gu 47247; +82 51-638-1045) but coordinates not yet obtained, and the chain's ~3-month direct-booking window makes a Booking rate unlikely."
           }
         ]
+      },
+      {
+        "batch": "2026-08-22 Busan batch, round 12 — Gijang / east coast",
+        "areasWorked": [
+          "Busan / Gijang / Ananti Cove"
+        ],
+        "added": [
+          "busan-ananti-cove-hilton"
+        ],
+        "windowsCaptured": [
+          "2026-11-09 → 2026-11-15"
+        ],
+        "identityResolved": "Hilton Busan / Ananti Hilton Busan / Ananti at Busan Cove are the SAME site. Booking slug 'hilton-busan' now titles the property 'Ananti at Busan Cove'; Hilton's first-party page markets it as 'Ananti Hilton Busan'. Same address, coordinates and phone. Recorded as ONE record.",
+        "districtGapClosed": "Gijang-gun / east coast had zero records."
       }
     ],
     "reverificationPasses": [

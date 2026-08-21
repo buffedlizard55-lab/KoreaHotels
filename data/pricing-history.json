@@ -6046,6 +6046,25 @@
       "refundableAvailable": false,
       "rates": [],
       "note": "VERIFIED NO AVAILABILITY 2026-08-22 for Nov 9-15, 2026. Every room type is marked 'Not available on our site for your dates'. ⚠️ MARKET SIGNAL: Booking displayed 'Limited supply in Busan for your dates: 2 four-star hotels like this are already unavailable on our site' — the Busan four-star tier for this window is tightening, mirroring the five-star signal seen on the Seoul Nov 1-9 window. Enquire with Kensington direct; no price is invented here."
+    },
+    {
+      "captureId": "2026-08-22T02:40:00Z-busan-ananti-cove-hilton-nov9",
+      "hotelId": "busan-ananti-cove-hilton",
+      "capturedAtUtc": "2026-08-22T02:40:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/hilton-busan.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Cabin S Forest View Twin Bed (14-day cancellation tier)",
+          "beds": "2 twin beds (753 ft², balcony, terrace, spa tub, mountain + pool view, high floor) — NOT a one-bed room",
+          "meetsOneBedNeed": false,
+          "pricePerNightUsd": 191,
+          "totalStayUsd": 1144,
+          "taxNote": "USD (display; total before taxes $1,143.65 after 32% off an original $1,675.68 — Early Booker Deal plus a pay-online reduction; 10% TAX excluded)",
+          "cancellationAsShown": "Free cancellation before October 26, 2026 — free until 14 days before arrival; then the cost of the FIRST NIGHT only (no-show the same)"
+        }
+      ],
+      "note": "LIVE 2026-08-22. 3 left. ⚠️ INVERTED CANCELLATION LADDER WITH A TRAP: on this property the CHEAPEST rate has the LONGEST free-cancellation window, and the middle tier is the punitive one. $191/nt = free until 14 days out, then FIRST NIGHT only. $216/nt = free until 7 days out, but inside 7 days the fee is the TOTAL price of the reservation. $254/nt = free until 5 days out, then FIRST NIGHT only. Paying more here buys a shorter runway, and the middle option is the worst of both. A sibling row with the same Cabin S description and identical pricing sits above these; its room header fell outside the fetched chunk and may be the one-bed variant — deliberately not recorded. Breakfast $42 pp, dinner $93 pp."
     }
   ]
 }

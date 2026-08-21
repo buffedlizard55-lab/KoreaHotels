@@ -176,6 +176,76 @@ Because the same room code was captured in both windows for both properties:
 
 
 
+
+---
+
+## Round 12 — Gijang / east coast (2026-08-22 ~02:40 UTC)
+
+### Ananti at Busan Cove (Ananti Hilton Busan) — `busan-ananti-cove-hilton`
+
+| Field | Value | Source |
+|---|---|---|
+| Address | 268-32 Gijanghaean-ro, Gijang-eup, Gijang-gun, Busan 46083 | Hilton first-party page |
+| Coordinates | 35.198 / 129.228864 | Hilton first-party page (Michelin Guide gives 35.198 / 129.22886) |
+| Phone | +82 51-509-1111 | Hilton + Michelin, in agreement |
+| Official URL | `https://www.hilton.com/en/hotels/pushihi-ananti-hilton-busan/` | Hilton, first-party |
+| Location | East coast; ~15 min from Haeundae Beach, ~25 min from BEXCO / Centum City. ⚠️ **No walkable rail**; nearest bus stop ~950 m; Busan Station ~40 min by car; **no airport shuttle** | Hilton |
+| **Nov 9–15, 2026 (6 nt)** | Cabin S Forest View Twin Bed — **2 twin beds**, 753 ft², balcony, terrace, **in-room spa tub**, mountain + pool view, high floor. **3 left.** **$191/night · $1,143.65** before taxes (32% off an original $1,675.68), 10% TAX excluded | Booking.com |
+| — cancellation | Free before **October 26, 2026** — 14 days out; then the **first night only** | Booking.com, verbatim |
+| — prepayment | Pay nothing until October 24, 2026 | Booking.com |
+| Meals | Continental breakfast $42 pp/night; dinner $93 pp/night | Booking.com |
+
+**Manual verification:** [dated Booking page](https://www.booking.com/hotel/kr/hilton-busan.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD) · [official Hilton page](https://www.hilton.com/en/hotels/pushihi-ananti-hilton-busan/)
+
+### Identity / rebrand resolved
+
+The Booking slug is `hilton-busan`, yet the page title reads **"Ananti at Busan Cove"**; Hilton's own site markets the same site as **"Ananti Hilton Busan"**. Convergent evidence that these are ONE property:
+
+1. Identical street address (268-32 Gijanghaean-ro, Gijang-eup, 46083)
+2. Identical coordinates — 35.198 / 129.228864 (Hilton) and 35.198 / 129.22886 (Michelin Guide)
+3. Identical phone (+82 51-509-1111)
+4. A third listing states explicitly: *"Ananti At Busan Cove — ex. Ananti Hilton Busan"*
+5. The Booking slug itself is `hilton-busan`
+
+Recorded as **one** record under the Booking title, with the Hilton page as `officialUrl`. **No duplicate created.**
+
+⚠️ **Residual uncertainty logged in the record:** Ananti Cove is a resort *complex* which may contain multiple lodging products (hotel, penthouse, villas); a Michelin listing gives "Ananti at Busan Cove" 306 rooms. Before any second Ananti Cove product is added, its address and room count must be cross-checked against this record.
+
+### ⚠️ Inverted cancellation ladder — the most counter-intuitive finding in the dataset
+
+Three refundable tiers on the *same* Cabin S room:
+
+| Rate | Free cancellation until | Penalty once inside the window |
+|---:|---|---|
+| **$191/nt · $1,143.65** | **14 days** (Oct 26) | first night only |
+| $216/nt · $1,296.14 | 7 days (Nov 2) | ⚠️ **TOTAL price of the reservation** |
+| $254/nt · $1,524.87 | 5 days (Nov 4) | first night only |
+
+Paying **more** buys a **shorter** runway here, and the middle tier is strictly worse than the cheapest on both price and risk. Every other property in this dataset trades price against flexibility in the expected direction; this one does not. Anyone comparing on the words "free cancellation" alone would choose badly.
+
+### Other flags
+
+- **Check-out conflict:** Hilton's visible page text says **11:00**; Hilton's own structured data says **12:00**.
+- **No single-bed room captured.** A sibling row with the same Cabin S description and identical pricing sits above the twin row, but its header fell outside the fetched chunk — deliberately not recorded rather than guessed.
+- **Resort location, not a transit base.** No walkable rail, no airport shuttle. `fits: false` partly for this reason.
+- `stars: 5` comes from an independent listing, not the captured Booking page.
+
+### Busan district coverage after round 12
+
+| District | Records |
+|---|---:|
+| Haeundae | 12 |
+| Busan Station / Dong-gu | 3 |
+| Seomyeon / BIFC | 2 |
+| Nampo / Jungang | 2 |
+| Songdo | 2 |
+| Yeonsan | 1 |
+| **Gwangalli** (opened round 11) | 1 |
+| **Gijang / east coast** (opened round 12) | 1 |
+| **Total** | **24** |
+
+Remaining untested Busan districts: **Centum City / BEXCO**, **Dongnae / Oncheonjang** (hot springs), **Gimhae Airport**.
+
 ---
 
 ## Rounds 10–11 — Busan batch (2026-08-22)
@@ -548,7 +618,7 @@ Each Seoul candidate needs **two** dated captures (Nov 1–9 and Nov 15–22) pl
 | Gangnam | **Round 4 complete** — Aloft by Marriott Seoul Gangnam added; InterContinental Seoul COEX held out (slug 404); Andaz Seoul Gangnam re-verified as still unavailable for Nov 1–9. |
 | Busan | Round 1 complete: 1 added, 1 held out. |
 
-**Running total across all eleven rounds: 11 added, 14 held out (each with a recorded finding), 1 identity collision resolved, 5 earlier findings re-verified on a second independent check, 1 property eliminated outright (Metro Hotel Myeongdong — closed for renovation across the whole trip), 20 records given an explicit `distributionStatus`, 1 whole district gap (Gwangalli) found and represented, 0 duplicates created.**
+**Running total across all twelve rounds: 12 added, 14 held out (each with a recorded finding), 2 identity collisions resolved (Hotel U5 → Mercure Dongdaemun; Hilton Busan → Ananti at Busan Cove), 5 earlier findings re-verified on a second independent check, 1 property eliminated outright (Metro Hotel Myeongdong — closed for renovation across the whole trip), 20 records given an explicit `distributionStatus`, 2 whole district gaps found and represented (Gwangalli, Gijang / east coast), 0 duplicates created.**
 
 ### Open re-tries — all blocked on the same thing
 

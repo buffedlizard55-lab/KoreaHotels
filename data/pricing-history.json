@@ -5661,6 +5661,25 @@
       "refundableAvailable": false,
       "rates": [],
       "note": "VERIFIED SOLD OUT 2026-08-21: Booking states 'We have no availability here between Mon, Nov 9, 2026 and Sun, Nov 15, 2026.' Every room type is marked 'Not available on our site for your dates'. Booking also tags this property 'Adults only'. Address 9, Gunam-ro, Haeundae-gu — distinct from Ramada Encore Busan Station."
+    },
+    {
+      "captureId": "2026-08-21T19:35:00Z-busan-hyatt-place-yeonsan-nov9",
+      "hotelId": "busan-hyatt-place-yeonsan",
+      "capturedAtUtc": "2026-08-21T19:35:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/hyatt-place-busan-yeonsan.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "King Room with City View (refundable rate)",
+          "beds": "1 king bed (320 ft², city view)",
+          "meetsOneBedNeed": null,
+          "pricePerNightUsd": 134,
+          "totalStayUsd": 806,
+          "taxNote": "USD (display; 10% VAT excluded)",
+          "cancellationAsShown": "Free cancellation before November 8, 2026 — free until 1 day before arrival; then the first night"
+        }
+      ],
+      "note": "LIVE 2026-08-21. ⚠️ The $107/night ($645) headline on the same King Room is NON-REFUNDABLE, pay online. Breakfast-inclusive refundable variant $177/nt ($1,064). Twin Room with City View: $113/$679 non-refundable, $141/$849 refundable. Booking tags the property 'Adults only'."
     }
   ]
 }

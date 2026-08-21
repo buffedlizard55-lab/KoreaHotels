@@ -16018,6 +16018,110 @@
         "prepayment": "Pay nothing until November 12, 2026",
         "note": "LIVE 2026-08-19. Booking room row says 1 king bed and private/attached bathroom. Official Accor room inventory confirms 1 King bed; exact mattress dimensions not published."
       }
+    },
+    {
+      "id": "busan-hyatt-place-yeonsan",
+      "city": "Busan",
+      "name": "Hyatt Place Busan Yeonsan",
+      "tier": "mid",
+      "stars": 4,
+      "area": "Yeonsan (Yeonje-gu)",
+      "neighborhood": "1121 Jungang-daero, Yeonje-gu — inland Busan, roughly 1.6 mi from Sajik Baseball Stadium (Booking). Booking's captured page does NOT state a subway walking time; verify the Yeonsan Station walk yourself.",
+      "priceFrom": 107,
+      "priceTo": 185,
+      "currency": "USD",
+      "checkIn": "Not verified — not shown in the captured page; confirm with Hyatt",
+      "checkOut": "Not verified — not shown in the captured page; confirm with Hyatt",
+      "policies": [
+        "Booking tags this property ADULTS ONLY — confirm before booking if that matters.",
+        "24-hour front desk (Booking amenity list).",
+        "Buffet breakfast $25 per person per night (optional); lunch $30 per person per night.",
+        "Rooftop outdoor swimming pool, fitness center, terrace, public bath, minimarket, coffee shop, business area, luggage storage, bicycle parking, free WiFi.",
+        "Check-in/check-out times were NOT in the captured page — verify on the official Hyatt page before relying on them."
+      ],
+      "rooms": [
+        {
+          "name": "King Room with City View",
+          "price": "$134/night refundable (Nov 9–15, 2026 capture); $107/night non-refundable",
+          "note": "320 ft², city view, attached bathroom, free WiFi",
+          "bed": "king",
+          "bedType": "king",
+          "bedSize": "Booking bed label: 1 king bed. No physical width is published by a source checked in this pass.",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Booking states '1 king bed'. Exact mattress width unverified — do not treat as a confirmed ≥150 cm match yet."
+        },
+        {
+          "name": "Twin Room with City View",
+          "price": "$141/night refundable; $113/night non-refundable",
+          "note": "320 ft², city view",
+          "bed": "twin",
+          "bedType": "twin",
+          "bedSize": "2 twin beds",
+          "oneBed": false,
+          "oneBedOnly": false,
+          "privateBathroom": true,
+          "bedNote": "Two twin beds — does not meet the one-bed preference."
+        }
+      ],
+      "promos": [
+        "World of Hyatt membership rates are not shown on Booking — price the same dates on hyatt.com before committing."
+      ],
+      "amenities": [
+        "Rooftop outdoor swimming pool",
+        "Fitness center",
+        "Restaurant",
+        "Coffee shop",
+        "24-hour front desk",
+        "Terrace",
+        "Minimarket",
+        "Luggage storage"
+      ],
+      "hasOnSiteLaundry": false,
+      "officialLabel": "Official Hyatt property page — URL not yet captured (see verification note)",
+      "compareUrl": "https://www.booking.com/hotel/kr/hyatt-place-busan-yeonsan.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "compareLabel": "Compare rates (Booking.com dated page, Nov 9–15 2026)",
+      "why": "A newly listed Hyatt Place in inland Busan that prices well below the Haeundae Hyatt properties: a refundable 1-king room at $134/night for Nov 9–15 versus $361 at Park Hyatt Busan. Adds a mid-tier international-brand king option away from the beach strip.",
+      "highlights": [
+        "Refundable 1-king room at $134/night for Nov 9–15, 2026",
+        "Rooftop pool and fitness center",
+        "Hyatt Place brand, opened recently (only 13 Booking reviews at capture)"
+      ],
+      "fits": false,
+      "fitReason": "Booking labels the room '1 king bed' with a private bathroom, but no source checked in this pass publishes the mattress width, and no walkable-rail distance was captured. Not marked a core-needs match until both are established.",
+      "lat": 35.187756,
+      "lng": 129.08073,
+      "priceNote": "Range is the captured Nov 9–15, 2026 Booking rate span (non-refundable $107 to breakfast-inclusive twin $185). Not a year-round estimate.",
+      "verification": {
+        "lastChecked": "2026-08-21",
+        "sourceType": "Major trusted booking platform + independent structured listing",
+        "sourceUrl": "https://www.booking.com/hotel/kr/hyatt-place-busan-yeonsan.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "canonicalName": "Hyatt Place Busan Yeonsan",
+        "existenceStatus": "Verified operating property",
+        "note": "Booking.com's dated property page confirms the name, brand 'Hyatt Place', address 1121 Jungang-daero, Yeonje-gu, 47524 Busan, a live bookable rate table for Nov 9-15 2026, and the room inventory. TripAdvisor's structured listing independently gives the same address and postal code with coordinates 35.187756 / 129.08073 and phone +82 51-713-6000, which is where lat/lng come from. FLAGGED: the hyatt.com property URL was NOT captured in this pass, so officialUrl is intentionally absent. FLAGGED: no star rating was displayed on the captured page — 'stars: 4' reflects the Hyatt Place brand tier, not an official Korean classification. FLAGGED: Booking tags the property 'Adults only'. Distinct from busan-park-hyatt (Marine City, Haeundae-gu).",
+        "distinctFrom": [
+          "busan-park-hyatt"
+        ]
+      },
+      "refundableRateNov9": {
+        "capturedAtUtc": "2026-08-21T19:35:00Z",
+        "source": "Booking.com property page — dated rate table (live fetch 2026-08-21, king-bed filter)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/hyatt-place-busan-yeonsan.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "stayCheckIn": "2026-11-09",
+        "stayCheckOut": "2026-11-15",
+        "nights": 6,
+        "available": true,
+        "room": "King Room with City View (refundable rate)",
+        "beds": "1 king bed (320 ft², city view)",
+        "pricePerNight": 134,
+        "totalStay": 806,
+        "currency": "USD (display; 10% VAT excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 8, 2026 — free until 1 day before arrival; then the first night",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "LIVE 2026-08-21. ⚠️ The $107/night ($645) headline on the same King Room is NON-REFUNDABLE, pay online. Breakfast-inclusive refundable variant $177/nt ($1,064). Twin Room with City View: $113/$679 non-refundable, $141/$849 refundable. Booking tags the property 'Adults only'."
+      }
     }
   ],
   "meta": {
@@ -16027,7 +16131,7 @@
     "expandedPrimaryCityHotels": 50,
     "verifiedPrimaryCityHotels": 50,
     "identityAuditLastChecked": "2026-08-18",
-    "verifiedHotelRecords": 104,
+    "verifiedHotelRecords": 148,
     "duplicateHotelRecords": 0,
     "refundableRateCaptures": {
       "lastRun": "2026-08-21",
@@ -16160,7 +16264,28 @@
         "nights": 7
       },
       "rule": "Never compare a row from one window with a row from another. Each window is a separate search."
-    }
+    },
+    "newEntryBatches": [
+      {
+        "batch": "2026-08-21 area-by-area, round 1",
+        "areasWorked": [
+          "Busan / Yeonsan"
+        ],
+        "added": [
+          "busan-hyatt-place-yeonsan"
+        ],
+        "investigatedNotAdded": [
+          {
+            "candidate": "Shilla Stay Seobusan (Gangseo-gu)",
+            "reason": "Identity confirmed (38 Myeongjigukje 7-ro, Gangseo-gu; official shillastay.com/seobusan page exists; coordinates 35.096675/128.905259). The Booking property slug could not be resolved in this pass, so there is no dated rate page and no price, bed count, or cancellation term to record. Held out rather than added without a rate."
+          },
+          {
+            "candidate": "ibis Ambassador Busan Haeundae / ibis budget Ambassador Busan Haeundae",
+            "reason": "Already in the master list; confirmed NOT distributable on Booking.com for these dates."
+          }
+        ]
+      }
+    ]
   },
   "arrivalNight": {
     "title": "First night in Seoul — officially verified late-arrival shortlist",

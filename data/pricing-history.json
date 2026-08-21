@@ -5291,6 +5291,253 @@
         }
       ],
       "note": "Live Booking Partner Offer; pay in advance and no modifications. Price excludes separately shown KRW 104,155 tax. Official source did not publish the physical dimensions for this selected room."
+    },
+    {
+      "captureId": "2026-08-21T18:30:00Z-busan-shilla-stay-nov9",
+      "hotelId": "busan-shilla-stay",
+      "capturedAtUtc": "2026-08-21T18:30:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/shilla-stay-haeundae.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Standard Double Room with City View",
+          "beds": "1 full bed (312 ft²)",
+          "meetsOneBedNeed": null,
+          "pricePerNightUsd": 148,
+          "totalStayUsd": 885,
+          "taxNote": "USD (display; total before taxes $885.22 after 54% property discount; 10% TAX + city tax excluded)",
+          "cancellationAsShown": "Free cancellation before November 6, 2026 — free until 3 days before arrival; then the first night"
+        }
+      ],
+      "note": "LIVE 2026-08-21. 5 left. A cheaper Partner Offer on the SAME room is $138/nt, $829, breakfast $20, free cancellation before Nov 6 but PAY IN ADVANCE and NO MODIFICATIONS (KRW 115,478 tax excluded). Booking labels the bed '1 full bed'; Shilla Stay's own room list puts a ~150x200 queen only in Deluxe/Premier."
+    },
+    {
+      "captureId": "2026-08-21T18:30:00Z-busan-l7-haeundae-nov9",
+      "hotelId": "busan-l7-haeundae",
+      "capturedAtUtc": "2026-08-21T18:30:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/l7-haeundae-busan.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Standard King Town View (4F–9F)",
+          "beds": "1 king bed (248 ft²)",
+          "meetsOneBedNeed": null,
+          "pricePerNightUsd": 181,
+          "totalStayUsd": 1084,
+          "taxNote": "USD (display; 10% TAX excluded)",
+          "cancellationAsShown": "Free cancellation before November 6, 2026 — free until 3 days before arrival; then the first night"
+        }
+      ],
+      "note": "LIVE 2026-08-21. 5 left. Same table: Superior Queen Town Ocean View = 1 queen bed $188/$1,127; Superior King Town View (10F–19F) = 1 king $188/$1,127. IRREGULARITY: 'Superior Queen Town View (10F–19F)' is sold at $181/$1,084 but Booking states its bed as '1 full bed', not a queen."
+    },
+    {
+      "captureId": "2026-08-21T18:30:00Z-busan-asti-nov9",
+      "hotelId": "busan-asti",
+      "capturedAtUtc": "2026-08-21T18:30:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/asti-busan.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Standard Double Room with City View (Partner Offer)",
+          "beds": "1 full bed (284 ft²)",
+          "meetsOneBedNeed": null,
+          "pricePerNightUsd": 79,
+          "totalStayUsd": 471,
+          "taxNote": "USD (display; KRW 65,594 tax per stay excluded)",
+          "cancellationAsShown": "Free cancellation before November 8, 2026 — free until 1 day before arrival; then the first night"
+        }
+      ],
+      "note": "LIVE 2026-08-21. The adjacent pay-at-property Standard Double row is $653 for 6 nights (~$109/nt), breakfast $18, free cancellation before Nov 8, no prepayment — its exact room label fell across a page-chunk boundary and is NOT recorded. Junior Suite = 1 twin + 1 full $185/$1,112."
+    },
+    {
+      "captureId": "2026-08-21T18:30:00Z-busan-fairfield-haeundae-nov9",
+      "hotelId": "busan-fairfield-haeundae",
+      "capturedAtUtc": "2026-08-21T18:30:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/fairfield-by-marriott-busan.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Standard Room - 1 King Bed with City View",
+          "beds": "1 king bed (248 ft²)",
+          "meetsOneBedNeed": null,
+          "pricePerNightUsd": 103,
+          "totalStayUsd": 617,
+          "taxNote": "USD (display; 10% VAT excluded)",
+          "cancellationAsShown": "Free cancellation before November 9, 2026 — free until 12:00 AM on the day of arrival; then the first night"
+        }
+      ],
+      "note": "LIVE 2026-08-21. 5 left. Premier King High Floor (1 king) $129/$772; Deluxe 1 King Partial Sea View $143/$858. Booking address 314 Haeundaehaebyeon-ro, Haeundae-gu; 24-hour front desk and laundry listed."
+    },
+    {
+      "captureId": "2026-08-21T18:30:00Z-busan-ramada-station-nov9",
+      "hotelId": "busan-ramada-station",
+      "capturedAtUtc": "2026-08-21T18:30:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/ramada-encore-by-wyndham-busan.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Superior Double Room",
+          "beds": "1 full bed (208 ft²)",
+          "meetsOneBedNeed": null,
+          "pricePerNightUsd": 79,
+          "totalStayUsd": 474,
+          "taxNote": "USD (display; 10% TAX excluded)",
+          "cancellationAsShown": "Free cancellation before November 7, 2026"
+        }
+      ],
+      "note": "LIVE 2026-08-21. Booking address 10, Jungang-daero 196beon-gil, Dong-gu — distinct from Ramada Encore Haeundae. Booking's bed label is '1 full bed'; the repo's queen claim comes from the Wyndham room inventory, not from this rate row."
+    },
+    {
+      "captureId": "2026-08-21T18:30:00Z-busan-toyoko-station1-nov9",
+      "hotelId": "busan-toyoko-station1",
+      "capturedAtUtc": "2026-08-21T18:30:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/toyoko-inn-busan-no-1.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Economy Double Room",
+          "beds": "1 full bed",
+          "meetsOneBedNeed": null,
+          "pricePerNightUsd": 59,
+          "totalStayUsd": 355,
+          "taxNote": "USD (display; total before taxes $354.58 after 8% pay-online discount from $385.42; 10% TAX excluded)",
+          "cancellationAsShown": "Free cancellation before November 8, 2026 — ⚠️ inside 1 day the fee is the TOTAL price of the reservation (no-show the same)"
+        }
+      ],
+      "note": "LIVE 2026-08-21. Free breakfast included. Coin laundry on site."
+    },
+    {
+      "captureId": "2026-08-21T18:30:00Z-busan-crown-harbor-nov9",
+      "hotelId": "busan-crown-harbor",
+      "capturedAtUtc": "2026-08-21T18:30:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/crown-harbour-busan.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "[Busan Minibar] Executive Double City",
+          "beds": "1 full bed (291 ft²)",
+          "meetsOneBedNeed": null,
+          "pricePerNightUsd": 91,
+          "totalStayUsd": 548,
+          "taxNote": "USD (display; 10% TAX excluded)",
+          "cancellationAsShown": "Free cancellation before November 7, 2026 — ⚠️ inside 2 days the fee is the TOTAL price of the reservation"
+        }
+      ],
+      "note": "LIVE 2026-08-21. Only 2 left. Executive Double Harbor (1 full bed) $101/$607, 5 left."
+    },
+    {
+      "captureId": "2026-08-21T18:30:00Z-busan-wyndham-grand-nov9",
+      "hotelId": "busan-wyndham-grand",
+      "capturedAtUtc": "2026-08-21T18:30:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/wyndham-grand-busan.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Executive King Room - Non-Smoking",
+          "beds": "1 king bed (401 ft², sea view, hot tub, lounge access)",
+          "meetsOneBedNeed": null,
+          "pricePerNightUsd": 278,
+          "totalStayUsd": 1666,
+          "taxNote": "USD (display; 10% VAT excluded)",
+          "cancellationAsShown": "Free cancellation before November 8, 2026 — ⚠️ inside 1 day the fee is the TOTAL price of the reservation"
+        }
+      ],
+      "note": "LIVE 2026-08-21. 7 left. IRREGULARITY: the 2026-08-18 Nov 15–22 capture used a 'Premium King Room' at $147/nt; no Premium King row appeared in the captured part of the Nov 9–15 table, so these two windows are NOT the same room tier. Ondol Suite (1 full) $349/$2,097; Corner Suite (1 king) $434/$2,603."
+    },
+    {
+      "captureId": "2026-08-21T18:30:00Z-busan-paradise-nov9",
+      "hotelId": "busan-paradise",
+      "capturedAtUtc": "2026-08-21T18:30:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/paradise-busan.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Premium Double Room with Half Sea View - Annex",
+          "beds": "1 king bed (581 ft²)",
+          "meetsOneBedNeed": null,
+          "pricePerNightUsd": 324,
+          "totalStayUsd": 2160,
+          "taxNote": "USD (display; 10% service charge INCLUDED; 10% TAX excluded)",
+          "cancellationAsShown": "Free cancellation before November 7, 2026 — free until 2 days before arrival; then the first night"
+        }
+      ],
+      "note": "LIVE 2026-08-21. Only 2 left, and only two rate rows were offered for this window at all. The other row is a Partner Offer at $282/nt, $1,849 (pay in advance, no modifications; KRW 214,997 service charge included, KRW 280,591 tax excluded) whose room label fell across a page-chunk boundary and is NOT recorded."
+    },
+    {
+      "captureId": "2026-08-21T18:30:00Z-busan-avani-central-nov9",
+      "hotelId": "busan-avani-central",
+      "capturedAtUtc": "2026-08-21T18:30:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/avani-central-busan.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Deluxe King Room with Mountain View (refundable rate)",
+          "beds": "1 queen bed (301 ft², high floor)",
+          "meetsOneBedNeed": null,
+          "pricePerNightUsd": 132,
+          "totalStayUsd": 790,
+          "taxNote": "USD (display; PUBLIC price $789.86 / 6 nights. Genius + pay-online member price $646.90 = $108/nt. 10% TAX excluded)",
+          "cancellationAsShown": "Free cancellation before November 6, 2026 — free until 3 days before arrival; then the first night; ⚠️ no-show fee is the TOTAL price"
+        }
+      ],
+      "note": "LIVE 2026-08-21. Only 1 left. IRREGULARITY (confirmed again): the room is sold as 'Deluxe King' but Booking states the bed as '1 queen bed'. The headline $100/nt row on this property is NON-REFUNDABLE. Premier Double Room (1 queen, 366 ft²) $124/nt is also non-refundable in this window."
+    },
+    {
+      "captureId": "2026-08-21T18:30:00Z-busan-toyoko-haeundae2-nov9",
+      "hotelId": "busan-toyoko-haeundae2",
+      "capturedAtUtc": "2026-08-21T18:30:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/toyoko-inn-busan-haeundae-2.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Economy Double Room (No Parking)",
+          "beds": "1 full bed",
+          "meetsOneBedNeed": null,
+          "pricePerNightUsd": 55,
+          "totalStayUsd": 331,
+          "taxNote": "USD (display; total before taxes $331.36 after 8% pay-online discount from $360.18; 10% TAX excluded)",
+          "cancellationAsShown": "Free cancellation before November 8, 2026 — ⚠️ inside 1 day the fee is the TOTAL price of the reservation"
+        }
+      ],
+      "note": "LIVE 2026-08-21. First priced capture for this property in the repo (the Nov 15–22 pass recorded no rate). Free breakfast, coin launderette, 24-hour front desk, 328 ft from Haeundae Beach."
+    },
+    {
+      "captureId": "2026-08-21T18:30:00Z-busan-westin-josun-nov9",
+      "hotelId": "busan-westin-josun",
+      "capturedAtUtc": "2026-08-21T18:30:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/the-westin-chosun-busan.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Deluxe Park King, 1 King, Dongbaek Park view",
+          "beds": "Booking bed label: '1 full bed' (312 ft²) — name says King",
+          "meetsOneBedNeed": null,
+          "pricePerNightUsd": null,
+          "totalStayUsd": 1467,
+          "taxNote": "USD (display; per-night figure and tax line were NOT inside the captured page chunk)",
+          "cancellationAsShown": "Free cancellation before November 7, 2026 — free until 2 days before arrival; then the first night"
+        }
+      ],
+      "note": "PARTIAL LIVE 2026-08-21. 3 left. Only the 6-night total ($1,467) was inside the captured chunk; the $/night cell was not. Sibling rows on the same page run $285/$1,897 and $382/$2,543 with 10% service charge included and 10% VAT excluded. IRREGULARITY: Booking calls the bed in this 'King' room a full bed — same conflict recorded on 2026-08-18."
+    },
+    {
+      "captureId": "2026-08-21T18:30:00Z-busan-fairfield-songdo-nov9",
+      "hotelId": "busan-fairfield-songdo",
+      "capturedAtUtc": "2026-08-21T18:30:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/fairfield-by-marriott-busan-songdo-beach.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Standard Room, Sea view — refundable rate row (bed configuration of THIS row not captured)",
+          "beds": "Not established for this row. The only named row inside the captured chunk was 'Standard Room - Guest room, Twin/Single 2 Bed(s), Sea view' = 2 twin beds at the same $127/$761",
+          "meetsOneBedNeed": null,
+          "pricePerNightUsd": 127,
+          "totalStayUsd": 761,
+          "taxNote": "USD (display; 10% VAT excluded)",
+          "cancellationAsShown": "Free cancellation before November 9, 2026 — free until 12:00 AM on the day of arrival; then the first night"
+        }
+      ],
+      "note": "PARTIAL LIVE 2026-08-21. 5 left on the captured rows. The 1-King sea-view room that the Nov 15–22 pass used ($130/nt) was NOT identifiable in the captured chunk, so the price above is NOT confirmed to be the one-king room. Re-run before trusting it as a one-bed option."
     }
   ]
 }

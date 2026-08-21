@@ -537,19 +537,20 @@
   </style>
 </head>
 <body>
-  <a class="skip-link" href="#findings">Skip to verified findings</a>
+  <a class="skip-link" href="#windows">Skip to the date-window tables</a>
 
   <header class="hero">
     <div class="shell">
       <p class="eyebrow">South Korea trip · verified findings</p>
       <h1>What the repo actually verified — prices, beds, and recommendations.</h1>
-      <p class="hero-copy">84 source-checked hotels across Seoul, Gyeongju, Busan, Cheonan, Daejeon, and Suwon. Tables and totals use only UTC-stamped Booking.com quotes. If a width is unpublished or a fetch failed, it is flagged. Nothing is guessed.</p>
+      <p class="hero-copy">Three separate stay windows — Nov 1–9, Nov 9–15 (Busan) and Nov 15–22, 2026 — are listed first and never merged. 147 source-checked hotels across Seoul, Gyeongju, Busan, Cheonan, Daejeon, and Suwon. Tables and totals use only UTC-stamped Booking.com quotes. If a width is unpublished or a fetch failed, it is flagged. Nothing is guessed.</p>
       <div class="trip-chips" id="trip-chips" aria-label="Trip overview"></div>
     </div>
   </header>
 
   <nav class="site-nav" aria-label="Page sections">
     <div class="shell">
+      <a href="#windows">Date windows</a>
       <a href="#findings">Findings</a>
       <a href="#arrival">Arrival night</a>
       <a href="#shortlist">Hotel list</a>
@@ -558,6 +559,30 @@
   </nav>
 
   <main class="shell">
+
+    <section id="windows" aria-labelledby="windows-title">
+      <p class="section-kicker">Start here · the three stay windows</p>
+      <h2 class="section-heading" id="windows-title">Date-window tables — live refundable quotes</h2>
+      <p class="section-description">
+        Three separate searches, never merged: <strong>Nov 1–9, 2026 (8 nights)</strong>,
+        <strong>Nov 9–15, 2026 (6 nights — the Busan stay)</strong> and
+        <strong>Nov 15–22, 2026 (7 nights)</strong>.
+        A row only appears here if a dated Booking.com rate table was fetched and stamped in UTC.
+        Pick a window, then narrow by area. Every row keeps its own capture time and live source link,
+        and prices are the display price at capture time — usually before 10% tax.
+      </p>
+      <div class="table-card">
+        <div class="quote-tabs" id="quote-window-tabs" aria-label="Quote date window"></div>
+        <div class="quote-tabs" id="quote-scope-tabs" aria-label="Quote area"></div>
+        <div id="findings-quotes"></div>
+      </div>
+      <p class="source-line">
+        Busan Nov 9–15 line-by-line checklist:
+        <a href="guide/verification-busan-nov9-15-2026-08-21.md">guide/verification-busan-nov9-15-2026-08-21.md</a>
+        · Seoul dual window:
+        <a href="guide/verification-seoul-dual-window-nov1-and-nov15-2026.md">guide/verification-seoul-dual-window-nov1-and-nov15-2026.md</a>
+      </p>
+    </section>
 
     <section id="findings" aria-labelledby="findings-title">
       <p class="section-kicker">Work completed in this repo</p>
@@ -583,13 +608,6 @@
       <h3 class="subhead">Sample price totals</h3>
       <p class="section-description">These add captured stay totals. They are not a booked itinerary. Re-open each source before paying. Tax is usually extra.</p>
       <div class="trip-grid" id="findings-trips"></div>
-      <div class="table-card">
-        <h3>Live refundable quotes — select one date window</h3>
-        <p class="section-description">These tables never combine Seoul’s two requested windows. Select <strong>Seoul → Myeongdong</strong> to see that area only; every row retains its UTC timestamp and live source link.</p>
-        <div class="quote-tabs" id="quote-window-tabs" aria-label="Quote date window"></div>
-        <div class="quote-tabs" id="quote-scope-tabs" aria-label="Quote area"></div>
-        <div id="findings-quotes"></div>
-      </div>
       <div class="table-card">
         <h3>Flags to review</h3>
         <ul class="flag-list" id="findings-flags"></ul>
@@ -1066,6 +1084,7 @@
       }).join("");
       const windows = [
         ["nov1", "Nov 1–9, 2026 · 8 nights"],
+        ["nov9", "Nov 9–15, 2026 · 6 nights (Busan)"],
         ["nov15", "Nov 15–22, 2026 · 7 nights"]
       ];
       document.getElementById("quote-window-tabs").innerHTML = windows.map(function(item) {

@@ -7,9 +7,9 @@ A blank or missing value means it was not verified — nothing here is estimated
 
 | Window | Nights | Planned city | Rows with a live dated quote | Line-by-line checklist |
 |---|---:|---|---:|---|
-| **Nov 1–9, 2026** | 8 | Seoul | 88 | [Seoul dual window](guide/verification-seoul-dual-window-nov1-and-nov15-2026.md) · [Dongdaemun batch 5](guide/verification-seoul-dongdaemun-batch5-2026-08-19.md) |
+| **Nov 1–9, 2026** | 8 | Seoul | 89 | [Seoul dual window](guide/verification-seoul-dual-window-nov1-and-nov15-2026.md) · [Dongdaemun batch 5](guide/verification-seoul-dongdaemun-batch5-2026-08-19.md) |
 | **Nov 9–15, 2026** | 6 | **Busan** (this request) + Gyeongju alternates | 18 Busan + 9 Gyeongju | [Busan Nov 9–15 pass](guide/verification-busan-nov9-15-2026-08-21.md) |
-| **Nov 15–22, 2026** | 7 | Busan (original plan) + Seoul alternates | 111 | [Seoul Nov 15 pass](guide/verification-seoul-nov15-2026.md) |
+| **Nov 15–22, 2026** | 7 | Busan (original plan) + Seoul alternates | 112 | [Seoul Nov 15 pass](guide/verification-seoul-nov15-2026.md) |
 
 > ⚠️ **Do not compare a row in one table with a row in another.** They are different search lengths (8 / 6 / 7 nights) and different searches.
 > ⚠️ The itinerary files still describe the *original* route (Gyeongju Nov 9–15, Busan Nov 15–22). This request treats **Busan as the Nov 9–15 stay**, so both sets of captures are kept and neither is deleted. The route itself has not been rewritten — that is a decision, not a verification.
@@ -127,6 +127,7 @@ Kept completely separate from Table A and Table C. Capture dates are shown per r
 | Hotel Prince Seoul | Seoul · Myeongdong / Toegye-ro (Jun… | Twin Room B | 2 twin beds (215 ft², high floor) — NOT a one-bed room | Free cancellation before October 25, 2026 | $195 | **$1,751** | 2026-08-21 | [dated rate](https://www.booking.com/hotel/kr/hotel-prince-seoul.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD) |
 | Moxy Seoul Insadong by Marriott | Seoul · Insadong / Jongno | Standard Double Room | 1 full bed | Free cancellation before November 1, 2026 | $225 | **$1,799** | 2026-08-19 | [dated rate](https://www.booking.com/hotel/kr/moxy-seoul-insadong.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD) |
 | Somerset Palace Seoul | Seoul · Gwanghwamun / Insadong | Executive One-Bedroom | 1 queen bed | Free cancellation before October 30, 2026 | $228 | **$1,824** | 2026-08-18 | [dated rate](https://www.booking.com/hotel/kr/somerset-palace-seoul.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD) |
+| Hotel Thomas Myeongdong | Seoul · Myeongdong / City Hall (Jun… | Family Twin Room | 1 twin bed AND 1 full bed (249 ft², city view) — NOT a one-bed room | Free cancellation before October 25, 2026 | $229 | **$1,833** | 2026-08-21 | [dated rate](https://www.booking.com/hotel/kr/thomas-myeongdong.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD) |
 | G2 Hotel Myeongdong | Seoul · Myeongdong / Supyo-ro (Jung… | Standard Twin Room (No Parking) | 2 twin beds (269 ft², city view) — NOT a one-bed room | Free cancellation before October 18, 2026 | $230 | **$1,840** | 2026-08-21 | [dated rate](https://www.booking.com/hotel/kr/g2-myeongdong.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD) |
 | Nine Tree by Parnas Seoul Dongdaemun | Seoul · Dongdaemun / Euljiro | Semi Double Room | 1 full bed | Free cancellation before October 29, 2026 | $232 | **$1,856** | 2026-08-19 | [dated rate](https://www.booking.com/hotel/kr/nine-tree-dongdaemun.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD) |
 | Nine Tree by Parnas Seoul Insadong | Seoul · Insadong / Gwanghwamun | Deluxe Double w/ Jogyesa View, High Floor, Bath | 1 queen bed | Free cancellation before October 29, 2026 | $235 | **$1,881** | 2026-08-18 | [dated rate](https://www.booking.com/hotel/kr/nine-tree-premier-insadong.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD) |
@@ -223,6 +224,7 @@ Kept completely separate from Table A and Table B. Capture dates are shown per r
 | Ibis Styles Ambassador Seoul Myeongdong | Seoul · Myeongdong | Standard Double Room | 1 double bed (width unpublished; ≈140cm) | Free cancellation before November 14, 2026 | $147 | **$1,027** | 2026-08-19 | [dated rate](https://www.booking.com/hotel/kr/ibis-styles-seoul-myeongdong.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD) |
 | Ibis Ambassador Insadong (newly refurbished) | Seoul · Insadong / Jongno (historic… | Superior Double Room | 1 queen bed (Accor spec) | Free cancellation before November 14, 2026 | $148 | **$1,034** | 2026-08-19 | [dated rate](https://www.booking.com/hotel/kr/ibis-ambassador-insadong.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD) |
 | Hotel Skypark Dongdaemun I | Seoul · Dongdaemun (Jung-gu) | Standard Twin Room | 2 twin beds | Free cancellation before November 12, 2026 | $146 | **$1,056** | 2026-08-19 | [dated rate](https://www.booking.com/hotel/kr/skypark-dongdaemun-i.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD) |
+| Hotel Thomas Myeongdong | Seoul · Myeongdong / City Hall (Jun… | Deluxe Twin Room | 2 twin beds (249 ft², city view) — NOT a one-bed room | Free cancellation before November 8, 2026 | $158 | **$1,106** | 2026-08-21 | [dated rate](https://www.booking.com/hotel/kr/thomas-myeongdong.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD) |
 | Sotetsu Hotels The Splaisir Seoul Myeongdong | Seoul · Myeongdong | Superior Double Room | 1 full bed | Free cancellation before November 13, 2026 | $158 | **$1,108** | 2026-08-19 | [dated rate](https://www.booking.com/hotel/kr/the-m-seoul.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD) |
 | GLAD Gangnam COEX Center | Seoul · Gangnam / COEX | Superior Double Room | 1 full bed | Free cancellation before November 12, 2026 | $162 | **$1,136** | 2026-08-19 | [dated rate](https://www.booking.com/hotel/kr/glad-gangnam-coex-center.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD) |
 | Sotetsu Fresa Inn Seoul Myeong-dong | Seoul · Myeongdong | Standard Double Room | 1 full bed | Free cancellation before November 13, 2026 | $164 | **$1,145** | 2026-08-19 | [dated rate](https://www.booking.com/hotel/kr/sotetsu-fresa-inn-seoul-myeong-dong.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD) |
@@ -305,6 +307,25 @@ Kept completely separate from Table A and Table B. Capture dates are shown per r
 ## 🆕 New entries — area-by-area batches (2026-08-21)
 
 Added to the master list only after identity, coordinates, bed count **and** a dated refundable rate for every relevant window were all sourced from pages actually fetched.
+
+### Round 7 — Myeong-dong completed (1 added)
+
+| New entry | Area | Nov 1–9 (8 nt) refundable | Nov 15–22 (7 nt) refundable | Cancellation | Verify |
+|---|---|---|---|---|---|
+| **Hotel Thomas Myeongdong** | Myeongdong / City Hall (Jung-gu) | Family Twin — **1 twin + 1 full**, 249 ft² — **$229/nt · $1,833** | Deluxe Twin — **2 twin**, 249 ft² — **$158/nt · $1,106** | Free until **7 days** out in both windows — ⚠️ inside that, **and on a no-show, the fee is the TOTAL stay** | [Nov 1–9](https://www.booking.com/hotel/kr/thomas-myeongdong.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD) · [Nov 15–22](https://www.booking.com/hotel/kr/thomas-myeongdong.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD) |
+
+At **$158/night** this is the cheapest Seoul property verified in both windows anywhere in this series — but read the flags before treating that as a bargain.
+
+**🚩 Flags on round 7:**
+
+1. **Booking's own room data contradicts itself on the bathroom.** The amenity list for these rooms shows **both "Attached bathroom" and "Shared toilet"**. The private-bathroom requirement is therefore **not established**. Confirm before booking.
+2. **No single-bed room exists in either window** — Family Twin is twin+full, Deluxe Twin is 2 twin. `fits: false`.
+3. **The $158 and $229 are Genius member prices**, 38–43% below the displayed originals ($1,956.54 and $2,951.86). The public price is much higher.
+4. **The two windows use different room codes**, so the price gap is not movement.
+5. **Prepayment differs by window** — pay-at-property for Nov 1–9, payment due Nov 6 for Nov 15–22.
+6. **Breakfast is rated 5.6/10** by Booking guests — the lowest of anything added in this series.
+
+**Myeong-dong is now closed out**, except **Hotel Midcity Myeongdong** (URL known; showed no availability in either window on 2026-08-19, needs one re-check).
 
 ### Round 6 — Myeong-dong continued (1 added · 1 property eliminated outright)
 
@@ -487,11 +508,11 @@ Read the source links, trade-offs, and exact booking workflow in [`guide/arrival
 Open [`index.html`](index.html) in a browser to use the planner. The top of the page is a **verified findings dashboard** (coverage table, charts, recommendations, and sample price totals) built only from UTC-stamped quotes. It is intentionally simple:
 
 - **Arrival night** — five source-checked late-arrival options, evidence links, trade-offs, and a copyable message to send the hotel.
-- **Expanded city lists** — browse 100 Seoul, 15 Gyeongju, 21 Busan, 7 Cheonan, 7 Daejeon, and 5 Suwon hotels. Seoul has two date tables (planned Nov 1–9 vs alternate Nov 15–22) in [`guide/verification-seoul-dual-window-nov1-and-nov15-2026.md`](guide/verification-seoul-dual-window-nov1-and-nov15-2026.md); the latest strictly verified Dongdaemun additions and held-out candidates are in [`guide/verification-seoul-dongdaemun-batch5-2026-08-19.md`](guide/verification-seoul-dongdaemun-batch5-2026-08-19.md). The Busan **Nov 9–15** pass is [`guide/verification-busan-nov9-15-2026-08-21.md`](guide/verification-busan-nov9-15-2026-08-21.md).
+- **Expanded city lists** — browse 101 Seoul, 15 Gyeongju, 21 Busan, 7 Cheonan, 7 Daejeon, and 5 Suwon hotels. Seoul has two date tables (planned Nov 1–9 vs alternate Nov 15–22) in [`guide/verification-seoul-dual-window-nov1-and-nov15-2026.md`](guide/verification-seoul-dual-window-nov1-and-nov15-2026.md); the latest strictly verified Dongdaemun additions and held-out candidates are in [`guide/verification-seoul-dongdaemun-batch5-2026-08-19.md`](guide/verification-seoul-dongdaemun-batch5-2026-08-19.md). The Busan **Nov 9–15** pass is [`guide/verification-busan-nov9-15-2026-08-21.md`](guide/verification-busan-nov9-15-2026-08-21.md).
 - **Quick filters** — view all stays, only core-needs matches, or stays with laundry; search within the current city.
 - **Useful details at a glance** — estimated nightly range, recommended room, bed setup, bathroom/transport fit, normal check-in/out time, canonical identity source, and rate-comparison link.
 - **Timestamped refundable pricing** — hotel cards show a ♻️ badge with the captured refundable rate, cancellation deadline, and UTC capture time; the append-only log lives in [`data/pricing-history.json`](data/pricing-history.json). The four-city (Suwon / Gyeongju / Cheonan / Daejeon) 2026-08-18T19:16Z checklist is [`guide/verification-suwon-gyeongju-cheonan-daejeon-2026-08-18.md`](guide/verification-suwon-gyeongju-cheonan-daejeon-2026-08-18.md). The earlier same-day Seoul-inclusive pass is [`guide/verification-checklist-2026-08-18-line-by-line.md`](guide/verification-checklist-2026-08-18-line-by-line.md).
-- **Duplicate protection** — all 155 records are source verified; similarly named branches are cross-checked as distinct properties.
+- **Duplicate protection** — all 156 records are source verified; similarly named branches are cross-checked as distinct properties.
 
 There is no account, tracker, or backend. It is a static planning document that can be hosted with GitHub Pages or opened locally.
 
@@ -515,14 +536,14 @@ For regular stays, a green **“Core needs match”** badge means the research h
 
 | City | Hotels | Planning use |
 |---|---:|---|
-| Seoul | 100 | First-night shortlist + Myeongdong / Jongno / Dongdaemun / Hongdae / Itaewon / Gangnam (dual date windows) |
+| Seoul | 101 | First-night shortlist + Myeongdong / Jongno / Dongdaemun / Hongdae / Itaewon / Gangnam (dual date windows) |
 | Gyeongju | 15 | Heritage / hanok, Old Town, Bulguksa, and Bomun Lake stays |
 | Busan | 21 | Haeundae, Seomyeon, Busan Station, Nampo, and Songdo options |
 | Cheonan | 7 | KTX-corridor alternative |
 | Daejeon | 7 | KTX-corridor alternative |
 | Suwon | 5 | Seoul-area base (Suwon Station + Hwaseong Fortress) |
-| **Planned cities** | **136** | Seoul + Gyeongju + Busan |
-| **Total** | **155** | Full city-by-city comparison set |
+| **Planned cities** | **137** | Seoul + Gyeongju + Busan |
+| **Total** | **156** | Full city-by-city comparison set |
 
 Prices are planning estimates for the 2026 autumn itinerary, not live inventory. Always verify a live rate and exact room configuration before paying.
 
@@ -553,7 +574,7 @@ Then visit `http://localhost:8000` in a local browser, or open `index.html` dire
 ├── index.template.html     # Site shell; data is embedded at build time
 ├── index.html              # Generated static planner
 ├── data/
-│   ├── hotels.json         # 155 city hotels + five-option arrivalNight shortlist and source links
+│   ├── hotels.json         # 156 city hotels + five-option arrivalNight shortlist and source links
 │   └── itinerary.json      # Dates, city order, and alternatives
 ├── guide/
 │   ├── arrival-night.md    # 24-hour reception research + late-arrival workflow
@@ -572,7 +593,7 @@ Then visit `http://localhost:8000` in a local browser, or open `index.html` dire
 
 ## Research and booking guardrails
 
-- Arrival-night evidence and **all 155 hotel records** were identity-checked (Seoul/Gyeongju/Busan/Cheonan/Daejeon on August 10, 2026; the Suwon shortlist on August 18, 2026; expanded Seoul batches on August 19, 2026). Every card shows a canonical property source, source type, date, and verification note. The validator rejects duplicate IDs, sourced names, official URLs, identity-source URLs, and exact coordinates; similar branch names require an explicit distinct-property cross-check.
+- Arrival-night evidence and **all 156 hotel records** were identity-checked (Seoul/Gyeongju/Busan/Cheonan/Daejeon on August 10, 2026; the Suwon shortlist on August 18, 2026; expanded Seoul batches on August 19, 2026). Every card shows a canonical property source, source type, date, and verification note. The validator rejects duplicate IDs, sourced names, official URLs, identity-source URLs, and exact coordinates; similar branch names require an explicit distinct-property cross-check.
 - No duplicate hotel entries remain. Five independent hotels without a stable official page are retained only because a government-tourism or major trusted booking source confirms the exact property and address. See [`guide/verification-audit.md`](guide/verification-audit.md).
 - A 24-hour front desk covers the **hotel-arrival** risk, not the **airport-transfer** risk. Check live public-transport / shuttle timing on the day; take a taxi when the final connection is tight.
 - Use the exact recommended room type. A property may list a lower-priced twin or smaller double that does not meet the one-queen/king preference.

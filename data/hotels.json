@@ -17055,6 +17055,142 @@
         "prepayment": null,
         "note": "NOT CAPTURED on 2026-08-21. For reference only, the repo's own 2026-08-19 audit recorded Standard Twin Room (No Parking), 2 twin beds, $180/night, $1,260 before tax for this window — that is a prior-pass figure and is NOT stored as a live rate here. Re-fetch before using."
       }
+    },
+    {
+      "id": "seoul-hotel-thomas-myeongdong",
+      "city": "Seoul",
+      "name": "Hotel Thomas Myeongdong",
+      "tier": "budget",
+      "stars": 3,
+      "area": "Myeongdong / City Hall (Jung-gu)",
+      "neighborhood": "26, Sejong-daero 16-gil, Jung-gu (04526) — independent listings place it about 0.6 km from Seoul City Hall, near the City Hall metro and one stop from Seoul Station. Booking's captured chunks did not state a walk time.",
+      "priceFrom": 147,
+      "priceTo": 243,
+      "currency": "USD",
+      "checkIn": "15:00 (from an independent listing — not confirmed on the captured Booking page)",
+      "checkOut": "12:00 (same source caveat)",
+      "policies": [
+        "Breakfast $14 per person per night (optional) — but Booking's guests rate it only 5.6/10.",
+        "⚠️ Free cancellation runs to 7 days before arrival in BOTH windows, and inside it the fee is the TOTAL price of the reservation; a no-show costs the same.",
+        "⚠️ Prepayment terms DIFFER by window: Nov 1–9 rows are 'No prepayment needed — pay at the property', Nov 15–22 rows are 'Pay nothing until November 6, 2026'.",
+        "Displayed prices combine an 'Early Booker Deal', a Genius member discount and (in the Nov 15–22 window) a pay-online reduction — 38–43% off the original.",
+        "24-hour front desk, express check-in/out, laundry service, banquet and meeting rooms, luggage storage, currency exchange (independent amenity list)."
+      ],
+      "rooms": [
+        {
+          "name": "Deluxe Twin Room",
+          "price": "$158/night member rate (Nov 15–22, 2026)",
+          "note": "249 ft², city view, soundproofed; 6 left at capture",
+          "bed": "twin",
+          "bedType": "twin",
+          "bedSize": "2 twin beds",
+          "oneBed": false,
+          "oneBedOnly": false,
+          "privateBathroom": true,
+          "bedNote": "Two twin beds. ⚠️ Booking's amenity list for this room shows BOTH 'Attached bathroom' AND 'Shared toilet' — contradictory; confirm the bathroom is private before booking."
+        },
+        {
+          "name": "Family Twin Room",
+          "price": "$229/night member rate (Nov 1–9, 2026)",
+          "note": "249 ft², city view, soundproofed; 6 left at capture",
+          "bed": "twin",
+          "bedType": "twin",
+          "bedSize": "1 twin bed AND 1 full bed — two separate beds",
+          "oneBed": false,
+          "oneBedOnly": false,
+          "privateBathroom": true,
+          "bedNote": "Two beds (twin + full). Same 'Attached bathroom' / 'Shared toilet' contradiction in the amenity list."
+        },
+        {
+          "name": "Triple Room - Bath",
+          "price": "Listed in the Nov 1–9, 2026 table; price not captured",
+          "note": "Room header captured, rate cell outside the fetched chunk",
+          "bed": "twin",
+          "bedType": "twin",
+          "bedSize": "Not captured",
+          "oneBed": false,
+          "oneBedOnly": false,
+          "privateBathroom": true,
+          "bedNote": "Bed configuration not captured."
+        }
+      ],
+      "promos": [
+        "Almost half the displayed discount is a Genius member rate plus an Early Booker Deal. The public, non-member price is materially higher — compare the hotel's own site."
+      ],
+      "amenities": [
+        "Restaurant",
+        "24-hour front desk",
+        "Express check-in / check-out",
+        "Laundry service",
+        "Banquet and meeting rooms",
+        "Luggage storage",
+        "Currency exchange",
+        "Elevator"
+      ],
+      "hasOnSiteLaundry": false,
+      "officialLabel": "Official Hotel Thomas Myeongdong site — URL not yet captured (see verification note)",
+      "compareUrl": "https://www.booking.com/hotel/kr/thomas-myeongdong.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "compareLabel": "Compare rates (Booking.com dated page, Nov 15–22 2026)",
+      "why": "The cheapest Seoul property verified in both windows in this batch series — $158/night for Nov 15–22 — sitting between Myeongdong and City Hall, one stop from Seoul Station. Useful as the low-cost anchor of the Seoul option set even though it is twin-only.",
+      "highlights": [
+        "Cheapest both-window-verified Seoul entry in this series",
+        "Between Myeongdong and City Hall, one stop from Seoul Station",
+        "7-day free-cancellation deadline in both windows"
+      ],
+      "fits": false,
+      "fitReason": "No single-bed room was captured in either window — the named rooms are a 2-twin Deluxe Twin and a twin+full Family Twin. Booking's own amenity list also contradicts itself on whether the bathroom is private ('Attached bathroom' and 'Shared toilet' both appear), so the private-bathroom requirement is not safely established either.",
+      "lat": 37.56312942504883,
+      "lng": 126.97834777832031,
+      "priceNote": "Range spans the captured member-rate rows ($147/nt cheapest unnamed row, Nov 15–22, to $243/nt Family Twin with breakfast, Nov 1–9). These are Genius member prices, not public prices.",
+      "verification": {
+        "lastChecked": "2026-08-21",
+        "sourceType": "Major trusted booking platform + independent structured listing",
+        "sourceUrl": "https://www.booking.com/hotel/kr/thomas-myeongdong.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "canonicalName": "Hotel Thomas Myeongdong",
+        "existenceStatus": "Verified operating property",
+        "note": "Booking.com's dated pages serve live bookable rate tables for BOTH Nov 1-9 and Nov 15-22 2026. Three independent structured listings agree on 26, Sejong-daero 16-gil, Jung-gu, 04526 Seoul with coordinates 37.56312942 / 126.97834777, 37.563175 / 126.978264 and 37.563277 / 126.978348 (agreeing to 3-4 decimal places); the first is used. Star rating 3 on two of the three. Check-in 15:00 / check-out 12:00 per one listing. This property was HELD OUT by the 2026-08-19 Myeongdong audit because the rate/cancellation block was never fully captured; both windows are now captured with verbatim cancellation terms, so it is added. FLAGGED (bathroom): Booking's per-room amenity list contains BOTH 'Attached bathroom' and 'Shared toilet' for the same rooms. That is contradictory and means the private-bathroom requirement is NOT established. Confirm before booking. FLAGGED: no single-bed room was captured in either window. FLAGGED: the two windows use DIFFERENT room codes (Family Twin vs Deluxe Twin), so their prices are not like-for-like. FLAGGED: prepayment terms differ by window - pay-at-property for Nov 1-9, payment due Nov 6 for Nov 15-22. FLAGGED: all captured prices are Genius member + Early Booker Deal rates, 38-43% below the displayed originals. FLAGGED: breakfast is rated 5.6/10 by Booking guests. FLAGGED: the official property URL was NOT captured, so officialUrl is intentionally absent. Distinct from seoul-g2-hotel-myeongdong, seoul-solaria-nishitetsu-myeongdong and seoul-hotel-prince-myeongdong.",
+        "distinctFrom": [
+          "seoul-g2-hotel-myeongdong",
+          "seoul-solaria-nishitetsu-myeongdong",
+          "seoul-hotel-prince-myeongdong"
+        ]
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-21T23:40:00Z",
+        "source": "Booking.com property page — dated rate table (live fetch 2026-08-21)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/thomas-myeongdong.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "stayCheckIn": "2026-11-01",
+        "stayCheckOut": "2026-11-09",
+        "nights": 8,
+        "available": true,
+        "room": "Family Twin Room",
+        "beds": "1 twin bed AND 1 full bed (249 ft², city view) — NOT a one-bed room",
+        "pricePerNight": 229,
+        "totalStay": 1833,
+        "currency": "USD (display; Genius member + Early Booker Deal price, total before taxes $1,833.11, 38% off an original $2,951.86; 10% TAX excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before October 25, 2026 — free until 7 days before arrival; ⚠️ inside 7 days the fee is the TOTAL price of the reservation, and the no-show fee is the same",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "LIVE 2026-08-21. 6 left. Breakfast-inclusive variant of the same room $243/$1,944.02. A cheaper room whose header fell outside the fetched chunk shows $194/nt ($1,553.52) and $208/nt ($1,664.43) — name deliberately not guessed. A 'Triple Room - Bath' is also listed without a captured price."
+      },
+      "refundableRateNov15": {
+        "capturedAtUtc": "2026-08-21T23:40:00Z",
+        "source": "Booking.com property page — dated rate table (live fetch 2026-08-21)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/thomas-myeongdong.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "stayCheckIn": "2026-11-15",
+        "stayCheckOut": "2026-11-22",
+        "nights": 7,
+        "available": true,
+        "room": "Deluxe Twin Room",
+        "beds": "2 twin beds (249 ft², city view) — NOT a one-bed room",
+        "pricePerNight": 158,
+        "totalStay": 1106,
+        "currency": "USD (display; Genius member + Early Booker Deal + pay-online price, total before taxes $1,105.66, 43% off an original $1,956.54; 10% TAX excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 8, 2026 — free until 7 days before arrival; ⚠️ inside 7 days the fee is the TOTAL price of the reservation, and the no-show fee is the same",
+        "prepayment": "Pay nothing until November 6, 2026 (payment then due, property time)",
+        "note": "LIVE 2026-08-21. 6 left. Breakfast-inclusive variant $171/$1,193.97. A cheaper unnamed room shows $147/nt ($1,031.02) and $160/nt ($1,119.33). ⚠️ Different room code from the Nov 1–9 row, so the two windows are NOT a like-for-like price comparison. Prepayment terms also differ between the windows."
+      }
     }
   ],
   "meta": {
@@ -17064,7 +17200,7 @@
     "expandedPrimaryCityHotels": 50,
     "verifiedPrimaryCityHotels": 50,
     "identityAuditLastChecked": "2026-08-18",
-    "verifiedHotelRecords": 155,
+    "verifiedHotelRecords": 156,
     "duplicateHotelRecords": 0,
     "refundableRateCaptures": {
       "lastRun": "2026-08-21",
@@ -17331,6 +17467,25 @@
           {
             "candidate": "Hotel Midcity Myeongdong",
             "reason": "Booking URL known (/hotel/kr/hotel-midcity-myeongdong.html). The 2026-08-19 audit found NO availability in either Seoul window, with a Standard Double listed as 1 queen bed but not sellable. Not re-checked in this round."
+          }
+        ]
+      },
+      {
+        "batch": "2026-08-21 area-by-area, round 7",
+        "areasWorked": [
+          "Seoul / Myeongdong (completion)"
+        ],
+        "added": [
+          "seoul-hotel-thomas-myeongdong"
+        ],
+        "windowsCaptured": [
+          "2026-11-01 → 2026-11-09",
+          "2026-11-15 → 2026-11-22"
+        ],
+        "investigatedNotAdded": [
+          {
+            "candidate": "Hotel Midcity Myeongdong",
+            "reason": "Booking URL known (/hotel/kr/hotel-midcity-myeongdong.html). Not re-fetched in this round; the 2026-08-19 audit found no availability in either Seoul window, with a Standard Double listed as 1 queen bed but not sellable. Still the last open Myeongdong item."
           }
         ]
       }

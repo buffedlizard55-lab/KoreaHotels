@@ -12,7 +12,7 @@ Anything missing means the candidate is **held out and documented**, not added w
 
 ---
 
-## Added: 8 (round 1 Busan · round 2 Dongdaemun + Mapo · round 3 Jongno fringe · round 4 Gangnam · rounds 5–6 Myeong-dong)
+## Added: 9 (round 1 Busan · round 2 Dongdaemun + Mapo · round 3 Jongno fringe · round 4 Gangnam · rounds 5–7 Myeong-dong)
 
 ### Hyatt Place Busan Yeonsan — `busan-hyatt-place-yeonsan`
 
@@ -171,6 +171,51 @@ Because the same room code was captured in both windows for both properties:
 6. Distinct from **Aloft Seoul Myeongdong**, already in the list.
 
 
+
+
+---
+
+## Round 7 — Myeong-dong completed (added 2026-08-21 ~23:40 UTC)
+
+### Hotel Thomas Myeongdong — `seoul-hotel-thomas-myeongdong`
+
+| Field | Value | Source |
+|---|---|---|
+| Address | 26, Sejong-daero 16-gil, Jung-gu, 04526 Seoul | Three independent structured listings, in agreement |
+| Coordinates | 37.56312942 / 126.97834777 (others: 37.563175/126.978264, 37.563277/126.978348) | Same listings, agreeing to 3–4 dp |
+| Star / hours | 3-star; check-in 15:00, check-out 12:00 | Independent listings |
+| **Nov 1–9, 2026 (8 nt)** | Family Twin Room — **1 twin + 1 full**, 249 ft², city view, 6 left. **$229/night · $1,833.11** before taxes (38% off $2,951.86), 10% TAX excluded | Booking.com |
+| — terms | Free cancellation before **October 25, 2026** (7 days); ⚠️ inside 7 days **and** on a no-show the fee is the **TOTAL reservation**. **No prepayment — pay at the property.** | Booking.com, verbatim |
+| **Nov 15–22, 2026 (7 nt)** | Deluxe Twin Room — **2 twin beds**, 249 ft², city view, 6 left. **$158/night · $1,105.66** before taxes (43% off $1,956.54), 10% TAX excluded | Booking.com |
+| — terms | Free cancellation before **November 8, 2026** (7 days), same total-price penalty. **Pay nothing until November 6, 2026.** | Booking.com, verbatim |
+| Other rows | Nov 1–9 breakfast-inclusive $243/$1,944.02; an unnamed cheaper room at $194/$1,553.52 and $208/$1,664.43; a "Triple Room - Bath" with no captured price. Nov 15–22 breakfast-inclusive $171/$1,193.97; unnamed cheaper room $147/$1,031.02 and $160/$1,119.33 | Booking.com |
+
+**Manual verification:** [Nov 1–9](https://www.booking.com/hotel/kr/thomas-myeongdong.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD) · [Nov 15–22](https://www.booking.com/hotel/kr/thomas-myeongdong.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD)
+
+**Flags:**
+
+1. **⚠️ Bathroom status is contradictory.** Booking's per-room amenity list contains **both "Attached bathroom" and "Shared toilet"** for the same rooms. The private-bathroom requirement is **not established**. This is the single most important thing to confirm before booking here.
+2. **No single-bed room in either window** — Family Twin (twin + full) and Deluxe Twin (2 twin). `fits: false`.
+3. **Prices are Genius member + Early Booker Deal rates**, 38–43% below the displayed originals. The public price is much higher.
+4. **Different room codes in the two windows** — not a like-for-like comparison.
+5. **Prepayment structure differs by window** (pay-at-property vs payment due Nov 6).
+6. **Breakfast rated 5.6/10** by Booking guests — the lowest of any property added in this series.
+7. No official property URL captured, so `officialUrl` is absent.
+
+This property was held out by the 2026-08-19 audit because its rate/cancellation block was never fully captured. Both windows now have verbatim terms, so it is added — with the bathroom contradiction recorded rather than smoothed over.
+
+### Myeong-dong status after round 7
+
+| Property | Status |
+|---|---|
+| Solaria Nishitetsu Hotel Seoul Myeongdong | ✅ Added (round 5) |
+| Hotel Prince Seoul | ✅ Added (round 5) |
+| G2 Hotel Myeongdong | ✅ Added (round 6) |
+| Hotel Thomas Myeongdong | ✅ Added (round 7) |
+| Metro Hotel Myeongdong | ❌ Eliminated — closed for renovation 2026-06-16 → 2027-02-28, covering all three trip windows |
+| Hotel Midcity Myeongdong | ⏳ Last open item — URL known, showed no availability in either window on 2026-08-19, needs one re-check |
+
+Five of the six unattached Myeongdong Booking URLs found in this repo's own guide files are now resolved.
 
 ---
 
@@ -340,7 +385,7 @@ Each Seoul candidate needs **two** dated captures (Nov 1–9 and Nov 15–22) pl
 | Gangnam | **Round 4 complete** — Aloft by Marriott Seoul Gangnam added; InterContinental Seoul COEX held out (slug 404); Andaz Seoul Gangnam re-verified as still unavailable for Nov 1–9. |
 | Busan | Round 1 complete: 1 added, 1 held out. |
 
-**Running total across all six rounds: 8 added, 10 held out (each with a recorded finding), 1 identity collision resolved, 1 earlier hold-out re-verified, 1 property eliminated outright (Metro Hotel Myeongdong — closed for renovation across the whole trip), 0 duplicates created.**
+**Running total across all seven rounds: 9 added, 10 held out (each with a recorded finding), 1 identity collision resolved, 1 earlier hold-out re-verified, 1 property eliminated outright (Metro Hotel Myeongdong — closed for renovation across the whole trip), 0 duplicates created.**
 
 ### Open re-tries — all blocked on the same thing
 

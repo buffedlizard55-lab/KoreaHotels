@@ -5944,6 +5944,44 @@
       "refundableAvailable": false,
       "rates": [],
       "note": "CLOSED FOR RENOVATION 2026-06-16 to 2027-02-28 per the property text on its Booking page; Booking states reservations cannot be made. The renovation window covers all three trip windows (Nov 1-9, Nov 9-15, Nov 15-22, 2026). Excluded from consideration."
+    },
+    {
+      "captureId": "2026-08-21T23:40:00Z-seoul-hotel-thomas-myeongdong-nov1",
+      "hotelId": "seoul-hotel-thomas-myeongdong",
+      "capturedAtUtc": "2026-08-21T23:40:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/thomas-myeongdong.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Family Twin Room",
+          "beds": "1 twin bed AND 1 full bed (249 ft², city view) — NOT a one-bed room",
+          "meetsOneBedNeed": false,
+          "pricePerNightUsd": 229,
+          "totalStayUsd": 1833,
+          "taxNote": "USD (display; Genius member + Early Booker Deal price, total before taxes $1,833.11, 38% off an original $2,951.86; 10% TAX excluded)",
+          "cancellationAsShown": "Free cancellation before October 25, 2026 — free until 7 days before arrival; ⚠️ inside 7 days the fee is the TOTAL price of the reservation, and the no-show fee is the same"
+        }
+      ],
+      "note": "LIVE 2026-08-21. 6 left. Breakfast-inclusive variant of the same room $243/$1,944.02. A cheaper room whose header fell outside the fetched chunk shows $194/nt ($1,553.52) and $208/nt ($1,664.43) — name deliberately not guessed. A 'Triple Room - Bath' is also listed without a captured price."
+    },
+    {
+      "captureId": "2026-08-21T23:40:00Z-seoul-hotel-thomas-myeongdong-nov15",
+      "hotelId": "seoul-hotel-thomas-myeongdong",
+      "capturedAtUtc": "2026-08-21T23:40:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/thomas-myeongdong.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Deluxe Twin Room",
+          "beds": "2 twin beds (249 ft², city view) — NOT a one-bed room",
+          "meetsOneBedNeed": false,
+          "pricePerNightUsd": 158,
+          "totalStayUsd": 1106,
+          "taxNote": "USD (display; Genius member + Early Booker Deal + pay-online price, total before taxes $1,105.66, 43% off an original $1,956.54; 10% TAX excluded)",
+          "cancellationAsShown": "Free cancellation before November 8, 2026 — free until 7 days before arrival; ⚠️ inside 7 days the fee is the TOTAL price of the reservation, and the no-show fee is the same"
+        }
+      ],
+      "note": "LIVE 2026-08-21. 6 left. Breakfast-inclusive variant $171/$1,193.97. A cheaper unnamed room shows $147/nt ($1,031.02) and $160/nt ($1,119.33). ⚠️ Different room code from the Nov 1–9 row, so the two windows are NOT a like-for-like price comparison. Prepayment terms also differ between the windows."
     }
   ]
 }

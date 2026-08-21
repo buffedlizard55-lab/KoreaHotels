@@ -8,7 +8,7 @@ A blank or missing value means it was not verified — nothing here is estimated
 | Window | Nights | Planned city | Rows with a live dated quote | Line-by-line checklist |
 |---|---:|---|---:|---|
 | **Nov 1–9, 2026** | 8 | Seoul | 89 | [Seoul dual window](guide/verification-seoul-dual-window-nov1-and-nov15-2026.md) · [Dongdaemun batch 5](guide/verification-seoul-dongdaemun-batch5-2026-08-19.md) |
-| **Nov 9–15, 2026** | 6 | **Busan** (this request) + Gyeongju alternates | 18 Busan + 9 Gyeongju | [Busan Nov 9–15 pass](guide/verification-busan-nov9-15-2026-08-21.md) |
+| **Nov 9–15, 2026** | 6 | **Busan** (this request) + Gyeongju alternates | 19 Busan + 9 Gyeongju | [Busan Nov 9–15 pass](guide/verification-busan-nov9-15-2026-08-21.md) |
 | **Nov 15–22, 2026** | 7 | Busan (original plan) + Seoul alternates | 112 | [Seoul Nov 15 pass](guide/verification-seoul-nov15-2026.md) |
 
 > ⚠️ **Do not compare a row in one table with a row in another.** They are different search lengths (8 / 6 / 7 nights) and different searches.
@@ -18,8 +18,8 @@ A blank or missing value means it was not verified — nothing here is estimated
 
 ## 🅰 Table A — Nov 9–15, 2026 · 6 nights · **BUSAN** (the focus of this pass)
 
-Captured **2026-08-21**, Booking.com dated pages, 2 adults · 1 room · USD.
-**All 20 original Busan records are resolved for this window — 17 live refundable rates, 1 verified sold out, 2 not distributed on Booking.com — plus 1 newly added property (Hyatt Place Busan Yeonsan).** Nothing is estimated.
+Captured 2026-08-21/22, Booking.com dated pages, 2 adults · 1 room · USD.
+**All 21 original Busan records are resolved for this window — 17 live refundable rates, 1 verified sold out, 2 not distributed on Booking, 1 added in round 1 — plus 1 more added in round 10.**
 
 | Hotel | City · area | Room captured | Beds on the sold row | Refundable — free until | $/night | Total | Captured (UTC) | Verify |
 |---|---|---|---|---|---:|---:|---|---|
@@ -28,6 +28,7 @@ Captured **2026-08-21**, Booking.com dated pages, 2 adults · 1 room · USD.
 | ASTI Hotel Busan Station | Busan · Busan Station (Dong-gu) | Standard Double Room with City View (Partner Offer) | 1 full bed (284 ft²) | Free cancellation before November 8, 2026 | $79 | **$471** | 2026-08-21 | [dated rate](https://www.booking.com/hotel/kr/asti-busan.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD) |
 | Ramada Encore by Wyndham Busan Station | Busan · Busan Station / Dong-gu | Superior Double Room | 1 full bed (208 ft²) | Free cancellation before November 7, 2026 | $79 | **$474** | 2026-08-21 | [dated rate](https://www.booking.com/hotel/kr/ramada-encore-by-wyndham-busan.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD) |
 | Crown Harbor Hotel Busan | Busan · Jungang / Nampo | [Busan Minibar] Executive Double City | 1 full bed (291 ft²) | Free cancellation before November 7, 2026 | $91 | **$548** | 2026-08-21 | [dated rate](https://www.booking.com/hotel/kr/crown-harbour-busan.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD) |
+| Hotel Foret Premier Nampo | Busan · Nampo / BIFF Square (Jung-g… | Family Twin Room | 1 twin bed AND 1 full bed (258 ft², landmark + city view) — NOT a one-bed room | Free cancellation before November 6, 2026 | $100 | **$601** | 2026-08-22 | [dated rate](https://www.booking.com/hotel/kr/foret-premier-nampo.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD) |
 | Fairfield by Marriott Busan | Busan · Haeundae | Standard Room - 1 King Bed with City View | 1 king bed (248 ft²) | Free cancellation before November 9, 2026 | $103 | **$617** | 2026-08-21 | [dated rate](https://www.booking.com/hotel/kr/fairfield-by-marriott-busan.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD) |
 | Fairfield by Marriott Busan Songdo Beach | Busan · Songdo Beach | Standard Room - Guest room, 1 King, Sea view | 1 king bed (323 ft², sea + landmark view) | Free cancellation before November 9, 2026 | $127 | **$761** | 2026-08-21 | [dated rate](https://www.booking.com/hotel/kr/fairfield-by-marriott-busan-songdo-beach.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD) |
 | Avani Central Busan | Busan · BIFC / Seomyeon | Deluxe King Room with Mountain View (refundable rate) | 1 queen bed (301 ft², high floor) | Free cancellation before November 6, 2026 | $132 | **$790** | 2026-08-21 | [dated rate](https://www.booking.com/hotel/kr/avani-central-busan.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD) |
@@ -308,6 +309,38 @@ Kept completely separate from Table A and Table B. Capture dates are shown per r
 
 Added to the master list only after identity, coordinates, bed count **and** a dated refundable rate for every relevant window were all sourced from pages actually fetched.
 
+### Round 10 — Busan batch (1 added · a whole district found missing)
+
+| New entry | Area | Room / bed count | Nov 9–15 (6 nt) refundable | Cancellation | Verify |
+|---|---|---|---|---|---|
+| **Hotel Foret Premier Nampo** | Nampo / BIFF Square (Jung-gu) | Family Twin — **1 twin + 1 full**, 258 ft² | **$100/nt · $601** | Free until **3 days** out — ⚠️ inside that, **and on a no-show, the fee is the TOTAL stay** | [dated rate](https://www.booking.com/hotel/kr/foret-premier-nampo.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD) |
+
+**The cheapest verified Busan option for your window**, and only the second Nampo/BIFF Square record alongside Crown Harbor. Guests place it steps from Jagalchi Market, BIFF Square and the subway.
+
+### 🔍 Coverage gap found: **Gwangalli had zero records**
+
+Busan has two main beach districts. The list covered **Haeundae** heavily (11 records) plus Seomyeon, Busan Station, Nampo, Songdo and Yeonsan — but **not a single property in Gwangalli (Suyeong-gu)**, which is the quieter beach opposite Gwangan Bridge. That is a real hole in "fully understanding all our options", and it was invisible until this pass.
+
+Three Gwangalli/Nampo candidates now have **identity and coordinates confirmed** — the hard part — and need only a rate capture:
+
+| Candidate | Address | Coordinates | Blocker |
+|---|---|---|---|
+| **Kent Hotel Gwangalli by Kensington** | 229 Gwanganhaebyeon-ro, Suyeong-gu 48303 | 35.154232 / 129.11925 | Booking slug unresolved (`kent-hotel-gwangalli` 404s) |
+| **H Avenue Gwangalli** | 29 Millaksubyeon-ro, Suyeong-gu 48283 | 35.1532 / 129.12468 | Slug not yet attempted |
+| **Hound Premier Hotel Nampo** | 24 Bosu-daero, Jung-gu 48980 | 35.099094 / 129.02522 | Booking slug unresolved (`hound-premier-nampo` 404s) |
+| Toyoko Inn Busan Seomyeon | 39 Seojeon-ro, Busanjin-gu 47247 | not yet obtained | Likely direct-book only (same ~3-month window policy as Toyoko Seoul Dongdaemun II) |
+
+⚠️ **H Avenue Gwangalli caveat already recorded:** guests report it occupies floors 8–10 of a building **housing four other hotels**, and the nearest metro (Gwangan) is a ~20-minute walk. Verify which operator you are actually booking.
+
+**🚩 Flags on round 10:**
+
+1. **A separate CITY TAX is excluded on top of 10% TAX** at Foret Premier Nampo — only the second Busan record with a second tax line. The $601 is not the amount you pay.
+2. **Cancellation inside 3 days *and* a no-show both cost the TOTAL stay.**
+3. **Photo ID *and* credit card required at check-in**, and the property asks to be told your arrival time in advance.
+4. **No single-bed room captured** — the named room is a twin + full. `fits: false`.
+5. Only **2 rooms left** at capture; breakfast rated 6.7/10.
+6. Booking's own address line wasn't in the captured chunk, so the street address rests on an independent listing.
+
 ### Round 9 — Re-verification round 2 · every no-rate record now has a *reason* (0 added)
 
 Two more single-check negatives were re-tested, and — more importantly — **all 19 records without a live rate now carry an explicit `distributionStatus`**, so a blank price cell can never be misread as "sold out".
@@ -543,11 +576,11 @@ Read the source links, trade-offs, and exact booking workflow in [`guide/arrival
 Open [`index.html`](index.html) in a browser to use the planner. The top of the page is a **verified findings dashboard** (coverage table, charts, recommendations, and sample price totals) built only from UTC-stamped quotes. It is intentionally simple:
 
 - **Arrival night** — five source-checked late-arrival options, evidence links, trade-offs, and a copyable message to send the hotel.
-- **Expanded city lists** — browse 101 Seoul, 15 Gyeongju, 21 Busan, 7 Cheonan, 7 Daejeon, and 5 Suwon hotels. Seoul has two date tables (planned Nov 1–9 vs alternate Nov 15–22) in [`guide/verification-seoul-dual-window-nov1-and-nov15-2026.md`](guide/verification-seoul-dual-window-nov1-and-nov15-2026.md); the latest strictly verified Dongdaemun additions and held-out candidates are in [`guide/verification-seoul-dongdaemun-batch5-2026-08-19.md`](guide/verification-seoul-dongdaemun-batch5-2026-08-19.md). The Busan **Nov 9–15** pass is [`guide/verification-busan-nov9-15-2026-08-21.md`](guide/verification-busan-nov9-15-2026-08-21.md).
+- **Expanded city lists** — browse 101 Seoul, 15 Gyeongju, 22 Busan, 7 Cheonan, 7 Daejeon, and 5 Suwon hotels. Seoul has two date tables (planned Nov 1–9 vs alternate Nov 15–22) in [`guide/verification-seoul-dual-window-nov1-and-nov15-2026.md`](guide/verification-seoul-dual-window-nov1-and-nov15-2026.md); the latest strictly verified Dongdaemun additions and held-out candidates are in [`guide/verification-seoul-dongdaemun-batch5-2026-08-19.md`](guide/verification-seoul-dongdaemun-batch5-2026-08-19.md). The Busan **Nov 9–15** pass is [`guide/verification-busan-nov9-15-2026-08-21.md`](guide/verification-busan-nov9-15-2026-08-21.md).
 - **Quick filters** — view all stays, only core-needs matches, or stays with laundry; search within the current city.
 - **Useful details at a glance** — estimated nightly range, recommended room, bed setup, bathroom/transport fit, normal check-in/out time, canonical identity source, and rate-comparison link.
 - **Timestamped refundable pricing** — hotel cards show a ♻️ badge with the captured refundable rate, cancellation deadline, and UTC capture time; the append-only log lives in [`data/pricing-history.json`](data/pricing-history.json). The four-city (Suwon / Gyeongju / Cheonan / Daejeon) 2026-08-18T19:16Z checklist is [`guide/verification-suwon-gyeongju-cheonan-daejeon-2026-08-18.md`](guide/verification-suwon-gyeongju-cheonan-daejeon-2026-08-18.md). The earlier same-day Seoul-inclusive pass is [`guide/verification-checklist-2026-08-18-line-by-line.md`](guide/verification-checklist-2026-08-18-line-by-line.md).
-- **Duplicate protection** — all 156 records are source verified; similarly named branches are cross-checked as distinct properties.
+- **Duplicate protection** — all 157 records are source verified; similarly named branches are cross-checked as distinct properties.
 
 There is no account, tracker, or backend. It is a static planning document that can be hosted with GitHub Pages or opened locally.
 
@@ -573,12 +606,12 @@ For regular stays, a green **“Core needs match”** badge means the research h
 |---|---:|---|
 | Seoul | 101 | First-night shortlist + Myeongdong / Jongno / Dongdaemun / Hongdae / Itaewon / Gangnam (dual date windows) |
 | Gyeongju | 15 | Heritage / hanok, Old Town, Bulguksa, and Bomun Lake stays |
-| Busan | 21 | Haeundae, Seomyeon, Busan Station, Nampo, and Songdo options |
+| Busan | 22 | Haeundae, Seomyeon, Busan Station, Nampo, and Songdo options |
 | Cheonan | 7 | KTX-corridor alternative |
 | Daejeon | 7 | KTX-corridor alternative |
 | Suwon | 5 | Seoul-area base (Suwon Station + Hwaseong Fortress) |
-| **Planned cities** | **137** | Seoul + Gyeongju + Busan |
-| **Total** | **156** | Full city-by-city comparison set |
+| **Planned cities** | **138** | Seoul + Gyeongju + Busan |
+| **Total** | **157** | Full city-by-city comparison set |
 
 Prices are planning estimates for the 2026 autumn itinerary, not live inventory. Always verify a live rate and exact room configuration before paying.
 
@@ -609,7 +642,7 @@ Then visit `http://localhost:8000` in a local browser, or open `index.html` dire
 ├── index.template.html     # Site shell; data is embedded at build time
 ├── index.html              # Generated static planner
 ├── data/
-│   ├── hotels.json         # 156 city hotels + five-option arrivalNight shortlist and source links
+│   ├── hotels.json         # 157 city hotels + five-option arrivalNight shortlist and source links
 │   └── itinerary.json      # Dates, city order, and alternatives
 ├── guide/
 │   ├── arrival-night.md    # 24-hour reception research + late-arrival workflow
@@ -628,7 +661,7 @@ Then visit `http://localhost:8000` in a local browser, or open `index.html` dire
 
 ## Research and booking guardrails
 
-- Arrival-night evidence and **all 156 hotel records** were identity-checked (Seoul/Gyeongju/Busan/Cheonan/Daejeon on August 10, 2026; the Suwon shortlist on August 18, 2026; expanded Seoul batches on August 19, 2026). Every card shows a canonical property source, source type, date, and verification note. The validator rejects duplicate IDs, sourced names, official URLs, identity-source URLs, and exact coordinates; similar branch names require an explicit distinct-property cross-check.
+- Arrival-night evidence and **all 157 hotel records** were identity-checked (Seoul/Gyeongju/Busan/Cheonan/Daejeon on August 10, 2026; the Suwon shortlist on August 18, 2026; expanded Seoul batches on August 19, 2026). Every card shows a canonical property source, source type, date, and verification note. The validator rejects duplicate IDs, sourced names, official URLs, identity-source URLs, and exact coordinates; similar branch names require an explicit distinct-property cross-check.
 - No duplicate hotel entries remain. Five independent hotels without a stable official page are retained only because a government-tourism or major trusted booking source confirms the exact property and address. See [`guide/verification-audit.md`](guide/verification-audit.md).
 - A 24-hour front desk covers the **hotel-arrival** risk, not the **airport-transfer** risk. Check live public-transport / shuttle timing on the day; take a taxi when the final connection is tight.
 - Use the exact recommended room type. A property may list a lower-priced twin or smaller double that does not meet the one-queen/king preference.

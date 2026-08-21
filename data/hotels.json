@@ -17306,6 +17306,96 @@
         "prepayment": "Pay nothing until November 6, 2026 (payment then due, property time)",
         "note": "LIVE 2026-08-21. 6 left. Breakfast-inclusive variant $171/$1,193.97. A cheaper unnamed room shows $147/nt ($1,031.02) and $160/nt ($1,119.33). ⚠️ Different room code from the Nov 1–9 row, so the two windows are NOT a like-for-like price comparison. Prepayment terms also differ between the windows."
       }
+    },
+    {
+      "id": "busan-foret-premier-nampo",
+      "city": "Busan",
+      "name": "Hotel Foret Premier Nampo",
+      "tier": "budget",
+      "stars": 3,
+      "area": "Nampo / BIFF Square (Jung-gu)",
+      "neighborhood": "54-1, Gudeok-ro, Jung-gu, Busan 48953 (independent listing — Booking's own address line was not inside the captured chunk). Guests consistently report it is steps from BIFF Square, Jagalchi Fish Market, the subway and a bus stop directly outside; an independent listing adds Yongdusan Park and Busan Tower within walking distance.",
+      "priceFrom": 100,
+      "priceTo": 129,
+      "currency": "USD",
+      "checkIn": "15:00 — Booking states guests must show a photo ID AND credit card at check-in, and must tell the property their arrival time in advance",
+      "checkOut": "Not verified — not shown in the captured page",
+      "policies": [
+        "⚠️ Photo ID AND credit card required at check-in; the property asks to be told your arrival time in advance.",
+        "⚠️ Cancellation inside 3 days costs the TOTAL price of the reservation, and the no-show fee is also the TOTAL price.",
+        "⚠️ A separate CITY TAX is excluded on top of the 10% TAX — budget for both.",
+        "Breakfast $11 per person per night (optional), rated only 6.7/10 by Booking guests.",
+        "24-hour front desk, terrace, parking, free WiFi, facilities for disabled guests, non-smoking rooms."
+      ],
+      "rooms": [
+        {
+          "name": "Family Twin Room",
+          "price": "$100/night refundable (Nov 9–15, 2026)",
+          "note": "258 ft², landmark + city view; only 2 left at capture",
+          "bed": "twin",
+          "bedType": "twin",
+          "bedSize": "1 twin bed AND 1 full bed — two separate beds",
+          "oneBed": false,
+          "oneBedOnly": false,
+          "privateBathroom": true,
+          "bedNote": "Two beds (twin + full). Does not meet the single-bed preference."
+        }
+      ],
+      "promos": [
+        "The displayed 51% discount is a property promotion, not a member rate — the original shown was $1,227.22 for the 6 nights."
+      ],
+      "amenities": [
+        "24-hour front desk",
+        "Terrace",
+        "Parking",
+        "Facilities for disabled guests",
+        "Non-smoking rooms",
+        "Free WiFi"
+      ],
+      "hasOnSiteLaundry": false,
+      "officialLabel": "Official Hotel Foret property page — URL not yet captured (see verification note)",
+      "compareUrl": "https://www.booking.com/hotel/kr/foret-premier-nampo.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "compareLabel": "Compare rates (Booking.com dated page, Nov 9–15 2026)",
+      "why": "By far the cheapest verified Busan option for the Nov 9–15 window at $100/night, and the only Nampo/BIFF Square record besides Crown Harbor — it puts Jagalchi Market, BIFF Square and the subway within a few minutes' walk.",
+      "highlights": [
+        "Cheapest verified Busan rate for Nov 9–15 ($100/night)",
+        "Walking distance to BIFF Square, Jagalchi Market and the subway",
+        "No prepayment — pay at the property"
+      ],
+      "fits": false,
+      "fitReason": "The only room captured is a Family Twin with 1 twin + 1 full bed — no single-bed room was found in the captured rate table, and no mattress width is published.",
+      "lat": 35.098415,
+      "lng": 129.02971,
+      "priceNote": "Range is the captured Nov 9–15, 2026 span ($100/nt room-only to $129/nt breakfast-inclusive). ⚠️ Both figures exclude a separate city tax AND 10% TAX.",
+      "verification": {
+        "lastChecked": "2026-08-22",
+        "sourceType": "Major trusted booking platform + independent structured listing",
+        "sourceUrl": "https://www.booking.com/hotel/kr/foret-premier-nampo.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "canonicalName": "Hotel Foret Premier Nampo",
+        "existenceStatus": "Verified operating property",
+        "note": "Booking.com's dated page confirms the property name and serves a live bookable rate table for Nov 9-15 2026, plus house rules (check-in from 15:00, photo ID and credit card required, advance notice of arrival time) and facilities (24-hour front desk, terrace, parking). An independent structured listing gives 54-1, Gudeok-ro, Jung-gu, Busan 48953 with coordinates 35.098415 / 129.02971 and describes it as a modern 3-star hotel walking distance from Yongdusan Park, Busan Tower, Jagalchi Fish Market and BIFF Square. FLAGGED: Booking's own address line was NOT inside the captured page chunk, so the street address rests on the independent listing. FLAGGED: a separate CITY TAX is excluded in addition to the 10% TAX - only the second Busan record in this dataset with a second tax line. FLAGGED: cancellation inside 3 days AND a no-show are both charged the TOTAL stay price. FLAGGED: no single-bed room was captured; the named room is a Family Twin with 1 twin + 1 full. FLAGGED: the official Hotel Foret URL was NOT captured, so officialUrl is intentionally absent. FLAGGED: 'stars: 3' comes from an independent listing, not the captured Booking page. Distinct from busan-crown-harbor, the other Nampo-area record.",
+        "distinctFrom": [
+          "busan-crown-harbor"
+        ]
+      },
+      "refundableRateNov9": {
+        "capturedAtUtc": "2026-08-22T01:30:00Z",
+        "source": "Booking.com property page — dated rate table (live fetch 2026-08-22)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/foret-premier-nampo.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "stayCheckIn": "2026-11-09",
+        "stayCheckOut": "2026-11-15",
+        "nights": 6,
+        "available": true,
+        "room": "Family Twin Room",
+        "beds": "1 twin bed AND 1 full bed (258 ft², landmark + city view) — NOT a one-bed room",
+        "pricePerNight": 100,
+        "totalStay": 601,
+        "currency": "USD (display; total before taxes $601.34 after a 51% property discount from $1,227.22; ⚠️ EXCLUDES a separate CITY TAX and 10% TAX)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 6, 2026 — free until 3 days before arrival; ⚠️ inside 3 days the fee is the TOTAL price of the reservation, and the no-show fee is the same",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "LIVE 2026-08-22. Only 2 left. Breakfast-inclusive variant of the same room $129/nt ($774.06). A further room whose header fell outside the fetched chunk shows a $659 six-night total with breakfast included — name deliberately not guessed. Breakfast rated 6.7/10."
+      }
     }
   ],
   "meta": {
@@ -17315,7 +17405,7 @@
     "expandedPrimaryCityHotels": 50,
     "verifiedPrimaryCityHotels": 50,
     "identityAuditLastChecked": "2026-08-18",
-    "verifiedHotelRecords": 156,
+    "verifiedHotelRecords": 157,
     "duplicateHotelRecords": 0,
     "refundableRateCaptures": {
       "lastRun": "2026-08-21",
@@ -17615,6 +17705,51 @@
           {
             "candidate": "Hotel Midcity Myeongdong",
             "reason": "RE-CHECKED 2026-08-21 for Nov 1-9 2026: still NO availability. Booking returned no rate table at all and instead served its alternative-dates widget. IMPORTANT NUANCE: that widget shows the property IS selling adjacent ranges — Nov 8-14 from $1,546, Nov 9-15 from $1,641, Nov 10-16 from $1,641, Nov 11-18 from $1,851, Nov 8-15 from $1,889, Nov 8-16 from $2,128. So this is not a closed or sold-out hotel; the specific Nov 1-9 eight-night span fails. Those 'from' figures are Booking's totals for OTHER date ranges and are explicitly NOT our-window rates. Nov 15-22 was not re-checked this pass."
+          }
+        ]
+      },
+      {
+        "batch": "2026-08-22 Busan batch, round 10",
+        "areasWorked": [
+          "Busan / Nampo",
+          "Busan / Gwangalli (coverage gap identified)",
+          "Busan / Seomyeon"
+        ],
+        "added": [
+          "busan-foret-premier-nampo"
+        ],
+        "windowsCaptured": [
+          "2026-11-09 → 2026-11-15"
+        ],
+        "coverageGapFound": "GWANGALLI (Suyeong-gu) had ZERO records despite being one of Busan's two main beach districts. The list covered Haeundae, Seomyeon, Busan Station, Nampo, Songdo and Yeonsan but not Gwangalli.",
+        "identityConfirmedRatePending": [
+          {
+            "candidate": "Kent Hotel Gwangalli by Kensington",
+            "address": "229, Gwanganhaebyeon-ro, Suyeong-gu, Busan 48303",
+            "lat": 35.154232,
+            "lng": 129.11925,
+            "note": "Kensington-brand beachfront hotel on Gwangalli. Rooftop bar/terrace, restaurant, 24-hour front desk, breakfast buffet, convenience store, currency exchange. Booking slug NOT resolved (kent-hotel-gwangalli 404s). Identity and coordinates are in hand — only the dated rate capture is missing."
+          },
+          {
+            "candidate": "H Avenue Gwangalli",
+            "address": "29, Millaksubyeon-ro, Suyeong-gu, Busan 48283",
+            "lat": 35.1532,
+            "lng": 129.12468,
+            "note": "All guestrooms ocean-view over Gwangan Bridge and Millak. Guests note the nearest metro (Gwangan) is a ~20-minute walk and the hotel occupies floors 8-10 of a building housing four other hotels — verify which operator you are actually booking. Booking slug not attempted."
+          },
+          {
+            "candidate": "Hound Premier Hotel Nampo",
+            "address": "24, Bosu-daero, Jung-gu, Busan 48980",
+            "lat": 35.099094,
+            "lng": 129.02522,
+            "note": "Identity and coordinates confirmed. Booking slug NOT resolved (hound-premier-nampo 404s)."
+          },
+          {
+            "candidate": "Toyoko Inn Busan Seomyeon",
+            "address": "39, Seojeon-ro, Busanjin-gu, Busan 47247",
+            "lat": null,
+            "lng": null,
+            "note": "Third Toyoko Inn in Busan and the only Seomyeon one; phone +82 51-638-1045. Coordinates NOT yet obtained. Note the chain sells direct on a ~3-month booking window, so a Booking rate may not exist for these dates (same structural pattern as Toyoko Inn Seoul Dongdaemun II)."
           }
         ]
       }

@@ -6018,6 +6018,25 @@
       "refundableAvailable": false,
       "rates": [],
       "note": "Second negative for Nov 1-9 2026; no rate table rendered. Structural (Toyoko sells direct, ~3-month booking window). House rules captured: check-in 15:00-24:00, check-out 10:00, min age 18, children 7+ charged as adults, no cribs/extra beds, cash accepted, licence 제2018-00012호."
+    },
+    {
+      "captureId": "2026-08-22T01:30:00Z-busan-foret-premier-nampo-nov9",
+      "hotelId": "busan-foret-premier-nampo",
+      "capturedAtUtc": "2026-08-22T01:30:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/foret-premier-nampo.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Family Twin Room",
+          "beds": "1 twin bed AND 1 full bed (258 ft², landmark + city view) — NOT a one-bed room",
+          "meetsOneBedNeed": false,
+          "pricePerNightUsd": 100,
+          "totalStayUsd": 601,
+          "taxNote": "USD (display; total before taxes $601.34 after a 51% property discount from $1,227.22; ⚠️ EXCLUDES a separate CITY TAX and 10% TAX)",
+          "cancellationAsShown": "Free cancellation before November 6, 2026 — free until 3 days before arrival; ⚠️ inside 3 days the fee is the TOTAL price of the reservation, and the no-show fee is the same"
+        }
+      ],
+      "note": "LIVE 2026-08-22. Only 2 left. Breakfast-inclusive variant of the same room $129/nt ($774.06). A further room whose header fell outside the fetched chunk shows a $659 six-night total with breakfast included — name deliberately not guessed. Breakfast rated 6.7/10."
     }
   ]
 }

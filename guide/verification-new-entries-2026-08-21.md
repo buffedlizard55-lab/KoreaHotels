@@ -12,7 +12,7 @@ Anything missing means the candidate is **held out and documented**, not added w
 
 ---
 
-## Added: 5 (round 1 Busan · round 2 Dongdaemun + Mapo · round 3 Jongno fringe · round 4 Gangnam)
+## Added: 7 (round 1 Busan · round 2 Dongdaemun + Mapo · round 3 Jongno fringe · round 4 Gangnam · round 5 Myeong-dong)
 
 ### Hyatt Place Busan Yeonsan — `busan-hyatt-place-yeonsan`
 
@@ -170,6 +170,64 @@ Because the same room code was captured in both windows for both properties:
 5. **A cheaper unnamed row** at $1,793 for 8 nights sits above the Aloft River rows; its room name was cut at a page-chunk boundary and is recorded in the note only.
 6. Distinct from **Aloft Seoul Myeongdong**, already in the list.
 
+
+---
+
+## Round 5 — Myeong-dong (added 2026-08-21 ~22:20 UTC)
+
+### How these were found — no slug guessing
+
+Rounds 3 and 4 lost time guessing Booking slugs. Round 5 changed method: every Booking URL mentioned anywhere in this repo's `guide/` files was extracted and diffed against the URLs already attached to master records. That surfaced **six Myeongdong properties with known-good Booking URLs that had never been added**:
+
+`g2-myeongdong` · `hotel-midcity-myeongdong` · `hotel-prince-seoul` · `metro` · `solaria-nishitetsu-seoul` · `thomas-myeongdong`
+
+All six had been **held out by the 2026-08-19 Myeongdong audit**, mostly because the row captured at the time happened to be a twin — which is not a valid reason to exclude a property from a checklist whose stated goal is *"not cheapest refundable but fully understanding all our options."* Two are now fully verified in both windows.
+
+### Solaria Nishitetsu Hotel Seoul Myeongdong — `seoul-solaria-nishitetsu-myeongdong`
+
+| Field | Value | Source |
+|---|---|---|
+| Booking property name | "Solaria Nishitetsu Hotel Seoul Myeongdong - **Renovated in 2025**" | Booking.com |
+| Address | 27, Myeong-dong 8-gil, Jung-gu, 04536 Seoul | Booking.com |
+| Coordinates | 37.5624504 / 126.9853668 (a second listing gives 37.5626 / 126.98516) | Independent structured listings |
+| **Nov 1–9, 2026 (8 nt)** | Casual Double **- No Window** — 1 full bed, 237 ft², **1 left**. **$306/night · $2,446.67** before taxes (23% off $3,165.98), 10% TAX excluded | Booking.com |
+| **Nov 15–22, 2026 (7 nt)** | Standard Double Room — 1 full bed, 269 ft², **3 left**. **$327/night · $2,289.55** before taxes (24% off $3,012.57), 10% TAX excluded | Booking.com |
+| Cancellation, both windows | Free until **2 days** before arrival. ⚠️ **Inside 2 days the fee is the TOTAL stay price, and the no-show fee is also the TOTAL stay price.** | Booking.com, verbatim |
+| Prepayment | Pay nothing until Oct 28 / Nov 11 | Booking.com |
+| Other rows | Nov 1–9 Standard Twin (2 twin) $308/$2,464.68 · Nov 15–22 Partner Offer Standard Double $304/$2,128 (pay in advance, no modifications) · Hollywood Double $313/$2,193 | Booking.com |
+
+**Flags:** the only "king"-labelled row is **Hollywood Double** (two joined mattresses — the sixth bed-label conflict in this series) · the Nov 1–9 refundable room **has no window** · the two windows use different room codes so they are **not** like-for-like · harshest penalty terms found so far · no official Nishitetsu URL captured · `stars: 3` and `hasOnSiteLaundry: true` both rest on third-party listings.
+
+### Hotel Prince Seoul — `seoul-hotel-prince-myeongdong`
+
+| Field | Value | Source |
+|---|---|---|
+| Address | 130 Toegye-ro, Jung-gu, 100-042 Seoul | Independent structured listings |
+| Coordinates | 37.56064987 / 126.98625183 (second listing 37.560732 / 126.986238) | Independent structured listings |
+| **Nov 1–9, 2026 (8 nt)** | Twin Room B — **2 twin beds**, 215 ft², high floor, 2 left. **$195/night · $1,750.51** before taxes (26% off $2,358.09), 10% service charge included, 10% TAX excluded | Booking.com |
+| **Nov 15–22, 2026 (7 nt)** | Double Room A (block RD28644505) — **1 queen bed**, high floor, 3 left. **$159/night · $1,249.51** before taxes, 10% service charge included, 10% TAX excluded | Booking.com |
+| Cancellation, both windows | Free until **SEVEN days** before arrival; then the first night. ⚠️ **No-show fee is the TOTAL reservation price.** | Booking.com, verbatim |
+| Prepayment | Pay nothing until Oct 23 / Nov 6 | Booking.com |
+
+**The headline finding:** a **7-day free-cancellation window** in both date windows. Every other record in this dataset is 1–3 days. On a trip that is still being planned, that is a materially different risk profile.
+
+**Flags:**
+
+- **$159/night is a members-only price.** Displayed stack: original $1,888.56 → bonus savings −$339.94 → Genius −$188.86 → Booking.com pays −$110.25 → **$1,249.51**. The public price is higher.
+- **No-show = the whole reservation**, even though in-window cancellation is only the first night.
+- **The queen row's label was cut** in today's capture. The name *Double Room A* is carried from this repo's own 2026-08-19 audit of the **same Booking room block ID (RD28644505)** — matched, not invented.
+- The two windows use **different room codes** (twin vs queen) — not a like-for-like comparison.
+- Star rating disagrees across sources (3 and 4).
+- No official `hotelprinceseoul.co.kr` URL captured, so `officialUrl` is absent.
+
+### Still held out in Myeong-dong
+
+| Candidate | Booking URL known | Why still out |
+|---|---|---|
+| G2 Hotel Myeongdong | `g2-myeongdong` | Only twin rows captured so far; the cancellation block fell outside the captured text in the earlier pass. |
+| Hotel Thomas Myeongdong | `thomas-myeongdong` | Rate/cancellation block never fully captured; only twin rooms seen. |
+| Hotel Midcity Myeongdong | `hotel-midcity-myeongdong` | Earlier pass found **no availability in either window**; a Standard Double exists in inventory as 1 queen but was not sellable. Needs a re-check. |
+
 ---
 
 ## Round 4 hold-outs
@@ -234,11 +292,11 @@ Each Seoul candidate needs **two** dated captures (Nov 1–9 and Nov 15–22) pl
 | Hongdae / Mapo | **Round 2 complete** — LOTTE CITY HOTEL Mapo added (Gongdeok, Hongdae catchment). Hongdae proper (Mapo-gu core) still has room for candidates. |
 | Itaewon | **Round 3 worked** — no property added. The candidate investigated (Nouvelle by Anook) sells **only non-refundable** rates. The four existing Itaewon records (Grand Hyatt, Mondrian, Hamilton, Imperial Palace Boutique) already cover the area's refundable tier. |
 | Jongno / Insadong | **Round 3 partially worked** — Fraser Place Central Seoul added on the Jung-gu/Seodaemun fringe; **Hotel Aventree Jongno held out** pending a working Booking slug. |
-| Myeong-dong | **Deliberately skipped.** With 25+ records already, remaining candidates are overwhelmingly rebrands of properties already listed rather than genuinely new inventory. Revisit only if a specific new property is named. |
+| Myeong-dong | **Round 5 complete — the earlier "skip it" call was wrong.** Six unattached Booking URLs were found inside this repo's own guide files; Solaria Nishitetsu and Hotel Prince Seoul are now added, three remain held out with known URLs. |
 | Gangnam | **Round 4 complete** — Aloft by Marriott Seoul Gangnam added; InterContinental Seoul COEX held out (slug 404); Andaz Seoul Gangnam re-verified as still unavailable for Nov 1–9. |
 | Busan | Round 1 complete: 1 added, 1 held out. |
 
-**Running total across all four rounds: 5 added, 5 held out (each with a recorded finding), 1 identity collision resolved, 1 earlier hold-out re-verified, 0 duplicates created.**
+**Running total across all five rounds: 7 added, 8 held out (each with a recorded finding), 1 identity collision resolved, 1 earlier hold-out re-verified, 0 duplicates created.**
 
 ### Open re-tries — all blocked on the same thing
 

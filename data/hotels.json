@@ -16652,6 +16652,298 @@
         "prepayment": "No prepayment needed — pay at the property",
         "note": "LIVE 2026-08-21. 5 left. Same room code as the Nov 1–9 row, so the two windows ARE like-for-like: $218/nt over 8 nights vs $210/nt over 7 nights (−4%). Breakfast-inclusive variant $235/$1,807; Chic River $217/$1,675."
       }
+    },
+    {
+      "id": "seoul-solaria-nishitetsu-myeongdong",
+      "city": "Seoul",
+      "name": "Solaria Nishitetsu Hotel Seoul Myeongdong",
+      "tier": "mid",
+      "stars": 3,
+      "area": "Myeongdong (Jung-gu)",
+      "neighborhood": "27, Myeong-dong 8-gil, Jung-gu (04536) — inside the Myeongdong shopping grid; an independent listing puts Noon Square about 200 m away. Booking's captured chunks did not state a subway walk time.",
+      "priceFrom": 304,
+      "priceTo": 356,
+      "currency": "USD",
+      "checkIn": "Not verified — not shown in the captured page; a third-party listing gives an implausible 12:00, so confirm with the hotel",
+      "checkOut": "Not verified — see check-in note",
+      "policies": [
+        "Buffet breakfast $20 per person per night (optional on most rate plans).",
+        "⚠️ Cancellation penalty is the TOTAL stay price inside 2 days, and the no-show fee is also the TOTAL stay price.",
+        "Booking's property name now reads 'Solaria Nishitetsu Hotel Seoul Myeongdong - Renovated in 2025'.",
+        "An independent structured amenity list reports self-serve laundry, 24-hour front desk and express check-in/out.",
+        "Nishitetsu Hotel Group (Fukuoka, Japan) — this is the group's first overseas property per an independent listing."
+      ],
+      "rooms": [
+        {
+          "name": "Standard Double Room",
+          "price": "$327/night refundable (Nov 15–22, 2026)",
+          "note": "269 ft², city view, soundproofed; 3 left at capture",
+          "bed": "double",
+          "bedType": "double",
+          "bedSize": "Booking bed label: 1 full bed. No width published by any source checked.",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single full/double bed — Booking does not call it a queen."
+        },
+        {
+          "name": "Casual Double - No Window",
+          "price": "$306/night refundable (Nov 1–9, 2026)",
+          "note": "237 ft², ⚠️ NO WINDOW; 1 left at capture",
+          "bed": "double",
+          "bedType": "double",
+          "bedSize": "Booking bed label: 1 full bed",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Single full bed, but the room has no window — check that this is acceptable for a multi-night stay."
+        },
+        {
+          "name": "Hollywood Double",
+          "price": "$313/night (Nov 15–22, 2026 capture)",
+          "note": "269 ft², city view; 2 left at capture; KRW 305,422 tax per stay excluded",
+          "bed": "double",
+          "bedType": "double",
+          "bedSize": "⚠️ Booking states '1 king bed', but the room is named 'Hollywood' — a Hollywood configuration is two mattresses pushed together, not a single king.",
+          "oneBed": false,
+          "oneBedOnly": false,
+          "privateBathroom": true,
+          "bedNote": "Name and bed label contradict each other. Do NOT treat as a single king mattress without written confirmation."
+        },
+        {
+          "name": "Standard Twin Room",
+          "price": "$308/night refundable (Nov 1–9, 2026)",
+          "note": "269 ft², city view; 3 left at capture",
+          "bed": "twin",
+          "bedType": "twin",
+          "bedSize": "2 twin beds",
+          "oneBed": false,
+          "oneBedOnly": false,
+          "privateBathroom": true,
+          "bedNote": "Two twin beds."
+        }
+      ],
+      "promos": [
+        "Nishitetsu Hotels direct rates are not shown on Booking — price the same dates on the group's own site before committing."
+      ],
+      "amenities": [
+        "Restaurant",
+        "Bar / lounge",
+        "24-hour front desk",
+        "Self-serve laundry (independent listing)",
+        "Luggage storage",
+        "Currency exchange",
+        "Concierge"
+      ],
+      "hasOnSiteLaundry": true,
+      "officialLabel": "Official Nishitetsu / Solaria property page — URL not yet captured (see verification note)",
+      "compareUrl": "https://www.booking.com/hotel/kr/solaria-nishitetsu-seoul.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "compareLabel": "Compare rates (Booking.com dated page, Nov 1–9 2026)",
+      "why": "A 2025-renovated Japanese-brand hotel in the centre of the Myeongdong grid with a self-serve laundry. It closes a real gap: the repo held it out on 2026-08-19 because the audited row was a twin, but the property does sell single-bed rooms in both windows.",
+      "highlights": [
+        "Renovated in 2025 (per Booking's own property name)",
+        "Self-serve laundry reported",
+        "Centre of the Myeongdong shopping grid"
+      ],
+      "fits": false,
+      "fitReason": "Every one-bed room captured is labelled '1 full bed' by Booking with no published width, so it does not meet the one-queen/king (~150 cm+) preference. The only 'king'-labelled row is a Hollywood (joined-mattress) room.",
+      "lat": 37.5624504,
+      "lng": 126.9853668,
+      "priceNote": "Range spans the captured Partner-Offer low ($304/nt, Nov 15–22) to the refundable breakfast-inclusive high ($356/nt, Nov 15–22). Both windows captured separately on 2026-08-21.",
+      "verification": {
+        "lastChecked": "2026-08-21",
+        "sourceType": "Major trusted booking platform + independent structured listing",
+        "sourceUrl": "https://www.booking.com/hotel/kr/solaria-nishitetsu-seoul.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "canonicalName": "Solaria Nishitetsu Hotel Seoul Myeongdong",
+        "existenceStatus": "Verified operating property",
+        "note": "Booking.com's dated page confirms the property as 'Solaria Nishitetsu Hotel Seoul Myeongdong - Renovated in 2025' at 27, Myeong-dong 8-gil, Jung-gu, 04536 Seoul, with live bookable rate tables for BOTH Nov 1-9 and Nov 15-22 2026. Two independent structured listings give the same street address and postal code with coordinates 37.56245 / 126.98537 and 37.5626 / 126.98516 (agreeing to ~3 decimal places); the first is used here. Phone +82 2-773-1555. This property was HELD OUT by the earlier 2026-08-19 Myeongdong audit because the row captured then was a twin; single-bed rooms are confirmed sellable in both windows here, so it is now added. FLAGGED: the only 'king'-labelled row is called 'Hollywood Double' - a Hollywood bed is two joined mattresses. FLAGGED: cancellation penalty inside 2 days is the TOTAL stay price, and the no-show fee is also the TOTAL stay price - unusually harsh. FLAGGED: the official Nishitetsu/Solaria property URL was NOT captured, so officialUrl is intentionally absent. FLAGGED: 'stars: 3' comes from an independent listing, not the captured Booking page. FLAGGED: hasOnSiteLaundry is true on the strength of an independent structured amenity list ('Self-serve laundry'); Booking's captured facility list did not repeat it. Distinct from seoul-sotetsu-splaisir-myeongdong and seoul-sotetsu-fresa-inn-myeongdong, which are Sotetsu-brand properties, not Nishitetsu.",
+        "distinctFrom": [
+          "seoul-sotetsu-splaisir-myeongdong",
+          "seoul-sotetsu-fresa-inn-myeongdong",
+          "seoul-hotel-skypark-myeongdong3"
+        ]
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-21T22:20:00Z",
+        "source": "Booking.com property page — dated rate table (live fetch 2026-08-21)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/solaria-nishitetsu-seoul.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "stayCheckIn": "2026-11-01",
+        "stayCheckOut": "2026-11-09",
+        "nights": 8,
+        "available": true,
+        "room": "Casual Double - No Window",
+        "beds": "1 full bed (237 ft², ⚠️ no window)",
+        "pricePerNight": 306,
+        "totalStay": 2447,
+        "currency": "USD (display; total before taxes $2,446.67 after 23% off an original $3,165.98; 10% TAX excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before October 30, 2026 — free until 2 days before arrival; ⚠️ inside 2 days the fee is the TOTAL stay price, and the no-show fee is also the TOTAL stay price",
+        "prepayment": "Pay nothing until October 28, 2026 (payment then due, property time)",
+        "note": "LIVE 2026-08-21. Only 1 left. Same window: Standard Twin Room (2 twin, 269 ft²) $308/$2,464.68, 3 left; a Standard Double Room (269 ft², 4 left) is also offered but its price cell fell outside the captured page chunk. ⚠️ The two windows on this record use DIFFERENT room codes, so they are not a like-for-like price comparison."
+      },
+      "refundableRateNov15": {
+        "capturedAtUtc": "2026-08-21T22:20:00Z",
+        "source": "Booking.com property page — dated rate table (live fetch 2026-08-21)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/solaria-nishitetsu-seoul.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "stayCheckIn": "2026-11-15",
+        "stayCheckOut": "2026-11-22",
+        "nights": 7,
+        "available": true,
+        "room": "Standard Double Room (pay-later rate)",
+        "beds": "1 full bed (269 ft², city view)",
+        "pricePerNight": 327,
+        "totalStay": 2290,
+        "currency": "USD (display; total before taxes $2,289.55 after 24% off an original $3,012.57; 10% TAX excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 13, 2026 — free until 2 days before arrival; ⚠️ inside 2 days the fee is the TOTAL stay price, and the no-show fee is also the TOTAL stay price",
+        "prepayment": "Pay nothing until November 11, 2026 (payment then due, property time)",
+        "note": "LIVE 2026-08-21. 3 left. Same room also sells as a Partner Offer at $304/nt, $2,128 (KRW 296,356 tax per stay excluded) — free cancellation before Nov 13 but PAY IN ADVANCE with no modifications. Breakfast-inclusive variant $356/$2,490.98. Hollywood Double (Booking says '1 king bed', but Hollywood = two joined mattresses) $313/$2,193, 2 left."
+      }
+    },
+    {
+      "id": "seoul-hotel-prince-myeongdong",
+      "city": "Seoul",
+      "name": "Hotel Prince Seoul",
+      "tier": "budget",
+      "stars": 3,
+      "area": "Myeongdong / Toegye-ro (Jung-gu)",
+      "neighborhood": "130 Toegye-ro, Jung-gu (100-042) — independent listings place it directly opposite the Myeongdong night-market street, about 350 m from Myeongdong Station, with an airport limousine bus stop outside. Booking's captured chunks did not state the walk time.",
+      "priceFrom": 159,
+      "priceTo": 230,
+      "currency": "USD",
+      "checkIn": "15:00 (from an independent structured listing — not confirmed on the captured Booking page)",
+      "checkOut": "12:00 (same source caveat)",
+      "policies": [
+        "American breakfast $11 per person per night (optional) — the cheapest breakfast of any record added in this batch series.",
+        "All captured rates INCLUDE a 10% service charge and EXCLUDE 10% TAX.",
+        "⚠️ No-show fee is the TOTAL price of the reservation, even though in-window cancellation is only the first night.",
+        "No on-site parking (independent listing).",
+        "Check-in/check-out times come from a third-party listing, not the captured Booking page."
+      ],
+      "rooms": [
+        {
+          "name": "Double Room A",
+          "price": "$159/night refundable Genius member price (Nov 15–22, 2026)",
+          "note": "High floor; 3 left at capture. Room name carried from the repo's own 2026-08-19 audit of the same Booking room block (RD28644505) because the label was cut in today's capture.",
+          "bed": "queen",
+          "bedType": "queen",
+          "bedSize": "Booking bed label: 1 queen bed. No physical width published by any source checked.",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Booking calls it a queen, which verifies the OTA bed category but not a millimetre width."
+        },
+        {
+          "name": "Twin Room B",
+          "price": "$195/night refundable (Nov 1–9, 2026)",
+          "note": "215 ft², high floor; 2 left at capture",
+          "bed": "twin",
+          "bedType": "twin",
+          "bedSize": "2 twin beds",
+          "oneBed": false,
+          "oneBedOnly": false,
+          "privateBathroom": true,
+          "bedNote": "Two twin beds."
+        },
+        {
+          "name": "Twin Room C",
+          "price": "$230/night refundable (Nov 1–9, 2026)",
+          "note": "226 ft², city view, high floor; 5 left at capture",
+          "bed": "twin",
+          "bedType": "twin",
+          "bedSize": "2 twin beds",
+          "oneBed": false,
+          "oneBedOnly": false,
+          "privateBathroom": true,
+          "bedNote": "Two twin beds."
+        },
+        {
+          "name": "Triple",
+          "price": "Listed in the Nov 1–9, 2026 table; price not captured",
+          "note": "248 ft², landmark/city view, high floor; 5 left",
+          "bed": "twin",
+          "bedType": "twin",
+          "bedSize": "3 twin beds",
+          "oneBed": false,
+          "oneBedOnly": false,
+          "privateBathroom": true,
+          "bedNote": "Three twin beds."
+        }
+      ],
+      "promos": [
+        "A large part of the displayed discount is a Genius member rate plus a pay-online reduction — the public walk-up price is materially higher. Compare against the hotel's own site."
+      ],
+      "amenities": [
+        "Restaurant",
+        "24-hour front desk",
+        "Luggage storage",
+        "Soundproofed rooms",
+        "Airport limousine bus stop outside (independent listing)"
+      ],
+      "hasOnSiteLaundry": false,
+      "officialLabel": "Official Hotel Prince Seoul site — URL not yet captured (see verification note)",
+      "compareUrl": "https://www.booking.com/hotel/kr/hotel-prince-seoul.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "compareLabel": "Compare rates (Booking.com dated page, Nov 15–22 2026)",
+      "why": "The longest free-cancellation runway found anywhere in this project — SEVEN days before arrival, in both windows — on a budget Myeongdong property with a genuine 1-queen room. That flexibility is worth more than a few dollars a night when plans are still moving.",
+      "highlights": [
+        "Free cancellation until 7 DAYS before arrival — the longest runway in the whole dataset",
+        "1-queen room sellable in the Nov 15–22 window at $159/nt member price",
+        "Directly opposite the Myeongdong night-market street"
+      ],
+      "fits": false,
+      "fitReason": "Booking labels the Nov 15–22 room '1 queen bed' with a private bathroom, but no source publishes the mattress width and no walkable-rail distance was captured from a primary source. Not marked a core-needs match until the width is confirmed.",
+      "lat": 37.56064987,
+      "lng": 126.98625183,
+      "priceNote": "Range spans the captured Genius member low ($159/nt, Nov 15–22) to Twin Room C ($230/nt, Nov 1–9). The $159 is NOT the public price — the same row's original was $1,888.56 for 7 nights.",
+      "verification": {
+        "lastChecked": "2026-08-21",
+        "sourceType": "Major trusted booking platform + independent structured listing",
+        "sourceUrl": "https://www.booking.com/hotel/kr/hotel-prince-seoul.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "canonicalName": "Hotel Prince Seoul",
+        "existenceStatus": "Verified operating property",
+        "note": "Booking.com's dated pages serve live bookable rate tables for BOTH Nov 1-9 and Nov 15-22 2026. Independent structured listings give 130 Toegye-ro, Jung-gu, 100-042 with coordinates 37.56064987 / 126.98625183 (a second listing gives 37.560732 / 126.986238, agreeing to ~4 decimal places) and phone +82 2-752-7111. This property was HELD OUT by the earlier 2026-08-19 Myeongdong audit because the row captured then was a twin; the 1-queen Double Room A is confirmed sellable for Nov 15-22 here, so it is now added. FLAGGED: today's capture cut the room label on the queen row; the name 'Double Room A' is carried from the repo's own 2026-08-19 audit of the SAME Booking room block ID (RD28644505), not invented. FLAGGED: the $159/night figure is a Genius member + pay-online price (34% off an original $1,888.56 for 7 nights). The public price is higher. FLAGGED: the no-show fee is the TOTAL reservation price even though in-window cancellation is only the first night. FLAGGED: star rating disagrees across sources (3 and 4); 'stars: 3' is the more common value. FLAGGED: the official hotelprinceseoul.co.kr property URL was NOT captured, so officialUrl is intentionally absent.",
+        "distinctFrom": [
+          "seoul-solaria-nishitetsu-myeongdong",
+          "seoul-sejong-hotel-myeongdong",
+          "seoul-royal-hotel"
+        ]
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-21T22:20:00Z",
+        "source": "Booking.com property page — dated rate table (live fetch 2026-08-21)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/hotel-prince-seoul.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "stayCheckIn": "2026-11-01",
+        "stayCheckOut": "2026-11-09",
+        "nights": 8,
+        "available": true,
+        "room": "Twin Room B",
+        "beds": "2 twin beds (215 ft², high floor) — NOT a one-bed room",
+        "pricePerNight": 195,
+        "totalStay": 1751,
+        "currency": "USD (display; total before taxes $1,750.51 after 26% off an original $2,358.09; 10% service charge INCLUDED; 10% TAX excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before October 25, 2026 — free until SEVEN days before arrival; then the first night. ⚠️ No-show fee is the TOTAL reservation price",
+        "prepayment": "Pay nothing until October 23, 2026 (payment then due, property time)",
+        "note": "LIVE 2026-08-21. 2 left. No one-bed room was inside the captured Nov 1–9 chunk. A cheaper row at $185/nt, $1,657.56 (1 left) sits above it but its room label was cut at a page-chunk boundary and is NOT recorded. Twin Room C (2 twin, 226 ft², city view) $230/$2,060.33, 5 left. A Triple (3 twin beds) is also offered."
+      },
+      "refundableRateNov15": {
+        "capturedAtUtc": "2026-08-21T22:20:00Z",
+        "source": "Booking.com property page — dated rate table (live fetch 2026-08-21)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/hotel-prince-seoul.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "stayCheckIn": "2026-11-15",
+        "stayCheckOut": "2026-11-22",
+        "nights": 7,
+        "available": true,
+        "room": "Double Room A (room block RD28644505)",
+        "beds": "1 queen bed (high floor)",
+        "pricePerNight": 159,
+        "totalStay": 1250,
+        "currency": "USD (display; Genius member + pay-online price, total before taxes $1,249.51, 34% off an original $1,888.56; 10% service charge INCLUDED; 10% TAX excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 8, 2026 — free until SEVEN days before arrival; then the first night. ⚠️ No-show fee is the TOTAL reservation price",
+        "prepayment": "Pay nothing until November 6, 2026 (payment then due, property time)",
+        "note": "LIVE 2026-08-21. 3 left. ⚠️ $159/nt is a members-only price: the displayed stack is original $1,888.56 → bonus savings −$339.94 → Genius −$188.86 → Booking.com pays −$110.25 → $1,249.51. Budget the public figure, not $159. ⚠️ The two windows on this record use DIFFERENT room codes (twin in Nov 1–9, queen in Nov 15–22), so they are not a like-for-like price comparison."
+      }
     }
   ],
   "meta": {
@@ -16661,7 +16953,7 @@
     "expandedPrimaryCityHotels": 50,
     "verifiedPrimaryCityHotels": 50,
     "identityAuditLastChecked": "2026-08-18",
-    "verifiedHotelRecords": 152,
+    "verifiedHotelRecords": 154,
     "duplicateHotelRecords": 0,
     "refundableRateCaptures": {
       "lastRun": "2026-08-21",
@@ -16879,6 +17171,29 @@
             "candidate": "Andaz Seoul Gangnam, By Hyatt",
             "reason": "RE-VERIFIED 2026-08-21: still no sellable inventory for Nov 1–9, 2026. Every room type — Premium King (1 king), Premium Twin (2 twin), King Room High Floor (1 king), Twin Room High Floor (2 twin) — is marked 'Not available on our site for your dates'. This confirms the 2026-08-19 batch-5 finding. Booking house rules captured: check-in 15:00, check-out 11:00, minimum check-in age 20, pets not allowed, children 13+ charged as adults. Guests repeatedly note it is directly connected to Apgujeong Station (Line 3). Remains a direct-booking follow-up, not an invented price row."
           }
+        ]
+      },
+      {
+        "batch": "2026-08-21 area-by-area, round 5",
+        "areasWorked": [
+          "Seoul / Myeongdong"
+        ],
+        "added": [
+          "seoul-solaria-nishitetsu-myeongdong",
+          "seoul-hotel-prince-myeongdong"
+        ],
+        "windowsCaptured": [
+          "2026-11-01 → 2026-11-09",
+          "2026-11-15 → 2026-11-22"
+        ],
+        "method": "Recovered from Booking URLs already recorded in this repo's own guide files but never attached to a master record — no slug guessing required.",
+        "resolved": [
+          "Both properties had been HELD OUT by the 2026-08-19 Myeongdong audit because the rows captured then were twins. Single-bed rooms are confirmed sellable, so both are now added."
+        ],
+        "stillHeldOut": [
+          "G2 Hotel Myeongdong",
+          "Hotel Thomas Myeongdong",
+          "Hotel Midcity Myeongdong"
         ]
       }
     ]

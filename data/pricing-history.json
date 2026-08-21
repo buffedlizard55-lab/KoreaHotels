@@ -5840,6 +5840,82 @@
       "refundableAvailable": false,
       "rates": [],
       "note": "Re-check of the 2026-08-19 batch-5 hold-out. Still NO availability for Nov 1–9, 2026: Premium King, Premium Twin, King Room High Floor and Twin Room High Floor are all marked 'Not available on our site for your dates'. House rules captured: check-in 15:00, check-out 11:00, minimum age 20, pets not allowed, children 13+ charged as adults."
+    },
+    {
+      "captureId": "2026-08-21T22:20:00Z-seoul-solaria-nishitetsu-myeongdong-nov1",
+      "hotelId": "seoul-solaria-nishitetsu-myeongdong",
+      "capturedAtUtc": "2026-08-21T22:20:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/solaria-nishitetsu-seoul.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Casual Double - No Window",
+          "beds": "1 full bed (237 ft², ⚠️ no window)",
+          "meetsOneBedNeed": false,
+          "pricePerNightUsd": 306,
+          "totalStayUsd": 2447,
+          "taxNote": "USD (display; total before taxes $2,446.67 after 23% off an original $3,165.98; 10% TAX excluded)",
+          "cancellationAsShown": "Free cancellation before October 30, 2026 — free until 2 days before arrival; ⚠️ inside 2 days the fee is the TOTAL stay price, and the no-show fee is also the TOTAL stay price"
+        }
+      ],
+      "note": "LIVE 2026-08-21. Only 1 left. Same window: Standard Twin Room (2 twin, 269 ft²) $308/$2,464.68, 3 left; a Standard Double Room (269 ft², 4 left) is also offered but its price cell fell outside the captured page chunk. ⚠️ The two windows on this record use DIFFERENT room codes, so they are not a like-for-like price comparison."
+    },
+    {
+      "captureId": "2026-08-21T22:20:00Z-seoul-solaria-nishitetsu-myeongdong-nov15",
+      "hotelId": "seoul-solaria-nishitetsu-myeongdong",
+      "capturedAtUtc": "2026-08-21T22:20:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/solaria-nishitetsu-seoul.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Standard Double Room (pay-later rate)",
+          "beds": "1 full bed (269 ft², city view)",
+          "meetsOneBedNeed": false,
+          "pricePerNightUsd": 327,
+          "totalStayUsd": 2290,
+          "taxNote": "USD (display; total before taxes $2,289.55 after 24% off an original $3,012.57; 10% TAX excluded)",
+          "cancellationAsShown": "Free cancellation before November 13, 2026 — free until 2 days before arrival; ⚠️ inside 2 days the fee is the TOTAL stay price, and the no-show fee is also the TOTAL stay price"
+        }
+      ],
+      "note": "LIVE 2026-08-21. 3 left. Same room also sells as a Partner Offer at $304/nt, $2,128 (KRW 296,356 tax per stay excluded) — free cancellation before Nov 13 but PAY IN ADVANCE with no modifications. Breakfast-inclusive variant $356/$2,490.98. Hollywood Double (Booking says '1 king bed', but Hollywood = two joined mattresses) $313/$2,193, 2 left."
+    },
+    {
+      "captureId": "2026-08-21T22:20:00Z-seoul-hotel-prince-myeongdong-nov1",
+      "hotelId": "seoul-hotel-prince-myeongdong",
+      "capturedAtUtc": "2026-08-21T22:20:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/hotel-prince-seoul.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Twin Room B",
+          "beds": "2 twin beds (215 ft², high floor) — NOT a one-bed room",
+          "meetsOneBedNeed": false,
+          "pricePerNightUsd": 195,
+          "totalStayUsd": 1751,
+          "taxNote": "USD (display; total before taxes $1,750.51 after 26% off an original $2,358.09; 10% service charge INCLUDED; 10% TAX excluded)",
+          "cancellationAsShown": "Free cancellation before October 25, 2026 — free until SEVEN days before arrival; then the first night. ⚠️ No-show fee is the TOTAL reservation price"
+        }
+      ],
+      "note": "LIVE 2026-08-21. 2 left. No one-bed room was inside the captured Nov 1–9 chunk. A cheaper row at $185/nt, $1,657.56 (1 left) sits above it but its room label was cut at a page-chunk boundary and is NOT recorded. Twin Room C (2 twin, 226 ft², city view) $230/$2,060.33, 5 left. A Triple (3 twin beds) is also offered."
+    },
+    {
+      "captureId": "2026-08-21T22:20:00Z-seoul-hotel-prince-myeongdong-nov15",
+      "hotelId": "seoul-hotel-prince-myeongdong",
+      "capturedAtUtc": "2026-08-21T22:20:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/hotel-prince-seoul.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Double Room A (room block RD28644505)",
+          "beds": "1 queen bed (high floor)",
+          "meetsOneBedNeed": false,
+          "pricePerNightUsd": 159,
+          "totalStayUsd": 1250,
+          "taxNote": "USD (display; Genius member + pay-online price, total before taxes $1,249.51, 34% off an original $1,888.56; 10% service charge INCLUDED; 10% TAX excluded)",
+          "cancellationAsShown": "Free cancellation before November 8, 2026 — free until SEVEN days before arrival; then the first night. ⚠️ No-show fee is the TOTAL reservation price"
+        }
+      ],
+      "note": "LIVE 2026-08-21. 3 left. ⚠️ $159/nt is a members-only price: the displayed stack is original $1,888.56 → bonus savings −$339.94 → Genius −$188.86 → Booking.com pays −$110.25 → $1,249.51. Budget the public figure, not $159. ⚠️ The two windows on this record use DIFFERENT room codes (twin in Nov 1–9, queen in Nov 15–22), so they are not a like-for-like price comparison."
     }
   ]
 }

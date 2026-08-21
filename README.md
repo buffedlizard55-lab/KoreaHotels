@@ -11,8 +11,43 @@ A blank or missing value means it was not verified — nothing here is estimated
 | **Nov 9–15, 2026** | 6 | **Busan** (this request) + Gyeongju alternates | 21 Busan + 9 Gyeongju | [Busan Nov 9–15 pass](guide/verification-busan-nov9-15-2026-08-21.md) |
 | **Nov 15–22, 2026** | 7 | Busan (original plan) + Seoul alternates | 112 | [Seoul Nov 15 pass](guide/verification-seoul-nov15-2026.md) |
 
+> 💰 **Do not multiply the $/night column by the number of nights.** A line-by-line audit of all **242 priced rows** (2026-08-22) found **184 arithmetically consistent**, but **57 where the displayed total sits ~11% ABOVE $/night × nights** (median ratio 1.111) — Booking's per-night *average* excludes a component its own total includes. Both figures are captured verbatim from the same dated page. **Budget from the Total column, then add the tax shown in that row.** One row runs the other way and is flagged in-record for re-fetch (`The Designers Dongdaemun`, Nov 15–22).
+
 > ⚠️ **Do not compare a row in one table with a row in another.** They are different search lengths (8 / 6 / 7 nights) and different searches.
 > ⚠️ The itinerary files still describe the *original* route (Gyeongju Nov 9–15, Busan Nov 15–22). This request treats **Busan as the Nov 9–15 stay**, so both sets of captures are kept and neither is deleted. The route itself has not been rewritten — that is a decision, not a verification.
+
+---
+
+## 🔍 Line-by-line audit — what was checked and what it caught (2026-08-22)
+
+Every one of the **160 records** and all **242 priced rate rows** were machine-checked against ten rules. This is the "verify everything" pass, and it found real defects.
+
+| Check | Result |
+|---|---|
+| `sourceUrl` check-in/check-out **must match** the row's stored stay dates | ✅ 0 mismatches |
+| `nights` **must equal** the real span between the dates | ✅ 0 errors |
+| Live rates must carry timestamp, source URL, room, beds, cancellation, prepayment, currency | ❌ **2 failures — fixed** |
+| Capture timestamps must not be in the future | ✅ 0 |
+| A price may not exist unless `available` is true | ✅ 0 after fix |
+| No-rate records must carry a `distributionStatus` | ✅ all 20 |
+| `officialUrl` must not point at an OTA | ✅ 0 |
+| `verification.sourceUrl` present and valid | ✅ 160/160 |
+| Window field name vs actual stay dates | ✅ 0 |
+| `$/night × nights` vs stored total | ⚠️ **58 flagged** — 57 explained, 1 unresolved |
+
+### ❌ What it caught — two unsourced prices
+
+**`ibis Ambassador Busan Haeundae`** and **`ibis budget Ambassador Busan Haeundae`** each carried `available: true` with a room name, a bed count, a **price ($49/nt · $343 and $45/nt · $315)** and a cancellation date — **with no capture timestamp, no source and no source URL.** Nothing supported those numbers, and they directly contradicted the same records' own `distributionStatus` of *"Not distributed on Booking.com"*.
+
+**Both have been nulled**, with the removed values preserved in the record's note for traceability. This is exactly the failure mode this project exists to prevent: numbers that look verified sitting next to numbers that are.
+
+### ⚠️ One arithmetic outlier, isolated
+
+`The Designers Dongdaemun`, Nov 15–22: **$73/night × 7 = $511, but the stored total is $464** — ~9% *below*. It is the **only** row of 242 running in that direction; the other 57 all run the opposite way. Flagged in-record as unresolved pending a re-fetch, not silently corrected.
+
+### ⚠️ Two core-needs badges now show their own disagreement
+
+`Grand Josun Busan` and `Avani Central Busan` are marked as core-needs matches on the strength of their **official** room pages (queen ~150×200 / king). But Booking states **1 queen bed** on the row actually sold at both. A queen still meets the ≥150 cm preference, so the badge stands — but `fitReason` on both now says plainly that the official page and the OTA disagree about the bed, so the badge is no longer quietly resting on one source.
 
 ---
 

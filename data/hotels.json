@@ -1220,7 +1220,7 @@
         "Pool & spa"
       ],
       "fits": true,
-      "fitReason": "King · Haeundae Stn ~7-10 min",
+      "fitReason": "King · Haeundae Stn ~7-10 min — ⚠️ CAVEAT: the core-needs badge rests on the OFFICIAL Josun room catalogue (Deluxe = queen ~150×200, King/Premier = king ~180×200). The row actually captured for Nov 9–15 is a 'Premier King' that Booking states as 1 QUEEN bed. A queen still meets the ≥150 cm preference, but the room name and the sold bed do not agree — confirm in writing.",
       "lat": 35.1572,
       "lng": 129.1626,
       "priceNote": "Prices are typical 2026 estimates for standard double/queen. Check official site or OTA for live rates on your dates.",
@@ -6225,16 +6225,16 @@
         "existenceStatus": "Verified operating property"
       },
       "refundableRate": {
-        "available": true,
-        "room": "Standard Double Room",
-        "beds": "1 double bed",
-        "pricePerNight": 45,
-        "totalStay": 315,
-        "currency": "USD (display conversion; 10% tax excluded)",
+        "available": null,
+        "room": null,
+        "beds": null,
+        "pricePerNight": null,
+        "totalStay": null,
+        "currency": null,
         "breakfastIncluded": false,
-        "freeCancellation": "Free cancellation before November 14, 2026 — day before arrival",
-        "prepayment": "No prepayment needed — pay at the property",
-        "note": "Very tight rooms (14 m²) but beachfront and highly economical.",
+        "freeCancellation": null,
+        "prepayment": null,
+        "note": "⚠️ UNSOURCED FIGURES REMOVED 2026-08-22. This block previously carried available=true with room 'Standard Double Room', beds '1 double bed', $45/night and a $315 total plus a cancellation date — but with NO capturedAtUtc, NO source and NO sourceUrl. Nothing supported those numbers, and they contradicted this record's own distributionStatus ('Not distributed on Booking.com', verified 2026-08-21). They have been nulled rather than left to be mistaken for a verified quote. The property itself is still evidenced by its official Accor page. Book direct via Accor and confirm the bed in writing.",
         "stayCheckIn": "2026-11-15",
         "stayCheckOut": "2026-11-22",
         "nights": 7
@@ -6332,16 +6332,16 @@
         "existenceStatus": "Verified operating property"
       },
       "refundableRate": {
-        "available": true,
-        "room": "Standard Room with 1 Queen Bed",
-        "beds": "1 queen bed",
-        "pricePerNight": 49,
-        "totalStay": 343,
-        "currency": "USD (display conversion; 10% tax excluded)",
+        "available": null,
+        "room": null,
+        "beds": null,
+        "pricePerNight": null,
+        "totalStay": null,
+        "currency": null,
         "breakfastIncluded": false,
-        "freeCancellation": "Free cancellation before November 14, 2026 — day before arrival",
-        "prepayment": "No prepayment needed — pay at the property",
-        "note": "Features the signature Sweet Bed by ibis. Central Haeundae location with coin laundry.",
+        "freeCancellation": null,
+        "prepayment": null,
+        "note": "⚠️ UNSOURCED FIGURES REMOVED 2026-08-22. This block previously carried available=true with room 'Standard Room with 1 Queen Bed', beds '1 queen bed', $49/night and a $343 total plus a cancellation date — but with NO capturedAtUtc, NO source and NO sourceUrl. Nothing supported those numbers, and they contradicted this record's own distributionStatus ('Not distributed on Booking.com', verified 2026-08-21). They have been nulled rather than left to be mistaken for a verified quote. The property itself is still evidenced by its official Accor page. Book direct via Accor and confirm the bed in writing.",
         "stayCheckIn": "2026-11-15",
         "stayCheckOut": "2026-11-22",
         "nights": 7
@@ -6529,7 +6529,7 @@
         "Modern four-star value"
       ],
       "fits": true,
-      "fitReason": "Deluxe King · BIFC Station about 2 min",
+      "fitReason": "Deluxe King · BIFC Station about 2 min — ⚠️ CAVEAT: the core-needs badge rests on Avani's OFFICIAL room page, which calls this a King. Booking states 1 QUEEN bed on the row actually sold in both captured windows. A queen still meets the ≥150 cm preference, but the two sources disagree on the bed — confirm in writing.",
       "lat": 35.14875,
       "lng": 129.065277,
       "priceNote": "Planning estimate for autumn 2026, not a live quote. Confirm the total for the exact room and dates.",
@@ -14407,7 +14407,7 @@
         "breakfastIncluded": false,
         "freeCancellation": "Free cancellation before November 12, 2026 — free until 3 days before arrival; then first night",
         "prepayment": "Pay nothing until November 10, 2026",
-        "note": "LIVE 2026-08-19. 2 left. Deluxe Double No Parking is $69/nt. Full bed ≈140cm."
+        "note": "LIVE 2026-08-19. 2 left. Deluxe Double No Parking is $69/nt. Full bed ≈140cm. ⚠️ ARITHMETIC FLAG (audit 2026-08-22): $73/night × 7 nights = $511, but the stored total is $464 — the total is ~9% BELOW the per-night figure. This is the ONLY row in 242 priced rows that runs in this direction; the other 57 mismatches all have the total ABOVE per-night × nights. Treat this row's arithmetic as unresolved and re-fetch the dated page before relying on it."
       }
     },
     {
@@ -18224,6 +18224,42 @@
           "gyeongju-hanokinn",
           "gyeongju-wiyeonjae",
           "gyeongju-nadul-hanok"
+        ]
+      }
+    ],
+    "priceArithmetic": {
+      "auditedAtUtc": "2026-08-22T04:00:00Z",
+      "pricedRowsChecked": 242,
+      "arithmeticallyConsistent": 184,
+      "totalAbovePerNightTimesNights": 57,
+      "totalBelowPerNightTimesNights": 1,
+      "medianGapRatio": 1.111,
+      "rule": "DO NOT multiply the $/night column by the number of nights. In 57 of 242 priced rows Booking's displayed '$X per night' average sits about 10% BELOW total ÷ nights (median ratio 1.111), because the per-night average excludes a component that the displayed total includes. Both figures are captured verbatim from the same dated page. ALWAYS budget from the Total column, then add the excluded tax shown in that row's currency field.",
+      "soleReverseOutlier": "seoul-the-designers-dongdaemun / refundableRateNov15 — flagged in-record for re-fetch."
+    },
+    "audits": [
+      {
+        "ranAtUtc": "2026-08-22T04:00:00Z",
+        "scope": "Line-by-line internal consistency audit of all 160 records and all 242 priced rate rows",
+        "checks": [
+          "field-name window vs actual stayCheckIn/stayCheckOut",
+          "sourceUrl checkin/checkout query params vs the stored stay dates",
+          "nights value vs the real date span",
+          "pricePerNight x nights vs totalStay",
+          "live rates must carry capturedAtUtc, sourceUrl, room, beds, freeCancellation, prepayment, currency",
+          "capture timestamps must not be in the future",
+          "a price may not exist unless available is true",
+          "records with no live rate must carry a distributionStatus",
+          "officialUrl must not point at an OTA",
+          "verification.sourceUrl must be present and http(s)"
+        ],
+        "result": "PASSED after fixes. Zero URL/date mismatches, zero night-count errors, zero future timestamps, zero OTA officialUrls, zero missing verification sources across 160 records. Two records carried unsourced prices and were corrected; one arithmetic outlier was flagged in-record; two core-needs badges were annotated with the source disagreement behind them.",
+        "fixes": [
+          "busan-ibis-haeundae: removed unsourced $49/nt and $343 total (no timestamp, no source URL)",
+          "busan-ibis-budget-haeundae: removed unsourced $45/nt and $315 total (no timestamp, no source URL)",
+          "seoul-the-designers-dongdaemun refundableRateNov15: flagged as the sole reverse-direction arithmetic outlier",
+          "busan-grand-josun: fitReason now states the official-page vs Booking bed disagreement behind the core-needs badge",
+          "busan-avani-central: fitReason now states the official-page vs Booking bed disagreement behind the core-needs badge"
         ]
       }
     ]

@@ -175,6 +175,65 @@ Because the same room code was captured in both windows for both properties:
 
 
 
+
+---
+
+## Rounds 10–11 — Busan batch (2026-08-22)
+
+**2 added. A whole Busan district was found missing and then represented.**
+
+### Round 10 · Hotel Foret Premier Nampo — `busan-foret-premier-nampo`
+
+Nampo / BIFF Square (Jung-gu), 54-1 Gudeok-ro, 48953 · coords 35.098415 / 129.02971.
+
+**Nov 9–15, 2026 (6 nt):** Family Twin Room — **1 twin + 1 full**, 258 ft², only **2 left**. **$100/night · $601.34** before taxes (51% off an original $1,227.22). Free cancellation before **November 6, 2026** (3 days); ⚠️ inside 3 days **and** on a no-show the fee is the **TOTAL stay**. **No prepayment — pay at the property.**
+
+The cheapest verified Busan option for the window, and only the second Nampo/BIFF Square record alongside Crown Harbor.
+
+**Flags:** ⚠️ a separate **CITY TAX** is excluded on top of 10% TAX — only the second Busan record with a second tax line, so $601 is not what you pay · photo ID **and** credit card required at check-in with advance notice of arrival time · no single-bed room captured (`fits: false`) · breakfast 6.7/10 · Booking's own address line was not in the captured chunk.
+
+[Dated Booking page](https://www.booking.com/hotel/kr/foret-premier-nampo.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD)
+
+### The gap: Gwangalli had zero records
+
+Working Busan **by district** rather than hotel-by-hotel exposed something no amount of per-hotel verification would have: the list covered Haeundae with **11 records**, plus Seomyeon, Busan Station, Nampo, Songdo and Yeonsan — and had **nothing at all in Gwangalli (Suyeong-gu)**, one of Busan's two main beach areas.
+
+### Round 11 · Kent Hotel Gwangalli by Kensington — `busan-kent-gwangalli-kensington`
+
+229 Gwanganhaebyeon-ro, Suyeong-gu, 48303 · coords 35.154232 / 129.11925 · phone +82 1670 7464.
+
+Booking slug resolved as **`kent-gwangalli`** (after `kent-hotel-gwangalli` returned 404).
+
+**Nov 9–15, 2026: ZERO availability.** Every room type is marked *"Not available on our site for your dates"*:
+
+| Room | Bed |
+|---|---|
+| Executive Double with Ocean View | 1 queen bed |
+| Deluxe Twin Room with City View (1 Double + 1 Single) | 1 twin + 1 full |
+| Cinema Twin - No View (2 Single) | 2 twin beds |
+| Suite with Sea View | 1 full bed + 1 sofa bed |
+| Twin Room | 2 full beds |
+
+**It is recorded anyway, with no price invented**, so the district is represented rather than silently absent. Captured: beachfront opposite Gwangan Bridge, 15th-floor Sky Lounge restaurant, bar, room service, free parking, 24-hour front desk; check-in 15:00–24:00 with photo ID **and** credit card required plus advance notice of arrival; check-out 11:00; children 6+ charged as adults; extra bed KRW 33,000.
+
+**Flags:** ⚠️ **bed conflict** — Booking says the Executive Double Ocean View has **1 queen**, while another major platform lists the same 313 sqft room as **1 King** · star rating disputed (4 vs 3.5) · no Kensington official URL captured · third-party aggregators quote ~$45–$73/night for **other** dates, explicitly not stored as our-window rates.
+
+[Dated Booking page](https://www.booking.com/hotel/kr/kent-gwangalli.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD)
+
+### ⚠️ Second market signal — Busan is tightening
+
+Booking displayed on this property: *"Limited supply in Busan for your dates: **2 four-star hotels like this are already unavailable on our site**."*
+
+This mirrors the Seoul five-star signal from round 9. **Two different cities, two different star tiers, two different windows** — both showing inventory thinning. Combined with Ramada Encore Haeundae verified sold out and Paradise Hotel Busan offering only two rate rows for Nov 9–15, the Busan window is materially tighter than a 19-row table suggests.
+
+### Held out — with reasons
+
+| Candidate | Why |
+|---|---|
+| **H Avenue Gwangalli** | ⚠️ **Identity ambiguity.** Address given as *29 Millaksubyeon-ro, Suyeong-gu 48283* (coords 35.1532/129.12468) by two sources and *42 Gwanganhaebyeon-ro 278beon-gil* (coords 35.1539709/129.1245349) by another. Name appears as "H Avenue Gwangalli", "H Avenue Hotel Gwangalli branch" and "H Avenue Hotel Gwangalli Beach". Guests report it occupies floors 8–10 of a building **housing four other hotels**. This may be more than one property under near-identical names — exactly the duplicate risk this project's validator exists to prevent. No record created. |
+| Hound Premier Hotel Nampo | 24 Bosu-daero, Jung-gu 48980; coords 35.099094 / 129.02522 confirmed. Booking slug unresolved (`hound-premier-nampo` 404s). |
+| Toyoko Inn Busan Seomyeon | 39 Seojeon-ro, Busanjin-gu 47247; +82 51-638-1045. Coordinates not obtained. Chain sells direct on a ~3-month window, so a Booking rate for these dates is unlikely. |
+
 ---
 
 ## Round 9 — Re-verification round 2 (2026-08-22 ~00:45 UTC)
@@ -489,7 +548,7 @@ Each Seoul candidate needs **two** dated captures (Nov 1–9 and Nov 15–22) pl
 | Gangnam | **Round 4 complete** — Aloft by Marriott Seoul Gangnam added; InterContinental Seoul COEX held out (slug 404); Andaz Seoul Gangnam re-verified as still unavailable for Nov 1–9. |
 | Busan | Round 1 complete: 1 added, 1 held out. |
 
-**Running total across all nine rounds: 9 added, 11 held out (each with a recorded finding), 1 identity collision resolved, 5 earlier findings re-verified on a second independent check (Andaz Seoul Gangnam, THE PLAZA Seoul, Hotel Midcity Myeongdong, Four Seasons Seoul, Toyoko Inn Dongdaemun II), 1 property eliminated outright (Metro Hotel Myeongdong — closed for renovation across the whole trip), 19 records given an explicit `distributionStatus`, 0 duplicates created.**
+**Running total across all eleven rounds: 11 added, 14 held out (each with a recorded finding), 1 identity collision resolved, 5 earlier findings re-verified on a second independent check, 1 property eliminated outright (Metro Hotel Myeongdong — closed for renovation across the whole trip), 20 records given an explicit `distributionStatus`, 1 whole district gap (Gwangalli) found and represented, 0 duplicates created.**
 
 ### Open re-tries — all blocked on the same thing
 

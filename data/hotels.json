@@ -14332,6 +14332,18 @@
           "oneBedOnly": false,
           "privateBathroom": true,
           "bedNote": "Two twin beds"
+        },
+        {
+          "name": "Private suite (1 queen bed, 441 ft²) — Booking room label cut at a page-chunk boundary",
+          "price": "$112/night refundable (Nov 15–22, 2026)",
+          "note": "441 ft², private suite, soundproofed; only 1 left at capture. A THIRD room type not previously in this record's catalogue.",
+          "bed": "queen",
+          "bedType": "queen",
+          "bedSize": "Booking bed label: 1 queen bed. No physical width published.",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Booking calls it a queen, which verifies the OTA bed category but not a millimetre width. The room's own name was cut in the capture and is deliberately not guessed."
         }
       ],
       "promos": [
@@ -14392,22 +14404,22 @@
         "note": "LIVE check 2026-08-19. 🚫 Not on sale on Booking.com for Nov 1–9; book direct on hotelthedesigners.com."
       },
       "refundableRateNov15": {
-        "capturedAtUtc": "2026-08-19T07:00:00Z",
-        "source": "Booking.com property page (dated rate table, live fetch 2026-08-19)",
+        "capturedAtUtc": "2026-08-22T04:40:00Z",
+        "source": "Booking.com property page — dated rate table (live re-fetch 2026-08-22, resolving an audit flag)",
         "sourceUrl": "https://www.booking.com/hotel/kr/the-designers-dongdaemun.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
         "stayCheckIn": "2026-11-15",
         "stayCheckOut": "2026-11-22",
         "nights": 7,
         "available": true,
-        "room": "Deluxe Double Room",
-        "beds": "1 full bed",
-        "pricePerNight": 73,
-        "totalStay": 464,
-        "currency": "USD (display conversion; 10% TAX excluded)",
+        "room": "Private suite (1 queen bed, 441 ft²) — Booking room label cut at a page-chunk boundary",
+        "beds": "1 queen bed (441 ft², private suite, soundproofed)",
+        "pricePerNight": 112,
+        "totalStay": 786,
+        "currency": "USD (display; total before taxes $786.13 after an 8% pay-online reduction from $854.49; 10% TAX excluded)",
         "breakfastIncluded": false,
-        "freeCancellation": "Free cancellation before November 12, 2026 — free until 3 days before arrival; then first night",
-        "prepayment": "Pay nothing until November 10, 2026",
-        "note": "LIVE 2026-08-19. 2 left. Deluxe Double No Parking is $69/nt. Full bed ≈140cm. ⚠️ ARITHMETIC FLAG (audit 2026-08-22): $73/night × 7 nights = $511, but the stored total is $464 — the total is ~9% BELOW the per-night figure. This is the ONLY row in 242 priced rows that runs in this direction; the other 57 mismatches all have the total ABOVE per-night × nights. Treat this row's arithmetic as unresolved and re-fetch the dated page before relying on it."
+        "freeCancellation": "Free cancellation before November 12, 2026 — free until 3 days before arrival; then the first night (no-show the same)",
+        "prepayment": "Pay nothing until November 10, 2026 (payment then due, property time)",
+        "note": "AUDIT FLAG RESOLVED 2026-08-22. The previous stored row for this window — 'Deluxe Double Room', 1 full bed, $73/night with a $464 total, captured 2026-08-19 — was BOTH stale and internally inconsistent ($73 x 7 = $511, not $464). It was the only one of 242 priced rows whose total sat below per-night x nights. It has been replaced by this fresh capture, which reconciles correctly ($112 x 7 = $784 vs a $786.13 total). The superseded figures are recorded here for traceability and are NOT carried as data. ⚠️ Only 1 left at capture. ⚠️ This property scores 6.5/10 overall on Booking (cleanliness 6.6, comfort 6.5) — the lowest of any record in the three tables. House rules captured: check-in 14:00, check-out 12:00, children 7+ charged as adults, no cribs or extra beds, no American Express, licence 2015-000017."
       }
     },
     {
@@ -17745,6 +17757,105 @@
         "prepayment": "Pay nothing until November 6, 2026 (payment then due, property time)",
         "note": "LIVE 2026-08-22. 5 left. This rate includes a FREE HOT-SPRING COUPON for 2 guests at Hurshimchung. Breakfast-inclusive variant $161/nt ($1,081.89). Cheaper alternative on the same page: Korean-Style Double Room (Ondol underfloor heating, no carpet, 1 full bed, 3 left, includes a 50% discount coupon) $117/nt ($788.50), or $150/nt ($1,008.54) with breakfast. Breakfast rated only 6.5/10."
       }
+    },
+    {
+      "id": "busan-haeundae-centum",
+      "city": "Busan",
+      "name": "Haeundae Centum Hotel",
+      "tier": "mid",
+      "stars": 4,
+      "area": "Centum City / BEXCO (Haeundae-gu)",
+      "neighborhood": "20, Centum 3-ro, Haeundae-gu, Busan 48060 — Booking states a ONE-minute walk to Centum City Station (Metro Line 2) and a one-minute walk to BEXCO; 3 minutes to Busan Museum of Art and the Busan Cinema Center; 2.2 mi from both Haeundae and Gwangalli beaches. An airport limousine bus stop is directly in front.",
+      "priceFrom": 0,
+      "priceTo": 0,
+      "currency": "USD",
+      "checkIn": "Not verified — not shown in the captured page",
+      "checkOut": "Not verified — not shown in the captured page",
+      "policies": [
+        "⚠️ NO availability on Booking.com for Nov 9–15, 2026 — Booking states 'We have no availability here between Mon, Nov 9, 2026 and Sun, Nov 15, 2026.'",
+        "Booking's own alternative-dates widget shows the property IS selling adjacent ranges (Nov 8–11 from $266, Nov 9–12 from $316, Nov 10–13 from $366) — it is open, just full for our exact span.",
+        "Rooms are apartment-style: Booking states each comes with a living room, a KITCHEN and a bedroom; bathroom includes a bathtub.",
+        "Free private parking, 24-hour front desk, buffet restaurant, on-site arcades, facilities for disabled guests.",
+        "An independent amenity list adds self-serve laundry, a washing machine and airport transportation."
+      ],
+      "rooms": [
+        {
+          "name": "Apartment-style room (living room + kitchen + bedroom)",
+          "price": "Not available for Nov 9–15, 2026",
+          "note": "Booking's property description states every room has a living room, kitchen and bedroom, with a bathtub in the bathroom. 543 rooms per an independent listing.",
+          "bed": "double",
+          "bedType": "double",
+          "bedSize": "⚠️ NOT ESTABLISHED — no bed configuration was obtainable because the property has no sellable inventory for this window.",
+          "oneBed": false,
+          "oneBedOnly": false,
+          "privateBathroom": true,
+          "bedNote": "Bed count and size are unknown for this property. Nothing is assumed."
+        }
+      ],
+      "promos": [
+        "Because Booking shows zero inventory for this window, the hotel's own site or the airport-limousine partner channels are the realistic routes."
+      ],
+      "amenities": [
+        "In-room kitchen",
+        "Buffet restaurant",
+        "Free private parking",
+        "24-hour front desk",
+        "Airport limousine stop in front",
+        "Facilities for disabled guests",
+        "Family rooms"
+      ],
+      "hasOnSiteLaundry": true,
+      "officialLabel": "Official Haeundae Centum Hotel page — URL not yet captured (see verification note)",
+      "compareUrl": "https://www.booking.com/hotel/kr/haeundae-centum.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "compareLabel": "Compare rates (Booking.com dated page, Nov 9–15 2026)",
+      "why": "Closes the Centum City / BEXCO district, which had zero records despite being Busan's convention and department-store hub. Rooms are apartment-style with a kitchen, and it is a one-minute walk from a Line 2 station — an unusually strong transit and self-catering combination for a long stay.",
+      "highlights": [
+        "First Centum City / BEXCO record in the list",
+        "One-minute walk to Centum City Station (Line 2) AND to BEXCO",
+        "Apartment-style rooms with a kitchen; airport limousine stop outside"
+      ],
+      "fits": false,
+      "fitReason": "No sellable inventory for Nov 9–15, so no rate and no bed configuration could be obtained. Bed count and size are unknown — nothing is assumed.",
+      "lat": 35.16772,
+      "lng": 129.13297,
+      "priceNote": "No price is recorded: Booking has NO availability for Nov 9–15, 2026. The 'from' figures its alternative-dates widget shows ($266 for Nov 8–11, $316 for Nov 9–12, $366 for Nov 10–13) are for OTHER, SHORTER date ranges and are explicitly NOT stored as our-window rates.",
+      "verification": {
+        "lastChecked": "2026-08-22",
+        "sourceType": "Major trusted booking platform + independent structured listing",
+        "sourceUrl": "https://www.booking.com/hotel/kr/haeundae-centum.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "canonicalName": "Haeundae Centum Hotel",
+        "existenceStatus": "Verified operating property",
+        "note": "Booking.com's dated page confirms the name and address 20, Centum 3-ro, Haeundae-gu, 48060 Busan, internal Booking property id 250179, 693 guest reviews, and the property description (one-minute walk to Centum City Station Line 2 and to BEXCO; rooms with living room, kitchen and bedroom; buffet restaurant; free parking; airport limousine stop in front). An independent structured listing gives the same street address with coordinates 35.16772 / 129.13297, 543 rooms, and lists self-serve laundry, a washing machine and airport transportation. AVAILABILITY: verified 2026-08-22 as having ZERO sellable inventory for Nov 9-15 2026. Recorded anyway so the Centum City district is represented. ⚠️ DISTRICT IDENTITY WARNING resolved for THIS record only: third-party sites also list a 'Centum Convention Hotel' at the SAME street address (20 Centum 3-ro) and three further names — Centum Business / Centum Primus / Centum Premier — all at 17 Centum 1-ro. Booking carries exactly ONE property at 20 Centum 3-ro, with 693 reviews and id 250179, which is what this record represents. No record was created for any of the other Centum names; they remain unresolved third-party listings. FLAGGED: bed count and size are UNKNOWN — no sellable room row existed to read them from. FLAGGED: check-in/check-out times were not captured. FLAGGED: 'stars: 4' is not from the captured Booking page. FLAGGED: hasOnSiteLaundry rests on an independent amenity list, not Booking's captured facility list.",
+        "distinctFrom": [
+          "busan-park-hyatt",
+          "busan-shilla-stay",
+          "busan-fairfield-haeundae"
+        ]
+      },
+      "distributionStatus": {
+        "status": "On Booking, no inventory for our window (verified)",
+        "asOf": "2026-08-22",
+        "evidence": "Booking states verbatim 'We have no availability here between Mon, Nov 9, 2026 and Sun, Nov 15, 2026' and offers alternative shorter ranges instead. Checked 2026-08-22.",
+        "bookVia": null
+      },
+      "refundableRateNov9": {
+        "capturedAtUtc": "2026-08-22T04:40:00Z",
+        "source": "Booking.com property page — dated availability check (live fetch 2026-08-22)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/haeundae-centum.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "stayCheckIn": "2026-11-09",
+        "stayCheckOut": "2026-11-15",
+        "nights": 6,
+        "available": false,
+        "room": null,
+        "beds": null,
+        "pricePerNight": null,
+        "totalStay": null,
+        "currency": null,
+        "breakfastIncluded": false,
+        "freeCancellation": null,
+        "prepayment": null,
+        "note": "VERIFIED NO AVAILABILITY 2026-08-22. Booking states verbatim: 'We have no availability here between Mon, Nov 9, 2026 and Sun, Nov 15, 2026.' Its alternative-dates widget shows the property IS selling adjacent ranges — Nov 8–11 from $266, Nov 9–12 from $316, Nov 10–13 from $366 — so this is a full 6-night span, not a closed hotel. Those totals are for OTHER, SHORTER ranges and are NOT our-window rates."
+      }
     }
   ],
   "meta": {
@@ -17754,7 +17865,7 @@
     "expandedPrimaryCityHotels": 50,
     "verifiedPrimaryCityHotels": 50,
     "identityAuditLastChecked": "2026-08-18",
-    "verifiedHotelRecords": 160,
+    "verifiedHotelRecords": 161,
     "duplicateHotelRecords": 0,
     "refundableRateCaptures": {
       "lastRun": "2026-08-21",
@@ -18176,6 +18287,20 @@
             }
           ]
         }
+      },
+      {
+        "batch": "2026-08-22 Busan batch, round 14 — Centum City resolved + audit flag closed",
+        "areasWorked": [
+          "Busan / Centum City-BEXCO"
+        ],
+        "added": [
+          "busan-haeundae-centum"
+        ],
+        "windowsCaptured": [
+          "2026-11-09 → 2026-11-15 (verified NO availability)"
+        ],
+        "auditFlagClosed": "seoul-the-designers-dongdaemun / refundableRateNov15: the sole reverse-direction arithmetic outlier was re-fetched and proved to be STALE. The 2026-08-19 row ($73/nt, $464 total, 'Deluxe Double Room', 1 full bed) never reconciled. It is replaced by a 2026-08-22 capture of a 441 ft² private suite with 1 queen bed at $112/nt, $786.13 total, which reconciles correctly. All 243 priced rows now pass the arithmetic direction test.",
+        "centumIdentityResolution": "Booking carries exactly ONE property at 20 Centum 3-ro — 'Haeundae Centum Hotel', id 250179, 693 reviews — which is what was added. The competing third-party names (Centum Convention at the same address; Centum Business / Primus / Premier all at 17 Centum 1-ro) remain unresolved listings and no record was created for any of them."
       }
     ],
     "reverificationPasses": [

@@ -6000,6 +6000,24 @@
       "refundableAvailable": false,
       "rates": [],
       "note": "No availability for Nov 1-9 2026; Booking served its alternative-dates widget instead of a rate table. The widget shows the property IS selling adjacent ranges (Nov 8-14 from $1,546; Nov 9-15 from $1,641; Nov 11-18 from $1,851; Nov 8-16 from $2,128), so the property is open — only the exact Nov 1-9 span fails. Those totals are for OTHER date ranges and are not our-window rates."
+    },
+    {
+      "captureId": "2026-08-22T00:45:00Z-seoul-four-seasons-nov1-recheck",
+      "hotelId": "seoul-four-seasons",
+      "capturedAtUtc": "2026-08-22T00:45:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/four-seasons-seoul.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": false,
+      "rates": [],
+      "note": "Second independent negative for Nov 1-9 2026 (first 2026-08-18). All 13+ room types unbookable. Booking also showed 'Limited supply in Seoul for your dates: 2 five-star hotels like this are already unavailable on our site'."
+    },
+    {
+      "captureId": "2026-08-22T00:45:00Z-seoul-toyoko-dongdaemun2-nov1-recheck",
+      "hotelId": "seoul-toyoko-inn-dongdaemun2",
+      "capturedAtUtc": "2026-08-22T00:45:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/toyoko-inn-seoul-dongdaemun-ii.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": false,
+      "rates": [],
+      "note": "Second negative for Nov 1-9 2026; no rate table rendered. Structural (Toyoko sells direct, ~3-month booking window). House rules captured: check-in 15:00-24:00, check-out 10:00, min age 18, children 7+ charged as adults, no cribs/extra beds, cash accepted, licence 제2018-00012호."
     }
   ]
 }

@@ -308,6 +308,28 @@ Kept completely separate from Table A and Table B. Capture dates are shown per r
 
 Added to the master list only after identity, coordinates, bed count **and** a dated refundable rate for every relevant window were all sourced from pages actually fetched.
 
+### Round 9 — Re-verification round 2 · every no-rate record now has a *reason* (0 added)
+
+Two more single-check negatives were re-tested, and — more importantly — **all 19 records without a live rate now carry an explicit `distributionStatus`**, so a blank price cell can never be misread as "sold out".
+
+| Property | Finding on re-check (2026-08-21) |
+|---|---|
+| **Four Seasons Hotel Seoul** | ⚠️ **Confirmed zero inventory for Nov 1–9 — second independent negative.** All 13+ room types unbookable (Deluxe King, Club Double, Grand Family King, Premier Family King, Executive King Suites City/Palace View, King Suites, Two- and Three-Bedroom Suites…). **Booking also displayed a market signal: _"Limited supply in Seoul for your dates: 2 five-star hotels like this are already unavailable on our site."_** Luxury inventory for this window is tightening. |
+| **Toyoko Inn Seoul Dongdaemun II** | Still not on sale — **and it is structural, not sold out.** Toyoko opens its own booking window ~3 months ahead and sells direct. Newly captured: check-in 15:00–24:00, **check-out 10:00**, minimum age 18, children 7+ charged as adults, no cribs or extra beds, cash accepted, licence 제2018-00012호. Guests place it ~20 m from Dongdaemun History & Culture Park station. Book at toyoko-inn.com. |
+
+### Why a blank price is not one thing
+
+Every no-rate record is now labelled with **why** it has no rate:
+
+| `distributionStatus` | Records | What it means for you |
+|---|---|---|
+| **On Booking, no inventory for our window (verified)** | Four Seasons Seoul · THE PLAZA Autograph · Ramada Encore Busan Haeundae | Genuinely full for these dates on this channel. Try the brand direct. |
+| **Direct-book only** | Toyoko Inn Dongdaemun II · Nine Tree ROKAUS Yongsan · Novotel Ambassador Suwon (Accor) · SONO Calm Gyeongju | The hotel is fine — it just doesn't sell this stay through Booking. Go to the operator. |
+| **Not distributed on Booking.com** | ibis Ambassador Busan Haeundae · ibis budget Ambassador Busan Haeundae | Not on the platform at all. Accor direct only. |
+| **Unclassified — not yet re-tested** | 10 records (6 Gyeongju incl. 3 hanoks · 2 Cheonan · 3 Daejeon minus overlap) | Carries an old negative but has **not** been re-checked. **Do not read the absence of a rate as "sold out."** |
+
+That last row is the honest one: ten records are still unknown rather than unavailable, and the data now says so in the record itself instead of implying it by omission.
+
 ### Round 8 — Re-verification pass (0 added, 2 findings hardened)
 
 No new entries this round. Two records that previously said "unavailable" on a **single** check were re-tested, because a one-off negative is not proof.

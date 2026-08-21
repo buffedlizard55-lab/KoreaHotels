@@ -592,15 +592,16 @@
         "existenceStatus": "Verified operating property"
       },
       "refundableRate": {
-        "capturedAtUtc": "2026-08-18T05:52:30Z",
-        "source": "Booking.com property page (dated rate table)",
+        "capturedAtUtc": "2026-08-22T00:45:00Z",
+        "source": "Booking.com property page — dated availability check (live fetch 2026-08-21; second independent check)",
         "sourceUrl": "https://www.booking.com/hotel/kr/four-seasons-seoul.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
         "available": false,
         "finding": "Booking.com showed no availability for Nov 1–9, 2026 at capture time; check the official Four Seasons site direct.",
-        "note": "Negative result on one source at one moment — not proof the hotel is full.",
+        "note": "RE-VERIFIED UNAVAILABLE 2026-08-21 — SECOND independent negative, three days after the 2026-08-18 check. The record's earlier caveat ('negative result on one source at one moment — not proof the hotel is full') is retired. Every one of the 13+ room types on the dated page is marked 'Not available on our site for your dates'. MARKET SIGNAL captured this pass: Booking displays 'Limited supply in Seoul for your dates: 2 five-star hotels like this are already unavailable on our site' — luxury inventory for the Nov 1-9 window is tightening. Book Four Seasons direct.",
         "stayCheckIn": "2026-11-01",
         "stayCheckOut": "2026-11-09",
-        "nights": 8
+        "nights": 8,
+        "beds": "Full room list shown but ALL unbookable: Deluxe King (1 king) · Club Double (2 full) · Grand Family Room King (1 king) · Grand Family Room Double Bed (2 full) · Premier Family King (1 king) · Executive King Suite City View (1 king) · Executive King Suite Palace View (1 king) · Executive Double Suite City View (2 full) · King Suite (1 king) · King Suite (2 full) · Two-Bedroom Suite (1 king + 1 king) · Two-Bedroom Suite (1 king + 2 full) · Three-Bedroom Suite"
       },
       "refundableRateNov15": {
         "capturedAtUtc": "2026-08-19T00:00:00Z",
@@ -619,6 +620,12 @@
         "freeCancellation": "n/a",
         "prepayment": "n/a",
         "note": "LIVE 2026-08-19: EVERY room (Deluxe King, suites) shows 'Not available on our site for your dates'. FLAG — check fourseasons.com direct / other OTAs."
+      },
+      "distributionStatus": {
+        "status": "On Booking, no inventory for our window (verified)",
+        "asOf": "2026-08-22",
+        "evidence": "Listed on Booking but ZERO inventory for Nov 1-9 2026 — verified twice (2026-08-18, 2026-08-21).",
+        "bookVia": null
       }
     },
     {
@@ -1469,6 +1476,12 @@
         "room": "Ondol suite (1 bed) listed as 1 full — not bookable this window",
         "beds": "1 full bed (listed suite) / typical rooms are futon ondol",
         "note": "LIVE 2026-08-18T19:16Z. Check-in ends 22:00 (prior). Score 8.4; location 9.6. Book direct for full window."
+      },
+      "distributionStatus": {
+        "status": "Unclassified — no live rate and no distribution check yet",
+        "asOf": "2026-08-22",
+        "evidence": "Carries a dated negative from an earlier pass but has NOT been re-tested, and no direct-book channel has been confirmed. Do not read the absence of a rate as 'sold out'.",
+        "bookVia": null
       }
     },
     {
@@ -1903,6 +1916,12 @@
         "room": "Deluxe Double listed as 1 queen — not bookable this window",
         "beds": "1 queen bed (Deluxe Double, listed only)",
         "note": "LIVE 2026-08-18T19:16Z. Stored $88 is not a quote. Near intercity bus terminal. Location 9.3."
+      },
+      "distributionStatus": {
+        "status": "Unclassified — no live rate and no distribution check yet",
+        "asOf": "2026-08-22",
+        "evidence": "Carries a dated negative from an earlier pass but has NOT been re-tested, and no direct-book channel has been confirmed. Do not read the absence of a rate as 'sold out'.",
+        "bookVia": null
       }
     },
     {
@@ -2190,6 +2209,12 @@
         "room": "Standard Double Room (listed, not bookable these dates)",
         "beds": "1 full bed",
         "note": "LIVE 2026-08-18T19:16Z. Stored $58 is NOT a dated quote. Address 105 Buldang 4-ro; 2.2 mi north of Cheonan-Asan. Score 7.9/10."
+      },
+      "distributionStatus": {
+        "status": "Unclassified — no live rate and no distribution check yet",
+        "asOf": "2026-08-22",
+        "evidence": "Carries a dated negative from an earlier pass but has NOT been re-tested, and no direct-book channel has been confirmed. Do not read the absence of a rate as 'sold out'.",
+        "bookVia": null
       }
     },
     {
@@ -2562,6 +2587,12 @@
         "room": "King Room - Non-Smoking (listed, not bookable these dates)",
         "beds": "1 king bed (listed)",
         "note": "LIVE 2026-08-18T19:16Z. Stored $72 is NOT a dated quote. Yuseong, 127 Gyeryong-ro. Only 8 reviews (9.9) — tiny sample. Not KTX-walkable."
+      },
+      "distributionStatus": {
+        "status": "Unclassified — no live rate and no distribution check yet",
+        "asOf": "2026-08-22",
+        "evidence": "Carries a dated negative from an earlier pass but has NOT been re-tested, and no direct-book channel has been confirmed. Do not read the absence of a rate as 'sold out'.",
+        "bookVia": null
       }
     },
     {
@@ -2843,6 +2874,12 @@
         "room": "Deluxe/Superior Double listed as 1 full — not bookable these dates",
         "beds": "1 full bed (all listed types)",
         "note": "LIVE 2026-08-18T19:16Z. Working slug is seutangdalhotel. Stored $75 is not a quote. Yuseong. No queen/king listed."
+      },
+      "distributionStatus": {
+        "status": "Unclassified — no live rate and no distribution check yet",
+        "asOf": "2026-08-22",
+        "evidence": "Carries a dated negative from an earlier pass but has NOT been re-tested, and no direct-book channel has been confirmed. Do not read the absence of a rate as 'sold out'.",
+        "bookVia": null
       }
     },
     {
@@ -2918,6 +2955,12 @@
         "room": null,
         "beds": "Width unpublished — not re-read on a dated table",
         "note": "NOT LIVE. Stored $48 typical autumn rate is not a quote. Distinct from Brown Dot Buldang."
+      },
+      "distributionStatus": {
+        "status": "Unclassified — no live rate and no distribution check yet",
+        "asOf": "2026-08-22",
+        "evidence": "Carries a dated negative from an earlier pass but has NOT been re-tested, and no direct-book channel has been confirmed. Do not read the absence of a rate as 'sold out'.",
+        "bookVia": null
       }
     },
     {
@@ -3077,6 +3120,12 @@
         "room": "Deluxe Double listed as 1 queen / Suite Double listed as 1 king — not bookable these dates",
         "beds": "1 queen (Deluxe) or 1 king (Suite) listed only",
         "note": "LIVE 2026-08-18T19:16Z. Stored $72 is not a quote. Yuseong, 92 Oncheon-ro. Score 8.7. A listed queen/king exists but the window is sold out on Booking."
+      },
+      "distributionStatus": {
+        "status": "Unclassified — no live rate and no distribution check yet",
+        "asOf": "2026-08-22",
+        "evidence": "Carries a dated negative from an earlier pass but has NOT been re-tested, and no direct-book channel has been confirmed. Do not read the absence of a rate as 'sold out'.",
+        "bookVia": null
       }
     },
     {
@@ -3547,6 +3596,12 @@
         "freeCancellation": null,
         "prepayment": null,
         "note": "VERIFIED SOLD OUT 2026-08-21: Booking states 'We have no availability here between Mon, Nov 9, 2026 and Sun, Nov 15, 2026.' Every room type is marked 'Not available on our site for your dates'. Booking also tags this property 'Adults only'. Address 9, Gunam-ro, Haeundae-gu — distinct from Ramada Encore Busan Station."
+      },
+      "distributionStatus": {
+        "status": "On Booking, no inventory for our window (verified)",
+        "asOf": "2026-08-22",
+        "evidence": "Listed on Booking but ZERO inventory for Nov 9-15 2026 — verified 2026-08-21; Booking states no availability and every room type is unbookable.",
+        "bookVia": null
       }
     },
     {
@@ -5333,6 +5388,12 @@
         "room": "Economy/Budget Double listed as 1 king — not bookable this window",
         "beds": "1 king bed (listed, not priced)",
         "note": "LIVE 2026-08-18T19:16Z. Score 9.6; staff 9.9. A listed king exists but the 6-night window is unsellable on Booking."
+      },
+      "distributionStatus": {
+        "status": "Unclassified — no live rate and no distribution check yet",
+        "asOf": "2026-08-22",
+        "evidence": "Carries a dated negative from an earlier pass but has NOT been re-tested, and no direct-book channel has been confirmed. Do not read the absence of a rate as 'sold out'.",
+        "bookVia": null
       }
     },
     {
@@ -5412,6 +5473,12 @@
         "capturedAtUtc": "2026-08-18T19:16:00Z",
         "source": "No Booking.com listing found this session; identity via VISITKOREA",
         "sourceUrl": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=45556"
+      },
+      "distributionStatus": {
+        "status": "Unclassified — no live rate and no distribution check yet",
+        "asOf": "2026-08-22",
+        "evidence": "Carries a dated negative from an earlier pass but has NOT been re-tested, and no direct-book channel has been confirmed. Do not read the absence of a rate as 'sold out'.",
+        "bookVia": null
       }
     },
     {
@@ -5491,6 +5558,12 @@
         "capturedAtUtc": "2026-08-18T19:16:00Z",
         "source": "No Booking.com listing found this session; identity via VISITKOREA",
         "sourceUrl": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=63076"
+      },
+      "distributionStatus": {
+        "status": "Unclassified — no live rate and no distribution check yet",
+        "asOf": "2026-08-22",
+        "evidence": "Carries a dated negative from an earlier pass but has NOT been re-tested, and no direct-book channel has been confirmed. Do not read the absence of a rate as 'sold out'.",
+        "bookVia": null
       }
     },
     {
@@ -5572,6 +5645,12 @@
         "room": "Family / Suite (1 Double + 2 Singles) — listed, not bookable",
         "beds": "1 full + 2 twins (not one-bed)",
         "note": "LIVE 2026-08-18T19:16Z. Family resort inventory. Book SONO direct."
+      },
+      "distributionStatus": {
+        "status": "Direct-book (resort inventory)",
+        "asOf": "2026-08-22",
+        "evidence": "Family-resort inventory; the 2026-08-18 dated check found no sellable Booking row. Book SONO direct.",
+        "bookVia": null
       }
     },
     {
@@ -6177,6 +6256,12 @@
         "freeCancellation": null,
         "prepayment": null,
         "note": "Not distributable on Booking.com as of 2026-08-21. The guessed Booking slug redirected to the Busan search-results page, and Booking's own Busan brand filter for these dates lists no ibis/Accor brand at all. An independent listing (hotel.com.au) states the property 'isn't taking reservations on our site right now' and 'may have changed name or is no longer bookable'. The property itself is still evidenced at 12 Haeundaehaebyeon-ro 237beon-gil, Haeundae-gu (3-star, 24-hour reception). NO price, refundable status or bed count is recorded for Nov 9–15 — book direct through Accor and confirm the bed in writing."
+      },
+      "distributionStatus": {
+        "status": "Not distributed on Booking.com",
+        "asOf": "2026-08-22",
+        "evidence": "Same finding as ibis Ambassador Busan Haeundae — not distributable on Booking.com as of 2026-08-21. Book Accor direct.",
+        "bookVia": null
       }
     },
     {
@@ -6278,6 +6363,12 @@
         "freeCancellation": null,
         "prepayment": null,
         "note": "Not distributable on Booking.com as of 2026-08-21. The guessed Booking slug redirected to the Busan search-results page, and Booking's own Busan brand filter for these dates lists no ibis/Accor brand at all. An independent listing (hotel.com.au) states the property 'isn't taking reservations on our site right now' and 'may have changed name or is no longer bookable'. The property itself is still evidenced at 12 Haeundaehaebyeon-ro 237beon-gil, Haeundae-gu (3-star, 24-hour reception). NO price, refundable status or bed count is recorded for Nov 9–15 — book direct through Accor and confirm the bed in writing."
+      },
+      "distributionStatus": {
+        "status": "Not distributed on Booking.com",
+        "asOf": "2026-08-22",
+        "evidence": "Not distributable on Booking.com as of 2026-08-21 — Booking's Busan brand filter lists no ibis/Accor brand and an independent listing reports the property is not taking reservations there. Book Accor direct.",
+        "bookVia": null
       }
     },
     {
@@ -7121,6 +7212,12 @@
         "room": "Superior 1 King Bed (Accor /8748; not bookable on Booking these dates)",
         "beds": "1 x King size bed (official Accor Superior/Deluxe/Executive)",
         "note": "LIVE 2026-08-18T19:16Z. Accor /8748 re-read: Superior/Deluxe/Executive = 1 x King size bed (28 m²). Direct access to Suwon KTX + subway. 24-hour desk. Book Accor."
+      },
+      "distributionStatus": {
+        "status": "Direct-book (Accor)",
+        "asOf": "2026-08-22",
+        "evidence": "Not sellable on Booking for Nov 1-9 on the 2026-08-18 check, but the official Accor page (hotel 8748) confirms Superior/Deluxe/Executive = 1 x King size bed, 28 m², direct access to Suwon KTX + subway and a 24-hour desk. Book Accor.",
+        "bookVia": null
       }
     },
     {
@@ -7760,6 +7857,12 @@
         "freeCancellation": "n/a",
         "prepayment": "n/a",
         "note": "LIVE 2026-08-19: all rooms (Deluxe/Business/Suite King) show 'Not available on our site for your dates'. FLAG — check marriott.com direct / other OTAs."
+      },
+      "distributionStatus": {
+        "status": "On Booking, no inventory for our window (verified)",
+        "asOf": "2026-08-22",
+        "evidence": "Listed on Booking but ZERO inventory for Nov 1-9 2026 — verified twice (2026-08-18, 2026-08-21).",
+        "bookVia": null
       }
     },
     {
@@ -12307,8 +12410,8 @@
         ]
       },
       "refundableRate": {
-        "capturedAtUtc": "2026-08-19T06:00:00Z",
-        "source": "Booking.com property page (dated rate table, live fetch 2026-08-19)",
+        "capturedAtUtc": "2026-08-22T00:45:00Z",
+        "source": "Booking.com property page — dated availability check (live fetch 2026-08-21; second independent check)",
         "sourceUrl": "https://www.booking.com/hotel/kr/toyoko-inn-seoul-dongdaemun-ii.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
         "stayCheckIn": "2026-11-01",
         "stayCheckOut": "2026-11-09",
@@ -12322,7 +12425,7 @@
         "breakfastIncluded": true,
         "freeCancellation": null,
         "prepayment": null,
-        "note": "LIVE check 2026-08-19. 🚫 Not on sale on Booking.com for Nov 1–9 (Toyoko 3-6 month window policy; book direct at toyoko-inn.com)."
+        "note": "RE-VERIFIED 2026-08-21 — still NOT on sale on Booking.com for Nov 1-9 2026; the page renders no rate table at all. Second check, three days after 2026-08-19. This is STRUCTURAL, not sold out: Toyoko Inn opens its own booking window roughly 3 months ahead and sells direct. House rules captured this pass: check-in 15:00-24:00, check-out 10:00, minimum check-in age 18, children 7+ charged as adults, no cribs or extra beds, pets not allowed, cash accepted, licence 제2018-00012호. Guests place it about 20 m from Dongdaemun History & Culture Park station and confirm the free breakfast. Book direct at toyoko-inn.com."
       },
       "refundableRateNov15": {
         "capturedAtUtc": "2026-08-19T06:00:00Z",
@@ -12341,6 +12444,12 @@
         "freeCancellation": null,
         "prepayment": null,
         "note": "LIVE check 2026-08-19. 🚫 Not on sale on Booking.com for Nov 15–22 (Toyoko 3-6 month window policy; book direct at toyoko-inn.com)."
+      },
+      "distributionStatus": {
+        "status": "Direct-book only (chain policy)",
+        "asOf": "2026-08-22",
+        "evidence": "Toyoko Inn opens its booking window ~3 months ahead and sells direct; two dated Booking checks (2026-08-19, 2026-08-21) rendered no rate table.",
+        "bookVia": "https://www.toyoko-inn.com/eng/"
       }
     },
     {
@@ -14051,6 +14160,12 @@
         "freeCancellation": null,
         "prepayment": null,
         "note": "LIVE check 2026-08-19. 🚫 Not on sale on Booking.com for Nov 15–22; book direct on rokaushotel.com."
+      },
+      "distributionStatus": {
+        "status": "Direct-book only",
+        "asOf": "2026-08-22",
+        "evidence": "The 2026-08-19 dated check found the property not on sale on Booking for Nov 1-9; the repo's own note directs booking to rokaushotel.com.",
+        "bookVia": null
       }
     },
     {
@@ -17528,6 +17643,28 @@
           "gyeongju-wiyeonjae",
           "gyeongju-nadul-hanok",
           "gyeongju-sono-calm"
+        ]
+      },
+      {
+        "ranAtUtc": "2026-08-22T00:45:00Z",
+        "scope": "Records carrying no live rate in any window — round 2",
+        "reVerified": [
+          "seoul-four-seasons",
+          "seoul-toyoko-inn-dongdaemun2"
+        ],
+        "result": "Four Seasons Hotel Seoul and Toyoko Inn Seoul Dongdaemun II both returned a SECOND independent negative for Nov 1-9 2026. Every no-rate record now carries a distributionStatus field so the absence of a price is never mistaken for 'sold out'.",
+        "distributionStatusAdded": 19,
+        "stillUnclassified": [
+          "gyeongju-hwangnamkwan",
+          "gyeongju-gg-hotel",
+          "cheonan-on-city",
+          "daejeon-ramada",
+          "daejeon-hotel-stendhal",
+          "cheonan-brown-dot",
+          "daejeon-hotel-interciti",
+          "gyeongju-hanokinn",
+          "gyeongju-wiyeonjae",
+          "gyeongju-nadul-hanok"
         ]
       }
     ]

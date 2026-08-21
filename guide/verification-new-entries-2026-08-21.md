@@ -174,6 +174,48 @@ Because the same room code was captured in both windows for both properties:
 
 
 
+
+---
+
+## Round 9 — Re-verification round 2 (2026-08-22 ~00:45 UTC)
+
+**0 added. Two more negatives hardened, and every no-rate record given an explicit reason.**
+
+### Four Seasons Hotel Seoul — confirmed zero inventory, twice
+
+Re-fetched 2026-08-21 for **Nov 1–9, 2026**. Every room type is marked *"Not available on our site for your dates"*:
+
+Deluxe King (1 king) · Club Double (2 full) · Grand Family Room King (1 king) · Grand Family Room Double Bed (2 full) · Premier Family King (1 king) · Executive King Suite City View (1 king) · Executive King Suite Palace View (1 king) · Executive Double Suite City View (2 full) · King Suite (1 king) · King Suite (2 full) · Two-Bedroom Suite (1 king + 1 king) · Two-Bedroom Suite (1 king + 2 full) · Three-Bedroom Suite
+
+This is a **second independent negative three days after 2026-08-18**, so the record's caveat is retired.
+
+**Market signal worth acting on:** Booking displayed *"Limited supply in Seoul for your dates: **2 five-star hotels like this are already unavailable on our site**."* Combined with THE PLAZA also showing zero inventory, the five-star tier for the **Nov 1–9** window is visibly tightening. If a luxury Seoul stay matters, that is the window to lock first — and to book brand-direct rather than via an OTA.
+
+[Dated Booking page](https://www.booking.com/hotel/kr/four-seasons-seoul.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD)
+
+### Toyoko Inn Seoul Dongdaemun II — structural, not sold out
+
+Re-fetched 2026-08-21: the page renders **no rate table at all** for Nov 1–9. Second check, three days after 2026-08-19.
+
+This is a **distribution fact**: Toyoko Inn opens its own booking window roughly 3 months ahead and sells direct. Newly captured house rules: check-in **15:00–24:00**, check-out **10:00** (unusually early — plan the last morning around it), minimum check-in age 18, children 7+ charged as adults, **no cribs or extra beds**, pets not allowed, cash accepted, licence 제2018-00012호. Guests place the hotel about **20 m from Dongdaemun History & Culture Park station** and consistently praise the free breakfast.
+
+**Book direct at toyoko-inn.com.**
+
+[Dated Booking page](https://www.booking.com/hotel/kr/toyoko-inn-seoul-dongdaemun-ii.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD)
+
+### New field: `distributionStatus`
+
+A blank price cell was previously ambiguous — it could mean sold out, not on the platform, or simply not yet checked. Every record without a live rate now carries a `distributionStatus` block with a status, an `asOf` date, the evidence, and a `bookVia` channel where known.
+
+| Status | Records | Meaning |
+|---|---|---|
+| `On Booking, no inventory for our window (verified)` | seoul-four-seasons · seoul-the-plaza-autograph-collection · busan-ramada-encore-haeundae | Genuinely full on this channel for these dates, each verified on two separate days (or, for Ramada Encore, with Booking's explicit no-availability statement). |
+| `Direct-book only` / `Direct-book (Accor)` / `Direct-book (resort inventory)` | seoul-toyoko-inn-dongdaemun2 · seoul-nine-tree-rokaus-yongsan · suwon-novotel-ambassador · gyeongju-sono-calm | The property is operating and sellable — just not through Booking for this stay. |
+| `Not distributed on Booking.com` | busan-ibis-haeundae · busan-ibis-budget-haeundae | Absent from the platform entirely. Accor direct only. |
+| `Unclassified — no live rate and no distribution check yet` | gyeongju-hwangnamkwan · gyeongju-gg-hotel · gyeongju-hanokinn · gyeongju-wiyeonjae · gyeongju-nadul-hanok · cheonan-on-city · cheonan-brown-dot · daejeon-ramada · daejeon-hotel-stendhal · daejeon-hotel-interciti | **Genuinely unknown.** Each carries an old dated negative but has not been re-tested and no direct channel has been confirmed. The evidence text says explicitly: *do not read the absence of a rate as "sold out."* |
+
+Ten records remain unclassified. They are all Gyeongju / Cheonan / Daejeon — the alternate-route cities, not Seoul or Busan — which is why they sit at the bottom of the priority list rather than blocking anything.
+
 ---
 
 ## Round 8 — Re-verification pass (2026-08-22 ~00:10 UTC)
@@ -447,7 +489,7 @@ Each Seoul candidate needs **two** dated captures (Nov 1–9 and Nov 15–22) pl
 | Gangnam | **Round 4 complete** — Aloft by Marriott Seoul Gangnam added; InterContinental Seoul COEX held out (slug 404); Andaz Seoul Gangnam re-verified as still unavailable for Nov 1–9. |
 | Busan | Round 1 complete: 1 added, 1 held out. |
 
-**Running total across all eight rounds: 9 added, 11 held out (each with a recorded finding), 1 identity collision resolved, 3 earlier findings re-verified (Andaz Seoul Gangnam, THE PLAZA Seoul, Hotel Midcity Myeongdong), 1 property eliminated outright (Metro Hotel Myeongdong — closed for renovation across the whole trip), 0 duplicates created.**
+**Running total across all nine rounds: 9 added, 11 held out (each with a recorded finding), 1 identity collision resolved, 5 earlier findings re-verified on a second independent check (Andaz Seoul Gangnam, THE PLAZA Seoul, Hotel Midcity Myeongdong, Four Seasons Seoul, Toyoko Inn Dongdaemun II), 1 property eliminated outright (Metro Hotel Myeongdong — closed for renovation across the whole trip), 19 records given an explicit `distributionStatus`, 0 duplicates created.**
 
 ### Open re-tries — all blocked on the same thing
 

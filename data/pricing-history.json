@@ -5982,6 +5982,24 @@
         }
       ],
       "note": "LIVE 2026-08-21. 6 left. Breakfast-inclusive variant $171/$1,193.97. A cheaper unnamed room shows $147/nt ($1,031.02) and $160/nt ($1,119.33). ⚠️ Different room code from the Nov 1–9 row, so the two windows are NOT a like-for-like price comparison. Prepayment terms also differ between the windows."
+    },
+    {
+      "captureId": "2026-08-22T00:10:00Z-seoul-the-plaza-nov1-recheck",
+      "hotelId": "seoul-the-plaza-autograph-collection",
+      "capturedAtUtc": "2026-08-22T00:10:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/theplaza.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": false,
+      "rates": [],
+      "note": "Second independent negative for Nov 1-9 2026 (first was 2026-08-18). All seven room types marked 'Not available on our site for your dates'. Check-in 15:00 / check-out 11:00; photo ID and credit card required at check-in."
+    },
+    {
+      "captureId": "2026-08-22T00:10:00Z-midcity-myeongdong-nov1-recheck",
+      "hotelId": "(not in master list) Hotel Midcity Myeongdong",
+      "capturedAtUtc": "2026-08-22T00:10:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/hotel-midcity-myeongdong.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": false,
+      "rates": [],
+      "note": "No availability for Nov 1-9 2026; Booking served its alternative-dates widget instead of a rate table. The widget shows the property IS selling adjacent ranges (Nov 8-14 from $1,546; Nov 9-15 from $1,641; Nov 11-18 from $1,851; Nov 8-16 from $2,128), so the property is open — only the exact Nov 1-9 span fails. Those totals are for OTHER date ranges and are not our-window rates."
     }
   ]
 }

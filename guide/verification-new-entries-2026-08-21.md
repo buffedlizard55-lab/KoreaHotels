@@ -173,6 +173,68 @@ Because the same room code was captured in both windows for both properties:
 
 
 
+
+---
+
+## Round 8 — Re-verification pass (2026-08-22 ~00:10 UTC)
+
+**0 added. Two "unavailable" findings hardened from a single check to a verified result.**
+
+A negative result from one source at one moment is not proof a hotel is full. This round re-tested the two most decision-relevant records that carried exactly that caveat.
+
+### THE PLAZA Seoul, Autograph Collection — confirmed unavailable, twice
+
+Re-fetched 2026-08-21 for **Nov 1–9, 2026**. Every room type is marked *"Not available on our site for your dates"*:
+
+| Room | Bed |
+|---|---|
+| Premier Suite | 1 king bed |
+| Business King Room | 1 king bed |
+| Prestige Suite | 1 king bed |
+| Residential Suite, Club Lounge access | 1 king bed |
+| Deluxe Guest room | 1 twin + 1 king |
+| Club Deluxe Twin, Club lounge access | 2 twin beds |
+| Deluxe Twin, Guest room | 2 twin beds |
+
+This is a **second independent negative three days after the 2026-08-18 check**, so the record's previous caveat — *"negative result on one source at one moment — not proof the hotel is full"* — is now retired and replaced with a verified result.
+
+Newly captured this pass: check-in from **15:00**, check-out until **11:00**, and **a photo ID *and* credit card are required at check-in**. Facilities: indoor swimming pool, spa and wellness centre, fitness centre, airport shuttle, room service, restaurant "The Seven Square". Guests repeatedly confirm the hotel is **connected to City Hall metro station** with the Incheon airport bus stopping directly outside.
+
+**Action:** book Marriott / Autograph Collection direct. Booking.com holds no inventory for this 8-night span; that is a distribution fact, not evidence the hotel is full.
+
+[Dated Booking page](https://www.booking.com/hotel/kr/theplaza.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD)
+
+### Hotel Midcity Myeongdong — the finding changed shape
+
+Re-checked 2026-08-21 for **Nov 1–9, 2026**: still no rate table. But Booking served its **alternative-dates widget**, and that widget proves the property is **open and actively selling**:
+
+| Alternative range shown by Booking | Nights | From |
+|---|---:|---:|
+| Nov 8 – Nov 14 | 6 | $1,546 |
+| **Nov 9 – Nov 15** | 6 | $1,641 |
+| Nov 10 – Nov 16 | 6 | $1,641 |
+| Nov 11 – Nov 17 | 6 | $1,631 |
+| Nov 8 – Nov 15 | 7 | $1,889 |
+| Nov 11 – Nov 18 | 7 | $1,851 |
+| Nov 8 – Nov 16 | 8 | $2,128 |
+
+So Midcity is **not** sold out or closed — the specific **Nov 1–9 eight-night span** is what fails. A one- or two-night shift would likely make it bookable.
+
+⚠️ **Those "from" totals are for OTHER date ranges.** They are recorded here as context only and are deliberately **not** stored as rates for any of our three windows. Nov 15–22 was not re-checked this pass.
+
+[Dated Booking page](https://www.booking.com/hotel/kr/hotel-midcity-myeongdong.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD)
+
+### Still outstanding — 15 records with no live rate in any window
+
+| Group | Records | Likely reason |
+|---|---|---|
+| Seoul | Four Seasons Seoul · Toyoko Inn Dongdaemun II · Nine Tree ROKAUS Yongsan | Toyoko is structural — the chain only opens its booking window ~3 months ahead. ROKAUS is direct-book. Four Seasons has one untested negative. |
+| Suwon | Novotel Ambassador Suwon | Accor direct-book; official page already confirms 1 × King size bed, 28 m², direct KTX/subway access. |
+| Cheonan / Daejeon | 2 + 3 records | Corridor alternates, lower priority. |
+| Gyeongju | 6 records incl. 3 hanoks and SONO Calm | Mostly direct-book or resort inventory not distributed on Booking. |
+
+These are the highest-value remaining work: they are **already on the shortlist**, so confirming whether each is genuinely unavailable or merely undistributed matters more than adding further new properties.
+
 ---
 
 ## Round 7 — Myeong-dong completed (added 2026-08-21 ~23:40 UTC)
@@ -385,7 +447,7 @@ Each Seoul candidate needs **two** dated captures (Nov 1–9 and Nov 15–22) pl
 | Gangnam | **Round 4 complete** — Aloft by Marriott Seoul Gangnam added; InterContinental Seoul COEX held out (slug 404); Andaz Seoul Gangnam re-verified as still unavailable for Nov 1–9. |
 | Busan | Round 1 complete: 1 added, 1 held out. |
 
-**Running total across all seven rounds: 9 added, 10 held out (each with a recorded finding), 1 identity collision resolved, 1 earlier hold-out re-verified, 1 property eliminated outright (Metro Hotel Myeongdong — closed for renovation across the whole trip), 0 duplicates created.**
+**Running total across all eight rounds: 9 added, 11 held out (each with a recorded finding), 1 identity collision resolved, 3 earlier findings re-verified (Andaz Seoul Gangnam, THE PLAZA Seoul, Hotel Midcity Myeongdong), 1 property eliminated outright (Metro Hotel Myeongdong — closed for renovation across the whole trip), 0 duplicates created.**
 
 ### Open re-tries — all blocked on the same thing
 

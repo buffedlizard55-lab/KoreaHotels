@@ -308,6 +308,19 @@ Kept completely separate from Table A and Table B. Capture dates are shown per r
 
 Added to the master list only after identity, coordinates, bed count **and** a dated refundable rate for every relevant window were all sourced from pages actually fetched.
 
+### Round 8 — Re-verification pass (0 added, 2 findings hardened)
+
+No new entries this round. Two records that previously said "unavailable" on a **single** check were re-tested, because a one-off negative is not proof.
+
+| Property | Finding on re-check (2026-08-21) |
+|---|---|
+| **THE PLAZA Seoul, Autograph Collection** | ⚠️ **Confirmed unavailable for Nov 1–9 — second independent negative, three days after the first.** All seven room types are marked *Not available on our site for your dates*: Premier Suite (1 king), Business King (1 king), Prestige Suite (1 king), Residential Suite w/ Club Lounge (1 king), Deluxe Guest room (1 twin + 1 king), Club Deluxe Twin (2 twin), Deluxe Twin (2 twin). Newly captured: check-in 15:00 / check-out 11:00, **photo ID *and* credit card required at check-in**; indoor pool, spa, airport shuttle; guests confirm it is connected to City Hall metro with the Incheon airport bus stopping outside. **Book Marriott/Autograph direct — Booking simply holds no inventory for this 8-night span.** |
+| **Hotel Midcity Myeongdong** | Still no availability for Nov 1–9 — but with an important nuance. Booking served its **alternative-dates widget** instead of a rate table, and that widget shows the property **is** selling adjacent ranges: Nov 8–14 from $1,546, **Nov 9–15 from $1,641**, Nov 11–18 from $1,851, Nov 8–16 from $2,128. So this is **not** a closed or sold-out hotel — the exact **8-night Nov 1–9 span** is what fails. Those totals are for *other* date ranges and are deliberately **not** recorded as our-window rates. |
+
+**Why this matters:** the repo previously carried THE PLAZA with the honest caveat *"negative result on one source at one moment — not proof the hotel is full."* It now has two negatives three days apart, so the caveat is retired. Midcity's result changes shape entirely: the property is open and selling, and a one-night shift in either direction would likely make it bookable.
+
+**Still outstanding — 15 records carry no live rate in any window:** Four Seasons Seoul, Toyoko Inn Dongdaemun II, Nine Tree ROKAUS Yongsan, Novotel Ambassador Suwon, 2 Cheonan, 3 Daejeon and 6 Gyeongju properties. Several are structural rather than sold out (Toyoko only opens its booking window ~3 months ahead; the Gyeongju hanoks and SONO are direct-book inventory).
+
 ### Round 7 — Myeong-dong completed (1 added)
 
 | New entry | Area | Nov 1–9 (8 nt) refundable | Nov 15–22 (7 nt) refundable | Cancellation | Verify |

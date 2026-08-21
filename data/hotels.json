@@ -7731,14 +7731,14 @@
         "note": "Marriott confirms boutique luxury 5-star hotel opposite City Hall Square with Deluxe King bedding and automated rooms."
       },
       "refundableRate": {
-        "capturedAtUtc": "2026-08-18T18:21:22Z",
-        "source": "Booking.com property page (dated rate table, live fetch 2026-08-18T18:21Z)",
+        "capturedAtUtc": "2026-08-22T00:10:00Z",
+        "source": "Booking.com property page — dated availability check (live fetch 2026-08-21; second independent check)",
         "sourceUrl": "https://www.booking.com/hotel/kr/theplaza.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
         "available": false,
         "finding": "Booking.com: 'We have no availability here between Sun, Nov 1, 2026 and Mon, Nov 9, 2026.' Listed types (Deluxe King, Club Deluxe, suites) all 1 king — not available on this source.",
         "room": "Deluxe King Room (listed, not bookable on Booking for these dates)",
-        "beds": "1 king bed",
-        "note": "LIVE 2026-08-18 negative on Booking. Book Marriott/Autograph direct. Address 119 Sogong-ro; ~2 min walk City Hall Station.",
+        "beds": "Full room list shown but ALL unbookable: Premier Suite (1 king), Business King Room (1 king), Prestige Suite (1 king), Residential Suite w/ Club Lounge (1 king), Deluxe Guest room (1 twin + 1 king), Club Deluxe Twin (2 twin), Deluxe Twin (2 twin)",
+        "note": "RE-VERIFIED UNAVAILABLE 2026-08-21 — this is now a SECOND independent negative three days after the 2026-08-18 check, so it is no longer 'one source at one moment'. Every room type on the dated page is marked 'Not available on our site for your dates'. House rules captured this pass: check-in from 15:00, check-out until 11:00, photo ID AND credit card required at check-in. Facilities: indoor swimming pool, spa and wellness centre, fitness centre, airport shuttle, room service, restaurant 'The Seven Square'. Guests repeatedly report the hotel is connected to City Hall metro station and that the Incheon airport bus stops directly outside. Still book Marriott/Autograph direct — Booking simply does not hold inventory for this 8-night span.",
         "stayCheckIn": "2026-11-01",
         "stayCheckOut": "2026-11-09",
         "nights": 8
@@ -17487,6 +17487,47 @@
             "candidate": "Hotel Midcity Myeongdong",
             "reason": "Booking URL known (/hotel/kr/hotel-midcity-myeongdong.html). Not re-fetched in this round; the 2026-08-19 audit found no availability in either Seoul window, with a Standard Double listed as 1 queen bed but not sellable. Still the last open Myeongdong item."
           }
+        ]
+      },
+      {
+        "batch": "2026-08-22 area-by-area, round 8",
+        "areasWorked": [
+          "Seoul / Myeongdong (final)",
+          "Re-verification of no-rate records"
+        ],
+        "added": [],
+        "investigatedNotAdded": [
+          {
+            "candidate": "Hotel Midcity Myeongdong",
+            "reason": "RE-CHECKED 2026-08-21 for Nov 1-9 2026: still NO availability. Booking returned no rate table at all and instead served its alternative-dates widget. IMPORTANT NUANCE: that widget shows the property IS selling adjacent ranges — Nov 8-14 from $1,546, Nov 9-15 from $1,641, Nov 10-16 from $1,641, Nov 11-18 from $1,851, Nov 8-15 from $1,889, Nov 8-16 from $2,128. So this is not a closed or sold-out hotel; the specific Nov 1-9 eight-night span fails. Those 'from' figures are Booking's totals for OTHER date ranges and are explicitly NOT our-window rates. Nov 15-22 was not re-checked this pass."
+          }
+        ]
+      }
+    ],
+    "reverificationPasses": [
+      {
+        "ranAtUtc": "2026-08-22T00:10:00Z",
+        "scope": "Records carrying no live rate in any window",
+        "reVerified": [
+          "seoul-the-plaza-autograph-collection"
+        ],
+        "result": "THE PLAZA Seoul, Autograph Collection confirmed unavailable on Booking for Nov 1-9 2026 a second time, three days after the first negative.",
+        "stillOutstanding": [
+          "seoul-four-seasons",
+          "seoul-toyoko-inn-dongdaemun2",
+          "seoul-nine-tree-rokaus-yongsan",
+          "suwon-novotel-ambassador",
+          "cheonan-on-city",
+          "cheonan-brown-dot",
+          "daejeon-ramada",
+          "daejeon-hotel-stendhal",
+          "daejeon-hotel-interciti",
+          "gyeongju-hwangnamkwan",
+          "gyeongju-gg-hotel",
+          "gyeongju-hanokinn",
+          "gyeongju-wiyeonjae",
+          "gyeongju-nadul-hanok",
+          "gyeongju-sono-calm"
         ]
       }
     ]

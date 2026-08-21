@@ -5916,6 +5916,34 @@
         }
       ],
       "note": "LIVE 2026-08-21. 3 left. ⚠️ $159/nt is a members-only price: the displayed stack is original $1,888.56 → bonus savings −$339.94 → Genius −$188.86 → Booking.com pays −$110.25 → $1,249.51. Budget the public figure, not $159. ⚠️ The two windows on this record use DIFFERENT room codes (twin in Nov 1–9, queen in Nov 15–22), so they are not a like-for-like price comparison."
+    },
+    {
+      "captureId": "2026-08-21T23:05:00Z-seoul-g2-hotel-myeongdong-nov1",
+      "hotelId": "seoul-g2-hotel-myeongdong",
+      "capturedAtUtc": "2026-08-21T23:05:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/g2-myeongdong.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Standard Twin Room (No Parking)",
+          "beds": "2 twin beds (269 ft², city view) — NOT a one-bed room",
+          "meetsOneBedNeed": false,
+          "pricePerNightUsd": 230,
+          "totalStayUsd": 1840,
+          "taxNote": "USD (display; total before taxes $1,839.68 after 37% off an original $2,902.25; 10% TAX excluded)",
+          "cancellationAsShown": "Free cancellation before October 18, 2026 — free until FOURTEEN days before arrival; ⚠️ inside 14 days the fee is the TOTAL price of the reservation, and the no-show fee is the same"
+        }
+      ],
+      "note": "LIVE 2026-08-21. Additional rate rows captured on the same page but whose room headers fell outside the fetched chunks: $207/nt ($1,655.71) and breakfast-inclusive $222/nt ($1,774.88) on the 14-day/total-penalty terms, and $300/nt ($2,403.07) and $322/nt ($2,576.03) on a 7-day/total-penalty tier. Those room names are deliberately NOT guessed."
+    },
+    {
+      "captureId": "2026-08-21T23:05:00Z-metro-myeongdong-renovation",
+      "hotelId": "(not in master list) Metro Hotel Myeongdong",
+      "capturedAtUtc": "2026-08-21T23:05:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/metro.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": false,
+      "rates": [],
+      "note": "CLOSED FOR RENOVATION 2026-06-16 to 2027-02-28 per the property text on its Booking page; Booking states reservations cannot be made. The renovation window covers all three trip windows (Nov 1-9, Nov 9-15, Nov 15-22, 2026). Excluded from consideration."
     }
   ]
 }

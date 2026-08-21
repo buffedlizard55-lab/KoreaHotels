@@ -5680,6 +5680,82 @@
         }
       ],
       "note": "LIVE 2026-08-21. ⚠️ The $107/night ($645) headline on the same King Room is NON-REFUNDABLE, pay online. Breakfast-inclusive refundable variant $177/nt ($1,064). Twin Room with City View: $113/$679 non-refundable, $141/$849 refundable. Booking tags the property 'Adults only'."
+    },
+    {
+      "captureId": "2026-08-21T20:15:00Z-seoul-mercure-ambassador-dongdaemun-nov1",
+      "hotelId": "seoul-mercure-ambassador-dongdaemun",
+      "capturedAtUtc": "2026-08-21T20:15:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/u5.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Classic Double Room (refundable rate)",
+          "beds": "1 full bed (216 ft², city view)",
+          "meetsOneBedNeed": false,
+          "pricePerNightUsd": 216,
+          "totalStayUsd": 1727,
+          "taxNote": "USD (display; 10% VAT excluded)",
+          "cancellationAsShown": "Free cancellation before 6:00 PM on October 31, 2026 — free until 6:00 PM the day before arrival; then the first night"
+        }
+      ],
+      "note": "LIVE 2026-08-21. ⚠️ The $177/nt ($1,416) headline on the same Classic Double is NON-REFUNDABLE, pay online; the non-refundable breakfast rate is $206/$1,646. Refundable + breakfast is $245/$1,957. Classic Twin (2 twin beds) prices identically."
+    },
+    {
+      "captureId": "2026-08-21T20:15:00Z-seoul-mercure-ambassador-dongdaemun-nov15",
+      "hotelId": "seoul-mercure-ambassador-dongdaemun",
+      "capturedAtUtc": "2026-08-21T20:15:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/u5.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Classic Double Room (refundable rate)",
+          "beds": "1 full bed (216 ft², city view)",
+          "meetsOneBedNeed": false,
+          "pricePerNightUsd": 218,
+          "totalStayUsd": 1529,
+          "taxNote": "USD (display; 10% VAT excluded)",
+          "cancellationAsShown": "Free cancellation before 6:00 PM on November 14, 2026 — free until 6:00 PM the day before arrival; then the first night"
+        }
+      ],
+      "note": "LIVE 2026-08-21. ⚠️ The $179/nt ($1,254) headline on the same Classic Double is NON-REFUNDABLE; non-refundable + breakfast $208/$1,455. Refundable + breakfast $247/$1,731. Same room in both windows, so the two rows ARE like-for-like: $216/nt over 8 nights vs $218/nt over 7 nights."
+    },
+    {
+      "captureId": "2026-08-21T20:15:00Z-seoul-lotte-city-mapo-nov1",
+      "hotelId": "seoul-lotte-city-mapo",
+      "capturedAtUtc": "2026-08-21T20:15:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/lottecityhotel.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Double Room",
+          "beds": "1 full bed (280 ft², city view)",
+          "meetsOneBedNeed": false,
+          "pricePerNightUsd": 215,
+          "totalStayUsd": 1723,
+          "taxNote": "USD (display; 10% TAX excluded)",
+          "cancellationAsShown": "Free cancellation before October 29, 2026 — free until 3 days before arrival; then the first night"
+        }
+      ],
+      "note": "LIVE 2026-08-21. 7 left. Same window: Standard Double Room with Bath (1 full bed) $208/$1,666; breakfast-inclusive $240/$1,917; Superior Double City View (1 full bed) $223/$1,781. Every refundable row on this property is pay-at-property with a 3-day deadline."
+    },
+    {
+      "captureId": "2026-08-21T20:15:00Z-seoul-lotte-city-mapo-nov15",
+      "hotelId": "seoul-lotte-city-mapo",
+      "capturedAtUtc": "2026-08-21T20:15:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/lottecityhotel.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Double Room",
+          "beds": "1 full bed (280 ft², city view)",
+          "meetsOneBedNeed": false,
+          "pricePerNightUsd": 177,
+          "totalStayUsd": 1242,
+          "taxNote": "USD (display; total before taxes $1,242.09 after a 7% property discount from $1,335.58; 10% TAX excluded)",
+          "cancellationAsShown": "Free cancellation before November 12, 2026 — free until 3 days before arrival; then the first night"
+        }
+      ],
+      "note": "LIVE 2026-08-21. Same room code as the Nov 1–9 row, so the two windows ARE like-for-like: $215/nt over 8 nights vs $177/nt over 7 nights — this property is ~18% cheaper in the later window. Same window: Superior Double City View (1 full bed) $184/$1,288.84; Standard Double Room with Bath total $1,195 for 7 nights (its per-night cell was outside the captured page chunk, so it is reported as a total only)."
     }
   ]
 }

@@ -16122,6 +16122,263 @@
         "prepayment": "No prepayment needed — pay at the property",
         "note": "LIVE 2026-08-21. ⚠️ The $107/night ($645) headline on the same King Room is NON-REFUNDABLE, pay online. Breakfast-inclusive refundable variant $177/nt ($1,064). Twin Room with City View: $113/$679 non-refundable, $141/$849 refundable. Booking tags the property 'Adults only'."
       }
+    },
+    {
+      "id": "seoul-mercure-ambassador-dongdaemun",
+      "city": "Seoul",
+      "name": "Mercure Ambassador Seoul Dongdaemun",
+      "tier": "mid",
+      "stars": 4,
+      "area": "Dongdaemun / Euljiro 4-ga (Jung-gu)",
+      "neighborhood": "369 Dongho-ro, Jung-gu — adjacent to Euljiro 4-ga Station (Subway Lines 2 and 5); an independent listing states 5 minutes to both Euljiro 4-ga and Jongno 5-ga, and walking distance to DDP, Gwangjang Market and Cheonggyecheon.",
+      "priceFrom": 177,
+      "priceTo": 247,
+      "currency": "USD",
+      "checkIn": "16:00 (from an independent structured listing — NOT confirmed on an official Accor page)",
+      "checkOut": "11:00 (same source caveat)",
+      "policies": [
+        "24-hour front desk (Booking amenity list).",
+        "Asian buffet breakfast $20 per person per night (optional on most rate plans).",
+        "Fitness center, restaurant, coffee shop, lounge, shared kitchen, luggage storage, free WiFi throughout.",
+        "Rooms include an in-room bath/hot tub, bathrobes, bidet, coffee machine.",
+        "Check-in/check-out times come from a third-party structured listing, not an official Accor page — confirm before you rely on them."
+      ],
+      "rooms": [
+        {
+          "name": "Classic Double Room",
+          "price": "$216/night refundable (Nov 1–9, 2026); $218/night refundable (Nov 15–22, 2026)",
+          "note": "216 ft², city view, in-room bath, coffee machine",
+          "bed": "double",
+          "bedType": "double",
+          "bedSize": "Booking bed label: 1 full bed. No width published by any source checked in this pass.",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "A single full/double bed — Booking does NOT call this a queen. Below the one-queen/king preference unless the property confirms otherwise."
+        },
+        {
+          "name": "Classic Twin Room",
+          "price": "$216/night refundable (Nov 1–9, 2026)",
+          "note": "216 ft², city view",
+          "bed": "twin",
+          "bedType": "twin",
+          "bedSize": "2 twin beds",
+          "oneBed": false,
+          "oneBedOnly": false,
+          "privateBathroom": true,
+          "bedNote": "Two twin beds — does not meet the one-bed preference."
+        }
+      ],
+      "promos": [
+        "Accor ALL member rates are not shown on Booking — price the same dates on all.accor.com before committing."
+      ],
+      "amenities": [
+        "Fitness center",
+        "Restaurant",
+        "Coffee shop",
+        "24-hour front desk",
+        "Lounge",
+        "Luggage storage",
+        "Elevator"
+      ],
+      "hasOnSiteLaundry": false,
+      "officialLabel": "Official Accor/Mercure property page — URL not yet captured (see verification note)",
+      "compareUrl": "https://www.booking.com/hotel/kr/u5.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "compareLabel": "Compare rates (Booking.com dated page, Nov 1–9 2026)",
+      "why": "Resolves the open 'Hotel U5' identity question from the 2026-08-19 Dongdaemun batch: the historic u5 Booking URL now serves this Accor-branded property at the same address. It is a brand-new Mercure one subway stop from DDP with refundable, pay-at-checkout rates in both requested Seoul windows.",
+      "highlights": [
+        "Adjacent to Euljiro 4-ga Station (Lines 2 and 5)",
+        "Refundable until 6:00 PM the day before arrival in both windows",
+        "Brand-new Accor property (only 2 Booking reviews at capture)"
+      ],
+      "fits": false,
+      "fitReason": "The only one-bed room is labelled '1 full bed' by Booking, with no published width, so it does not meet the one-queen/king (~150 cm+) preference on current evidence.",
+      "lat": 37.567348,
+      "lng": 127.0018,
+      "priceNote": "Range spans the captured non-refundable low ($177/nt, Nov 1–9) to the refundable breakfast-inclusive high ($247/nt, Nov 15–22). Both windows were captured separately on 2026-08-21.",
+      "verification": {
+        "lastChecked": "2026-08-21",
+        "sourceType": "Major trusted booking platform + independent structured listing",
+        "sourceUrl": "https://www.booking.com/hotel/kr/u5.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "canonicalName": "Mercure Ambassador Seoul Dongdaemun",
+        "existenceStatus": "Verified operating property",
+        "note": "Booking.com's dated page confirms the name, brand 'Mercure', address 369 Dongho-ro, Jung-gu, 04546 Seoul, and live bookable rate tables for BOTH Nov 1-9 and Nov 15-22 2026. Two independent structured listings give the same street address and postal code with coordinates 37.567348 / 127.0018, which is where lat/lng come from. IDENTITY RESOLVED: the 2026-08-19 Dongdaemun batch flagged that the historic Booking URL /hotel/kr/u5.html ('Hotel U5') resolves to Mercure Ambassador Seoul Dongdaemun. That is confirmed here, and it is recorded as ONE property under the Mercure name — no separate 'Hotel U5' record was created. FLAGGED: room-count sources disagree — one independent listing says 336 rooms, another says 297. FLAGGED: the all.accor.com property URL was NOT captured, so officialUrl is intentionally absent. FLAGGED: 'stars: 4' is the Mercure brand tier; no official star rating was displayed on the captured page. FLAGGED: check-in 16:00 / check-out 11:00 come from a third-party listing, not Accor. Distinct from seoul-novotel-ambassador-dongdaemun and seoul-ramada-dongdaemun.",
+        "distinctFrom": [
+          "seoul-novotel-ambassador-dongdaemun",
+          "seoul-ramada-dongdaemun",
+          "seoul-sotetsu-splaisir-dongdaemun"
+        ]
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-21T20:15:00Z",
+        "source": "Booking.com property page — dated rate table (live fetch 2026-08-21)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/u5.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "stayCheckIn": "2026-11-01",
+        "stayCheckOut": "2026-11-09",
+        "nights": 8,
+        "available": true,
+        "room": "Classic Double Room (refundable rate)",
+        "beds": "1 full bed (216 ft², city view)",
+        "pricePerNight": 216,
+        "totalStay": 1727,
+        "currency": "USD (display; 10% VAT excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before 6:00 PM on October 31, 2026 — free until 6:00 PM the day before arrival; then the first night",
+        "prepayment": "Pay nothing until October 29, 2026 (payment then due, property time)",
+        "note": "LIVE 2026-08-21. ⚠️ The $177/nt ($1,416) headline on the same Classic Double is NON-REFUNDABLE, pay online; the non-refundable breakfast rate is $206/$1,646. Refundable + breakfast is $245/$1,957. Classic Twin (2 twin beds) prices identically."
+      },
+      "refundableRateNov15": {
+        "capturedAtUtc": "2026-08-21T20:15:00Z",
+        "source": "Booking.com property page — dated rate table (live fetch 2026-08-21)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/u5.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "stayCheckIn": "2026-11-15",
+        "stayCheckOut": "2026-11-22",
+        "nights": 7,
+        "available": true,
+        "room": "Classic Double Room (refundable rate)",
+        "beds": "1 full bed (216 ft², city view)",
+        "pricePerNight": 218,
+        "totalStay": 1529,
+        "currency": "USD (display; 10% VAT excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before 6:00 PM on November 14, 2026 — free until 6:00 PM the day before arrival; then the first night",
+        "prepayment": "Pay nothing until November 12, 2026 (payment then due, property time)",
+        "note": "LIVE 2026-08-21. ⚠️ The $179/nt ($1,254) headline on the same Classic Double is NON-REFUNDABLE; non-refundable + breakfast $208/$1,455. Refundable + breakfast $247/$1,731. Same room in both windows, so the two rows ARE like-for-like: $216/nt over 8 nights vs $218/nt over 7 nights."
+      }
+    },
+    {
+      "id": "seoul-lotte-city-mapo",
+      "city": "Seoul",
+      "name": "LOTTE CITY HOTEL Mapo",
+      "tier": "mid",
+      "stars": 4,
+      "area": "Mapo / Gongdeok (Hongdae catchment)",
+      "neighborhood": "109 Mapo-daero, Mapo-gu — Booking states the hotel is connected to Gongdeok Station Exit 2 by an internal passageway, serving the airport railway (AREX) plus Subway Lines 5 and 6; roughly 15 minutes by subway to Hongdae, Sinchon and Myeongdong.",
+      "priceFrom": 177,
+      "priceTo": 240,
+      "currency": "USD",
+      "checkIn": "Not verified — not shown in the captured page; confirm with LOTTE",
+      "checkOut": "Not verified — not shown in the captured page; confirm with LOTTE",
+      "policies": [
+        "Continental buffet breakfast $23 per person per night (optional on most rate plans).",
+        "Indoor swimming pool with natural light, fitness center, restaurant 'Naru', business meeting room.",
+        "Free private on-site parking.",
+        "Rooms list 'extra long beds (> 80 inches)', bathrobes, bidet, streaming service on some room codes.",
+        "Check-in/check-out times were NOT in the captured page — verify on the official LOTTE page."
+      ],
+      "rooms": [
+        {
+          "name": "Double Room",
+          "price": "$215/night refundable (Nov 1–9, 2026); $177/night refundable (Nov 15–22, 2026)",
+          "note": "280 ft², city view; 7 rooms left at capture in the Nov 1–9 window",
+          "bed": "double",
+          "bedType": "double",
+          "bedSize": "Booking bed label: 1 full bed (280 ft²; 'extra long beds > 80 inches' listed). No width published.",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Booking calls this a full bed, not a queen. See the flagged full-vs-queen labelling conflict in the verification note."
+        },
+        {
+          "name": "Standard Double Room with Bath",
+          "price": "$208/night refundable (Nov 1–9, 2026)",
+          "note": "280 ft², city view, bath",
+          "bed": "double",
+          "bedType": "double",
+          "bedSize": "Booking bed label: 1 full bed (280 ft²)",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Full bed on the rate row captured. A Booking room-type index lists a swimming-pool-package version of the SAME room name as '1 queen bed' — unresolved, see verification note."
+        },
+        {
+          "name": "Superior Double City View",
+          "price": "$223/night refundable (Nov 1–9, 2026); $184/night refundable (Nov 15–22, 2026)",
+          "note": "280 ft², city view, minibar",
+          "bed": "double",
+          "bedType": "double",
+          "bedSize": "Booking bed label: 1 full bed",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Full bed."
+        }
+      ],
+      "promos": [
+        "LOTTE Members direct rates are not shown on Booking — price the same dates on lottehotel.com before committing."
+      ],
+      "amenities": [
+        "Indoor swimming pool",
+        "Fitness center",
+        "Restaurant",
+        "Free private parking",
+        "Family rooms",
+        "Facilities for disabled guests"
+      ],
+      "hasOnSiteLaundry": false,
+      "officialLabel": "Official LOTTE City Hotel property page — URL not yet captured (see verification note)",
+      "compareUrl": "https://www.booking.com/hotel/kr/lottecityhotel.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "compareLabel": "Compare rates (Booking.com dated page, Nov 1–9 2026)",
+      "why": "A transit-first Mapo base physically connected to Gongdeok Station (AREX + Lines 5 and 6), which makes the ICN arrival and the Hongdae/Sinchon side of the city trivially easy. Refundable, pay-at-property in both Seoul windows, with an indoor pool.",
+      "highlights": [
+        "Connected to Gongdeok Station Exit 2 by internal passageway (AREX + Lines 5/6)",
+        "Refundable 3 days out, no prepayment, in both windows",
+        "Indoor pool and fitness center"
+      ],
+      "fits": false,
+      "fitReason": "Every one-bed room captured is labelled '1 full bed' by Booking with no published width, so it does not meet the one-queen/king (~150 cm+) preference on current evidence — despite an unresolved 'queen' label on a package rate of the same room name.",
+      "lat": 37.544891,
+      "lng": 126.950607,
+      "priceNote": "Range spans the captured refundable Double Room low ($177/nt, Nov 15–22) to the refundable breakfast-inclusive Standard Double high ($240/nt, Nov 1–9). Both windows captured separately on 2026-08-21.",
+      "verification": {
+        "lastChecked": "2026-08-21",
+        "sourceType": "Major trusted booking platform + independent structured listing",
+        "sourceUrl": "https://www.booking.com/hotel/kr/lottecityhotel.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "canonicalName": "LOTTE CITY HOTEL Mapo",
+        "existenceStatus": "Verified operating property",
+        "note": "Booking.com's dated page confirms the name, brand 'Lotte City Hotels', address 109 Mapo-daero, Mapo-gu, 04146 Seoul, the Gongdeok Station internal-passageway connection, and live bookable rate tables for BOTH Nov 1-9 and Nov 15-22 2026. An independent structured listing gives the same street address with coordinates 37.544891 / 126.950607, which is where lat/lng come from. FLAGGED (bed labelling): a Booking room-type index retrieved by search on 2026-08-21 lists 'Run of House — 1 queen bed', 'Standard Double Room with Late Check-in 18:00 — 1 queen bed' and '[Swimming Pool PKG for 2] Standard Double Room with Bath — 1 queen bed', while the dated rate rows actually captured for our windows all say '1 full bed' for the same room names. That conflict is UNRESOLVED and must be settled with the property before assuming a queen. FLAGGED: the lottehotel.com property URL was NOT captured, so officialUrl is intentionally absent. FLAGGED: 'stars: 4' comes from independent listings, not from the captured Booking page. FLAGGED: guest reviews mention a coin laundry but no official/OTA facility line confirmed it, so hasOnSiteLaundry is left false. Distinct from seoul-glad-mapo and seoul-seoul-garden-hotel, which are separate Mapo properties.",
+        "distinctFrom": [
+          "seoul-glad-mapo",
+          "seoul-lotte-hotel",
+          "seoul-lotte-city-myeongdong"
+        ]
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-21T20:15:00Z",
+        "source": "Booking.com property page — dated rate table (live fetch 2026-08-21)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/lottecityhotel.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "stayCheckIn": "2026-11-01",
+        "stayCheckOut": "2026-11-09",
+        "nights": 8,
+        "available": true,
+        "room": "Double Room",
+        "beds": "1 full bed (280 ft², city view)",
+        "pricePerNight": 215,
+        "totalStay": 1723,
+        "currency": "USD (display; 10% TAX excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before October 29, 2026 — free until 3 days before arrival; then the first night",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "LIVE 2026-08-21. 7 left. Same window: Standard Double Room with Bath (1 full bed) $208/$1,666; breakfast-inclusive $240/$1,917; Superior Double City View (1 full bed) $223/$1,781. Every refundable row on this property is pay-at-property with a 3-day deadline."
+      },
+      "refundableRateNov15": {
+        "capturedAtUtc": "2026-08-21T20:15:00Z",
+        "source": "Booking.com property page — dated rate table (live fetch 2026-08-21)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/lottecityhotel.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "stayCheckIn": "2026-11-15",
+        "stayCheckOut": "2026-11-22",
+        "nights": 7,
+        "available": true,
+        "room": "Double Room",
+        "beds": "1 full bed (280 ft², city view)",
+        "pricePerNight": 177,
+        "totalStay": 1242,
+        "currency": "USD (display; total before taxes $1,242.09 after a 7% property discount from $1,335.58; 10% TAX excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 12, 2026 — free until 3 days before arrival; then the first night",
+        "prepayment": "No prepayment needed — pay at the property",
+        "note": "LIVE 2026-08-21. Same room code as the Nov 1–9 row, so the two windows ARE like-for-like: $215/nt over 8 nights vs $177/nt over 7 nights — this property is ~18% cheaper in the later window. Same window: Superior Double City View (1 full bed) $184/$1,288.84; Standard Double Room with Bath total $1,195 for 7 nights (its per-night cell was outside the captured page chunk, so it is reported as a total only)."
+      }
     }
   ],
   "meta": {
@@ -16131,7 +16388,7 @@
     "expandedPrimaryCityHotels": 50,
     "verifiedPrimaryCityHotels": 50,
     "identityAuditLastChecked": "2026-08-18",
-    "verifiedHotelRecords": 148,
+    "verifiedHotelRecords": 150,
     "duplicateHotelRecords": 0,
     "refundableRateCaptures": {
       "lastRun": "2026-08-21",
@@ -16284,6 +16541,25 @@
             "reason": "Already in the master list; confirmed NOT distributable on Booking.com for these dates."
           }
         ]
+      },
+      {
+        "batch": "2026-08-21 area-by-area, round 2",
+        "areasWorked": [
+          "Seoul / Dongdaemun",
+          "Seoul / Mapo-Gongdeok (Hongdae catchment)"
+        ],
+        "added": [
+          "seoul-mercure-ambassador-dongdaemun",
+          "seoul-lotte-city-mapo"
+        ],
+        "windowsCaptured": [
+          "2026-11-01 → 2026-11-09",
+          "2026-11-15 → 2026-11-22"
+        ],
+        "resolved": [
+          "The 2026-08-19 'Hotel U5' identity collision: booking.com/hotel/kr/u5.html serves Mercure Ambassador Seoul Dongdaemun; recorded as one property, no duplicate created."
+        ],
+        "investigatedNotAdded": []
       }
     ]
   },

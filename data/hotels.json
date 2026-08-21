@@ -17638,6 +17638,113 @@
         "prepayment": "Pay nothing until October 24, 2026 (payment then due, property time)",
         "note": "LIVE 2026-08-22. 3 left. ⚠️ INVERTED CANCELLATION LADDER WITH A TRAP: on this property the CHEAPEST rate has the LONGEST free-cancellation window, and the middle tier is the punitive one. $191/nt = free until 14 days out, then FIRST NIGHT only. $216/nt = free until 7 days out, but inside 7 days the fee is the TOTAL price of the reservation. $254/nt = free until 5 days out, then FIRST NIGHT only. Paying more here buys a shorter runway, and the middle option is the worst of both. A sibling row with the same Cabin S description and identical pricing sits above these; its room header fell outside the fetched chunk and may be the one-bed variant — deliberately not recorded. Breakfast $42 pp, dinner $93 pp."
       }
+    },
+    {
+      "id": "busan-nongshim-dongnae",
+      "city": "Busan",
+      "name": "Nongshim Hotel",
+      "tier": "luxury",
+      "stars": 5,
+      "area": "Dongnae / Oncheonjang hot springs (Dongnae-gu)",
+      "neighborhood": "23, Geumganggongwon-ro 20beon-gil, Dongnae-gu, Busan 47709 — beside Oncheonjang Station (Busan Metro Line 1); an aggregator places Myeongnyun Station under a 20-minute walk. Roughly 8.4 mi from the city centre and 8.3 mi from Gimhae Airport.",
+      "priceFrom": 117,
+      "priceTo": 161,
+      "currency": "USD",
+      "checkIn": "14:00 (independent listing — not confirmed on the captured Booking page)",
+      "checkOut": "Not verified — not shown in the captured page",
+      "policies": [
+        "Home of the Hurshimchung (Heosimcheong) hot-spring bathhouse — guests of the Queen Room rate get a free hot-spring coupon for 2.",
+        "⚠️ Free cancellation runs only to 1 day before arrival; then the first night — BUT the NO-SHOW fee is the TOTAL price of the reservation.",
+        "All captured rates INCLUDE a 10% service charge and EXCLUDE 10% TAX.",
+        "Breakfast $24 per person per night (optional), rated 6.5/10 by Booking guests.",
+        "Laundry facilities, sauna, spa, fitness centre, free parking, 24-hour front desk, hot spring bath (independent amenity list)."
+      ],
+      "rooms": [
+        {
+          "name": "Queen Room - Two Welcome Drink Coupons per stay",
+          "price": "$128/night refundable (Nov 9–15, 2026)",
+          "note": "305 ft², bath, includes a free hot-spring coupon for 2 guests; 5 left at capture",
+          "bed": "double",
+          "bedType": "double",
+          "bedSize": "⚠️ CONFLICT: the room is sold as a 'Queen Room' but Booking states the bed is '1 full bed'. No width published.",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Name says Queen, Booking's bed label says full. Seventh property in this project with a room-name / bed-label conflict — confirm in writing."
+        },
+        {
+          "name": "Korean-Style Double Room - Two Welcome Drink Coupons per stay",
+          "price": "$117/night refundable (Nov 9–15, 2026)",
+          "note": "305 ft², Ondol Korean underfloor heating and NO carpet; includes a 50% discount coupon; 3 left at capture",
+          "bed": "double",
+          "bedType": "double",
+          "bedSize": "Booking bed label: 1 full bed",
+          "oneBed": true,
+          "oneBedOnly": true,
+          "privateBathroom": true,
+          "bedNote": "Ondol room — underfloor heating, no carpet. Single full bed."
+        }
+      ],
+      "promos": [
+        "Booking's displayed discount here is only a 7% pay-online reduction, not a member rate — unusually clean pricing compared with other records in this set."
+      ],
+      "amenities": [
+        "Hurshimchung hot-spring bathhouse",
+        "Spa and wellness centre",
+        "Sauna",
+        "Fitness centre",
+        "Laundry facilities",
+        "Restaurant",
+        "Bar / lounge",
+        "Free parking",
+        "24-hour front desk"
+      ],
+      "hasOnSiteLaundry": true,
+      "officialUrl": "https://www.hotelnongshim.com/kr/index.php?pCode=Hurshimchung",
+      "officialLabel": "Official Hotel Nongshim page (Hurshimchung spa section)",
+      "compareUrl": "https://www.booking.com/hotel/kr/nongshim.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "compareLabel": "Compare rates (Booking.com dated page, Nov 9–15 2026)",
+      "why": "Opens the Dongnae / Oncheonjang hot-springs district, which had zero coverage, and is the only record in the whole project attached to a major Korean bathhouse (Hurshimchung). It sits on Metro Line 1 at Oncheonjang, so it is a genuine transit base rather than a resort, and it has on-site laundry facilities.",
+      "highlights": [
+        "First Dongnae / Oncheonjang record in the list",
+        "Hurshimchung hot-spring bathhouse on site; free coupon for 2 on the Queen rate",
+        "Beside Oncheonjang Station (Metro Line 1); laundry facilities on site"
+      ],
+      "fits": false,
+      "fitReason": "The one-bed rooms captured are labelled '1 full bed' by Booking despite one being sold as a 'Queen Room'. No mattress width is published by any source checked, so the one-queen/king (~150 cm+) preference is not established.",
+      "lat": 35.2198873,
+      "lng": 129.0822423,
+      "priceNote": "Range is the captured Nov 9–15, 2026 span ($117/nt Korean-Style Double room-only to $161/nt Queen Room with breakfast). Service charge included, 10% TAX excluded.",
+      "verification": {
+        "lastChecked": "2026-08-22",
+        "sourceType": "Official hotel/brand + major trusted booking platform",
+        "sourceUrl": "https://www.booking.com/hotel/kr/nongshim.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "canonicalName": "Nongshim Hotel",
+        "existenceStatus": "Verified operating property",
+        "note": "Booking.com's dated page serves a live bookable rate table for Nov 9-15 2026. Booking's own structured data gives the address 23, Geumganggongwon-ro 20beon-gil, Dongnae-gu, 47709 Busan with coordinates 35.2198873 / 129.0822423, which is what is stored here. Independent listings agree on the address and give phone +82 51-550-2100 and 5-star status; a TripAdvisor attraction page for the Hurshimchung Spa gives the same street address with 'Hotel Nongshim' in the address line and links to hotelnongshim.com, which is used as officialUrl. FLAGGED (bed): the 'Queen Room' is stated by Booking as having '1 full bed' - a room-name / bed-label conflict, the seventh in this project. FLAGGED: free cancellation runs only to 1 day out, and while in-window cancellation is the first night, the NO-SHOW fee is the TOTAL reservation. FLAGGED: an older address form '137-7, Onchun-Dong, Dongrae-gu' appears on one aggregator with coordinates 35.21989 / 129.08224 - that is the legacy lot-based form of the same site, consistent to 4 decimal places, not a second property. FLAGGED: check-in 14:00 comes from a third-party listing; check-out was not captured. FLAGGED: 'stars: 5' comes from independent listings, not the captured Booking page. Distinct from every other Busan record - this is the first Dongnae-gu property in the list.",
+        "distinctFrom": [
+          "busan-lotte-hotel",
+          "busan-avani-central"
+        ]
+      },
+      "refundableRateNov9": {
+        "capturedAtUtc": "2026-08-22T03:15:00Z",
+        "source": "Booking.com property page — dated rate table (live fetch 2026-08-22)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/nongshim.html?checkin=2026-11-09&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "stayCheckIn": "2026-11-09",
+        "stayCheckOut": "2026-11-15",
+        "nights": 6,
+        "available": true,
+        "room": "Queen Room - Two Welcome Drink Coupons per stay",
+        "beds": "⚠️ Booking bed label: 1 full bed (305 ft²) despite the room being sold as a 'Queen Room'",
+        "pricePerNight": 128,
+        "totalStay": 862,
+        "currency": "USD (display; total before taxes $861.85 after a 7% pay-online reduction from $928.78; 10% service charge INCLUDED; 10% TAX excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 8, 2026 — free until 1 day before arrival; then the first night. ⚠️ The NO-SHOW fee is the TOTAL price of the reservation",
+        "prepayment": "Pay nothing until November 6, 2026 (payment then due, property time)",
+        "note": "LIVE 2026-08-22. 5 left. This rate includes a FREE HOT-SPRING COUPON for 2 guests at Hurshimchung. Breakfast-inclusive variant $161/nt ($1,081.89). Cheaper alternative on the same page: Korean-Style Double Room (Ondol underfloor heating, no carpet, 1 full bed, 3 left, includes a 50% discount coupon) $117/nt ($788.50), or $150/nt ($1,008.54) with breakfast. Breakfast rated only 6.5/10."
+      }
     }
   ],
   "meta": {
@@ -17647,7 +17754,7 @@
     "expandedPrimaryCityHotels": 50,
     "verifiedPrimaryCityHotels": 50,
     "identityAuditLastChecked": "2026-08-18",
-    "verifiedHotelRecords": 159,
+    "verifiedHotelRecords": 160,
     "duplicateHotelRecords": 0,
     "refundableRateCaptures": {
       "lastRun": "2026-08-21",
@@ -18035,6 +18142,40 @@
         ],
         "identityResolved": "Hilton Busan / Ananti Hilton Busan / Ananti at Busan Cove are the SAME site. Booking slug 'hilton-busan' now titles the property 'Ananti at Busan Cove'; Hilton's first-party page markets it as 'Ananti Hilton Busan'. Same address, coordinates and phone. Recorded as ONE record.",
         "districtGapClosed": "Gijang-gun / east coast had zero records."
+      },
+      {
+        "batch": "2026-08-22 Busan batch, round 13 — Dongnae + Centum City sweep",
+        "areasWorked": [
+          "Busan / Dongnae-Oncheonjang",
+          "Busan / Centum City-BEXCO"
+        ],
+        "added": [
+          "busan-nongshim-dongnae"
+        ],
+        "windowsCaptured": [
+          "2026-11-09 → 2026-11-15"
+        ],
+        "districtGapClosed": "Dongnae-gu / Oncheonjang hot springs had zero records.",
+        "identityWarning": {
+          "district": "Centum City (Haeundae-gu)",
+          "issue": "⚠️ CENTUM CITY IS AN IDENTITY MINEFIELD — do not add any Centum property without a primary-source cross-check. Four separately-named TripAdvisor listings resolve to only TWO street addresses: 'Centum Business Hotel' (17 Centum 1-ro, geo 35.166935/129.13159), 'Centum Primus Hotel' (17 Centum 1-ro, geo 35.166668/129.13153) and 'Centum Premier Hotel' (17 Centum 1-ro, geo 35.16693878/129.13160705) all share ONE address; 'Haeundae Centum Hotel' (20 Centum 3-ro, geo 35.16772/129.13297) and 'Centum Convention Hotel' (20 Centum 3-ro, geo 35.1678/129.13292) share another. The TripAdvisor page titled 'Centum Primus Hotel' even opens its description with 'Centum Premier Hotel is a hotel situated in Busan'. These are near-duplicate listings of at most two real properties. NO Centum record was created.",
+          "candidatesHeldOut": [
+            {
+              "candidate": "Haeundae Centum Hotel",
+              "address": "20, Centum 3-ro, Haeundae-gu, Busan 48060",
+              "lat": 35.16772,
+              "lng": 129.13297,
+              "note": "543 rooms; self-serve laundry, washing machine, airport transportation, 24-hour front desk listed. Walking distance to Shinsegae Centum City and BEXCO. The most credible Centum candidate, but shares its street address with a 'Centum Convention Hotel' listing — needs a primary-source check first."
+            },
+            {
+              "candidate": "Centum Premier Hotel / Centum Primus Hotel / Centum Business Hotel",
+              "address": "17, Centum 1-ro, Haeundae-gu, Busan 48060",
+              "lat": 35.16693878,
+              "lng": 129.13160705,
+              "note": "Three names, one address, three near-identical coordinate sets, and cross-contaminated descriptions. Cannot be safely distinguished from third-party data alone."
+            }
+          ]
+        }
       }
     ],
     "reverificationPasses": [

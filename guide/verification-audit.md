@@ -197,3 +197,83 @@
 | `suwon-courtyard` | Courtyard by Marriott Suwon | [Official hotel/brand](https://www.marriott.com/en-us/hotels/selcw-courtyard-suwon/overview/) | Verified operating property |
 | `suwon-ibis` | ibis Ambassador Suwon | [Official hotel/brand](https://all.accor.com/hotel/6528/index.en.shtml) | Verified operating property |
 
+---
+
+# Line-by-line data audit — 2026-08-22
+
+Ten machine checks were run against **all 160 hotel records** and **all 242 priced rate rows**. Method and results below; the executable checks live in the audit run recorded at `meta.audits` in `data/hotels.json`.
+
+## Checks performed
+
+1. Window field name (`refundableRate` / `…Nov9` / `…Nov15`) vs the row's actual `stayCheckIn` / `stayCheckOut`
+2. `sourceUrl` `checkin`/`checkout` query parameters vs the stored stay dates
+3. `nights` vs the true span between the two dates
+4. `pricePerNight × nights` vs `totalStay`
+5. Live rates must carry `capturedAtUtc`, `sourceUrl`, `room`, `beds`, `freeCancellation`, `prepayment`, `currency`
+6. `capturedAtUtc` must not be in the future relative to 2026-08-22
+7. A price may not be present unless `available` is `true`
+8. Any record with no live rate in any window must carry a `distributionStatus`
+9. `officialUrl` must not point at an OTA (Booking / Agoda / Kayak / TripAdvisor)
+10. `verification.sourceUrl` must be present and http(s)
+
+## Results
+
+| Check | Outcome |
+|---|---|
+| 1 window naming | ✅ 0 defects |
+| 2 URL dates vs stay dates | ✅ 0 defects across every dated Booking link |
+| 3 night counts | ✅ 0 defects |
+| 4 arithmetic | ⚠️ 58 of 242 flagged — see below |
+| 5 live-rate completeness | ❌ **2 defects — fixed** |
+| 6 future timestamps | ✅ 0 |
+| 7 price without availability | ✅ 0 after fix |
+| 8 distributionStatus coverage | ✅ all 20 no-rate records |
+| 9 OTA masquerading as official | ✅ 0 |
+| 10 verification source | ✅ 160/160 |
+
+## Defect 1 — unsourced prices (FIXED)
+
+`busan-ibis-haeundae` and `busan-ibis-budget-haeundae` both carried:
+
+- `available: true`
+- a room name and bed count
+- a price — **$49/night · $343 total** and **$45/night · $315 total**
+- a cancellation deadline
+
+…with **`capturedAtUtc: null`, `source: null`, `sourceUrl: null`.**
+
+Nothing supported those numbers. They also contradicted the same records' `distributionStatus` — *"Not distributed on Booking.com"*, verified 2026-08-21, meaning no dated Booking rate for these properties can exist at all.
+
+**Action:** every unsupported value nulled (`available`, `room`, `beds`, `pricePerNight`, `totalStay`, `freeCancellation`, `prepayment`, `currency`). The removed figures are preserved verbatim inside the record's `note` so the correction is auditable rather than invisible. The properties remain in the list on the strength of their official Accor pages.
+
+## Defect 2 — one arithmetic outlier (FLAGGED, not corrected)
+
+`seoul-the-designers-dongdaemun` / `refundableRateNov15`: **$73/night × 7 nights = $511** against a stored total of **$464** (ratio 0.908).
+
+Of 242 priced rows this is the **only** one where the total sits *below* per-night × nights. Flagged in-record as unresolved and awaiting a re-fetch. It was **not** silently "corrected" — inventing a reconciliation would be the exact failure this audit exists to catch.
+
+## The 57 same-direction mismatches — a Booking display artefact, not an error
+
+| Metric | Value |
+|---|---:|
+| Priced rows checked | 242 |
+| Arithmetically consistent (ratio ≈ 1.00) | 184 |
+| Total **above** per-night × nights | 57 |
+| Total **below** | 1 |
+| Median gap ratio | **1.111** |
+
+The 57 cluster tightly around **1.111**, i.e. the displayed per-night average is consistently ~10% *below* total ÷ nights. Booking's "$X per night" average excludes a component that its own "total before taxes" includes; only 16 of the 57 mention a service charge in their currency note, so it is not purely service charge.
+
+Both figures are captured verbatim from the same dated page, so neither is wrong — but they cannot be reconciled by multiplication.
+
+**Rule now recorded at `meta.priceArithmetic` and stated at the top of the README: budget from the Total column, never from $/night × nights.**
+
+## Defect 3 — two core-needs badges resting on a single source (ANNOTATED)
+
+`busan-grand-josun` and `busan-avani-central` carry `fits: true` on the strength of their **official** room pages (Josun: Deluxe queen ~150×200, King/Premier ~180×200; Avani: Deluxe City View King). Booking states **1 queen bed** on the row actually sold at both.
+
+A queen still satisfies the project's ≥150 cm one-bed preference, so the badge stands. But `fitReason` on both records now states explicitly that the official page and the OTA disagree about the bed, so a reader can see what the badge rests on.
+
+## Standing conclusion
+
+No fabricated values remain in `data/hotels.json`. Every price in the three date tables traces to a dated Booking URL with a UTC capture stamp, every no-rate record explains itself, and the two figures that could not be supported have been removed rather than rounded into plausibility.

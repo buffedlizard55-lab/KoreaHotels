@@ -95,13 +95,32 @@ def is_confirmed_queen_king(kind: str) -> bool:
     return kind in {"king", "queen"}
 
 
+WINDOWS = {
+    ("2026-11-01", "2026-11-09"): ("nov1", "Nov 1–9, 2026 (8 nights)"),
+    ("2026-11-09", "2026-11-15"): ("nov9", "Nov 9–15, 2026 (6 nights)"),
+    ("2026-11-15", "2026-11-22"): ("nov15", "Nov 15–22, 2026 (7 nights)"),
+}
+
+
+def window_for(rate: dict, fallback_key: str = "nov1") -> tuple[str, str]:
+    """Derive the date window from the captured stay itself.
+
+    The stay dates on the rate row are authoritative. Deriving the label from a
+    hardcoded key let Busan's Nov 15–22 captures render under a "Nov 1–9"
+    heading, which is exactly the mixing this project must not do.
+    """
+    key = (str(rate.get("stayCheckIn") or ""), str(rate.get("stayCheckOut") or ""))
+    if key in WINDOWS:
+        return WINDOWS[key]
+    if key[0] and key[1]:
+        return "other", f"{key[0]} → {key[1]} (own window)"
+    return fallback_key, "Captured stay window"
+
+
 def quote_row(hotel: dict, rate: dict | None = None, window_key: str = "nov1") -> dict[str, Any]:
     rr = rate if isinstance(rate, dict) else _rr(hotel)
     kind = bed_class_for_rate(rr)
-    window = {
-        "nov1": "Nov 1–9, 2026 (8 nights)",
-        "nov15": "Nov 15–22, 2026 (7 nights)",
-    }.get(window_key, "Captured stay window")
+    window_key, window = window_for(rr, window_key)
     return {
         "id": hotel.get("id"),
         "name": hotel.get("name"),
@@ -232,12 +251,15 @@ def build_findings(hotels_data: dict, itinerary: dict) -> dict:
     rows = [quote_row(hotel) for hotel in hotels]
     live_rows = [row for row in rows if row["pricePerNight"] is not None]
     quote_rows = list(live_rows)
-    quote_rows.extend(
-        quote_row(hotel, hotel.get("refundableRateNov15"), "nov15")
-        for hotel in hotels
-        if hotel.get("city") == "Seoul" and isinstance(hotel.get("refundableRateNov15"), dict)
-        and has_live_rate(hotel.get("refundableRateNov15"))
-    )
+    # Alternate windows are appended as their OWN rows. window_for() reads the
+    # stay dates off each rate block, so no row can land under the wrong date
+    # heading and no total can mix two windows.
+    for field in ("refundableRateNov9", "refundableRateNov15"):
+        quote_rows.extend(
+            quote_row(hotel, hotel.get(field), field)
+            for hotel in hotels
+            if isinstance(hotel.get(field), dict) and has_live_rate(hotel.get(field))
+        )
     unsourced = [
         hotel
         for hotel in hotels

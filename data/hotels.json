@@ -16379,6 +16379,142 @@
         "prepayment": "No prepayment needed — pay at the property",
         "note": "LIVE 2026-08-21. Same room code as the Nov 1–9 row, so the two windows ARE like-for-like: $215/nt over 8 nights vs $177/nt over 7 nights — this property is ~18% cheaper in the later window. Same window: Superior Double City View (1 full bed) $184/$1,288.84; Standard Double Room with Bath total $1,195 for 7 nights (its per-night cell was outside the captured page chunk, so it is reported as a total only)."
       }
+    },
+    {
+      "id": "seoul-fraser-place-central",
+      "city": "Seoul",
+      "name": "Fraser Place Central Seoul",
+      "tier": "mid",
+      "stars": 4,
+      "area": "Jung-gu / Seodaemun (Gwanghwamun–Jongno fringe)",
+      "neighborhood": "78, Tongil-ro, Jung-gu (04517) per an independent structured listing — Booking's own address line was not inside the captured page chunks. Serviced-apartment property; an airport shuttle bus stop is reported by guests directly outside.",
+      "priceFrom": 280,
+      "priceTo": 360,
+      "currency": "USD",
+      "checkIn": "15:00 (Booking house rules: from 3:00 PM to 12:00 AM)",
+      "checkOut": "11:00 (Booking house rules: from 1:00 AM to 11:00 AM)",
+      "policies": [
+        "Serviced apartments — captured units have a PRIVATE KITCHEN (Booking facility tag).",
+        "Minimum age for check-in is 19 (Booking house rules).",
+        "Children of all ages welcome; crib free on request; extra bed KRW 44,000 per person per night.",
+        "Pets allowed on request; charges may apply.",
+        "Indoor swimming pool, fitness center, restaurant 'First Floor', room service, bar, free parking.",
+        "⚠️ NO availability at all for Nov 1–9, 2026 — see the flagged finding on this record."
+      ],
+      "rooms": [
+        {
+          "name": "Super Deluxe Two-Bedroom Apartment",
+          "price": "$360/night (Nov 15–22, 2026 capture)",
+          "note": "915 ft², private suite, private kitchen; 2 left at capture",
+          "bed": "king",
+          "bedType": "king",
+          "bedSize": "Booking bed labels: 1 king bed AND 1 queen bed — two separate beds",
+          "oneBed": false,
+          "oneBedOnly": false,
+          "privateBathroom": true,
+          "bedNote": "Two beds (king + queen) in a two-bedroom apartment — does NOT meet the single-bed preference."
+        },
+        {
+          "name": "One-Bedroom Family Apartment",
+          "price": "Not available for Nov 1–9, 2026",
+          "note": "Listed on the Nov 1–9 page as unbookable for those dates",
+          "bed": "king",
+          "bedType": "king",
+          "bedSize": "Booking bed labels: 1 king bed and 1 queen bed",
+          "oneBed": false,
+          "oneBedOnly": false,
+          "privateBathroom": true,
+          "bedNote": "Despite the 'One-Bedroom' name, Booking lists two beds (king + queen)."
+        },
+        {
+          "name": "Suite",
+          "price": "Not available for Nov 1–9, 2026",
+          "note": "Listed on the Nov 1–9 page as unbookable for those dates",
+          "bed": "king",
+          "bedType": "king",
+          "bedSize": "Booking bed labels vary by suite code: '1 king bed / 1 queen bed' and '2 twin beds / 1 king bed'",
+          "oneBed": false,
+          "oneBedOnly": false,
+          "privateBathroom": true,
+          "bedNote": "Multi-bed suite configurations."
+        }
+      ],
+      "promos": [
+        "Frasers direct/long-stay rates are not shown on Booking — a 7-night serviced-apartment stay is exactly the case where the operator's own extended-stay rate can beat an OTA. Price it direct."
+      ],
+      "amenities": [
+        "Indoor swimming pool",
+        "Fitness center",
+        "Restaurant",
+        "Room service",
+        "Bar",
+        "Free parking",
+        "Private kitchen in unit",
+        "Facilities for disabled guests"
+      ],
+      "hasOnSiteLaundry": false,
+      "officialUrl": "http://seoul-central.frasershospitality.com/",
+      "officialLabel": "Official Frasers Hospitality property site",
+      "compareUrl": "https://www.booking.com/hotel/kr/fraser-place-central-seoul.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "compareLabel": "Compare rates (Booking.com dated page, Nov 15–22 2026)",
+      "why": "The only serviced-apartment option investigated so far with a confirmed private kitchen in the unit — useful on a 7-night leg. It is also a clean example of a window-specific finding: completely unavailable Nov 1–9, but bookable and refundable Nov 15–22.",
+      "highlights": [
+        "Serviced apartments with a private kitchen (Booking facility tag)",
+        "Refundable 3 days out, pay nothing until Nov 10 (Nov 15–22 window)",
+        "Indoor pool, gym, restaurant; airport shuttle stop reported outside"
+      ],
+      "fits": false,
+      "fitReason": "Every unit captured is a two-bed apartment (Booking lists 1 king AND 1 queen), so there is no single-bed room on the evidence gathered. No mattress width published and no walkable-rail distance captured.",
+      "lat": 37.562393,
+      "lng": 126.969406,
+      "priceNote": "Range is the captured Nov 15–22, 2026 span ($280/nt for the 732 ft² two-bedroom row to $360/nt for the Super Deluxe). There is NO Nov 1–9 price because the property had no availability at all in that window.",
+      "verification": {
+        "lastChecked": "2026-08-21",
+        "sourceType": "Official hotel/brand + major trusted booking platform",
+        "sourceUrl": "https://www.booking.com/hotel/kr/fraser-place-central-seoul.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "canonicalName": "Fraser Place Central Seoul",
+        "existenceStatus": "Verified operating property",
+        "note": "Booking.com's dated page confirms the property name and serves a live bookable rate table for Nov 15-22 2026, plus house rules (check-in 15:00-24:00, check-out 01:00-11:00, minimum age 19, pets on request) and facilities (indoor pool, fitness center, restaurant, private kitchen in unit). An independent structured listing gives 78 Tongil-ro, Jung-gu, 04517, coordinates 37.562393 / 126.969406, 271 units, phone +82 2-2220-8888 and the official Frasers URL used here. FLAGGED: Booking's own address line was NOT inside the captured page chunks, so the street address rests on the third-party listing. FLAGGED: third-party sources disagree on the address — one gives '1-202 Uiju-ro 1-ga, Jung-gu' (the old lot-based form of the same Jung-gu address) and another gives '19-1 Sogong-ro 5-gil', which is inconsistent. Confirm the street address before travelling. FLAGGED: 'stars: 4' is not from an official Korean classification. FLAGGED: guests report an in-unit washer/dryer, but no official or OTA facility line confirmed it in this pass, so hasOnSiteLaundry stays false. This is a DIFFERENT property from Fraser Place Namdaemun Seoul, which is already in the list under a separate Namdaemun address.",
+        "distinctFrom": [
+          "seoul-fraser-place-namdaemun"
+        ]
+      },
+      "refundableRate": {
+        "capturedAtUtc": "2026-08-21T21:00:00Z",
+        "source": "Booking.com property page — dated rate table (live fetch 2026-08-21)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/fraser-place-central-seoul.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "stayCheckIn": "2026-11-01",
+        "stayCheckOut": "2026-11-09",
+        "nights": 8,
+        "available": false,
+        "room": null,
+        "beds": "Room list shown but unbookable: Suite (1 king + 1 queen), Suite (2 twin + 1 king), One-Bedroom Family Apartment (1 king + 1 queen)",
+        "pricePerNight": null,
+        "totalStay": null,
+        "currency": null,
+        "breakfastIncluded": false,
+        "freeCancellation": null,
+        "prepayment": null,
+        "note": "VERIFIED NO AVAILABILITY 2026-08-21 for Nov 1–9, 2026. Every room type on the dated page is marked 'Not available on our site for your dates'. No price, cancellation term or refundable status exists for this window."
+      },
+      "refundableRateNov15": {
+        "capturedAtUtc": "2026-08-21T21:00:00Z",
+        "source": "Booking.com property page — dated rate table (live fetch 2026-08-21)",
+        "sourceUrl": "https://www.booking.com/hotel/kr/fraser-place-central-seoul.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+        "stayCheckIn": "2026-11-15",
+        "stayCheckOut": "2026-11-22",
+        "nights": 7,
+        "available": true,
+        "room": "Super Deluxe Two-Bedroom Apartment",
+        "beds": "1 king bed AND 1 queen bed (915 ft², private suite, private kitchen) — two beds, not one",
+        "pricePerNight": 360,
+        "totalStay": 2520,
+        "currency": "USD (display; 10% VAT excluded)",
+        "breakfastIncluded": false,
+        "freeCancellation": "Free cancellation before November 12, 2026 — free until 3 days before arrival; then the first night",
+        "prepayment": "Pay nothing until November 10, 2026 (payment then due, property time)",
+        "note": "LIVE 2026-08-21. Only 2 left. A cheaper refundable row on the same page — 732 ft², also 1 king + 1 queen with a private kitchen, 5 left — is $280/nt, $1,959 on identical terms, but its room name was cut at a page-chunk boundary and is therefore NOT recorded as a named row. Breakfast $26 pp. ⚠️ This property had ZERO availability for the Nov 1–9 window, so no cross-window comparison is possible."
+      }
     }
   ],
   "meta": {
@@ -16388,7 +16524,7 @@
     "expandedPrimaryCityHotels": 50,
     "verifiedPrimaryCityHotels": 50,
     "identityAuditLastChecked": "2026-08-18",
-    "verifiedHotelRecords": 150,
+    "verifiedHotelRecords": 151,
     "duplicateHotelRecords": 0,
     "refundableRateCaptures": {
       "lastRun": "2026-08-21",
@@ -16560,6 +16696,30 @@
           "The 2026-08-19 'Hotel U5' identity collision: booking.com/hotel/kr/u5.html serves Mercure Ambassador Seoul Dongdaemun; recorded as one property, no duplicate created."
         ],
         "investigatedNotAdded": []
+      },
+      {
+        "batch": "2026-08-21 area-by-area, round 3",
+        "areasWorked": [
+          "Seoul / Itaewon",
+          "Seoul / Jongno"
+        ],
+        "added": [
+          "seoul-fraser-place-central"
+        ],
+        "windowsCaptured": [
+          "2026-11-01 → 2026-11-09 (verified NO availability)",
+          "2026-11-15 → 2026-11-22 (live refundable rate)"
+        ],
+        "investigatedNotAdded": [
+          {
+            "candidate": "Nouvelle Hotel Seoul Itaewon by Anook (11 Usadan-ro 14-gil, Yongsan-gu 04405)",
+            "reason": "Identity and coordinates confirmed (37.5341115 / 126.996318), and the full Nov 1–9 rate table was read end to end — but EVERY rate row on the property is 'Non-refundable, pay online'. There is no refundable rate to record. Booking also states children are not allowed and the minimum check-in age is 19. Held out because the project tracks refundable options; the finding itself is recorded."
+          },
+          {
+            "candidate": "Hotel Aventree Jongno (46 Ujeongguk-ro, Jongno-gu)",
+            "reason": "Identity solid — three independent listings agree on the address and coordinates 37.573027 / 126.98301, minutes on foot from Jonggak Station (Line 1). Two Booking property-slug attempts (aventree-jongno, aventree-hotel-jongno) both returned Booking's 404 page, so no dated rate page could be reached. No price, bed count or cancellation term exists to record. Star rating also disagrees across sources (3, 3.5 and 4). Re-try with the correct slug."
+          }
+        ]
       }
     ]
   },

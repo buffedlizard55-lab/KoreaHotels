@@ -5756,6 +5756,43 @@
         }
       ],
       "note": "LIVE 2026-08-21. Same room code as the Nov 1–9 row, so the two windows ARE like-for-like: $215/nt over 8 nights vs $177/nt over 7 nights — this property is ~18% cheaper in the later window. Same window: Superior Double City View (1 full bed) $184/$1,288.84; Standard Double Room with Bath total $1,195 for 7 nights (its per-night cell was outside the captured page chunk, so it is reported as a total only)."
+    },
+    {
+      "captureId": "2026-08-21T21:00:00Z-seoul-fraser-place-central-nov15",
+      "hotelId": "seoul-fraser-place-central",
+      "capturedAtUtc": "2026-08-21T21:00:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/fraser-place-central-seoul.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": true,
+      "rates": [
+        {
+          "room": "Super Deluxe Two-Bedroom Apartment",
+          "beds": "1 king bed AND 1 queen bed (915 ft², private suite, private kitchen) — two beds, not one",
+          "meetsOneBedNeed": false,
+          "pricePerNightUsd": 360,
+          "totalStayUsd": 2520,
+          "taxNote": "USD (display; 10% VAT excluded)",
+          "cancellationAsShown": "Free cancellation before November 12, 2026 — free until 3 days before arrival; then the first night"
+        }
+      ],
+      "note": "LIVE 2026-08-21. Only 2 left. A cheaper refundable row on the same page — 732 ft², also 1 king + 1 queen with a private kitchen, 5 left — is $280/nt, $1,959 on identical terms, but its room name was cut at a page-chunk boundary and is therefore NOT recorded as a named row. Breakfast $26 pp. ⚠️ This property had ZERO availability for the Nov 1–9 window, so no cross-window comparison is possible."
+    },
+    {
+      "captureId": "2026-08-21T21:00:00Z-seoul-fraser-place-central-nov1",
+      "hotelId": "seoul-fraser-place-central",
+      "capturedAtUtc": "2026-08-21T21:00:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/fraser-place-central-seoul.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": false,
+      "rates": [],
+      "note": "VERIFIED NO AVAILABILITY 2026-08-21 for Nov 1–9, 2026. Every room type on the dated page is marked 'Not available on our site for your dates'. No price, cancellation term or refundable status exists for this window."
+    },
+    {
+      "captureId": "2026-08-21T21:00:00Z-seoul-nouvelle-itaewon-nov1-heldout",
+      "hotelId": "(not in master list) Nouvelle Hotel Seoul Itaewon by Anook",
+      "capturedAtUtc": "2026-08-21T21:00:00Z",
+      "sourceUrl": "https://www.booking.com/hotel/kr/nouvelle-seoul-itaewon.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+      "refundableAvailable": false,
+      "rates": [],
+      "note": "Held-out candidate. Full Nov 1–9 rate table read end to end 2026-08-21: every row is 'Non-refundable, pay online'. Cheapest row $110/nt ($881, Genius + pay-online member price off $1,064.03); Deluxe Twin (2 twin) $122/$978.91; Suite (2 full beds) $248/$1,987.84. Check-in 16:00, check-out 12:00, children NOT allowed, minimum check-in age 19, no cribs or extra beds."
     }
   ]
 }

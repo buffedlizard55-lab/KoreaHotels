@@ -12,7 +12,7 @@ Anything missing means the candidate is **held out and documented**, not added w
 
 ---
 
-## Added: 3 (round 1 Busan · round 2 Dongdaemun + Mapo)
+## Added: 4 (round 1 Busan · round 2 Dongdaemun + Mapo · round 3 Jongno fringe)
 
 ### Hyatt Place Busan Yeonsan — `busan-hyatt-place-yeonsan`
 
@@ -102,9 +102,66 @@ Because the same room code was captured in both windows for both properties:
 | Mercure Ambassador Seoul Dongdaemun | $216/nt | $218/nt | flat (+1%) |
 | LOTTE CITY HOTEL Mapo | $215/nt | $177/nt | **−18% in the later window** |
 
+
 ---
 
-## Investigated, not added: 1
+## Round 3 — Itaewon + Jongno (added 2026-08-21 ~21:00 UTC)
+
+**Result: 1 added, 2 held out.** Both hold-outs produced a real, recorded finding rather than a blank.
+
+### Fraser Place Central Seoul — `seoul-fraser-place-central`
+
+| Field | Value | Source |
+|---|---|---|
+| Address | 78, Tongil-ro, Jung-gu, 04517 Seoul | Independent structured listing (**not** Booking — see flags) |
+| Coordinates | 37.562393 / 126.969406 | Same listing |
+| Official site | `http://seoul-central.frasershospitality.com/` | Independent listing's `sameAs` field |
+| Property type | Serviced apartments, 271 units | Independent listing |
+| House rules | Check-in 15:00–24:00 · check-out 01:00–11:00 · minimum age 19 · pets on request · crib free, extra bed KRW 44,000 pp/night | Booking.com, captured page |
+| Facilities | Indoor swimming pool, fitness center, restaurant "First Floor", room service, bar, free parking, **private kitchen in unit** | Booking.com |
+| **Nov 1–9, 2026 (8 nt)** | ⚠️ **NO AVAILABILITY.** Every room type marked *"Not available on our site for your dates"* — Suite (1 king + 1 queen), Suite (2 twin + 1 king), One-Bedroom Family Apartment (1 king + 1 queen) | Booking.com, dated page |
+| **Nov 15–22, 2026 (7 nt)** | Super Deluxe Two-Bedroom Apartment — **1 king + 1 queen**, 915 ft², private suite, private kitchen. **$360/night · $2,520**, 10% VAT excluded. **2 left.** | Booking.com, dated page |
+| — cancellation | Free cancellation before **November 12, 2026** (3 days); then the first night. **Pay nothing until November 10, 2026.** | Booking.com, verbatim |
+| Cheaper row, same window | 732 ft², also 1 king + 1 queen with private kitchen, 5 left, **$280/nt · $1,959**, identical terms — **room name cut at a page-chunk boundary**, so recorded in the note only | Booking.com |
+
+**Manual verification:** [Nov 1–9](https://www.booking.com/hotel/kr/fraser-place-central-seoul.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD) · [Nov 15–22](https://www.booking.com/hotel/kr/fraser-place-central-seoul.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD) · [official Frasers site](http://seoul-central.frasershospitality.com/)
+
+**Flags:**
+
+1. **Not a one-bed option.** Every unit — including the one *named* "One-Bedroom Family Apartment" — is listed by Booking as **1 king bed AND 1 queen bed**. `fits: false`.
+2. **Booking's address line was not in the captured chunks**, so the street address rests on a third-party listing.
+3. **Third-party sources disagree on the address:** *78 Tongil-ro, Jung-gu* (used here), *1-202 Uiju-ro 1-ga, Jung-gu* (old lot form of the same address) and *19-1 Sogong-ro 5-gil* (inconsistent). Confirm before travelling.
+4. `stars: 4` is not an official Korean classification.
+5. **In-unit washer/dryer is guest-reported only** — no official or OTA facility line confirmed it, so `hasOnSiteLaundry` stays `false`.
+6. Distinct from **Fraser Place Namdaemun Seoul**, already in the list under a separate address.
+7. This is the **first new record in this batch series with a genuine `officialUrl`**.
+
+---
+
+## Round 3 hold-outs
+
+### Nouvelle Hotel Seoul Itaewon by Anook — held out
+
+- **Address:** 2-7F, 11, Usadan-ro 14-gil, Yongsan-gu, 04405 Seoul. **Coordinates:** 37.5341115 / 126.996318. Both confirmed.
+- **Name discrepancy flagged:** search results call it "by **Aank**"; Booking's own page title says "by **Anook**".
+- **The finding:** the Nov 1–9 rate table was read **end to end** (all three page chunks). **Every rate row on the property is "Non-refundable — pay online."** There is no refundable rate at any price point.
+  - Cheapest row **$110/nt · $881** (Genius + pay-online member price off an original $1,064.03)
+  - Same room with breakfast **$129/nt · $1,028**
+  - Deluxe Twin (2 twin beds, 165 ft²) **$122/nt · $978.91**
+  - Suite (2 full beds, 489 ft²) **$248/nt · $1,987.84**, 2 left
+- **Also recorded:** check-in 16:00, check-out 12:00, **children are not allowed**, minimum check-in age **19**, no cribs or extra beds, pets not allowed.
+- **Why held out:** this project's core requirement is a verifiable refundable rate. A property with no refundable inventory is a legitimate *finding*, not a master-list row. The capture is logged in `data/pricing-history.json` so the work is not lost.
+
+### Hotel Aventree Jongno — held out
+
+- **Address:** 46, Ujeongguk-ro, Jongno-gu, Seoul. **Coordinates:** 37.573027 / 126.98301 (three independent listings agree to ~4 decimal places). Minutes on foot from **Jonggak Station (Line 1)**; laundry service and 24-hour reception listed.
+- **Why held out:** two Booking property-slug attempts — `aventree-jongno` and `aventree-hotel-jongno` — both returned Booking's 404/sign-in page. **No dated rate page could be reached**, so there is no price, no bed count on a sold row, and no cancellation term.
+- **Also flagged:** the star rating disagrees across sources (3, 3.5 and 4).
+- **Next step:** find the correct Booking slug (or another dated, fetchable rate source) and re-run both windows.
+
+---
+
+## Earlier hold-out (round 1)
 
 ### Shilla Stay Seobusan (Gangseo-gu, Busan)
 
@@ -122,12 +179,12 @@ Each Seoul candidate needs **two** dated captures (Nov 1–9 and Nov 15–22) pl
 |---|---|
 | Dongdaemun | **Round 2 complete** — Mercure Ambassador Seoul Dongdaemun added; the Hotel U5 identity collision is resolved. |
 | Hongdae / Mapo | **Round 2 complete** — LOTTE CITY HOTEL Mapo added (Gongdeok, Hongdae catchment). Hongdae proper (Mapo-gu core) still has room for candidates. |
-| Itaewon | Queued |
-| Jongno / Insadong | Queued |
+| Itaewon | **Round 3 worked** — no property added. The candidate investigated (Nouvelle by Anook) sells **only non-refundable** rates. The four existing Itaewon records (Grand Hyatt, Mondrian, Hamilton, Imperial Palace Boutique) already cover the area's refundable tier. |
+| Jongno / Insadong | **Round 3 partially worked** — Fraser Place Central Seoul added on the Jung-gu/Seodaemun fringe; **Hotel Aventree Jongno held out** pending a working Booking slug. |
 | Myeong-dong | Queued — already the densest area in the list (25+ records), so new candidates must be genuinely new properties, not rebrands. |
 | Gangnam | Queued — Andaz Seoul Gangnam remains held out from batch 5 (no sellable availability in either window). |
 | Busan | Round 1 complete: 1 added, 1 held out. |
 
-**Running total across both rounds: 3 added, 1 held out, 1 identity collision resolved, 0 duplicates created.**
+**Running total across all three rounds: 4 added, 3 held out (each with a recorded finding), 1 identity collision resolved, 0 duplicates created.**
 
 Run `python3 validate.py && python3 build.py` after any edit.

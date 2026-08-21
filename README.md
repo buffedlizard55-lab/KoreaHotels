@@ -9,7 +9,7 @@ A blank or missing value means it was not verified — nothing here is estimated
 |---|---:|---|---:|---|
 | **Nov 1–9, 2026** | 8 | Seoul | 84 | [Seoul dual window](guide/verification-seoul-dual-window-nov1-and-nov15-2026.md) · [Dongdaemun batch 5](guide/verification-seoul-dongdaemun-batch5-2026-08-19.md) |
 | **Nov 9–15, 2026** | 6 | **Busan** (this request) + Gyeongju alternates | 18 Busan + 9 Gyeongju | [Busan Nov 9–15 pass](guide/verification-busan-nov9-15-2026-08-21.md) |
-| **Nov 15–22, 2026** | 7 | Busan (original plan) + Seoul alternates | 107 | [Seoul Nov 15 pass](guide/verification-seoul-nov15-2026.md) |
+| **Nov 15–22, 2026** | 7 | Busan (original plan) + Seoul alternates | 108 | [Seoul Nov 15 pass](guide/verification-seoul-nov15-2026.md) |
 
 > ⚠️ **Do not compare a row in one table with a row in another.** They are different search lengths (8 / 6 / 7 nights) and different searches.
 > ⚠️ The itinerary files still describe the *original* route (Gyeongju Nov 9–15, Busan Nov 15–22). This request treats **Busan as the Nov 9–15 stay**, so both sets of captures are kept and neither is deleted. The route itself has not been rewritten — that is a decision, not a verification.
@@ -277,6 +277,7 @@ Kept completely separate from Table A and Table B. Capture dates are shown per r
 | Hotel Naru Seoul - MGallery Collection | Seoul · Mapo / Hongdae catchment | Superior King Room - Disability Access - Floors 3-5 (No View) | 1 king bed | Free cancellation before 6:00 PM on November 14, 2026 | $319 | **$2,231** | 2026-08-19 | [dated rate](https://www.booking.com/hotel/kr/naru-seoul-mgallery-ambassador.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD) |
 | Novotel Ambassador Seoul Dongdaemun Hotels & Residences | Seoul · Dongdaemun | King Studio Residence (kitchenette, washer, rooftop pool) | 1 king bed | Free cancellation before November 14, 2026 | $334 | **$2,340** | 2026-08-19 | [dated rate](https://www.booking.com/hotel/kr/novotel-ambassador-seoul-dongdaemun.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD) |
 | Courtyard by Marriott Seoul Myeongdong | Seoul · Namdaemun / Myeongdong | Larger Guest room, 1 King | 1 king bed | Free cancellation before November 15, 2026 | $346 | **$2,423** | 2026-08-19 | [dated rate](https://www.booking.com/hotel/kr/courtyard-by-marriott-seoul-namdaemun.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD) |
+| Fraser Place Central Seoul | Seoul · Jung-gu / Seodaemun (Gwangh… | Super Deluxe Two-Bedroom Apartment | 1 king bed AND 1 queen bed (915 ft², private suite, private kitchen) — two beds… | Free cancellation before November 12, 2026 | $360 | **$2,520** | 2026-08-21 | [dated rate](https://www.booking.com/hotel/kr/fraser-place-central-seoul.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD) |
 | Four Points by Sheraton Josun, Seoul Myeongdong | Seoul · Myeongdong / Euljiro | Deluxe King Room with City View | 1 king bed | Free cancellation before November 15, 2026 | $339 | **$2,634** | 2026-08-19 | [dated rate](https://www.booking.com/hotel/kr/four-points-by-sheraton-seoul-myeongdong.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD) |
 | LOTTE HOTEL SEOUL | Seoul · Myeongdong / City Hall | Main Tower Grand Superior Double | 1 full bed | Free cancellation before November 12, 2026 | $359 | **$2,788** | 2026-08-19 | [dated rate](https://www.booking.com/hotel/kr/lotte-seoul-seoul.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD) |
 | Oakwood Premier COEX Center Seoul | Seoul · Gangnam / COEX | 1-Bedroom Superior (king, full kitchen, washer) | 1 king bed | Free cancellation before November 12, 2026 | $359 | **$2,793** | 2026-08-19 | [dated rate](https://www.booking.com/hotel/kr/oakwood-premier-coex-center-seoul.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD) |
@@ -297,6 +298,30 @@ Kept completely separate from Table A and Table B. Capture dates are shown per r
 ## 🆕 New entries — area-by-area batches (2026-08-21)
 
 Added to the master list only after identity, coordinates, bed count **and** a dated refundable rate for every relevant window were all sourced from pages actually fetched.
+
+### Round 3 — Itaewon + Jongno (1 added, 2 held out with findings)
+
+| New entry | Area | Room / bed count | Nov 1–9 (8 nt) | Nov 15–22 (7 nt) refundable | Cancellation | Verify |
+|---|---|---|---|---|---|---|
+| **Fraser Place Central Seoul** | Jung-gu / Seodaemun (Gwanghwamun–Jongno fringe) | Super Deluxe Two-Bedroom Apartment — **1 king + 1 queen** (two beds), 915 ft², **private kitchen** | ⚠️ **No availability at all** — every room type marked *Not available on our site for your dates* | **$360/nt · $2,520** | Free until **3 days** out (Nov 12); pay nothing until Nov 10 | [Nov 1–9](https://www.booking.com/hotel/kr/fraser-place-central-seoul.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD) · [Nov 15–22](https://www.booking.com/hotel/kr/fraser-place-central-seoul.html?checkin=2026-11-15&checkout=2026-11-22&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD) |
+
+First entry in this project with a real **`officialUrl`** (Frasers Hospitality) rather than a Booking-only identity, and the first with a **private kitchen** in the unit — relevant on a 7-night leg.
+
+**🚩 Flags on round 3:**
+
+1. **Not a one-bed option.** Every unit captured — including the one called *One-Bedroom Family Apartment* — is listed by Booking as **1 king bed AND 1 queen bed**. `fits: false`.
+2. **Window-specific availability.** Zero availability Nov 1–9; bookable and refundable Nov 15–22. No cross-window comparison is possible for this property.
+3. **Address disagreement between sources.** Booking's own address line was not inside the captured chunks. Third-party listings give *78 Tongil-ro, Jung-gu 04517* (used here, with its coordinates), *1-202 Uiju-ro 1-ga, Jung-gu* (the old lot form of the same address) and *19-1 Sogong-ro 5-gil* (inconsistent). Confirm before travelling.
+4. **A cheaper refundable row exists but is unnamed.** 732 ft², also 1 king + 1 queen with a private kitchen, 5 left, **$280/nt · $1,959** on identical terms — its room name was cut at a page-chunk boundary, so it is recorded in the note rather than as a named row.
+5. **In-unit washer/dryer is guest-reported only**, so `hasOnSiteLaundry` stays `false`.
+6. Distinct property from **Fraser Place Namdaemun Seoul**, which is already in the list.
+
+**Investigated, not added — with the finding recorded:**
+
+| Candidate | Finding |
+|---|---|
+| **Nouvelle Hotel Seoul Itaewon by Anook** (11 Usadan-ro 14-gil, Yongsan-gu) | Identity and coordinates confirmed, and the **entire Nov 1–9 rate table was read end to end** — **every single row is "Non-refundable, pay online."** There is no refundable rate to record. Cheapest row $110/nt ($881 Genius/pay-online member price off $1,064.03); Deluxe Twin (2 twin) $122/$979; Suite (2 full beds) $248/$1,988. Booking also states **children are not allowed** and the **minimum check-in age is 19**. Held out; the finding is logged in `data/pricing-history.json`. |
+| **Hotel Aventree Jongno** (46 Ujeongguk-ro, Jongno-gu) | Identity solid — three independent listings agree on the address and coordinates 37.573027 / 126.98301, minutes on foot from Jonggak Station (Line 1). But **two Booking slug attempts both returned a 404**, so no dated rate page could be reached: no price, no bed count, no cancellation term. Star rating also disagrees across sources (3, 3.5, 4). Needs the correct slug before it can be added. |
 
 ### Round 2 — Dongdaemun + Mapo/Gongdeok (both Seoul windows captured)
 
@@ -333,7 +358,7 @@ Both rows use the **same room code in both windows**, so those two prices *are* 
 
 Full evidence and the queue for the next rounds: **[`guide/verification-new-entries-2026-08-21.md`](guide/verification-new-entries-2026-08-21.md)**.
 
-Next areas queued: **Itaewon, Jongno, Myeong-dong, Gangnam** — each needing both the Nov 1–9 and Nov 15–22 windows plus coordinates before it can enter the master list.
+Next areas queued: **Myeong-dong, Gangnam**, plus re-tries on Hotel Aventree Jongno and Hongdae proper — each needing both the Nov 1–9 and Nov 15–22 windows plus coordinates before it can enter the master list.
 
 ---
 
@@ -385,11 +410,11 @@ Read the source links, trade-offs, and exact booking workflow in [`guide/arrival
 Open [`index.html`](index.html) in a browser to use the planner. The top of the page is a **verified findings dashboard** (coverage table, charts, recommendations, and sample price totals) built only from UTC-stamped quotes. It is intentionally simple:
 
 - **Arrival night** — five source-checked late-arrival options, evidence links, trade-offs, and a copyable message to send the hotel.
-- **Expanded city lists** — browse 95 Seoul, 15 Gyeongju, 21 Busan, 7 Cheonan, 7 Daejeon, and 5 Suwon hotels. Seoul has two date tables (planned Nov 1–9 vs alternate Nov 15–22) in [`guide/verification-seoul-dual-window-nov1-and-nov15-2026.md`](guide/verification-seoul-dual-window-nov1-and-nov15-2026.md); the latest strictly verified Dongdaemun additions and held-out candidates are in [`guide/verification-seoul-dongdaemun-batch5-2026-08-19.md`](guide/verification-seoul-dongdaemun-batch5-2026-08-19.md). The Busan **Nov 9–15** pass is [`guide/verification-busan-nov9-15-2026-08-21.md`](guide/verification-busan-nov9-15-2026-08-21.md).
+- **Expanded city lists** — browse 96 Seoul, 15 Gyeongju, 21 Busan, 7 Cheonan, 7 Daejeon, and 5 Suwon hotels. Seoul has two date tables (planned Nov 1–9 vs alternate Nov 15–22) in [`guide/verification-seoul-dual-window-nov1-and-nov15-2026.md`](guide/verification-seoul-dual-window-nov1-and-nov15-2026.md); the latest strictly verified Dongdaemun additions and held-out candidates are in [`guide/verification-seoul-dongdaemun-batch5-2026-08-19.md`](guide/verification-seoul-dongdaemun-batch5-2026-08-19.md). The Busan **Nov 9–15** pass is [`guide/verification-busan-nov9-15-2026-08-21.md`](guide/verification-busan-nov9-15-2026-08-21.md).
 - **Quick filters** — view all stays, only core-needs matches, or stays with laundry; search within the current city.
 - **Useful details at a glance** — estimated nightly range, recommended room, bed setup, bathroom/transport fit, normal check-in/out time, canonical identity source, and rate-comparison link.
 - **Timestamped refundable pricing** — hotel cards show a ♻️ badge with the captured refundable rate, cancellation deadline, and UTC capture time; the append-only log lives in [`data/pricing-history.json`](data/pricing-history.json). The four-city (Suwon / Gyeongju / Cheonan / Daejeon) 2026-08-18T19:16Z checklist is [`guide/verification-suwon-gyeongju-cheonan-daejeon-2026-08-18.md`](guide/verification-suwon-gyeongju-cheonan-daejeon-2026-08-18.md). The earlier same-day Seoul-inclusive pass is [`guide/verification-checklist-2026-08-18-line-by-line.md`](guide/verification-checklist-2026-08-18-line-by-line.md).
-- **Duplicate protection** — all 150 records are source verified; similarly named branches are cross-checked as distinct properties.
+- **Duplicate protection** — all 151 records are source verified; similarly named branches are cross-checked as distinct properties.
 
 There is no account, tracker, or backend. It is a static planning document that can be hosted with GitHub Pages or opened locally.
 
@@ -413,14 +438,14 @@ For regular stays, a green **“Core needs match”** badge means the research h
 
 | City | Hotels | Planning use |
 |---|---:|---|
-| Seoul | 95 | First-night shortlist + Myeongdong / Jongno / Dongdaemun / Hongdae / Itaewon / Gangnam (dual date windows) |
+| Seoul | 96 | First-night shortlist + Myeongdong / Jongno / Dongdaemun / Hongdae / Itaewon / Gangnam (dual date windows) |
 | Gyeongju | 15 | Heritage / hanok, Old Town, Bulguksa, and Bomun Lake stays |
 | Busan | 21 | Haeundae, Seomyeon, Busan Station, Nampo, and Songdo options |
 | Cheonan | 7 | KTX-corridor alternative |
 | Daejeon | 7 | KTX-corridor alternative |
 | Suwon | 5 | Seoul-area base (Suwon Station + Hwaseong Fortress) |
-| **Planned cities** | **131** | Seoul + Gyeongju + Busan |
-| **Total** | **150** | Full city-by-city comparison set |
+| **Planned cities** | **132** | Seoul + Gyeongju + Busan |
+| **Total** | **151** | Full city-by-city comparison set |
 
 Prices are planning estimates for the 2026 autumn itinerary, not live inventory. Always verify a live rate and exact room configuration before paying.
 
@@ -451,7 +476,7 @@ Then visit `http://localhost:8000` in a local browser, or open `index.html` dire
 ├── index.template.html     # Site shell; data is embedded at build time
 ├── index.html              # Generated static planner
 ├── data/
-│   ├── hotels.json         # 150 city hotels + five-option arrivalNight shortlist and source links
+│   ├── hotels.json         # 151 city hotels + five-option arrivalNight shortlist and source links
 │   └── itinerary.json      # Dates, city order, and alternatives
 ├── guide/
 │   ├── arrival-night.md    # 24-hour reception research + late-arrival workflow
@@ -470,7 +495,7 @@ Then visit `http://localhost:8000` in a local browser, or open `index.html` dire
 
 ## Research and booking guardrails
 
-- Arrival-night evidence and **all 150 hotel records** were identity-checked (Seoul/Gyeongju/Busan/Cheonan/Daejeon on August 10, 2026; the Suwon shortlist on August 18, 2026; expanded Seoul batches on August 19, 2026). Every card shows a canonical property source, source type, date, and verification note. The validator rejects duplicate IDs, sourced names, official URLs, identity-source URLs, and exact coordinates; similar branch names require an explicit distinct-property cross-check.
+- Arrival-night evidence and **all 151 hotel records** were identity-checked (Seoul/Gyeongju/Busan/Cheonan/Daejeon on August 10, 2026; the Suwon shortlist on August 18, 2026; expanded Seoul batches on August 19, 2026). Every card shows a canonical property source, source type, date, and verification note. The validator rejects duplicate IDs, sourced names, official URLs, identity-source URLs, and exact coordinates; similar branch names require an explicit distinct-property cross-check.
 - No duplicate hotel entries remain. Five independent hotels without a stable official page are retained only because a government-tourism or major trusted booking source confirms the exact property and address. See [`guide/verification-audit.md`](guide/verification-audit.md).
 - A 24-hour front desk covers the **hotel-arrival** risk, not the **airport-transfer** risk. Check live public-transport / shuttle timing on the day; take a taxi when the final connection is tight.
 - Use the exact recommended room type. A property may list a lower-priced twin or smaller double that does not meet the one-queen/king preference.

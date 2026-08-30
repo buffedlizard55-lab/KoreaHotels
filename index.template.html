@@ -555,6 +555,7 @@
       <a href="#findings">Findings</a>
       <a href="#arrival">Arrival night</a>
       <a href="#shortlist">Hotel list</a>
+      <a href="#agoda-directory">Agoda directory</a>
       <a href="#booking-notes">How to use this</a>
     </div>
   </nav>
@@ -662,6 +663,16 @@
           </div>
         </div>
         <div class="hotel-grid" id="hotel-grid" aria-live="polite"></div>
+      </div>
+    </section>
+
+
+    <section id="agoda-directory" aria-labelledby="agoda-directory-title">
+      <p class="section-kicker">Main verified OTA source</p>
+      <h2 class="section-heading" id="agoda-directory-title">Agoda.com directory — all 185 hotels (static HTML)</h2>
+      <p class="section-description">These links are written into the page at build time so they appear on GitHub Pages even if JavaScript is off. Each row labels <strong>Agoda</strong> vs <strong>Booking.com</strong>. Dated USD prices remain Booking.com captures. No Agoda prices are stored.</p>
+      <div class="table-card" style="overflow-x:auto">
+        __AGODA_DIRECTORY__
       </div>
     </section>
 
@@ -932,13 +943,6 @@
           || (hotel.refundableRateNov9 && hotel.refundableRateNov9.sourceUrl)
           || (hotel.refundableRateNov15 && hotel.refundableRateNov15.sourceUrl)
           || (hotel.verification && hotel.verification.sourceType && /booking\.com/i.test(hotel.verification.sourceUrl || "") ? hotel.verification.sourceUrl : null);
-        if (bookingUrl) {
-          parts.push(`<a href="${safeUrl(bookingUrl)}" target="_blank" rel="noopener noreferrer"><strong>Booking.com</strong> — primary verified source ↗</a>`);
-        } else if (hotel.distributionStatus) {
-          const ds = hotel.distributionStatus;
-          const dsText = typeof ds === "string" ? ds : [ds.status, ds.asOf && `as of ${ds.asOf}`].filter(Boolean).join(" · ");
-          parts.push(`<span>Booking.com: ${escapeHtml(dsText)}</span>`);
-        }
         const s = hotel.secondarySource;
         if (s && s.url) {
           const checked = s.lastCheckedUtc || s.lastChecked || "";
@@ -951,6 +955,13 @@
           parts.push(`<span>Agoda: listing known to exist, link unresolved — needs manual lookup on agoda.com (checked ${escapeHtml(String(s.lastCheckedUtc || s.lastChecked || "").slice(0, 10))})</span>`);
         } else {
           parts.push('<span>Agoda: secondary source check not yet run</span>');
+        }
+        if (bookingUrl) {
+          parts.push(`<a href="${safeUrl(bookingUrl)}" target="_blank" rel="noopener noreferrer"><strong>Booking.com</strong> — dated-rate source ↗</a>`);
+        } else if (hotel.distributionStatus) {
+          const ds = hotel.distributionStatus;
+          const dsText = typeof ds === "string" ? ds : [ds.status, ds.asOf && `as of ${ds.asOf}`].filter(Boolean).join(" · ");
+          parts.push(`<span>Booking.com: ${escapeHtml(dsText)}</span>`);
         }
         return parts.length ? `<p class="source-line">Verified sources · ${parts.join(" · ")}</p>` : '';
       }
@@ -1166,7 +1177,7 @@
       const windowLabel = windows.find(function(item) { return item[0] === quoteWindow; })[1];
       document.getElementById("findings-quotes").innerHTML = quotes.length
         ? '<table class="data-table"><caption class="source-line" style="caption-side:top;text-align:left">' + escapeHtml(windowLabel) + ' only · source-captured terms may change before checkout.</caption><thead><tr>' +
-          '<th>City / area</th><th>Hotel</th><th>Captured room</th><th>Bed</th><th>Stay total</th><th>Per night</th><th>Free cancellation</th><th>Captured UTC</th><th>Booking.com</th><th>Agoda</th></tr></thead><tbody>' +
+          '<th>City / area</th><th>Hotel</th><th>Captured room</th><th>Bed</th><th>Stay total</th><th>Per night</th><th>Free cancellation</th><th>Captured UTC</th><th>Agoda</th><th>Booking.com</th></tr></thead><tbody>' +
           quotes.map(function(row) {
             return '<tr><td>' + escapeHtml(row.city) + '<br><span class="muted">' + escapeHtml(row.area || "") + '</span></td><td>' + escapeHtml(row.name) +
               (row.fits ? '<br><span class="muted">core-needs hotel</span>' : '') +

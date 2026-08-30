@@ -74,7 +74,19 @@ def room_meets_queen_or_king_requirement(room):
 SECONDARY_PLATFORM = "Agoda"
 SECONDARY_STATUSES = {"verified", "not-found", "unresolved"}
 SECONDARY_CHECK_METHODS = {"property-page-fetched", "search-index"}
+SECONDARY_LINK_TYPES = {"property-page", "reviews-page"}
 RATE_FIELDS = ("refundableRate", "refundableRateNov9", "refundableRateNov15")
+
+
+def agoda_link_type(url):
+    """Classify an Agoda URL stored as a secondary verified source."""
+    if not url:
+        return None
+    if "/hotel/" in url:
+        return "property-page"
+    if "/reviews/" in url:
+        return "reviews-page"
+    return "other"
 
 
 def validate_secondary_source(hotel, agoda_urls):
@@ -116,6 +128,16 @@ def validate_secondary_source(hotel, agoda_urls):
             agoda_urls[key] = name
         if secondary.get("checkMethod") not in SECONDARY_CHECK_METHODS:
             print(f"  ❌ secondarySource.checkMethod in {name} must be one of {sorted(SECONDARY_CHECK_METHODS)}")
+            errors += 1
+        link_type = secondary.get("linkType")
+        if link_type not in SECONDARY_LINK_TYPES:
+            print(f"  ❌ secondarySource.linkType '{link_type}' in {name} must be one of {sorted(SECONDARY_LINK_TYPES)}")
+            errors += 1
+        elif link_type != agoda_link_type(url):
+            print(f"  ❌ secondarySource.linkType '{link_type}' in {name} does not match URL '{url}' ({agoda_link_type(url)})")
+            errors += 1
+        if link_type == "other":
+            print(f"  ❌ secondarySource.url in {name} is not a property/reviews page: {url}")
             errors += 1
     elif url:
         print(f"  ❌ secondarySource.status '{status}' in {name} must not carry a URL")

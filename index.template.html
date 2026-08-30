@@ -544,7 +544,7 @@
     <div class="shell">
       <p class="eyebrow">South Korea trip · verified findings</p>
       <h1>What the repo actually verified — prices, beds, and recommendations.</h1>
-      <p class="hero-copy">Three separate stay windows — Nov 1–9, Nov 9–15 (Busan) and Nov 15–22, 2026 — are listed first and never merged. 147 source-checked hotels across Seoul, Gyeongju, Busan, Cheonan, Daejeon, and Suwon. Tables and totals use only UTC-stamped Booking.com quotes. If a width is unpublished or a fetch failed, it is flagged. Nothing is guessed.</p>
+      <p class="hero-copy">Three separate stay windows — Nov 1–9, Nov 9–15 (Busan) and Nov 15–22, 2026 — are listed first and never merged. 185 source-checked hotels across Seoul, Gyeongju, Busan, Cheonan, Daejeon, and Suwon. Tables and totals use only UTC-stamped Booking.com quotes. If a width is unpublished or a fetch failed, it is flagged. Nothing is guessed.</p>
       <div class="trip-chips" id="trip-chips" aria-label="Trip overview"></div>
     </div>
   </header>
@@ -642,7 +642,7 @@
     <section id="shortlist" aria-labelledby="shortlist-title">
       <p class="section-kicker">The rest of the trip</p>
       <h2 class="section-heading" id="shortlist-title">Expanded city-by-city hotel list</h2>
-      <p class="section-description">Compare 109 Seoul stays, 15 Gyeongju stays, 33 Busan stays, and 24 alternative-city properties (8 Cheonan, 10 Daejeon, 6 Suwon). All 181 entries carry a dated identity source; every link is labeled with its platform (Booking.com vs Agoda) and each record states an explicit Agoda secondary-source status — a blank or "not-found" means it was not verified, never that it was checked and rejected. Refundable badges use each city’s stay window. Re-open the live source before paying.</p>
+      <p class="section-description">Compare 111 Seoul stays, 15 Gyeongju stays, 34 Busan stays, and 25 alternative-city properties (8 Cheonan, 11 Daejeon, 6 Suwon). All 185 entries carry a dated identity source; every link is labeled with its platform (Booking.com vs Agoda) and its page type (150 canonical Agoda property pages, 35 property reviews pages). Each record states an explicit Agoda secondary-source status — a blank or "not-found" means it was not verified, never that it was checked and rejected. Refundable badges use each city’s stay window. Re-open the live source before paying.</p>
 
       <div class="planner">
         <div class="city-tabs" id="city-tabs" role="group" aria-label="Choose a city"></div>
@@ -686,7 +686,7 @@
         </article>
         <article class="note-card">
           <h3>Identity and duplicate audit</h3>
-          <p>All 181 records have a sourced canonical property name and a unique identity link, plus an explicit Agoda secondary-source status (verified / not-found / unresolved). Line-by-line links for manual review: guide/verification-links-2026-08-30.md. Validation rejects duplicate IDs, canonical names, official URLs, verification URLs, and exact coordinates; highly similar branch names require an explicit distinct-property cross-check.</p>
+          <p>All 185 records have a sourced canonical property name and a unique identity link, plus an explicit Agoda secondary-source status (150 canonical property pages, 35 property reviews pages, 0 unresolved, 0 not-found). Line-by-line links for manual review: <a href="guide/verification-links-2026-08-30.md">guide/verification-links-2026-08-30.md</a>. The 12 records that previously pointed at Agoda guide/city/maps pages are documented in <a href="guide/verification-agoda-property-page-hardening-2026-09-08.md">guide/verification-agoda-property-page-hardening-2026-09-08.md</a>. Validation rejects duplicate IDs, canonical names, official URLs, verification URLs, exact coordinates, and Agoda URLs that are not a property/reviews page; highly similar branch names require an explicit distinct-property cross-check.</p>
           <p>See the complete <a href="guide/verification-audit.md">verification audit</a> for every hotel and source.</p>
         </article>
       </div>
@@ -943,7 +943,9 @@
         const s = hotel.secondarySource;
         if (s && s.url) {
           const checked = s.lastCheckedUtc || s.lastChecked || "";
-          parts.push(`<a href="${safeUrl(s.url)}" target="_blank" rel="noopener noreferrer"><strong>Agoda</strong> — secondary verified source (checked ${escapeHtml(String(checked).slice(0, 10))}) ↗</a>`);
+          const pageKind = s.linkType === "property-page" ? "property page" : (s.linkType === "reviews-page" ? "property reviews page" : "listing");
+          const method = s.checkMethod === "property-page-fetched" ? "fetched" : "search-index";
+          parts.push(`<a href="${safeUrl(s.url)}" target="_blank" rel="noopener noreferrer"><strong>Agoda</strong> — secondary verified source · ${escapeHtml(pageKind)} (checked ${escapeHtml(String(checked).slice(0, 10))} · ${escapeHtml(method)}) ↗</a>`);
         } else if (s && s.status === "not-found") {
           parts.push(`<span>Agoda: not found in the 2026-08-30 index round (${escapeHtml(String(s.lastCheckedUtc || s.lastChecked || "").slice(0, 10))}) — deliberate blank, not a verified absence</span>`);
         } else if (s && s.status === "unresolved") {

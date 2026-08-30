@@ -87,11 +87,12 @@ Every record must state, explicitly, where the same property stands on Agoda. A 
   "url": "https://www.agoda.com/signiel-seoul/hotel/seoul-kr.html",
   "lastCheckedUtc": "2026-08-30",
   "checkMethod": "search-index",
+  "linkType": "property-page",
   "note": "How the page was located, what matched (address/score), and any caveat."
 }
 ```
 
-- `status: "verified"` — an `https://www.agoda.com/` property or reviews page was located and its indexed copy corroborates the same identity (address/score). URLs must be unique across records. `checkMethod` records how: `"property-page-fetched"` (the page itself was read) or `"search-index"` (its own snippet in search results — weaker; the audit emits a CHECK telling you to fetch and harden it). Locale-prefixed URLs (`/en-gb/…`) may be stored canonicalized **only** with a note saying so.
+- `status: "verified"` — an `https://www.agoda.com/` property or reviews page was located and its indexed copy corroborates the same identity (address/score). URLs must be unique across records. `linkType` is machine-readable and must be `"property-page"` (canonical `/hotel/` page) or `"reviews-page"` (`/reviews/` page); a `travel-guides`, `city`, or `maps` URL is rejected as `"other"` because those pages only prove the property was *mentioned* by Agoda, not that it has an Agoda booking page. `checkMethod` records how: `"property-page-fetched"` (the page itself was read) or `"search-index"` (its own snippet in search results — weaker; the audit emits a CHECK telling you to fetch and harden it). Locale-prefixed URLs (`/en-gb/…`) may be stored canonicalized **only** with a note saying so.
 - `status: "not-found"` — an index search was run on `lastCheckedUtc` and no Agoda page surfaced. **This is a recorded result, not a claim the property is absent from Agoda**; the note must keep that framing. No URL field.
 - `status: "unresolved"` — an Agoda listing is *known to exist* (aggregator deal lines or provider scores cite it) but no URL could be surfaced. No URL, dated note, and the audit emits a CHECK for manual lookup. Never upgrade to `verified` by guessing a slug — guessed Agoda URLs 404 and that mistake is unrecoverable in a trusted dataset.
 - Rate rows: `refundableRate*` / `refundableRateNov9` / `refundableRateNov15` `source` strings must name exactly one platform (Booking.com or Agoda) so a labeled rate can never be attributed to the wrong site. Agoda-sourced prices need the same dated evidence standard as Booking ones; while no dated page can be fetched, records carry no priced rows at all plus a `distributionStatus` explaining the blank.
@@ -203,7 +204,7 @@ Optional alternative legs use the same structure. The UI shows them as **Alterna
 - standard hotels have all required fields, unique IDs, and room detail fields
 - all rooms include `bedType`, `oneBedOnly`, and `privateBathroom`
 - every hotel has a complete, dated `verification` block and `Verified operating property` status
-- every hotel has a `secondarySource` block for Agoda with a valid status (`verified` / `not-found` / `unresolved`); verified entries need a unique `agoda.com` URL, the other two must carry **no** URL plus a dated note; rate-row `source` strings must name exactly one platform
+- every hotel has a `secondarySource` block for Agoda with a valid status (`verified` / `not-found` / `unresolved`); verified entries need a unique `agoda.com` URL whose path is a `property-page` (`/hotel/`) or `reviews-page` (`/reviews/`) and a matching `linkType`, the other two statuses must carry **no** URL plus a dated note; rate-row `source` strings must name exactly one platform
 - canonical names are unique within a city
 - official URLs and exact-property verification URLs are not reused by another hotel
 - exact coordinates are not duplicated

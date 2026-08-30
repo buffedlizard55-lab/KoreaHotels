@@ -100,6 +100,15 @@ for h in H:
                 add('CHECK',hid,f"secondarySource.checkMethod unusual: {s.get('checkMethod')}")
             if s.get('checkMethod')=='search-index':
                 add('CHECK',hid,"Agoda link verified only via search index — fetch the page to harden")
+            lt=s.get('linkType')
+            if lt not in ('property-page','reviews-page'):
+                add('HIGH',hid,f"secondarySource.linkType invalid/other: {lt} (URL not a property/reviews page)")
+            elif lt=='property-page' and '/hotel/' not in u:
+                add('HIGH',hid,f"secondarySource.linkType property-page but URL has no /hotel/ route: {u}")
+            elif lt=='reviews-page' and '/reviews/' not in u:
+                add('HIGH',hid,f"secondarySource.linkType reviews-page but URL has no /reviews/ route: {u}")
+            if lt=='reviews-page':
+                add('CHECK',hid,"Agoda link is a /reviews/ page, not the canonical /hotel/ booking page — open the page's Book Now link to harden")
         elif st in ('not-found','unresolved'):
             if s.get('url'): add('HIGH',hid,f"secondarySource {st} but carries a URL")
             if not s.get('lastCheckedUtc'): add('HIGH',hid,f"{st} secondarySource without date — cannot show the blank is current")

@@ -813,11 +813,11 @@ Read the source links, trade-offs, and exact booking workflow in [`guide/arrival
 Open [`index.html`](index.html) in a browser to use the planner. The top of the page is a **verified findings dashboard** (coverage table, charts, recommendations, and sample price totals) built only from UTC-stamped quotes. It is intentionally simple:
 
 - **Arrival night** — five source-checked late-arrival options, evidence links, trade-offs, and a copyable message to send the hotel.
-- **Expanded city lists** — browse 109 Seoul, 15 Gyeongju, 33 Busan, 8 Cheonan, 10 Daejeon, and 6 Suwon hotels. Every link on a card is labeled with the site it opens (Booking.com vs Agoda). The full manual-review sheet for all 181 records is [`guide/verification-links-2026-08-30.md`](guide/verification-links-2026-08-30.md). Seoul has two date tables (planned Nov 1–9 vs alternate Nov 15–22) in [`guide/verification-seoul-dual-window-nov1-and-nov15-2026.md`](guide/verification-seoul-dual-window-nov1-and-nov15-2026.md); the latest strictly verified Dongdaemun additions and held-out candidates are in [`guide/verification-seoul-dongdaemun-batch5-2026-08-19.md`](guide/verification-seoul-dongdaemun-batch5-2026-08-19.md). The Busan **Nov 9–15** pass is [`guide/verification-busan-nov9-15-2026-08-21.md`](guide/verification-busan-nov9-15-2026-08-21.md).
+- **Expanded city lists** — browse 111 Seoul, 15 Gyeongju, 34 Busan, 8 Cheonan, 11 Daejeon, and 6 Suwon hotels. Every link on a card is labeled with the site it opens (Booking.com vs Agoda) and the page type it opens. Agoda secondary links: **150 canonical property pages** and **35 property reviews pages** (each one is still Agoda's own page for that exact property; the reviews-route ones are flagged for manual hardening). The full manual-review sheet for all 185 records is [`guide/verification-links-2026-08-30.md`](guide/verification-links-2026-08-30.md). Seoul has two date tables (planned Nov 1–9 vs alternate Nov 15–22) in [`guide/verification-seoul-dual-window-nov1-and-nov15-2026.md`](guide/verification-seoul-dual-window-nov1-and-nov15-2026.md); the latest strictly verified Dongdaemun additions and held-out candidates are in [`guide/verification-seoul-dongdaemun-batch5-2026-08-19.md`](guide/verification-seoul-dongdaemun-batch5-2026-08-19.md). The Busan **Nov 9–15** pass is [`guide/verification-busan-nov9-15-2026-08-21.md`](guide/verification-busan-nov9-15-2026-08-21.md).
 - **Quick filters** — view all stays, only core-needs matches, or stays with laundry; search within the current city.
 - **Useful details at a glance** — estimated nightly range, recommended room, bed setup, bathroom/transport fit, normal check-in/out time, canonical identity source, and rate-comparison link.
 - **Timestamped refundable pricing** — hotel cards show a ♻️ badge with the captured refundable rate, cancellation deadline, and UTC capture time; the append-only log lives in [`data/pricing-history.json`](data/pricing-history.json). The four-city (Suwon / Gyeongju / Cheonan / Daejeon) 2026-08-18T19:16Z checklist is [`guide/verification-suwon-gyeongju-cheonan-daejeon-2026-08-18.md`](guide/verification-suwon-gyeongju-cheonan-daejeon-2026-08-18.md). The earlier same-day Seoul-inclusive pass is [`guide/verification-checklist-2026-08-18-line-by-line.md`](guide/verification-checklist-2026-08-18-line-by-line.md).
-- **Duplicate protection** — all 181 records are source verified; similarly named branches are cross-checked as distinct properties. Every record also carries an explicit Agoda secondary-source status (verified / not-found / unresolved) — see Round 15 below.
+- **Duplicate protection** — all 185 records are source verified; similarly named branches are cross-checked as distinct properties. Every record also carries an explicit Agoda secondary-source status (verified / not-found / unresolved). Agoda URLs must be a canonical `/hotel/` property page (`property-page`) or a `/reviews/` page (`reviews-page`); travel-guide/city/maps URLs are rejected by the validator as `other`. The 12 records that previously pointed at Agoda guide/city/maps pages were hardened to real `/hotel/` property pages — see [`guide/verification-agoda-property-page-hardening-2026-09-08.md`](guide/verification-agoda-property-page-hardening-2026-09-08.md).
 
 There is no account, tracker, or backend. It is a static planning document that can be hosted with GitHub Pages or opened locally.
 
@@ -841,14 +841,14 @@ For regular stays, a green **“Core needs match”** badge means the research h
 
 | City | Hotels | Planning use |
 |---|---:|---|
-| Seoul | 109 | First-night shortlist + Myeongdong / Jongno / Dongdaemun / Hongdae / Itaewon / Gangnam (dual date windows) |
+| Seoul | 111 | First-night shortlist + Myeongdong / Jongno / Dongdaemun / Hongdae / Itaewon / Gangnam (dual date windows) |
 | Gyeongju | 15 | Heritage / hanok, Old Town, Bulguksa, and Bomun Lake stays |
-| Busan | 33 | Haeundae, Seomyeon, Busan Station, Nampo, Songdo, Gwangalli, Gijang/Songjeong and airport-side options |
+| Busan | 34 | Haeundae, Seomyeon, Busan Station, Nampo, Songdo, Gwangalli, Gijang/Songjeong and airport-side options |
 | Cheonan | 8 | KTX-corridor alternative |
-| Daejeon | 10 | KTX-corridor alternative |
+| Daejeon | 11 | KTX-corridor alternative |
 | Suwon | 6 | Seoul-area base (Suwon Station + Hwaseong Fortress + Gwonseon side) |
-| **Planned cities** | **157** | Seoul + Gyeongju + Busan |
-| **Total** | **181** | Full city-by-city comparison set |
+| **Planned cities** | **160** | Seoul + Gyeongju + Busan |
+| **Total** | **185** | Full city-by-city comparison set |
 
 Prices are planning estimates for the 2026 autumn itinerary, not live inventory. Always verify a live rate and exact room configuration before paying.
 
@@ -879,7 +879,7 @@ Then visit `http://localhost:8000` in a local browser, or open `index.html` dire
 ├── index.template.html     # Site shell; data is embedded at build time
 ├── index.html              # Generated static planner
 ├── data/
-│   ├── hotels.json         # 181 city hotels + five-option arrivalNight shortlist and source links
+│   ├── hotels.json         # 185 city hotels + five-option arrivalNight shortlist and source links
 │   └── itinerary.json      # Dates, city order, and alternatives
 ├── guide/
 │   ├── arrival-night.md    # 24-hour reception research + late-arrival workflow

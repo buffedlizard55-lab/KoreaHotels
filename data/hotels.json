@@ -9674,6 +9674,14 @@
         "freeCancellation": "Free cancellation before November 12, 2026 — free until 3 days; then total",
         "prepayment": "Pay nothing until November 10, 2026",
         "note": "LIVE 2026-08-19. Design hotel by Seaes; one-bed rooms are full (≈140cm); Jumbo Twin is 1 twin + 1 full. Concert-goer favorite near KSPO Dome."
+      },
+      "secondarySource": {
+        "platform": "Agoda",
+        "status": "unresolved",
+        "url": null,
+        "checkMethod": "search-index",
+        "lastCheckedUtc": "2026-08-30T04:20:00Z",
+        "note": "2026-08-30: TripAdvisor nearby widget shows Agoda.com $104 deal row for 'GLAD Gangnam COEX Center' (4.9/1,472 widget aggregate) — deal row only, no agoda.com URL. Identity: 516 Gangnam-daero near Yeoksam/Sinnonhyeon. Probe: agoda.com/glad-gangnam-coex-center/hotel/seoul-kr.html."
       }
     },
     {
@@ -9878,6 +9886,15 @@
         "freeCancellation": "Free cancellation before November 14, 2026 — free until 1 day; then first night",
         "prepayment": "No prepayment needed — pay at the property",
         "note": "LIVE 2026-08-19. Adults-only 5-star; top-floor pool & spa; granite baths; 10% VAT excluded. Non-ref $704/$4,928."
+      },
+      "secondarySource": {
+        "platform": "Agoda",
+        "status": "verified",
+        "url": "https://www.agoda.com/travel-guides/south-korea/seoul/discover-the-best-hotels-in-seoul-your-ultimate-guide-to-luxurious-stays-and-unique-experiences/",
+        "checkMethod": "search-index",
+        "existenceStatus": "Verified operating property",
+        "lastCheckedUtc": "2026-08-30T04:20:00Z",
+        "note": "Agoda editorial coverage confirmed 2026-08-30: 'Park Hyatt Seoul' named on Agoda's best-Seoul-hotels guide page (evidence URL; property URL not surfaced). Also recommended in a 2026 Myeongdong guide ecosystem (thesoulofseoul lists it for luxury). Identity: 136 Sowollo, Yongsan-gu — matches record. No Agoda score visible in snippets; no dated prices captured."
       }
     },
     {
@@ -10086,6 +10103,14 @@
         "freeCancellation": "Free cancellation before November 13, 2026 — free until 2 days; then first night",
         "prepayment": "No prepayment needed — pay at the property",
         "note": "LIVE 2026-08-19. IHG 5-star; 10% svc incl / 10% tax excluded; lounge suites available. Bkf-incl refundable $977/$7,588."
+      },
+      "secondarySource": {
+        "platform": "Agoda",
+        "status": "unresolved",
+        "url": null,
+        "checkMethod": "search-index",
+        "lastCheckedUtc": "2026-08-30T04:20:00Z",
+        "note": "2026-08-30: KAYAK provider table shows Agoda.com 9.4/10 (114 reviews) and King/Double deal rows via Agoda.com — provider rows only, no agoda.com URL in two passes. Identity rock-solid: 521 Teheran-ro, Gangnam-gu, 34 storeys, 4 restaurants, ~5 min walk Starfield COEX (HotelsCombined + IHG-ecosystem pages, Jul-2026 update). Next-round probe: agoda.com/grand-intercontinental-seoul-parnas/hotel/seoul-kr.html."
       }
     },
     {
@@ -10615,6 +10640,14 @@
         "freeCancellation": "Free cancellation before November 14, 2026 — free until 1 day; then first night",
         "prepayment": "No prepayment needed — pay at the property",
         "note": "LIVE 2026-08-19. Accor; 331 hotel rooms + 192 residences; rooftop infinity pool; kitchenette & microwave. Non-ref King Studio $324/$2,271."
+      },
+      "secondarySource": {
+        "platform": "Agoda",
+        "status": "unresolved",
+        "url": null,
+        "checkMethod": "search-index",
+        "lastCheckedUtc": "2026-08-30T04:20:00Z",
+        "note": "2026-08-30: strong Agoda existence signal — a Jun-2026 review-site snapshot quotes '7,915 reviews, 8.9/10 on agoda.com, 5-star, 523 rooms' (Accor official: 331 guest rooms + 192 residences = 523 ✓, 238 Euljiro 04561 ✓); KAYAK Agoda row 9/277 (stale). No agoda.com URL surfaced → unresolved. Probe: agoda.com/novotel-ambassador-seoul-dongdaemun/hotel/seoul-kr.html. Note Novotel Ambassador cluster (Gangnam/Yongsan/Dongdaemun) — sibling slugs must not cross-attach."
       }
     },
     {
@@ -10718,6 +10751,17 @@
         "freeCancellation": "Free cancellation before November 15, 2026 — free until day of arrival",
         "prepayment": "No prepayment needed — pay at the property",
         "note": "LIVE 2026-08-19. 5-star Marriott above Dongdaemun Station; indoor pool, spa, 5 restaurants; 10% svc incl / VAT excl; 5 left."
+      },
+      "secondarySource": {
+        "platform": "Agoda",
+        "status": "verified",
+        "url": "https://www.agoda.com/travel-guides/south-korea/seoul/discovering-dongdaemun-the-ultimate-hotel-guide-for-your-stay-in-seoul/",
+        "checkMethod": "search-index",
+        "existenceStatus": "Verified operating property",
+        "lastCheckedUtc": "2026-08-30T04:20:00Z",
+        "note": "Agoda editorial coverage confirmed 2026-08-30: 'JW Marriott Dongdaemun Square Seoul' profiled as a top Dongdaemun luxury stay on Agoda's own hotel guide page (stored as evidence URL; property-level page URL not surfaced this round). KAYAK provider row: Agoda 9.1/10 (23 reviews, stale) vs Booking 9.1/138. Identity: overlooking Heunginjimun, near DDP — matches record. No dated prices captured.",
+        "agodaRating": 9.1,
+        "reviewCount": 23
       }
     },
     {
@@ -11368,6 +11412,14 @@
         "freeCancellation": "Free cancellation before November 12, 2026 — free until 3 days; then first night",
         "prepayment": "No prepayment needed — pay at the property",
         "note": "LIVE 2026-08-19 Nov 15–22. Superior Double 1 queen $219/$1,530 same FC. Lead-in Standard Double is 1 full $204/$1,431. Breakfast $22 pp."
+      },
+      "secondarySource": {
+        "platform": "Agoda",
+        "status": "unresolved",
+        "url": null,
+        "checkMethod": "search-index",
+        "lastCheckedUtc": "2026-08-30T04:20:00Z",
+        "note": "2026-08-30: KAYAK provider table shows Agoda.com 9/10 (276 reviews, stale) + Superior-row deals; sibling L7 Hongdae already verified in an earlier round under a different property page. Discovery pointer found: a Nov-2025 video links Agoda partnersearch with hid=2961984 for 'L7 GANGNAM by LOTTE' — Agoda internal hotel id known, canonical slug not yet. Address 415 Teheran-ro ✓. Unresolved until the property page is attached; must not borrow the L7-Hongdae or L7-Myeongdong URLs (three-way sister chain)."
       }
     },
     {
@@ -11849,6 +11901,14 @@
         "freeCancellation": "Free cancellation before November 8, 2026 — free until 7 days ($333/nt / $2,331 total free until arrival day); then first night",
         "prepayment": "No prepayment needed — pay at the property",
         "note": "LIVE 2026-08-19. 5 left. Creator Twin 2-bed $343/$2,402. Breakfast buffet $32/person."
+      },
+      "secondarySource": {
+        "platform": "Agoda",
+        "status": "unresolved",
+        "url": null,
+        "checkMethod": "search-index",
+        "lastCheckedUtc": "2026-08-30T04:20:00Z",
+        "note": "2026-08-30: HotelsCombined provider table shows Agoda.com 9.3/10 (319 reviews) vs Booking 9/658 — aggregator row, no agoda.com URL surfaced. Identity: 130 Yanghwa-ro, Mapo-gu 04038 (Google/TA agree, Dec-2023 review + 2026 data updates). Proximity caution: Mercure Hongdae (144 Yanghwa-ro) and GLAD-adjacent properties share the same street block — never attach sibling URLs. Probe next round: agoda.com/ryse-seoul/hotel/seoul-kr.html."
       }
     },
     {
@@ -11971,6 +12031,14 @@
         "freeCancellation": "Free cancellation before November 14, 2026 — free until 1 day before arrival; then first night",
         "prepayment": "No prepayment needed — pay at the property",
         "note": "LIVE 2026-08-19. Non-refundable is $211/$1,478. Superior King $267/$1,869 refundable. 1 queen bed confirmed."
+      },
+      "secondarySource": {
+        "platform": "Agoda",
+        "status": "unresolved",
+        "url": null,
+        "checkMethod": "search-index",
+        "lastCheckedUtc": "2026-08-30T04:20:00Z",
+        "note": "2026-08-30: a May-2026 review-site snapshot quotes 'Agoda 9.1/10, 7,385 reviews, 4-star, 270 rooms' for Mercure Ambassador Seoul Hongdae; Accor official B696 confirms 144 Yanghwa-ro, 04050 (GPS 37.5551/126.9225) ✓ record; KAYAK-style rows show Booking 9.0. Aggregator/blog rows only, no agoda.com URL → unresolved. Probe: agoda.com/mercure-ambassador-seoul-hongdae/hotel/seoul-kr.html. Same street block as RYSE (130) — sister caution."
       }
     },
     {
@@ -12224,6 +12292,14 @@
         "freeCancellation": "Free cancellation before November 12, 2026 — free until 3 days; then first night",
         "prepayment": "Pay nothing until November 10, 2026",
         "note": "LIVE 2026-08-19. 7 left. Deluxe Double $178/$1,245. Breakfast buffet $20/person. 1 queen bed confirmed."
+      },
+      "secondarySource": {
+        "platform": "Agoda",
+        "status": "unresolved",
+        "url": null,
+        "checkMethod": "search-index",
+        "lastCheckedUtc": "2026-08-30T04:20:00Z",
+        "note": "2026-08-30: appears in TripAdvisor nearby-deals widget with Agoda.com $120 row (fully refundable) + '4.9 (1,818 reviews)' widget aggregate — deal rows are not stored as data per repo rule; no agoda.com URL. Operating solid (112 Mapo-daero GLAD brand). Probe next round: agoda.com/glad-mapo/hotel/seoul-kr.html."
       }
     },
     {
@@ -13739,6 +13815,14 @@
         "freeCancellation": "Free cancellation before November 12, 2026 — free until 3 days (⚠️ inside 3 days fee is total stay!)",
         "prepayment": "Pay nothing until November 10, 2026",
         "note": "LIVE 2026-08-19. 1 left. Deluxe Double 1-king sold out for Nov 15–22; PJ Signature Twin (388 sqft) is lead available."
+      },
+      "secondarySource": {
+        "platform": "Agoda",
+        "status": "unresolved",
+        "url": null,
+        "checkMethod": "search-index",
+        "lastCheckedUtc": "2026-08-30T04:20:00Z",
+        "note": "2026-08-30: TripAdvisor nearby widget shows Agoda.com $100 deal row for 'Hotel PJ Myeongdong' (widget aggregate 4.6/3,271, 2025) — deal row only, no agoda.com URL. Identity: 17 Toegye-ro 17-gil (sister caution: L'Escape 67 Toegye-ro block nearby). Probe: agoda.com/hotel-pj-myeongdong/hotel/seoul-kr.html."
       }
     },
     {
@@ -15682,6 +15766,14 @@
         "freeCancellation": "Free cancellation before November 13, 2026 — free until 2 days before arrival; then total stay",
         "prepayment": "Pay nothing until November 11, 2026",
         "note": "LIVE 2026-08-19. 1 left. Twin Room (2-twin) $169/$1,185. Free breakfast included. Double bed ≈140cm."
+      },
+      "secondarySource": {
+        "platform": "Agoda",
+        "status": "unresolved",
+        "url": null,
+        "checkMethod": "search-index",
+        "lastCheckedUtc": "2026-08-30T04:20:00Z",
+        "note": "2026-08-30: KAYAK provider table shows Agoda.com 8.9/10 (467 reviews) vs Booking 8.3/764; May-2026 guest review on TripAdvisor confirms operating (also notes deteriorating housekeeping — unrelated flag). Identity: 59 Myeongdong 8ga-gil, 100 rooms. Aggregator history note: KAYAK carries the property under legacy page 'Click Hotel' (id 500239) — Henn na Myeongdong absorbed the Click Hotel building/brand. Probe: agoda.com/henn-na-hotel-seoul-myeongdong/hotel/seoul-kr.html."
       }
     },
     {

@@ -433,6 +433,11 @@ Standing follow-up to Round 15b: work down the 135-record Agoda `secondarySource
 - Traps documented in-record, not attached: Stanford Myeongdong ≠ "Stanford Hotel Seoul" (Mapo); Skypark Myeongdong **I** page found but queue holds only branches 2/3; Sotetsu Fresa ≠ Splaisir; Four Points Seoul Station slug must not be copied to the Myeongdong sister.
 - Ledger: 102/181 blocks — **54 verified / 7 not-found / 41 unresolved**; **76 queued** (73 Seoul, 2 Gyeongju hanoks … Seoul tail + Gyeongju trio minus Wiyeonjae).
 
+### Round 19 addendum — Seoul wave 2 (same day)
+
+- +2 verified via Agoda guide-page evidence URLs (JW Marriott Dongdaemun, Park Hyatt Seoul); +9 unresolved-with-evidence, several now carrying **next-round probes**: L7 Gangnam has a known Agoda internal hotel id (hid=2961984) from a partnersearch link; Henn na Myeongdong's aggregator history traces to the legacy 'Click Hotel' page; GLAD Mapo/COEX, Hotel PJ, Grand InterContinental Parnas, RYSE, Novotel DDW and Mercure Hongdae all have dated Agoda-row signals but no attachable page URL yet.
+- Ledger: 113/181 blocks — **56 verified / 7 not-found / 53 unresolved**; **65 queued**. Sister-block caution recorded for the 130–144 Yanghwa-ro cluster (RYSE vs Mercure) and the three-way L7 chain.
+
 ## 🆕 New entries — area-by-area batches (2026-08-21)
 
 Added to the master list only after identity, coordinates, bed count **and** a dated refundable rate for every relevant window were all sourced from pages actually fetched.

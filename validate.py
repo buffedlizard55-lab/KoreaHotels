@@ -71,6 +71,82 @@ def room_meets_queen_or_king_requirement(room):
     )
 
 
+SECONDARY_PLATFORM = "Agoda"
+SECONDARY_STATUSES = {"verified", "not-found", "unresolved"}
+SECONDARY_CHECK_METHODS = {"property-page-fetched", "search-index"}
+RATE_FIELDS = ("refundableRate", "refundableRateNov9", "refundableRateNov15")
+
+
+def validate_secondary_source(hotel, agoda_urls):
+    """Every record must state its secondary verified source (Agoda) outcome.
+
+    A verified Agoda link needs a unique agoda.com URL and a recorded check date
+    and method; a record without a listing must say so explicitly so a blank can
+    never be misread as "not yet checked".
+    """
+    errors = 0
+    name = hotel.get("name", hotel.get("id"))
+    secondary = hotel.get("secondarySource")
+    if not isinstance(secondary, dict):
+        print(f"  ❌ Missing secondarySource (Agoda) block in {name}")
+        return 1
+    if secondary.get("platform") != SECONDARY_PLATFORM:
+        print(f"  ❌ secondarySource.platform must be '{SECONDARY_PLATFORM}' in {name}")
+        errors += 1
+    status = secondary.get("status")
+    if status not in SECONDARY_STATUSES:
+        print(f"  ❌ secondarySource.status '{status}' in {name} must be one of {sorted(SECONDARY_STATUSES)}")
+        errors += 1
+    if not secondary.get("note"):
+        print(f"  ❌ secondarySource in {name} needs a note describing what was checked")
+        errors += 1
+    if not secondary.get("lastCheckedUtc"):
+        print(f"  ❌ secondarySource in {name} needs a lastCheckedUtc date")
+        errors += 1
+    url = secondary.get("url")
+    if status == "verified":
+        if not isinstance(url, str) or not url.startswith("https://www.agoda.com/"):
+            print(f"  ❌ Verified secondarySource in {name} needs an https://www.agoda.com/ URL")
+            errors += 1
+        else:
+            key = url.strip().rstrip("/").lower()
+            if key in agoda_urls:
+                print(f"  ❌ Same Agoda URL used by {name} and {agoda_urls[key]} — duplicate identity")
+                errors += 1
+            agoda_urls[key] = name
+        if secondary.get("checkMethod") not in SECONDARY_CHECK_METHODS:
+            print(f"  ❌ secondarySource.checkMethod in {name} must be one of {sorted(SECONDARY_CHECK_METHODS)}")
+            errors += 1
+    elif url:
+        print(f"  ❌ secondarySource.status '{status}' in {name} must not carry a URL")
+        errors += 1
+    if status in ("not-found", "unresolved") and not secondary.get("lastCheckedUtc"):
+        print(f"  ❌ secondarySource '{status}' in {name} needs a date showing the blank is current")
+        errors += 1
+    return errors
+
+
+def validate_rate_source_labels(hotel):
+    """Rate rows and comparison links must state which site they belong to."""
+    errors = 0
+    name = hotel.get("name", hotel.get("id"))
+    for field in RATE_FIELDS:
+        rate = hotel.get(field)
+        if not isinstance(rate, dict):
+            continue
+        source = str(rate.get("source", ""))
+        if "Booking" not in source and "Agoda" not in source:
+            print(f"  ❌ {name}.{field}: 'source' must name the platform (Booking.com or Agoda)")
+            errors += 1
+    if hotel.get("compareLabel") and hotel.get("compareUrl"):
+        host = hotel["compareUrl"].split("/")[2].lower() if "://" in hotel["compareUrl"] else ""
+        known = next((site for site in ("kayak", "google", "booking", "agoda", "trip") if site in host), None)
+        if known and known not in hotel["compareLabel"].lower():
+            print(f"  ❌ {name}: compareLabel '{hotel['compareLabel']}' does not name the site in compareUrl")
+            errors += 1
+    return errors
+
+
 def normalize_identity_name(value):
     """Normalize a sourced hotel name for exact/fuzzy duplicate checks."""
     ascii_name = unicodedata.normalize("NFKD", str(value)).encode("ascii", "ignore").decode().lower()
@@ -94,6 +170,7 @@ def validate_hotels(data):
     official_urls = defaultdict(list)
     source_urls = defaultdict(list)
     coordinates = defaultdict(list)
+    agoda_urls = {}
 
     for h in hotels:
         # Check required fields and stable unique IDs.
@@ -165,6 +242,9 @@ def validate_hotels(data):
         if isinstance(h.get("lat"), (int, float)) and isinstance(h.get("lng"), (int, float)):
             coordinates[(round(h["lat"], 6), round(h["lng"], 6))].append(h["id"])
 
+        errors += validate_secondary_source(h, agoda_urls)
+        errors += validate_rate_source_labels(h)
+
     # Identity-level duplicate detection: IDs alone are not enough because a
     # duplicate property could be entered under a new slug or spelling.
     for (city, canonical_name), matching_ids in canonical_names.items():
@@ -207,6 +287,10 @@ def validate_hotels(data):
             errors += 1
 
     print(f"Verified identities: {verified}/{len(hotels)}; planned-city coverage: " + ", ".join(f"{city} {count}" for city, count in city_counts.items()))
+
+    secondary_verified = sum(1 for h in hotels if (h.get("secondarySource") or {}).get("status") == "verified")
+    secondary_not_found = sum(1 for h in hotels if (h.get("secondarySource") or {}).get("status") == "not-found")
+    print(f"Secondary source (Agoda): {secondary_verified} verified links, {secondary_not_found} explicit not-found")
 
     if errors == 0:
         print(f"✅ {len(hotels)} unique, source-verified hotel records; no duplicate IDs, names, URLs, or coordinates")

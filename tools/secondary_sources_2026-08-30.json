@@ -1,0 +1,199 @@
+{
+  "busan-shilla-stay": {
+    "platform": "Agoda",
+    "status": "verified",
+    "url": "https://www.agoda.com/shilla-stay-haeundae/hotel/busan-kr.html",
+    "lastCheckedUtc": "2026-08-30",
+    "checkMethod": "search-index",
+    "note": "Agoda title + address 46 Haeun-daero 570beon-gil Haeundae-gu 48093 matches Booking address Agoda page was confirmed via search-index snippets (title/address/score on Agoda's own page); the page itself was not re-fetched because the fetch tool was down during this round. Indexed variant seen: https://www.agoda.com/en-ca/shilla-stay-haeundae/hotel/busan-kr.html — locale prefix stripped for the stored canonical URL."
+  },
+  "busan-l7-haeundae": {
+    "platform": "Agoda",
+    "status": "verified",
+    "url": "https://www.agoda.com/l7-haeundae/hotel/busan-kr.html",
+    "lastCheckedUtc": "2026-08-30",
+    "checkMethod": "search-index",
+    "note": "address 55 Haeun-daero 570beon-gil; Agoda says opened 2024 — contradicts Booking; flagged Agoda page was confirmed via search-index snippets (title/address/score on Agoda's own page); the page itself was not re-fetched because the fetch tool was down during this round. Indexed variant seen: https://www.agoda.com/en-au/l7-haeundae/hotel/busan-kr.html — locale prefix stripped for the stored canonical URL."
+  },
+  "busan-toyoko-haeundae2": {
+    "platform": "Agoda",
+    "status": "verified",
+    "url": "https://www.agoda.com/toyoko-inn-busan-haeundae-2_6/hotel/busan-kr.html",
+    "lastCheckedUtc": "2026-08-30",
+    "checkMethod": "search-index",
+    "note": "JSON-LD address 5 Haeundaehaebyeon-ro 237beon-gil; coords 35.1594368/129.1574672 Agoda page was confirmed via search-index snippets (title/address/score on Agoda's own page); the page itself was not re-fetched because the fetch tool was down during this round. Indexed variant seen: https://www.agoda.com/ru-ru/toyoko-inn-busan-haeundae-2_6/hotel/busan-kr.html — locale prefix stripped for the stored canonical URL."
+  },
+  "busan-ramada-encore-haeundae": {
+    "platform": "Agoda",
+    "status": "verified",
+    "url": "https://www.agoda.com/ramada-encore-by-wyndham-busan-haeundae/reviews/busan-kr.html",
+    "lastCheckedUtc": "2026-08-30",
+    "checkMethod": "search-index",
+    "note": "Agoda reviews page found; 17488 reviews quoted on agoda busan page Agoda page was confirmed via search-index snippets (title/address/score on Agoda's own page); the page itself was not re-fetched because the fetch tool was down during this round."
+  },
+  "busan-signiel": {
+    "platform": "Agoda",
+    "status": "verified",
+    "url": "https://www.agoda.com/signiel-busan/hotel/busan-kr.html",
+    "lastCheckedUtc": "2026-08-30",
+    "checkMethod": "search-index",
+    "note": "30 Dalmaji-gil Haeundae-gu; coords 35.16018722/129.16756161; 6222 reviews Agoda page was confirmed via search-index snippets (title/address/score on Agoda's own page); the page itself was not re-fetched because the fetch tool was down during this round."
+  },
+  "busan-asti": {
+    "platform": "Agoda",
+    "status": "unresolved",
+    "lastCheckedUtc": "2026-08-30",
+    "checkMethod": "search-index",
+    "note": "Agoda listing exists (prices via Agoda on momondo/tripadvisor, 90/100 Agoda score); agoda.com URL not surfaced by 2026-08-30 searches The URL must be resolved manually from within agoda.com (search engine index coverage for Agoda property pages proved incomplete for smaller Busan properties)."
+  },
+  "busan-grand-josun": {
+    "platform": "Agoda",
+    "status": "unresolved",
+    "lastCheckedUtc": "2026-08-30",
+    "checkMethod": "search-index",
+    "note": "Agoda listing exists (9.4/300 reviews on Agoda per KAYAK+HotelsCombined) but agoda.com URL not surfaced by 2026-08-30 searches The URL must be resolved manually from within agoda.com (search engine index coverage for Agoda property pages proved incomplete for smaller Busan properties)."
+  },
+  "busan-park-hyatt": {
+    "platform": "Agoda",
+    "status": "verified",
+    "url": "https://www.agoda.com/park-hyatt-busan/reviews/busan-kr.html",
+    "lastCheckedUtc": "2026-08-30",
+    "checkMethod": "search-index",
+    "note": "Agoda reviews page for property; breadcrumb Busan Hotels Agoda page was confirmed via search-index snippets (title/address/score on Agoda's own page); the page itself was not re-fetched because the fetch tool was down during this round."
+  },
+  "busan-fairfield-haeundae": {
+    "platform": "Agoda",
+    "status": "verified",
+    "url": "https://www.agoda.com/fairfield-by-marriott-busan_3/hotel/busan-kr.html",
+    "lastCheckedUtc": "2026-08-30",
+    "checkMethod": "search-index",
+    "note": "PROPERTY PAGE. Address 314 Haeundaehaebyeon-ro Haeundae-gu 48099 matches Booking capture. Coords 35.16170/129.16467 Agoda page was confirmed via search-index snippets (title/address/score on Agoda's own page); the page itself was not re-fetched because the fetch tool was down during this round."
+  },
+  "busan-paradise": {
+    "platform": "Agoda",
+    "status": "verified",
+    "url": "https://www.agoda.com/paradise-hotel-busan/reviews/busan-kr.html",
+    "lastCheckedUtc": "2026-08-30",
+    "checkMethod": "search-index",
+    "note": "Agoda reviews page; 228 agoda reviews cited by aggregators Agoda page was confirmed via search-index snippets (title/address/score on Agoda's own page); the page itself was not re-fetched because the fetch tool was down during this round."
+  },
+  "busan-westin-josun": {
+    "platform": "Agoda",
+    "status": "verified",
+    "url": "https://www.agoda.com/the-westin-josun-busan/reviews/busan-kr.html",
+    "lastCheckedUtc": "2026-08-30",
+    "checkMethod": "search-index",
+    "note": "Agoda reviews page Agoda page was confirmed via search-index snippets (title/address/score on Agoda's own page); the page itself was not re-fetched because the fetch tool was down during this round."
+  },
+  "busan-fairfield-songdo": {
+    "platform": "Agoda",
+    "status": "verified",
+    "url": "https://www.agoda.com/fairfield-by-marriott-busan-songdo-beach/reviews/busan-kr.html",
+    "lastCheckedUtc": "2026-08-30",
+    "checkMethod": "search-index",
+    "note": "Agoda reviews page Agoda page was confirmed via search-index snippets (title/address/score on Agoda's own page); the page itself was not re-fetched because the fetch tool was down during this round."
+  },
+  "busan-lotte-hotel": {
+    "platform": "Agoda",
+    "status": "verified",
+    "url": "https://www.agoda.com/lotte-hotel-busan/reviews/busan-kr.html",
+    "lastCheckedUtc": "2026-08-30",
+    "checkMethod": "search-index",
+    "note": "Agoda reviews page; 451 agoda reviews per aggregator Agoda page was confirmed via search-index snippets (title/address/score on Agoda's own page); the page itself was not re-fetched because the fetch tool was down during this round."
+  },
+  "busan-avani-central": {
+    "platform": "Agoda",
+    "status": "verified",
+    "url": "https://www.agoda.com/avani-central-busan/reviews/busan-kr.html",
+    "lastCheckedUtc": "2026-08-30",
+    "checkMethod": "search-index",
+    "note": "Agoda reviews page Agoda page was confirmed via search-index snippets (title/address/score on Agoda's own page); the page itself was not re-fetched because the fetch tool was down during this round."
+  },
+  "busan-foret-premier-nampo": {
+    "platform": "Agoda",
+    "status": "verified",
+    "url": "https://www.agoda.com/hotel-foret-premier-nampo/reviews/busan-kr.html",
+    "lastCheckedUtc": "2026-08-30",
+    "checkMethod": "search-index",
+    "note": "Agoda page found; 400 agoda reviews per aggregator; Google entity address 54-1 Gudeok-ro matches Agoda page was confirmed via search-index snippets (title/address/score on Agoda's own page); the page itself was not re-fetched because the fetch tool was down during this round."
+  },
+  "busan-ananti-cove-hilton": {
+    "platform": "Agoda",
+    "status": "verified",
+    "url": "https://www.agoda.com/ananti-hilton-busan/reviews/busan-kr.html",
+    "lastCheckedUtc": "2026-08-30",
+    "checkMethod": "search-index",
+    "note": "Agoda page titled Ananti at Busan Cove under old slug ananti-hilton-busan — third corroboration of the rebrand identity match Agoda page was confirmed via search-index snippets (title/address/score on Agoda's own page); the page itself was not re-fetched because the fetch tool was down during this round."
+  },
+  "busan-wyndham-grand": {
+    "platform": "Agoda",
+    "status": "unresolved",
+    "lastCheckedUtc": "2026-08-30",
+    "checkMethod": "search-index",
+    "note": "Agoda rating 9.3/777 reviews cited (itravelblog); URL not surfaced The URL must be resolved manually from within agoda.com (search engine index coverage for Agoda property pages proved incomplete for smaller Busan properties)."
+  },
+  "busan-hyatt-place-yeonsan": {
+    "platform": "Agoda",
+    "status": "unresolved",
+    "lastCheckedUtc": "2026-08-30",
+    "checkMethod": "search-index",
+    "note": "27 Agoda reviews cited (itravelblog); opened 2025; agoda.com URL not surfaced The URL must be resolved manually from within agoda.com (search engine index coverage for Agoda property pages proved incomplete for smaller Busan properties)."
+  },
+  "busan-kent-gwangalli-kensington": {
+    "platform": "Agoda",
+    "status": "unresolved",
+    "lastCheckedUtc": "2026-08-30",
+    "checkMethod": "search-index",
+    "note": "Agoda deals shown on momondo (AGODAHOTELNAVER provider); agoda.com URL not surfaced The URL must be resolved manually from within agoda.com (search engine index coverage for Agoda property pages proved incomplete for smaller Busan properties)."
+  },
+  "busan-nongshim-dongnae": {
+    "platform": "Agoda",
+    "status": "unresolved",
+    "lastCheckedUtc": "2026-08-30",
+    "checkMethod": "search-index",
+    "note": "Agoda $106 deal cited on HotelsCombined; agoda.com URL not surfaced The URL must be resolved manually from within agoda.com (search engine index coverage for Agoda property pages proved incomplete for smaller Busan properties)."
+  },
+  "busan-haeundae-centum": {
+    "platform": "Agoda",
+    "status": "unresolved",
+    "lastCheckedUtc": "2026-08-30",
+    "checkMethod": "search-index",
+    "note": "8.7/149 Agoda reviews per KAYAK; agoda.com URL not surfaced The URL must be resolved manually from within agoda.com (search engine index coverage for Agoda property pages proved incomplete for smaller Busan properties)."
+  },
+  "busan-toyoko-station1": {
+    "platform": "Agoda",
+    "status": "verified",
+    "url": "https://www.agoda.com/toyoko-inn-busan-station-no-1/reviews/busan-kr.html",
+    "lastCheckedUtc": "2026-08-30",
+    "checkMethod": "search-index",
+    "note": "Agoda reviews page; property page sibling URL Agoda page was confirmed via search-index snippets (title/address/score on Agoda's own page); the page itself was not re-fetched because the fetch tool was down during this round."
+  },
+  "busan-ramada-station": {
+    "platform": "Agoda",
+    "status": "unresolved",
+    "lastCheckedUtc": "2026-08-30",
+    "checkMethod": "search-index",
+    "note": "9.1/636 Agoda reviews per KAYAK; URL not surfaced The URL must be resolved manually from within agoda.com (search engine index coverage for Agoda property pages proved incomplete for smaller Busan properties)."
+  },
+  "busan-crown-harbor": {
+    "platform": "Agoda",
+    "status": "unresolved",
+    "lastCheckedUtc": "2026-08-30",
+    "checkMethod": "search-index",
+    "note": "8.7/127 Agoda reviews per KAYAK; URL not surfaced The URL must be resolved manually from within agoda.com (search engine index coverage for Agoda property pages proved incomplete for smaller Busan properties)."
+  },
+  "busan-ibis-haeundae": {
+    "platform": "Agoda",
+    "status": "not-found",
+    "lastCheckedUtc": "2026-08-30",
+    "checkMethod": "search-index",
+    "note": "No Agoda property/reviews page surfaced by four query variants in the 2026-08-30 Busan discovery round; the property is also absent from Booking's index (see record notes). Existence on Agoda is NOT confirmed — this is a blank, not a negative finding. Recommend a manual on-site check."
+  },
+  "busan-ibis-budget-haeundae": {
+    "platform": "Agoda",
+    "status": "not-found",
+    "lastCheckedUtc": "2026-08-30",
+    "checkMethod": "search-index",
+    "note": "No Agoda property/reviews page surfaced by the 2026-08-30 discovery round. IRREGULARITY for review: a 2022 travel blog (updated 2024) claims the hotel closed and an aggregator lists it rebranded as 'Ambassador Busan Haeundae (ex. Ibis Budget Haeundae)', while the record's 2026-08-10 Accor capture (all.accor.com/hotel/9106) shows it operating under the ibis budget Ambassador name. Rebrand-vs-status conflict — resolve manually; do not treat this blank as a verified absence."
+  }
+}

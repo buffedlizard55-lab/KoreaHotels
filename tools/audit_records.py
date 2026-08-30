@@ -15,7 +15,7 @@ def add(sev,hid,msg): issues.append((sev,hid,msg))
 
 RATE_FIELDS=[('refundableRate',None),('refundableRateNov9',('2026-11-09','2026-11-15')),
              ('refundableRateNov15',('2026-11-15','2026-11-22'))]
-TODAY='2026-08-22'
+TODAY='2026-08-30'
 
 for h in H:
     hid=h['id']
@@ -84,6 +84,41 @@ for h in H:
     # 12. verification sourceUrl present & http
     v=h.get('verification') or {}
     if not (v.get('sourceUrl','').startswith('http')): add('HIGH',hid,"verification.sourceUrl missing/invalid")
+
+    # 13. secondary verified source (Agoda) must be present and honest about blanks
+    s=h.get('secondarySource') or {}
+    if not s:
+        add('HIGH',hid,"missing secondarySource (Agoda) block")
+    else:
+        if s.get('platform')!='Agoda': add('HIGH',hid,f"secondarySource.platform is {s.get('platform')}, expected Agoda")
+        st=s.get('status')
+        if st=='verified':
+            u=s.get('url') or ''
+            if not u.startswith('https://www.agoda.com/'): add('HIGH',hid,f"secondarySource.url not an agoda.com page: {u}")
+            if not s.get('lastCheckedUtc'): add('HIGH',hid,"verified secondarySource without lastCheckedUtc")
+            if s.get('checkMethod') not in ('property-page-fetched','search-index'):
+                add('CHECK',hid,f"secondarySource.checkMethod unusual: {s.get('checkMethod')}")
+            if s.get('checkMethod')=='search-index':
+                add('CHECK',hid,"Agoda link verified only via search index — fetch the page to harden")
+        elif st in ('not-found','unresolved'):
+            if s.get('url'): add('HIGH',hid,f"secondarySource {st} but carries a URL")
+            if not s.get('lastCheckedUtc'): add('HIGH',hid,f"{st} secondarySource without date — cannot show the blank is current")
+            if st=='unresolved': add('CHECK',hid,"Agoda listing known to exist but link unresolved — flag for manual review")
+        else:
+            add('HIGH',hid,f"secondarySource.status invalid: {st}")
+
+    # 14. every rate row must name its platform (no unlabeled OTA links)
+    for f,_ in RATE_FIELDS:
+        r=h.get(f)
+        if isinstance(r,dict):
+            src=str(r.get('source',''))
+            named=sum(1 for p in ('Booking','Agoda') if p in src)
+            if named!=1: add('HIGH',hid,f"{f}: source must name exactly one platform (Booking.com/Agoda): '{src}'")
+
+    # 15. primary-source blank must be explained: no booking link anywhere -> distributionStatus required
+    has_booking=any(isinstance(h.get(f),dict) and 'booking.com' in str((h.get(f) or {}).get('sourceUrl','')) for f,_ in RATE_FIELDS) or 'booking.com' in str(v.get('sourceUrl','')) or 'booking.com' in str(h.get('bookingUrl',''))
+    if not has_booking and not h.get('distributionStatus'):
+        add('HIGH',hid,"no Booking.com source link on the record and no distributionStatus explaining it")
 
 print("=== RECORD-LEVEL AUDIT ===")
 for sev in ('HIGH','CHECK'):

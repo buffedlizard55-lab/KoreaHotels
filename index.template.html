@@ -555,6 +555,7 @@
       <a href="#findings">Findings</a>
       <a href="#arrival">Arrival night</a>
       <a href="#shortlist">Hotel list</a>
+      <a href="#agoda-directory">Agoda directory</a>
       <a href="#booking-notes">How to use this</a>
     </div>
   </nav>
@@ -569,8 +570,7 @@
         <strong>Nov 9–15, 2026 (6 nights — the Busan stay)</strong> and
         <strong>Nov 15–22, 2026 (7 nights)</strong>.
         A row only appears here if a dated rate table was actually fetched and stamped in UTC.
-        <strong>Booking.com is the primary verified source; every record also carries a labeled Agoda link as the
-        secondary verified source</strong> — each link says which site it opens.
+        <strong>Agoda.com and Booking.com are both official verified sources. Every hotel card and table row labels which site a link opens. Agoda is the main labeled OTA identity link; dated prices stay Booking.com captures unless a dated Agoda quote exists (none stored).</strong> — each link says which site it opens.
         Pick a window, then narrow by area. Every row keeps its own capture time and live source link,
         and prices are the display price at capture time — usually before 10% tax.
       </p>
@@ -642,7 +642,7 @@
     <section id="shortlist" aria-labelledby="shortlist-title">
       <p class="section-kicker">The rest of the trip</p>
       <h2 class="section-heading" id="shortlist-title">Expanded city-by-city hotel list</h2>
-      <p class="section-description">Compare 111 Seoul stays, 15 Gyeongju stays, 34 Busan stays, and 25 alternative-city properties (8 Cheonan, 11 Daejeon, 6 Suwon). All 185 entries carry a dated identity source; every link is labeled with its platform (Booking.com vs Agoda) and its page type (150 canonical Agoda property pages, 35 property reviews pages). Each record states an explicit Agoda secondary-source status — a blank or "not-found" means it was not verified, never that it was checked and rejected. Refundable badges use each city’s stay window. Re-open the live source before paying.</p>
+      <p class="section-description">Compare 111 Seoul stays, 15 Gyeongju stays, 34 Busan stays, and 25 alternative-city properties (8 Cheonan, 11 Daejeon, 6 Suwon). All 185 entries carry a dated identity source; every hotel has a labeled Agoda.com link (150 property pages, 35 reviews pages) as a main verified source, plus Booking.com where a dated page exists. Refundable badges use each city’s stay window. Re-open the live source before paying.</p>
 
       <div class="planner">
         <div class="city-tabs" id="city-tabs" role="group" aria-label="Choose a city"></div>
@@ -663,6 +663,16 @@
           </div>
         </div>
         <div class="hotel-grid" id="hotel-grid" aria-live="polite"></div>
+      </div>
+    </section>
+
+
+    <section id="agoda-directory" aria-labelledby="agoda-directory-title">
+      <p class="section-kicker">Main verified OTA source</p>
+      <h2 class="section-heading" id="agoda-directory-title">Agoda.com directory — all 185 hotels (static HTML)</h2>
+      <p class="section-description">These links are written into the page at build time so they appear on GitHub Pages even if JavaScript is off. Each row labels <strong>Agoda</strong> vs <strong>Booking.com</strong>. Dated USD prices remain Booking.com captures. No Agoda prices are stored.</p>
+      <div class="table-card" style="overflow-x:auto">
+        __AGODA_DIRECTORY__
       </div>
     </section>
 
@@ -933,25 +943,25 @@
           || (hotel.refundableRateNov9 && hotel.refundableRateNov9.sourceUrl)
           || (hotel.refundableRateNov15 && hotel.refundableRateNov15.sourceUrl)
           || (hotel.verification && hotel.verification.sourceType && /booking\.com/i.test(hotel.verification.sourceUrl || "") ? hotel.verification.sourceUrl : null);
-        if (bookingUrl) {
-          parts.push(`<a href="${safeUrl(bookingUrl)}" target="_blank" rel="noopener noreferrer"><strong>Booking.com</strong> — primary verified source ↗</a>`);
-        } else if (hotel.distributionStatus) {
-          const ds = hotel.distributionStatus;
-          const dsText = typeof ds === "string" ? ds : [ds.status, ds.asOf && `as of ${ds.asOf}`].filter(Boolean).join(" · ");
-          parts.push(`<span>Booking.com: ${escapeHtml(dsText)}</span>`);
-        }
         const s = hotel.secondarySource;
         if (s && s.url) {
           const checked = s.lastCheckedUtc || s.lastChecked || "";
           const pageKind = s.linkType === "property-page" ? "property page" : (s.linkType === "reviews-page" ? "property reviews page" : "listing");
           const method = s.checkMethod === "property-page-fetched" ? "fetched" : "search-index";
-          parts.push(`<a href="${safeUrl(s.url)}" target="_blank" rel="noopener noreferrer"><strong>Agoda</strong> — secondary verified source · ${escapeHtml(pageKind)} (checked ${escapeHtml(String(checked).slice(0, 10))} · ${escapeHtml(method)}) ↗</a>`);
+          parts.push(`<a href="${safeUrl(s.url)}" target="_blank" rel="noopener noreferrer"><strong>Agoda</strong> — main verified source · ${escapeHtml(pageKind)} (checked ${escapeHtml(String(checked).slice(0, 10))} · ${escapeHtml(method)}) ↗</a>`);
         } else if (s && s.status === "not-found") {
           parts.push(`<span>Agoda: not found in the 2026-08-30 index round (${escapeHtml(String(s.lastCheckedUtc || s.lastChecked || "").slice(0, 10))}) — deliberate blank, not a verified absence</span>`);
         } else if (s && s.status === "unresolved") {
           parts.push(`<span>Agoda: listing known to exist, link unresolved — needs manual lookup on agoda.com (checked ${escapeHtml(String(s.lastCheckedUtc || s.lastChecked || "").slice(0, 10))})</span>`);
         } else {
           parts.push('<span>Agoda: secondary source check not yet run</span>');
+        }
+        if (bookingUrl) {
+          parts.push(`<a href="${safeUrl(bookingUrl)}" target="_blank" rel="noopener noreferrer"><strong>Booking.com</strong> — dated-rate source ↗</a>`);
+        } else if (hotel.distributionStatus) {
+          const ds = hotel.distributionStatus;
+          const dsText = typeof ds === "string" ? ds : [ds.status, ds.asOf && `as of ${ds.asOf}`].filter(Boolean).join(" · ");
+          parts.push(`<span>Booking.com: ${escapeHtml(dsText)}</span>`);
         }
         return parts.length ? `<p class="source-line">Verified sources · ${parts.join(" · ")}</p>` : '';
       }
@@ -1023,6 +1033,7 @@
             </div>
             <div class="card-footer">
               ${hotel.officialUrl ? `<a class="button" href="${safeUrl(hotel.officialUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(hotel.officialLabel || "Official site")} ↗</a>` : '<span class="button secondary" aria-disabled="true">Use trusted identity source above</span>'}
+              ${hotel.secondarySource && hotel.secondarySource.url ? `<a class="button secondary" href="${safeUrl(hotel.secondarySource.url)}" target="_blank" rel="noopener noreferrer">Agoda — main verified source ↗</a>` : ''}
               ${hotel.compareUrl ? `<a class="button secondary" href="${safeUrl(hotel.compareUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(hotel.compareLabel || "Compare rates")} ↗</a>` : ''}
             </div>
           </article>
@@ -1166,14 +1177,15 @@
       const windowLabel = windows.find(function(item) { return item[0] === quoteWindow; })[1];
       document.getElementById("findings-quotes").innerHTML = quotes.length
         ? '<table class="data-table"><caption class="source-line" style="caption-side:top;text-align:left">' + escapeHtml(windowLabel) + ' only · source-captured terms may change before checkout.</caption><thead><tr>' +
-          '<th>City / area</th><th>Hotel</th><th>Captured room</th><th>Bed</th><th>Stay total</th><th>Per night</th><th>Free cancellation</th><th>Captured UTC</th><th></th></tr></thead><tbody>' +
+          '<th>City / area</th><th>Hotel</th><th>Captured room</th><th>Bed</th><th>Stay total</th><th>Per night</th><th>Free cancellation</th><th>Captured UTC</th><th>Agoda</th><th>Booking.com</th></tr></thead><tbody>' +
           quotes.map(function(row) {
             return '<tr><td>' + escapeHtml(row.city) + '<br><span class="muted">' + escapeHtml(row.area || "") + '</span></td><td>' + escapeHtml(row.name) +
               (row.fits ? '<br><span class="muted">core-needs hotel</span>' : '') +
               '</td><td>' + escapeHtml(row.room || "") + '</td><td>' + escapeHtml(bedLabel(row.bedClass)) +
               '</td><td class="money">' + money(row.totalStay) + '</td><td>' + money(row.pricePerNight) +
               '</td><td>' + escapeHtml(row.freeCancellation || "See source") + '</td><td>' + escapeHtml((row.capturedAtUtc || "").replace("T", " ").replace("Z", " UTC")) +
-              '</td><td>' + (row.sourceUrl ? '<a href="' + safeUrl(row.sourceUrl) + '" target="_blank" rel="noopener noreferrer">Source ↗</a>' : '') +
+              '</td><td>' + (function(){ const hotel = DATA.hotels.find(function(h) { return h.id === row.id || h.name === row.name; }); const agoda = hotel && hotel.secondarySource && hotel.secondarySource.url; return agoda ? '<a href="' + safeUrl(agoda) + '" target="_blank" rel="noopener noreferrer">Agoda ↗</a>' : '—'; })() +
+              '</td><td>' + (row.sourceUrl ? '<a href="' + safeUrl(row.sourceUrl) + '" target="_blank" rel="noopener noreferrer">Booking.com ↗</a>' : '') +
               '</td></tr>';
           }).join("") + '</tbody></table>'
         : '<p class="empty-state">No timestamped refundable quotes match this date window and scope.</p>';

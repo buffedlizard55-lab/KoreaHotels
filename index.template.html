@@ -1023,6 +1023,7 @@
             </div>
             <div class="card-footer">
               ${hotel.officialUrl ? `<a class="button" href="${safeUrl(hotel.officialUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(hotel.officialLabel || "Official site")} ↗</a>` : '<span class="button secondary" aria-disabled="true">Use trusted identity source above</span>'}
+              ${hotel.secondarySource && hotel.secondarySource.url ? `<a class="button secondary" href="${safeUrl(hotel.secondarySource.url)}" target="_blank" rel="noopener noreferrer">Agoda — secondary source ↗</a>` : ''}
               ${hotel.compareUrl ? `<a class="button secondary" href="${safeUrl(hotel.compareUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(hotel.compareLabel || "Compare rates")} ↗</a>` : ''}
             </div>
           </article>
@@ -1166,14 +1167,15 @@
       const windowLabel = windows.find(function(item) { return item[0] === quoteWindow; })[1];
       document.getElementById("findings-quotes").innerHTML = quotes.length
         ? '<table class="data-table"><caption class="source-line" style="caption-side:top;text-align:left">' + escapeHtml(windowLabel) + ' only · source-captured terms may change before checkout.</caption><thead><tr>' +
-          '<th>City / area</th><th>Hotel</th><th>Captured room</th><th>Bed</th><th>Stay total</th><th>Per night</th><th>Free cancellation</th><th>Captured UTC</th><th></th></tr></thead><tbody>' +
+          '<th>City / area</th><th>Hotel</th><th>Captured room</th><th>Bed</th><th>Stay total</th><th>Per night</th><th>Free cancellation</th><th>Captured UTC</th><th>Booking.com</th><th>Agoda</th></tr></thead><tbody>' +
           quotes.map(function(row) {
             return '<tr><td>' + escapeHtml(row.city) + '<br><span class="muted">' + escapeHtml(row.area || "") + '</span></td><td>' + escapeHtml(row.name) +
               (row.fits ? '<br><span class="muted">core-needs hotel</span>' : '') +
               '</td><td>' + escapeHtml(row.room || "") + '</td><td>' + escapeHtml(bedLabel(row.bedClass)) +
               '</td><td class="money">' + money(row.totalStay) + '</td><td>' + money(row.pricePerNight) +
               '</td><td>' + escapeHtml(row.freeCancellation || "See source") + '</td><td>' + escapeHtml((row.capturedAtUtc || "").replace("T", " ").replace("Z", " UTC")) +
-              '</td><td>' + (row.sourceUrl ? '<a href="' + safeUrl(row.sourceUrl) + '" target="_blank" rel="noopener noreferrer">Source ↗</a>' : '') +
+              '</td><td>' + (row.sourceUrl ? '<a href="' + safeUrl(row.sourceUrl) + '" target="_blank" rel="noopener noreferrer">Booking.com ↗</a>' : '') +
+              '</td><td>' + (function(){ const hotel = DATA.hotels.find(function(h) { return h.id === row.id || h.name === row.name; }); const agoda = hotel && hotel.secondarySource && hotel.secondarySource.url; return agoda ? '<a href="' + safeUrl(agoda) + '" target="_blank" rel="noopener noreferrer">Agoda ↗</a>' : '—'; })() +
               '</td></tr>';
           }).join("") + '</tbody></table>'
         : '<p class="empty-state">No timestamped refundable quotes match this date window and scope.</p>';

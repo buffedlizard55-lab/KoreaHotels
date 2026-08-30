@@ -438,6 +438,21 @@ Standing follow-up to Round 15b: work down the 135-record Agoda `secondarySource
 - +2 verified via Agoda guide-page evidence URLs (JW Marriott Dongdaemun, Park Hyatt Seoul); +9 unresolved-with-evidence, several now carrying **next-round probes**: L7 Gangnam has a known Agoda internal hotel id (hid=2961984) from a partnersearch link; Henn na Myeongdong's aggregator history traces to the legacy 'Click Hotel' page; GLAD Mapo/COEX, Hotel PJ, Grand InterContinental Parnas, RYSE, Novotel DDW and Mercure Hongdae all have dated Agoda-row signals but no attachable page URL yet.
 - Ledger: 113/181 blocks — **56 verified / 7 not-found / 53 unresolved**; **65 queued**. Sister-block caution recorded for the 130–144 Yanghwa-ro cluster (RYSE vs Mercure) and the three-way L7 chain.
 
+## 🧭 Round 20 — closing the queue: all 181 records carry an explicit Agoda status (2026-08-30)
+
+Seven search waves took the queue from 59 to **0**. Final ledger: **181/181 blocks = 91 verified (each backed by its own unique agoda.com evidence URL, enforced by the validator's uniqueness rule) / 7 not-found (delisted or never-listed, each with a dated note) / 83 unresolved-with-evidence** — every unresolved record carries cross-checked identity (official site / VISITSEOUL / Accor / TripAdvisor ids), the Agoda-side claims seen (always labeled stale-snapshot or claim-only, never stored as fact), and a probe slug for the next round. `validate.py` now reports 0 issues and doubles as the queue counter; the checklist reads `181 lines; agoda verified=91 not-found=7 unchecked=0`.
+
+Highlights and flags from this round (all recorded in per-record notes):
+- **Legacy-slug rebrand recoveries**: Amid found under `center-mark-hotel` (8.9/8,128), Sejong Hotel under `sejong-hotel` (old "Sejong Plaza" name, 8.1/11,421), The Ambassador Seoul-Pullman under `grand-ambassador-seoul` (8.8/3,111) — Agoda keeps pre-rebrand slugs; each note documents the renaming so the mapping isn't mistaken for a hallucination.
+- **Verified via Agoda's own travel guides** (guide-tier evidence, labeled as such): L7 Hongdae, Skypark Myeongdong III, Splaisir, Amanti, Solaria, Grand Hotel Myeongdong, Hotel Naru MGallery, Shilla Stay Myeongdong (2025 listing), orakai Daehakro/Insadong.
+- **Property-facts captures**: Hamilton Euljiro (opened 1967, renovated 2017, 241 rooms); Ena Suite (2018, 23 floors, 180 rooms, license 112-87-24053); Imperial Palace (2012, 9.0/1,186); LOTTE City Mapo (2009, 284 rooms — the page's own 4★-badge-vs-"3-star prose" discrepancy kept as-found for human review); Frasers Namdaemun/Central verified as distinct properties.
+- **DISCREPANCY flags preserved, not overwritten**: Seoul Garden Hotel 372 vs 398 room counts across two Agoda-sourced rows; Hotel Vert score chaos (TripAdvisor 2.0 vs Klook 4.6 vs mirror 8.7); Dormy Gangnam "21,671 reviews" recorded as blog claim only.
+- **Opening-window finding**: Mercure Ambassador Seoul Dongdaemun is "(Opening July 2026)" per Accor — absence from Agoda is expected, not absence of the hotel; re-check after sales ramp.
+- **Sister/look-alike traps hit and dodged** (each documented): Toyoko-inn triple at Dongdaemun, Novotel Suites vs Ambassador vs Grand Mercure (Dragon City 3-brand), Designers/Designer cluster ×5, Nine Tree Parnas set, Moxy Insadong ≠ Myeongdong, voco Gangnam ≠ Myeongdong, Prince Seoul ×3, Skypark MD I/II/III + DDM I, Sotetsu Fresa ≠ Splaisir, SHILLA STAY five-way (Yeoksam record kept off the SEOCHO page), Henn-na → Travelodge → KLAVEN rebrand chain, Migliore Dongdaemun ≠ Myeongdong.
+- **No dated prices stored anywhere in Round 20.** Agoda/KAYAK/momondo deal rows and "as low as $X" teasers were seen and deliberately not recorded; per-record notes end with the standard "No dated prices captured."
+
+Standing limitation (unchanged since Round 16): the `fetch_page` proxy was down all round, so every verification is a search-index snapshot — the audit prints "verified only via search index — fetch the page to harden" repo-wide; a fetch round remains the recommended follow-up.
+
 ## 🆕 New entries — area-by-area batches (2026-08-21)
 
 Added to the master list only after identity, coordinates, bed count **and** a dated refundable rate for every relevant window were all sourced from pages actually fetched.

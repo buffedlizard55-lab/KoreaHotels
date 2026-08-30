@@ -409,6 +409,14 @@ Standing follow-up to Round 15b: work down the 135-record Agoda `secondarySource
 - **Method notes for future passes**: plain `https://www.agoda.com/{slug}/hotel/{city}-kr.html` URLs are reliable; guessed slugs either land, 301 to canonical (stored canonical), or clean-404 — each outcome is written dated into the record. Chain-name slug mirroring works well for Seoul (worked 8×), poorly for Suwon (0/6). Never attribute an auto-redirected sibling page to the record being probed (Nine Tree trap caught in-act).
 - **Known-by-design audit deltas**: two records carry Agoda-side rebrand *signals* only (LOTTE HOTEL SEOUL title, Four Seasons legacy postcode on-page); no record renamed on aggregator evidence alone.
 
+
+## 🧭 Round 17 (2026-08-30, partial — transport-limited)
+
+- Continued the Agoda queue grind. **+1 verified**: LOTTE City Hotel Daejeon (live property-page fetch: 8.8/10, 12,539 reviews, DCC-facing, free parking — the first Daejeon Agoda confirmation). **Hilton Gyeongju**: the obvious slug `hilton-gyeongju` 404s on Agoda; per the standing rule a guessed-slug 404 never proves absence, so the record is marked **unresolved with the dated probe note**, not not-found.
+- Schema hygiene: two blocks had been written with a stray `site` key; every `secondarySource` block now uses the canonical `platform: "Agoda"` key (validator enforces it).
+- **Why partial**: the fetch proxy degraded to ~30% usable responses mid-round (corrupt SignatureDoesNotMatch artifacts). Rather than "verifying" or "unresolving" records on transport noise, the round was halted with everything committed at a consistent state.
+- Ledger after this round: 71/181 records carry Agoda status blocks — **35 verified / 7 not-found / 29 unresolved**; **110 still queued**. `validate.py` reports exactly 110 issues = the queue; checklist rebuilt.
+
 ## 🆕 New entries — area-by-area batches (2026-08-21)
 
 Added to the master list only after identity, coordinates, bed count **and** a dated refundable rate for every relevant window were all sourced from pages actually fetched.

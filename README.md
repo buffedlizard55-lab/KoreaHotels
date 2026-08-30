@@ -417,6 +417,15 @@ Standing follow-up to Round 15b: work down the 135-record Agoda `secondarySource
 - **Why partial**: the fetch proxy degraded to ~30% usable responses mid-round (corrupt SignatureDoesNotMatch artifacts). Rather than "verifying" or "unresolving" records on transport noise, the round was halted with everything committed at a consistent state.
 - Ledger after this round: 71/181 records carry Agoda status blocks — **35 verified / 7 not-found / 29 unresolved**; **110 still queued**. `validate.py` reports exactly 110 issues = the queue; checklist rebuilt.
 
+## 🧭 Round 18 — search-index grind: Gyeongju, Cheonan, Daejeon (2026-08-30)
+
+- `fetch_page` stayed broken all round (corrupt proxy artifacts), so this round ran on **search-index evidence** — real Agoda page content surfaced inside search results — which is the already-used `checkMethod: "search-index"` tier. Live-fetch hardening remains a follow-up for these blocks.
+- **Structural discovery (why past guesses failed):** Agoda files regional cities as `<city>-si-kr.html` — Gyeongju = `gyeongju-si-kr.html`, Cheonan = `cheonan-si-kr.html` (Suwon = `suwon-si-kr.html`; that's why 6 of 7 Suwon probes died in Round 16), metros stay bare (`daejeon-kr.html`, `seoul-kr.html`). Some independents get auto **h-id slugs** (The Mains = `cheonan-a1-h78508786`).
+- **+15 verified, +6 unresolved-with-evidence (21 records, 110 → 86 queued):** Gyeongju 6 (Kensington 7.6, Commodore, Lahan 8.9/30, Swiss Rosen 8.1/45, Rivertain, Sono Calm — Agoda slug still `sono-belle-gyeongju`, rebrand residue flagged); Cheonan 5 (Shilla Stay 8.5/5,130, Ramada Encore 8.2/739, Sono Belle 8.6/4,401, ON City 8.1/3,923, The Mains 8.4/2,051); Daejeon 4 (Toyoko Gov-Complex 8.7/3,067, Ramada 8.8/13,194 — Agoda's Daejeon popular hotel, Interciti 8.6/5,060, Le Stendal; LOTTE City was Round 17). Where only a city/guide page carried a per-property card, that page is stored as the evidence URL with the nature of it explained in the note.
+- **Two sister-branch traps caught by coordinate cross-check, not attached:** `brown-dot` (Agoda page = Cheonan **Seongjeong** branch; record = Dongnam/Cheonan Station) and **Anook** Air Munchang-branch page vs our record Aank Air **Daejeon Station** (brand rebranded Aank → Anook — flag). `benikea-daelim` shows 8.2/3,439 on the city card but no unique URL was free → deliberately left unresolved with a next-round probe hint.
+- Unresolved-with-evidence this round: The-K, Kinock, GG Hotel, Kolon, Hwangnamkwan (Gyeongju slug still unknown), Brown Dot, SureStay Plus Asan, Aank Air, Benikea Daelim.
+- Ledger: 92/181 records carry Agoda status blocks — **50 verified / 7 not-found / 35 unresolved**; 86 queued (Gyeongju hanok trio + Seoul 83 minus … Seoul remains the big tail).
+
 ## 🆕 New entries — area-by-area batches (2026-08-21)
 
 Added to the master list only after identity, coordinates, bed count **and** a dated refundable rate for every relevant window were all sourced from pages actually fetched.

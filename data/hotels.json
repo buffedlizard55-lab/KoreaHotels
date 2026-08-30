@@ -1568,6 +1568,14 @@
         "asOf": "2026-08-22",
         "evidence": "Carries a dated negative from an earlier pass but has NOT been re-tested, and no direct-book channel has been confirmed. Do not read the absence of a rate as 'sold out'.",
         "bookVia": null
+      },
+      "secondarySource": {
+        "platform": "Agoda",
+        "status": "unresolved",
+        "url": null,
+        "checkMethod": "search-index",
+        "lastCheckedUtc": "2026-08-30T03:00:00Z",
+        "note": "2026-08-30: KAYAK provider table shows Agoda.com 8.6/10 (172 reviews) for 'Hwangnamguan Hanok Village' at 1038 Poseok-ro — aggregator row only, no direct agoda URL. Name on Agoda-side may be 'Hwangnamguan' variant. Booking 8.5/113; TripAdvisor 3.9/42. Identity solid (address, hanok, 51 rooms per HotelsCombined). Unresolved pending slug confirmation."
       }
     },
     {
@@ -1678,6 +1686,15 @@
         "freeCancellation": "Free cancellation before November 8, 2026 — free until 1 day; then first night; no-show = total stay",
         "prepayment": "Pay nothing until November 6, 2026",
         "note": "LIVE 2026-08-18T19:16Z. Price $186/$1,254 (was $189/$1,266 at 19:07Z). Still 2-bed. Pools temporarily closed. One-bed room not isolated."
+      },
+      "secondarySource": {
+        "platform": "Agoda",
+        "status": "verified",
+        "url": "https://www.agoda.com/commodore/hotel/gyeongju-si-kr.html",
+        "checkMethod": "search-index",
+        "existenceStatus": "Verified operating property",
+        "lastCheckedUtc": "2026-08-30T03:00:00Z",
+        "note": "Agoda property page in search index 2026-08-30: title 'COMMODORE', 4 stars, 422 Bomun-ro, Bomun-dong, Gyeongju-si — matches record (Agoda slug is just 'commodore'). '280 meters to Gyeongju National Park'; Superior Twin/Quadruple Lake View room families listed; no score shown in snippet. A second slug variant 'commodore-hotel' appears on a /reviews/ page (en-sg locale) — same property. No dated prices captured."
       }
     },
     {
@@ -1788,6 +1805,17 @@
         "freeCancellation": "Free cancellation before November 7, 2026 — free until 2 days; then first night",
         "prepayment": "Pay the property before arrival — first-night prepay within 2 days of arrival",
         "note": "LIVE 2026-08-18T19:16Z. Same $265/$1,764. 4 left. Partner $245/$1,593 pay-in-advance no modifications. Cancel: first night inside 2 days."
+      },
+      "secondarySource": {
+        "platform": "Agoda",
+        "status": "verified",
+        "url": "https://www.agoda.com/lahan-select-gyeongju/reviews/gyeongju-si-kr.html",
+        "agodaRating": 8.9,
+        "reviewCount": 30,
+        "checkMethod": "search-index",
+        "existenceStatus": "Verified operating property",
+        "lastCheckedUtc": "2026-08-30T03:00:00Z",
+        "note": "Agoda page for 'Lahan Select Gyeongju' confirmed in search index 2026-08-30 (reviews subpage surfaced; breadcrumb 'Gyeongju-si Hotels > Lahan Select Gyeongju'). KAYAK provider table: Agoda 8.9/10 (30 reviews) vs Booking 8.4 (177). Address 338 Bomun-ro matches record. No dated prices captured."
       }
     },
     {
@@ -2016,6 +2044,14 @@
         "asOf": "2026-08-22",
         "evidence": "Carries a dated negative from an earlier pass but has NOT been re-tested, and no direct-book channel has been confirmed. Do not read the absence of a rate as 'sold out'.",
         "bookVia": null
+      },
+      "secondarySource": {
+        "platform": "Agoda",
+        "status": "unresolved",
+        "url": null,
+        "checkMethod": "search-index",
+        "lastCheckedUtc": "2026-08-30T03:00:00Z",
+        "note": "2026-08-30: TripAdvisor (GG Hotel, a.k.a. 'Hotel the D.Y', 53 rooms) and Expedia (Gyeongju GG Tourist Hotel, 53 rooms) confirm property operating near Daereungwon/Cheomseongdae — matches record. Agoda appears only as provider label in stale cached deal rows (e.g. $65) — not usable as verification. Slug unknown → unresolved with retry hint: search agoda gyeongju-si-kr hotel pages next round."
       }
     },
     {
@@ -2114,6 +2150,17 @@
         "freeCancellation": "Free cancellation before November 7, 2026 — free until 1 day; then first night",
         "prepayment": "No prepayment needed — pay at the property",
         "note": "LIVE 2026-08-18T19:16Z. Same $99/$594. Page: Cheonan KTX 9.3 mi. 24-hour desk. H1: Shilla Stay Cheonan Asan - Samsung Display City."
+      },
+      "secondarySource": {
+        "platform": "Agoda",
+        "status": "verified",
+        "url": "https://www.agoda.com/downtown/maps/cheonan-si-kr.html",
+        "checkMethod": "search-index",
+        "existenceStatus": "Verified operating property",
+        "lastCheckedUtc": "2026-08-30T03:20:00Z",
+        "note": "Agoda listing confirmed 2026-08-30 via the Downtown-Cheonan-si map page (surfaced in search index): card 'Shilla Stay Cheonan Asan - Samsung Display City' 8.5 Excellent, 5,130 reviews; also named in Agoda's South-Korea special-editions editorial. Record coordinates (36.8257,127.1433) sit at the Jangcheon-dong property, consistent. Property-level URL not surfaced → evidence URL is the listing page. Note Agoda title includes 'Asan - Samsung Display City'. No dated prices captured.",
+        "agodaRating": 8.5,
+        "reviewCount": 5130
       }
     },
     {
@@ -2212,6 +2259,17 @@
         "freeCancellation": "Free cancellation before November 7, 2026 — free until 1 day; then first night",
         "prepayment": "No prepayment needed — pay at the property",
         "note": "LIVE 2026-08-18T19:16Z. Same $68/$408. Page: 2.6 mi from Cheonan Asan Train Station. Breakfast rated 2.5 (1 review)."
+      },
+      "secondarySource": {
+        "platform": "Agoda",
+        "status": "verified",
+        "url": "https://www.agoda.com/ramada-encore-hotel-cheonan/reviews/cheonan-si-kr.html",
+        "checkMethod": "search-index",
+        "existenceStatus": "Verified operating property",
+        "lastCheckedUtc": "2026-08-30T03:20:00Z",
+        "note": "Agoda 'Ramada Encore by Wyndham CheonAn' listing confirmed in search index 2026-08-30 (reviews subpage + city-page card 8.2/739, top hotels with breakfast). Record identity matches (Asan-dong side, near KTX Cheonan-Asan). No dated prices captured.",
+        "agodaRating": 8.2,
+        "reviewCount": 739
       }
     },
     {
@@ -2309,6 +2367,17 @@
         "asOf": "2026-08-22",
         "evidence": "Carries a dated negative from an earlier pass but has NOT been re-tested, and no direct-book channel has been confirmed. Do not read the absence of a rate as 'sold out'.",
         "bookVia": null
+      },
+      "secondarySource": {
+        "platform": "Agoda",
+        "status": "verified",
+        "url": "https://www.agoda.com/city/cheonan-si-kr.html",
+        "checkMethod": "search-index",
+        "existenceStatus": "Verified operating property",
+        "lastCheckedUtc": "2026-08-30T03:20:00Z",
+        "note": "Agoda listing confirmed 2026-08-30 via the Cheonan-si city page (surfaced via en-in locale; canonical URL stored): 'ON City Hotel' 8.1/3,923, tagged '(Korea Quality)'; VISITKOREA corroborates 105 Buldang 4-ro, 159 rooms, opened 2016. Property-level URL not surfaced (no name slug; likely an h-id slug like The Mains) → listing page stored as evidence URL. No dated prices captured.",
+        "agodaRating": 8.1,
+        "reviewCount": 3923
       }
     },
     {
@@ -2394,6 +2463,17 @@
         "freeCancellation": "Free cancellation before November 3, 2026 — free until 5 days; then first night",
         "prepayment": "No prepayment needed — pay at the property",
         "note": "LIVE 2026-08-18T19:16Z. Same $93/$559. Family resort next to Tedin Water Park. Score 7.3. Not a one-bed preference room. No walkable rail."
+      },
+      "secondarySource": {
+        "platform": "Agoda",
+        "status": "verified",
+        "url": "https://www.agoda.com/sono-belle-cheonan/reviews/cheonan-si-kr.html",
+        "checkMethod": "search-index",
+        "existenceStatus": "Verified operating property",
+        "lastCheckedUtc": "2026-08-30T03:20:00Z",
+        "note": "Agoda 'SONO BELLE CHEONAN' confirmed in search index 2026-08-30 (reviews subpage; city-page card 8.6/4,401). KAYAK provider table shows a stale 8.8/21 snapshot — drift noted, not merged. No dated prices captured.",
+        "agodaRating": 8.6,
+        "reviewCount": 4401
       }
     },
     {
@@ -2491,6 +2571,14 @@
         "freeCancellation": "Free cancellation before November 5, 2026 — free until 3 days; WITHIN 3 days the fee is the TOTAL PRICE",
         "prepayment": "Pay nothing until November 3, 2026",
         "note": "LIVE 2026-08-18T19:16Z. Price $64/$386 (was $65/$390). H1 Best Western Asan Hotel. Address 32 Onsaem-ro, Tangjeong-myeon, ASAN. Page: Cheonan Asan Train Station 3.7 mi."
+      },
+      "secondarySource": {
+        "platform": "Agoda",
+        "status": "unresolved",
+        "url": null,
+        "checkMethod": "search-index",
+        "lastCheckedUtc": "2026-08-30T03:20:00Z",
+        "note": "2026-08-30: operating confirmed via Klook/Hotels.com/EasyMyTrip (SureStay Plus by Best Western Asan, 32 Onsaem-ro, Tangjeong-myeon, near Samsung Display Asan 1; Hotels.com 8.6). Klook policy text references Agoda as a billing channel, implying an Agoda listing, but no agoda.com URL surfaced in search. Next-round hint: try Asan city file asan-si-kr.html. Unresolved until a real page is confirmed."
       }
     },
     {
@@ -2589,6 +2677,17 @@
         "freeCancellation": "Free cancellation before November 7, 2026 — free until 1 day; WITHIN 1 day / no-show = TOTAL PRICE",
         "prepayment": "Pay nothing until November 5, 2026",
         "note": "LIVE 2026-08-18T18:46Z. Replaces unsourced $55. Breakfast included. ~10 min walk Government Complex metro. Not KTX-walkable (17-min subway to Daejeon Station). Re-open 2026-08-18T19:16Z: dated Booking page returned empty this fetch. Prior 18:46Z $60/$359 retained. Official Toyoko /00234 re-read: no millimetre bed spec published."
+      },
+      "secondarySource": {
+        "platform": "Agoda",
+        "status": "verified",
+        "url": "https://www.agoda.com/toyoko-inn-daejeon-government-complex/reviews/daejeon-kr.html",
+        "checkMethod": "search-index",
+        "existenceStatus": "Verified operating property",
+        "lastCheckedUtc": "2026-08-30T03:20:00Z",
+        "note": "Agoda 'Toyoko Inn Daejeon Government Complex in front' confirmed in search index 2026-08-30 (reviews subpage + Daejeon city-page card 8.7/3,067, Seo-gu). KAYAK: address 13 Dunsanjung-ro 134beon-gil 35209 — consistent with record coordinates. Legacy stale KAYAK Agoda 9.2/22 snapshot noted, not merged. 'in front' is part of the Agoda listing title (Dunsanjung branch naming). No dated prices captured.",
+        "agodaRating": 8.7,
+        "reviewCount": 3067
       }
     },
     {
@@ -2687,6 +2786,17 @@
         "asOf": "2026-08-22",
         "evidence": "Carries a dated negative from an earlier pass but has NOT been re-tested, and no direct-book channel has been confirmed. Do not read the absence of a rate as 'sold out'.",
         "bookVia": null
+      },
+      "secondarySource": {
+        "platform": "Agoda",
+        "status": "verified",
+        "url": "https://www.agoda.com/city/daejeon-kr.html",
+        "checkMethod": "search-index",
+        "existenceStatus": "Verified operating property",
+        "lastCheckedUtc": "2026-08-30T03:20:00Z",
+        "note": "Agoda listing confirmed 2026-08-30 via the Daejeon city page: 'Ramada by Wyndham Daejeon' 8.8 Excellent / 13,194 reviews, designated Agoda's popular hotel for Daejeon; mentions free hot-spring foot spa behind the hotel. Aggregators: address 127 Gyeryong-ro, Yuseong-gu, 222 rooms — consistent with record. Property-level URL not surfaced → city page stored as evidence URL. No dated prices captured.",
+        "agodaRating": 8.8,
+        "reviewCount": 13194
       }
     },
     {
@@ -2889,6 +2999,14 @@
         "freeCancellation": "Free cancellation before November 5, 2026 — free until 3 days; then first night",
         "prepayment": "Pay nothing until November 3, 2026",
         "note": "LIVE 2026-08-18T19:16Z. Same $39/$231. Breakfast included (rated 6.0). ~820 ft from Jungangro Station (Line 1), not KTX. Score 7.4. 7 left."
+      },
+      "secondarySource": {
+        "platform": "Agoda",
+        "status": "unresolved",
+        "url": null,
+        "checkMethod": "search-index",
+        "lastCheckedUtc": "2026-08-30T03:20:00Z",
+        "note": "2026-08-30: listing almost certainly live — Agoda Daejeon city-page card in the same index batch shows 'Benikea Hotel Daelim' 8.2/3,439 — but no unique property-level URL surfaced, and the city-page evidence URL is already stored for Ramada Daejeon (validator's per-URL uniqueness). Next round: probe agoda.com/benikea-hotel-daelim/hotel/daejeon-kr.html for live confirmation, then upgrade. Aggregator address 50 Daejong-ro 505beon-gil, Jung-gu consistent with record."
       }
     },
     {
@@ -2985,6 +3103,15 @@
         "asOf": "2026-08-22",
         "evidence": "Carries a dated negative from an earlier pass but has NOT been re-tested, and no direct-book channel has been confirmed. Do not read the absence of a rate as 'sold out'.",
         "bookVia": null
+      },
+      "secondarySource": {
+        "platform": "Agoda",
+        "status": "verified",
+        "url": "https://www.agoda.com/travel-guides/south-korea/daejeon/best-hotels-in-daejeon-accommodations-for-business-leisure-travelers/",
+        "checkMethod": "search-index",
+        "existenceStatus": "Verified operating property",
+        "lastCheckedUtc": "2026-08-30T03:20:00Z",
+        "note": "Agoda editorial coverage confirmed 2026-08-30: 'Le Stendal Hotel' described on Agoda's Best-Hotels-in-Daejeon guide (3-star, 14 storeys, between Yuseong Spa and Gapcheon stations, buffet breakfast except Sunday) — matches record incl. the Stendhal/Stendal spelling difference (Agoda uses 'Stendal'). No Agoda score visible in snippet; KAYAK shows Agoda.com as a deal provider ($158 row, stale, not stored). No dated prices captured."
       }
     },
     {
@@ -3066,6 +3193,14 @@
         "asOf": "2026-08-22",
         "evidence": "Carries a dated negative from an earlier pass but has NOT been re-tested, and no direct-book channel has been confirmed. Do not read the absence of a rate as 'sold out'.",
         "bookVia": null
+      },
+      "secondarySource": {
+        "platform": "Agoda",
+        "status": "unresolved",
+        "url": null,
+        "checkMethod": "search-index",
+        "lastCheckedUtc": "2026-08-30T03:20:00Z",
+        "note": "2026-08-30: SISTER-BRANCH TRAP caught — the agoda.com 'brown-dot' page (filed under suwon-si-kr.html!) titles 'Brown Dot Cheonan Seongjeong Branch'. Our record is the Dongnam/Cheonan Station branch (36.8019,127.1474), ~1 km from Seongjeong-dong — different property, so that URL must NOT be attached. Listing for the Dongnam branch not surfaced; unresolved with discovery note."
       }
     },
     {
@@ -3147,6 +3282,17 @@
         "freeCancellation": "Free cancellation before November 6, 2026 — free until 2 days; then first night",
         "prepayment": "Pay nothing until November 4, 2026",
         "note": "LIVE 2026-08-18T19:16Z. Same $45/$272. 2 left. Address 34 Cheongsu 11-ro, Dongnam-gu. Width unpublished. Not KTX-walkable."
+      },
+      "secondarySource": {
+        "platform": "Agoda",
+        "status": "verified",
+        "url": "https://www.agoda.com/cheonan-a1-h78508786/hotel/cheonan-si-kr.html",
+        "checkMethod": "search-index",
+        "existenceStatus": "Verified operating property",
+        "lastCheckedUtc": "2026-08-30T03:20:00Z",
+        "note": "Agoda property page surfaced in search index 2026-08-30 (en-in locale stripped): 'The Mains Hotel', Downtown/Cheonan-si, card 8.4/2,051 (Downtown map variant showed 2,080). Note: slug is an auto id 'cheonan-a1-h78508786' — Agoda id-slug pattern discovered for Cheonan independents. Trip.com corroborates 34 Cheongsu 11-ro, 75 rooms, opened 2019. Avg-price line (USD 53) is an aggregator row, not stored as rate data. No dated prices captured.",
+        "agodaRating": 8.4,
+        "reviewCount": 2051
       }
     },
     {
@@ -3231,6 +3377,17 @@
         "asOf": "2026-08-22",
         "evidence": "Carries a dated negative from an earlier pass but has NOT been re-tested, and no direct-book channel has been confirmed. Do not read the absence of a rate as 'sold out'.",
         "bookVia": null
+      },
+      "secondarySource": {
+        "platform": "Agoda",
+        "status": "verified",
+        "url": "https://www.agoda.com/travel-guides/south-korea/daejeon/daejeon-uncovered-where-to-stay-for-every-traveler/",
+        "checkMethod": "search-index",
+        "existenceStatus": "Verified operating property",
+        "lastCheckedUtc": "2026-08-30T03:20:00Z",
+        "note": "Agoda listing confirmed 2026-08-30: property named on Agoda's own Daejeon travel-guide page (stored as evidence URL); city-page card in same index batch shows 'Hotel Interciti' 8.6/5,060, 4-star. HotelsCombined: 92 Oncheon-ro, Yuseong-gu — consistent with record. Stale TripAdvisor deal rows mentioning Agoda not stored. No dated prices captured.",
+        "agodaRating": 8.6,
+        "reviewCount": 5060
       }
     },
     {
@@ -3310,6 +3467,14 @@
         "freeCancellation": "Free cancellation before November 1, 2026 — free until 7 days; WITHIN 7 days the fee is the TOTAL PRICE",
         "prepayment": "Pay nothing until October 30, 2026",
         "note": "LIVE 2026-08-18T19:16Z. Refundable $41/$248 (was $246). Non-ref $37/$221. H1: 은행 아늑에어 대전역점 Anook Air Hotel Daejeon Station. ~9 min walk to Daejeon Station. Width unpublished."
+      },
+      "secondarySource": {
+        "platform": "Agoda",
+        "status": "unresolved",
+        "url": null,
+        "checkMethod": "search-index",
+        "lastCheckedUtc": "2026-08-30T03:20:00Z",
+        "note": "2026-08-30: SISTER-BRANCH TRAP caught — Agoda carries 'Anook Air Hotel Daejeon Munchang Branch' (slug daejeon-munchang-meadow-house, 7.9/153, 28 Munchang-ro 94beon-gil; page text itself references 'Aank Air' legacy name — brand rebranded Aank→Anook). Our record is Aank Air Hotel *Daejeon Station* (36.3310,127.4264), ~1 km away — likely a different branch; Munchang URL must NOT be attached. No page found for our branch → unresolved with rebrand + branch warning."
       }
     },
     {
@@ -5179,6 +5344,14 @@
         "freeCancellation": "Free cancellation before November 6, 2026 — free until 3 days; WITHIN 3 days / no-show = TOTAL PRICE",
         "prepayment": "Pay the property before arrival — total price prepaid at any time",
         "note": "LIVE 2026-08-18T19:16Z. Same $82/$491. Score 6.6/10. Must select the 1-full option. Partner $65/$389 pay-in-advance. Harsh total-stay prepay."
+      },
+      "secondarySource": {
+        "platform": "Agoda",
+        "status": "unresolved",
+        "url": null,
+        "checkMethod": "search-index",
+        "lastCheckedUtc": "2026-08-30T03:00:00Z",
+        "note": "2026-08-30: KAYAK provider table lists Agoda.com 7.2/10 (13 reviews) for Gyeongju Kolon Hotel (289-17 Bulguk-ro, near Bulguksa) — aggregator score row only, no direct agoda.com URL in results. Booking 6.9 (3). Operating confirmed by multiple 2026-dated pages. Unresolved pending slug discovery under gyeongju-si-kr.html."
       }
     },
     {
@@ -5265,6 +5438,14 @@
         "freeCancellation": "Free cancellation before November 6, 2026 — free until 3 days; WITHIN 3 days / no-show = TOTAL PRICE",
         "prepayment": "Pay the property before arrival — total price prepaid within 3 days of arrival",
         "note": "LIVE 2026-08-18T19:16Z. Same $125/$752. Score 7.1/10. 24-hour desk. Not a western one-bed."
+      },
+      "secondarySource": {
+        "platform": "Agoda",
+        "status": "unresolved",
+        "url": null,
+        "checkMethod": "search-index",
+        "lastCheckedUtc": "2026-08-30T03:00:00Z",
+        "note": "2026-08-30 searches: Booking.com (6.6/103), VISITKOREA and TripAdvisor pages found; no direct Agoda listing surfaced for The-K Hotel Gyeongju (45 Expo-ro). Google Hotels 'similar hotels' panel associates an Agoda label with the property. Slug still unknown now that the gyeongju-si-kr.html city file is known — retry next round."
       }
     },
     {
@@ -5352,6 +5533,14 @@
         "freeCancellation": "Free cancellation before November 2, 2026 — free until 7 days; then first night",
         "prepayment": "Pay nothing until October 31, 2026",
         "note": "LIVE 2026-08-18T19:16Z. Price dropped $139 → $138 ($836 → $827). PET HOTEL. Breakfast rated 2.5/10 (1 review). 2 left."
+      },
+      "secondarySource": {
+        "platform": "Agoda",
+        "status": "unresolved",
+        "url": null,
+        "checkMethod": "search-index",
+        "lastCheckedUtc": "2026-08-30T03:00:00Z",
+        "note": "2026-08-30: KAYAK/HotelsCombined show Kinock (280-12 Bomun-ro) with Agoda.com as a deal provider ($96-168 rows, Agoda 9.3/1 review) — deal rows are never stored as data per repo rule, and no direct agoda.com URL appeared in results. Aggregator merges 'Kinock' with legacy 'The Suites Hotel Gyeongju' page (kayak id 381384) — identity note. Listing almost certainly exists under gyeongju-si-kr.html; slug unknown → unresolved."
       }
     },
     {
@@ -5438,6 +5627,17 @@
         "freeCancellation": "Free cancellation before November 6, 2026 — free until 3 days; WITHIN 3 days / no-show = TOTAL PRICE",
         "prepayment": "Pay nothing until November 4, 2026",
         "note": "LIVE 2026-08-18T19:16Z. Isolated one-bed Deluxe Double $83/$556 (same price as prior 2-bed Twin capture). 2 left. 24-hour desk. Pool temporarily closed."
+      },
+      "secondarySource": {
+        "platform": "Agoda",
+        "status": "verified",
+        "url": "https://www.agoda.com/benikea-swiss-rosen-hotel/reviews/gyeongju-si-kr.html",
+        "agodaRating": 8.1,
+        "reviewCount": 45,
+        "checkMethod": "search-index",
+        "existenceStatus": "Verified operating property",
+        "lastCheckedUtc": "2026-08-30T03:00:00Z",
+        "note": "Agoda 'Benikea Swiss Rosen Hotel' listing confirmed in search index 2026-08-30 (en-ie reviews page; breadcrumb Gyeongju-si). KAYAK provider table: Agoda 8.1/10 (45 reviews) vs Booking 7.1-7.7 (61-78). Located 465-37 Bomun-ro, Sinpyeong-dong — matches record. Note: Agoda lists under 'Benikea Swiss Rosen Hotel' (no 'Gyeongju' in title). No dated prices captured."
       }
     },
     {
@@ -5524,6 +5724,15 @@
         "freeCancellation": "Free cancellation before November 6, 2026 — free until 3 days; WITHIN 3 days / no-show = TOTAL PRICE",
         "prepayment": "Pay nothing until November 4, 2026",
         "note": "LIVE 2026-08-18T19:16Z. Same $81/$484 breakfast included. 2 left. ~1 mi Gyeongju Station (not KTX). Adults-only."
+      },
+      "secondarySource": {
+        "platform": "Agoda",
+        "status": "verified",
+        "url": "https://www.agoda.com/rivertain-hotel-gyeongju/reviews/gyeongju-si-kr.html",
+        "checkMethod": "search-index",
+        "existenceStatus": "Verified operating property",
+        "lastCheckedUtc": "2026-08-30T03:00:00Z",
+        "note": "Agoda 'Rivertain Hotel Gyeongju' listing confirmed in search index 2026-08-30 (reviews page indexed 2024-11, breadcrumb Gyeongju-si Hotels). Also named on Agoda's own Gyeongju-si luxury travel guide page. Address 23 Taejong-ro 685beon-gil per Google Hotels — matches record. No score or dated prices captured from snippets."
       }
     },
     {
@@ -5868,6 +6077,15 @@
         "asOf": "2026-08-22",
         "evidence": "Family-resort inventory; the 2026-08-18 dated check found no sellable Booking row. Book SONO direct.",
         "bookVia": null
+      },
+      "secondarySource": {
+        "platform": "Agoda",
+        "status": "verified",
+        "url": "https://www.agoda.com/sono-belle-gyeongju/reviews/gyeongju-si-kr.html",
+        "checkMethod": "search-index",
+        "existenceStatus": "Verified operating property",
+        "lastCheckedUtc": "2026-08-30T03:00:00Z",
+        "note": "Agoda listing confirmed in search index 2026-08-30: page title/breadcrumb 'Sono Calm Gyeongju' but URL slug retains 'sono-belle-gyeongju' — REBRAND RESIDUE flag: property renamed Sono Belle→Sono Calm (Google Hotels shows 4-star at 402-12 Bomun-ro, 4.0/5,749 aggregator score). Agoda review snippets from Nov 2025 guests (8.8/9.6 scores visible). Address Sinpyeong-dong Bomun-ro matches record. No dated prices captured."
       }
     },
     {
@@ -5954,6 +6172,17 @@
         "freeCancellation": "Free cancellation before November 2, 2026 — free until 7 days; then first night; no-show = total stay",
         "prepayment": "No prepayment needed — pay at the property",
         "note": "LIVE 2026-08-18T19:16Z. Same $160/$957 breakfast included. 2-bed apartment."
+      },
+      "secondarySource": {
+        "platform": "Agoda",
+        "status": "verified",
+        "url": "https://www.agoda.com/kensington-resort-gyeongju/hotel/gyeongju-si-kr.html",
+        "agodaRating": 7.6,
+        "reviewCount": 26,
+        "checkMethod": "search-index",
+        "existenceStatus": "Verified operating property",
+        "lastCheckedUtc": "2026-08-30T03:00:00Z",
+        "note": "Agoda property page surfaced in search index 2026-08-30 (page content in result snippet): 'Kensington Resort Gyeongju', 4 stars, 182-29 Bomun-ro, Bomun-dong, 38116 — matches record. Page text shows overall 7.6 and location 8.2; HotelsCombined/KAYAK provider tables show Agoda 8/10 (26 reviews, rounding) vs Booking 8.4 (23-24). Discovery note: Agoda's Gyeongju city file is gyeongju-si-kr.html — earlier rounds' gyeongju-kr.html guesses were structurally doomed. No dated prices captured."
       }
     },
     {

@@ -344,6 +344,115 @@ Kept completely separate from Table A and Table B. Capture dates are shown per r
 
 ---
 
+## 🧭 Round 15 — dual-source links (Booking.com + Agoda) + 20 new entries (2026-08-30)
+
+This round did three things: (1) every link in the UI now names the site it opens, (2) Agoda was added as a **secondary official verified source** with a per-record status column, and (3) **20 new records** were added after line-by-line identity verification. The page-fetch tool was down for the entire session, so **no dated rate rows were captured in this round** — every new record says exactly that in `distributionStatus` / `priceNote`, and index "from $X" figures (which are for *upcoming* dates, not our stay windows) were deliberately **not** stored as plan pricing. A blank means not verified.
+
+**Agoda secondary-source schema** (enforced by `validate.py` and audit rule 13 in `tools/audit_records.py`): `secondarySource.platform = "Agoda"`, `status ∈ {verified, not-found, unresolved}`, unique `agoda.com` URL for `verified`, and a dated `lastCheckedUtc` + `note` for every status — `not-found`/`unresolved` must **not** carry a URL. `unresolved` = an Agoda listing is *known to exist* (aggregator evidence) but the URL could not be surfaced through the search index; it flags for manual lookup. 46 records carry statuses now: **19 verified links, 8 not-found, 19 unresolved** (recounted after Round 15b: 19 / 7 / 20); `build_link_checklist.py` regenerates the manual-review sheet for all 181 records.
+
+| # | id | City | Identity verified from | Agoda status |
+|---|---|---|---|---|
+| 1 | seoul-signiel | Seoul | Booking index + Agoda property page (300 Olympic-ro match) | **verified** (property page, locale-stripped) |
+| 2 | seoul-lotte-world | Seoul | Booking index (240 Olympic-ro, hasMap coords) | unresolved (KAYAK cites Agoda 9.3/306) |
+| 3 | seoul-classic500 | Seoul | Booking index (90 Neungdong-ro — **not Yeouido**, queue note corrected) | unresolved ($140 Agoda deal line via HotelsCombined) |
+| 4 | seoul-tmark-myeongdong | Seoul | Booking index; **flagged “not taking reservations”** | not-found in index round |
+| 5 | seoul-crown-park-myeongdong | Seoul | Booking index (19 Namdaemun-ro 7-gil) | unresolved (Google/TA show Agoda rates) |
+| 6 | seoul-toyoko-gangnam | Seoul | Booking index (323 Gangnam-daero) | unresolved (Agoda 8.8/129 via KAYAK) |
+| 7 | seoul-bw-premier-gangnam | Seoul | Booking index + official site (same address, phone) | **verified** (reviews page, as-indexed) |
+| 8 | seoul-muststay-myeongdong | Seoul | Booking index (`seoul-backpackers` legacy slug — flagged) | unresolved (Agoda 6.4/171) |
+| 9 | busan-hound-premier-nampo | Busan | Booking index (35.099129/129.025363; phone+82 51 254 0702) | unresolved (Agoda 8.9/337) |
+| 10 | busan-toyoko-seomyeon | Busan | Booking index (39 Seojeon-ro) | unresolved |
+| 11 | busan-shilla-seobusan | Busan | Booking index + official shillahotels site (295 rms, opened 2021-04-16) | not-found in index round |
+| 12 | busan-benikea-haeundae | Busan | Booking index + room-row bed labels | unresolved (Agoda 8.5/156) |
+| 13 | busan-havenue-gwangalli | Busan | Booking index (29 Millaksubyeon-ro) — identity minefield spelled out | unresolved (Agoda sibling at a *different address* — not merged) |
+| 14 | busan-coolest-songjeong | Busan | Booking index; **flagged “not taking reservations”** | not-found in index round |
+| 15 | busan-grabocean-songdo | Busan | Booking index at legacy slug `busan-songdo-hotel` (mid-rebrand — flagged) | not-found in index round |
+| 16 | daejeon-hotel-onoma | Daejeon | Booking index (1 Expo-ro) — coord/postal divergences flagged | not-found in index round |
+| 17 | daejeon-skypark-1 | Daejeon | Booking index (161 Techno jungang-ro) | not-found in index round |
+| 18 | daejeon-hotel-icc | Daejeon | Booking index (55 Expo-ro 123beon-gil); 6.4–7.9 score spread recorded | unresolved |
+| 19 | cheonan-jtop | Cheonan | **Agoda property page is the primary source** — no Booking listing found | verified (same page) |
+| 20 | suwon-hotel-biz | Suwon | Booking landmark/reviews pages (tiny review base flagged) | **verified** (property page) |
+
+**🚩 Irregularities this round surfaced (all recorded in-record via `verification.note`, never silently fixed):**
+- **A candidate was eliminated by being closed**: Millennium Hilton Busan appears *sellable-looking* in Booking's stale index, but Wikipedia/NamuWiki document a 2022-12-31 closure and demolition. Never trust an OTA index alone for operating status — every new entry was checked against this trap.
+- **The seoul-westin-parnas URL (`coex-intercontinental-seoul`) currently serves “InterContinental Seoul COEX, an IHG Hotel”** with fresh snapshots (8.6/1,380, from $175). The Westin record (captured from that slug 2026-08-19, which the repo notes was the post-rebrand state) needs a human to re-confirm *which brand page produced which numbers* before booking. No new record was created for the IC listing — same slug = same page = would double-count.
+- **Booking index staleness is systematic**: review counts and scores for the same page differed across locales captured the same day (e.g. Lotte Hotel World 8.8/1,352 vs 8.5/760; Hotel ICC 6.4–7.9; H Avenue 8.5/263 vs 7.7/368). All variants were recorded; none merged.
+- **Rebrands in flight**: Hilton Busan → Ananti at Busan Cove (Agoda keeps the old slug `ananti-hilton-busan`); Busan Songdo Hotel → Grab The Ocean Songdo (Booking keeps the old slug); “ibis budget Ambassador Busan Haeundae” shows a third-party 2024 closure claim and an aggregator rebrand (“Ambassador Busan Haeundae”) while the repo's 2026-08-10 Accor capture shows it operating — conflict left open for manual review.
+- **H-Avenue / Gwangalli minefield persists**: Booking “Gwangalli branch” (29 Millaksubyeon-ro), Booking “H Avenue Gwanganri Beach”, Agoda “Busan Gwangalli Beach H Avenue” (42 Gwanganhaebyeon-ro 278beon-gil, ~90 m apart) — recorded with an explicit no-merge note; the Agoda link was *not* copied onto this record despite being the same brand name.
+- **Shilla Stay “Seobusan” vs “-Noksan”** turned out to be one property under a documented rename chain (hotel.com.au lists four name eras) — earlier notes calling them siblings were corrected in-record.
+- **Slug oddities kept as flags**: `hound-bupyeong` (page is in Jung-gu/Nampo), `h-avnue` (typo), `skypark-daejeoni` (trailing Roman Ⅰ), `seoul-backpackers` (now Must Stay Myeongdong).
+- **Classic 500** carries Booking's standing “breakfast unavailable since 2023-03-01” notice; **Toyoko Inn** free-breakfast and Crown Park floor-7 laundry claims are guest/aggregator-sourced and stay unconfirmed (laundry flag false until a facilities list is fetched).
+
+**Gaps, said plainly:** the Agoda URL hunt succeeded for 15/26 existing Busan records and 4/20 new ones — for smaller properties the search index simply does not surface Agoda pages, and guessing URLs is forbidden by this repo's rules, so those are `unresolved` with manual-review notes. Gyeongju gained 0 new entries this round: the candidates probed (Flamingo Resort & Villa, “Hotel May”, e-Land) are not in Booking's index under those names and have no verifiable Agoda page — **not added, because unverifiable is not usable**. The other 115 pre-existing records stay in `validate.py`'s queue until their Agoda check is run.
+
+---
+
+## 🧭 Round 15b — live dated fetches resume: captures, rebrand, and status corrections (fetched 2026-08-30 UTC)
+
+The page-fetch tool is back up. This addendum applies **dated live fetches** (Booking.com property pages with our stay windows + Agoda property pages, session 2026-08-30 ≈01:30–01:48 UTC) to the records that were written blind in Round 15. Everything below was read off fetched pages; anything not visible in a captured chunk stays "not captured" (see the truncation caveats inline). Patch provenance: `tools/apply_fetches_2026-08-30b.py`.
+
+- **Tmark Grand Myeongdong → voco Seoul Myeongdong by IHG (rebrand live-confirmed).** The Booking URL 301-redirects to `/hotel/kr/voco-seoul-myeongdong.html`, and the fetched Agoda page (canonical old slug `tmark-grand-hotel-myeongdong_12`) carries the new title. The record was rewritten: dated rate table captured (Nov 1–9, 2 adults, USD): **Deluxe King w/ Mountain View, 1 king, attached bath — $340/night, $2,719 total, refundable, free cancellation before 2026-10-02 (inside window: first-night fee), pay at property, 10% TAX excluded**; sibling plan $330/$2,637 non-refundable pay-online; breakfast plans $376 and $401 exist but their room names were above the capture cut-off, so they are quoted without attribution. Agoda page fetched → `verified` (8.9/10 · 2,582 reviews, "Newly renovated 2025"). Flags kept: the 2026-08-30 *index* copy still said "not taking reservations" and showed the old score 8.6/839 — **a snapshot cannot prove sale-status**; and the address spelling/postal differ between sites (Booking "Toegye-ro … 04625" vs Agoda "Taegye-ro … 04634") — recorded, not "corrected".
+- **Signiel Seoul dated capture + Agoda fetch**: Premier Suite Double Scenic Bath, Nov 15–22 — **$1,162/night, $9,026 total (7 nights), buffet breakfast included, free cancellation before 2026-11-13 (inside window: first-night fee), no prepayment, Included 10% service charge / Excluded 10% TAX, "We have 3 left"**. Check-in 15:00 / check-out 11:00 now Booking-confirmed (was KAYAK-sourced). Agoda page fetched live (5★ govt-verified, 9.2/7,615) → `verified` + `property-page-fetched`. Score sets diverge (Booking live 9.3/753 vs stored 9.3/6,360 vs Agoda 9.2/7,615) — all recorded, none overwritten.
+- **Cheaper captures with planning-grade detail**: Lotte Hotel World (record renamed from legacy "Lotte Hotel Seoul"): Lake View Queen $258/night avg → **$2,294**/8 nights (7% bonus savings, refundable, pay at property; $347/$3,082 with breakfast). Nampo Hound Premier: $68 → **$409**/6 nights, queen + private bath → **fits upgraded to true**, with a flagged harsh ladder (cancel 1 day before = **total** price; payment due 3 days *before* check-in). Benikea Haeundae: $77 → **$464**/6 nights — bed is "1 full", so fits stays false pending a queen/king row.
+- **Sold-out / no-availability states are now *proven*, not suspected**: Toyoko Inn Busan Seomyeon's own stored URL renders a live page whose every row reads "Not available on our site for your dates" (+ a `refundableRate` with `available: false` recording the finding); Toyoko Inn Seoul Gangnam's dated page is live but shows no rooms at all for Nov 1–9 (house rules, sub-scores, private parking and laundry/pet policies captured). The Coolest Songjeong's dated URL 301s to the Busan *search results* — Booking non-sellability confirmed by fetch, not just by index copy.
+- **Status accounting (post-15b)**: 19 verified / **7 not-found** / **20 unresolved** / 135 queued = 181. Changes: voco → verified (fetched), BW Premier Gangnam → **downgraded to unresolved** because its previously stored Agoda deep link (`reviews-page-24`) now 302s to pagenotfound — *`verified` requires the exact stored URL to fetch live*; J-TOP Cheonan and Biz Suwon hardened to `property-page-fetched` (J-TOP gains **laundry** + 3★ from the page, with the 8.2/451 → 8.7/862 one-day drift flagged; Biz Suwon's suspicious single-source "swimming pool" amenity flagged but not promoted).
+- **Corrections recorded rather than silently fixed**: a *guessed* slug for the Busan Toyoko (`toyoko-inn-busan-seomyeon`) 404s while the *stored* slug works — the 404 proves nothing about the property, and the earlier "exists" note stands corrected with dates; likewise a guessed `crown-park-seoul` Booking slug 301s to a Seoul search page with `closed_msg`, which is Booking's generic unmatched-slug redirect and was explicitly **not** treated as closure evidence.
+- **Remaining queue**: Gyeongju (15) + most Seoul (101) + Cheonan/Daejeon/Suwon leftovers (19) still lack a dated Agoda check — that is the documented 135-record queue, tracked in the regenerated checklist (`⚑ agoda-unchecked`), not an omission. Records still without dated prices say "Rates not captured" with the *proven* reason.
+- **Known-by-design audit output**: `validate.py` 137 errors = the 135 queued secondarySource blocks + 2 pre-existing bed-label records; two "discounted total" notes (Lotte, Signiel) are per-night avg (tax-excluded) vs totals including the 10% service charge — both explained in-record.
+
+## 🧭 Round 16 — Agoda queue grind, part 1 (fetched 2026-08-30 ≈02:00–02:15 UTC)
+
+Standing follow-up to Round 15b: work down the 135-record Agoda `secondarySource` queue. This pass **applied statuses to 23 records** — 15 upgraded to `verified` via LIVE property-page fetches, 8 documented `unresolved` with dated evidence of exactly what was probed. Queue: 135 → **112** remaining (Seoul ~101 minus this pass, Gyeongju 15, Cheonan 6, Daejeon 7). Ledger now: **34 verified / 7 not-found / 27 unresolved** / 112 queued = 181; `validate.py` 137 → 114 errors (= queue + 2 pre-existing bed-label records — every processed record cleared its error line).
+
+- **15 verified (property-page-fetched, canonical stored)**: L7 Myeongdong 8.9/15,019 · Nine Tree Insadong 8.9/26,598 (legacy slug, new title) · Nine Tree Myeongdong 2 **8.8/31,112** (sibling-slugs auto-redirect here — MD1 has no distinct Agoda page, flagged) · ibis Styles Myeongdong 8.3/6,861 · ibis Ambassador Myeongdong 8.6/10,525 · Four Seasons 9.3/2,166 · Fairmont 8.9/2,007 (free parking, GMP 12.2 km) · Westin Josun **9.1/4,977** at 106 Sogong-ro — address-level hardening of the Westin≠IC-COEX flag · **LOTTE HOTEL SEOUL — Agoda title now 'THE GRAND LOTTE SEOUL - Formerly Lotte Hotel Seoul'** (rebrand SIGNAL flagged; rename only if the Booking side confirms) · Somerset Palace 8.9/3,119 (free parking, in-unit laundry in suites) · Aloft Myeongdong 9.0/3,302 · Shilla Stay Gwanghwamun 8.5/17,729 · Moxy Myeongdong 9.1/2,022 + **Laundry** in the facilities line (record hasOnSiteLaundry→true) · Le Méridien Myeongdong 9.1/1,651 (still 'Le Méridien' on Agoda — no rename evidence) · Courtyard Myeongdong 8.8/2,975 (canonical = legacy `courtyard-seoul-namdaemun_8`).
+- **8 honest `unresolved`s**: ibis Ambassador Insadong (2 guessed slugs 404), L'Escape (2 slugs 404; NOT conflated with Le Méridien — repo treats them as distinct properties per addresses), Nine Tree Myeongdong 1 (three slugs all soft-redirect to the MD2 page), and the **entire Suwon cluster** (Novotel/ibis/FourPoints/Courtyard/Ramada — every guessed slug 404'd; Agoda's own search is JS-rendered so slugs can't be scraped; existence remains evidenced by KAYAK/Google deal lines *without* storing any price from them — the Four Points Premier-king $150–165 row seen in Google's panel is NOT captured, per policy).
+- **Method notes for future passes**: plain `https://www.agoda.com/{slug}/hotel/{city}-kr.html` URLs are reliable; guessed slugs either land, 301 to canonical (stored canonical), or clean-404 — each outcome is written dated into the record. Chain-name slug mirroring works well for Seoul (worked 8×), poorly for Suwon (0/6). Never attribute an auto-redirected sibling page to the record being probed (Nine Tree trap caught in-act).
+- **Known-by-design audit deltas**: two records carry Agoda-side rebrand *signals* only (LOTTE HOTEL SEOUL title, Four Seasons legacy postcode on-page); no record renamed on aggregator evidence alone.
+
+
+## 🧭 Round 17 (2026-08-30, partial — transport-limited)
+
+- Continued the Agoda queue grind. **+1 verified**: LOTTE City Hotel Daejeon (live property-page fetch: 8.8/10, 12,539 reviews, DCC-facing, free parking — the first Daejeon Agoda confirmation). **Hilton Gyeongju**: the obvious slug `hilton-gyeongju` 404s on Agoda; per the standing rule a guessed-slug 404 never proves absence, so the record is marked **unresolved with the dated probe note**, not not-found.
+- Schema hygiene: two blocks had been written with a stray `site` key; every `secondarySource` block now uses the canonical `platform: "Agoda"` key (validator enforces it).
+- **Why partial**: the fetch proxy degraded to ~30% usable responses mid-round (corrupt SignatureDoesNotMatch artifacts). Rather than "verifying" or "unresolving" records on transport noise, the round was halted with everything committed at a consistent state.
+- Ledger after this round: 71/181 records carry Agoda status blocks — **35 verified / 7 not-found / 29 unresolved**; **110 still queued**. `validate.py` reports exactly 110 issues = the queue; checklist rebuilt.
+
+## 🧭 Round 18 — search-index grind: Gyeongju, Cheonan, Daejeon (2026-08-30)
+
+- `fetch_page` stayed broken all round (corrupt proxy artifacts), so this round ran on **search-index evidence** — real Agoda page content surfaced inside search results — which is the already-used `checkMethod: "search-index"` tier. Live-fetch hardening remains a follow-up for these blocks.
+- **Structural discovery (why past guesses failed):** Agoda files regional cities as `<city>-si-kr.html` — Gyeongju = `gyeongju-si-kr.html`, Cheonan = `cheonan-si-kr.html` (Suwon = `suwon-si-kr.html`; that's why 6 of 7 Suwon probes died in Round 16), metros stay bare (`daejeon-kr.html`, `seoul-kr.html`). Some independents get auto **h-id slugs** (The Mains = `cheonan-a1-h78508786`).
+- **+15 verified, +6 unresolved-with-evidence (21 records, 110 → 86 queued):** Gyeongju 6 (Kensington 7.6, Commodore, Lahan 8.9/30, Swiss Rosen 8.1/45, Rivertain, Sono Calm — Agoda slug still `sono-belle-gyeongju`, rebrand residue flagged); Cheonan 5 (Shilla Stay 8.5/5,130, Ramada Encore 8.2/739, Sono Belle 8.6/4,401, ON City 8.1/3,923, The Mains 8.4/2,051); Daejeon 4 (Toyoko Gov-Complex 8.7/3,067, Ramada 8.8/13,194 — Agoda's Daejeon popular hotel, Interciti 8.6/5,060, Le Stendal; LOTTE City was Round 17). Where only a city/guide page carried a per-property card, that page is stored as the evidence URL with the nature of it explained in the note.
+- **Two sister-branch traps caught by coordinate cross-check, not attached:** `brown-dot` (Agoda page = Cheonan **Seongjeong** branch; record = Dongnam/Cheonan Station) and **Anook** Air Munchang-branch page vs our record Aank Air **Daejeon Station** (brand rebranded Aank → Anook — flag). `benikea-daelim` shows 8.2/3,439 on the city card but no unique URL was free → deliberately left unresolved with a next-round probe hint.
+- Unresolved-with-evidence this round: The-K, Kinock, GG Hotel, Kolon, Hwangnamkwan (Gyeongju slug still unknown), Brown Dot, SureStay Plus Asan, Aank Air, Benikea Daelim.
+- Ledger: 95/181 blocks — **50 verified / 7 not-found / 38 unresolved**; 86 queued (recount: blocks = 181 − queue) (Gyeongju hanok trio + Seoul 83 minus … Seoul remains the big tail).
+
+## 🧭 Round 19 — Seoul head-start on the search-index grind (2026-08-30)
+
+- fetch proxy still down; continued via search-index evidence. **+4 verified**: Four Points Josun Seoul Station (Agoda 8.6/4,453 — slug alias `...-seoul-namsan`, a sibling /reviews/ page uses the josun name), Sotetsu Fresa Inn Seoul Myeong-dong (reviews page live; 9.0/5,835 stale-snapshot pair flagged), Shilla Stay Seocho Gangnam Station (property page: 305 rooms, opened 2017) and Gyeongju Wiyeonjae (first Gyeongju hanok on Agoda: 9.2/7, location 10.0).
+- **+6 unresolved-with-evidence** (each with next-round slug probes): Four Points Myeongdong, THE PLAZA Autograph, Stanford Myeongdong, Novotel Ambassador Gangnam, HanokInn, Nadul Hanok.
+- Traps documented in-record, not attached: Stanford Myeongdong ≠ "Stanford Hotel Seoul" (Mapo); Skypark Myeongdong **I** page found but queue holds only branches 2/3; Sotetsu Fresa ≠ Splaisir; Four Points Seoul Station slug must not be copied to the Myeongdong sister.
+- Ledger: 102/181 blocks — **54 verified / 7 not-found / 41 unresolved**; **76 queued** (73 Seoul, 2 Gyeongju hanoks … Seoul tail + Gyeongju trio minus Wiyeonjae).
+
+### Round 19 addendum — Seoul wave 2 (same day)
+
+- +2 verified via Agoda guide-page evidence URLs (JW Marriott Dongdaemun, Park Hyatt Seoul); +9 unresolved-with-evidence, several now carrying **next-round probes**: L7 Gangnam has a known Agoda internal hotel id (hid=2961984) from a partnersearch link; Henn na Myeongdong's aggregator history traces to the legacy 'Click Hotel' page; GLAD Mapo/COEX, Hotel PJ, Grand InterContinental Parnas, RYSE, Novotel DDW and Mercure Hongdae all have dated Agoda-row signals but no attachable page URL yet.
+- Ledger: 113/181 blocks — **56 verified / 7 not-found / 53 unresolved**; **65 queued**. Sister-block caution recorded for the 130–144 Yanghwa-ro cluster (RYSE vs Mercure) and the three-way L7 chain.
+
+## 🧭 Round 20 — closing the queue: all 181 records carry an explicit Agoda status (2026-08-30)
+
+Seven search waves took the queue from 59 to **0**. Final ledger: **181/181 blocks = 91 verified (each backed by its own unique agoda.com evidence URL, enforced by the validator's uniqueness rule) / 7 not-found (delisted or never-listed, each with a dated note) / 83 unresolved-with-evidence** — every unresolved record carries cross-checked identity (official site / VISITSEOUL / Accor / TripAdvisor ids), the Agoda-side claims seen (always labeled stale-snapshot or claim-only, never stored as fact), and a probe slug for the next round. `validate.py` now reports 0 issues and doubles as the queue counter; the checklist reads `181 lines; agoda verified=91 not-found=7 unchecked=0`.
+
+Highlights and flags from this round (all recorded in per-record notes):
+- **Legacy-slug rebrand recoveries**: Amid found under `center-mark-hotel` (8.9/8,128), Sejong Hotel under `sejong-hotel` (old "Sejong Plaza" name, 8.1/11,421), The Ambassador Seoul-Pullman under `grand-ambassador-seoul` (8.8/3,111) — Agoda keeps pre-rebrand slugs; each note documents the renaming so the mapping isn't mistaken for a hallucination.
+- **Verified via Agoda's own travel guides** (guide-tier evidence, labeled as such): L7 Hongdae, Skypark Myeongdong III, Splaisir, Amanti, Solaria, Grand Hotel Myeongdong, Hotel Naru MGallery, Shilla Stay Myeongdong (2025 listing), orakai Daehakro/Insadong.
+- **Property-facts captures**: Hamilton Euljiro (opened 1967, renovated 2017, 241 rooms); Ena Suite (2018, 23 floors, 180 rooms, license 112-87-24053); Imperial Palace (2012, 9.0/1,186); LOTTE City Mapo (2009, 284 rooms — the page's own 4★-badge-vs-"3-star prose" discrepancy kept as-found for human review); Frasers Namdaemun/Central verified as distinct properties.
+- **DISCREPANCY flags preserved, not overwritten**: Seoul Garden Hotel 372 vs 398 room counts across two Agoda-sourced rows; Hotel Vert score chaos (TripAdvisor 2.0 vs Klook 4.6 vs mirror 8.7); Dormy Gangnam "21,671 reviews" recorded as blog claim only.
+- **Opening-window finding**: Mercure Ambassador Seoul Dongdaemun is "(Opening July 2026)" per Accor — absence from Agoda is expected, not absence of the hotel; re-check after sales ramp.
+- **Sister/look-alike traps hit and dodged** (each documented): Toyoko-inn triple at Dongdaemun, Novotel Suites vs Ambassador vs Grand Mercure (Dragon City 3-brand), Designers/Designer cluster ×5, Nine Tree Parnas set, Moxy Insadong ≠ Myeongdong, voco Gangnam ≠ Myeongdong, Prince Seoul ×3, Skypark MD I/II/III + DDM I, Sotetsu Fresa ≠ Splaisir, SHILLA STAY five-way (Yeoksam record kept off the SEOCHO page), Henn-na → Travelodge → KLAVEN rebrand chain, Migliore Dongdaemun ≠ Myeongdong.
+- **No dated prices stored anywhere in Round 20.** Agoda/KAYAK/momondo deal rows and "as low as $X" teasers were seen and deliberately not recorded; per-record notes end with the standard "No dated prices captured."
+
+Standing limitation (unchanged since Round 16): the `fetch_page` proxy was down all round, so every verification is a search-index snapshot — the audit prints "verified only via search index — fetch the page to harden" repo-wide; a fetch round remains the recommended follow-up.
+
 ## 🆕 New entries — area-by-area batches (2026-08-21)
 
 Added to the master list only after identity, coordinates, bed count **and** a dated refundable rate for every relevant window were all sourced from pages actually fetched.
@@ -704,11 +813,11 @@ Read the source links, trade-offs, and exact booking workflow in [`guide/arrival
 Open [`index.html`](index.html) in a browser to use the planner. The top of the page is a **verified findings dashboard** (coverage table, charts, recommendations, and sample price totals) built only from UTC-stamped quotes. It is intentionally simple:
 
 - **Arrival night** — five source-checked late-arrival options, evidence links, trade-offs, and a copyable message to send the hotel.
-- **Expanded city lists** — browse 101 Seoul, 15 Gyeongju, 26 Busan, 7 Cheonan, 7 Daejeon, and 5 Suwon hotels. Seoul has two date tables (planned Nov 1–9 vs alternate Nov 15–22) in [`guide/verification-seoul-dual-window-nov1-and-nov15-2026.md`](guide/verification-seoul-dual-window-nov1-and-nov15-2026.md); the latest strictly verified Dongdaemun additions and held-out candidates are in [`guide/verification-seoul-dongdaemun-batch5-2026-08-19.md`](guide/verification-seoul-dongdaemun-batch5-2026-08-19.md). The Busan **Nov 9–15** pass is [`guide/verification-busan-nov9-15-2026-08-21.md`](guide/verification-busan-nov9-15-2026-08-21.md).
+- **Expanded city lists** — browse 109 Seoul, 15 Gyeongju, 33 Busan, 8 Cheonan, 10 Daejeon, and 6 Suwon hotels. Every link on a card is labeled with the site it opens (Booking.com vs Agoda). The full manual-review sheet for all 181 records is [`guide/verification-links-2026-08-30.md`](guide/verification-links-2026-08-30.md). Seoul has two date tables (planned Nov 1–9 vs alternate Nov 15–22) in [`guide/verification-seoul-dual-window-nov1-and-nov15-2026.md`](guide/verification-seoul-dual-window-nov1-and-nov15-2026.md); the latest strictly verified Dongdaemun additions and held-out candidates are in [`guide/verification-seoul-dongdaemun-batch5-2026-08-19.md`](guide/verification-seoul-dongdaemun-batch5-2026-08-19.md). The Busan **Nov 9–15** pass is [`guide/verification-busan-nov9-15-2026-08-21.md`](guide/verification-busan-nov9-15-2026-08-21.md).
 - **Quick filters** — view all stays, only core-needs matches, or stays with laundry; search within the current city.
 - **Useful details at a glance** — estimated nightly range, recommended room, bed setup, bathroom/transport fit, normal check-in/out time, canonical identity source, and rate-comparison link.
 - **Timestamped refundable pricing** — hotel cards show a ♻️ badge with the captured refundable rate, cancellation deadline, and UTC capture time; the append-only log lives in [`data/pricing-history.json`](data/pricing-history.json). The four-city (Suwon / Gyeongju / Cheonan / Daejeon) 2026-08-18T19:16Z checklist is [`guide/verification-suwon-gyeongju-cheonan-daejeon-2026-08-18.md`](guide/verification-suwon-gyeongju-cheonan-daejeon-2026-08-18.md). The earlier same-day Seoul-inclusive pass is [`guide/verification-checklist-2026-08-18-line-by-line.md`](guide/verification-checklist-2026-08-18-line-by-line.md).
-- **Duplicate protection** — all 161 records are source verified; similarly named branches are cross-checked as distinct properties.
+- **Duplicate protection** — all 181 records are source verified; similarly named branches are cross-checked as distinct properties. Every record also carries an explicit Agoda secondary-source status (verified / not-found / unresolved) — see Round 15 below.
 
 There is no account, tracker, or backend. It is a static planning document that can be hosted with GitHub Pages or opened locally.
 
@@ -732,14 +841,14 @@ For regular stays, a green **“Core needs match”** badge means the research h
 
 | City | Hotels | Planning use |
 |---|---:|---|
-| Seoul | 101 | First-night shortlist + Myeongdong / Jongno / Dongdaemun / Hongdae / Itaewon / Gangnam (dual date windows) |
+| Seoul | 109 | First-night shortlist + Myeongdong / Jongno / Dongdaemun / Hongdae / Itaewon / Gangnam (dual date windows) |
 | Gyeongju | 15 | Heritage / hanok, Old Town, Bulguksa, and Bomun Lake stays |
-| Busan | 26 | Haeundae, Seomyeon, Busan Station, Nampo, and Songdo options |
-| Cheonan | 7 | KTX-corridor alternative |
-| Daejeon | 7 | KTX-corridor alternative |
-| Suwon | 5 | Seoul-area base (Suwon Station + Hwaseong Fortress) |
-| **Planned cities** | **142** | Seoul + Gyeongju + Busan |
-| **Total** | **161** | Full city-by-city comparison set |
+| Busan | 33 | Haeundae, Seomyeon, Busan Station, Nampo, Songdo, Gwangalli, Gijang/Songjeong and airport-side options |
+| Cheonan | 8 | KTX-corridor alternative |
+| Daejeon | 10 | KTX-corridor alternative |
+| Suwon | 6 | Seoul-area base (Suwon Station + Hwaseong Fortress + Gwonseon side) |
+| **Planned cities** | **157** | Seoul + Gyeongju + Busan |
+| **Total** | **181** | Full city-by-city comparison set |
 
 Prices are planning estimates for the 2026 autumn itinerary, not live inventory. Always verify a live rate and exact room configuration before paying.
 
@@ -770,7 +879,7 @@ Then visit `http://localhost:8000` in a local browser, or open `index.html` dire
 ├── index.template.html     # Site shell; data is embedded at build time
 ├── index.html              # Generated static planner
 ├── data/
-│   ├── hotels.json         # 161 city hotels + five-option arrivalNight shortlist and source links
+│   ├── hotels.json         # 181 city hotels + five-option arrivalNight shortlist and source links
 │   └── itinerary.json      # Dates, city order, and alternatives
 ├── guide/
 │   ├── arrival-night.md    # 24-hour reception research + late-arrival workflow
@@ -789,7 +898,7 @@ Then visit `http://localhost:8000` in a local browser, or open `index.html` dire
 
 ## Research and booking guardrails
 
-- Arrival-night evidence and **all 161 hotel records** were identity-checked (Seoul/Gyeongju/Busan/Cheonan/Daejeon on August 10, 2026; the Suwon shortlist on August 18, 2026; expanded Seoul batches on August 19, 2026). Every card shows a canonical property source, source type, date, and verification note. The validator rejects duplicate IDs, sourced names, official URLs, identity-source URLs, and exact coordinates; similar branch names require an explicit distinct-property cross-check.
+- Arrival-night evidence and **all 181 hotel records** were identity-checked (Seoul/Gyeongju/Busan/Cheonan/Daejeon on August 10, 2026; the Suwon shortlist on August 18, 2026; expanded Seoul batches on August 19, 2026; the 20 new 2026-08-30 entries per the Round 15 notes). Every card shows a canonical property source, source type, date, and verification note. The validator rejects duplicate IDs, sourced names, official URLs, identity-source URLs, and exact coordinates; similar branch names require an explicit distinct-property cross-check.
 - No duplicate hotel entries remain. Five independent hotels without a stable official page are retained only because a government-tourism or major trusted booking source confirms the exact property and address. See [`guide/verification-audit.md`](guide/verification-audit.md).
 - A 24-hour front desk covers the **hotel-arrival** risk, not the **airport-transfer** risk. Check live public-transport / shuttle timing on the day; take a taxi when the final connection is tight.
 - Use the exact recommended room type. A property may list a lower-priced twin or smaller double that does not meet the one-queen/king preference.
@@ -802,3 +911,4 @@ Then visit `http://localhost:8000` in a local browser, or open `index.html` dire
 3. Run `python3 validate.py`; duplicate identity checks are automatic.
 4. Run `python3 build.py`.
 5. Review the generated `index.html` before publishing.
+- Wave 3 (same day): +5 verified — Sofitel Ambassador (9.1/3,839 page JSON-LD), Josun Palace (9.0/1,047), Oakwood Premier COEX, Holiday Inn Express Hongdae (via dedicated Agoda guide page), and **The Westin Seoul Parnas — whose Agoda page still lives under the legacy slug `intercontinental-coex-hotel`**, platform-confirming the Round-15 Westin↔Grand-InterContinental identity flag (GIP record kept, dedup left to human review, note upgraded). +1 unresolved (Dormy Inn Express Insadong; Kuretake→Dormy legacy trace). Ledger: 122/181 blocks — 61 verified / 7 not-found / 54 unresolved; 59 queued.

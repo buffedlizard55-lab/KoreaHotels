@@ -417,6 +417,7 @@
     .tier-mid { background: #a76b10; }
     .tier-premium { background: #78477e; }
     .price-range { margin: 10px 0 0; color: var(--forest); font-size: 1.05rem; font-weight: 850; }
+    .price-range.price-uncaptured { color: var(--ink-soft); font-weight: 700; font-size: .9rem; font-style: italic; }
     .refund-rate { margin: 8px 0 0; padding: 8px 10px; border: 1px solid var(--forest); border-radius: 10px; background: rgba(46, 90, 57, 0.07); font-size: 0.86rem; line-height: 1.45; }
     .refund-rate.unavailable { border-style: dashed; background: rgba(0, 0, 0, 0.04); }
     .refund-rate strong { display: block; margin-bottom: 2px; }
@@ -567,7 +568,9 @@
         Three separate searches, never merged: <strong>Nov 1–9, 2026 (8 nights)</strong>,
         <strong>Nov 9–15, 2026 (6 nights — the Busan stay)</strong> and
         <strong>Nov 15–22, 2026 (7 nights)</strong>.
-        A row only appears here if a dated Booking.com rate table was fetched and stamped in UTC.
+        A row only appears here if a dated rate table was actually fetched and stamped in UTC.
+        <strong>Booking.com is the primary verified source; every record also carries a labeled Agoda link as the
+        secondary verified source</strong> — each link says which site it opens.
         Pick a window, then narrow by area. Every row keeps its own capture time and live source link,
         and prices are the display price at capture time — usually before 10% tax.
       </p>
@@ -639,7 +642,7 @@
     <section id="shortlist" aria-labelledby="shortlist-title">
       <p class="section-kicker">The rest of the trip</p>
       <h2 class="section-heading" id="shortlist-title">Expanded city-by-city hotel list</h2>
-      <p class="section-description">Compare 30 Seoul stays, 15 Gyeongju stays, 20 Busan stays, and 19 alternative-city properties (7 Cheonan, 7 Daejeon, 5 Suwon). All 84 entries have a dated identity source. Refundable badges use each city’s stay window. Re-open the live source before paying.</p>
+      <p class="section-description">Compare 109 Seoul stays, 15 Gyeongju stays, 33 Busan stays, and 24 alternative-city properties (8 Cheonan, 10 Daejeon, 6 Suwon). All 181 entries carry a dated identity source; every link is labeled with its platform (Booking.com vs Agoda) and each record states an explicit Agoda secondary-source status — a blank or "not-found" means it was not verified, never that it was checked and rejected. Refundable badges use each city’s stay window. Re-open the live source before paying.</p>
 
       <div class="planner">
         <div class="city-tabs" id="city-tabs" role="group" aria-label="Choose a city"></div>
@@ -683,7 +686,7 @@
         </article>
         <article class="note-card">
           <h3>Identity and duplicate audit</h3>
-          <p>All 84 records have a sourced canonical property name and a unique identity link. Validation rejects duplicate IDs, canonical names, official URLs, verification URLs, and exact coordinates; highly similar branch names require an explicit distinct-property cross-check.</p>
+          <p>All 181 records have a sourced canonical property name and a unique identity link, plus an explicit Agoda secondary-source status (verified / not-found / unresolved). Line-by-line links for manual review: guide/verification-links-2026-08-30.md. Validation rejects duplicate IDs, canonical names, official URLs, verification URLs, and exact coordinates; highly similar branch names require an explicit distinct-property cross-check.</p>
           <p>See the complete <a href="guide/verification-audit.md">verification audit</a> for every hotel and source.</p>
         </article>
       </div>
@@ -892,25 +895,63 @@
       return 20 + (hotel.fits ? 0 : 10) + (Number(hotel.priceFrom) || 0) / 1000;
     }
 
+      function sourceSite(url) {
+        const u = String(url || "").toLowerCase();
+        if (u.includes("booking.com")) return "Booking.com";
+        if (u.includes("agoda.com")) return "Agoda";
+        if (u.includes("kayak.com")) return "KAYAK";
+        if (u.includes("google.com")) return "Google Travel";
+        return "source";
+      }
+
       function renderRefundableRate(rate) {
         if (!rate) return '';
         const stamp = rate.capturedAtUtc ? `captured ${escapeHtml(rate.capturedAtUtc.replace('T', ' ').slice(0, 16))} UTC` : 'timestamped capture';
+        const site = sourceSite(rate.sourceUrl);
         if (!rate.available) {
           return `<div class="refund-rate unavailable">
             <strong>🚫 No refundable rate found — ${escapeHtml(rate.stayCheckIn || "")} – ${escapeHtml(rate.stayCheckOut || "")}</strong>
-            <span class="refund-meta">${escapeHtml(rate.finding || 'No availability shown on the capture source.')} <a href="${safeUrl(rate.sourceUrl)}" target="_blank" rel="noopener noreferrer">Source ↗</a> · ${stamp}</span>
+            <span class="refund-meta">${escapeHtml(rate.finding || 'No availability shown on the capture source.')} <a href="${safeUrl(rate.sourceUrl)}" target="_blank" rel="noopener noreferrer">Open on ${escapeHtml(site)} ↗</a> · ${stamp}</span>
           </div>`;
         }
         const price = rate.totalStay
           ? `$${escapeHtml(rate.pricePerNight)}/night · $${escapeHtml(rate.totalStay)} total (${escapeHtml(rate.nights || "?")} nights)`
           : 'price on source page';
         return `<div class="refund-rate">
-          <strong>♻️ Refundable rate — ${escapeHtml(rate.stayCheckIn || "")} – ${escapeHtml(rate.stayCheckOut || "")}</strong>
+          <strong>♻️ Refundable rate — ${escapeHtml(rate.stayCheckIn || "")} – ${escapeHtml(rate.stayCheckOut || "")} · on ${escapeHtml(site)}</strong>
           <span class="refund-meta">${escapeHtml(rate.room)} · ${escapeHtml(price)}<br>
           ${escapeHtml(rate.freeCancellation || '')}<br>
           ${escapeHtml(rate.prepayment || '')}<br>
-          <a href="${safeUrl(rate.sourceUrl)}" target="_blank" rel="noopener noreferrer">Live source ↗</a> · ${stamp} · verify before paying</span>
+          <a href="${safeUrl(rate.sourceUrl)}" target="_blank" rel="noopener noreferrer">Open dated ${escapeHtml(site)} page ↗</a> · ${stamp} · verify before paying</span>
         </div>`;
+      }
+
+      function renderVerifiedSources(hotel) {
+        const parts = [];
+        const bookingUrl = hotel.bookingUrl
+          || (hotel.refundableRate && hotel.refundableRate.sourceUrl)
+          || (hotel.refundableRateNov9 && hotel.refundableRateNov9.sourceUrl)
+          || (hotel.refundableRateNov15 && hotel.refundableRateNov15.sourceUrl)
+          || (hotel.verification && hotel.verification.sourceType && /booking\.com/i.test(hotel.verification.sourceUrl || "") ? hotel.verification.sourceUrl : null);
+        if (bookingUrl) {
+          parts.push(`<a href="${safeUrl(bookingUrl)}" target="_blank" rel="noopener noreferrer"><strong>Booking.com</strong> — primary verified source ↗</a>`);
+        } else if (hotel.distributionStatus) {
+          const ds = hotel.distributionStatus;
+          const dsText = typeof ds === "string" ? ds : [ds.status, ds.asOf && `as of ${ds.asOf}`].filter(Boolean).join(" · ");
+          parts.push(`<span>Booking.com: ${escapeHtml(dsText)}</span>`);
+        }
+        const s = hotel.secondarySource;
+        if (s && s.url) {
+          const checked = s.lastCheckedUtc || s.lastChecked || "";
+          parts.push(`<a href="${safeUrl(s.url)}" target="_blank" rel="noopener noreferrer"><strong>Agoda</strong> — secondary verified source (checked ${escapeHtml(String(checked).slice(0, 10))}) ↗</a>`);
+        } else if (s && s.status === "not-found") {
+          parts.push(`<span>Agoda: not found in the 2026-08-30 index round (${escapeHtml(String(s.lastCheckedUtc || s.lastChecked || "").slice(0, 10))}) — deliberate blank, not a verified absence</span>`);
+        } else if (s && s.status === "unresolved") {
+          parts.push(`<span>Agoda: listing known to exist, link unresolved — needs manual lookup on agoda.com (checked ${escapeHtml(String(s.lastCheckedUtc || s.lastChecked || "").slice(0, 10))})</span>`);
+        } else {
+          parts.push('<span>Agoda: secondary source check not yet run</span>');
+        }
+        return parts.length ? `<p class="source-line">Verified sources · ${parts.join(" · ")}</p>` : '';
       }
 
       function preferredRoom(hotel) {
@@ -955,7 +996,9 @@
               </div>
               <h3 class="card-title">${escapeHtml(hotel.name)}</h3>
               <p class="card-subtitle">${escapeHtml(hotel.area || hotel.neighborhood || activeCity)}</p>
-              <p class="price-range">$${escapeHtml(hotel.priceFrom)}–${escapeHtml(hotel.priceTo)} <span>USD / night estimate</span></p>
+              ${hotel.priceFrom != null && hotel.priceTo != null
+                ? `<p class="price-range">$${escapeHtml(hotel.priceFrom)}–${escapeHtml(hotel.priceTo)} <span>USD / night estimate</span></p>`
+                : `<p class="price-range price-uncaptured">Rates not captured <span>— no dated capture in latest round; open the dated pages</span></p>`}
               ${hotel.refundableRate ? renderRefundableRate(hotel.refundableRate) : ''}
               <div class="tags">
                 <span class="tag ${hotel.fits ? "good" : "warn"}">${hotel.fits ? "✓ Core needs match" : "△ Check core fit"}</span>
@@ -972,12 +1015,13 @@
                 ${!hotel.fits && hotel.fitReason ? `<div><dt>Check before booking</dt><dd>${escapeHtml(hotel.fitReason)}</dd></div>` : ''}
               </dl>
               <p class="reason">${escapeHtml(hotel.why || "Review the official listing for the best room and current terms.")}</p>
-              ${hotel.verification ? `<p class="source-line"><strong>${escapeHtml(hotel.verification.existenceStatus || "Source verified")}</strong> · ${escapeHtml(hotel.verification.sourceType)} · checked ${escapeHtml(formatDate(hotel.verification.lastChecked))}<br><a href="${safeUrl(hotel.verification.sourceUrl)}" target="_blank" rel="noopener noreferrer">Open identity source ↗</a><br>${escapeHtml(hotel.verification.note)}</p>` : ''}
+              ${renderVerifiedSources(hotel)}
+              ${hotel.verification ? `<p class="source-line"><strong>${escapeHtml(hotel.verification.existenceStatus || "Source verified")}</strong> · ${escapeHtml(hotel.verification.sourceType)} · checked ${escapeHtml(formatDate(hotel.verification.lastChecked))}<br><a href="${safeUrl(hotel.verification.sourceUrl)}" target="_blank" rel="noopener noreferrer">Open identity source — ${escapeHtml(sourceSite(hotel.verification.sourceUrl))} ↗</a><br>${escapeHtml(hotel.verification.note)}</p>` : ''}
               ${isArrival ? '<p class="arrival-mark">For the first night, open the Arrival night section and send the late-arrival note after booking.</p>' : ''}
             </div>
             <div class="card-footer">
-              ${hotel.officialUrl ? `<a class="button" href="${safeUrl(hotel.officialUrl)}" target="_blank" rel="noopener noreferrer">Official site ↗</a>` : '<span class="button secondary" aria-disabled="true">Use trusted identity source above</span>'}
-              ${hotel.compareUrl ? `<a class="button secondary" href="${safeUrl(hotel.compareUrl)}" target="_blank" rel="noopener noreferrer">Compare rates ↗</a>` : ''}
+              ${hotel.officialUrl ? `<a class="button" href="${safeUrl(hotel.officialUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(hotel.officialLabel || "Official site")} ↗</a>` : '<span class="button secondary" aria-disabled="true">Use trusted identity source above</span>'}
+              ${hotel.compareUrl ? `<a class="button secondary" href="${safeUrl(hotel.compareUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(hotel.compareLabel || "Compare rates")} ↗</a>` : ''}
             </div>
           </article>
         `;

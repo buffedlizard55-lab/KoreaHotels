@@ -2576,11 +2576,11 @@
    },
    "secondarySource": {
     "platform": "Agoda",
-    "status": "not-found",
-    "url": null,
-    "checkMethod": "search-index",
-    "lastCheckedUtc": "2026-08-31",
-    "note": "2026-08-30: operating confirmed via Klook/Hotels.com/EasyMyTrip (SureStay Plus by Best Western Asan, 32 Onsaem-ro, Tangjeong-myeon, near Samsung Display Asan 1; Hotels.com 8.6). Klook policy text references Agoda as a billing channel, implying an Agoda listing, but no agoda.com URL surfaced in search. Next-round hint: try Asan city file asan-si-kr.html. Unresolved until a real page is confirmed. Re-checked 2026-08-30: Agoda listing evidence (aggregator score/deal lines) still present but no agoda.com property URL could be surfaced via the available search index this round; Agoda's own search results render client-side and could not be read. Blank remains an honest recorded gap, not a verified absence. 2026-08-31 Agoda suggest-API probe ('surestay plus best western asan', 'surestay asan korea') returns zero Agoda hotel objects for the Asan property - only a Google Places POI entry (address 온대로 32 Tangjeong-myeon Asan) with no Agoda property id; US SureStay listings only. Recorded not-found result, not a verified absence; property operates (Best Western official/Klook). 2026-08-31 Agoda suggest-API probe ('surestay plus best western asan', 'surestay asan korea') returns zero Agoda hotel objects for the Asan property - only a Google Places POI entry (address 온대로 32 Tangjeong-myeon Asan) with no Agoda property id; US SureStay listings only. Recorded not-found result, not a verified absence; property operates (Best Western official/Klook)."
+    "status": "verified",
+    "url": "https://www.agoda.com/best-western-asan-hotel/hotel/asan-si-kr.html",
+    "lastCheckedUtc": "2026-09-08",
+    "checkMethod": "property-page-fetched",
+    "note": "Agoda property page fetched live 2026-09-08: title 'Best Western Asan Hotel', 3 stars, address 32 Onsaem-ro Tangjeong-myeon Asan-si Chungcheongnam-do 31457, score 8.6/~530 reviews (service 9.3, clean 9.1); selectedproperty=79596756 (See-all link; suggest API). Address exactly matches the repo's SureStay Plus record (32 Onsaem-ro Tangjeong-myeon). FLAG: property has been rebranded/upgraded from 'SureStay Plus Hotel by Best Western Asan' to 'Best Western Asan Hotel' (older Agoda listing slug 'surestay-plus-hotel-by-best-western-asan' id 35318569 redirects here); city file is asan-si-kr.html. Repo record name should be reviewed for the rebrand."
    }
   },
   {
@@ -3472,11 +3472,11 @@
    },
    "secondarySource": {
     "platform": "Agoda",
-    "status": "not-found",
-    "url": null,
-    "checkMethod": "search-index",
-    "lastCheckedUtc": "2026-08-31",
-    "note": "2026-08-30: SISTER-BRANCH TRAP caught — Agoda carries 'Anook Air Hotel Daejeon Munchang Branch' (slug daejeon-munchang-meadow-house, 7.9/153, 28 Munchang-ro 94beon-gil; page text itself references 'Aank Air' legacy name — brand rebranded Aank→Anook). Our record is Aank Air Hotel *Daejeon Station* (36.3310,127.4264), ~1 km away — likely a different branch; Munchang URL must NOT be attached. No page found for our branch → unresolved with rebrand + branch warning. Re-checked 2026-08-30: Agoda listing evidence (aggregator score/deal lines) still present but no agoda.com property URL could be surfaced via the available search index this round; Agoda's own search results render client-side and could not be read. Blank remains an honest recorded gap, not a verified absence. 2026-08-31 Agoda suggest-API probes ('aank air hotel daejeon', 'aank air daejeon station', 'aank air hotel'; chunks 0+1) return no Korean Aank property - only Lebanon/Malaysia noise and 'Cheongju Anook ryokan and air' (the sister-brand trap). Recorded not-found result, not a verified absence; property operates (Booking/official channels). 2026-08-31 Agoda suggest-API probes ('aank air hotel daejeon', 'aank air daejeon station', 'aank air hotel'; chunks 0+1) return no Korean Aank property - only Lebanon/Malaysia noise and 'Cheongju Anook ryokan and air' (the sister-brand trap). Recorded not-found result, not a verified absence; property operates (Booking/official channels)."
+    "status": "verified",
+    "url": "https://www.agoda.com/aank-hotel-daejeon-station/hotel/daejeon-kr.html",
+    "lastCheckedUtc": "2026-09-08",
+    "checkMethod": "property-page-fetched",
+    "note": "Agoda property page fetched live 2026-09-08: title 'Anook Air Hotel Daejeon Station', address 6 Mokcheok 9-gil Jung-gu Daejeon 34832, score 8.3/~228 reviews, location 8.5, Jungangno Station 0.26 km / Daejeon Station ~0.59 km; selectedproperty=64224693 (suggest API; ko-kr name '은행 아늑에어 대전역점'). Address 6 Mokcheok 9-gil exactly matches repo. FLAG: Agoda romanizes the Korean brand '아늑에어(Aank Air)' as 'Anook Air'; canonical slug is 'aank-hotel-daejeon-station' (loses the 'Air'); a second duplicate Hangul-named listing id 64267301 (8.8/108) is ignored - same property."
    }
   },
   {
@@ -6031,10 +6031,11 @@
    },
    "secondarySource": {
     "platform": "Agoda",
-    "status": "unresolved",
-    "checkMethod": "search-index",
-    "lastCheckedUtc": "2026-08-31",
-    "note": "2026-08-31: Agoda suggest id 4857999 'Nadul Hanok' (Gyeongju) exists, but reviews slugs (nadul-hanok, nadul-hanok-guesthouse, hanok-guesthouse-nadul, nadul-hanok-stay, hotel-nadul-hanok) all 404; stays unresolved; small 7-room property likely under a non-obvious slug."
+    "status": "verified",
+    "url": "https://www.agoda.com/nadul-hanok_2/hotel/gyeongju-si-kr.html",
+    "lastCheckedUtc": "2026-09-08",
+    "checkMethod": "property-page-fetched",
+    "note": "Agoda property page fetched live 2026-09-08: title 'Nadul Hanok', 2 stars, address 4-1 Jjoksaem-gil Gyeongju, score 9.2/8 reviews, location 9.8; suggest API id 4857999. FLAG: canonical slug is collision-disambiguated as 'nadul-hanok_2' (the '_2' suffix is part of the real Agoda URL)."
    }
   },
   {
@@ -6788,11 +6789,12 @@
     "bookVia": null
    },
    "secondarySource": {
-    "status": "not-found",
-    "lastCheckedUtc": "2026-08-31",
-    "checkMethod": "search-index",
-    "note": "No Agoda property/reviews page surfaced by the 2026-08-30 discovery round. IRREGULARITY for review: a 2022 travel blog (updated 2024) claims the hotel closed and an aggregator lists it rebranded as 'Ambassador Busan Haeundae (ex. Ibis Budget Haeundae)', while the record's 2026-08-10 Accor capture (all.accor.com/hotel/9106) shows it operating under the ibis budget Ambassador name. Rebrand-vs-status conflict — resolve manually; do not treat this blank as a verified absence. Re-checked 2026-08-30: targeted searches again surfaced no agoda.com property page; recorded result, not a verified absence. 2026-08-31 Agoda suggest-API probes ('ibis budget busan haeundae', 'ibis budget ambassador busan haeundae'; chunks 0+1) list no Korean ibis budget - only Zurich/Sydney/Jakarta/Singapore/Surabaya properties. Recorded not-found result, not a verified absence. 2026-08-31 Agoda suggest-API probes ('ibis budget busan haeundae', 'ibis budget ambassador busan haeundae'; chunks 0+1) list no Korean ibis budget - only Zurich/Sydney/Jakarta/Singapore/Surabaya properties. Recorded not-found result, not a verified absence.",
-    "platform": "Agoda"
+    "platform": "Agoda",
+    "status": "verified",
+    "url": "https://www.agoda.com/ibis-budget-ambassador-busan-haeundae/hotel/busan-kr.html",
+    "lastCheckedUtc": "2026-09-08",
+    "checkMethod": "property-page-fetched",
+    "note": "Agoda property page fetched live 2026-09-08: page title 'Ambassador Busan Haeundae' (selectedproperty=1161196), 2 stars, address 8,209 beon-gil Haeundaehaebyeon-ro Haeundae-gu, score 8.4/~2,689 reviews. FLAG: property has been de-flagged/rebranded on Agoda - formerly 'ibis budget Ambassador Busan Haeundae', now marketed as 'Ambassador Busan Haeundae'; the URL slug still carries the old ibis-budget name. Repo record is the same physical property (ibis budget Ambassador Busan Haeundae)."
    }
   },
   {
@@ -6903,11 +6905,12 @@
     "bookVia": null
    },
    "secondarySource": {
-    "status": "unresolved",
-    "lastCheckedUtc": "2026-08-31",
-    "checkMethod": "search-index",
-    "note": "2026-08-31: Agoda suggest API CONFIRMS the property exists - id 15814986 'Ibis Ambassador Busan Haeundae', Busan (city 17172) - but the canonical /hotel/ slug could not be surfaced: 'ibis-ambassador-busan-haeundae' is occupied by a DIFFERENT property (id 1254424, 'Busan Haeundae', 12 Haeundaehaebyeon-ro 237beon-gil, 8.2/1,964) and slug variants (-hotel, ibis-busan-haeundae, ibis-ambassador-haeundae-busan, -busan-hotel) all 404; /search?selectedproperty=15814986 renders client-side only. Stays unresolved; Agoda listing certain.",
-    "platform": "Agoda"
+    "platform": "Agoda",
+    "status": "verified",
+    "url": "https://www.agoda.com/ibis-ambassador-busan-haeundae-h15814986/hotel/busan-kr.html",
+    "lastCheckedUtc": "2026-09-08",
+    "checkMethod": "property-page-fetched",
+    "note": "Agoda property page fetched live 2026-09-08: title 'ibis Ambassador Busan Haeundae', 3 stars, address 12 Haeundaehaebyeon-ro 237beon-gil Haeundae-gu, score 8.6/~30 reviews; selectedproperty=15814986. FLAG: canonical URL uses Agoda's hybrid mobile form 'ibis-ambassador-busan-haeundae-h15814986' because the plain slug 'ibis-ambassador-busan-haeundae' is owned by a DIFFERENT property (id 1254424, 'Busan Haeundae'); the h-id hybrid resolves to the correct ibis listing."
    }
   },
   {
@@ -10753,10 +10756,11 @@
    },
    "secondarySource": {
     "platform": "Agoda",
-    "status": "unresolved",
-    "checkMethod": "search-index",
-    "lastCheckedUtc": "2026-08-31",
-    "note": "2026-08-31: Agoda suggest API CONFIRMS id 4935081 'Novotel Ambassador Seoul Dongdaemun Hotels & Residences' (Seoul) exists, but reviews/hotel slug guesses (novotel-ambassador-seoul-dongdaemun[-hotels-and-residences], novotel-seoul-dongdaemun, hotel-u5->Mercure) all 404/fuzzy-missed; stays unresolved; Agoda listing certain."
+    "status": "verified",
+    "url": "https://www.agoda.com/novotel-ambassador-seoul-dongdaemun-hotels-residences/hotel/seoul-kr.html",
+    "lastCheckedUtc": "2026-09-08",
+    "checkMethod": "property-page-fetched",
+    "note": "Agoda property page fetched live 2026-09-08: title 'Novotel Ambassador Seoul Dongdaemun Hotels & Residences', 5 stars, address 238 Euljiro Jung-gu, score 8.9/~8,025 reviews; suggest API id 4935081 (Seoul). Identity matches repo (Novotel Ambassador Dongdaemun Hotels & Residences)."
    }
   },
   {
@@ -20055,10 +20059,11 @@
    },
    "secondarySource": {
     "platform": "Agoda",
-    "status": "not-found",
-    "lastCheckedUtc": "2026-08-31",
-    "checkMethod": "search-index",
-    "note": "Agoda index queries (2026-08-30, incl. the -Noksan and 'Seobusan Gimhae Airport' name variants) surfaced only Trip.com/KAYAK/hotel.com.au copies — no agoda.com page found. Existence on Agoda NOT confirmed; blank means unverified. Re-checked 2026-08-30: targeted searches again surfaced no agoda.com property page; recorded result, not a verified absence. Re-checked 2026-08-31: targeted Agoda index searches again surfaced no agoda.com property page; recorded result, not a verified absence. Re-checked 2026-08-31: targeted Agoda index searches again surfaced no agoda.com property page; recorded result, not a verified absence."
+    "status": "verified",
+    "url": "https://www.agoda.com/shilla-stay-seobusan/hotel/busan-kr.html",
+    "lastCheckedUtc": "2026-09-08",
+    "checkMethod": "property-page-fetched",
+    "note": "Agoda property page fetched live 2026-09-08: page title 'Shilla Stay busan Gimhae Airport (Noksan)', 4 stars, address 38 Myeongjigukje 7-ro Gangseo-gu Busan 46726, score 8.7/~6,682 reviews (clean 9.4, service 9.3), Gimhae Airport 9.3 km; selectedproperty=21826078 (suggest API). Identity matches repo (Shilla Stay Seobusan / Gimhae Airport, Gangseo-gu Noksan/Myeongji). FLAG: Agoda's display name is 'Shilla Stay busan Gimhae Airport (Noksan)'; canonical slug remains 'shilla-stay-seobusan'."
    }
   },
   {
@@ -20296,10 +20301,11 @@
    },
    "secondarySource": {
     "platform": "Agoda",
-    "status": "not-found",
-    "lastCheckedUtc": "2026-08-31",
-    "checkMethod": "search-index",
-    "note": "Agoda index query (2026-08-30) returned only third-party mirrors (busanhotelsweb, Expedia h96904083, busanhotels.net) — no agoda.com page found. Existence on Agoda NOT confirmed. Re-checked 2026-08-30: targeted searches again surfaced no agoda.com property page; recorded result, not a verified absence. Re-checked 2026-08-31: targeted Agoda index searches again surfaced no agoda.com property page; recorded result, not a verified absence. Re-checked 2026-08-31: targeted Agoda index searches again surfaced no agoda.com property page; recorded result, not a verified absence."
+    "status": "verified",
+    "url": "https://www.agoda.com/songjeong-the-coolist-hotel/hotel/busan-kr.html",
+    "lastCheckedUtc": "2026-09-08",
+    "checkMethod": "property-page-fetched",
+    "note": "Agoda property page fetched live 2026-09-08: title 'Songjeong The Coolest Hotel', 4 stars Agoda Preferred, address 11 Songjeonggwangeogol-ro Haeundae-gu Busan, score 8.5/~1,268 reviews, ~90 m to Songjeong Beach, rooftop/infinity pool; selectedproperty=45206767 in image URLs and See-all link. FLAG: Agoda's canonical slug MISSPELLS the name as 'songjeong-the-coolist-hotel' ('coolist') - the typo is part of the real URL; the reviews route also accepts the correct spelling 'songjeong-the-coolest-hotel'. Identity matches repo (The Coolest Hotel, Songjeong)."
    }
   },
   {
@@ -20426,10 +20432,11 @@
    },
    "secondarySource": {
     "platform": "Agoda",
-    "status": "not-found",
-    "lastCheckedUtc": "2026-08-31",
-    "checkMethod": "search-index",
-    "note": "Agoda index query (2026-08-30) returned only Agoda-priced neighbors inside a Tripadvisor widget — no Onoma agoda.com page. Existence on Agoda NOT confirmed (expected for a new Marriott, but unverified — blank). Re-checked 2026-08-30: targeted searches again surfaced no agoda.com property page; recorded result, not a verified absence. Re-checked 2026-08-31: targeted Agoda index searches again surfaced no agoda.com property page; recorded result, not a verified absence. Re-checked 2026-08-31: targeted Agoda index searches again surfaced no agoda.com property page; recorded result, not a verified absence."
+    "status": "verified",
+    "url": "https://www.agoda.com/hotel-onoma-daejeon-autograph-collection/hotel/daejeon-kr.html",
+    "lastCheckedUtc": "2026-09-08",
+    "checkMethod": "property-page-fetched",
+    "note": "Agoda property page fetched live 2026-09-08: title 'Hotel Onoma, Daejeon, Autograph Collection', 5 stars, address 1 Expo-ro Yuseong-gu Daejeon, score 8.9/~2,852 reviews (cleanliness/service 9.5, facilities 9.2, location 9.3), Expo Park 330 m; selectedproperty=27809293 (confirmed via YouTube affiliate links + suggest API). Identity matches repo (Hotel Onma/Onoma Daejeon Autograph Collection). Canonical page lives under the en-sg locale path."
    }
   },
   {
@@ -20488,10 +20495,11 @@
    },
    "secondarySource": {
     "platform": "Agoda",
-    "status": "not-found",
-    "lastCheckedUtc": "2026-08-31",
-    "checkMethod": "search-index",
-    "note": "Agoda index query (2026-08-30) returned the nol/world channel page but no agoda.com page for this branch. Existence on Agoda NOT confirmed. Re-checked 2026-08-30: targeted searches again surfaced no agoda.com property page; recorded result, not a verified absence. Re-checked 2026-08-31: targeted Agoda index searches again surfaced no agoda.com property page; recorded result, not a verified absence. Re-checked 2026-08-31: targeted Agoda index searches again surfaced no agoda.com property page; recorded result, not a verified absence."
+    "status": "verified",
+    "url": "https://www.agoda.com/hotel-skypark-daejeon-i/hotel/daejeon-kr.html",
+    "lastCheckedUtc": "2026-09-08",
+    "checkMethod": "property-page-fetched",
+    "note": "Agoda property page fetched live 2026-09-08: title 'Hotel Skypark Daejeon I', 4 stars, address 161 Technojungang-ro Yuseong-gu Daejeon (Daedeok Techno Valley / Hyundai Premium Outlet), score 8.7/~5,601 reviews, location 8.8; suggest API id 15967708 (a duplicate listing id 93616913 in suggest is ignored). Identity matches repo (Skypark Daejeon 1)."
    }
   },
   {
@@ -21532,6 +21540,14 @@
     "newNotFound": 3,
     "stillUnresolvedWithAgodaId": 3,
     "method": "Agoda /reviews/<city> route Book Now canonical links + direct /hotel/ page fetches; title+address+selectedproperty matched per record"
+   },
+   {
+    "date": "2026-09-08",
+    "kind": "agoda-verification-round",
+    "upgradedToVerified": 10,
+    "newNotFound": 0,
+    "stillUnresolvedWithAgodaId": 0,
+    "method": "Final round: en-sg reviews-route Book Now links, SSR search (/search selectedproperty) mobile card hrefs (incl. ko-kr locale), and hybrid h-id mobile slugs; every canonical /hotel/ page fetched live HTTP 200 with title+selectedproperty id+address matched to the repo record. After this round 0 records remain unresolved/not-found."
    }
   ],
   "reverificationPasses": [

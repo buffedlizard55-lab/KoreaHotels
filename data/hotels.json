@@ -147,6 +147,14 @@
     "freeCancellation": "Free cancellation before November 12, 2026 — free until 3 days; then first night",
     "prepayment": "No prepayment needed — pay at the property",
     "note": "LIVE 2026-08-19. Std Twin 2-twin also $283/$1,978. No queen/king one-bed on property; full ≈140cm."
+   },
+   "secondarySource": {
+    "platform": "Agoda",
+    "url": "https://www.agoda.com/l7-myeongdong-by-lotte/hotel/seoul-kr.html",
+    "status": "verified",
+    "lastCheckedUtc": "2026-08-30",
+    "checkMethod": "property-page-fetched",
+    "note": "FETCHED LIVE 2026-08-30 (agoda slug mirrors Booking's; guessed from Booking slug, landed correctly): title 'L7 MYEONGDONG by LOTTE', 4★ government-verified; 8.9/10 · 15,019 reviews (location 9.7, clean 9.2, service 9.2, room comfort 9.1, value 8.7, facilities 8.6); address '137, Toegye-ro, Jung-gu, Myeong-dong, 04537' matches Booking's stored address ✓; Myeong-dong Stn 0.11 km, GMP 16.4 km; '2025 top choice'; booked 16×/24h. Facilities: free Wi-Fi, car park, 24-h desk, fitness, restaurants, bar, family rooms, luggage storage. FLAG: KAYAK-era Agoda quote 9.3/703 vs page 8.9/15,019 — recorded, no overwrite (Agoda aggregates all locales; KAYAK shows a sub-feed)."
    }
   },
   {
@@ -280,6 +288,14 @@
     "freeCancellation": "Free cancellation before November 12, 2026 — free until 3 days; then first night",
     "prepayment": "Pay nothing until November 10, 2026",
     "note": "LIVE 2026-08-19. Std Twin 2-twin from $167/$1,172 (FC Nov 1). Standard Double is the 1600mm queen room."
+   },
+   "secondarySource": {
+    "platform": "Agoda",
+    "url": null,
+    "status": "unresolved",
+    "lastCheckedUtc": "2026-08-30",
+    "checkMethod": "search-index",
+    "note": "2026-08-30 live round: three plausible slugs probed — 'nine-tree-premier-hotel-myeongdong' AND 'nine-tree-premier-hotel-myeong-dong' both 301 to the MYEONDONG 2 property page (property id 1810284); 'nine-tree-hotel-myeongdong' soft-landed on Agoda's Seoul city page. No distinct Agoda page for Myeongdong 1 surfaced; POSSIBLE Agoda consolidation into the sibling listing — flagged. Sibling facts live for context: MD2 page 8.8/31,112 (recorded under seoul-nine-tree-myeongdong2). Expedia carries 'NINE TREE BY PARNAS SEOUL MYEONDONG 1' (ex 'Nine Tree Hotel Myeongdong', 51 Myeongdong 10-gil, 144 rooms) — manual Agoda lookup needed."
    }
   },
   {
@@ -400,6 +416,14 @@
     "freeCancellation": "Free cancellation before November 14, 2026 — free until 1 day; then first night",
     "prepayment": "No prepayment needed — pay at the property",
     "note": "LIVE 2026-08-19. Accor lists a standard double (not a confirmed queen). Std Twin from $145/$1,018 non-ref."
+   },
+   "secondarySource": {
+    "platform": "Agoda",
+    "url": "https://www.agoda.com/ibis-styles-ambassador-seoul-myeongdong/hotel/seoul-kr.html",
+    "status": "verified",
+    "lastCheckedUtc": "2026-08-30",
+    "checkMethod": "property-page-fetched",
+    "note": "FETCHED LIVE 2026-08-30: 'ibis Styles Ambassador Seoul Myeongdong', 4★; 8.3/10 · 6,861 reviews (location 8.7, service 8.6, clean 8.4, room comfort 8.2, value 8.1, facilities 7.8); '302 Samil Daero, Jung-gu, 04553' ✓ (trivago agreed); Myeong-dong Stn 0.32 km, Chungmuro 0.37 km; GMP 16.6 km; facilities: free Wi-Fi, car park (Available), spa, 24-h desk, fitness, restaurants, bar, sauna. FLAG: Agoda's 'About' copy (marked Generative-AI-assisted) mentions hot-spring bath/outdoor pool — not promoted to amenities; Expedia copy mentions free basement laundry — neither is Agoda-confirmed facility line. Earlier trivago blob 8.4/8,788 is a mixed-source aggregate."
    }
   },
   {
@@ -510,6 +534,14 @@
     "freeCancellation": "Free cancellation before November 14, 2026 — free until 1 day; then first night",
     "prepayment": "Pay nothing until November 12, 2026",
     "note": "LIVE 2026-08-19. Non-ref double $126/$879; refundable is the 1-queen room."
+   },
+   "secondarySource": {
+    "platform": "Agoda",
+    "url": null,
+    "status": "unresolved",
+    "lastCheckedUtc": "2026-08-30",
+    "checkMethod": "search-index",
+    "note": "2026-08-30 live round: guessed slugs 'ibis-ambassador-seoul-insadong' and 'ibis-ambassador-insadong' BOTH 404 on agoda.com. Listing evidence stands via aggregators (KAYAK provider line 'Agoda.com 8.6/10 · 112 reviews'; Travelocity/Expedia h5892378 'ibis Ambassador Seoul Insadong (Newly renovated in 2025)', guests 8.8/… ). Agoda URL unresolved — resolve manually on agoda.com search; per repo rule no URL may be stored without a live fetch of that exact URL."
    }
   },
   {
@@ -626,6 +658,14 @@
     "asOf": "2026-08-22",
     "evidence": "Listed on Booking but ZERO inventory for Nov 1-9 2026 — verified twice (2026-08-18, 2026-08-21).",
     "bookVia": null
+   },
+   "secondarySource": {
+    "platform": "Agoda",
+    "url": "https://www.agoda.com/four-seasons-hotel-seoul/hotel/seoul-kr.html",
+    "status": "verified",
+    "lastCheckedUtc": "2026-08-30",
+    "checkMethod": "property-page-fetched",
+    "note": "FETCHED LIVE 2026-08-30: 'Four Seasons Hotel Seoul', 5★; 9.3/10 'Exceptional' · 2,166 reviews (clean 9.7, service 9.6, facilities 9.5, location 9.5, value 9.2); '97 Saemoonanro, Jongno, Gwanghwamun' (page prints legacy postcode 690-180); Gwanghwamun Stn 0.14–0.16 km, GMP 15.4 km; facilities: free Wi-Fi, pool with view, FREE parking, spa, 24-h front desk & check-in, fitness, restaurants, bar. FLAG: KAYAK-era Agoda line 9.6/39 vs page 9.3/2,166 (sub-feed drift)."
    }
   },
   {
@@ -741,6 +781,14 @@
     "freeCancellation": "Free cancellation before 6:00 PM November 14, 2026",
     "prepayment": "Pay nothing until November 12, 2026",
     "note": "LIVE 2026-08-19. Yeouido (not Myeongdong core). Lower tiers are Fairmont Twin / partially-refundable; king free-cancel from $587."
+   },
+   "secondarySource": {
+    "platform": "Agoda",
+    "url": "https://www.agoda.com/fairmont-ambassador/hotel/seoul-kr.html",
+    "status": "verified",
+    "lastCheckedUtc": "2026-08-30",
+    "checkMethod": "property-page-fetched",
+    "note": "FETCHED LIVE 2026-08-30: guessed /fairmont-ambassador-seoul/ 301'd to canonical /fairmont-ambassador/ — stored the canonical. 'Fairmont Ambassador Seoul', 5★ self-reported; 8.9/10 · 2,007 reviews (clean 9.4, service 9.2, facilities 9.1, value 8.8; location 9.4); '108 Yeoui-Daero, Yeongdeungpo-gu (Yeouido), 07335' ✓; Yeouinaru 0.39 km, The Hyundai Seoul 90 m, GMP 12.2 km (closest-club in this city); free Wi-Fi, heated indoor pool, FREE parking, spa w/ thermal pools, 24-h desk, fitness, restaurants, bar. FLAG: KAYAK-era Agoda 9.1/24 vs page 8.9/2,007 (index-era tiny sample)."
    }
   },
   {
@@ -3444,6 +3492,14 @@
     "freeCancellation": "Free cancellation before November 15, 2026 — free until day of arrival",
     "prepayment": "No prepayment needed — pay at the property",
     "note": "LIVE 2026-08-19. Classic/Amour king all refundable, 5 left. 10% VAT excluded."
+   },
+   "secondarySource": {
+    "platform": "Agoda",
+    "url": null,
+    "status": "unresolved",
+    "lastCheckedUtc": "2026-08-30",
+    "checkMethod": "search-index",
+    "note": "2026-08-30 live round: BOTH plausible slugs ('le-escape-seoul', 'lescape-hotel') 404 on agoda.com — no L'Escape property page surfaced (Agoda travel-guides mention the hotel but no listing URL). NOT conflated with Le Méridien (separate address 67 Toegye-ro per this repo vs 38 Myeongdong 8na-gil). Listing existence on Agoda: uncertain → manual lookup on agoda.com search; per repo rule 'verified' requires the exact stored URL fetched live."
    }
   },
   {
@@ -3760,6 +3816,14 @@
     "freeCancellation": "Free cancellation before November 13, 2026 — free until 2 days; then first night",
     "prepayment": "Pay nothing until November 11, 2026",
     "note": "LIVE 2026-08-19. Continental breakfast included. Executive One-Bed 1 queen $200/$1,403; Studio is 1 full $179."
+   },
+   "secondarySource": {
+    "platform": "Agoda",
+    "url": "https://www.agoda.com/somerset-palace-seoul/hotel/seoul-kr.html",
+    "status": "verified",
+    "lastCheckedUtc": "2026-08-30",
+    "checkMethod": "property-page-fetched",
+    "note": "FETCHED LIVE 2026-08-30: 'Somerset Palace Seoul - Insadong' (title carries '- Insadong' suffix), 4★; 8.9/10 · 3,119 reviews (location 9.4, service 8.9, clean 8.7, value 8.7, facilities 8.6, room comfort 8.6); '7 Yulgok-ro 2-gil, Jongno-gu, Gwanghwamun, 03143' ✓; Anguk 0.4 km, Jonggak 0.58 km; GMP 15.9 km; free Wi-Fi, rooftop pool, FREE parking (guest: 'rare in Seoul'), 24-h desk, fitness, restaurants, kitchens; suites incl. washing machines per guest quotes (in-unit laundry — not a laundromat service; hasOnSiteLaundry left as-is). Serviced-apartment fit is relevant to the long-stay plan."
    }
   },
   {
@@ -3867,6 +3931,14 @@
     "freeCancellation": "Free cancellation before 6:00 PM November 14, 2026",
     "prepayment": "No prepayment needed — pay at the property",
     "note": "LIVE 2026-08-19. Standard Double is 1 full; non-ref tier $215/$1,505. No queen/king one-bed."
+   },
+   "secondarySource": {
+    "platform": "Agoda",
+    "url": "https://www.agoda.com/ibis-ambassador-seoul-myeongdong/hotel/seoul-kr.html",
+    "status": "verified",
+    "lastCheckedUtc": "2026-08-30",
+    "checkMethod": "property-page-fetched",
+    "note": "FETCHED LIVE 2026-08-30: 'Ibis Ambassador Seoul Myeongdong', 3.5★ self-reported; 8.6/10 · 10,525 reviews (clean 8.5, service 8.5, room comfort 8.3, value 8.3, location 9.5 'inside city center'); address '78 Namdaemun-ro, Jung-gu, 04534'; Euljiro 1-ga 0.2 km / Myeong-dong Stn 0.45 km; GMP 16.0 km; parking listed 'Available' (not stated free); free Wi-Fi, car park, 24-h desk, fitness, restaurants, bar, family rooms. NOTE: distinct from Ibis Styles (302 Samil-daero) and Ibis Insadong — three Accor-ambassador siblings in one area; do not merge."
    }
   },
   {
@@ -3932,7 +4004,7 @@
     "lastChecked": "2026-08-19",
     "sourceType": "Official hotel/brand",
     "sourceUrl": "https://www.marriott.com/en-us/hotels/selmx-moxy-seoul-myeongdong/overview/",
-    "note": "Marriott confirms the property, address, 16:00/12:00 hours, Myeongdong access, hotel amenities and king room categories. CORRECTION 2026-08-18: Moxy Myeongdong's lead-in room is 1 Queen or 2 Double, not a king.",
+    "note": "Marriott confirms the property, address, 16:00/12:00 hours, Myeongdong access, hotel amenities and king room categories. CORRECTION 2026-08-18: Moxy Myeongdong's lead-in room is 1 Queen or 2 Double, not a king. | 2026-08-30: Agoda facilities line lists 'Laundry' → hasOnSiteLaundry=true (fetched page).",
     "canonicalName": "Moxy Seoul, Myeongdong",
     "existenceStatus": "Verified operating property",
     "distinctFrom": [
@@ -3975,6 +4047,14 @@
     "freeCancellation": "Free cancellation before November 15, 2026 — free until day of arrival",
     "prepayment": "No prepayment needed — pay at the property",
     "note": "LIVE 2026-08-19. The 'Double Room City View' is 2 FULL beds (avoid). Queen Room is the single-queen pick, 5 left."
+   },
+   "secondarySource": {
+    "platform": "Agoda",
+    "url": "https://www.agoda.com/moxy-seoul-myeongdong/hotel/seoul-kr.html",
+    "status": "verified",
+    "lastCheckedUtc": "2026-08-30",
+    "checkMethod": "property-page-fetched",
+    "note": "FETCHED LIVE 2026-08-30: 'Moxy Seoul, Myeongdong', 3★; 9.1/10 'Exceptional' · 2,022 reviews (location 9.6, service 9.4, clean 9.3, facilities 9.0, value 8.9); '38 Myeongdong 8na-gil, Jung-gu' (page prints '4535', presumed 04535); Myeong-dong Stn 0.3 km; GMP 16.0 km; facilities: free Wi-Fi, FREE parking, 24-h desk, bar, family room, breakfast, LAUNDRY; 'Queen Single Loft' room (1 queen + alt bunks). Same street address as Le Méridien (sister Marriott property in the same complex) — separate Agoda property ids 36114327 vs 36114326 ✓ distinct. AI-assisted 'About' copy claims 'complimentary 24/7 laundry' — the amenities-line 'Laundry' is authoritative; the free claim flagged as unconfirmed."
    }
   },
   {
@@ -4082,6 +4162,14 @@
     "freeCancellation": "Free cancellation before November 15, 2026 — free until day of arrival",
     "prepayment": "No prepayment needed — pay at the property",
     "note": "LIVE 2026-08-19. Buffet breakfast included, 2 left. Deluxe King $533-590 also 1 king."
+   },
+   "secondarySource": {
+    "platform": "Agoda",
+    "url": "https://www.agoda.com/le-meridien-seoul-myeongdong/hotel/seoul-kr.html",
+    "status": "verified",
+    "lastCheckedUtc": "2026-08-30",
+    "checkMethod": "property-page-fetched",
+    "note": "FETCHED LIVE 2026-08-30: 'Le Méridien Seoul, Myeongdong' — STILL under the Le Méridien name on Agoda (no rebrand visible there), 5★; 9.1/10 'Exceptional' · 1,651 reviews (clean 9.4, service 9.3, facilities 9.1, value 8.7; location 9.7, '544 walkable places'); '38 Myeongdong 8na-gil, Jung-gu' (presumed 04535); Myeong-dong Stn 0.3 km; GMP 16.0 km; free Wi-Fi, heated indoor pool, FREE parking, 24-h desk, fitness, restaurants, bar, breakfast; 'Le Salon' club lounge suite module (1 king)."
    }
   },
   {
@@ -4186,6 +4274,14 @@
     "freeCancellation": "Free cancellation before November 14, 2026 — free until 1 day; then first night",
     "prepayment": "No prepayment needed — pay at the property",
     "note": "LIVE 2026-08-19. Savvy King high floor $315/$2,203; 2-twin room also $293."
+   },
+   "secondarySource": {
+    "platform": "Agoda",
+    "url": "https://www.agoda.com/aloft-seoul-myeongdong/hotel/seoul-kr.html",
+    "status": "verified",
+    "lastCheckedUtc": "2026-08-30",
+    "checkMethod": "property-page-fetched",
+    "note": "FETCHED LIVE 2026-08-30: title 'Aloft by Marriott Seoul Myeongdong', 4★; 9.0/10 'Exceptional' · 3,302 reviews (location 9.6, clean 9.3, service 9.2, value 8.9, facilities 8.7); '56 Namdaemunro, Jung-gu, 04535'; Myeong-dong Stn 0.41 km, Euljiro 1-ga 0.45 km, Myeongdong Walking St 210 m; GMP 15.9 km; free Wi-Fi, car park (Available), 24-h desk, fitness, restaurants, bar, family rooms; 'Urban Suite studio w/ 2 twin' shown in room module; booked 6×/24h."
    }
   },
   {
@@ -4290,6 +4386,14 @@
     "freeCancellation": "Free cancellation before November 15, 2026 — free until day of arrival",
     "prepayment": "No prepayment needed — pay at the property",
     "note": "LIVE 2026-08-19. Lead 'Guest room 2 Double' is 2 full (avoid); king room $346 refundable, 5 left."
+   },
+   "secondarySource": {
+    "platform": "Agoda",
+    "url": "https://www.agoda.com/courtyard-seoul-namdaemun_8/hotel/seoul-kr.html",
+    "status": "verified",
+    "lastCheckedUtc": "2026-08-30",
+    "checkMethod": "property-page-fetched",
+    "note": "FETCHED LIVE 2026-08-30: guessed 'courtyard-by-marriott-seoul-myeongdong' 301'd to Agoda's legacy canonical 'courtyard-seoul-namdaemun_8' (Namdaemun-era slug, _8 suffix) — canonical stored. Title 'Courtyard by Marriott Seoul Myeongdong', 4.5★; 8.8/10 · 2,975 reviews (clean 9.1, service 9.1, location 9.0, facilities 8.6, value 8.6); '9 Namdaemun-ro, Myeong-dong, 04526'; City Hall 0.31 km, Hoehyeon 0.32 km, Namdaemun Gate 170 m; GMP 15.5 km; free Wi-Fi, FREE parking, 24-h desk, fitness, restaurants, bar; room module shows 1-king 'Seoul Tower View Premier' + 'Namdaemun Suite 1 King'."
    }
   },
   {
@@ -4503,6 +4607,14 @@
     "freeCancellation": "Free cancellation before November 1, 2026 — free until 14 days; then TOTAL stay",
     "prepayment": "Pay nothing until October 30, 2026",
     "note": "LIVE 2026-08-19. FLAG: only ONE single-queen room (Handicap Double, 1 left), restrictive Nov-1 cancel. Other one-bed rooms are twins; verify before relying."
+   },
+   "secondarySource": {
+    "platform": "Agoda",
+    "url": "https://www.agoda.com/nine-tree-premier-hotel-myeong-dong-2/hotel/seoul-kr.html",
+    "status": "verified",
+    "lastCheckedUtc": "2026-08-30",
+    "checkMethod": "property-page-fetched",
+    "note": "FETCHED LIVE 2026-08-30 (twice — same numbers both passes, stable in-session): 'NINE TREE BY PARNAS SEOUL MYEONDONG 2', 4★; 8.8/10 · 31,112 reviews (clean 9.1, service 9.0, value 8.9, facilities 8.7, location 8.8); '28, Mareunnae-ro, Jung-gu, 04555'; Euljiro 3-ga 0.21 km, Chungmuro 0.45 km; GMP 16.8 km; 408 sound-proofed rooms; GS25 in lobby; free Wi-Fi, 24-h desk, fitness, restaurants, breakfast, garden, luggage storage; '2025 top choice', 37 bookings/24h. CAUTION captured: sibling slugs auto-redirect here — never attribute this page to Myeongdong 1."
    }
   },
   {
@@ -4611,6 +4723,14 @@
     "freeCancellation": "Free cancellation before November 12, 2026 — free until 3 days; then first night",
     "prepayment": "Pay nothing until November 10, 2026",
     "note": "LIVE 2026-08-19. Genius/member price shown; standard double = 1 queen. Std Twin 2-bed from $207."
+   },
+   "secondarySource": {
+    "platform": "Agoda",
+    "url": "https://www.agoda.com/nine-tree-premier-hotel-insadong/hotel/seoul-kr.html",
+    "status": "verified",
+    "lastCheckedUtc": "2026-08-30",
+    "checkMethod": "property-page-fetched",
+    "note": "FETCHED LIVE 2026-08-30: title 'NINE TREE BY PARNAS SEOUL INSADONG' (rebrand visible in title; Agoda slug keeps legacy 'nine-tree-premier-hotel-insadong' — slug-trap lesson), 4★ self-reported; 8.9/10 · 26,598 reviews (location 9.5, clean 9.1, service 9.1, facilities 9.0, value 9.0); '49, Insadong-gil, Jongno-gu, 03145' ✓; Anguk Stn 0.28 km, GMP 16.1 km; '2025 top choice'; facilities incl. breakfast, business center, 24-h desk. '14 bookings/24h'."
    }
   },
   {
@@ -4719,6 +4839,14 @@
     "freeCancellation": "Free cancellation before November 12, 2026 — free until 3 days; then first night",
     "prepayment": "No prepayment needed — pay at the property",
     "note": "LIVE 2026-08-19. No queen/king one-bed on property; Standard Twin is 2 twin."
+   },
+   "secondarySource": {
+    "platform": "Agoda",
+    "url": "https://www.agoda.com/shilla-stay-gwanghwamun/hotel/seoul-kr.html",
+    "status": "verified",
+    "lastCheckedUtc": "2026-08-30",
+    "checkMethod": "property-page-fetched",
+    "note": "FETCHED LIVE 2026-08-30: title 'Shilla Stay Gwanghwamun (Myeongdong)', 4★; 8.5/10 'Excellent' · 17,729 reviews (room comfort 9.0, service 8.8, clean 8.6, value 8.4; location 9.1); '71, Sambong-ro, Jongno-gu' (page prints legacy postcode 110-140); Jonggak 0.33 km, Gwanghwamun 0.43 km, Jogyesa 160 m; GMP 15.9 km; free Wi-Fi, car park, 24-h desk, fitness, restaurants, bar; '2025 top choice'; 28 bookings/24h. Guest quote: sound-proofed rooms."
    }
   },
   {
@@ -4784,7 +4912,7 @@
     "lastChecked": "2026-08-19",
     "sourceType": "Official hotel/brand",
     "sourceUrl": "https://www.lottehotel.com/seoul-hotel/en/rooms",
-    "note": "LOTTE's official site confirms the 5-star 1,015-room hotel, central address, Main/Executive Towers, room categories and facilities. CORRECTION 2026-08-18: Booking lists 'Deluxe Double Room - Main Tower' as 1 full bed, not a king.",
+    "note": "LOTTE's official site confirms the 5-star 1,015-room hotel, central address, Main/Executive Towers, room categories and facilities. CORRECTION 2026-08-18: Booking lists 'Deluxe Double Room - Main Tower' as 1 full bed, not a king. | 2026-08-30: Agoda title shows 'THE GRAND LOTTE SEOUL - Formerly Lotte Hotel Seoul' + 'Newly renovated' — rebrand flag; rename only after a dated Booking page confirms.",
     "canonicalName": "LOTTE HOTEL SEOUL",
     "existenceStatus": "Verified operating property"
    },
@@ -4823,6 +4951,14 @@
     "freeCancellation": "Free cancellation before November 12, 2026 — free until 3 days; then first night",
     "prepayment": "No prepayment needed — pay at the property",
     "note": "LIVE 2026-08-19. Booking now titles the property 'THE GRAND LOTTE SEOUL (formerly Lotte Hotel Seoul)'. Lead one-bed is a full; higher deluxe-king tiers exist. 10% svc incl / 10% tax excl."
+   },
+   "secondarySource": {
+    "platform": "Agoda",
+    "url": "https://www.agoda.com/lotte-hotel-seoul/hotel/seoul-kr.html",
+    "status": "verified",
+    "lastCheckedUtc": "2026-08-30",
+    "checkMethod": "property-page-fetched",
+    "note": "FETCHED LIVE 2026-08-30: page title is now 'THE GRAND LOTTE SEOUL - Formerly Lotte Hotel Seoul' — REBRAND SIGNAL FLAGGED on the Agoda side (Booking side not re-fetched today; record name left as-is pending Booking confirmation). 5★ government-verified, 'Newly renovated' badge; 8.9/10 · 10,203 reviews (location 9.5, service 9.2, clean 9.1, facilities 8.9, room comfort 8.6, value 8.5); address '(1 Sogong-dong) 30 Eulji-ro, Jung-gu, Myeong-dong, 4533' [page typo, presumably 04533]; Euljiro 1-ga 0.19 km; free Wi-Fi, pool, FREE parking, sauna, 24-h desk; 20 bookings/24h. Distinct from Lotte Hotel World (Jamsil) — both now carry their own fetched Agoda pages."
    }
   },
   {
@@ -4888,7 +5024,7 @@
     "lastChecked": "2026-08-19",
     "sourceType": "Official hotel/brand",
     "sourceUrl": "https://www.marriott.com/en-us/hotels/selwi-the-westin-josun-seoul/overview/",
-    "note": "Marriott confirms the historic 5-star hotel, address, 15:00/12:00 hours, Deluxe King category, pool, spa and central location.",
+    "note": "Marriott confirms the historic 5-star hotel, address, 15:00/12:00 hours, Deluxe King category, pool, spa and central location. | 2026-08-30: Agoda property page fetched at Sogong-ro 106 — supports the Westin-vs-IC-COEX separation flag (address-level, independent of Booking).",
     "canonicalName": "The Westin Josun Seoul",
     "existenceStatus": "Verified operating property",
     "distinctFrom": [
@@ -4930,6 +5066,14 @@
     "freeCancellation": "Free cancellation before November 15, 2026 — free until day of arrival; no-show = total",
     "prepayment": "No prepayment needed — pay at the property",
     "note": "LIVE 2026-08-19. 10% service included / 10% VAT excluded; 5 left."
+   },
+   "secondarySource": {
+    "platform": "Agoda",
+    "url": "https://www.agoda.com/the-westin-chosun-seoul/hotel/seoul-kr.html",
+    "status": "verified",
+    "lastCheckedUtc": "2026-08-30",
+    "checkMethod": "property-page-fetched",
+    "note": "FETCHED LIVE 2026-08-30: guessed 'josun' spelling 301'd to Agoda canonical 'the-westin-chosun-seoul' (Chosun romanization) — canonical stored. 'The Westin Josun Seoul', 5★; 9.1/10 'Exceptional' · 4,977 reviews (service 9.4, clean 9.3, facilities 9.0, room comfort 9.0; location 9.4, value 8.7); address '106 Sogong-ro, Jung-gu, Myeong-dong, 100-070' (legacy postcode format) — CONFIRMS identity: this is the Westin Josun on Sogong-ro, NOT the InterContinentan COEX swap confusion from prior rounds ✓; Euljiro 1-ga 0.3 km, City Hall 0.42 km, Lotte Dept 140 m; free Wi-Fi, pool, FREE parking, 24-h desk, fitness, restaurants, bar, massage; room module preview shows 'Executive Suite, 1 king, 81 m²' and a 2-bedroom presidential suite. Parking marked FREE."
    }
   },
   {
@@ -7373,6 +7517,14 @@
     "asOf": "2026-08-22",
     "evidence": "Not sellable on Booking for Nov 1-9 on the 2026-08-18 check, but the official Accor page (hotel 8748) confirms Superior/Deluxe/Executive = 1 x King size bed, 28 m², direct access to Suwon KTX + subway and a 24-hour desk. Book Accor.",
     "bookVia": null
+   },
+   "secondarySource": {
+    "platform": "Agoda",
+    "url": null,
+    "status": "unresolved",
+    "lastCheckedUtc": "2026-08-30",
+    "checkMethod": "search-index",
+    "note": "2026-08-30 live round: guessed Agoda slug 'novotel-ambassador-suwon' 404'd on agoda.com; Agoda's /search is JS-rendered so the property slug cannot be scraped. Listing existence is evidenced by KAYAK's provider feed (Agoda.com deal line $118.78/night among 12 providers; hotel id 787535 on KAYAK; address 902 Dukyoung-daero, Paldal-gu 16622 corroborated by Trip.com/TravelWeekly). URL unresolved — resolve manually on agoda.com; no URL stored without a live fetch per repo rule."
    }
   },
   {
@@ -7469,6 +7621,14 @@
     "freeCancellation": "Free cancellation before November 1, 2026 — free until 12:00 AM day of arrival; then first night",
     "prepayment": "No prepayment needed — pay at the property",
     "note": "LIVE 2026-08-18T19:16Z. Same $157/$1,259. Premier Double at $157 is 2 twins — book Premier King. Official Marriott: 5 min walk to City Hall subway."
+   },
+   "secondarySource": {
+    "platform": "Agoda",
+    "url": null,
+    "status": "unresolved",
+    "lastCheckedUtc": "2026-08-30",
+    "checkMethod": "search-index",
+    "note": "2026-08-30 live round: guessed Agoda slug 'four-points-by-sheraton-suwon' 404'd. Agoda LISTING EXISTENCE proven live-adjacent: Google Hotels 'All options' panel shows 'Agoda — Free cancellation until Mar 11 — $165 with taxes+fees ($150 nightly base)' for Four Points by Sheraton Suwon (Premier 1-king/2-twin modules) — deal-feed row, not a URL. Room modules (Premier 1 King city view $150–165) are dated for Google's snapshot window, NOT stored as rates. URL unresolved."
    }
   },
   {
@@ -7578,6 +7738,14 @@
     "freeCancellation": "Free cancellation before October 31, 2026 — free until 1 day; then first night",
     "prepayment": "No prepayment needed — pay at the property",
     "note": "LIVE 2026-08-18T19:16Z. Superior Double 1 full $127/$1,018. Deluxe King isolated this hour as 1 QUEEN $139/$1,114 despite King name. Partner Superior $112/$893 pay-in-advance. ~12 min drive from Suwon Station."
+   },
+   "secondarySource": {
+    "platform": "Agoda",
+    "url": null,
+    "status": "unresolved",
+    "lastCheckedUtc": "2026-08-30",
+    "checkMethod": "search-index",
+    "note": "2026-08-30 live round: guessed Agoda slug 'ramada-plaza-suwon' 404'd. No aggregator Agoda line captured in this pass for this property; status deliberately unresolved (not not-found): absence of a guessable URL is not proof of absence. Manual lookup on agoda.com needed."
    }
   },
   {
@@ -7675,6 +7843,14 @@
     "freeCancellation": "Free cancellation before November 1, 2026 — free until 12:00 AM day of arrival; then first night",
     "prepayment": "No prepayment needed — pay at the property",
     "note": "LIVE 2026-08-18T19:16Z. Same $177/$1,419. 5 left. Gwanggyo — page: 3.1 mi from Hwaseong Fortress. Not Suwon Station walk."
+   },
+   "secondarySource": {
+    "platform": "Agoda",
+    "url": null,
+    "status": "unresolved",
+    "lastCheckedUtc": "2026-08-30",
+    "checkMethod": "search-index",
+    "note": "2026-08-30 live round: guessed Agoda slug 'courtyard-by-marriott-suwon' 404'd. No Agoda URL surfaced; listing not disproved (Agoda soft-404s to pagenotfound for both missing and mis-spelled slugs, and Suwon coverage is thinner than Seoul's). Resolve manually on agoda.com; do not carry a guessed slug into the record."
    }
   },
   {
@@ -7783,6 +7959,14 @@
     "freeCancellation": "Free cancellation before 6:00 PM on October 31, 2026 — day before arrival; then first night",
     "prepayment": "Pay nothing until October 29, 2026",
     "note": "LIVE 2026-08-18T19:16Z. Standard refundable $104/$834. Superior Double refundable $111/$891. Official Accor: 2 min subway, Suwon Station 7 km / 10 min drive. King only in Junior Suite. Booking text: 2-min walk Suwon City Hall Subway Station (Bundang Line)."
+   },
+   "secondarySource": {
+    "platform": "Agoda",
+    "url": null,
+    "status": "unresolved",
+    "lastCheckedUtc": "2026-08-30",
+    "checkMethod": "search-index",
+    "note": "2026-08-30 live round: guessed Agoda slug 'ibis-ambassador-suwon' 404'd. Accor's official page (hotel 6528) confirms the property (132 Kwonkwang-ro 16491, 3.5★ Accor, 240 rooms per VISITKOREA, check-in 14:00/checkout 12:00 per Accor schema — official-site facts, NOT stored as Agoda data). No Agoda URL surfaced via index or guessing → unresolved, manual lookup on agoda.com."
    }
   },
   {

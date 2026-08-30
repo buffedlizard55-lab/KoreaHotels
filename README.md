@@ -426,6 +426,13 @@ Standing follow-up to Round 15b: work down the 135-record Agoda `secondarySource
 - Unresolved-with-evidence this round: The-K, Kinock, GG Hotel, Kolon, Hwangnamkwan (Gyeongju slug still unknown), Brown Dot, SureStay Plus Asan, Aank Air, Benikea Daelim.
 - Ledger: 92/181 records carry Agoda status blocks — **50 verified / 7 not-found / 35 unresolved**; 86 queued (Gyeongju hanok trio + Seoul 83 minus … Seoul remains the big tail).
 
+## 🧭 Round 19 — Seoul head-start on the search-index grind (2026-08-30)
+
+- fetch proxy still down; continued via search-index evidence. **+4 verified**: Four Points Josun Seoul Station (Agoda 8.6/4,453 — slug alias `...-seoul-namsan`, a sibling /reviews/ page uses the josun name), Sotetsu Fresa Inn Seoul Myeong-dong (reviews page live; 9.0/5,835 stale-snapshot pair flagged), Shilla Stay Seocho Gangnam Station (property page: 305 rooms, opened 2017) and Gyeongju Wiyeonjae (first Gyeongju hanok on Agoda: 9.2/7, location 10.0).
+- **+6 unresolved-with-evidence** (each with next-round slug probes): Four Points Myeongdong, THE PLAZA Autograph, Stanford Myeongdong, Novotel Ambassador Gangnam, HanokInn, Nadul Hanok.
+- Traps documented in-record, not attached: Stanford Myeongdong ≠ "Stanford Hotel Seoul" (Mapo); Skypark Myeongdong **I** page found but queue holds only branches 2/3; Sotetsu Fresa ≠ Splaisir; Four Points Seoul Station slug must not be copied to the Myeongdong sister.
+- Ledger: 102/181 blocks — **54 verified / 7 not-found / 41 unresolved**; **76 queued** (73 Seoul, 2 Gyeongju hanoks … Seoul tail + Gyeongju trio minus Wiyeonjae).
+
 ## 🆕 New entries — area-by-area batches (2026-08-21)
 
 Added to the master list only after identity, coordinates, bed count **and** a dated refundable rate for every relevant window were all sourced from pages actually fetched.

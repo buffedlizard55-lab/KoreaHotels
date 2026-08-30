@@ -4682,6 +4682,14 @@
         "freeCancellation": "Free cancellation before November 15, 2026 — free until day of arrival",
         "prepayment": "No prepayment needed — pay at the property",
         "note": "LIVE 2026-08-19. Superior lead is 1 full $219/$1,704; Deluxe King is the single-king pick. 10% svc incl / 10% VAT excl."
+      },
+      "secondarySource": {
+        "platform": "Agoda",
+        "status": "unresolved",
+        "url": null,
+        "checkMethod": "search-index",
+        "lastCheckedUtc": "2026-08-30T04:00:00Z",
+        "note": "2026-08-30: Agoda listing near-certain — KAYAK provider table shows Agoda.com 9/10 (216 reviews) alongside Booking 8.6/997; trivago aggregate 8.8/5,490; address 36 Samil-daero 10-gil, Jung-gu (operating, Jul-2026 guest reviews on TripAdvisor). But no agoda.com URL surfaced in two search passes; per rule, aggregator provider rows are not stored as data. Next round: probe agoda.com/four-points-by-sheraton-josun-seoul-myeongdong/hotel/seoul-kr.html (sister property's exact slug is '...seoul-namsan' — do not copy it)."
       }
     },
     {
@@ -5820,6 +5828,14 @@
         "asOf": "2026-08-22",
         "evidence": "Carries a dated negative from an earlier pass but has NOT been re-tested, and no direct-book channel has been confirmed. Do not read the absence of a rate as 'sold out'.",
         "bookVia": null
+      },
+      "secondarySource": {
+        "platform": "Agoda",
+        "status": "unresolved",
+        "url": null,
+        "checkMethod": "search-index",
+        "lastCheckedUtc": "2026-08-30T04:00:00Z",
+        "note": "2026-08-30: no Agoda listing surfaced in searches — only TripAdvisor nearby-deal widgets (which show Agoda as a provider for OTHER Gyeongju properties within 0.1-1.1 km of HanokInn, incl. Rivertain and Raon Guesthouse). HanokInn itself (TA d25986058) has 2025 guest reviews = operating. Agoda absence not proven (no Agoda-side search available this round) → unresolved, not not-found."
       }
     },
     {
@@ -5905,6 +5921,17 @@
         "asOf": "2026-08-22",
         "evidence": "Carries a dated negative from an earlier pass but has NOT been re-tested, and no direct-book channel has been confirmed. Do not read the absence of a rate as 'sold out'.",
         "bookVia": null
+      },
+      "secondarySource": {
+        "platform": "Agoda",
+        "status": "verified",
+        "url": "https://www.agoda.com/wiyeonjae-hanok-stay/hotel/gyeongju-si-kr.html",
+        "checkMethod": "search-index",
+        "existenceStatus": "Verified operating property",
+        "lastCheckedUtc": "2026-08-30T04:00:00Z",
+        "note": "Agoda property page surfaced in search index 2026-08-30: 'Gyeongju Wiyeonjae Hanok Stay Pension', 7 Jjoksaem-gil, 38164 — matches record; page JSON-LD 9.2/10 (7 reviews — small property, count is genuinely low), value 9.5, location 10.0 Exceptional; Gyeongju Station 0.94 km; nearest airport Pohang (KPO) 25.5 km; free parking, kitchen. First Gyeongju hanok verified on Agoda. No dated prices captured.",
+        "agodaRating": 9.2,
+        "reviewCount": 7
       }
     },
     {
@@ -5990,6 +6017,14 @@
         "asOf": "2026-08-22",
         "evidence": "Carries a dated negative from an earlier pass but has NOT been re-tested, and no direct-book channel has been confirmed. Do not read the absence of a rate as 'sold out'.",
         "bookVia": null
+      },
+      "secondarySource": {
+        "platform": "Agoda",
+        "status": "unresolved",
+        "url": null,
+        "checkMethod": "search-index",
+        "lastCheckedUtc": "2026-08-30T04:00:00Z",
+        "note": "2026-08-30: zero Agoda evidence found. Identity confirmed off-platform: VISITKOREA 'Nadul Hanok (나들한옥)' at 4-1 Jjoksaem-gil, 1 min walk to Cheomseongdae, free breakfast; Tripbtoz shows 2.5-star, 7 guestrooms, built 2018, same address 38164 — matches record. Small hanok stays like this often are not on Agoda (cf. L'Escape precedent), but absence needs Agoda-side proof → unresolved with identity evidence."
       }
     },
     {
@@ -8332,6 +8367,17 @@
         "freeCancellation": "Free cancellation before November 15, 2026 — free until day of arrival",
         "prepayment": "No prepayment needed — pay at the property",
         "note": "LIVE 2026-08-19. Connected to Seoul Station; Superior lead is 2 twin. 10% svc incl / 10% VAT excl."
+      },
+      "secondarySource": {
+        "platform": "Agoda",
+        "status": "verified",
+        "url": "https://www.agoda.com/four-points-by-sheraton-seoul-namsan/hotel/seoul-kr.html",
+        "checkMethod": "search-index",
+        "existenceStatus": "Verified operating property",
+        "lastCheckedUtc": "2026-08-30T04:00:00Z",
+        "note": "Agoda property page surfaced in search index 2026-08-30 (id-id locale; canonical stored): 'Four Points by Sheraton Josun, Seoul Station', 4 stars, 366 Hangang-daero, Yongsan-gu 04323 — matches record; page JSON-LD 8.6/10 with 4,453 reviews; 342 rooms; direct underground access to Seoul Station. Alias note: Agoda slug is 'four-points-by-sheraton-seoul-namsan' while a sibling /reviews/ page uses 'four-points-by-sheraton-josun-seoul-station' — same property. SISTER ALERT: the separate 'Josun, Seoul Myeongdong' Four Points (36 Samil-daero 10-gil) must not borrow this URL. No dated prices captured.",
+        "agodaRating": 8.6,
+        "reviewCount": 4453
       }
     },
     {
@@ -8450,6 +8496,14 @@
         "asOf": "2026-08-22",
         "evidence": "Listed on Booking but ZERO inventory for Nov 1-9 2026 — verified twice (2026-08-18, 2026-08-21).",
         "bookVia": null
+      },
+      "secondarySource": {
+        "platform": "Agoda",
+        "status": "unresolved",
+        "url": null,
+        "checkMethod": "search-index",
+        "lastCheckedUtc": "2026-08-30T04:00:00Z",
+        "note": "2026-08-30: Agoda listing strongly indicated — external snapshot (Oct 2025) quotes '8.8/10, 1,223+ reviews on Agoda.com'; identity solid: THE PLAZA Seoul, Autograph Collection, 119 Sogong-ro, Jung-gu, 5-star, opened 1979/renovated 2010 (GDS AK SELAKA). No agoda.com URL surfaced. Context note: sits opposite The Westin Seoul (106 Sogong-ro) whose Agoda block is already verified — sister-brand caution (both Lotte-affiliated flags handled separately). Slug probe next round: agoda.com/the-plaza-seoul/hotel/seoul-kr.html."
       }
     },
     {
@@ -8689,6 +8743,17 @@
         "freeCancellation": "Free cancellation before November 13, 2026 — free until 2 days; then first night",
         "prepayment": "Pay nothing until November 11, 2026",
         "note": "LIVE 2026-08-19. No on-site restaurant (voucher breakfast nearby). One-bed rooms are full (≈140cm)."
+      },
+      "secondarySource": {
+        "platform": "Agoda",
+        "status": "verified",
+        "url": "https://www.agoda.com/sotetsu-fresa-inn-seoul-myeong-dong/reviews/seoul-kr.html",
+        "checkMethod": "search-index",
+        "existenceStatus": "Verified operating property",
+        "lastCheckedUtc": "2026-08-30T04:00:00Z",
+        "note": "Agoda 'Sotetsu Fresa Inn Seoul Myeong-dong' reviews page confirmed in search index 2026-08-30 (breadcrumb Seoul Hotels > property). Score pair 9.0/10 with 5,835 reviews is from an Oct-2025 blog snapshot quoting Agoda (stale, flagged); HotelsCombined aggregate shows 8.7/3,176 across providers. Identity: 48 Myeongdong-gil, Jung-gu, 3-star, 152 rooms (renovated 2019) — matches record. Sotetsu's 'Splaisir' Myeongdong brand variant is a DIFFERENT property; do not conflate. No dated prices captured.",
+        "agodaRating": 9.0,
+        "reviewCount": 5835
       }
     },
     {
@@ -8806,6 +8871,14 @@
         "freeCancellation": "Free cancellation before November 12, 2026 — free until 3 days; then first night",
         "prepayment": "Pay nothing until November 10, 2026",
         "note": "LIVE 2026-08-19. One-bed rooms are full; Family Twin Edge is 2 full. 3 left on lead."
+      },
+      "secondarySource": {
+        "platform": "Agoda",
+        "status": "unresolved",
+        "url": null,
+        "checkMethod": "search-index",
+        "lastCheckedUtc": "2026-08-30T04:00:00Z",
+        "note": "2026-08-30: KAYAK provider table shows Agoda.com 9.2/10 (1,341 reviews); an April-2023 guest post cites Agoda 9/10 + 2022 Agoda travelers award (stale, not stored). Identity: Stanford Hotel Myeongdong, 84 Namdaemun-ro, Jung-gu 04534 — matches record. SISTER-NAME TRAP flagged: HotelsCombined also carries 'Stanford Hotel Seoul' at 15 World Cup buk-ro 58-gil (Mapo-gu) — a DIFFERENT property; never cross-attach. No agoda.com URL surfaced for either. Slug probe next round: agoda.com/stanford-hotel-myeongdong/hotel/seoul-kr.html."
       }
     },
     {
@@ -9488,6 +9561,14 @@
         "freeCancellation": "Free cancellation before November 14, 2026 — free until 1 day; then first night",
         "prepayment": "No prepayment needed — pay at the property",
         "note": "LIVE 2026-08-19. Accor Novotel; indoor heated pool; 24h front desk. Non-ref Superior Double $290/$2,033; bkf-incl refundable $356/$2,489."
+      },
+      "secondarySource": {
+        "platform": "Agoda",
+        "status": "unresolved",
+        "url": null,
+        "checkMethod": "search-index",
+        "lastCheckedUtc": "2026-08-30T04:00:00Z",
+        "note": "2026-08-30: KAYAK provider table shows Agoda.com 8.9/10 (82 reviews, stale snapshot) vs Booking 8.2/291; operating status independently solid — Accor official page (hotel id 1633) lists Novotel Ambassador Seoul Gangnam at 130 Bongeunsa-ro, Gangnam-gu 06124, GPS 37.5053/127.0288, matching record; operator Ambatel. No agoda.com URL surfaced. Slug probe next round: agoda.com/novotel-ambassador-seoul-gangnam/hotel/seoul-kr.html."
       }
     },
     {
@@ -10419,6 +10500,15 @@
         "freeCancellation": "Free cancellation before November 12, 2026 — free until 3 days; then first night",
         "prepayment": "No prepayment needed — pay at the property",
         "note": "LIVE 2026-08-19. Samsung-group Shilla Stay; one-bed rooms are full; lounge-access Premier also full. 40-44% off displayed."
+      },
+      "secondarySource": {
+        "platform": "Agoda",
+        "status": "verified",
+        "url": "https://www.agoda.com/shilla-stay-seocho/hotel/seoul-kr.html",
+        "checkMethod": "search-index",
+        "existenceStatus": "Verified operating property",
+        "lastCheckedUtc": "2026-08-30T04:00:00Z",
+        "note": "Agoda property page surfaced 2026-08-30 (en-sg locale; canonical stored; slug drops 'seocho-gangnam-station' → just 'shilla-stay-seocho'): 'Shilla Stay Seocho Gangnam Station', 4 stars, 427 Hyoryeong-ro, Seocho-gu 06729 — matches record. Page facts: opened 2017, 27 floors, 305 rooms, 1 restaurant + 1 lounge, business license 제2017-19-1호; location rating 8.6. No overall score visible in snippet; HotelsCombined aggregate 8.4/2,440 noted, not merged. No dated prices captured."
       }
     },
     {

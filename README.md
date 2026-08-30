@@ -896,3 +896,4 @@ Then visit `http://localhost:8000` in a local browser, or open `index.html` dire
 3. Run `python3 validate.py`; duplicate identity checks are automatic.
 4. Run `python3 build.py`.
 5. Review the generated `index.html` before publishing.
+- Wave 3 (same day): +5 verified — Sofitel Ambassador (9.1/3,839 page JSON-LD), Josun Palace (9.0/1,047), Oakwood Premier COEX, Holiday Inn Express Hongdae (via dedicated Agoda guide page), and **The Westin Seoul Parnas — whose Agoda page still lives under the legacy slug `intercontinental-coex-hotel`**, platform-confirming the Round-15 Westin↔Grand-InterContinental identity flag (GIP record kept, dedup left to human review, note upgraded). +1 unresolved (Dormy Inn Express Insadong; Kuretake→Dormy legacy trace). Ledger: 120/181 blocks — 61 verified / 7 not-found / 52 unresolved; 59 queued.

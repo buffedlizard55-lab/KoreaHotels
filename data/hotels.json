@@ -9997,6 +9997,17 @@
         "freeCancellation": "Free cancellation before November 15, 2026 — free until day of arrival",
         "prepayment": "No prepayment needed — pay at the property",
         "note": "LIVE 2026-08-19. 36-storey Marriott Luxury Collection; indoor pool; 10% VAT excluded. Non-ref Masters King $551/$3,857; 5 left."
+      },
+      "secondarySource": {
+        "platform": "Agoda",
+        "status": "verified",
+        "url": "https://www.agoda.com/josun-palace-a-luxury-collection-hotel-seoul-gangnam/hotel/seoul-kr.html",
+        "checkMethod": "search-index",
+        "existenceStatus": "Verified operating property",
+        "lastCheckedUtc": "2026-08-30T04:40:00Z",
+        "note": "Agoda property page surfaced 2026-08-30 (en-in locale; canonical stored): 'Josun Palace, a Luxury Collection Hotel, Seoul Gangnam', 5 stars, 231 Teheran-ro, Gangnam-gu — matches record (first Luxury Collection hotel in Korea, opened May 2021, Marriott/Josun Hotels). Page JSON-LD 9.0/10 (1,047), location 9.3 Exceptional. Independent Jun-2026 snapshot agrees: 1,043 reviews at 9/10 on agoda.com, 254 rooms. No dated prices captured.",
+        "agodaRating": 9.0,
+        "reviewCount": 1047
       }
     },
     {
@@ -10109,8 +10120,8 @@
         "status": "unresolved",
         "url": null,
         "checkMethod": "search-index",
-        "lastCheckedUtc": "2026-08-30T04:20:00Z",
-        "note": "2026-08-30: KAYAK provider table shows Agoda.com 9.4/10 (114 reviews) and King/Double deal rows via Agoda.com — provider rows only, no agoda.com URL in two passes. Identity rock-solid: 521 Teheran-ro, Gangnam-gu, 34 storeys, 4 restaurants, ~5 min walk Starfield COEX (HotelsCombined + IHG-ecosystem pages, Jul-2026 update). Next-round probe: agoda.com/grand-intercontinental-seoul-parnas/hotel/seoul-kr.html."
+        "lastCheckedUtc": "2026-08-30T04:40:00Z",
+        "note": "2026-08-30 upgrade: Agoda-side rebrand evidence landed — the property's ONLY Agoda page (slug 'intercontinental-coex-hotel', 524 Bongeunsa-ro) is now titled 'The Westin Seoul Parnas'; that URL is attached to the Westin Parnas record, not here (per validator uniqueness). GIP is the pre-rename identity of the same asset; the Round 15 Westin↔IC-COEX address-level flag is now platform-confirmed. Dedup decision (merge/delete of this record) left to human review as instructed — record intentionally kept unresolved rather than verified with a borrowed URL."
       }
     },
     {
@@ -10213,6 +10224,15 @@
         "freeCancellation": "Free cancellation before November 12, 2026 — free until 3 days; then first night",
         "prepayment": "Pay nothing until November 10, 2026",
         "note": "LIVE 2026-08-19. Serviced residence: full kitchen, in-unit washer, steam sauna; indoor pool. 13% off; 10% svc incl / tax excl."
+      },
+      "secondarySource": {
+        "platform": "Agoda",
+        "status": "verified",
+        "url": "https://www.agoda.com/oakwood-premier-coex-center/reviews/seoul-kr.html",
+        "checkMethod": "search-index",
+        "existenceStatus": "Verified operating property",
+        "lastCheckedUtc": "2026-08-30T04:40:00Z",
+        "note": "Agoda 'Oakwood Premier Coex Center Seoul' listing confirmed in search index 2026-08-30 via its /reviews/ page (two variants surfaced, one with cid param — same page; canonical without query stored). Breadcrumb Seoul Hotels > property. No score visible in snippet; KAYAK lists Agoda.com as a $198 provider row (stale, not stored). Identity: 362, Gangnam-daero Oakwood residences near COEX — matches record. No dated prices captured."
       }
     },
     {
@@ -10973,6 +10993,17 @@
         "freeCancellation": "Free cancellation before 6:00 PM November 14, 2026",
         "prepayment": "Pay nothing until November 12, 2026",
         "note": "LIVE 2026-08-19. NOTE geographically southeast (Jamsil/Songpa), not central Gangnam business district. 5-star Accor; lake/park views; breakfast 10/10. Non-ref king $405/$2,837."
+      },
+      "secondarySource": {
+        "platform": "Agoda",
+        "status": "verified",
+        "url": "https://www.agoda.com/sofitel-ambassador-seoul-serviced-residences/hotel/seoul-kr.html",
+        "checkMethod": "search-index",
+        "existenceStatus": "Verified operating property",
+        "lastCheckedUtc": "2026-08-30T04:40:00Z",
+        "note": "Agoda property page surfaced 2026-08-30 (en-ca locale; canonical stored): 'Sofitel Ambassador Seoul Hotel & Serviced Residences', 5-star, 209 Jamsil-ro, Songpa-gu (GPS 37.5137/127.1061) — matches record. Page JSON-LD: 9.1/10, 3,839 reviews; 403 rooms + 160 serviced residences, 32 storeys, rooftop bar facing Seokchon Lake/Lotte Tower; soundproof rooms. KAYAK shows stale Agoda 9.4/115 row — not merged. Discovery pointer: blog cites Agoda hid=26209307. No dated prices captured.",
+        "agodaRating": 9.1,
+        "reviewCount": 3839
       }
     },
     {
@@ -11647,6 +11678,15 @@
         "freeCancellation": "Free cancellation before November 8, 2026 — free until 7 days; then first night",
         "prepayment": "Pay nothing until November 6, 2026",
         "note": "LIVE 2026-08-19 Nov 15–22. 5 left. Breakfast $60 pp."
+      },
+      "secondarySource": {
+        "platform": "Agoda",
+        "status": "verified",
+        "url": "https://www.agoda.com/intercontinental-coex-hotel/hotel/seoul-kr.html",
+        "checkMethod": "search-index",
+        "existenceStatus": "Verified operating property",
+        "lastCheckedUtc": "2026-08-30T04:40:00Z",
+        "note": "Agoda property page surfaced 2026-08-30 (ko-kr locale; canonical stored): title '웨스틴 서울 파르나스 (The Westin Seoul Parnas)', 524 Bongeunsa-ro, Gangnam-gu 06164, 5-star, location rating 9.2 최고 — REBRAND CONFIRMED ON AGODA SIDE: the listing lives under the legacy slug 'intercontinental-coex-hotel' (Grand InterContinental Seoul Parnas by IHG) while the title now reads The Westin Seoul Parnas. This closes, with platform evidence, the Westin↔IC-COEX identity flag carried since Round 15 — and the GIP record (duplicate of this property pre-rename) remains pending a human dedup decision per flag; its note was updated with this finding. Facilities: indoor pool, spa, sauna, free parking. No dated prices captured."
       }
     },
     {
@@ -12158,6 +12198,17 @@
         "freeCancellation": "Free cancellation before 4:00 PM on November 14, 2026 — free until 1 day out ($216/nt / $1,515 total available with 30-day cutoff Oct 16); then first night",
         "prepayment": "No prepayment needed — pay at the property",
         "note": "LIVE 2026-08-19. Breakfast included. Std Twin 2-twin $247/$1,728 (30-day) or $281/$1,968 (1-day). 1 queen bed confirmed."
+      },
+      "secondarySource": {
+        "platform": "Agoda",
+        "status": "verified",
+        "url": "https://www.agoda.com/travel-guides/south-korea/seoul/weekend-fun-awaits-at-holiday-inn-express-seoul-hongdae/",
+        "checkMethod": "search-index",
+        "existenceStatus": "Verified operating property",
+        "lastCheckedUtc": "2026-08-30T04:40:00Z",
+        "note": "Agoda coverage confirmed 2026-08-30: Agoda hosts a dedicated hotel-guide page for 'Holiday Inn Express Seoul Hongdae' (evidence URL; property-level page URL not surfaced this round). A 2026-04-11 snapshot quotes 12,296 Agoda reviews at 8.9/10, Agoda-side 3.5-star, 294 rooms; Google confirms Aekyung Tower, 188 Yanghwa-ro above Hongik Univ. station mall. Cluster caution documented on this block: 130 Yanghwa-ro RYSE / 144 Mercure / 188 HNI — three different properties, one street. No dated prices captured.",
+        "agodaRating": 8.9,
+        "reviewCount": 12296
       }
     },
     {
@@ -13684,6 +13735,14 @@
         "freeCancellation": "Free cancellation before November 12, 2026 — free until 3 days before arrival; then first night",
         "prepayment": "Pay nothing until November 10, 2026",
         "note": "LIVE 2026-08-19. 1 left. Standard Twin 2-bed. Onsen spa and free laundry confirmed."
+      },
+      "secondarySource": {
+        "platform": "Agoda",
+        "status": "unresolved",
+        "url": null,
+        "checkMethod": "search-index",
+        "lastCheckedUtc": "2026-08-30T04:40:00Z",
+        "note": "2026-08-30: Agoda-side listing indicated strongly — a 2026-08-05 snapshot quotes agoda.com 8.9/10 with 3,023 reviews, Agoda rating 3-star, 127 rooms; KAYAK provider row 8.4/207 (stale). Identity: 20-9 Insadong-gil, Jongno-gu 03163 ✓ record. Legacy-brand trace: aggregator pages file it as 'Hotel Kuretakeso Insa-Dong Seoul' (Kuretake→Dormy Express rebrand). No direct agoda.com URL surfaced → unresolved. Probe: agoda.com/dormy-inn-express-seoul-insadong/hotel/seoul-kr.html."
       }
     },
     {

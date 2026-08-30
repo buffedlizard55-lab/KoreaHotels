@@ -18523,8 +18523,8 @@
     "sourceType": "Booking.com dated property page (LIVE FETCH 2026-08-30, rate grid captured) + Agoda property page (LIVE FETCH 2026-08-30)",
     "sourceUrl": "https://www.booking.com/hotel/kr/voco-seoul-myeongdong.html?checkin=2026-11-01&checkout=2026-11-09&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
     "canonicalName": "voco Seoul Myeongdong by IHG",
-    "existenceStatus": "Verified operating and bookable (2026-08-30); rebrand from Tmark Grand Hotel Myeongdong live-confirmed",
-    "note": "REBRAND LIVE-CONFIRMED 2026-08-30: https://www.booking.com/hotel/kr/tmark-grand-myeongdong.html 301-redirects to /hotel/kr/voco-seoul-myeongdong.html. STALE-INDEX IRREGULARITY FLAGGED: the 2026-08-30 search-index copy still titled the property 'Tmark Grand' and said it was NOT taking reservations; the live dated page minutes later showed it fully bookable — index snapshots cannot be trusted for sale-status or scores; a live dated fetch must gate any 'verified'. Booking live page (2026-08-30): 8.7/10 from 442 reviews, location 9.3/432, breakfast 9.3/14 (prior index snapshot said 8.6/839 — both recorded, no overwrite; review-base change on rebrand is the likely cause, unproven). ADDRESS DISCREPANCY FLAGGED (not a bed conflict): Booking prints '52, Toegye-ro, Jung-gu, Seoul 04625'; the fetched Agoda page prints '52, Taegye-ro, Jung-gu, Seoul 04634' — spelling and postal code differ between the two official sites; kept as-is. Coordinates 37.5625/126.9925613 unchanged and consistent with Agoda distances (Hoehyeon Stn 0.05 km, Myeongdong Walking St 700 m, GMP 15.7 km). Do-not-confuse flag retained: 'Tmark Hotel Myeongdong' (43 Chungmuro 3-ga) is a different, smaller property."
+    "existenceStatus": "Verified operating property",
+    "note": "BOOKABLE + REBRANDED — live 2026-08-30 (validator requires the standard existence phrase; specifics below). REBRAND LIVE-CONFIRMED 2026-08-30: https://www.booking.com/hotel/kr/tmark-grand-myeongdong.html 301-redirects to /hotel/kr/voco-seoul-myeongdong.html. STALE-INDEX IRREGULARITY FLAGGED: the 2026-08-30 search-index copy still titled the property 'Tmark Grand' and said it was NOT taking reservations; the live dated page minutes later showed it fully bookable — index snapshots cannot be trusted for sale-status or scores; a live dated fetch must gate any 'verified'. Booking live page (2026-08-30): 8.7/10 from 442 reviews, location 9.3/432, breakfast 9.3/14 (prior index snapshot said 8.6/839 — both recorded, no overwrite; review-base change on rebrand is the likely cause, unproven). ADDRESS DISCREPANCY FLAGGED (not a bed conflict): Booking prints '52, Toegye-ro, Jung-gu, Seoul 04625'; the fetched Agoda page prints '52, Taegye-ro, Jung-gu, Seoul 04634' — spelling and postal code differ between the two official sites; kept as-is. Coordinates 37.5625/126.9925613 unchanged and consistent with Agoda distances (Hoehyeon Stn 0.05 km, Myeongdong Walking St 700 m, GMP 15.7 km). Do-not-confuse flag retained: 'Tmark Hotel Myeongdong' (43 Chungmuro 3-ga) is a different, smaller property."
    },
    "distributionStatus": {
     "status": "Bookable on Booking.com and on Agoda (both property pages fetched live 2026-08-30)",
@@ -18824,7 +18824,20 @@
    "policies": [
     "Room inventory, cancellation terms, and inclusions vary by rate; confirm them on the official booking page."
    ],
-   "rooms": [],
+   "rooms": [
+    {
+     "name": "Deluxe Double Room with City View",
+     "price": "$68/night - $409 total for 6 nights (captured 2026-08-30; original $449, 9 percent online-pay discount)",
+     "note": "323 feet2, city view, air conditioning, PRIVATE BATHROOM, flat-screen TV, soundproofing, free Wi-Fi - all fields as shown on the fetched dated row",
+     "bed": "queen",
+     "bedType": "queen",
+     "bedSize": "1 queen bed (width not published on the Booking row)",
+     "oneBed": true,
+     "oneBedOnly": true,
+     "privateBathroom": true,
+     "bedNote": "queen label per Booking; no cm-width stated; sibling king room: Double with Balcony 371 feet2 $92/n -> $551 (also captured 2026-08-30)"
+    }
+   ],
    "promos": [
     "Check the dated Booking.com page (and the Agoda page where linked) for live offers in this round; none were captured 2026-08-30."
    ],
